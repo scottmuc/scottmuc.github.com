@@ -1,2 +1,33 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+html {
+  background: $page-bg;
+}
+body {
+  > div {
+    border-bottom: 0px solid $page-border-bottom;
+    > div {
+      background: $main-bg;
+      border-right: 0px solid $sidebar-border;
+    }
+  }
+
+}
+
+body.sidebar-footer {
+  aside.sidebar {
+    background-color: #eaeaea;
+  }
+}
+
+body > footer {
+  text-shadow: none;
+  background-image: none;
+  border-top: none;
+}
+
+body > nav {
+  background-image: none;
+}
+
