@@ -34,3 +34,14 @@ body > nav {
 #content div.pagination {
   display: none;
 }
+
+#content .blog-index article {
+  padding: 1em 55px 1em 55px;
+  border-bottom: solid 1px #ccc;
+  background: none;
+}
+
+#content .blog-index article header {
+  margin:0;
+  padding:0;
+}
