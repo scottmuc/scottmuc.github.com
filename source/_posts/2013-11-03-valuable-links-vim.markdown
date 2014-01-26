@@ -62,6 +62,12 @@ my thoughts on the subject.
 
 Hope you enjoyed the first of what could be many "valuable links" posts.
 
+### Addendum
+
+* [A Good Vimrc][a-good-vimrc]
+* [How I Boosted My Vim][boosted-vim]
+* [Coming Home to Vim][coming-home-to-vim]
+
 [twitter]: https://twitter.com/scottmuc/ "My Twitter Feed"
 [pocket]: http://getpocket.com/users/scottmuc "My Pocket Feed"
 [vimgolf]: http://vimgolf.com/ "Vim Golf"
@@ -77,3 +83,6 @@ Hope you enjoyed the first of what could be many "valuable links" posts.
 [textmate]: http://macromates.com/ "TextMate"
 [sublime]: http://www.sublimetext.com/ "Sublime Editor"
 [yehuda]: http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/
+[a-good-vimrc]: http://dougblack.io/words/a-good-vimrc.html
+[boosted-vim]: http://nvie.com/posts/how-i-boosted-my-vim/
+[coming-home-to-vim]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
