@@ -38,10 +38,13 @@ it's time for me to believe it myself.
 
 Social media tax is too high for me right now. It's time to start culling the amount of inputs I have. At least I've
 deleted my LinkedIn account. I'm going to have a daily unfriend/unfollow 1 person, until I feel things are a bit more
-manageable.
+manageable. One small victory in 2013 was deleting my LinkedIn account.
 
 Improving my e-mail habits are up there as well. Things like not checking my e-mail before work is a habit that I plan
 on picking up. I also need to write less e-mails. E-mails beget more e-mail.
+
+* **Facebook Friends at end of 2013** == 480
+* **Following on Twitter at of 2013** == 627
 
 ### Learn Docker
 
