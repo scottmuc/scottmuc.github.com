@@ -22,6 +22,8 @@ This list isn't comprehensive, but you can't go wrong by reading what these peop
 * [Patrick Debois][jedi4ever] - coined the term devops
 * [Noah Sussman][noah-sussman] - provides excellent insights around QA
 * [John Allspaw][john-allspaw] - has many excellent posts on the culture of devops
+* [Gene Kim][gene-kim] - co-author of The Phoenix Project
+* [Jez Humble][jez-humble] - co-author of Continuous Delivery
 
 ## Devops is not a Role
 
@@ -59,6 +61,8 @@ the fact that it's a collection of principles rather than straight up proceesses
 [john-allspaw]: http://www.kitchensoap.com/
 [ben-rockwood]: https://twitter.com/benr/
 [john-willis]: https://twitter.com/botchagalupe/
+[gene-kim]: http://itrevolution.com/
+[jez-humble]: http://continuousdelivery.com/
 
 [lusis-rant]: http://blog.lusis.org/blog/2013/06/04/devops-the-title-match/
 [cams]: http://www.getchef.com/blog/2010/07/16/what-devops-means-to-me/
