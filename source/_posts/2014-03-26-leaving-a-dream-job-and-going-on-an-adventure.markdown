@@ -12,7 +12,7 @@ go on a bit of an adventure.
 
 ## Why Leave Such a Good Thing?
 
-For some reason I've had every job I've had for 4 years since I was 12 years old. So this just works with the trend! To
+For some reason I've had every job I've had for 4 years since I was 12 years old, so I'm just keeping to my routine! To
 be honest though, there were a few things that instigated this change.
 
 * **Consulting Fatigue** - It's hard work always coming in as an outsider and trying to convince people to change their
@@ -22,9 +22,9 @@ be honest though, there were a few things that instigated this change.
 * **Product Complacency** - Though, I've worked on some interesting projects (the latest being very cool), I can't shake
   the satisfaction I got from working at [CBC Radio 3][radio3] where I got to essentially build the product I wanted to
   build on my own anyways. This may have been mitigated but the following reason adds to this one.
-* **Miss Small Teams** - For some reason people thought I was great at working on giant programs of work. While I thought
+* **Miss Small Teams** - For some reason people thought I was great at working on large programs of work. While I thought
   the challenges were interesting, I'm more a small business person at heart. Some may be surprised by this because I've
-  been on small teams, but they were in giant programs of work. I've learned that I'm more of a system thinker than I
+  been on small teams, but they were in these large programs of work. I've learned that I'm more of a system thinker than I
   thought and I find myself getting lost in the system thinking and see myself as this tiny insignificant cog just
   wanting to make some impactful change.
 
@@ -86,6 +86,6 @@ place to work, and full of great people. During this sabbitcal I plan on visitin
 
 I'm looking forward to reading this post a year from now.
 
-[thoughtworks]: http://thoughtworks.com/
+[thoughtworks]: /blog/a-new-beginning-or-goodbye-20-s-hello-30-s/
 [radio3]: http://music.cbc.ca/radio3/
 [edsnow]: https://en.wikipedia.org/wiki/Edward_Snowden

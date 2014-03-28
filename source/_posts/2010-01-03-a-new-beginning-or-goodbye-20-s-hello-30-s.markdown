@@ -3,6 +3,7 @@ layout: post
 title: "A New Beginning (or Goodbye 20's, Hello 30's)"
 date: 2010-01-03 22:18:58 +0200
 comments: true
+permalink: /blog/a-new-beginning-or-goodbye-20-s-hello-30-s/
 categories:
 ---
 As many of you know, I have left CBC Radio 3 and got a position as a Software Consultant with Thoughtworks Calgary.
