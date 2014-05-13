@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Devops | More Muc Than You Can Handle]]></title>
+  <link href="http://scottmuc.com/blog/categories/devops/atom.xml" rel="self"/>
+  <link href="http://scottmuc.com/"/>
+  <updated>2014-05-12T19:08:32-07:00</updated>
+  <id>http://scottmuc.com/</id>
+  <author>
+    <name><![CDATA[Scott Muc]]></name>
+    <email><![CDATA[scottmuc@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Valuable Links - Devops]]></title>
+    <link href="http://scottmuc.com/valuable-links-devops/"/>
+    <updated>2014-02-23T18:17:52-08:00</updated>
+    <id>http://scottmuc.com/valuable-links-devops</id>
+    <content type="html"><![CDATA[<h2>Valuable Links for Devops</h2>
+
+<p>TL;DR &ndash; Watch <a href="https://www.youtube.com/watch?v=3KpPBnEtRj4">this</a> video</p>
+
+<p>Since I first learned the term devops 4 years ago I&rsquo;ve gone through many leaps in understanding. As a software
+developer, I find delivering frequently highly motivating. Devops is a set of principles and practices that aim to
+ensure delivery goes as smooth as possible. I found this post, <a href="http://blog.devopsguys.com/2014/02/25/a-scientific-basis-for-devops-success/">A Scientific Basis For Devops Success</a>,
+to be a great introduction to why devops is important.</p>
+
+<h2>People</h2>
+
+<p>This list isn&rsquo;t comprehensive, but you can&rsquo;t go wrong by reading what these people have to say:</p>
+
+<ul>
+<li><a href="http://jedi.be/">Patrick Debois</a> &ndash; coined the term devops</li>
+<li><a href="http://www.noahsussman.com/">Noah Sussman</a> &ndash; provides excellent insights around QA</li>
+<li><a href="http://www.kitchensoap.com/">John Allspaw</a> &ndash; has many excellent posts on the culture of devops</li>
+<li><a href="http://itrevolution.com/">Gene Kim</a> &ndash; co-author of The Phoenix Project</li>
+<li><a href="http://continuousdelivery.com/">Jez Humble</a> &ndash; co-author of Continuous Delivery</li>
+</ul>
+
+
+<h2>Devops is not a Role</h2>
+
+<p>It took me a while to realize that devops is not a role played on a team and that it&rsquo;s got more in commong with Agile in
+the fact that it&rsquo;s a collection of principles rather than straight up proceesses.</p>
+
+<ul>
+<li><a href="http://www.getchef.com/blog/2010/07/16/what-devops-means-to-me/">CAMS</a> &ndash; <a href="https://twitter.com/botchagalupe/">John Willis</a>&lsquo; posts a list of principles</li>
+<li><a href="http://blog.lusis.org/blog/2013/06/04/devops-the-title-match/">Lusis' rant</a> &ndash; an excellent rant about the absurditity of devops being a role</li>
+</ul>
+
+
+<h2>Must Watch Videos</h2>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=3KpPBnEtRj4">The Devops Transformation</a> &ndash; <a href="https://twitter.com/benr/">Ben Rockwood</a> does a most
+enlightening talk on the subject.</li>
+<li><a href="https://www.youtube.com/watch?v=h5E--QSBVBY">Devops Demystified</a> &ndash; Another <strong>Ben Rockwood</strong> talk that is awesome</li>
+</ul>
+
+
+<h2>Events</h2>
+
+<ul>
+<li><a href="http://www.devopsdays.org/">DevOpsDays</a></li>
+<li><a href="http://devopssummit.com/">DevOps Summit</a></li>
+<li><a href="http://web.experiencedevops.org/">Experience DevOps</a></li>
+</ul>
+
+
+<h2>Mailing Lists</h2>
+
+<ul>
+<li><a href="https://code.google.com/p/devops-toolchain/">Devops Toolchain</a></li>
+<li><a href="http://devopsweekly.com/">Devops Weekly</a></li>
+</ul>
+
+
+<h2>Tools</h2>
+
+<ul>
+<li><a href="http://devops-bookmarks.herokuapp.com/">Devops Bookmarks</a> &ndash; This is the ultimate one stop shop for all tools</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

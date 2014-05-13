@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>PowerShell Pester 2 and 1.2 Released! - More Muc Than You Can Handle</title>
+  <meta name="author" content="Scott Muc">
+
+  
+  <meta name="description" content="After a whirlwind of activity on the Pester codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://scottmuc.com/powershell-pester-2-and-1-dot-2-released">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
+<link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4298809-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.scottmuc.com/scottmucblog" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
+  <li><a href="https://github.com/scottmuc/">Github</a></li>
+  <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
+  <li><a href="https://about.me/scottmuc/">About Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">PowerShell Pester 2 and 1.2 Released!</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-02T15:34:00-08:00" pubdate data-updated="true">Feb 2<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
+
+<h2>New Expectation and Matcher Syntax</h2>
+
+<p>In prior versions of Pester, we have the dot notation expectation and matcher syntax</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="nv">$some_string</span><span class="p">.</span><span class="n">should</span><span class="p">.</span><span class="n">be</span><span class="p">(</span><span class="s2">&quot;some value&quot;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This required some <a href="https://github.com/pester/Pester/blob/bf3afbf330808cfee8a26665a77c9388ae432286/ObjectAdaptations/types.ps1xml">clever and downright nasty hacks</a> to the PowerShell runtime. This created a <a href="https://github.com/pester/Pester/issues/19">few</a> <a href="https://github.com/pester/Pester/issues/27">issues</a> for some users and I wanted to get that fixed. It turned out the extension on Object was the root issue so I investigated a pipeline based expectation syntax. Here is the result:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="nv">$deployDir</span>                <span class="p">|</span> <span class="n">Should</span> <span class="n">Be</span> <span class="s2">&quot;C:\inetpub\wwwroot\myApp&quot;</span>
+</span><span class='line'><span class="s2">&quot;iis:\Sites\myApp&quot;</span>        <span class="p">|</span> <span class="n">Should</span> <span class="n">Exist</span> <span class="c"># this works with any PowerShell provider</span>
+</span><span class='line'><span class="s2">&quot;C:\test\rush_albums.txt&quot;</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">Contain</span> <span class="n">2112</span>
+</span><span class='line'><span class="s2">&quot;&quot;</span>                        <span class="p">|</span> <span class="n">Should</span> <span class="n">Be</span> <span class="n">NullOrEmpty</span>
+</span><span class='line'><span class="p">{</span> <span class="n">throw</span> <span class="p">}</span>                 <span class="p">|</span> <span class="n">Should</span> <span class="n">Throw</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Negative statements work too:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="n">2</span>                                   <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Be</span> <span class="n">1</span>
+</span><span class='line'><span class="s2">&quot;C:\temp\deployment_scratch_space&quot;</span>  <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Exist</span>
+</span><span class='line'><span class="s2">&quot;C:\test\rush_albums.txt&quot;</span>           <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Contain</span> <span class="n">5150</span>
+</span><span class='line'><span class="n">1</span><span class="p">,</span><span class="n">2</span><span class="p">,</span><span class="n">3</span>                               <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Be</span> <span class="n">NullOrEmpty</span>
+</span><span class='line'><span class="p">{</span> <span class="n">Deploy-Website</span> <span class="s2">&quot;superawesome&quot;</span> <span class="p">}</span>   <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Throw</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Extending the syntax is simply a matter of adding domain specific expectations, that follow the Pester function naming
+conventions, to your test suite:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="k">function</span> <span class="n">PesterBeCanadian</span><span class="p">(</span><span class="nv">$sentence</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="p">(</span><span class="nv">$sentence</span> <span class="o">-match</span> <span class="s2">&quot;.*[,\ ]eh.$&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">function</span> <span class="n">PesterBeCanadianFailureMessage</span><span class="p">(</span><span class="nv">$sentence</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="s2">&quot;Expected: {$sentence} to end with &#39;eh&#39;&quot;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">function</span> <span class="n">NotPesterBeCanadianFailureMessage</span><span class="p">(</span><span class="nv">$sentence</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="s2">&quot;Expected: {$sentence} ended with eh, you hoser!&quot;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">Describe</span> <span class="s2">&quot;a few sentences&quot;</span> <span class="p">{</span>
+</span><span class='line'>    <span class="n">Context</span> <span class="s2">&quot;when scott says something&quot;</span> <span class="p">{</span>
+</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;is Canadian&quot;</span> <span class="p">{</span>
+</span><span class='line'>            <span class="nv">$what_scott_says</span> <span class="p">=</span> <span class="s2">&quot;Good show, eh?&quot;</span>
+</span><span class='line'>            <span class="nv">$what_scott_says</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">BeCanadian</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">Context</span> <span class="s2">&quot;when pete hodgson says something&quot;</span> <span class="p">{</span>
+</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;is not Canadian&quot;</span> <span class="p">{</span>
+</span><span class='line'>            <span class="nv">$what_pete_says</span> <span class="p">=</span> <span class="s2">&quot;Have you tried testing it with Frank?&quot;</span>
+</span><span class='line'>            <span class="nv">$what_pete_says</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">BeCanadian</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pretty cool, eh? I feel that this can lessen the potential bloat of expectations in Pester and allow people to write
+test suites that fit their infrastructure domain model. The expectations are also very <a href="https://github.com/pester/Pester/blob/master/Functions/Assertions/Be.Tests.ps1">easy to test</a> in isolation. The core matchers are pretty light, but they should be easy to modify now that matchers have test coverage unlike the previous syntax.</p>
+
+<p>Adding your own matcher requires you to add 3 convention following functions. One that is the matcher, and 2 that return
+failure messages for postive and negative expectations. The biggest problem I see with this method is that if the
+convention ever changes, I&rsquo;ll have to be very cautious and make it backwards compatible.</p>
+
+<h2>Mocks!</h2>
+
+<p>This was released earlier but I didn&rsquo;t really announce anything. Thanks to <a href="http://www.mattwrock.com/">Matt Wrock</a>(<a href="https://twitter.com/mwrockx">twitter</a>) Pester has the ability to mock cmdlets. I&rsquo;m looking forward to trying this out on my next project.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="n">Mock</span> <span class="nb">Get-Location</span> <span class="p">{</span> <span class="k">return</span> <span class="s2">&quot;you are home, sir.&quot;</span> <span class="p">}</span>
+</span><span class='line'><span class="nb">Get-Location</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">Be</span> <span class="s2">&quot;you are home, sir.&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Description Tagging</h2>
+
+<p>Thanks to <a href="https://github.com/rismoney">Rich Siegel</a>, Pester can now run blocks that fit a certain tag.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="n">Describe</span> <span class="n">-Tag</span> <span class="s2">&quot;Acceptance&quot;</span> <span class="s2">&quot;Website deployment flow&quot;</span> <span class="p">{</span>
+</span><span class='line'>    <span class="n">It</span> <span class="s2">&quot;...&quot;</span> <span class="p">{</span> <span class="p">...</span> <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="c"># and run it like this:</span>
+</span><span class='line'><span class="nb">Invoke-Pester</span> <span class="n">-Tag</span> <span class="n">Acceptance</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Xml Reporting</h2>
+
+<p>Another contributor is <a href="https://github.com/mbergmann">Max Bergmann</a> who added NUnit style xml reporting to Pester runs.
+We are even using it in Pester&rsquo;s own <a href="http://teamcity.codebetter.com/project.html?projectId=project261&amp;tab=projectOverview">CI build</a>.
+There&rsquo;s some XML validation bugs that are still being sorted out.</p>
+
+<h2>Why 1.2.x and 2.0.x?</h2>
+
+<p>The motivation for this release is to fix the issues people have add where a <code>should</code> property is added to every Object.
+I&rsquo;m not sure how exactly it was breaking things, but it was messy anyways, and I wanted to get rid of it.</p>
+
+<p>In version <code>1.2.x</code>, you can disable the old assertions by running Pester with the <code>-DisableLegacyExpectations</code>. This will
+mean that your test suite has to only use the new pipeline style expectations.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="c"># version 1.2.x has this switch</span>
+</span><span class='line'><span class="nb">Invoke-Pester</span> <span class="n">-DisableLegacyExpectations</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>For version <code>2.0.x</code> we disable the old style assertions and you need to explicitly enable them using the
+<code>-EnableLegacyExpectations</code> switch. In the next significant release we&rsquo;re going to remove the dot style assertions
+completely from the codebase.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="c"># version 2.0.x has this switch</span>
+</span><span class='line'><span class="nb">Invoke-Pester</span> <span class="n">-EnableLegacyExpectations</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>So if you&rsquo;re upgrading Pester, then you should probably move to <code>1.2.x</code> first. If you can run your tests with the
+<code>-DisableLegacyAssertions</code> flag set, then you should be fine to move to <code>2.0.x</code>. If you&rsquo;re starting from scratch, then
+definitely use <code>2.0.x</code>.</p>
+
+<h2>What&rsquo;s Left To Do?</h2>
+
+<p>Lots and lots of documenting. The <code>Get-Help</code> pages need to be updated and I want to get pesterbdd.com up as soon as
+possible. I think version 2 should be a fairly stable version of Pester.</p>
+
+<p>If you&rsquo;re interested in contributing to Pester please join the <a href="https://groups.google.com/forum/?fromgroups#!forum/pester">google group</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Scott Muc</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-02T15:34:00-08:00" pubdate data-updated="true">Feb 2<span>nd</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/setting-up-overtone/" title="Previous Post: Setting up Overtone">&laquo; Setting up Overtone</a>
+      
+      
+        <a class="basic-alignment right" href="/going-against-the-flow/" title="Next Post: Going Against the Flow">Going Against the Flow &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Scott Muc -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+<!--[if !(lt IE 8)]><!-->
+<script type="text/javascript">
+  // The defaults are set below
+  var tdwfb_config = {
+    disableDate: false, // If true, the banner shows even if the date is not yet 02/11/2014. Use for testing.
+  };
+  (function(){
+    var e = document.createElement('script'); e.type='text/javascript'; e.async = true;
+    e.src = document.location.protocol + '//d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s);
+  })();
+</script>
+<!--<![endif]-->
+
+
+</body>
+</html>
