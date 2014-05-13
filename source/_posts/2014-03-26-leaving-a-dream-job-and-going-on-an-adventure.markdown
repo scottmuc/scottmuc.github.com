@@ -4,6 +4,7 @@ title: "Leaving a Dream Job and Going on an Adventure"
 date: 2014-03-26 20:28:28 +0200
 comments: true
 categories:
+  - career break
 ---
 On January 4th 2010 I joined [ThoughtWorks][thoughtworks] and it has been an amazing journey. I've seen more systems,
 worked with more people, and seen more countries than the entire 30 years that preceded that date. I still can't believe
