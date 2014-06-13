@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-06-05T18:29:47-07:00</updated>
+  <updated>2014-06-13T09:55:45-04:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -14,9 +14,77 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Leaving Vancouver and North America]]></title>
+    <link href="http://scottmuc.com/leaving-vancouver-and-north-america/"/>
+    <updated>2014-06-13T09:10:36-04:00</updated>
+    <id>http://scottmuc.com/leaving-vancouver-and-north-america</id>
+    <content type="html"><![CDATA[<p>After another relaxing two weeks in Vancouver (and attending <a href="http://www.sasquatchfestival.com/">Sasquatch</a>), it&rsquo;s time to leave. Here&rsquo;s the
+last sunset I watched from the beach. If you can believe it, the weather in Vancouver was 99% rain free!</p>
+
+<p><img class="center" src="http://scottmuc.com/images/blog/kits-sunset.jpg"></p>
+
+<h3>Schools Out for Summer</h3>
+
+<p>During my downtime I&rsquo;ve enrolled in the <a href="https://www.coursera.org/course/money">Economics of Banking and Money</a> on <a href="https://www.coursera.org">Coursera</a>. I never
+thought I would find learning this stuff so much fun! To supplement the course material, I&rsquo;ve been listening to the
+following podcasts too:</p>
+
+<ul>
+<li><a href="http://www.econtalk.org/">EconTalk</a></li>
+<li><a href="http://www.npr.org/blogs/money/">Planet Money</a></li>
+<li><a href="http://freakonomics.com/radio/">Freakanomics Radio</a></li>
+</ul>
+
+
+<p>This is the first <a href="https://en.wikipedia.org/wiki/Massive_open_online_course">MOOC</a> I&rsquo;ve taken and I really enjoy the format. It could be the fact that I&rsquo;m older and have
+already been established in a career for a while that my approach to learning is different. School always seemed to be
+about grades to me growing up. With this course, I&rsquo;m more focused on learning and developing an intuition for the
+subject.</p>
+
+<p>From this course I&rsquo;ve learned that the banking and money system is a lot more complicated than I thought. I also now
+feel that the system itself isn&rsquo;t altogether evil, it&rsquo;s just trying to facilitate trade the best that it can. I&rsquo;m still
+not confident in my ability to summarize what I&rsquo;ve learnt so far, but I think I&rsquo;m going to come out of this much more
+empowered.</p>
+
+<h3>Ship Happens</h3>
+
+<p>Today I finally start my voyage on a container ship! You can track where I am on this <a href="http://www.marinetraffic.com/ais/details/ships/636091353/vessel:INDEPENDENT_ACCORD">Facebook for ships</a>
+website. If you search for the name &ldquo;Independent Accord&rdquo; in your favourite online search website
+you&rsquo;ll see there are dozens of websites that have databases of ships. The websites are pretty well done too. I had no
+idea this shipping world can be so interesting. I&rsquo;m sure the captain and crew are going to be sick of my questions over
+the next 11 days.</p>
+
+<p>If you&rsquo;re interested, <a href="http://www.cruisepeople.co.uk/">here&rsquo;s</a> that I booked my travel through. If you&rsquo;re nostalgic for the 90&rsquo;s you&rsquo;ll
+enjoy it a lot.</p>
+
+<h3>Map Reduce</h3>
+
+<p>Since I have all this time on my hands, I&rsquo;ve started journalling the places that I&rsquo;m staying (and coffee shops I leech
+Internet off of) in this <a href="https://mapsengine.google.com/map/edit?mid=znoHAqfzfPKU.k2lUp8fKHDCg">online map</a>. It&rsquo;s work in progress and will be fleshed out more as I go.</p>
+
+<h3>Back to Life, Back to Reality</h3>
+
+<p>One question I&rsquo;ve been getting asked frequently is &ldquo;when are you coming back to reality?&rdquo;. I find it an odd question.
+This is reality. There&rsquo;s nothing to get back to (unless I could travel in time). Sure, I&rsquo;ll be figuring out what to do
+work wise. Not sure how that&rsquo;s coming &ldquo;back&rdquo; to reality though. I think we&rsquo;re living in an era where social norms are
+shifting all over the place. Hopes and aspirations appear to be more varied than before. One persons normality is
+another persons exceptionality. So when I hear this question my interpretation is &ldquo;when are you coming back to the
+lifestyle of yours that I consider normal?&rdquo;.</p>
+
+<h3>Summary</h3>
+
+<p>I&rsquo;m starting to feel the career break settling in. I&rsquo;ve slowed things down a lot. My favourite thing to do now is leave
+my phone behind and go for a wander. Writing blog posts like this is much more fulfilling than a series of micro-blogs
+(aka tweets) that lack context, albeit they are more timely.</p>
+
+<p>See you on the other side!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Testing Powershell Code That Talks to CLR Objects]]></title>
     <link href="http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects/"/>
-    <updated>2014-06-05T17:39:41-07:00</updated>
+    <updated>2014-06-05T20:39:41-04:00</updated>
     <id>http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects</id>
     <content type="html"><![CDATA[<p>Several months ago someone posted an excellent question on the <a href="https://groups.google.com/forum/#!topic/pester/Y8UzSiNlcSE">Pester Group</a> about a certain problem area
 in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
@@ -260,7 +328,7 @@ testing framework to be able to do for me though.</p>
   <entry>
     <title type="html"><![CDATA[Two Weeks Living Off the Clock]]></title>
     <link href="http://scottmuc.com/two-weeks-living-off-the-clock/"/>
-    <updated>2014-05-22T16:14:14-07:00</updated>
+    <updated>2014-05-22T19:14:14-04:00</updated>
     <id>http://scottmuc.com/two-weeks-living-off-the-clock</id>
     <content type="html"><![CDATA[<p>For the last two weeks I&rsquo;ve been house sitting for a friend in the beautiful area of <a href="https://en.wikipedia.org/wiki/Kitsilano">Kitsalano</a> in Vancouver. The
 goal for the two weeks was to figure out the rest of my travel plans and to meet up with a lot of my friends and
@@ -349,7 +417,7 @@ No better way to go slow than to stand still. Queue the <a href="http://www.yout
   <entry>
     <title type="html"><![CDATA[Reflections of Being Unemployed and Homeless for 1 Month]]></title>
     <link href="http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month/"/>
-    <updated>2014-05-12T19:13:53-07:00</updated>
+    <updated>2014-05-12T22:13:53-04:00</updated>
     <id>http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month</id>
     <content type="html"><![CDATA[<p>For some context, you may want to read my <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">previous post</a> about quitting my job.</p>
 
@@ -439,7 +507,7 @@ later time.</p>
   <entry>
     <title type="html"><![CDATA[Leaving a Dream Job and Going on an Adventure]]></title>
     <link href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/"/>
-    <updated>2014-03-26T11:28:28-07:00</updated>
+    <updated>2014-03-26T14:28:28-04:00</updated>
     <id>http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure</id>
     <content type="html"><![CDATA[<p>On January 4th 2010 I joined <a href="http://scottmuc.com/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/">ThoughtWorks</a> and it has been an amazing journey. I&rsquo;ve seen more systems,
 worked with more people, and seen more countries than the entire 30 years that preceded that date. I still can&rsquo;t believe
@@ -539,7 +607,7 @@ place to work, and full of great people. During this sabbitcal I plan on visitin
   <entry>
     <title type="html"><![CDATA[Valuable Links - Devops]]></title>
     <link href="http://scottmuc.com/valuable-links-devops/"/>
-    <updated>2014-02-23T18:17:52-08:00</updated>
+    <updated>2014-02-23T21:17:52-05:00</updated>
     <id>http://scottmuc.com/valuable-links-devops</id>
     <content type="html"><![CDATA[<h2>Valuable Links for Devops</h2>
 
@@ -612,7 +680,7 @@ enlightening talk on the subject.</li>
   <entry>
     <title type="html"><![CDATA[My Developer Resolutions for 2014]]></title>
     <link href="http://scottmuc.com/my-developer-resolutions-for-2014/"/>
-    <updated>2014-01-02T10:45:00-08:00</updated>
+    <updated>2014-01-02T10:45:00-05:00</updated>
     <id>http://scottmuc.com/my-developer-resolutions-for-2014</id>
     <content type="html"><![CDATA[<p>I was tempted to not write this post. My motivations are changing a bit and growing strong technically isn&rsquo;t one of
 my top priorities nowadays.</p>
@@ -693,7 +761,7 @@ It&rsquo;s frustating to see the industry that I love so much do so much harm, a
   <entry>
     <title type="html"><![CDATA[Valuable Links - Vim]]></title>
     <link href="http://scottmuc.com/valuable-links-vim/"/>
-    <updated>2013-11-03T19:31:00-08:00</updated>
+    <updated>2013-11-03T19:31:00-05:00</updated>
     <id>http://scottmuc.com/valuable-links-vim</id>
     <content type="html"><![CDATA[<h2>First Off &ndash; Introducing Valuable Links</h2>
 
@@ -772,7 +840,7 @@ my thoughts on the subject.</p>
   <entry>
     <title type="html"><![CDATA[The Most Over-Engineered Thing I Have Made]]></title>
     <link href="http://scottmuc.com/the-most-over-engineered-thing-I-have-made/"/>
-    <updated>2013-06-25T08:13:00-07:00</updated>
+    <updated>2013-06-25T08:13:00-04:00</updated>
     <id>http://scottmuc.com/the-most-over-engineered-thing-I-have-made</id>
     <content type="html"><![CDATA[<p>The other day I overheard some interns boasting about their complicated shell setup. They felt pretty good about
 using tmux, zsh, and aliasing the heck out of everything. One of them had to re-map copy and paste because they messed
@@ -863,7 +931,7 @@ of of complex systems.</p>
   <entry>
     <title type="html"><![CDATA[Replacing the Kanban Board With a Shark Tank]]></title>
     <link href="http://scottmuc.com/going-post-kanban-with-a-shark-tank/"/>
-    <updated>2013-04-13T23:48:00-07:00</updated>
+    <updated>2013-04-13T23:48:00-04:00</updated>
     <id>http://scottmuc.com/going-post-kanban-with-a-shark-tank</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/shark-tank-wall.jpg" width="400"></p>
 
@@ -899,7 +967,7 @@ the top. Pairing is represented by sharks eating the same piece of meat. If a sh
   <entry>
     <title type="html"><![CDATA[Going Against the Flow]]></title>
     <link href="http://scottmuc.com/going-against-the-flow/"/>
-    <updated>2013-02-10T23:41:00-08:00</updated>
+    <updated>2013-02-10T23:41:00-05:00</updated>
     <id>http://scottmuc.com/going-against-the-flow</id>
     <content type="html"><![CDATA[<p>Developers like to talk about being in a state of
 <a href="http://psygrammer.com/2011/02/10/the-flow-programming-in-ecstasy/">flow</a>. This is when time just seems to fly
@@ -944,7 +1012,7 @@ the wrong direction. A team that&rsquo;s moving around, going for walks, taking 
   <entry>
     <title type="html"><![CDATA[PowerShell Pester 2 and 1.2 Released!]]></title>
     <link href="http://scottmuc.com/powershell-pester-2-and-1-dot-2-released/"/>
-    <updated>2013-02-02T15:34:00-08:00</updated>
+    <updated>2013-02-02T15:34:00-05:00</updated>
     <id>http://scottmuc.com/powershell-pester-2-and-1-dot-2-released</id>
     <content type="html"><![CDATA[<p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
 
@@ -1132,7 +1200,7 @@ possible. I think version 2 should be a fairly stable version of Pester.</p>
   <entry>
     <title type="html"><![CDATA[Setting Up Overtone]]></title>
     <link href="http://scottmuc.com/setting-up-overtone/"/>
-    <updated>2013-01-27T21:11:00-08:00</updated>
+    <updated>2013-01-27T21:11:00-05:00</updated>
     <id>http://scottmuc.com/setting-up-overtone</id>
     <content type="html"><![CDATA[<p>Every now and then I like to sit in a coffee shop on a Sunday and focus on writing some code. This weekend I had the pleasure of spending this geeky time with a colleague, <a href="http://literateprogrammer.blogspot.in/">Chris Ford</a>(<a href="https://twitter.com/ctford">twitter</a>).</p>
 
@@ -1273,7 +1341,7 @@ development environment.</p>
   <entry>
     <title type="html"><![CDATA[My Developer Resolutions for 2013]]></title>
     <link href="http://scottmuc.com/my-developer-resolutions-for-2013/"/>
-    <updated>2012-12-31T10:45:00-08:00</updated>
+    <updated>2012-12-31T10:45:00-05:00</updated>
     <id>http://scottmuc.com/my-developer-resolutions-for-2013</id>
     <content type="html"><![CDATA[<p>2012 started off interesting because I was on on an iOS/ruby project. Nearly everything was new to me, but I liked how
 my past experiences with other technology stacks were still relevant. Even though I didn&rsquo;t know the languages very well
@@ -1371,7 +1439,7 @@ out 365 days from now!</p>
   <entry>
     <title type="html"><![CDATA[Devops Days 2012 in Summary]]></title>
     <link href="http://scottmuc.com/devops-days-2012-in-summary/"/>
-    <updated>2012-06-29T17:08:00-07:00</updated>
+    <updated>2012-06-29T17:08:00-04:00</updated>
     <id>http://scottmuc.com/devops-days-2012-in-summary</id>
     <content type="html"><![CDATA[<p><a href="http://devopsdays.org/">DevopsDays</a> is a juxtaposition in the world of IT. Most
 tech conferences focus on tools and processes, whereas Devops Days focuses on
@@ -1533,7 +1601,7 @@ wrong in the mission to bridge these gaps.</p>
   <entry>
     <title type="html"><![CDATA[Examples of How Production Like Environments Can Catch Bugs Early]]></title>
     <link href="http://scottmuc.com/examples-of-how-production-like-environments-can-catch-bugs-early/"/>
-    <updated>2012-06-08T17:03:00-07:00</updated>
+    <updated>2012-06-08T17:03:00-04:00</updated>
     <id>http://scottmuc.com/examples-of-how-production-like-environments-can-catch-bugs-early</id>
     <content type="html"><![CDATA[<p>On a previous project, I witnessed a few interesting build breakages that we caught in <a href="http://wikipedia.org/Continuous_Integration">CI</a>
 that could have easily gotten passed our automated quality gates. These issues would have hurt us in downstream
@@ -1589,7 +1657,7 @@ it&rsquo;s no longer a worry? I look forward to helping make that world possible
   <entry>
     <title type="html"><![CDATA[ChefConf 2012 in Summary]]></title>
     <link href="http://scottmuc.com/chefconf-2012-in-summary/"/>
-    <updated>2012-06-03T21:07:00-07:00</updated>
+    <updated>2012-06-03T21:07:00-04:00</updated>
     <id>http://scottmuc.com/chefconf-2012-in-summary</id>
     <content type="html"><![CDATA[<p>This is a little late coming but figured I should post anyways. <a href="http://chefconf.opscode.com/">ChefConf 2012</a>
 was an amazing event and absolutely surprising considering it&rsquo;s the first
@@ -1711,7 +1779,7 @@ machines is possible.</p>
   <entry>
     <title type="html"><![CDATA[Intentional Programming Aka Calling Your Shots]]></title>
     <link href="http://scottmuc.com/intentional-programming/"/>
-    <updated>2012-02-21T00:00:00-08:00</updated>
+    <updated>2012-02-21T00:00:00-05:00</updated>
     <id>http://scottmuc.com/intentional-programming</id>
     <content type="html"><![CDATA[<p>I just read this <a href="http://playswithfire.com/blog/2012/02/19/you-are-not-ruthless-enough/">blog post</a> and it&rsquo;s inspired me to finally post
 about something that&rsquo;s been in the back of my mind for while now.</p>
@@ -1760,7 +1828,7 @@ often enough. Our spikes end up being our production code which is part of what 
   <entry>
     <title type="html"><![CDATA[Migrated to Octopress!]]></title>
     <link href="http://scottmuc.com/migrated-to-octopress/"/>
-    <updated>2012-01-15T08:45:00-08:00</updated>
+    <updated>2012-01-15T08:45:00-05:00</updated>
     <id>http://scottmuc.com/migrated-to-octopress</id>
     <content type="html"><![CDATA[<p>It&rsquo;s funny how many posts there are from <a href="https://www.google.com/search?q=migrating+to+octopress">people who have migrated to Octopress</a>. What would motivate someone to post their migration experience? I think I understand why. It&rsquo;s such a shift in thinking that it&rsquo;s worth talking about. My migration experience was so much pleasant that I feel that I must let everyone know.</p>
 
@@ -1839,7 +1907,7 @@ server side code.</p>
   <entry>
     <title type="html"><![CDATA[Reflections on 2 Years at ThoughtWorks]]></title>
     <link href="http://scottmuc.com/blog/development/reflections-on-2-years-at-thoughtworks/"/>
-    <updated>2012-01-04T10:24:00-08:00</updated>
+    <updated>2012-01-04T10:24:00-05:00</updated>
     <id>http://scottmuc.com/blog/development/reflections-on-2-years-at-thoughtworks</id>
     <content type="html"><![CDATA[<p>I cannot believe I&rsquo;ve been at ThoughtWorks for 2 years now! My colleague Aaron Erickson has written an excellent writeup on <a href="http://nomadic-developer.com/2012/01/03/why-thoughtworks/">why (work at) ThoughtWorks</a>. I couldn&rsquo;t agree more!</p>
 
@@ -1908,58 +1976,6 @@ I can see how traveling makes it hard for many people to stick with ThoughtWorks
 <p>And now for something completely different (the best image from the last 2 years):</p>
 
 <p><img src="http://scottmuc.com/images/blog/bestimageever.jpg"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My Developer Resolutions for 2012]]></title>
-    <link href="http://scottmuc.com/blog/development/my-developer-resolutions-for-2012/"/>
-    <updated>2011-12-31T10:45:00-08:00</updated>
-    <id>http://scottmuc.com/blog/development/my-developer-resolutions-for-2012</id>
-    <content type="html"><![CDATA[<p>An interesting thing about 2011 is that my resolutions from earlier became quite prominent. Given that 8 months of 2011 were spent on a large account with less technical focus, I&rsquo;m amazed at some of the technical things that I&rsquo;ve done.</p>
-
-<!-- more -->
-
-
-<h2>Reflections on 2011 and carry over from 2010:</h2>
-
-<ul>
-<li>Mouseless Computing (2010) &ndash; I think the practice is paying off as a colleague of mine told me &ldquo;You make Windows fly!&rdquo;, and he&rsquo;s a savvy keyboard only Mac OSX user.</li>
-<li>OSS participation (2010) &ndash; I started the following projects:
-
-<ul>
-<li>Pester &ndash; I&rsquo;ve blogged about it and it&rsquo;s getting some traction out there in the wild. It&rsquo;s a spec based testing framework for Powershell. The first implementation was written on a hung-over new years day!</li>
-<li>yari &ndash; A Windows ruby version manager. Currently being used by a very large client. I wrote this on a whim, because I thought I could do better than what was previously implemented. Turned out the client liked this a lot more and decided to adopt it right away.</li>
-<li>YDeliver &ndash; The beginnings of a Continuous Delivery framework for .Net projects.</li>
-<li>Misc &ndash; Submitted a patch to OpenMRS, a bug report to Puppet, directory additions to PSGet</li>
-</ul>
-</li>
-<li>Learn VIM (2011) &ndash; This went really well. I&rsquo;m definitely no expert at this point but I&rsquo;m continuoully trying to learn new things. I&rsquo;ve setup a github project for my vimfiles which is a fun way to share my tweaks.</li>
-<li>Develop an Android App (2011) &ndash; Nope, didn&rsquo;t do anything here. It&rsquo;s actually dropped off my radar as it&rsquo;s not really something I&rsquo;m interested in anymore</li>
-<li>Learn a server provisioning automation tool (2011) &ndash; I barely get a passing grade on this one. I&rsquo;ve yet to use any of these tools (chef, puppet, etc&hellip;) on a project. In my spare time I&rsquo;ve tried them out and understand the gist of how they work. I do question how necessary they are though. Unless you&rsquo;re doing massive scaling it seems like they just add extra overhead for simple scenarios.</li>
-<li>Move this blog (2011) &ndash; This will be my last post on this blog engine. I&rsquo;ve currently setup Octopress and have my new blog ready on github. I just have the task of migrating over all posts (and deleting some). I have more to say about Octopress soon.</li>
-</ul>
-
-
-<h2>Development Goals for 2012:</h2>
-
-<p>2012 is going to be different for me development wise. I&rsquo;m finding myself less focused on technical issues and more on system, culture, and people goals. I&rsquo;m striving to become more of a leader (clear sign of post-technical syndrome) and I think that&rsquo;s reflected in my resolutions for this year.</p>
-
-<h3>Stop reading comments</h3>
-
-<p>Often when I read comments online I want to get those precious minutes of my life back. I favour a discussion over pointless online kibitzing any day. Now of course every scenario is different. The probability of reading comments on Youtube or on some news website is very low. On a blog post about some technical issue, I&rsquo;ll likely read the comments.</p>
-
-<h3>No client work when away from client</h3>
-
-<p>Being away from the client is not a place in space problem, it&rsquo;s a frame of mind issue. I want to develop some skills in removing myself from the client mentally. This is purely for my own sanity and likely for the sanity of those around me. I&rsquo;m finding myself disconnected from my personal goals and more focused at facilitating the goals of whom I am working for. One thing I&rsquo;ve learned by being on the road is that ME time is harder to come by. As an introverted individual, that ME time is how I recharge.</p>
-
-<h3>Complete YDeliver</h3>
-
-<p>Hey, an actual technical resolution! By the end of 2012 I want to know that at least 5 projects are using YDeliver. It&rsquo;s incomplete right now and I need to get off my arse and complete some of the &ldquo;last mile&rdquo; stories to get it out there. I also don&rsquo;t want to be the single committer to the project. This is a call for help for anyone interested in participating! I have some very strong opinions on how some of the pieces should work together and I will be happy to provide guidance.</p>
-
-<h3>Summary</h3>
-
-<p>Yeah, so this is probably less interesting than previous years. I&rsquo;m actually very happy on how my previous resolutions have developed and are continuing to get better and better. In previous years I mentioned developing something on a completely different stack (like Ruby on Rails). Next year I&rsquo;m starting a new project working on a small application that involves iOS and ruby development. So work is going to force some of my previous resolutions on me.</p>
 ]]></content>
   </entry>
   
