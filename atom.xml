@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-06-13T09:55:45-04:00</updated>
+  <updated>2014-06-24T14:14:54+02:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -14,9 +14,80 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Crossing the Atlantic via Container Ship]]></title>
+    <link href="http://scottmuc.com/crossing-the-atlantic-via-container-ship/"/>
+    <updated>2014-06-24T06:02:51+02:00</updated>
+    <id>http://scottmuc.com/crossing-the-atlantic-via-container-ship</id>
+    <content type="html"><![CDATA[<p>As I mentioned in my <a href="http://scottmuc.com/leaving-vancouver-and-north-america/">last post</a>, I finished the crossing of the Atlantic ocean via container ship. It was a great
+experiene that I&rsquo;ll happily do again. 11 days wasn&rsquo;t enough, and would be happy to spend a month next time around.</p>
+
+<h3>Too Much Twine on my Hands</h3>
+
+<p>A blog post probably wouldn&rsquo;t due the experience justice so I decided to play around with a basic word game engine to
+give you a more <a href="http://scottmuc.com/twinery/independent-accord.html">self-directed tour</a>. Hope you enjoy it!</p>
+
+<p>Working with <a href="http://twinery.org/">Twine</a> was quite enjoyable and I could see myself using it a lot in many different lines of work. If I was
+still consulting, it would become a prominent tool in my tool-belt. My biggest complaint with it is that the
+documentation is all online so I couldn&rsquo;t figure out how to do anything more sophisticated than what I created.</p>
+
+<h3>Man Over-bored</h3>
+
+<p>Honestly, that header was just for the pun factor. What amazed me about the voyage was how quick it went by. I didn&rsquo;t
+think <strong>once</strong> that I wanted it to end and that I was bored. I savoured not being in a rush to do anything. The only structure to my
+days revolved around meals which were at: 07:30, 12:30, and 17:30. That set my rythym for the 11 days.</p>
+
+<h3>Crew Man Group</h3>
+
+<p>The ship was run by a crew of 21, all male. The captain was Romanian and the rest of the officers were Croation. The chief
+engineer was Ukrainian and the rest were Filipino. Everyone was very nice, but when asked for their name, they simply
+asked to be addressed by their position (Third, Chief, etc&hellip;).</p>
+
+<h3>Retrospective</h3>
+
+<p><strong>What Went Well</strong>:</p>
+
+<ul>
+<li>Scotch &ndash; Sipping 18yo Glenlivet was a wonderful way to be even <em>more</em> relaxed</li>
+<li>Jambox &ndash; This dependable gadget has been filling rooms with tunes well for several years now</li>
+<li>Offline Wikipedia &ndash; Wow! I cannot believe how much I perused Wikipedia while I was on this trip.</li>
+<li>11 days of no expenses &ndash; Being disconnected is a good way to not spend money.</li>
+</ul>
+
+
+<p><strong>Not So Well</strong>:</p>
+
+<ul>
+<li>Gym clothes &ndash; There&rsquo;s an exercise room with a stationary bike. I wasn&rsquo;t always allowed on the main deck (to do laps
+around the ship) so being able to do 30min of hard cardio would have been good to stave off the belly I grew.</li>
+<li>Scotch &ndash; One bottle was definitely not enough.</li>
+<li>Offline map &ndash; I would have liked to better explorer the route and plan the rest of my trip better.</li>
+<li>Making Twine tour at the last minute &ndash; I wish I had a skeleton of it done much earlier so I could get more details
+from the crew.</li>
+</ul>
+
+
+<p><strong>Action Items</strong>: I&rsquo;ll definitely do this again and I&rsquo;ll be sure to come with a fitness plan. Though that directly opposes the action to
+bring more liquor.</p>
+
+<h3>Offline By Default</h3>
+
+<p>Being disconnected from the world for 11 days was a far better experience than I had expected. It&rsquo;s made me realize I
+need to create a habit of disconnecting. It brought me back to the era when your computer was offline by default, and
+you had to explicitly connect to see what&rsquo;s going on in the rest of the Internet universe. This experience has showed me
+that I like that. It may sound backwards to a lot of people, but the computer has always been a tool, not an
+entertainment device (gaming being the exception). My phone may eventually be the only always-connected device, but even
+then, I turn off all notifications and keep it silent.</p>
+
+<h3>Let the Eurotrip Begin</h3>
+
+<p>After a 140 euro ride through immigration and into Antwerp, I can begin the next phase of my journey!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Leaving Vancouver and North America]]></title>
     <link href="http://scottmuc.com/leaving-vancouver-and-north-america/"/>
-    <updated>2014-06-13T09:10:36-04:00</updated>
+    <updated>2014-06-13T15:10:36+02:00</updated>
     <id>http://scottmuc.com/leaving-vancouver-and-north-america</id>
     <content type="html"><![CDATA[<p>After another relaxing two weeks in Vancouver (and attending <a href="http://www.sasquatchfestival.com/">Sasquatch</a>), it&rsquo;s time to leave. Here&rsquo;s the
 last sunset I watched from the beach. If you can believe it, the weather in Vancouver was 99% rain free!</p>
@@ -84,7 +155,7 @@ my phone behind and go for a wander. Writing blog posts like this is much more f
   <entry>
     <title type="html"><![CDATA[Testing Powershell Code That Talks to CLR Objects]]></title>
     <link href="http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects/"/>
-    <updated>2014-06-05T20:39:41-04:00</updated>
+    <updated>2014-06-06T02:39:41+02:00</updated>
     <id>http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects</id>
     <content type="html"><![CDATA[<p>Several months ago someone posted an excellent question on the <a href="https://groups.google.com/forum/#!topic/pester/Y8UzSiNlcSE">Pester Group</a> about a certain problem area
 in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
@@ -328,7 +399,7 @@ testing framework to be able to do for me though.</p>
   <entry>
     <title type="html"><![CDATA[Two Weeks Living Off the Clock]]></title>
     <link href="http://scottmuc.com/two-weeks-living-off-the-clock/"/>
-    <updated>2014-05-22T19:14:14-04:00</updated>
+    <updated>2014-05-23T01:14:14+02:00</updated>
     <id>http://scottmuc.com/two-weeks-living-off-the-clock</id>
     <content type="html"><![CDATA[<p>For the last two weeks I&rsquo;ve been house sitting for a friend in the beautiful area of <a href="https://en.wikipedia.org/wiki/Kitsilano">Kitsalano</a> in Vancouver. The
 goal for the two weeks was to figure out the rest of my travel plans and to meet up with a lot of my friends and
@@ -417,7 +488,7 @@ No better way to go slow than to stand still. Queue the <a href="http://www.yout
   <entry>
     <title type="html"><![CDATA[Reflections of Being Unemployed and Homeless for 1 Month]]></title>
     <link href="http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month/"/>
-    <updated>2014-05-12T22:13:53-04:00</updated>
+    <updated>2014-05-13T04:13:53+02:00</updated>
     <id>http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month</id>
     <content type="html"><![CDATA[<p>For some context, you may want to read my <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">previous post</a> about quitting my job.</p>
 
@@ -507,7 +578,7 @@ later time.</p>
   <entry>
     <title type="html"><![CDATA[Leaving a Dream Job and Going on an Adventure]]></title>
     <link href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/"/>
-    <updated>2014-03-26T14:28:28-04:00</updated>
+    <updated>2014-03-26T19:28:28+01:00</updated>
     <id>http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure</id>
     <content type="html"><![CDATA[<p>On January 4th 2010 I joined <a href="http://scottmuc.com/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/">ThoughtWorks</a> and it has been an amazing journey. I&rsquo;ve seen more systems,
 worked with more people, and seen more countries than the entire 30 years that preceded that date. I still can&rsquo;t believe
@@ -607,7 +678,7 @@ place to work, and full of great people. During this sabbitcal I plan on visitin
   <entry>
     <title type="html"><![CDATA[Valuable Links - Devops]]></title>
     <link href="http://scottmuc.com/valuable-links-devops/"/>
-    <updated>2014-02-23T21:17:52-05:00</updated>
+    <updated>2014-02-24T03:17:52+01:00</updated>
     <id>http://scottmuc.com/valuable-links-devops</id>
     <content type="html"><![CDATA[<h2>Valuable Links for Devops</h2>
 
@@ -680,7 +751,7 @@ enlightening talk on the subject.</li>
   <entry>
     <title type="html"><![CDATA[My Developer Resolutions for 2014]]></title>
     <link href="http://scottmuc.com/my-developer-resolutions-for-2014/"/>
-    <updated>2014-01-02T10:45:00-05:00</updated>
+    <updated>2014-01-02T10:45:00+01:00</updated>
     <id>http://scottmuc.com/my-developer-resolutions-for-2014</id>
     <content type="html"><![CDATA[<p>I was tempted to not write this post. My motivations are changing a bit and growing strong technically isn&rsquo;t one of
 my top priorities nowadays.</p>
@@ -761,7 +832,7 @@ It&rsquo;s frustating to see the industry that I love so much do so much harm, a
   <entry>
     <title type="html"><![CDATA[Valuable Links - Vim]]></title>
     <link href="http://scottmuc.com/valuable-links-vim/"/>
-    <updated>2013-11-03T19:31:00-05:00</updated>
+    <updated>2013-11-03T19:31:00+01:00</updated>
     <id>http://scottmuc.com/valuable-links-vim</id>
     <content type="html"><![CDATA[<h2>First Off &ndash; Introducing Valuable Links</h2>
 
@@ -840,7 +911,7 @@ my thoughts on the subject.</p>
   <entry>
     <title type="html"><![CDATA[The Most Over-Engineered Thing I Have Made]]></title>
     <link href="http://scottmuc.com/the-most-over-engineered-thing-I-have-made/"/>
-    <updated>2013-06-25T08:13:00-04:00</updated>
+    <updated>2013-06-25T08:13:00+02:00</updated>
     <id>http://scottmuc.com/the-most-over-engineered-thing-I-have-made</id>
     <content type="html"><![CDATA[<p>The other day I overheard some interns boasting about their complicated shell setup. They felt pretty good about
 using tmux, zsh, and aliasing the heck out of everything. One of them had to re-map copy and paste because they messed
@@ -931,7 +1002,7 @@ of of complex systems.</p>
   <entry>
     <title type="html"><![CDATA[Replacing the Kanban Board With a Shark Tank]]></title>
     <link href="http://scottmuc.com/going-post-kanban-with-a-shark-tank/"/>
-    <updated>2013-04-13T23:48:00-04:00</updated>
+    <updated>2013-04-13T23:48:00+02:00</updated>
     <id>http://scottmuc.com/going-post-kanban-with-a-shark-tank</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/shark-tank-wall.jpg" width="400"></p>
 
@@ -967,7 +1038,7 @@ the top. Pairing is represented by sharks eating the same piece of meat. If a sh
   <entry>
     <title type="html"><![CDATA[Going Against the Flow]]></title>
     <link href="http://scottmuc.com/going-against-the-flow/"/>
-    <updated>2013-02-10T23:41:00-05:00</updated>
+    <updated>2013-02-10T23:41:00+01:00</updated>
     <id>http://scottmuc.com/going-against-the-flow</id>
     <content type="html"><![CDATA[<p>Developers like to talk about being in a state of
 <a href="http://psygrammer.com/2011/02/10/the-flow-programming-in-ecstasy/">flow</a>. This is when time just seems to fly
@@ -1012,7 +1083,7 @@ the wrong direction. A team that&rsquo;s moving around, going for walks, taking 
   <entry>
     <title type="html"><![CDATA[PowerShell Pester 2 and 1.2 Released!]]></title>
     <link href="http://scottmuc.com/powershell-pester-2-and-1-dot-2-released/"/>
-    <updated>2013-02-02T15:34:00-05:00</updated>
+    <updated>2013-02-02T15:34:00+01:00</updated>
     <id>http://scottmuc.com/powershell-pester-2-and-1-dot-2-released</id>
     <content type="html"><![CDATA[<p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
 
@@ -1200,7 +1271,7 @@ possible. I think version 2 should be a fairly stable version of Pester.</p>
   <entry>
     <title type="html"><![CDATA[Setting Up Overtone]]></title>
     <link href="http://scottmuc.com/setting-up-overtone/"/>
-    <updated>2013-01-27T21:11:00-05:00</updated>
+    <updated>2013-01-27T21:11:00+01:00</updated>
     <id>http://scottmuc.com/setting-up-overtone</id>
     <content type="html"><![CDATA[<p>Every now and then I like to sit in a coffee shop on a Sunday and focus on writing some code. This weekend I had the pleasure of spending this geeky time with a colleague, <a href="http://literateprogrammer.blogspot.in/">Chris Ford</a>(<a href="https://twitter.com/ctford">twitter</a>).</p>
 
@@ -1341,7 +1412,7 @@ development environment.</p>
   <entry>
     <title type="html"><![CDATA[My Developer Resolutions for 2013]]></title>
     <link href="http://scottmuc.com/my-developer-resolutions-for-2013/"/>
-    <updated>2012-12-31T10:45:00-05:00</updated>
+    <updated>2012-12-31T10:45:00+01:00</updated>
     <id>http://scottmuc.com/my-developer-resolutions-for-2013</id>
     <content type="html"><![CDATA[<p>2012 started off interesting because I was on on an iOS/ruby project. Nearly everything was new to me, but I liked how
 my past experiences with other technology stacks were still relevant. Even though I didn&rsquo;t know the languages very well
@@ -1439,7 +1510,7 @@ out 365 days from now!</p>
   <entry>
     <title type="html"><![CDATA[Devops Days 2012 in Summary]]></title>
     <link href="http://scottmuc.com/devops-days-2012-in-summary/"/>
-    <updated>2012-06-29T17:08:00-04:00</updated>
+    <updated>2012-06-29T17:08:00+02:00</updated>
     <id>http://scottmuc.com/devops-days-2012-in-summary</id>
     <content type="html"><![CDATA[<p><a href="http://devopsdays.org/">DevopsDays</a> is a juxtaposition in the world of IT. Most
 tech conferences focus on tools and processes, whereas Devops Days focuses on
@@ -1601,7 +1672,7 @@ wrong in the mission to bridge these gaps.</p>
   <entry>
     <title type="html"><![CDATA[Examples of How Production Like Environments Can Catch Bugs Early]]></title>
     <link href="http://scottmuc.com/examples-of-how-production-like-environments-can-catch-bugs-early/"/>
-    <updated>2012-06-08T17:03:00-04:00</updated>
+    <updated>2012-06-08T17:03:00+02:00</updated>
     <id>http://scottmuc.com/examples-of-how-production-like-environments-can-catch-bugs-early</id>
     <content type="html"><![CDATA[<p>On a previous project, I witnessed a few interesting build breakages that we caught in <a href="http://wikipedia.org/Continuous_Integration">CI</a>
 that could have easily gotten passed our automated quality gates. These issues would have hurt us in downstream
@@ -1657,7 +1728,7 @@ it&rsquo;s no longer a worry? I look forward to helping make that world possible
   <entry>
     <title type="html"><![CDATA[ChefConf 2012 in Summary]]></title>
     <link href="http://scottmuc.com/chefconf-2012-in-summary/"/>
-    <updated>2012-06-03T21:07:00-04:00</updated>
+    <updated>2012-06-03T21:07:00+02:00</updated>
     <id>http://scottmuc.com/chefconf-2012-in-summary</id>
     <content type="html"><![CDATA[<p>This is a little late coming but figured I should post anyways. <a href="http://chefconf.opscode.com/">ChefConf 2012</a>
 was an amazing event and absolutely surprising considering it&rsquo;s the first
@@ -1779,7 +1850,7 @@ machines is possible.</p>
   <entry>
     <title type="html"><![CDATA[Intentional Programming Aka Calling Your Shots]]></title>
     <link href="http://scottmuc.com/intentional-programming/"/>
-    <updated>2012-02-21T00:00:00-05:00</updated>
+    <updated>2012-02-21T00:00:00+01:00</updated>
     <id>http://scottmuc.com/intentional-programming</id>
     <content type="html"><![CDATA[<p>I just read this <a href="http://playswithfire.com/blog/2012/02/19/you-are-not-ruthless-enough/">blog post</a> and it&rsquo;s inspired me to finally post
 about something that&rsquo;s been in the back of my mind for while now.</p>
@@ -1828,7 +1899,7 @@ often enough. Our spikes end up being our production code which is part of what 
   <entry>
     <title type="html"><![CDATA[Migrated to Octopress!]]></title>
     <link href="http://scottmuc.com/migrated-to-octopress/"/>
-    <updated>2012-01-15T08:45:00-05:00</updated>
+    <updated>2012-01-15T08:45:00+01:00</updated>
     <id>http://scottmuc.com/migrated-to-octopress</id>
     <content type="html"><![CDATA[<p>It&rsquo;s funny how many posts there are from <a href="https://www.google.com/search?q=migrating+to+octopress">people who have migrated to Octopress</a>. What would motivate someone to post their migration experience? I think I understand why. It&rsquo;s such a shift in thinking that it&rsquo;s worth talking about. My migration experience was so much pleasant that I feel that I must let everyone know.</p>
 
@@ -1901,81 +1972,6 @@ how work can be done. If pushing brand new code to production is that easy, it r
 server side code.</p>
 
 <p>Lastly, if you would like to see what a raw blog post looks like, take a look <a href="https://github.com/scottmuc/scottmuc.github.com/tree/source/source/_posts">here</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reflections on 2 Years at ThoughtWorks]]></title>
-    <link href="http://scottmuc.com/blog/development/reflections-on-2-years-at-thoughtworks/"/>
-    <updated>2012-01-04T10:24:00-05:00</updated>
-    <id>http://scottmuc.com/blog/development/reflections-on-2-years-at-thoughtworks</id>
-    <content type="html"><![CDATA[<p>I cannot believe I&rsquo;ve been at ThoughtWorks for 2 years now! My colleague Aaron Erickson has written an excellent writeup on <a href="http://nomadic-developer.com/2012/01/03/why-thoughtworks/">why (work at) ThoughtWorks</a>. I couldn&rsquo;t agree more!</p>
-
-<p>Reading another <a href="http://www.adidav9.blogspot.com/2011/09/letter-that-i-present-day-rose-wish.html">colleague&rsquo;s post</a> a while ago inspired me to write a little retrospective of my own. Thanks Rose, you are wise beyond your years!</p>
-
-<!-- more -->
-
-
-<p>ThoughtWorks has been a place I wanted to work for since I attended <a href="http://geekswithblogs.net/mucman/category/6627.aspx">DevTeach in 2007</a>. I met some really smart people who were excellent at articulating their perspective. Also, I observed many of the best blogs I read at the time were written by ThoughtWorkers. Yeah, I was also a BFF (Biggest <a href="http://martinfowler.com/">Fowler</a> Fan), but now my experience has shown me that there&rsquo;s so much more.</p>
-
-<p>So far I have worked on 3 large projects. This scale of work wasn&rsquo;t exactly what I was expecting to do when I joined. I&rsquo;m now thankful I got to work on them because they&rsquo;ve all provide unique experiences.</p>
-
-<ul>
-<li><strong>Project 1</strong> &ndash; This was a pretty hostile environment where I learned how ThoughtWorkers band together and deliver.</li>
-<li><strong>Project 2</strong> &ndash; I worked on this one for over a year on the largest project at the time. Here I met <a href="http://igiveada.mn/andy-d/">my sponsor</a> (here&rsquo;s him in a <a href="http://www.youtube.com/watch?v=A98Asrs0X0g&amp;feature=youtu.be">monkey suit</a> at the ThoughtWorks North America Away Day)who has become an awesome friend in a very short time. The work done there will inspire me for quite a long time. It&rsquo;s the reason why I yap about PowerShell so much.
-Project 3 &ndash; This project was even larger than the previous one. Over 400 people distributed across the globe. Here I learned how to be patient, consistent, understanding, and observant. Large systems have so many variables that coming in complaining and pointing out the flaws gets you nowhere. For 8 months we chipped away and I think we made a difference. It wasn&rsquo;t the most interesting project from a technical standpoint. I don&rsquo;t think I&rsquo;m mature enough yet to understand all the I&rsquo;ve learned during this time. Plus I got to work with <a href="https://twitter.com/#!/manderbabble">@manderbabble</a>!</li>
-</ul>
-
-
-<p>Here are some other take-aways from the last 2 years that I did not expect:</p>
-
-<h3>Be Organized</h3>
-
-<p>I&rsquo;m pretty organized in general but have realized a lot of people aren&rsquo;t. I got the feeling that this ability to be organized help instill confidence in those that depended on what I did. I personally know that it&rsquo;s a relief to have people that you can depend on. However, I did feel that I had to nag people on occasion. In large projects there&rsquo;s already many different ways to become distracted and I think my organizational skill helped me keep a cool head no matter what kind of perceived chaos was ensuing.</p>
-
-<p>Be awesome to your office manager! He/she runs the joint and when you need that private meeting room, or need lunch ordered for a meeting, they are your go to people. Also figure out logistical tasks like your client email, userid, and network access so soon as you can. Everyone else in the organization will have an expectation on you to have all that stuff sorted out.</p>
-
-<p>Lastly, get a guy (for taxi service). While working in Bellevue I made friends with a father son taxi company (call Harry (206)-724-9525). They reduced the stress of travel big time. I could text them when I needed a lift and they would monitor my travel itinerary and be ready to pick me up at the airport. Their service was absolutely top-notch, thanks Harry and Gill!</p>
-
-<h3>Know Your Org</h3>
-
-<p>Understanding the organizational structure is hugely valuable. As much as we like to complain about how the structure holds you back, that effort is just a waste of energy. Learning the structure and how to use it is key when working with larger organizations. Changing that structure requires lots of time, and the will to build up a lot of trust. This can be, unfortunately, beyond what we can offer as technical consultants.</p>
-
-<p>It&rsquo;s funny how often technical help is seeked but the problem is usually human and requires a much different angle to work with. It&rsquo;s sad that often I see people try to solve human problems through technical measures. Sometimes it doesn&rsquo;t appear to be clear to people that we use computers and work with people, not vice-versa.</p>
-
-<h3>Travel</h3>
-
-<p>For the last 8 months I&rsquo;ve been on the road, and I probably only slept in my own bed for about 15 nights in that entire time period (except the Christmas break). This is really fun and exciting (and one of the main draws of ThoughtWorks for me). Here are a few things that it has made me realize:</p>
-
-<ul>
-<li>Home is where the laptop is. It&rsquo;s amazing how no matter where I traveled to, I would feel quite comfortable as long as I have my laptop and an Internet connection. At all times I&rsquo;ve been able to connect with friends and family.</li>
-<li>Autonomy is important. No matter where I am, I always try to keep my life autonomous. Some days I would hang out with friends and go with the flow, but many times I would consciencly be sure to break off and do things on my own.</li>
-<li>Ok, maybe home isn&rsquo;t where the laptop is. Over the holidays I&rsquo;ve come to realize that Calgary is truly my home right now. The level of comfort I got from my own bed, couch, diner, and friends was a warm reminder to slow it down every now and then.
-I can see how traveling makes it hard for many people to stick with ThoughtWorks. I&rsquo;m lucky to be at a point in my life where this amount of chaos is exciting. As much as I enjoyed my week of over the holidays I was ready to get back on the &ldquo;road&rdquo;.</li>
-</ul>
-
-
-<h3>When You Don&rsquo;t Know</h3>
-
-<p>The biggest thing I&rsquo;ve learned is how to ask for help. I used to pride myself on being able to do things on my own. Unfortunately I cannot scale, and doing things on my own severely limits my capabilities. Asking for help has been the best thing I&rsquo;ve learned. It&rsquo;s enabled me to venture into territory that I know little about, but do so without much fear because I know I have awesome colleagues to fall back on.</p>
-
-<p>Even in the personal space I&rsquo;ve learned to ask for help. ThoughtWorkers make amazing friends too and provide a support structure that is beyond comprehension. I don&rsquo;t know where I would be if it wasn&rsquo;t for some of the push and support they&rsquo;ve given me.</p>
-
-<p>Saying &ldquo;I don&rsquo;t know&rdquo; amongst a group of ThoughtWorkers is an invitation to be taught without being scoffed at which is better than the snickers and scoffing you get amongst other technical crowds.</p>
-
-<h3>Validation</h3>
-
-<p>This one is a little selfish but working at ThoughtWorks these last couple years have helped me become more confident in my intuition and analysis. Many strategies and tactics I&rsquo;ve done earlier on in my career were actually on a correct path, albeit not executed as well because of my naiviety at the time. Before ThoughtWorks I had 8 years of IT work, and I feel even better about the work that I did. Of course I wish I could have done it all differently, but that&rsquo;s with todays knowledge.</p>
-
-<p>I now feel even more confident that I can take on problems and solve them even when I really don&rsquo;t know exactly what I&rsquo;m doing. I&rsquo;ve proven to myself that I can solve problems. Hey, if we knew the solutions ahead of time, they wouldn&rsquo;t be problems now, would they?</p>
-
-<p>Also like to wish <a href="http://www.codecuriosity.com/">Tyler</a> a happy two years! We started on the same day back in 2010. He&rsquo;s managed to put up with my humour longer than any ThoughtWorker and that&rsquo;s a pretty good accomplishment.</p>
-
-<p>I&rsquo;m now realizing this sounds like a pitch to get people to join ThoughtWorks. It didn&rsquo;t start out that way but having more awesome people around doesn&rsquo;t sound like such a bad idea! If you&rsquo;re interested please check out <a href="http://join.thoughtworks.com/">join.thoughtworks.com</a>.</p>
-
-<p>And now for something completely different (the best image from the last 2 years):</p>
-
-<p><img src="http://scottmuc.com/images/blog/bestimageever.jpg"></p>
 ]]></content>
   </entry>
   
