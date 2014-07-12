@@ -138,7 +138,7 @@ lap as Raikonnen had an accident. This red flagged the race as they had to repai
 race was rather uneventful, but the battle between Alonso and Vettel (below) was a show of great driver talent. It was
 a shame Roseberg had a malfunction because the battle for 1st could have been just as great.
 
-{% youtube jyhz5c0mR4c 1024 %}
+<iframe width="100%" height="640" src="//www.youtube.com/embed/jyhz5c0mR4c" frameborder="0" allowfullscreen></iframe>
 
 ### To Glasgow
 
