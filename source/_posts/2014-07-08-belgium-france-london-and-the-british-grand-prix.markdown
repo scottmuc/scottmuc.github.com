@@ -6,6 +6,8 @@ comments: true
 categories:
   - career break
 ---
+*June 24th - July 7th*
+
 ### Shipment Delivered
 
 Upon arrival in Antwerp I saw my taxi from the deck. I had all my belongings ready and made my way down
