@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Career Break | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/career-break/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-07-31T09:09:15+02:00</updated>
+  <updated>2014-08-05T16:35:48+02:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,132 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Prague, Budapest, and the Hungarian Grand Prix]]></title>
+    <link href="http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix/"/>
+    <updated>2014-08-04T14:23:50+02:00</updated>
+    <id>http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix</id>
+    <content type="html"><![CDATA[<p><em>July 22nd &ndash; July 29th</em></p>
+
+<h3>Prague</h3>
+
+<p><a href="/images/blog/career-break/prague.jpg"><img class="left" src="/images/blog/career-break/prague.small.jpg" width="300"></a></p>
+
+<p>Next portion of the trip is to Eastern Europe! I had a nice simple itinerary to Prague: <strong>Heidelberg &ndash;> Munich &ndash;> Prague</strong>.
+Unfortunately something was going on with the brakes on the train and I missed my train in Munich so it
+turned into: <strong>Heidelberg &ndash;> Munich &ndash;> Neurberg &ndash;> Cheb &ndash;> Prague</strong>. By now I&rsquo;m a seasoned itinerary refactorer so this
+didn&rsquo;t phase me. These little <em>adjustments of the universe</em> can sometimes end up with interesting things happening. At
+the Plzen stop, a woman sat across from me in the couchette. She started speaking to me in Czech and my response was the
+standard Canadian response: I&rsquo;m sorry?</p>
+
+<br />
+
+
+<blockquote><p>&ldquo;I&rsquo;m sorry?&rdquo; or &ldquo;sowry&rdquo; in the short form is Canadian for: I apologize that I don&rsquo;t speak your language and I&rsquo;m embarassed to
+ask you to repeat yourself in English because I&rsquo;ve never had to deal with speaking and understanding multiple languages. Of course
+I&rsquo;m also making the assumption that you can speak English because a world without English is just unfathomable. Again,
+I&rsquo;m sorry</p></blockquote>
+
+<p>Then in English she said I looked Czech and was just inquiring about the train. Turns out
+she spoke excellent English, lives in San Diego and was just in the country to visit her family. Eventually we
+started chit chatting and the conversation about my trip became the focus of interest. I had fun demoing her the <a href="/twinery/independent-accord.html">cargo ship tour</a>
+and got some usability feedback as a result. Next thing I knew we were in Prague. Even with my limited
+social ability to pick up on body language, I think she was flirting with me! In my usual fashion I dropped the ball. We
+parted ways with a handshake and me wishing her a pleasant visit with her family.</p>
+
+<p>After hitting my head against a wall for what seemed like a decade, I continued on to a rendezvous point in the
+train station where I was to meet up with <a href="https://twitter.com/nohwnd">Jakub Jareš</a>. He&rsquo;s a core contributor to <a href="https://github.com/pester/Pester">Pester</a>,
+who in the last 6 months, has taken pretty much all the maintenance burden off of my shoulders. He offered to take me out for beers and I obviously
+couldn&rsquo;t resist an offer like that. It was the rainiest day of the summer and he guided me to the <a href="https://www.airbnb.com/rooms/2094840">airbnb</a>
+where I was to stay for the next couple days. Then we proceeded to a <a href="http://www.pivovarskyklub.com/">bar</a> (and got soaked in the process). We enjoyed many beers,
+discussed much about software development, and my ineptness with the woman on the train was soon forgotten.</p>
+
+<p>Sandeman operates in Prague too so I did a couple tours:</p>
+
+<p><a href="/images/blog/career-break/prague-castle.jpg"><img class="right" src="/images/blog/career-break/prague-castle.small.jpg" width="300"></a></p>
+
+<ul>
+<li><a href="http://www.newpraguetours.com/daily-tours/new-prague-free-tour.html">Free Tour</a>: I can&rsquo;t really talk about this tour without talking about the guide. <a href="http://www.newpraguetours.com/our-guides/pavel.html">Pavel</a>
+was quite the character. He had an entertaining dry wit and personalized the tour with stories of his own family. I
+was blown away when he said is grandmother has lived in the same flat her whole life and has lived in 9 different
+countries as a result. It was a good reminder on the craziness humans have to deal with all the time.</li>
+<li><a href="http://www.newpraguetours.com/daily-tours/prague-castle-tour.html">Castle Tour</a>: Fortunately, Pavel was the guide for this tour too! He sort of stumbled over a
+little late and asked the group if we could deviate from the standard tour itinerary and visit a
+<a href="http://europeupclose.com/article/st-norberts-brewery-in-prague/">monastery</a> where some award winning beer is brewed. No one was opposed and I got to have a fantastic
+beer at the beginning of the tour. The castle was very different than other castles I&rsquo;ve seen. The distictive
+feature was the cathedral but the surrounding buildings were much different. At the end of the tour, I really
+enjoyed walking through the <a href="http://www.hrad.cz/en/prague-castle/guidepost-for-visitors/gardens-of-the-prague-castle.shtml#a5">garden around the ramparts</a>.</li>
+</ul>
+
+
+<p>Overall, I really enjoyed Prague. You really need to avoid the square as much as possible. Once out of the tourist area,
+everything is quite afforable and less hectic. Even though my stay was short, I felt that I got the most out of it. I
+would like to go back and explore further and do some hacking with Jakub though.</p>
+
+<h3>Arriving in Budapest</h3>
+
+<p>My stay was short in Prague because I had to get to Budapest for the last of my Grand Prix adventure. Fortunately it was
+a direct train! The <a href="https://www.airbnb.com/rooms/1767274">airbnb</a> was close to the station and was able to take the metro there. I was really happy with the
+location, and the host was exceptional in responding to my queries. One interesting thing about taking the train around
+Europe is that you start to see patterns in the train stations from different countries. There was quite a difference
+between the stations in Czech Republic and Slovakia compared to Germany and Hungary. Now I want to create an archive of
+train stations so I can do more comparing and contrasting.</p>
+
+<h3>Hungarian Grand Prix</h3>
+
+<p><a href="/images/blog/career-break/budapest-bags.jpg"><img class="left" src="/images/blog/career-break/budapest-bags.small.jpg" width="300"></a></p>
+
+<p>Getting to the race track was a fairly painless experience in Budapest. The transit workers were also extremely helpful
+and knowledgable about the logistics of the race. The track was located in a beautiful area just outside Budapest. I
+spent the Friday walking around the track (in 35C weather). The track area was super clean and I think that&rsquo;s owed to
+the fact that bright blue garbage bags were never more than 20ft away from you. Overall, I would say this Grand Prix had
+the most pleasant logistics experience. More importantly though, this was an <a href="http://www.autoblog.com/2014/07/28/race-recap-2014-hungarian-grand-prix-a-thrilling-wet-mess/">incredible race</a>! A cloud burst occured
+around 60 minutes before the race began. All the drivers had to change their strategies and start with wet tyres. Then
+an accident occured a few laps in that caused some pit lane confusion resulting in the leaders being in the middle of
+the pack. Nearly every lap had battles going on from all positions. I think this ranks up there as one of the best races
+of the year (Bahrain was pretty close). I&rsquo;m sort of sad that my stream of F1 races is over, but also happy because now
+the rest of my time is entirely unscheduled. Who knows, maybe I&rsquo;ll do a quick detour to Belgium and go to the race there
+at the end of the month.</p>
+
+<br />
+
+
+<br />
+
+
+<h3>Dream Theater in Budapest</h3>
+
+<p><a href="/images/blog/career-break/dream-theater.jpg"><img class="right" src="/images/blog/career-break/dream-theater.small.jpg" width="300"></a></p>
+
+<p>As a bonus I saw posters stating that <a href="http://www.dreamtheater.net/">Dream Theater</a> is playing nearby! I&rsquo;ve been a fan of them since 1998 and have never
+seen them live! Everything looked too perfect: the venue was a beautiful tram ride away, it starts after the majority of
+the F1 events are done, it ended at a decent hour so I could be rested for race day, and tickets were still available!
+After freshening up after another hot day at the track I walk to the tram and arrive at the venue around an hour before
+the show starts. I was in line to grab some food when the woman next to me asks me a question in Hungarian. Here we go
+again! I respond with &ldquo;I&rsquo;m sorry?&rdquo;. She switches to English and asks if I was
+ahead of her. I had no idea, and it didn&rsquo;t really matter to me so I said she was first. As I get my food, she asks where
+I&rsquo;m from. I tell her I&rsquo;m going to find some beer and she offers to show me where I can sample some
+proper Hungarian liquor. I follow her lead and she orders me palinka which is a fruit brandy. Fortunately I&rsquo;m well
+adapted to plum whiskey from hazy memories of <a href="https://www.youtube.com/watch?v=G7Eb7a8-LvQ">ThoughtBoarder</a> trips (thanks <a href="http://www.yycapps.com/2012/09/developer-interview-radu-muresan/">Radu</a>), so the shot goes down easy. She says
+she needs to bring the food back to her group and I bid farewell and find a spot in the crowd to watch the show. Ten or
+fifteen minutes pass and she finds me in the crowd. We continue to chat about music, travel and Hungary. It turns out
+that her dad brought her to the concert (coolest dad in the world!), and she asked if it was ok to hang out with me
+during the show (you had to ask?!). You would think that I would have learned my lesson from my previous female
+encounter&hellip; nope. Though I did do a bit better. I wrote down my website and she asked if she could find me on Facebook
+(I wasn&rsquo;t sure if my profile was searchable, but I said yes). The show was fantastic and made better by having her company.
+I got a message from her a few days later and we&rsquo;re still corresponding! Clearly something supernatural was going on as
+you can tell from this image of the show.</p>
+
+<p><a href="/images/blog/career-break/budapest-view.jpg"><img class="left" src="/images/blog/career-break/budapest-view.small.jpg" width="300"></a></p>
+
+<p>The weather following the race was not so good. I managed to explore a little bit around the vicinity of where I was
+staying, but spent most of the time catching up with Coursera. Sandeman did not have any presence in Budapest so I took
+a free tour by another organization. I can&rsquo;t say it was up to the same standard, but it was still informative
+nevertheless. It ended near the castle and I enjoyed a relatively rain free walk back to my flat and prepared for my
+next destination, Rome.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Glasgow, Berlin, Heidelberg and the German Grand Prix]]></title>
@@ -416,95 +542,6 @@ my phone behind and go for a wander. Writing blog posts like this is much more f
 (aka tweets) that lack context, albeit they are more timely.</p>
 
 <p>See you on the other side!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Two Weeks Living Off the Clock]]></title>
-    <link href="http://scottmuc.com/two-weeks-living-off-the-clock/"/>
-    <updated>2014-05-23T01:14:14+02:00</updated>
-    <id>http://scottmuc.com/two-weeks-living-off-the-clock</id>
-    <content type="html"><![CDATA[<p>For the last two weeks I&rsquo;ve been house sitting for a friend in the beautiful area of <a href="https://en.wikipedia.org/wiki/Kitsilano">Kitsalano</a> in Vancouver. The
-goal for the two weeks was to figure out the rest of my travel plans and to meet up with a lot of my friends and
-acquaintances that I haven&rsquo;t seen for a while.</p>
-
-<h3>According to Plan?</h3>
-
-<p>The two weeks went by quickly. I mainly organized myself around other people&rsquo;s clocks. This meant meeting people for
-lunch or after work the majority of the time. Since I had gaps in time between meet ups, I spent a lot of time walking
-everywhere (and sometimes biking). Experiencing many modes of transportation ends up being an influence on me later on.
-It was refreshing to not be the dictator of my time, albeit my intentions did dictate who to meet. So by a transitive
-relationship, I was still directing my time?</p>
-
-<h3>Natural Time Management</h3>
-
-<p>As an experiment I decided to not turn my morning alarm clock on. I&rsquo;ve always thought of myself as a morning person and
-wanted to see if that held true. What ended up happening was that I rolled out of bed around 8:30pm every morning
-regardless of when I went to bed (range: 11:00pm &ndash; 1:00am). I&rsquo;m curious about whether or not work pressure (or pressure
-in general) has been the cause of my normal much earlier natural wake up time.</p>
-
-<p>Another normal time structure that I thought my body adhered to strictly was when to eat. I started to eat when I was hungry
-and found that some days I only ate 1 meal, or my lunch ended up happening at 4pm. There wasn&rsquo;t any natural rhythm to my
-eating times.</p>
-
-<p>It&rsquo;s interesting to start following nature&rsquo;s conventions rather than socially, and I guess structurally imposed ones.</p>
-
-<h3>Career Ideas</h3>
-
-<p>It&rsquo;s nice when part of my &ldquo;mission&rdquo; with this career break moves forward in some dimension. During my many walks along
-the <a href="https://en.wikipedia.org/wiki/Seawall_(Vancouver)">seawall</a> I&rsquo;ve listened to many episodes of <a href="http://www.econtalk.org/">EconTalk</a>. One in particular got me a little bit
-inspired. The episode was about <a href="http://www.econtalk.org/archives/2014/05/charles_marohn.html">Strong Towns</a>, and revealed that I have a lot of interest in urban
-development. Shortly after that, I had dinner with a colleague, and conversation with his girlfriend got me inspired
-too. It turns out she works for <a href="http://www.translink.ca/">TransLink</a> and she mentioned there&rsquo;s work available for someone with my
-skills. What fascinated me was my initial feeling of joy to chat with someone regarding this topic.</p>
-
-<p>Did I mention that I&rsquo;m slowing getting addicted to <a href="http://www.positech.co.uk/democracy3/">Democracy 3</a>?</p>
-
-<h3>Speaking of Transport</h3>
-
-<p>Being mobile via foot, bike, bus, train, and car share has reinforced my thoughts on urban planning. Another part of my
-&ldquo;mission&rdquo; is to figure out where to live. Being mobile, while having a low impact, is an opinion that has been further
-strengthened while being here. The bicycle is such a wonderful piece of engineering that has changed, relatively, little
-over the years. It&rsquo;s an efficient form of transport and it&rsquo;s fun. I can&rsquo;t imagine living anywhere where I wouldn&rsquo;t feel
-comfortable riding a bike much of the time.</p>
-
-<h3>Discovering the Source of My Anxiety</h3>
-
-<p>In my <a href="http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month/">previous post</a> I alluded to a sense of anxiousness that I was feeling. It dawned on me that I was spending a lot of
-time coordinating what was going to be a hurried and expensive road trip across the continent. Eventually I realized
-that I didn&rsquo;t have to do that trip. I&rsquo;m already going to be doing plenty of travel in the coming months. It also
-occurred to me that I spent a good amount of my &ldquo;relaxing&rdquo; time trying to make this trip work. So I&rsquo;ve canceled the
-road trip and am going to spend an extra two weeks in Vancouver!</p>
-
-<p>Here&rsquo;s the list of reasons that convinced that this was the right decision:</p>
-
-<ul>
-<li>Not providing ample time to truly enjoy the trip</li>
-<li>Not being able to spend a proper amount of time visiting each and every person</li>
-<li>Going to be more expensive than the cargo ship cruise!</li>
-<li>Goes against the principles of this career break which is to take things slowly and this road trip would be a dash to Wilmington, NC</li>
-<li>Lessons learned from the SF road trip (I should have slowed it down)</li>
-<li>I&rsquo;m not doing any of the tech related practice I&rsquo;ve wanted to do</li>
-</ul>
-
-
-<p>Not sure if the software analogy fits, but it felt like removing scope from an unfinished project.</p>
-
-<h3>Summary</h3>
-
-<p>Responding to feedback is important. On my road trip to San Francisco I learned that I&rsquo;m not going slow enough during my
-time off. During the last two weeks in Vancouver I learned that it&rsquo;s nice to stand still and I wasn&rsquo;t doing too much of
-that. The speed of the journey and the complexity in coordinating amongst many people and locations was resulting in an
-energy level overhead that was creating anxiety (and how can someone who&rsquo;s not working possibly feel anxious about
-anything). Responding to this feedback by canceling the road trip made me feel like a weight was lifted off of my
-shoulders.</p>
-
-<p>Along with the negative feedback, I&rsquo;m going to explore the positive feedback my mind felt when pondering ideas around
-urban planning and public transport.</p>
-
-<p>Unfortunately I won&rsquo;t get to see a lot of people that I wanted to, but I realized the quality of the interactions is more
-important than the quantity of the interactions. This touches on my principle of doing things slowly during this break.
-No better way to go slow than to stand still. Queue the <a href="http://www.youtube.com/watch?v=dMSFqXGZ5TQ">Rush</a>!</p>
 ]]></content>
   </entry>
   
