@@ -4,6 +4,7 @@ title: "PowerShell Pester 2 and 1.2 Released!"
 date: 2013-02-02 15:34
 comments: true
 categories:
+  - pester
 ---
 After a whirlwind of activity on the [Pester](https://github.com/pester/Pester) codebase I'm happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I'll get into soon.
 

@@ -4,7 +4,6 @@ title: "Testing Powershell Code That Talks to CLR Objects"
 date: 2014-06-05 17:39:41 -0700
 comments: true
 categories:
-  - powershell
   - pester
 ---
 Several months ago someone posted an excellent question on the [Pester Group][pester-group] about a certain problem area

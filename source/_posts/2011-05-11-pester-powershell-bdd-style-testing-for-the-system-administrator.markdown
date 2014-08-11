@@ -4,7 +4,8 @@ title: "Pester - PowerShell BDD Style Testing For The System Administrator"
 date: 2011-05-11 20:05
 permalink: /blog/development/pester-bdd-for-the-system-administrator/
 comments: true
-categories: 
+categories:
+  - pester
 ---
 
 Hi there and welcome to my demo of Pester, a BDD style testing framework for Powershell. The creation of Pester came out of the desire to test some build/deployment infrastructure we were creating for a project. We wrote nearly all the code without tests and it came to bite us in the end. I wanted to find a way ensure these problems didn't happen again as well as provide some code coverage to give new entrants to the codebase some confidence that they won't break everything.
