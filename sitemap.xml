@@ -2,232 +2,228 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://scottmuc.com/blog/installing-windows-home-server-on-old-hardware/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/development/the-paradox-of-choice-in-a-developers-life/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/development/i-survived-jp-s-nothing-but-dot-net-boot-camp/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/manager-suffixes-are-a-code-smell/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/why-i-ve-chosen-to-use-my-desktop-as-my-default-download-location/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/development/js-builder-exceptions-with-multiline-js-strings/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/it-s-good-to-laugh-at-your-old-code/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/development/top-5-things-i-can-t-compromise-on-in-web-development/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/handy-web-path-concatenation-code/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/my-developer-resolutions-for-2009/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/when-1-does-not-equal-1-a-debugging-tale/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/development/unit-testing-domain-persistence-with-ndbunit-nhibernate-and-sqlite/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/riding-the-lines-of-code-rollercoaster/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/reviews/book-review-the-art-of-unit-testing-by-roy-osherove/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/</loc>
-        <lastmod>2014-05-13T04:03:23+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:23+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/my-developer-resolutions-for-2011/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/development/stop-trying-to-be-perfect-and-make-mistakes/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/pester-bdd-for-the-system-administrator/</loc>
-        <lastmod>2014-08-07T18:34:15+02:00</lastmod>
+        <lastmod>2014-08-07T19:34:15+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/development/adopting-psget-for-powershell-module-management/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/powershell-bdd-testing-pester-screencast/</loc>
-        <lastmod>2014-08-07T18:34:30+02:00</lastmod>
+        <lastmod>2014-08-07T19:34:30+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/blog/development/the-madness-must-stop-powershell-package-management/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/simplifying-ruby-installation-in-windows/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/my-developer-resolutions-for-2012/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/development/reflections-on-2-years-at-thoughtworks/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/migrated-to-octopress/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/intentional-programming/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/chefconf-2012-in-summary/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>
             http://scottmuc.com/examples-of-how-production-like-environments-can-catch-bugs-early/
         </loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/devops-days-2012-in-summary/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/my-developer-resolutions-for-2013/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/setting-up-overtone/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/powershell-pester-2-and-1-dot-2-released/</loc>
-        <lastmod>2014-08-07T18:34:46+02:00</lastmod>
+        <lastmod>2014-08-07T19:34:46+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/going-against-the-flow/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/going-post-kanban-with-a-shark-tank/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/the-most-over-engineered-thing-I-have-made/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/valuable-links-vim/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/my-developer-resolutions-for-2014/</loc>
-        <lastmod>2014-05-13T04:03:22+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:22+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/valuable-links-devops/</loc>
-        <lastmod>2014-05-13T04:03:23+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:23+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/</loc>
-        <lastmod>2014-05-13T19:22:02+02:00</lastmod>
+        <lastmod>2014-05-13T20:22:02+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month/</loc>
-        <lastmod>2014-05-13T19:21:12+02:00</lastmod>
+        <lastmod>2014-05-13T20:21:12+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/two-weeks-living-off-the-clock/</loc>
-        <lastmod>2014-05-23T05:07:35+02:00</lastmod>
+        <lastmod>2014-05-23T06:07:35+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects/</loc>
-        <lastmod>2014-08-07T18:35:07+02:00</lastmod>
+        <lastmod>2014-08-07T19:35:07+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/leaving-vancouver-and-north-america/</loc>
-        <lastmod>2014-06-13T15:54:21+02:00</lastmod>
+        <lastmod>2014-06-13T16:54:21+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/crossing-the-atlantic-via-container-ship/</loc>
-        <lastmod>2014-06-24T14:05:05+02:00</lastmod>
+        <lastmod>2014-06-24T15:05:05+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/belgium-france-london-and-the-british-grand-prix/</loc>
-        <lastmod>2014-07-30T12:48:29+02:00</lastmod>
+        <lastmod>2014-07-30T13:48:29+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix/</loc>
-        <lastmod>2014-07-31T08:59:20+02:00</lastmod>
+        <lastmod>2014-07-31T09:59:20+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix/</loc>
-        <lastmod>2014-08-05T16:10:32+02:00</lastmod>
+        <lastmod>2014-08-05T17:10:32+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/growing-an-open-source-project-the-pester-story/</loc>
-        <lastmod>2014-08-11T11:51:33+02:00</lastmod>
+        <lastmod>2014-08-11T12:51:33+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/archives/</loc>
-        <lastmod>2014-08-11T11:51:33+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://scottmuc.com/cv/</loc>
-        <lastmod>2014-08-16T08:28:22+02:00</lastmod>
+        <lastmod>2014-08-11T12:51:33+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/</loc>
-        <lastmod>2014-08-11T11:51:33+02:00</lastmod>
+        <lastmod>2014-08-11T12:51:33+03:00</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/robots.txt</loc>
-        <lastmod>2014-05-13T04:03:21+02:00</lastmod>
+        <lastmod>2014-05-13T05:03:21+03:00</lastmod>
     </url>
 </urlset>

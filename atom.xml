@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-08-16T08:55:09+02:00</updated>
+  <updated>2014-08-28T22:22:58+03:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Growing an Open Source Project: The Pester Story]]></title>
     <link href="http://scottmuc.com/growing-an-open-source-project-the-pester-story/"/>
-    <updated>2014-08-07T17:50:58+02:00</updated>
+    <updated>2014-08-07T18:50:58+03:00</updated>
     <id>http://scottmuc.com/growing-an-open-source-project-the-pester-story</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/pester/Pester"><img src="http://scottmuc.com/images/blog/github-pester.png"></a></p>
 
@@ -125,7 +125,7 @@ Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent
   <entry>
     <title type="html"><![CDATA[Prague, Budapest, and the Hungarian Grand Prix]]></title>
     <link href="http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix/"/>
-    <updated>2014-08-04T14:23:50+02:00</updated>
+    <updated>2014-08-04T15:23:50+03:00</updated>
     <id>http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 22nd &ndash; July 29th</em></p>
 
@@ -251,7 +251,7 @@ next destination, Rome.</p>
   <entry>
     <title type="html"><![CDATA[Glasgow, Berlin, Heidelberg and the German Grand Prix]]></title>
     <link href="http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix/"/>
-    <updated>2014-07-21T14:44:37+02:00</updated>
+    <updated>2014-07-21T15:44:37+03:00</updated>
     <id>http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 7th &ndash; July 21st</em></p>
 
@@ -370,7 +370,7 @@ the awards ceremony!</p>
   <entry>
     <title type="html"><![CDATA[Belgium, France, London and the British Grand Prix]]></title>
     <link href="http://scottmuc.com/belgium-france-london-and-the-british-grand-prix/"/>
-    <updated>2014-07-08T14:42:19+02:00</updated>
+    <updated>2014-07-08T15:42:19+03:00</updated>
     <id>http://scottmuc.com/belgium-france-london-and-the-british-grand-prix</id>
     <content type="html"><![CDATA[<p><em>June 24th &ndash; July 7th</em></p>
 
@@ -518,7 +518,7 @@ enough. I was going to write about my learnings over the last few weeks, but wil
   <entry>
     <title type="html"><![CDATA[Crossing the Atlantic via Container Ship]]></title>
     <link href="http://scottmuc.com/crossing-the-atlantic-via-container-ship/"/>
-    <updated>2014-06-24T06:02:51+02:00</updated>
+    <updated>2014-06-24T07:02:51+03:00</updated>
     <id>http://scottmuc.com/crossing-the-atlantic-via-container-ship</id>
     <content type="html"><![CDATA[<p>As I mentioned in my <a href="http://scottmuc.com/leaving-vancouver-and-north-america/">last post</a>, I finished the crossing of the Atlantic ocean via container ship. It was a great
 experiene that I&rsquo;ll happily do again. 11 days wasn&rsquo;t enough, and would be happy to spend a month next time around.</p>
@@ -589,7 +589,7 @@ then, I turn off all notifications and keep it silent.</p>
   <entry>
     <title type="html"><![CDATA[Leaving Vancouver and North America]]></title>
     <link href="http://scottmuc.com/leaving-vancouver-and-north-america/"/>
-    <updated>2014-06-13T15:10:36+02:00</updated>
+    <updated>2014-06-13T16:10:36+03:00</updated>
     <id>http://scottmuc.com/leaving-vancouver-and-north-america</id>
     <content type="html"><![CDATA[<p>After another relaxing two weeks in Vancouver (and attending <a href="http://www.sasquatchfestival.com/">Sasquatch</a>), it&rsquo;s time to leave. Here&rsquo;s the
 last sunset I watched from the beach. If you can believe it, the weather in Vancouver was 99% rain free!</p>
@@ -657,7 +657,7 @@ my phone behind and go for a wander. Writing blog posts like this is much more f
   <entry>
     <title type="html"><![CDATA[Testing Powershell Code That Talks to CLR Objects]]></title>
     <link href="http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects/"/>
-    <updated>2014-06-06T02:39:41+02:00</updated>
+    <updated>2014-06-06T03:39:41+03:00</updated>
     <id>http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects</id>
     <content type="html"><![CDATA[<p>Several months ago someone posted an excellent question on the <a href="https://groups.google.com/forum/#!topic/pester/Y8UzSiNlcSE">Pester Group</a> about a certain problem area
 in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
@@ -901,7 +901,7 @@ testing framework to be able to do for me though.</p>
   <entry>
     <title type="html"><![CDATA[Two Weeks Living Off the Clock]]></title>
     <link href="http://scottmuc.com/two-weeks-living-off-the-clock/"/>
-    <updated>2014-05-23T01:14:14+02:00</updated>
+    <updated>2014-05-23T02:14:14+03:00</updated>
     <id>http://scottmuc.com/two-weeks-living-off-the-clock</id>
     <content type="html"><![CDATA[<p>For the last two weeks I&rsquo;ve been house sitting for a friend in the beautiful area of <a href="https://en.wikipedia.org/wiki/Kitsilano">Kitsalano</a> in Vancouver. The
 goal for the two weeks was to figure out the rest of my travel plans and to meet up with a lot of my friends and
@@ -990,7 +990,7 @@ No better way to go slow than to stand still. Queue the <a href="http://www.yout
   <entry>
     <title type="html"><![CDATA[Reflections of Being Unemployed and Homeless for 1 Month]]></title>
     <link href="http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month/"/>
-    <updated>2014-05-13T04:13:53+02:00</updated>
+    <updated>2014-05-13T05:13:53+03:00</updated>
     <id>http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month</id>
     <content type="html"><![CDATA[<p>For some context, you may want to read my <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">previous post</a> about quitting my job.</p>
 
@@ -1080,7 +1080,7 @@ later time.</p>
   <entry>
     <title type="html"><![CDATA[Leaving a Dream Job and Going on an Adventure]]></title>
     <link href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/"/>
-    <updated>2014-03-26T19:28:28+01:00</updated>
+    <updated>2014-03-26T20:28:28+02:00</updated>
     <id>http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure</id>
     <content type="html"><![CDATA[<p>On January 4th 2010 I joined <a href="http://scottmuc.com/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/">ThoughtWorks</a> and it has been an amazing journey. I&rsquo;ve seen more systems,
 worked with more people, and seen more countries than the entire 30 years that preceded that date. I still can&rsquo;t believe
@@ -1180,7 +1180,7 @@ place to work, and full of great people. During this sabbitcal I plan on visitin
   <entry>
     <title type="html"><![CDATA[Valuable Links - Devops]]></title>
     <link href="http://scottmuc.com/valuable-links-devops/"/>
-    <updated>2014-02-24T03:17:52+01:00</updated>
+    <updated>2014-02-24T04:17:52+02:00</updated>
     <id>http://scottmuc.com/valuable-links-devops</id>
     <content type="html"><![CDATA[<h2>Valuable Links for Devops</h2>
 
@@ -1253,7 +1253,7 @@ enlightening talk on the subject.</li>
   <entry>
     <title type="html"><![CDATA[My Developer Resolutions for 2014]]></title>
     <link href="http://scottmuc.com/my-developer-resolutions-for-2014/"/>
-    <updated>2014-01-02T10:45:00+01:00</updated>
+    <updated>2014-01-02T10:45:00+02:00</updated>
     <id>http://scottmuc.com/my-developer-resolutions-for-2014</id>
     <content type="html"><![CDATA[<p>I was tempted to not write this post. My motivations are changing a bit and growing strong technically isn&rsquo;t one of
 my top priorities nowadays.</p>
@@ -1334,7 +1334,7 @@ It&rsquo;s frustating to see the industry that I love so much do so much harm, a
   <entry>
     <title type="html"><![CDATA[Valuable Links - Vim]]></title>
     <link href="http://scottmuc.com/valuable-links-vim/"/>
-    <updated>2013-11-03T19:31:00+01:00</updated>
+    <updated>2013-11-03T19:31:00+02:00</updated>
     <id>http://scottmuc.com/valuable-links-vim</id>
     <content type="html"><![CDATA[<h2>First Off &ndash; Introducing Valuable Links</h2>
 
@@ -1413,7 +1413,7 @@ my thoughts on the subject.</p>
   <entry>
     <title type="html"><![CDATA[The Most Over-Engineered Thing I Have Made]]></title>
     <link href="http://scottmuc.com/the-most-over-engineered-thing-I-have-made/"/>
-    <updated>2013-06-25T08:13:00+02:00</updated>
+    <updated>2013-06-25T08:13:00+03:00</updated>
     <id>http://scottmuc.com/the-most-over-engineered-thing-I-have-made</id>
     <content type="html"><![CDATA[<p>The other day I overheard some interns boasting about their complicated shell setup. They felt pretty good about
 using tmux, zsh, and aliasing the heck out of everything. One of them had to re-map copy and paste because they messed
@@ -1504,7 +1504,7 @@ of of complex systems.</p>
   <entry>
     <title type="html"><![CDATA[Replacing the Kanban Board With a Shark Tank]]></title>
     <link href="http://scottmuc.com/going-post-kanban-with-a-shark-tank/"/>
-    <updated>2013-04-13T23:48:00+02:00</updated>
+    <updated>2013-04-13T23:48:00+03:00</updated>
     <id>http://scottmuc.com/going-post-kanban-with-a-shark-tank</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/shark-tank-wall.jpg" width="400"></p>
 
@@ -1540,7 +1540,7 @@ the top. Pairing is represented by sharks eating the same piece of meat. If a sh
   <entry>
     <title type="html"><![CDATA[Going Against the Flow]]></title>
     <link href="http://scottmuc.com/going-against-the-flow/"/>
-    <updated>2013-02-10T23:41:00+01:00</updated>
+    <updated>2013-02-10T23:41:00+02:00</updated>
     <id>http://scottmuc.com/going-against-the-flow</id>
     <content type="html"><![CDATA[<p>Developers like to talk about being in a state of
 <a href="http://psygrammer.com/2011/02/10/the-flow-programming-in-ecstasy/">flow</a>. This is when time just seems to fly
@@ -1585,7 +1585,7 @@ the wrong direction. A team that&rsquo;s moving around, going for walks, taking 
   <entry>
     <title type="html"><![CDATA[PowerShell Pester 2 and 1.2 Released!]]></title>
     <link href="http://scottmuc.com/powershell-pester-2-and-1-dot-2-released/"/>
-    <updated>2013-02-02T15:34:00+01:00</updated>
+    <updated>2013-02-02T15:34:00+02:00</updated>
     <id>http://scottmuc.com/powershell-pester-2-and-1-dot-2-released</id>
     <content type="html"><![CDATA[<p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
 
@@ -1773,7 +1773,7 @@ possible. I think version 2 should be a fairly stable version of Pester.</p>
   <entry>
     <title type="html"><![CDATA[Setting Up Overtone]]></title>
     <link href="http://scottmuc.com/setting-up-overtone/"/>
-    <updated>2013-01-27T21:11:00+01:00</updated>
+    <updated>2013-01-27T21:11:00+02:00</updated>
     <id>http://scottmuc.com/setting-up-overtone</id>
     <content type="html"><![CDATA[<p>Every now and then I like to sit in a coffee shop on a Sunday and focus on writing some code. This weekend I had the pleasure of spending this geeky time with a colleague, <a href="http://literateprogrammer.blogspot.in/">Chris Ford</a>(<a href="https://twitter.com/ctford">twitter</a>).</p>
 
@@ -1914,7 +1914,7 @@ development environment.</p>
   <entry>
     <title type="html"><![CDATA[My Developer Resolutions for 2013]]></title>
     <link href="http://scottmuc.com/my-developer-resolutions-for-2013/"/>
-    <updated>2012-12-31T10:45:00+01:00</updated>
+    <updated>2012-12-31T10:45:00+02:00</updated>
     <id>http://scottmuc.com/my-developer-resolutions-for-2013</id>
     <content type="html"><![CDATA[<p>2012 started off interesting because I was on on an iOS/ruby project. Nearly everything was new to me, but I liked how
 my past experiences with other technology stacks were still relevant. Even though I didn&rsquo;t know the languages very well
@@ -2012,7 +2012,7 @@ out 365 days from now!</p>
   <entry>
     <title type="html"><![CDATA[Devops Days 2012 in Summary]]></title>
     <link href="http://scottmuc.com/devops-days-2012-in-summary/"/>
-    <updated>2012-06-29T17:08:00+02:00</updated>
+    <updated>2012-06-29T17:08:00+03:00</updated>
     <id>http://scottmuc.com/devops-days-2012-in-summary</id>
     <content type="html"><![CDATA[<p><a href="http://devopsdays.org/">DevopsDays</a> is a juxtaposition in the world of IT. Most
 tech conferences focus on tools and processes, whereas Devops Days focuses on
