@@ -3,13 +3,13 @@ layout: post
 title: "Rome, Switzerland, and Vienna"
 date: 2014-08-13 14:09:31 +0200
 comments: true
-published: false
+published: true
 categories:
   - career break
 ---
 *July 30th - August 17th*
 
-### When in Rome
+## When in Rome
 
 [{% img center /images/blog/career-break/rome-fountain.medium.jpg 900 %}](/images/blog/career-break/rome-fountain.jpg)
 
@@ -38,9 +38,10 @@ game
 
 As beautiful as Rome was, I knew my time as a tourist was ending. I was at the point where I didn't want to elbow my
 way through tourists anymore. Nor was I as interested as I was before in exploring musuems and historical places. The
-brain can only hold so much.
+brain can only hold so much. One thing I enjoyed immensely were the flavour of the tomatoes! Every meal I had I was sure
+to have tomatoes as a part of it.
 
-### Switzerland
+## Watching Time Go By in Switzerland
 
 [{% img center /images/blog/career-break/swiss-home.medium.jpg 900 %}](/images/blog/career-break/swiss-home.jpg)
 
@@ -61,9 +62,16 @@ Over the those days I did the following:
   personal currency because everyone's exchange into Days will be different. We of course
   talked about our time in India and software development in Switzerland. We never really lacked of things to talk about
   the whole time I was there.
+* [{% img right /images/blog/career-break/swiss-bern.small.jpg 300 %}](/images/blog/career-break/swiss-bern.jpg) **Bern
+  Excursion** - Marc had a meetup with some of his colleagues and invited me out. I took a train out to Bern a few
+  hours before the meetup started so I could wander around a bit. It didn't take long for me to find the
+  [Kindlifresserbrunnen (Child Eater Fountain)][ogre] which is probably the most bizarre statue I've ever seen. The old
+  town was beautiful (like Antwerp, Bruges, Heidelberg, Prague, etc...) and of course I found a nearby
+  [brewery][bern-brewery] to quench my thirst for a bit before heading to meet up with Marc and his colleagues.
 * **Coffee shops** - During the day I looked to find cafes to hang out in and work on my blog (these posts seem to take me a
   heck of a lot of time). There was [one cafe][cafe] that I really liked. The staff were friendly, played good music, and the
-  coffee and beers available were very tasty. During this period I was getting a taste of what it would be like to work again.
+  coffee and beers available were very tasty. During this period I was getting working on my [CV][cv] and getting
+  excited about working again!
 * [{% img right /images/blog/career-break/swiss-bike.small.jpg 300 %}](/images/blog/career-break/swiss-bike.jpg) **Bike
   around Lake Thun** - The weather was hit-and-miss, but for one day there was excellent weather. I rented a bike and
   rode it to [Interlaken][interlaken] and back to Thun for a total of 60km. It was a beautiful ride, but I could feel that I'm a bit
@@ -77,6 +85,9 @@ Over the those days I did the following:
   didn't do tours in English so Marc played translator. Even in Swiss-German it was a fun tour. The guide was clearly
   passionate about the watches and the music devices.
 
+[ogre]: https://en.wikipedia.org/wiki/Kindlifresserbrunnen
+[bern-brewery]: http://www.altestramdepot.ch/htm/home.htm
+[cv]: http://careers.stackoverflow.com/scottmuc
 [cafe]: https://plus.google.com/106555922181396502598/about?hl=en
 [interlaken]: https://en.wikipedia.org/wiki/Interlaken
 [geneva]: https://en.wikipedia.org/wiki/Geneva
@@ -85,17 +96,27 @@ Over the those days I did the following:
 [oberhofen-castle]: http://www.schlossoberhofen.ch/en/home
 [watch-museum]: http://www.myswitzerland.com/en/museum-of-clocks-and-mechanical-musical-instruments.html
 
+[{% img left /images/blog/career-break/swiss-spiez.small.jpg 335 %}](/images/blog/career-break/swiss-spiez.jpg)
+[{% img left /images/blog/career-break/swiss-thun-canal.small.jpg 335 %}](/images/blog/career-break/swiss-thun-canal.jpg)
+[{% img left /images/blog/career-break/swiss-bridge.small.jpg 335 %}](/images/blog/career-break/swiss-bridge.jpg)
+
 Since I was in the land of clocks I was hoping to purchase a watch there. Something to be a symbol of taking time to
 enjoy life (a principle of my career break) and something to keep me from looking at my phone for the time. I was
 inspired by the intricate work that goes into making a watch and thought having one on my wrist would remind me to take
 pride in my work and take the necessary time to do it well. Unfortunately all the watch stores were posh and displayed
 ideas around prestige and fashion more than engineering. It switched off my idea of purchasing a watch for now.
 
+[{% img right /images/blog/career-break/swiss-currency.small.jpg 180 %}](/images/blog/career-break/swiss-currency.jpg)
 It was hard to leave Switzerland because I was growing comfortable there. The people were friendly and forgiving of my
 inability to speak any of the 4 official languages. Then again, paying over $30 (0.3 Days) was quickly draining my money
-reserves. At least the best part of Switzerland is free; the scenery.
+reserves. At least the best part of Switzerland is free; the scenery. Oh, and I also like how the currency folded nicely
+in my money clip. The notes are sized in such a way that the denomination of the note aligns in such a way that you can
+see all of your notes when folded! I can't say how many times I've had a roll of US notes and found that they were all
+$1 bills and I only had a total of $30 on me.
 
-### Vienna
+### &nbsp;
+
+## Composing my Thoughts in Vienna
 
 [{% img center /images/blog/career-break/vienna-cats.medium.jpg 900 %}](/images/blog/career-break/vienna-cats.jpg)
 
