@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rome, Switzerland, and Vienna" 
+title: "Rome, Switzerland, and Vienna"
 date: 2014-08-13 14:09:31 +0200
 comments: true
 published: false
@@ -101,13 +101,17 @@ reserves. At least the best part of Switzerland is free; the scenery.
 
 The next leg of my journey is a long train trip to L'viv, Ukraine. I decided to break up the trip with a stop in Vienna
 for a couple days. With only a couple days I had to pack in the sight-seeing. This was made easier with me being
-museumed-out so I was mostly checking things out from the outside. To make things easy, I found a great location with a
-host with a couple cats.
+museumed-out so I was mostly checking things out from the outside. To make things easy, I found a
+[great location][vienna-airbnb] with a host with a couple cats (pictured above).
 
-My first day was spent checking out the two largest palaces in Vienna. The highlight was a stop at a brewery just
-outside the Belvedere palace. The service was great, the food yummy, and every beer tasty. After 1.5L of beer I was set
+[vienna-airbnb]: https://www.airbnb.com/rooms/1531563
+
+My first day was spent checking out the two largest palaces in Vienna. The highlight was a stop at a [brewery][salm-brau] just
+outside the [Belvedere][belvedere] palace. The service was great, the food yummy, and every beer tasty. After 1.5L of beer I was set
 for [Schönbrunn][schonbrunn] palace. I took the metro there and climb up the hill to Gloriette and had a little nap on the grass there.
 
+[belvedere]: https://en.wikipedia.org/wiki/Belvedere_(palace)
+[salm-brau]: http://www.salmbraeu.com/index.php?id=2&L=1
 [schonbrunn]: https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace
 
 [{% img left /images/blog/career-break/vienna-belvedere.small.jpg 335 %}](/images/blog/career-break/vienna-belvedere.jpg)
@@ -115,11 +119,10 @@ for [Schönbrunn][schonbrunn] palace. I took the metro there and climb up the hi
 [{% img left /images/blog/career-break/vienna-center.small.jpg 335 %}](/images/blog/career-break/vienna-center.jpg)
 
 The next day I used a city bike rental. I'm glad I did because I saw a very different Vienna. First stop was to checkout
-the [Hundertwasserhaus][hundertwasserhaus]. It was so interesting and pretty that I wondered why beauitiful buildings
+the [Hundertwasserhaus][hundertwasserhaus]. It was so interesting and pretty that I wondered why beautiful buildings
 like it had to be the exception to the rule. His [website][hundertwasser] is full of interesting ideas. His 5-skins
 concept is one I find myself conflicted about. I wonder what it would have been like to have him and
 [Gene Roddenberry][gene-roddenberry] had a conversation.
-
 
 I then went through [Prater][prater] which was a scary amusement park. The weather was a bit gloomy and there were some
 giant clown shaped buildings that made me think of the book IT.
@@ -129,11 +132,12 @@ a bit more distance so I went towards the bridge and crossed North to [Donaucity
 story! The streets were stark and there was a cold feeling to the area. I rode away to the nearby park and found it odd
 to see such a large expanse of greenery vacant on a Saturday afternoon. It reminded me again that big design up front
 for cities does not work. What you end up with is something functional but complete devoid of any human feel. After
-riding back to the center I parked the bike at another area and checked out another brewery. I think I went there during
-shift change because it took a long time to get the attention of a waitress. The beer and the currywurst was really
+riding back to the center I parked the bike at another area and checked out another [brewery][1516-brewery]. I think I
+went there during shift change because it took a long time to get the attention of a waitress. The beer and the currywurst was really
 good, but the poor service at the obnoxious sounding Australian behind me (probably was just my mood) was wearing me
-down and I took the metro back to the apartment.
+down and I took the metro back to the apartment and hung out in the flat with Roman and his cats.
 
+[1516-brewery]: http://www.1516brewingcompany.com/cms/
 [hundertwasserhaus]: https://en.wikipedia.org/wiki/Hundertwasser_Haus
 [hundertwasser]: http://www.hundertwasser.com/
 [gene-roddenberry]: https://en.wikipedia.org/wiki/Gene_Roddenberry
