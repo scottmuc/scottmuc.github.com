@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Pester | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/pester/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-08-28T22:30:36+03:00</updated>
+  <updated>2014-10-13T12:15:16+05:30</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Growing an Open Source Project: The Pester Story]]></title>
     <link href="http://scottmuc.com/growing-an-open-source-project-the-pester-story/"/>
-    <updated>2014-08-07T18:50:58+03:00</updated>
+    <updated>2014-08-07T21:20:58+05:30</updated>
     <id>http://scottmuc.com/growing-an-open-source-project-the-pester-story</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/pester/Pester"><img src="/images/blog/github-pester.png"></a></p>
 
@@ -124,7 +124,7 @@ Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent
   <entry>
     <title type="html"><![CDATA[Testing Powershell Code That Talks to CLR Objects]]></title>
     <link href="http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects/"/>
-    <updated>2014-06-06T03:39:41+03:00</updated>
+    <updated>2014-06-06T06:09:41+05:30</updated>
     <id>http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects</id>
     <content type="html"><![CDATA[<p>Several months ago someone posted an excellent question on the <a href="https://groups.google.com/forum/#!topic/pester/Y8UzSiNlcSE">Pester Group</a> about a certain problem area
 in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
@@ -353,7 +353,7 @@ testing framework to be able to do for me though.</p>
   <entry>
     <title type="html"><![CDATA[PowerShell Pester 2 and 1.2 Released!]]></title>
     <link href="http://scottmuc.com/powershell-pester-2-and-1-dot-2-released/"/>
-    <updated>2013-02-02T15:34:00+02:00</updated>
+    <updated>2013-02-02T15:34:00+05:30</updated>
     <id>http://scottmuc.com/powershell-pester-2-and-1-dot-2-released</id>
     <content type="html"><![CDATA[<p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
 
@@ -511,7 +511,7 @@ possible. I think version 2 should be a fairly stable version of Pester.</p>
   <entry>
     <title type="html"><![CDATA[PowerShell BDD Testing - Pester Screencast]]></title>
     <link href="http://scottmuc.com/blog/development/powershell-bdd-testing-pester-screencast/"/>
-    <updated>2011-08-25T11:16:00+03:00</updated>
+    <updated>2011-08-25T11:16:00+05:30</updated>
     <id>http://scottmuc.com/blog/development/powershell-bdd-testing-pester-screencast</id>
     <content type="html"><![CDATA[<p>A few months ago I posted a simple tutorial on how to use <a href="http://scottmuc.com/blog/development/pester-bdd-for-the-system-administrator/">Pester (a powershell bdd testing framework)</a>. I&rsquo;m starting to practice the making of screencasts so I thought I would add some audio/visual to the blog post. I start rambling in the last 5 minutes so I won&rsquo;t feel insulted if you stop paying attention after that part.</p>
 
@@ -524,7 +524,7 @@ possible. I think version 2 should be a fairly stable version of Pester.</p>
   <entry>
     <title type="html"><![CDATA[Pester - PowerShell BDD Style Testing for the System Administrator]]></title>
     <link href="http://scottmuc.com/blog/development/pester-bdd-for-the-system-administrator/"/>
-    <updated>2011-05-11T20:05:00+03:00</updated>
+    <updated>2011-05-11T20:05:00+05:30</updated>
     <id>http://scottmuc.com/blog/development/pester-powershell-bdd-style-testing-for-the-system-administrator</id>
     <content type="html"><![CDATA[<p>Hi there and welcome to my demo of Pester, a BDD style testing framework for Powershell. The creation of Pester came out of the desire to test some build/deployment infrastructure we were creating for a project. We wrote nearly all the code without tests and it came to bite us in the end. I wanted to find a way ensure these problems didn&rsquo;t happen again as well as provide some code coverage to give new entrants to the codebase some confidence that they won&rsquo;t break everything.</p>
 
