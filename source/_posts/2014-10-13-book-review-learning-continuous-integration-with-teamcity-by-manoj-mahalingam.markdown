@@ -44,8 +44,10 @@ screenshots so that it's absolutely clear and won't take too long to go through 
 experienced with some tools the principles around CI and good build hygiene, this book is useful to skim to see what's
 new with TeamCity and some context of the usage of TeamCity specific features.
 
-You can find more information about Manoj at his [twitter account][twitter], and [website][website].
+You can find more information about Manoj at his [twitter account][twitter], on [stackoverflow][stackoverflow], or his
+[website][website].
 
 [twitter]: https://twitter.com/manojlds
 [website]: http://stacktoheap.com/
+[stackoverflow]: http://stackoverflow.com/users/526535/manojlds
 
