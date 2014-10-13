@@ -68,7 +68,7 @@
         <loc>
             http://scottmuc.com/blog/reviews/book-review-the-art-of-unit-testing-by-roy-osherove/
         </loc>
-        <lastmod>2014-05-13T07:33:22+05:30</lastmod>
+        <lastmod>2014-10-13T18:06:53+05:30</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/</loc>
@@ -223,12 +223,18 @@
         <lastmod>2014-10-13T12:10:25+05:30</lastmod>
     </url>
     <url>
+        <loc>
+            http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/
+        </loc>
+        <lastmod>2014-10-13T21:26:25+05:30</lastmod>
+    </url>
+    <url>
         <loc>http://scottmuc.com/blog/archives/</loc>
-        <lastmod>2014-10-13T12:10:25+05:30</lastmod>
+        <lastmod>2014-10-13T21:26:25+05:30</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/</loc>
-        <lastmod>2014-10-13T12:10:25+05:30</lastmod>
+        <lastmod>2014-10-13T21:26:25+05:30</lastmod>
     </url>
     <url>
         <loc>http://scottmuc.com/robots.txt</loc>
