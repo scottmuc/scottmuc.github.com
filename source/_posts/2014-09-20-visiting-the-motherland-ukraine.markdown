@@ -30,10 +30,9 @@ Even with such a long journey the train pretty much arrived on time within a cou
 immediately could recognize my cousin [Lilia][lilia-twitter]. She ran up to me and gave me a proper family style hug. Looks like I’m
 home! We took a bus to her home in the Northern part of the city. I was introduced to her roommate,
 [Vitalik][vitalik-twitter]. He and I got along really well. He’s a web designer and looks to have a knack for it!
-Lilia had to go back to work so I unpacked
-and made myself at home. Later that evening Lilia’s sister, Natalia, arrived by train from [Ternopil][ternopil]. She had a huge
-package of food from her parents and we all enjoyed a feast as I did my best to tell the story  myself and the Myц family
-history in Canada.
+Lilia had to go back to work so I unpacked and made myself at home. Later that evening Lilia’s sister, Natalia, arrived
+by train from [Ternopil][ternopil]. She had a huge package of food from her parents and we all enjoyed a feast as I
+did my best to tell the story of myself and the Myц family Canadian history.
 
 [lilia-twitter]: https://twitter.com/RusalkaUA
 [vitalik-twitter]: https://twitter.com/uPadavan
