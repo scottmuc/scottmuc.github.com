@@ -9,7 +9,7 @@ categories:
 ---
 {% img right /images/blog/podcasts/podcast.jpg 300 %}
 It's quite surprising that I haven't really brought up the topic of [podcasts][podcast-wiki] on my blog considering that
-I've been consuming them for almost 10 years! My methods and taste have changed a lot over the years, but I want a place
+I've been consuming them for almost 10 years! My methods and taste have changed a lot over the years. I want a place
 to point people when asked about what podcasts I listen to, and with a little more context than just a pure list.
 
 [podcast-wiki]: https://en.wikipedia.org/wiki/Podcast
@@ -29,72 +29,137 @@ now. Most importantly, it allows me to export my subscribed shows as an [OPML fi
 [pocketcasts]: http://www.shiftyjelly.com/android/pocketcasts
 [podcasts-opml]: /podcasts_opml.xml
 
-## The List
+##The List
 
 Podcasts are a great way to tap into interests of all different types. You'll notice that only a few are related to my
-professional life. Something that's occured to me is that listening to podcasts is a wonderful activity and I do get a
-lot out of them, there becomes a point where you've found too much good content and there isn't enough time to listen to
-them all.
+professional life. Listening to podcasts is a wonderful activity and I do get a lot out of them, there becomes a point
+where you've found too much good content and there isn't enough time to listen to them all.
 
-### Economics
+## Economics
 
-{% img left /images/blog/podcasts/econtalk.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-econtalk-rss]
-[EconTalk][podcast-econtalk]: I begun listening to this show at the beginning of my [career break][career-break]. The
+###[EconTalk][podcast-econtalk][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-econtalk-rss]
+
+{% img right /images/blog/podcasts/econtalk.jpg 200 %}
+I begun listening to this show at the beginning of my [career break][career-break]. The
 host, [Russ Roberts][russ-roberts], does a great job of letting the guests speak without pushing his views too often.
 It's honestly changed how I think about problems in the world and how to best approach them. Economics is becoming a
-tool that I use to help me understand how things are, and how to possibly alter them.
+tool that I use to help me understand how things are, and how to possibly alter them. The talks are well balanced and
+help me see the other side of issues that I normally don't think of. When a new episode appears I look forward to
+listening to it regardless of the topic!
+
+**Favourites:**
+
+* [Charles Marohn on Strong Towns, Urban Development, and the Future of American Cities][strong-towns] - Conversations
+  around city design always fascinates me. There's a spectrum of that's a lot harder to accomplish than most people
+  realize. Living in an overly-designed city can be soul crushing, and a zero designed city can be too stressful.
+* [Yuval Levin on Burke, Paine, and the Great Debate][great-debate] - The difference between the right and left had been
+  something I hadn't thought deeply about. This conversation made me realize I'm more right thinking than I thought. It
+  also made me understand that neither are "bad".
+* [Martha Nussbaum on Creating Capabilities and GDP][gdp] - There are other conversations around GDP, but this one
+  really stood out to me. I think Martha does an exceptional job of explaining how GDP is not a sufficient metric and
+  that we still have a long way to go to get people to the top of Maslow's Hierarchy.
 
 [podcast-econtalk]: http://www.econtalk.org/
 [podcast-econtalk-rss]: http://www.econtalk.org/rss.xml
 [russ-roberts]: http://russroberts.info/
 [career-break]: /blog/categories/career-break/
+[strong-towns]: http://www.econtalk.org/archives/2014/05/charles_marohn.html
+[great-debate]: http://www.econtalk.org/archives/2014/05/yuval_levin_on.html
+[gdp]: http://www.econtalk.org/archives/2014/09/martha_nussbaum.html
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/freakonomics.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-freakonomics-rss]
-[Freakonomics Radio][podcast-freakonomics]: Sometimes hit or miss. Strives to be entertaining more than educational
-sometimes, but overall the content is quite good. I identify a bit with [Steve Levitt][steve-levitt] as he's more of an
-intrspective quiet person.
+###[Freakonomics Radio][podcast-freakonomics][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-freakonomics-rss]
 
+{% img right /images/blog/podcasts/freakonomics.jpg 200 %}
+Sometimes hit or miss. Strives to be entertaining more than educational
+sometimes, but overall the content is quite good. I identify a bit with [Steve Levitt][steve-levitt] as he's more of an
+intrespective quiet person.
+
+**Favourites:**
+
+* [Regulate This!][regulate-this] - As a user of services like Uber and Airbnb, it's interesting to hear the issues that
+  these services raise. I find myself leaning towards the side of less regulation, but I still can't figure out where
+  the balance is. The term "sharing economy" also drives me nuts, because sharing implies no charge to me. These are
+  just peer-to-peer market places enabled by technology.
+* [Fitness Apartheid][fitness-apartheid] - An excellent example of how too little thought around a problem can lead to
+  bad consequences. It brings the concerns of both sides together and makes the listener understand that nothing is ever
+  as simple as you think it ought to be.
+* [The Upside of Quitting][upside-of-quitting] - Very fitting for my [career break][career-break].
+* [Failure is your Friend][failure-is-your-friend] - A follow up to the previous episode.
+
+[regulate-this]: http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/
+[fitness-apartheid]: http://freakonomics.com/2014/09/25/fitness-apartheid-a-new-freakonomics-radio-podcast/
+[upside-of-quitting]: http://freakonomics.com/2014/05/29/the-upside-of-quitting-a-freakonomics-radio-rebroadcast/
+[failure-is-your-friend]: http://freakonomics.com/2014/06/05/failure-is-your-friend-a-new-freakonomics-radio-podcast/
 [podcast-freakonomics]: http://www.wnyc.org/shows/freakonomics-radio/
 [podcast-freakonomics-rss]: http://feeds.feedburner.com/freakonomicsradio
 [steve-levitt]: https://en.wikipedia.org/wiki/Steven_Levitt
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/planetmoney.png 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-planet-money-rss]
-[Planet Money][podcast-planet-money]: Short and to the point episodes that focus on very specific topics or issues. I
+###[Planet Money][podcast-planet-money][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-planet-money-rss]
+
+{% img right /images/blog/podcasts/planetmoney.png 200 %}
+Short and to the point episodes that focus on very specific topics or issues. I
 like this show because the pieces are bite-sized and frequently released. I find myself listening to this show when I
 have to wait 15 minutes before something.
 
+**Favourites:**
+
+* [Why Raising Money for Ebola is Hard][ebola] - Excellent insights around why we give, and the pychology of charity.
+* [A Mall Divided][mall-divided] - A peak into how economic policy can distrupt small businesses.
+* [Blockbusters, Bombs, and the Price of a Ticket][movie-prices] - I had never put much thought into the cost of a movie
+  ticket, this episode explains all the details of why tickets cost the same regardless if it's sold-out or empty.
+
+[ebola]: http://www.npr.org/blogs/money/2014/09/26/351515481/episode-571-why-raising-money-for-ebola-is-hard
+[mall-divided]: http://www.npr.org/blogs/money/2014/08/22/342232976/episode-562-a-mall-divided
+[movie-prices]: http://www.npr.org/blogs/money/2014/07/11/330680385/episode-552-blockbusters-bombs-and-the-price-of-a-ticket
 [podcast-planet-money]: http://www.npr.org/blogs/money/
 [podcast-planet-money-rss]: http://www.npr.org/rss/podcast.php?id=510289
 
 <br style="clear:both;" />
 
-### Startups
+## Startups
 
-{% img left /images/blog/podcasts/a16z.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-a16z-rss]
-[a16z][podcast-a16z]: Getting into the startup world is not something I'm terribly interested in, but I am critical
+###[a16z][podcast-a16z][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-a16z-rss]
+
+{% img right /images/blog/podcasts/a16z.jpg 200 %}
+Getting into the startup world is not something I'm terribly interested in, but I am critical
 about the tech community, especially startups. This show helps me better understand the world of startups so I can
 better understand the mechanics of startups.
 
+**Favourites:**
+
+* [Everything You Need to Know About Amazon][amazon] - Explanation of how Amazon re-invests all of its profits to avoid
+  opportunity costs is a novel concept. Not sure why investors are ok with it. Makes me more curious about what Amazon
+  will be doing 20-30 years from now.
+* [Creating New Silicon Valleys][silicon-valleys] - When something becomes trendy, people always want to figure out how
+  to replicate it. This episode explains how cultures are emergent, not created. Common sense it would seem, but that
+  doesn't seem to really stop people. I feel the same around the topic of [DevOps][devops].
+
+[amazon]: http://a16z.com/2014/09/05/a16z-podcast-everything-you-need-to-know-about-amazon/
+[silicon-valleys]: http://a16z.com/2014/09/30/a16z-podcast-creating-new-silicon-valleys/
 [podcast-a16z]: http://a16z.com/tag/podcast/
 [podcast-a16z-rss]: http://feeds.soundcloud.com/users/soundcloud:users:62921190/sounds.rss
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/startup.png 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-startup-rss]
-[StartUp][podcast-startup]: A podcast about a podcast startup. It mixes so many of my favourite things into one show.
+###[StartUp][podcast-startup][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-startup-rss]
+
+{% img right /images/blog/podcasts/startup.png 200 %}
+A podcast about a podcast startup. It mixes so many of my favourite things into one show.
 Fantastic storytelling about a medium I'm passionate about and a domain that I want to learn more of. What connects
 me to the show is that [Alex Blumberg][alex-blumberg] just wants to work on something he's passionate about, but has to wade through all
 sorts of concerns completely separate from what he really wants to do, because that's business.
 
+**Favourites:**
+
+* [Startups are Risky Business][risky-business] - This gave me insight around the different VC models. I used to think
+  that they are all looking for the 100x payoff. I need to learn more about the more modest investments out there.
+  Sometimes you can invest in something simply because you want it to exist.
+
+[risky-business]: http://hearstartup.com/episodes/gbm3498ruf7abd4owt4xs20uck1cvn
 [podcast-startup]: http://hearstartup.com/
 [podcast-startup-rss]: http://feeds.hearstartup.com/hearstartup
 [alex-blumberg]: https://twitter.com/abexlumberg
@@ -103,71 +168,117 @@ sorts of concerns completely separate from what he really wants to do, because t
 
 ### Culture and Curiosities
 
-{% img left /images/blog/podcasts/tapestry.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-tapestry-rss]
-[Tapestry][podcast-tapestry]: Getting into the spiritual side a bit. This show talks about culture and religion with an
-open mind. The show reminds me to appreciate the differences between all of us on this rock.
+###[99% Invisible][podcast-99pi][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-99pi-rss]
 
-[podcast-tapestry]: http://www.cbc.ca/tapestry/index.html
-[podcast-tapestry-rss]: http://www.cbc.ca/podcasting/includes/tapestry.xml
+{% img right /images/blog/podcasts/99pi.png 200 %}
+Now one of my favourites. You never know what to expect with this show because the
+enigmatic host, [Roman Mars][roman-mars], always finds something interesting that you likely have no idea about.
+
+**Favourites (all of them):**
+
+* [Thomassons][thomassons] - I dare you to listen to this episode and not look for Thomassons wherever you go!
+* [The Straight Line is a Godless Line][straight-line] - Given that I was in Vienna and saw the Hundertwasserhaus, it
+  was very interesting to hear more about the architect. I love the fact that people like him exist, though I may not
+  want to completely follow his lead.
+* [Clean Trains][clean-trains] - There are so many applications to the lesson of this episode. Frequent and consistent
+  feedback is necessary to promote any change.
+
+[thomassons]: http://99percentinvisible.org/episode/thomassons/
+[straight-line]: http://99percentinvisible.org/episode/the-straight-line-is-a-godless-line/
+[clean-trains]: http://99percentinvisible.org/episode/clean-trains/
+[podcast-99pi]: http://99percentinvisible.org/
+[podcast-99pi-rss]: http://feeds.99percentinvisible.org/99percentinvisible
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/whitecoat.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-white-coat-black-art-rss]
-[White Coat Black Art][podcast-white-coat-black-art]: The health care system is usually a bit of a black box and this
-show provides some visibility into how things work.
+###[RadioLab][podcast-radiolab][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-radiolab-rss]
 
-[podcast-white-coat-black-art]: http://www.cbc.ca/whitecoat/index.html
-[podcast-white-coat-black-art-rss]: http://www.cbc.ca/podcasting/includes/whitecoat.xml
+{% img right /images/blog/podcasts/radiolab.png 200 %}
+One of the pioneers in story-telling podcasts. I've been away from it for a while and have re-subscribed as I've been
+missing the excellent stories.
 
-<br style="clear:both;" />
+**Favourites:**
 
-{% img left /images/blog/podcasts/radiolab.png 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-radiolab-rss]
-[RadioLab][podcast-radiolab]: One of the pioneers in story-telling podcasts.
+* [Emergence](http://www.radiolab.org/story/91500-emergence/) - This episode is from 2007 and it still comes up as one
+  of the more influencial podcast episodes I've listened to. I'm a control freak and find the concept of emergence hard
+  to understand. A top-down controller is easier for me to understand. This episode reminds me to rethink how things
+  ought to be and be more flexible.
 
 [podcast-radiolab]: http://www.radiolab.org/
 [podcast-radiolab-rss]: http://feeds.wnyc.org/radiolab
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/ted-radio-hour.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-ted-radio-hour-rss]
-[TED Radio Hour][podcast-ted-radio-hour]: Episodes are themed around TED talks of similar topics. It blends interviews
-with the speakers along with their talks. I find this more rich than the talk on its own.
+###[TED Radio Hour][podcast-ted-radio-hour][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ted-radio-hour-rss]
+
+{% img right /images/blog/podcasts/ted-radio-hour.jpg 200 %}
+Episodes are themed around TED talks of similar topics. It blends interviews with the speakers along with their talks.
+I find this more rich than the talk on its own.
+
+**Favourites:**
+
+* [The Violence Within Us][violence] - Sort of a scary episode, but it helps me understand that life is always in a
+  delicate balance. We'll never live in a world where everyone is good. I tend to be utopian in my thinking and this
+  provides a good dose of reality.
+* [What is Original][original] - The thought of being unique and interesting is something everyone craves, but in the
+  end most of things are derivitive. This episode is good to pair with the 99% Invisible episode:
+  [Duplitecture][duplitecture].
+* [Identities][identities] - The next few generations of humans are going to have a much different concept about their
+  identity. We are more global and cross-cultural than ever before.
+
+[duplitecture]: http://99percentinvisible.org/episode/duplitecture/
+[violence]: http://www.npr.org/2013/03/28/175609678/the-violence-within-us?showDate=2014-08-08
+[original]: http://www.npr.org/programs/ted-radio-hour/321797073/what-is-original?showDate=2014-06-27
+[identities]: http://www.npr.org/2013/10/06/229879937/identities?showDate=2014-02-21
 
 [podcast-ted-radio-hour]: http://www.npr.org/programs/ted-radio-hour/
 [podcast-ted-radio-hour-rss]: http://www.npr.org/rss/podcast.php?id=510298
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/99pi.png 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-99pi-rss]
-[99% Invisible][podcast-99pi]: Now one of my favourites. You never know what to expect with this show because the
-enigmatic host, [Roman Mars][roman-mars], always finds something interesting that you likely have no idea about.
+###[Tapestry][podcast-tapestry][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-tapestry-rss]
 
-[podcast-99pi]: http://99percentinvisible.org/
-[podcast-99pi-rss]: http://feeds.99percentinvisible.org/99percentinvisible
+{% img right /images/blog/podcasts/tapestry.jpg 200 %}
+Getting into the spiritual side a bit. This show talks about culture and religion with an
+open mind. The show reminds me to appreciate the differences between all of us on this rock. I used to listen to this
+show all the time when I lived in Canada. I just recently subscribed to the podcast.
+
+[podcast-tapestry]: http://www.cbc.ca/tapestry/index.html
+[podcast-tapestry-rss]: http://www.cbc.ca/podcasting/includes/tapestry.xml
 
 <br style="clear:both;" />
 
-### Music
+###[White Coat Black Art][podcast-white-coat-black-art][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-white-coat-black-art-rss]
 
-{% img left /images/blog/podcasts/cbcradio3.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-cbcradio3-rss]
-[CBC Radio 3][podcast-cbcradio3]: It's likely that I'm a bit biased, but this is where I discover new music. I worked
+{% img right /images/blog/podcasts/whitecoat.jpg 200 %}
+The health care system is usually a bit of a black box and this show provides some visibility into how things work. Like
+tapestry, this was a show I used to listen to all the time when I lived in Canada. Recently subscribed to feel that
+connection back to where I came from.
+
+[podcast-white-coat-black-art]: http://www.cbc.ca/whitecoat/index.html
+[podcast-white-coat-black-art-rss]: http://www.cbc.ca/podcasting/includes/whitecoat.xml
+
+<br style="clear:both;" />
+
+## Music
+
+###[CBC Radio 3][podcast-cbcradio3][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-cbcradio3-rss]
+
+{% img right /images/blog/podcasts/cbcradio3.jpg 200 %}
+It's likely that I'm a bit biased, but this is where I discover new music. I worked
 there from 2005-2009 during the rise of the podcast. I can attest to the quality of the curation of the content coming
-from the folks at Radio 3.
+from the folks at Radio 3. The superfeed subscribes you to all the different podcasts published by Radio 3, though I
+don't think there are as many shows as there used to be.
 
 [podcast-cbcradio3]: http://music.cbc.ca/radio3/
 [podcast-cbcradio3-rss]: http://www.cbcradio3.com/podcast/
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/songexploder.png 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-song-exploder-rss]
-[Song Exploder][podcast-song-exploder]: This show satifies my curiosity about how a song gets made. It also makes me
+###[Song Exploder][podcast-song-exploder][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-song-exploder-rss]
+
+{% img right /images/blog/podcasts/songexploder.png 200 %}
+This show satifies my curiosity about how a song gets made. It also makes me
 appreciate songs that I wouldn't have given a second listen. By listening to this show, you can disover new artists, and
 you'll learn how to listen to music and grow appreciation for the more subtle elements of song composition.
 
@@ -176,23 +287,24 @@ you'll learn how to listen to music and grow appreciation for the more subtle el
 
 <br style="clear:both;" />
 
+## Tech / Programming
 
-### Tech / Programming
+###[Spark][podcast-spark][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-spark-rss]
 
-{% img left /images/blog/podcasts/spark.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-spark-rss]
-[Spark][podcast-spark]: A Canadian look into the technical world.
+{% img right /images/blog/podcasts/spark.jpg 200 %}
+A Canadian look into the technical world. Always nice to hear a Canadian perspective of what's going on. Hopefully
+because it's created by the CBC, there isn't any product/partner agenda.
 
 [podcast-spark]: http://www.cbc.ca/spark/index.html
 [podcast-spark-rss]: http://www.cbc.ca/podcasting/includes/spark.xml
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/giantrobots.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-giant-robots-rss]
-[Giant Robots Smashing into Other Giant Robots][podcast-giant-robots]: Not quite a technical podcast, but it shares
-stories from the software development world. I became a fan of [Ben Orenstein][ben-orenstein] when I saw him do a
-play-by-play screencast. He strikes me as someone I would enjoy working with.
+###[Giant Robots Smashing into Other Giant Robots][podcast-giant-robots][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-giant-robots-rss]
+
+{% img right /images/blog/podcasts/giantrobots.jpg 200 %}
+Not quite a technical podcast, but it shares stories from the software development world. I became a fan of
+[Ben Orenstein][ben-orenstein] when I saw him do a play-by-play screencast. He strikes me as someone I would enjoy working with.
 
 [ben-orenstein]: https://twitter.com/r00k
 [podcast-giant-robots]: http://podcasts.thoughtbot.com/giantrobots
@@ -200,9 +312,10 @@ play-by-play screencast. He strikes me as someone I would enjoy working with.
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/shipshow.jpg 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-ship-show-rss]
-[The Ship Show][podcast-ship-show]: Co-started by an old on-line friend of mine, [Youssuf Elkalay][youssuf-elkalay].
+###[The Ship Show][podcast-ship-show][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ship-show-rss]
+
+{% img right /images/blog/podcasts/shipshow.jpg 200 %}
+Co-started by an old on-line friend of mine, [Youssuf Elkalay][youssuf-elkalay].
 I like the conversational style of this show as a way to keep me in the loop in the world of [DevOps][devops].
 
 [youssuf-elkalay]: https://twitter.com/buildscientist
@@ -212,12 +325,21 @@ I like the conversational style of this show as a way to keep me in the loop in 
 
 <br style="clear:both;" />
 
-{% img left /images/blog/podcasts/healthyhacker.png 160 %}
-[<img src="/images/feed-icon-14x14.png" style="border:none;padding-right:5px;" />][podcast-healthyhacker-rss]
-[HealthyHacker][podcast-healthyhacker]: This one is fairly new and I've already become a fan. [Chris Hunt][chris-hunt]
-delivers his show in a charming style. He discusses being healthy, and what's interesting in the software world. All to
-the tune of a catchy theme song.
+###[HealthyHacker][podcast-healthyhacker][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-healthyhacker-rss]
 
+{% img right /images/blog/podcasts/healthyhacker.png 200 %}
+This one is fairly new and I've already become a fan. [Chris Hunt][chris-hunt]
+delivers his show in a charming style. He discusses being healthy, and what's interesting in the software world. All to
+the tune of a catchy theme song. Now I just need to get into the habit of doing the workout of the week.
+
+**Favourites:**
+
+* [Pineapple in Your Pocket][pineapple] - I try and use this memorization technique as frequently as possible!
+* [Codecation][codecation] - The story of Chris and Ben meeting up for a codecation was inspiring. I would like to do
+  something similar at some point.
+
+[pineapple]: http://www.healthyhacker.com/2014/08/04/pineapple-in-your-pocket/
+[codecation]: http://www.healthyhacker.com/2014/09/29/codecation/
 [chris-hunt]: https://twitter.com/chrishunt
 [podcast-healthyhacker]: http://www.healthyhacker.com/
 [podcast-healthyhacker-rss]: http://www.healthyhacker.com/feed.xml
@@ -227,8 +349,14 @@ the tune of a catchy theme song.
 ## Summary
 
 There are a lot of podcasts here and I'm constantly re-evaluating which ones should remain. Finding the balance of time
-and value is hard to figure out. Currently I'm unemployed making it a lot easier to consume this much content.
+and value is hard to figure out. Currently I'm unemployed making it a lot easier to consume this much content. I also
+listen to tech specific podcasts when I'm spending some time in that technology. A good example of that would be the
+[ruby rogues][ruby-rogues] podcast. Or, I may take a look at [HanselMinutes][hanselminutes] to see if something
+interesting has come up.
 
 To subscribe to all the same podcasts that I do, import this [OPML][podcasts-opml] file into your favourite podcast
 listening software.
+
+[ruby-rogues]: http://rubyrogues.com/
+[hanselminutes]: http://hanselminutes.com/
 
