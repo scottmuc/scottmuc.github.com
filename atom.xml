@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-10-14T14:08:10+05:30</updated>
+  <updated>2014-10-17T13:44:41+05:30</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,321 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Valuable Links - Podcasts]]></title>
+    <link href="http://scottmuc.com/valuable-links-podcasts/"/>
+    <updated>2014-10-16T11:59:46+05:30</updated>
+    <id>http://scottmuc.com/valuable-links-podcasts</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/podcast.jpg" width="300">
+It&rsquo;s quite surprising that I haven&rsquo;t really brought up the topic of <a href="https://en.wikipedia.org/wiki/Podcast">podcasts</a> on my blog considering that
+I&rsquo;ve been consuming them for almost 10 years! My methods and taste have changed a lot over the years. I want a place
+to point people when asked about what podcasts I listen to, and with a little more context than just a pure list.</p>
+
+<h2>Software / Tools</h2>
+
+<p>A podcast is such a simple concept (from the technical side) that it allows for a lot of tools and applications to be
+created around the idea. Nowadays I pretty much use a single application on my phone. I&rsquo;m generally only concerned with
+the mobile experience since I try to listen to podcasts when I&rsquo;m on the move and when I&rsquo;m not focusing on work. Ask me
+to listen to a podcast while programming and you&rsquo;ll discover that I won&rsquo;t be able to recall anything from the podcast
+(or that I don&rsquo;t do any programming). The application I use is <a href="http://www.shiftyjelly.com/android/pocketcasts">PocketCasts</a>. The homepage is full of
+hyperbole and non-truthes (eg: &hellip; deliver the updates instantly&hellip;), but it&rsquo;s an alright application and fits my needs for
+now. Most importantly, it allows me to export my subscribed shows as an <a href="https://en.wikipedia.org/wiki/Opml">OPML file</a> which I&rsquo;ve made
+<a href="http://scottmuc.com/podcasts_opml.xml">available to you</a>.</p>
+
+<h2>The List</h2>
+
+<p>Podcasts are a great way to tap into interests of all different types. You&rsquo;ll notice that only a few are related to my
+professional life. Listening to podcasts is a wonderful activity and I do get a lot out of them, there becomes a point
+where you&rsquo;ve found too much good content and there isn&rsquo;t enough time to listen to them all.</p>
+
+<h2>Economics</h2>
+
+<h3><a href="http://www.econtalk.org/">EconTalk</a><a href="http://www.econtalk.org/rss.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/econtalk.jpg" width="200">
+I begun listening to this show at the beginning of my <a href="http://scottmuc.com/blog/categories/career-break/">career break</a>. The
+host, <a href="http://russroberts.info/">Russ Roberts</a>, does a great job of letting the guests speak without pushing his views too often.
+It&rsquo;s honestly changed how I think about problems in the world and how to best approach them. Economics is becoming a
+tool that I use to help me understand how things are, and how to possibly alter them. The talks are well balanced and
+help me see the other side of issues that I normally don&rsquo;t think of. When a new episode appears I look forward to
+listening to it regardless of the topic!</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://www.econtalk.org/archives/2014/05/charles_marohn.html">Charles Marohn on Strong Towns, Urban Development, and the Future of American Cities</a> &ndash; Conversations
+around city design always fascinates me. There&rsquo;s a spectrum of that&rsquo;s a lot harder to accomplish than most people
+realize. Living in an overly-designed city can be soul crushing, and a zero designed city can be too stressful.</li>
+<li><a href="http://www.econtalk.org/archives/2014/05/yuval_levin_on.html">Yuval Levin on Burke, Paine, and the Great Debate</a> &ndash; The difference between the right and left had been
+something I hadn&rsquo;t thought deeply about. This conversation made me realize I&rsquo;m more right thinking than I thought. It
+also made me understand that neither are &ldquo;bad&rdquo;.</li>
+<li><a href="http://www.econtalk.org/archives/2014/09/martha_nussbaum.html">Martha Nussbaum on Creating Capabilities and GDP</a> &ndash; There are other conversations around GDP, but this one
+really stood out to me. I think Martha does an exceptional job of explaining how GDP is not a sufficient metric and
+that we still have a long way to go to get people to the top of Maslow&rsquo;s Hierarchy.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://www.wnyc.org/shows/freakonomics-radio/">Freakonomics Radio</a><a href="http://feeds.feedburner.com/freakonomicsradio"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/freakonomics.jpg" width="200">
+Sometimes hit or miss. Strives to be entertaining more than educational
+sometimes, but overall the content is quite good. I identify a bit with <a href="https://en.wikipedia.org/wiki/Steven_Levitt">Steve Levitt</a> as he&rsquo;s more of an
+intrespective quiet person.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/">Regulate This!</a> &ndash; As a user of services like Uber and Airbnb, it&rsquo;s interesting to hear the issues that
+these services raise. I find myself leaning towards the side of less regulation, but I still can&rsquo;t figure out where
+the balance is. The term &ldquo;sharing economy&rdquo; also drives me nuts, because sharing implies no charge to me. These are
+just peer-to-peer market places enabled by technology.</li>
+<li><a href="http://freakonomics.com/2014/09/25/fitness-apartheid-a-new-freakonomics-radio-podcast/">Fitness Apartheid</a> &ndash; An excellent example of how too little thought around a problem can lead to
+bad consequences. It brings the concerns of both sides together and makes the listener understand that nothing is ever
+as simple as you think it ought to be.</li>
+<li><a href="http://freakonomics.com/2014/05/29/the-upside-of-quitting-a-freakonomics-radio-rebroadcast/">The Upside of Quitting</a> &ndash; Very fitting for my <a href="http://scottmuc.com/blog/categories/career-break/">career break</a>.</li>
+<li><a href="http://freakonomics.com/2014/06/05/failure-is-your-friend-a-new-freakonomics-radio-podcast/">Failure is your Friend</a> &ndash; A follow up to the previous episode.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://www.npr.org/blogs/money/">Planet Money</a><a href="http://www.npr.org/rss/podcast.php?id=510289"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/planetmoney.png" width="200">
+Short and to the point episodes that focus on very specific topics or issues. I
+like this show because the pieces are bite-sized and frequently released. I find myself listening to this show when I
+have to wait 15 minutes before something.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://www.npr.org/blogs/money/2014/09/26/351515481/episode-571-why-raising-money-for-ebola-is-hard">Why Raising Money for Ebola is Hard</a> &ndash; Excellent insights around why we give, and the pychology of charity.</li>
+<li><a href="http://www.npr.org/blogs/money/2014/08/22/342232976/episode-562-a-mall-divided">A Mall Divided</a> &ndash; A peak into how economic policy can distrupt small businesses.</li>
+<li><a href="http://www.npr.org/blogs/money/2014/07/11/330680385/episode-552-blockbusters-bombs-and-the-price-of-a-ticket">Blockbusters, Bombs, and the Price of a Ticket</a> &ndash; I had never put much thought into the cost of a movie
+ticket, this episode explains all the details of why tickets cost the same regardless if it&rsquo;s sold-out or empty.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h2>Startups</h2>
+
+<h3><a href="http://a16z.com/tag/podcast/">a16z</a><a href="http://feeds.soundcloud.com/users/soundcloud:users:62921190/sounds.rss"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/a16z.jpg" width="200">
+Getting into the startup world is not something I&rsquo;m terribly interested in, but I am critical
+about the tech community, especially startups. This show helps me better understand the world of startups so I can
+better understand the mechanics of startups.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://a16z.com/2014/09/05/a16z-podcast-everything-you-need-to-know-about-amazon/">Everything You Need to Know About Amazon</a> &ndash; Explanation of how Amazon re-invests all of its profits to avoid
+opportunity costs is a novel concept. Not sure why investors are ok with it. Makes me more curious about what Amazon
+will be doing 20-30 years from now.</li>
+<li><a href="http://a16z.com/2014/09/30/a16z-podcast-creating-new-silicon-valleys/">Creating New Silicon Valleys</a> &ndash; When something becomes trendy, people always want to figure out how
+to replicate it. This episode explains how cultures are emergent, not created. Common sense it would seem, but that
+doesn&rsquo;t seem to really stop people. I feel the same around the topic of <a href="http://scottmuc.com/valuable-links-devops/">DevOps</a>.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://hearstartup.com/">StartUp</a><a href="http://feeds.hearstartup.com/hearstartup"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/startup.png" width="200">
+A podcast about a podcast startup. It mixes so many of my favourite things into one show.
+Fantastic storytelling about a medium I&rsquo;m passionate about and a domain that I want to learn more of. What connects
+me to the show is that <a href="https://twitter.com/abexlumberg">Alex Blumberg</a> just wants to work on something he&rsquo;s passionate about, but has to wade through all
+sorts of concerns completely separate from what he really wants to do, because that&rsquo;s business.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://hearstartup.com/episodes/gbm3498ruf7abd4owt4xs20uck1cvn">Startups are Risky Business</a> &ndash; This gave me insight around the different VC models. I used to think
+that they are all looking for the 100x payoff. I need to learn more about the more modest investments out there.
+Sometimes you can invest in something simply because you want it to exist.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h3>Culture and Curiosities</h3>
+
+<h3><a href="http://99percentinvisible.org/">99% Invisible</a><a href="http://feeds.99percentinvisible.org/99percentinvisible"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/99pi.png" width="200">
+Now one of my favourites. You never know what to expect with this show because the
+enigmatic host, [Roman Mars][roman-mars], always finds something interesting that you likely have no idea about.</p>
+
+<p><strong>Favourites (all of them):</strong></p>
+
+<ul>
+<li><a href="http://99percentinvisible.org/episode/thomassons/">Thomassons</a> &ndash; I dare you to listen to this episode and not look for Thomassons wherever you go!</li>
+<li><a href="http://99percentinvisible.org/episode/the-straight-line-is-a-godless-line/">The Straight Line is a Godless Line</a> &ndash; Given that I was in Vienna and saw the Hundertwasserhaus, it
+was very interesting to hear more about the architect. I love the fact that people like him exist, though I may not
+want to completely follow his lead.</li>
+<li><a href="http://99percentinvisible.org/episode/clean-trains/">Clean Trains</a> &ndash; There are so many applications to the lesson of this episode. Frequent and consistent
+feedback is necessary to promote any change.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://www.radiolab.org/">RadioLab</a><a href="http://feeds.wnyc.org/radiolab"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/radiolab.png" width="200">
+One of the pioneers in story-telling podcasts. I&rsquo;ve been away from it for a while and have re-subscribed as I&rsquo;ve been
+missing the excellent stories.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://www.radiolab.org/story/91500-emergence/">Emergence</a> &ndash; This episode is from 2007 and it still comes up as one
+of the more influencial podcast episodes I&rsquo;ve listened to. I&rsquo;m a control freak and find the concept of emergence hard
+to understand. A top-down controller is easier for me to understand. This episode reminds me to rethink how things
+ought to be and be more flexible.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://www.npr.org/programs/ted-radio-hour/">TED Radio Hour</a><a href="http://www.npr.org/rss/podcast.php?id=510298"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/ted-radio-hour.jpg" width="200">
+Episodes are themed around TED talks of similar topics. It blends interviews with the speakers along with their talks.
+I find this more rich than the talk on its own.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://www.npr.org/2013/03/28/175609678/the-violence-within-us?showDate=2014-08-08">The Violence Within Us</a> &ndash; Sort of a scary episode, but it helps me understand that life is always in a
+delicate balance. We&rsquo;ll never live in a world where everyone is good. I tend to be utopian in my thinking and this
+provides a good dose of reality.</li>
+<li><a href="http://www.npr.org/programs/ted-radio-hour/321797073/what-is-original?showDate=2014-06-27">What is Original</a> &ndash; The thought of being unique and interesting is something everyone craves, but in the
+end most of things are derivitive. This episode is good to pair with the 99% Invisible episode:
+<a href="http://99percentinvisible.org/episode/duplitecture/">Duplitecture</a>.</li>
+<li><a href="http://www.npr.org/2013/10/06/229879937/identities?showDate=2014-02-21">Identities</a> &ndash; The next few generations of humans are going to have a much different concept about their
+identity. We are more global and cross-cultural than ever before.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://www.cbc.ca/tapestry/index.html">Tapestry</a><a href="http://www.cbc.ca/podcasting/includes/tapestry.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/tapestry.jpg" width="200">
+Getting into the spiritual side a bit. This show talks about culture and religion with an
+open mind. The show reminds me to appreciate the differences between all of us on this rock. I used to listen to this
+show all the time when I lived in Canada. I just recently subscribed to the podcast.</p>
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://www.cbc.ca/whitecoat/index.html">White Coat Black Art</a><a href="http://www.cbc.ca/podcasting/includes/whitecoat.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/whitecoat.jpg" width="200">
+The health care system is usually a bit of a black box and this show provides some visibility into how things work. Like
+tapestry, this was a show I used to listen to all the time when I lived in Canada. Recently subscribed to feel that
+connection back to where I came from.</p>
+
+<br style="clear:both;" />
+
+
+<h2>Music</h2>
+
+<h3><a href="http://music.cbc.ca/radio3/">CBC Radio 3</a><a href="http://www.cbcradio3.com/podcast/"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/cbcradio3.jpg" width="200">
+It&rsquo;s likely that I&rsquo;m a bit biased, but this is where I discover new music. I worked
+there from 2005-2009 during the rise of the podcast. I can attest to the quality of the curation of the content coming
+from the folks at Radio 3. The superfeed subscribes you to all the different podcasts published by Radio 3, though I
+don&rsquo;t think there are as many shows as there used to be.</p>
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://songexploder.net/">Song Exploder</a><a href="http://songexploder.libsyn.com/rss"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/songexploder.png" width="200">
+This show satifies my curiosity about how a song gets made. It also makes me
+appreciate songs that I wouldn&rsquo;t have given a second listen. By listening to this show, you can disover new artists, and
+you&rsquo;ll learn how to listen to music and grow appreciation for the more subtle elements of song composition.</p>
+
+<br style="clear:both;" />
+
+
+<h2>Tech / Programming</h2>
+
+<h3><a href="http://www.cbc.ca/spark/index.html">Spark</a><a href="http://www.cbc.ca/podcasting/includes/spark.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/spark.jpg" width="200">
+A Canadian look into the technical world. Always nice to hear a Canadian perspective of what&rsquo;s going on. Hopefully
+because it&rsquo;s created by the CBC, there isn&rsquo;t any product/partner agenda.</p>
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://podcasts.thoughtbot.com/giantrobots">Giant Robots Smashing into Other Giant Robots</a><a href="http://podcasts.thoughtbot.com/giantrobots.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/giantrobots.jpg" width="200">
+Not quite a technical podcast, but it shares stories from the software development world. I became a fan of
+<a href="https://twitter.com/r00k">Ben Orenstein</a> when I saw him do a play-by-play screencast. He strikes me as someone I would enjoy working with.</p>
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://theshipshow.com/">The Ship Show</a><a href="http://theshipshow.com/podcast.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/shipshow.jpg" width="200">
+Co-started by an old on-line friend of mine, <a href="https://twitter.com/buildscientist">Youssuf Elkalay</a>.
+I like the conversational style of this show as a way to keep me in the loop in the world of <a href="http://scottmuc.com/valuable-links-devops/">DevOps</a>.</p>
+
+<br style="clear:both;" />
+
+
+<h3><a href="http://www.healthyhacker.com/">HealthyHacker</a><a href="http://www.healthyhacker.com/feed.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/healthyhacker.png" width="200">
+This one is fairly new and I&rsquo;ve already become a fan. <a href="https://twitter.com/chrishunt">Chris Hunt</a>
+delivers his show in a charming style. He discusses being healthy, and what&rsquo;s interesting in the software world. All to
+the tune of a catchy theme song. Now I just need to get into the habit of doing the workout of the week.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://www.healthyhacker.com/2014/08/04/pineapple-in-your-pocket/">Pineapple in Your Pocket</a> &ndash; I try and use this memorization technique as frequently as possible!</li>
+<li><a href="http://www.healthyhacker.com/2014/09/29/codecation/">Codecation</a> &ndash; The story of Chris and Ben meeting up for a codecation was inspiring. I would like to do
+something similar at some point.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
+<h2>Summary</h2>
+
+<p>There are a lot of podcasts here and I&rsquo;m constantly re-evaluating which ones should remain. Finding the balance of time
+and value is hard to figure out. Currently I&rsquo;m unemployed making it a lot easier to consume this much content. I also
+listen to tech specific podcasts when I&rsquo;m spending some time in that technology. A good example of that would be the
+<a href="http://rubyrogues.com/">ruby rogues</a> podcast. Or, I may take a look at <a href="http://hanselminutes.com/">HanselMinutes</a> to see if something
+interesting has come up.</p>
+
+<p>To subscribe to all the same podcasts that I do, import this <a href="http://scottmuc.com/podcasts_opml.xml">OPML</a> file into your favourite podcast
+listening software.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Book Review - Learning Continuous Integration With TeamCity by Manoj Mahalingam]]></title>
@@ -1944,194 +2259,6 @@ you&rsquo;re actually trying to solve and whether or not the direction you&rsquo
 that they are &ldquo;flowing&rdquo; and working at a heightened level of productivity. Think again, they could possibly be racing towards
 the wrong direction. A team that&rsquo;s moving around, going for walks, taking 5 to do a
 <a href="http://www.tabatatimer.com/">tabata</a> to me is a sign of a more switched on team.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PowerShell Pester 2 and 1.2 Released!]]></title>
-    <link href="http://scottmuc.com/powershell-pester-2-and-1-dot-2-released/"/>
-    <updated>2013-02-02T15:34:00+05:30</updated>
-    <id>http://scottmuc.com/powershell-pester-2-and-1-dot-2-released</id>
-    <content type="html"><![CDATA[<p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
-
-<h2>New Expectation and Matcher Syntax</h2>
-
-<p>In prior versions of Pester, we have the dot notation expectation and matcher syntax</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="nv">$some_string</span><span class="p">.</span><span class="n">should</span><span class="p">.</span><span class="n">be</span><span class="p">(</span><span class="s2">&quot;some value&quot;</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>This required some <a href="https://github.com/pester/Pester/blob/bf3afbf330808cfee8a26665a77c9388ae432286/ObjectAdaptations/types.ps1xml">clever and downright nasty hacks</a> to the PowerShell runtime. This created a <a href="https://github.com/pester/Pester/issues/19">few</a> <a href="https://github.com/pester/Pester/issues/27">issues</a> for some users and I wanted to get that fixed. It turned out the extension on Object was the root issue so I investigated a pipeline based expectation syntax. Here is the result:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="nv">$deployDir</span>                <span class="p">|</span> <span class="n">Should</span> <span class="n">Be</span> <span class="s2">&quot;C:\inetpub\wwwroot\myApp&quot;</span>
-</span><span class='line'><span class="s2">&quot;iis:\Sites\myApp&quot;</span>        <span class="p">|</span> <span class="n">Should</span> <span class="n">Exist</span> <span class="c"># this works with any PowerShell provider</span>
-</span><span class='line'><span class="s2">&quot;C:\test\rush_albums.txt&quot;</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">Contain</span> <span class="n">2112</span>
-</span><span class='line'><span class="s2">&quot;&quot;</span>                        <span class="p">|</span> <span class="n">Should</span> <span class="n">Be</span> <span class="n">NullOrEmpty</span>
-</span><span class='line'><span class="p">{</span> <span class="n">throw</span> <span class="p">}</span>                 <span class="p">|</span> <span class="n">Should</span> <span class="n">Throw</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Negative statements work too:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="n">2</span>                                   <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Be</span> <span class="n">1</span>
-</span><span class='line'><span class="s2">&quot;C:\temp\deployment_scratch_space&quot;</span>  <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Exist</span>
-</span><span class='line'><span class="s2">&quot;C:\test\rush_albums.txt&quot;</span>           <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Contain</span> <span class="n">5150</span>
-</span><span class='line'><span class="n">1</span><span class="p">,</span><span class="n">2</span><span class="p">,</span><span class="n">3</span>                               <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Be</span> <span class="n">NullOrEmpty</span>
-</span><span class='line'><span class="p">{</span> <span class="n">Deploy-Website</span> <span class="s2">&quot;superawesome&quot;</span> <span class="p">}</span>   <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">Throw</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Extending the syntax is simply a matter of adding domain specific expectations, that follow the Pester function naming
-conventions, to your test suite:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="k">function</span> <span class="n">PesterBeCanadian</span><span class="p">(</span><span class="nv">$sentence</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>    <span class="k">return</span> <span class="p">(</span><span class="nv">$sentence</span> <span class="o">-match</span> <span class="s2">&quot;.*[,\ ]eh.$&quot;</span><span class="p">)</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">function</span> <span class="n">PesterBeCanadianFailureMessage</span><span class="p">(</span><span class="nv">$sentence</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>    <span class="k">return</span> <span class="s2">&quot;Expected: {$sentence} to end with &#39;eh&#39;&quot;</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">function</span> <span class="n">NotPesterBeCanadianFailureMessage</span><span class="p">(</span><span class="nv">$sentence</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>    <span class="k">return</span> <span class="s2">&quot;Expected: {$sentence} ended with eh, you hoser!&quot;</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'><span class="n">Describe</span> <span class="s2">&quot;a few sentences&quot;</span> <span class="p">{</span>
-</span><span class='line'>    <span class="n">Context</span> <span class="s2">&quot;when scott says something&quot;</span> <span class="p">{</span>
-</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;is Canadian&quot;</span> <span class="p">{</span>
-</span><span class='line'>            <span class="nv">$what_scott_says</span> <span class="p">=</span> <span class="s2">&quot;Good show, eh?&quot;</span>
-</span><span class='line'>            <span class="nv">$what_scott_says</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">BeCanadian</span>
-</span><span class='line'>        <span class="p">}</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="n">Context</span> <span class="s2">&quot;when pete hodgson says something&quot;</span> <span class="p">{</span>
-</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;is not Canadian&quot;</span> <span class="p">{</span>
-</span><span class='line'>            <span class="nv">$what_pete_says</span> <span class="p">=</span> <span class="s2">&quot;Have you tried testing it with Frank?&quot;</span>
-</span><span class='line'>            <span class="nv">$what_pete_says</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">Not</span> <span class="n">BeCanadian</span>
-</span><span class='line'>        <span class="p">}</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Pretty cool, eh? I feel that this can lessen the potential bloat of expectations in Pester and allow people to write
-test suites that fit their infrastructure domain model. The expectations are also very <a href="https://github.com/pester/Pester/blob/master/Functions/Assertions/Be.Tests.ps1">easy to test</a> in isolation. The core matchers are pretty light, but they should be easy to modify now that matchers have test coverage unlike the previous syntax.</p>
-
-<p>Adding your own matcher requires you to add 3 convention following functions. One that is the matcher, and 2 that return
-failure messages for postive and negative expectations. The biggest problem I see with this method is that if the
-convention ever changes, I&rsquo;ll have to be very cautious and make it backwards compatible.</p>
-
-<h2>Mocks!</h2>
-
-<p>This was released earlier but I didn&rsquo;t really announce anything. Thanks to <a href="http://www.mattwrock.com/">Matt Wrock</a>(<a href="https://twitter.com/mwrockx">twitter</a>) Pester has the ability to mock cmdlets. I&rsquo;m looking forward to trying this out on my next project.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="n">Mock</span> <span class="nb">Get-Location</span> <span class="p">{</span> <span class="k">return</span> <span class="s2">&quot;you are home, sir.&quot;</span> <span class="p">}</span>
-</span><span class='line'><span class="nb">Get-Location</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">Be</span> <span class="s2">&quot;you are home, sir.&quot;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Description Tagging</h2>
-
-<p>Thanks to <a href="https://github.com/rismoney">Rich Siegel</a>, Pester can now run blocks that fit a certain tag.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="n">Describe</span> <span class="n">-Tag</span> <span class="s2">&quot;Acceptance&quot;</span> <span class="s2">&quot;Website deployment flow&quot;</span> <span class="p">{</span>
-</span><span class='line'>    <span class="n">It</span> <span class="s2">&quot;...&quot;</span> <span class="p">{</span> <span class="p">...</span> <span class="p">}</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'><span class="c"># and run it like this:</span>
-</span><span class='line'><span class="nb">Invoke-Pester</span> <span class="n">-Tag</span> <span class="n">Acceptance</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Xml Reporting</h2>
-
-<p>Another contributor is <a href="https://github.com/mbergmann">Max Bergmann</a> who added NUnit style xml reporting to Pester runs.
-We are even using it in Pester&rsquo;s own <a href="http://teamcity.codebetter.com/project.html?projectId=project261&amp;tab=projectOverview">CI build</a>.
-There&rsquo;s some XML validation bugs that are still being sorted out.</p>
-
-<h2>Why 1.2.x and 2.0.x?</h2>
-
-<p>The motivation for this release is to fix the issues people have add where a <code>should</code> property is added to every Object.
-I&rsquo;m not sure how exactly it was breaking things, but it was messy anyways, and I wanted to get rid of it.</p>
-
-<p>In version <code>1.2.x</code>, you can disable the old assertions by running Pester with the <code>-DisableLegacyExpectations</code>. This will
-mean that your test suite has to only use the new pipeline style expectations.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="c"># version 1.2.x has this switch</span>
-</span><span class='line'><span class="nb">Invoke-Pester</span> <span class="n">-DisableLegacyExpectations</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>For version <code>2.0.x</code> we disable the old style assertions and you need to explicitly enable them using the
-<code>-EnableLegacyExpectations</code> switch. In the next significant release we&rsquo;re going to remove the dot style assertions
-completely from the codebase.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="c"># version 2.0.x has this switch</span>
-</span><span class='line'><span class="nb">Invoke-Pester</span> <span class="n">-EnableLegacyExpectations</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>So if you&rsquo;re upgrading Pester, then you should probably move to <code>1.2.x</code> first. If you can run your tests with the
-<code>-DisableLegacyAssertions</code> flag set, then you should be fine to move to <code>2.0.x</code>. If you&rsquo;re starting from scratch, then
-definitely use <code>2.0.x</code>.</p>
-
-<h2>What&rsquo;s Left To Do?</h2>
-
-<p>Lots and lots of documenting. The <code>Get-Help</code> pages need to be updated and I want to get pesterbdd.com up as soon as
-possible. I think version 2 should be a fairly stable version of Pester.</p>
-
-<p>If you&rsquo;re interested in contributing to Pester please join the <a href="https://groups.google.com/forum/?fromgroups#!forum/pester">google group</a>.</p>
 ]]></content>
   </entry>
   
