@@ -15,7 +15,7 @@ The next leg of the journey was a long slog from Vienna to [L’viv][lviv]. I to
 some time there for a little while. From Budapest it was an overnight journey with many frequent stops in the
 middle of the night for immigration and customs. If you’ve ever played [Papers, Please][papers-please], it felt like that. Ukraine
 isn’t part of the [Schengen agreement][shengen] so you can’t just cross the border without a documents check. Around a few
-hours from L’viv the attendant asks me about my purpose in Ukraine. She then points at my “ringless” ring finger and
+hours from L’viv the attendant asks me about my purpose in Ukraine. She then points at my "ringless" ring finger and
 smiles. I knew of the Russian/Ukrainian bride thing, but found it crazy that her first guess was for that purpose.
 I thought it was a hyped up, but after watching a few [youtube documentaries][ukrainian-brides] about it, I learned
 it’s sadly alive and well.
@@ -40,7 +40,7 @@ did my best to tell the story of myself and the Myц family Canadian history.
 
 ## L'viv
 
-I felt immediately comfortable in L’viv. As Lilia was at work, Vitalek and Natalia guided me around the city. Here
+I felt immediately comfortable in L’viv. As Lilia was at work, Vitalik and Natalia guided me around the city. Here
 are some of the noteworthy places we checked out:
 
 [{% img left /images/blog/career-break/lviv-high-castle.small.jpg 190 "High Castle" %}](/images/blog/career-break/lviv-high-castle.jpg)
