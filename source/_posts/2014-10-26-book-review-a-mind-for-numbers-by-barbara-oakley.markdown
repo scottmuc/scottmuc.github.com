@@ -37,19 +37,54 @@ information that's published on the Internet.
 
 ## Core Concepts
 
-The material in the book (and the course) were broken up into easy to consume chunks.
+The material in the book (and the course) were broken up into easy to consume chunks. I can't really cover all of it
+here but these are the 3 concepts that really stuck with me.
 
 ### Diffuse and Focused Modes of Thinking
+
+You know that experience of when you figure out the solution to a problem you've been struggling with when you're having
+a shower in the morning? Well, it's quite a common phenomenon, and it can be explained by science! This is the brain
+harnesing it's diffused mode of thinking (which I'll define in a moment). Along with that feeling, ever feel like you're
+concentrating on a problem so hard that time seems to accelerate? That's when you're in the focused mode of thinking.
+
+**Focused Mode** - When the brain is in this mode, it's busy building up foundations of material for access later. I
+like to think of it as going to the gym. You're exercising ideas and building up their strength. If you don't practice
+them deliberately, they can lose strength. Also, if you don't focus on concepts with discipline, you don't effectively
+chunk (another concept I'll define later) the concepts.
+
+**Diffuse Mode** - This is where synthesis of ideas (or chunks) happens. Our brain is good at continuing effort solving
+problems while our bodies are performing activities like going for a walk, running, socializing, and cooking. This is
+why when struggling with a problem late at night, sleeping on it, usually results in some new insights in the morning.
+Using the workout analogy, this is like using your in-shape body to enjoy life: traveling, playing with your children,
+fixing up your garden.
+
+What's important to understand is that both of these modes can't operate at the same time. I [even wrote][flow-post]
+about this a while ago and this book has given me the knowledge to better understand what I was observing when I wrote
+that post. As a developer, the state of flow (deep focused mode) has its appeal, but breaking that up so that you can
+piece together your new knowledge is also important.
+
+[flow-post]: http://scottmuc.com/going-against-the-flow/
 
   Sleep/Exercise/Stepping Away vs Pomodoro (illusion of multitaskers)
   deliberate practice
 
 ### Chunking
 
-  - Illusion of Competence
-    http://www.daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner
+Chunks can be thought of as an abstraction around a collection of specific thoughts. It wasn't mentioned in the book,
+but a lot of what I read on chunking looked like reaching the **competent** level on the
+[Dreyfus Model of Skill Acquisition][dreyfus-model]. I'm now curious if **diffuse mode** is an essential part of
+becoming **proficent** or an **expert**.
 
-### Procrastination
+This section of the book has made me realize some flaws in the way I learn and I feel I fall into the trap called
+**illusion of competence**. This can be caused by [poor learning practices][10-rules], and I know I am guilty of many of
+these. Speaking of the Dreyfus model, Erik Dietrich wrote an awesome article about the
+[Advanced Beginner][advanced-beginner], which is another great way of explaining the **illusion of competence**.
+
+[10-rules]: http://blog.coursera.org/post/93424900982/learning-how-not-to-learn
+[dreyfus-model]: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition
+[advanced-beginner]: http://www.daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner
+
+### Procrastination and Habits
 
   - Process over Product
   procrastinating this blog post until I changed my environment (coffee shop) and started the timer. Only committed to 2
@@ -64,5 +99,9 @@ The material in the book (and the course) were broken up into easy to consume ch
 ### Brain Exercise
 
 - Memory temple
+
+### Other Resources
+
+
 
 
