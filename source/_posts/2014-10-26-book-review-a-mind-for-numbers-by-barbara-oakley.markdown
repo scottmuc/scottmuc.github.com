@@ -58,6 +58,7 @@ why when struggling with a problem late at night, sleeping on it, usually result
 Using the workout analogy, this is like using your in-shape body to enjoy life: traveling, playing with your children,
 fixing up your garden.
 
+{% img left /images/blog/l2l/diffuse-focused.jpg "diffuse vs focused mode" %}
 What's important to understand is that both of these modes can't operate at the same time. I [even wrote][flow-post]
 about this a while ago and this book has given me the knowledge to better understand what I was observing when I wrote
 that post. As a developer, the state of flow (deep focused mode) has its appeal, but breaking that up so that you can
@@ -65,20 +66,29 @@ piece together your new knowledge is also important.
 
 [flow-post]: http://scottmuc.com/going-against-the-flow/
 
-  Sleep/Exercise/Stepping Away vs Pomodoro (illusion of multitaskers)
-  deliberate practice
+Sometimes you'll hear someone say that they are a great multi-tasker. This usually results in an inability to focus!
+If someone is a multi-tasker, then they are taking time away from the **focused mode** of operating, and thus fall into
+the many ways [not to learn][10-rules].
 
 ### Chunking
 
-Chunks can be thought of as an abstraction around a collection of specific thoughts. It wasn't mentioned in the book,
-but a lot of what I read on chunking looked like reaching the **competent** level on the
+Chunks can be thought of as an abstraction around a collection of specific thoughts. When I speak to another developer
+and I say that this code *makes a web request*, that is a chunk of knowledge that I've developed. I could break that
+phrase down and say: establish a TCP connection with the remote server, using the HTTP protocol send a GET request
+message, the server will receive this and route it to an appropriate controller, the application code will send an HTTP
+response, the client will take the results and render the HTML to the browser. Woah, that was a lot of detail, and
+that's one example of why it's important to chunk knowledge.
+
+It wasn't mentioned in the book, but a lot of what I read on chunking looked like reaching the **competent** level on the
 [Dreyfus Model of Skill Acquisition][dreyfus-model]. I'm now curious if **diffuse mode** is an essential part of
-becoming **proficent** or an **expert**.
+becoming **proficent** or an **expert** in a particular topic.
 
 This section of the book has made me realize some flaws in the way I learn and I feel I fall into the trap called
 **illusion of competence**. This can be caused by [poor learning practices][10-rules], and I know I am guilty of many of
-these. Speaking of the Dreyfus model, Erik Dietrich wrote an awesome article about the
-[Advanced Beginner][advanced-beginner], which is another great way of explaining the **illusion of competence**.
+these. Speaking of the Dreyfus model, **Erik Dietrich** wrote an article about the [Advanced Beginner][advanced-beginner],
+which is another great way of explaining the **illusion of competence**.
+
+[{% img center /images/blog/l2l/chunking.png "chunking" %}](/images/blog/l2l/chunking.png)
 
 [10-rules]: http://blog.coursera.org/post/93424900982/learning-how-not-to-learn
 [dreyfus-model]: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition
@@ -86,22 +96,54 @@ these. Speaking of the Dreyfus model, Erik Dietrich wrote an awesome article abo
 
 ### Procrastination and Habits
 
-  - Process over Product
-  procrastinating this blog post until I changed my environment (coffee shop) and started the timer. Only committed to 2
-  tomoatoes
+The topic of procrastination was very informative. The explanation of how dopamine effects long term benefitial actions
+([reference][dopamine-reference]]) is insightful and can be used to influence how we develop habits. The book is full of
+ideas on how prevent procrastination and here's my list of tactics:
 
-### Habits
+* **Zero Notifications** - this is an easy one for me as I already try to live a notification free life. My phone is
+  almost always on silent unless I'm *expecting* a call or message. All my applications on my phone and computer have
+  notifications turned off. It's very hard to think of any reason why any notification would need immediate action.
+* **[Pomodoro Technique][pomodoro]** - I've been a fan of this process for a long time. Procrastination doesn't stand
+  a chance when the timer is on. I like to use [pomodoro one][pomodoro-one] on my laptop. There are 4 components of
+  developing a habit, and the first one is the **cue**. Starting the timer triggers me to go into a focused mode.
+  [{% img right /images/blog/l2l/self-control.png 300 %}](/images/blog/l2l/self-control.png)
+* **[Self Control][self-control]** (pictured) - This application does a machine level block of the hostnames that you specify for a
+  specific time period. It runs outside of the web-browser so it'll block applications that talk to these services and
+  even killing the process or rebooting your machine won't get the hostname working again. I will use this every time
+  I'm doing a pomodoro.
+* **Process over Product** - Unless the task is very very small, the time allocated to a single pomodoro should be
+  process based. As of right now, I have on my task list the following: "2 pomodoros of coursera project". This keeps
+  the focus on the activity and now the anxiety around the outcome. I don't know how long it's going to take to complete
+  this post, but I know if I chip away at it with time-boxes of focus it'll be completed before I know it.
 
-  http://www.barbaraoakley.com/pdf/10rulesofstudying.pdf
-- transfer
-  learning economics and seeing software as a series of balance sheets
+I like reading about other people's techniques and thought [James Clear][james-clear] has a good
+[blog post][james-clear-post] is a good list. On my reading list is [Daily Rituals][daily-rituals] which also looks very
+interesting. One thing that seems clear, is that many productive people have developed a system and it's important to
+discover my own.
 
-### Brain Exercise
+[daily-rituals]: http://masoncurrey.com/Daily-Rituals
+[james-clear]: http://jamesclear.com/
+[james-clear-post]: http://jamesclear.com/multipliers
+[pomodoro]: http://pomodorotechnique.com/
+[pomodoro-one]: http://lifehacker.com/pomodoro-one-is-a-free-lightweight-pomodoro-timer-for-1626504270
+[self-control]: http://selfcontrolapp.com/
+[dopamine-reference]: http://www.psychologytoday.com/blog/intrinsic-motivation-and-magical-unicorns/201206/procrastination-and-dopamine-receptor-density
 
-- Memory temple
+### Summary
 
-### Other Resources
+Reading the book and taking the course was an excellent experience. It's very meta; as I learned techniques from the
+book, I applied them to the course and vice versa. I get the feeling this is going to be a book that I read on a yearly
+basis (spaced learning) to continously improve these concepts. This post could have been a lot longer, but I'd rather
+encourage you to read the book yourself and practice the exercises at the end of each chapter.
 
+#### Other Resources and References
 
+* [Pragmatic Thinking and Learning][prag-thinking] which is geared more towards software developers.
+* [HealthyHacker Podcast][healthyhacker] which talks a lot about memorization techniques and developing positive habits.
 
+1 "diffuse vs focused mode" picture http://tdlc.ucsd.edu/educators/educators%5Fwebinar%5Foakley5%F031213.html<br />
+2 "chunking" picture p.56 A Mind For Numbers, Barbara Oakley<br />
+
+[prag-thinking]: https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning
+[healthyhacker]: http://www.healthyhacker.com/
 
