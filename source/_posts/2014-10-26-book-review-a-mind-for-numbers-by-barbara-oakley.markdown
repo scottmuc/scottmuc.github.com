@@ -154,10 +154,13 @@ encourage you to read the book yourself and practice the exercises at the end of
 
 * [Pragmatic Thinking and Learning][prag-thinking] which is geared more towards software developers.
 * [HealthyHacker Podcast][healthyhacker] which talks a lot about memorization techniques and developing positive habits.
+* [Better Explained][better-explained] Kalid Azad does an exceptional job of explaining things. In an interview in the
+  course he describes his method of ADEPT (analogy, diagram, example, plain English, technical).
 
 1 "diffuse vs focused mode" picture http://tdlc.ucsd.edu/educators/educators%5Fwebinar%5Foakley5%F031213.html<br />
 2 "chunking" picture p.56 A Mind For Numbers, Barbara Oakley<br />
 
+[better-explained]: http://betterexplained.com/
 [prag-thinking]: https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning
 [healthyhacker]: http://www.healthyhacker.com/
 
