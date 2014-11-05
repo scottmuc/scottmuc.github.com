@@ -91,11 +91,12 @@ network that grew out of working at ThoughtWorks is global and full of such wond
 
 ### Turkish Delight
 
-[{% img right /images/blog/career-break/istanbul-view.jpg 300 %}](/images/blog/career-break/istanbul-view.jpg)
-The last leg of my European travels is a stay in [Istanbul][istanbul] (not Constantinople). There's a bit ThoughtWorks
+[{% img right /images/blog/career-break/istanbul-view.small.jpg 300 %}](/images/blog/career-break/istanbul-view.jpg)
+The last leg of my European travels is a stay in [Istanbul][istanbul] ([not Constantinople][video]). There's a big ThoughtWorks
 project there and was able to stay in [Srini][srini] and [Toy's][toy] apartment (picture of the view to the right).
 I wasn't sure how long I was going to be there so it was night to have the flexibility of a ThoughtWorker's accomodation.
 
+[video]: http://www.youtube.com/watch?v=vsQrKZcYtqg
 [istanbul]: https://en.wikipedia.org/wiki/Istanbul
 
 The reason for the uncertain length is that I would be applying for my [Indian visa][indian-visa] from here. I won't go
@@ -122,9 +123,46 @@ Oh right, I'm in Istanbul! In the slack time, I spent many days wandering around
 **Rose** has a [picture filled post][rose-blog] that better captures the beauty of the city (and of other European
 cities I've visited).
 
+Most of my day trips started out at [Taksim Square][taksim], which was the space that the [Gezi Park Riots][gezi] took
+place at in 2013. Taking the metro from where I was staying was easy and efficient. From there I went down [Istiklal Street][istiklal]
+which is a big shopping area. My first stop was [Dürümzade][durumzade] which was made famous by **Anthony Bordain's**
+visit. Let's just say I went there 3 times during my stay! The adana dürüm was one of my favourite meals in Istanbul.
+The area is a maze of winding hilly streets and I was content to wander this part of the city for a long time. Some days
+I would hangout at [Kronotrop][kronotrop] which is an excellent coffee bar. There's wifi and friendly people who are
+very open to helping out a tourist with their Turkish. The pictures below are of: Istiklal Street, small street leading
+to Dürümzade, and outside of Dürümzade.
+
+[durumzade]: http://istanbuleats.com/2009/04/durumzade-wrap-artists/
+[taksim]: https://en.wikipedia.org/wiki/Taksim_Square
+[gezi]: http://www.bbc.com/news/world-europe-22732139
+[istiklal]: http://istiklalstreet.org/
+[kronotrop]: http://kronotrop.com.tr/
+
+[{% img left /images/blog/career-break/istanbul-large-street.small.jpg 385 %}](/images/blog/career-break/istanbul-large-street.jpg)
+[{% img left /images/blog/career-break/istanbul-small-street.small.jpg 224 %}](/images/blog/career-break/istanbul-small-street.jpg)
+[{% img left /images/blog/career-break/istanbul-durumzade.small.jpg 385 %}](/images/blog/career-break/istanbul-durumzade.jpg)
+
+
+[{% img left /images/blog/career-break/istanbul-fishing.small.jpg 330 %}](/images/blog/career-break/istanbul-durumzade.jpg)
+[{% img left /images/blog/career-break/istanbul-hagia-sophia.small.jpg 330 %}](/images/blog/career-break/istanbul-durumzade.jpg)
+[{% img left /images/blog/career-break/istanbul-blue-mosque.small.jpg 330 %}](/images/blog/career-break/istanbul-durumzade.jpg)
+
+
+Never had I felt so immersed in history. I've seen some historic places in my travel, but the throngs of people that
+still populate these places made the history feel more alive. Walking through the [Grand Bazaar][bazaar] is like being
+transported in time. I used to think India was a sensory explosion, but this place comes pretty close. It was also a
+'90s time warp as I couldn't get the following song out of my head:
+
+[bazaar]: https://en.wikipedia.org/wiki/Grand_Bazaar,_Istanbul
 [rose-blog]: http://adidav9.blogspot.in/2014/07/illustrious-istanbul.html
+
+<div style="width:660px;margin-left:200px;">
+{% youtube JCye7v79Tz0 %}
+</div>
+
+
 
 ### Europe End / Economics
 
-*This post took 6 pomodoros to complete*
+*This post took 8 pomodoros to complete*
 
