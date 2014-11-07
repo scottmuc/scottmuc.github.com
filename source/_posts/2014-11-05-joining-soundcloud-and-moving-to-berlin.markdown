@@ -85,8 +85,8 @@ a better feel for how they review code and deliver feedback.
 
 After that I had a few more interviews more related to the role that they had envisioned I would fill and that would be
 a member of the [Continuous Delivery][continuous-delivery] team. When I heard that my reaction was on how that's a bit
-of an anti-pattern. After discussing it with them, I could see that the team they have formed aligns very much with I
-would do if I were asked to create a "Continuous Delivery" team so it was great to see a bit of a shared mindset.
+of an anti-pattern. After discussing it with them, I could see the team that they have formed aligns very much with I
+would do if I were asked to create a "Continuous Delivery" team. It was great to see a bit of a shared mindset.
 
 [continuous-delivery]: http://continuousdelivery.com/
 
