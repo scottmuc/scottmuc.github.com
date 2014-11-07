@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Soundcloud | More Muc Than You Can Handle]]></title>
+  <link href="http://scottmuc.com/blog/categories/soundcloud/atom.xml" rel="self"/>
+  <link href="http://scottmuc.com/"/>
+  <updated>2014-11-07T09:38:55+05:30</updated>
+  <id>http://scottmuc.com/</id>
+  <author>
+    <name><![CDATA[Scott Muc]]></name>
+    <email><![CDATA[scottmuc@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Joining SoundCloud and Moving to Berlin]]></title>
+    <link href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/"/>
+    <updated>2014-11-05T18:39:37+05:30</updated>
+    <id>http://scottmuc.com/joining-soundcloud-and-moving-to-berlin</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/blog/career-break/berlin-reichstag.medium.jpg" width="900"></p>
+
+<p>I can&rsquo;t say exactly when the job search began. It began with the creation of a Note in Evernote (great tool
+for this type of task). It was much different than any other job search I&rsquo;ve done, though I haven&rsquo;t done many as I tend
+to stick to job for at least 4 years at a time. The key difference with this search was that I wasn&rsquo;t working, and
+wasn&rsquo;t in a hurry to find a job. This allowed me to stick to some rules and a manifesto:</p>
+
+<p><blockquote><p>&ndash; Being open to being located anywhere I&rsquo;ve been before, and know at least someone there<br/>&ndash; Someone I know and respect must have worked there or works there now<br/>&ndash; The company must have cloud in the name ;&ndash;)</p><footer><strong>Scott Muc</strong> <cite>Job Application Criteria</cite></footer></blockquote></p>
+
+<p>manifesto:</p>
+
+<p><blockquote><p>&ndash; People happiness over company success<br/>&ndash; Autonomy<strong> over being embedded in a machine<br/>&ndash; Physical and mental health</strong> over product growth<br/>&ndash; Access to beer** over location</p><footer><strong>Scott Muc</strong> <cite>Preferred Employer Manifesto</cite></footer></blockquote></p>
+
+<p>Those set me up much better to see if the company was a fit for me. It remains to be seen, but I think that being open
+about my job search, my principals, and not being in a rush will result in a much better mutual partnership. It was a
+zero stress endevour and I wish more people had the same privlege to be more precise about the work they apply for.</p>
+
+<p>After several months I interviewed with a handful of companies, but eventually I narrowed it down.</p>
+
+<h2>Then There Were Two</h2>
+
+<p><img class="left" src="/images/blog/career-break/cloudfoundry.jpg" width="300">
+<strong><a href="http://cloudfoundry.org/">Cloud Foundry</a></strong> &ndash; Creators of an open source <a href="https://en.wikipedia.org/wiki/Platform_as_a_service">PaaS</a> software that allows for companies to create
+their own <a href="http://heroku.com/">Heroku</a>. I&rsquo;m not too familiar with the details of the product. It&rsquo;s not like you take a
+piece of PaaS enabling software for a test drive every day. Despite not being knowledgable about their product, my
+desire to work with them grew as a result of their fantastic interview process.</p>
+
+<p>Every interview required pairing and coding. For me, this delivered a clear idea on how they work and that they prefered
+a show me don&rsquo;t tell me approach to interviewing (which I think is awesome). The first pairing
+exercise was pretty simple and I was the navigator. As remote pairing exercises go, this was great.
+Because I wasn&rsquo;t driving, I wasn&rsquo;t self-conscious about my IDE skills or typing. <strong>David</strong>, who interviewed me, was
+clearly prepared and made the interview smooth and fun.</p>
+
+<p>The other two interviews were both roughly around 3 hours long. I was pairing with someone on some small code change
+they were assigned to do. Both of them were with code and libraries I wasn&rsquo;t familiar with (go lang, anguluarJS), but
+I was amazed at how much that didn&rsquo;t seem to matter. I asked questions, got the gist of what they were trying to do,
+and did my best to keep iterating forward as much as possible given my knowledge constraints. The pairs were fun to work
+with and I appreciated how they were able to slow down to my level to include me in the process of solving the issue.
+I&rsquo;ve learned a lot on how to conduct an interview from this process.</p>
+
+<p>I came away really feeling like these were people I would love to work with. More than that, I loved their discipline in
+XP practices. Working with Cloud Foundry, I could become an expert in this field. They also respected employees work/life
+balance and that&rsquo;s crucial for me.</p>
+
+<p>The job would be located in San Francisco, and the pay would reflect that, though the cost of living would offset it.
+It&rsquo;s a city I&rsquo;ve lived in before and enjoyed. I have a lot of friends there and would be immersed in beer culture.
+My role would be a developer working on pieces of Cloud Foundry. So it&rsquo;s an opportunity to develop my dev chops again.</p>
+
+<p><img class="left" src="/images/blog/career-break/soundcloud.png" width="300">
+<strong><a href="https://soundcloud.com/">Soundcloud</a></strong> &ndash; The only way I can describe it is Twitter for audio. I&rsquo;ve only used the basic recording
+functionality of their service (<a href="https://soundcloud.com/scottmuc">my profile</a>) and do listen to a few podcasts that are hosted by them.</p>
+
+<p>Their interview process felt a bit more ad hoc compared to Cloud Foundry. After the initial screening interview with
+<strong>Chris</strong>, who I would correspond with during the whole process, there was a developer assignment.</p>
+
+<p>I had a blast working on the dev assignment! I had the luxury of not having a job so I got to spend a decent amount of
+time on it. I&rsquo;m unsure about my code, but what I enjoyed was the process of how I grew the solution. Something that you
+can&rsquo;t really demonstrate with a code submission. A pairing interview would have been nice so I could better get to know
+how they work on a problem. I never did get any feedback on my submission. It would be nice to receive some just to get
+a better feel for how they review code and deliver feedback.</p>
+
+<p>After that I had a few more interviews more related to the role that they had envisioned I would fill and that would be
+a member of the <a href="http://continuousdelivery.com/">Continuous Delivery</a> team. When I heard that my reaction was on how that&rsquo;s a bit
+of an anti-pattern. After discussing it with them, I could see that the team they have formed aligns very much with I
+would do if I were asked to create a &ldquo;Continuous Delivery&rdquo; team so it was great to see a bit of a shared mindset.</p>
+
+<p>The location would be in Berlin, and the pay also reflects that. Though the cost of living is lower. I&rsquo;ve visited Berlin
+twice and really enjoyed the city. I only know a handful of people there, but it is closer to people I know from all
+around the area. The beer culture is definitely a huge plus, and can be great if I meet up with beer brewers in the
+community. Being part of a CD team that&rsquo;s breaking down a monolith should provide some valuable experience and put me in
+a position to practice a lot more than I preach.</p>
+
+<h2>What Did I Choose?</h2>
+
+<p>Both opportunities aligned well with my rules and manifesto. After a week of thinking (<strong>cough</strong> over-analyzing) about
+it, I decided to accept the offer from <strong>Soundcloud</strong>! That means I&rsquo;ll be moving to Berlin in January 2015.</p>
+
+<p>My mind kept flipping back and forth. Initially I thought for sure I was going to <strong>Cloud Foundry</strong>. I had already told
+friends that I was going to San Francisco. The professionalism of the interview process had me convinced
+that&rsquo;s where I would be most comfortable.</p>
+
+<p>One of my best friends taught me a trick when it comes to making choices. Flip a coin and assign each choice to a
+side. Treat the coin as if it&rsquo;s deciding your fate. If what results makes you feel joy and happiness, that&rsquo;s the right
+choice. If you sort of deep down wish that the other side won, then you pick the other one. She suggested it with this
+decision and I chickened out. Though what I ended up doing had the same result. I created a poll and posted it on Twitter.
+It didn&rsquo;t really matter what the results were, but I noticed something. One, I voted for Berlin. Two, I was cheering on
+Berlin while the votes were coming in.</p>
+
+<p><img class="center" src="/images/blog/career-break/strawpoll.png" width="800"></p>
+
+<h3>Choosing What Scares You</h3>
+
+<p>SoundCloud felt like the riskier and scarier option to me which usually means a greater chance to grow and learn. Don&rsquo;t
+get me wrong, Cloud Foundry would been a great chance to grow and learn, but I felt that it would be focused in the
+technology spectrum. There looks to be more potential to grow as a person with SoundCloud.</p>
+
+<h3>Learning a Language (That&rsquo;s Not a Programming Language)</h3>
+
+<p>I have a hidden life goal of learning a second language. When I was a coach at ThoughtWorks University I had some
+tough experiences with learners that did not speak English as their first language. I want to feel and understand better
+what it&rsquo;s like to speak another language. There&rsquo;s a lot of potential for transfer of knowledge (ooh, applying my
+<a href="/book-review-a-mind-for-numbers-by-barbara-oakley/">Learning how to Learn</a> lessons already) when translating. SoundCloud provides German lessons as a benefit and I plan on
+taking advantage of that perk.</p>
+
+<h3>More F1</h3>
+
+<p>Nearly the entire F1 calendar is accessible from Berlin! I can continue fulfilling my other life goal which is to attend
+all F1 races in my life time. These are the tracks that I can reach by train or a short flight that I haven&rsquo;t attended
+yet: Monaco, Sochi, Abu Dhabi, Bahrain, Spain, and Austria.</p>
+
+<h3>Access to Beer</h3>
+
+<p>This leads to another life goal. To break off from technology and have a business in the beer domain.
+In my Evernote journal I had a grade on each company/location on beer alignment. Of course both locations are
+exceptional locations for a beer fan. San Francisco had a bit of a higher score because I know people there that do home
+brewing. I&rsquo;m sure I can find a home brew community in Berlin.</p>
+
+<h3>Music/Audio Domain</h3>
+
+<p>Working in the music/audio domain! At CBC it was awesome being surrounded by music nerds. Sorry, but I&rsquo;ll choose
+music nerds over tech nerds. Especially as my interest in the tech world is diminishing.</p>
+
+<h3>More Travel</h3>
+
+<p>So many travel opportunities being in central Europe. I hope to visit my relatives in Ukraine and friends in
+Switzerland, England, Turkey, Czech Republic, Germany, and Hungary. With 5 weeks of holidays I&rsquo;ll be exploring and
+visiting as much as possible.</p>
+
+<p>Also, a part of me doesn&rsquo;t want to live in the USA. Cloud Foundry is also in London, but I would
+want to be at the hub of the product development which is primarily in San Francisco. There would have been an option to
+move to London after a year though, but my decision making was based more on the immediate change.</p>
+
+<h2>Show Me the Money</h2>
+
+<p>At first I was really concerned about how much less SoundCloud offered compared to Cloud Foundry. I took a look at a
+<a href="http://www.numbeo.com/cost-of-living/compare_cities.jsp?country1=United+States&amp;country2=Germany&amp;city1=San+Francisco%2C+CA&amp;city2=Berlin">cost of living</a> website and calculated that to get the equivalent of an SF salary in Berlin, it would
+have to be 56.3% percent (eg: making $56,300 in Berlin is equivalent to $100,000 in SF). Comparing the salary I was
+offered it&rsquo;s at 55.7%. So it&rsquo;s a little bit lower, but not as crazy low as I thought.</p>
+
+<p>It did take me on a tangent and wonder why we tend to care so much about salaries (I really wish salaries were public, I
+don&rsquo;t keep mine much of a secret). My hypothesis is that your salary is a concrete tangible thing, whereas how much you
+spend is harder to determine. If you&rsquo;re in Berlin making $56,300 and spend $50,000, then you&rsquo;ve save $6,300. If you make
+$100,000 in SF and spend $95,000, you&rsquo;ve actually saved less. Unfortunately figuring out the amount you spend is left to
+discipline around budgets.</p>
+
+<h3>What I Don&rsquo;t Like</h3>
+
+<p>This means I&rsquo;m joining a company that is becoming more tied to the big labels and entering the advertising space. I&rsquo;m
+hoping to learn more about how this system works so that I can learn to be a more educated critic.</p>
+
+<h2>Summary</h2>
+
+<p>I just reread <a href="/leaving-a-dream-job-and-going-on-an-adventure/">my post</a> from the beginning of this career break. This post and that one seem to align really
+well and it gives me comfort in my decision. I really love the cadence my life has had for almost the last 20 years.
+Keep an eye here for my next steps 5 years from now. Wish me luck!</p>
+
+<h5>Looking for work? Both companies are still hiring:</h5>
+
+<ul>
+<li><a href="http://soundcloud.com/jobs">http://soundcloud.com/jobs</a></li>
+<li><a href="http://cloudfoundry.com/jobs">http://cloudfoundry.com/jobs</a></li>
+</ul>
+
+
+<p><em>This post took 9 pomodoros to complete</em></p>
+]]></content>
+  </entry>
+  
+</feed>
