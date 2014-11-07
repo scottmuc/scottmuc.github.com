@@ -39,7 +39,7 @@ After several months I interviewed with a handful of companies, but eventually I
 ## Then There Were Two
 
 {% img left /images/blog/career-break/cloudfoundry.jpg 300 %}
-**[CloudFoundry][cloudfoundry]** - Creators of an open source [PaaS][paas] software that allows for companies to create
+**[Cloud Foundry][cloudfoundry]** - Creators of an open source [PaaS][paas] software that allows for companies to create
 their own [Heroku][heroku]. I'm not too familiar with the details of the product. It's not like you take a
 piece of PaaS enabling software for a test drive every day. Despite not being knowledgable about their product, my
 desire to work with them grew as a result of their fantastic interview process.
@@ -61,12 +61,12 @@ with and I appreciated how they were able to slow down to my level to include me
 I've learned a lot on how to conduct an interview from this process.
 
 I came away really feeling like these were people I would love to work with. More than that, I loved their discipline in
-XP practices. Working with CloudFoundry, I could become an expert in this field. They also respected employees work/life
+XP practices. Working with Cloud Foundry, I could become an expert in this field. They also respected employees work/life
 balance and that's crucial for me.
 
 The job would be located in San Francisco, and the pay would reflect that, though the cost of living would offset it.
 It's a city I've lived in before and enjoyed. I have a lot of friends there and would be immersed in beer culture.
-My role would be a developer working on pieces of CloudFoundry. So it's an opportunity to develop my dev chops again.
+My role would be a developer working on pieces of Cloud Foundry. So it's an opportunity to develop my dev chops again.
 
 {% img left /images/blog/career-break/soundcloud.png 300 %}
 **[Soundcloud][soundcloud]** - The only way I can describe it is Twitter for audio. I've only used the basic recording
@@ -74,7 +74,7 @@ functionality of their service ([my profile][soundcloud-me]) and do listen to a 
 
 [soundcloud-me]: https://soundcloud.com/scottmuc
 
-Their interview process felt a bit more ad hoc compared to CloudFoundry. After the initial screening interview with
+Their interview process felt a bit more ad hoc compared to Cloud Foundry. After the initial screening interview with
 **Chris**, who I would correspond with during the whole process, there was a developer assignment.
 
 I had a blast working on the dev assignment! I had the luxury of not having a job so I got to spend a decent amount of
@@ -104,7 +104,7 @@ a position to practice a lot more than I preach.
 Both opportunities aligned well with my rules and manifesto. After a week of thinking (**cough** over-analyzing) about
 it, I decided to accept the offer from **Soundcloud**! That means I'll be moving to Berlin in January 2015.
 
-My mind kept flipping back and forth. Initially I thought for sure I was going to **CloudFoundry**. I had already told
+My mind kept flipping back and forth. Initially I thought for sure I was going to **Cloud Foundry**. I had already told
 friends that I was going to San Francisco. The professionalism of the interview process had me convinced
 that's where I would be most comfortable.
 
@@ -120,7 +120,7 @@ Berlin while the votes were coming in.
 ### Choosing What Scares You
 
 SoundCloud felt like the riskier and scarier option to me which usually means a greater chance to grow and learn. Don't
-get me wrong, Cloudfoundry would been a great chance to grow and learn, but I felt that it would be focused in the
+get me wrong, Cloud Foundry would been a great chance to grow and learn, but I felt that it would be focused in the
 technology spectrum. There looks to be more potential to grow as a person with SoundCloud.
 
 ### Learning a Language (That's Not a Programming Language)
@@ -157,13 +157,13 @@ So many travel opportunities being in central Europe. I hope to visit my relativ
 Switzerland, England, Turkey, Czech Republic, Germany, and Hungary. With 5 weeks of holidays I'll be exploring and
 visiting as much as possible.
 
-Also, a part of me doesn't want to live in the USA. CloudFoundry is also in London, but I would
+Also, a part of me doesn't want to live in the USA. Cloud Foundry is also in London, but I would
 want to be at the hub of the product development which is primarily in San Francisco. There would have been an option to
 move to London after a year though, but my decision making was based more on the immediate change.
 
 ## Show Me the Money
 
-At first I was really concerned about how much less SoundCloud offered compared to CloudFoundry. I took a look at a
+At first I was really concerned about how much less SoundCloud offered compared to Cloud Foundry. I took a look at a
 [cost of living][costofliving] website and calculated that to get the equivalent of an SF salary in Berlin, it would
 have to be 56.3% percent (eg: making $56,300 in Berlin is equivalent to $100,000 in SF). Comparing the salary I was
 offered it's at 55.7%. So it's a little bit lower, but not as crazy low as I thought.
