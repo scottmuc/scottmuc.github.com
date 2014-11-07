@@ -32,7 +32,7 @@ manifesto:
 
 Those set me up much better to see if the company was a fit for me. It remains to be seen, but I think that being open
 about my job search, my principals, and not being in a rush will result in a much better mutual partnership. It was a
-zero stress endevour and I wish more people had the same privlege to be more precise about the work they apply for.
+zero stress endevour and I wish more people had the same privilege to be more precise about the work they apply for.
 
 After several months I interviewed with a handful of companies, but eventually I narrowed it down.
 
