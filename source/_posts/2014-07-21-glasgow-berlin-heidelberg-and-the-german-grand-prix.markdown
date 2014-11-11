@@ -21,7 +21,7 @@ fondness and nostalgia. Rose was my concert buddy and Derek was probably the onl
 that likes [Green Porno][green-porno] as much as I do.
 
 [rose-blog]: http://adidav9.blogspot.cz/
-[green-porno]: http://www.sundance.tv/series/greenporno 
+[green-porno]: http://www.sundance.tv/series/greenporno
 
 [{% img left /images/blog/career-break/glasgow-necropolis.small.jpg 300 %}](/images/blog/career-break/glasgow-necropolis.jpg) During my first
 day I wandered around the city center and then went up to the [Necropolis][necropolis]. It was
@@ -29,8 +29,9 @@ a beautiful place and had a view over the city. Had I been more prepared I would
 there in search of graves of noteworthy people. On my walk back to the apartment I saw an e-mail from
 the company that chartered my cargo ship cruise. Apparently BBC's Travel Show was looking for people
 to interview! I got in touch with someone from the BBC, and was scheduled for an interview the next
-day.
+day. **Update** The interview is [online][interview] now.
 
+[interview]: http://www.bbc.com/travel/feature/20140908-taking-cruises-by-way-of-cargo-ship
 [necropolis]: http://www.glasgownecropolis.org/
 
 The next day I spent the morning doing laundry, and then walked over to the BBC for the interview ([the clip is online now][bbc-clip]).

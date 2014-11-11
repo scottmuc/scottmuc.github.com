@@ -64,6 +64,9 @@ then, I turn off all notifications and keep it silent.
 
 After a 140 euro ride through immigration and into Antwerp, I can begin the next phase of my journey!
 
+**Update** I was later interviewed by the BBC and the video is [online][interview] now.
+
+[interview]: http://www.bbc.com/travel/feature/20140908-taking-cruises-by-way-of-cargo-ship
 [previous-post]: /leaving-vancouver-and-north-america/
 [twine]: http://twinery.org/
 [twine-tour]: /twinery/independent-accord.html
