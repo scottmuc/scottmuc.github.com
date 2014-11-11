@@ -10,10 +10,14 @@ categories: [links, devops]
 
 TL;DR - Watch [this][the-devops-transformation] video
 
-Since I first learned the term devops 4 years ago I've gone through many leaps in understanding. As a software
-developer, I find delivering frequently highly motivating. Devops is a set of principles and practices that aim to
-ensure delivery goes as smooth as possible. I found this post, [A Scientific Basis For Devops Success][devops-success],
-to be a great introduction to why devops is important.
+Since I first learned the term devops 4 years ago I've gone through many leaps in understanding. I really wish I saw
+[this video (history of devops)][history-devops] before I got involved. As a software developer, I find delivering
+frequently highly motivating. Devops is a set of principles and practices that aim to ensure delivery goes as smooth
+as possible. I found this post, [A Scientific Basis For Devops Success][devops-success], to be a great introduction
+to why devops is important.
+
+[history-devops]: https://www.youtube.com/watch?v=o7-IuYS0iSE
+[devops-success]: http://blog.devopsguys.com/2014/02/25/a-scientific-basis-for-devops-success/
 
 ## People
 
@@ -54,7 +58,6 @@ the fact that it's a collection of principles rather than straight up proceesses
 
 * [Devops Bookmarks][devops-bookmarks] - This is the ultimate one stop shop for all tools
 
-[devops-success]: http://blog.devopsguys.com/2014/02/25/a-scientific-basis-for-devops-success/
 
 [jedi4ever]: http://jedi.be/
 [noah-sussman]: http://www.noahsussman.com/
