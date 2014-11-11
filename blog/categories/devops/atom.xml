@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Devops | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/devops/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-11-07T13:10:27+05:30</updated>
+  <updated>2014-11-11T16:10:39+05:30</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -22,10 +22,11 @@
 
 <p>TL;DR &ndash; Watch <a href="https://www.youtube.com/watch?v=3KpPBnEtRj4">this</a> video</p>
 
-<p>Since I first learned the term devops 4 years ago I&rsquo;ve gone through many leaps in understanding. As a software
-developer, I find delivering frequently highly motivating. Devops is a set of principles and practices that aim to
-ensure delivery goes as smooth as possible. I found this post, <a href="http://blog.devopsguys.com/2014/02/25/a-scientific-basis-for-devops-success/">A Scientific Basis For Devops Success</a>,
-to be a great introduction to why devops is important.</p>
+<p>Since I first learned the term devops 4 years ago I&rsquo;ve gone through many leaps in understanding. I really wish I saw
+<a href="https://www.youtube.com/watch?v=o7-IuYS0iSE">this video (history of devops)</a> before I got involved. As a software developer, I find delivering
+frequently highly motivating. Devops is a set of principles and practices that aim to ensure delivery goes as smooth
+as possible. I found this post, <a href="http://blog.devopsguys.com/2014/02/25/a-scientific-basis-for-devops-success/">A Scientific Basis For Devops Success</a>, to be a great introduction
+to why devops is important.</p>
 
 <h2>People</h2>
 
