@@ -25,9 +25,9 @@ manifesto:
 
 {% blockquote Scott Muc, Preferred Employer Manifesto %}
 - People happiness over company success
-- Autonomy** over being embedded in a machine
-- Physical and mental health** over product growth
-- Access to beer** over location
+- Autonomy over being embedded in a machine
+- Physical and mental health over product growth
+- Access to beer over location
 {% endblockquote %}
 
 Those set me up much better to see if the company was a fit for me. It remains to be seen, but I think that being open
