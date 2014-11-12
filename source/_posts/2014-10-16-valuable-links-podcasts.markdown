@@ -183,6 +183,7 @@ enigmatic host, [Roman Mars][roman-mars], always finds something interesting tha
 * [Clean Trains][clean-trains] - There are so many applications to the lesson of this episode. Frequent and consistent
   feedback is necessary to promote any change.
 
+[roman-mars]: https://twitter.com/romanmars
 [thomassons]: http://99percentinvisible.org/episode/thomassons/
 [straight-line]: http://99percentinvisible.org/episode/the-straight-line-is-a-godless-line/
 [clean-trains]: http://99percentinvisible.org/episode/clean-trains/
@@ -243,6 +244,13 @@ Getting into the spiritual side a bit. This show talks about culture and religio
 open mind. The show reminds me to appreciate the differences between all of us on this rock. I used to listen to this
 show all the time when I lived in Canada. I just recently subscribed to the podcast.
 
+**Favourites:**
+
+* [Being Alone][being-alone] - The 2nd portion with **Nikki Giovanni** is so delightful. It's a candid conversation that
+  has so many quotable verses. I was walking the streets of Bangalore while listening to it and I had a huge smile on my
+  face the whole time.
+
+[being-alone]: http://www.cbc.ca/tapestry/episode/2014/10/24/being-alone-views-from-a-mormon-feminist-poet-nikki-giovanni/
 [podcast-tapestry]: http://www.cbc.ca/tapestry/index.html
 [podcast-tapestry-rss]: http://www.cbc.ca/podcasting/includes/tapestry.xml
 
