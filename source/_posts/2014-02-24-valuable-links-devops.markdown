@@ -58,6 +58,15 @@ the fact that it's a collection of principles rather than straight up proceesses
 
 * [Devops Bookmarks][devops-bookmarks] - This is the ultimate one stop shop for all tools
 
+## Links (need sorting and or context)
+
+* http://www.slideshare.net/garethbowles/managing-jenkins-with-jenkins-uc2013
+* http://www.slideshare.net/PeterLeschev/puppet-camp-melbourne-nov-2014-a-build-engineering-teams-journey-of-infrastructure-as-code
+* http://www.gartner.com/technology/reprints.do?ct=140925&id=1-22AAXZR&st=sb
+* http://theagileadmin.com/2014/09/30/scrum-for-operations-just-add-devops/
+* http://sysadmincasts.com/
+* http://vimeo.com/77207216
+
 
 [jedi4ever]: http://jedi.be/
 [noah-sussman]: http://www.noahsussman.com/
