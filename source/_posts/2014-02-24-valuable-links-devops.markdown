@@ -66,7 +66,7 @@ the fact that it's a collection of principles rather than straight up proceesses
 * http://theagileadmin.com/2014/09/30/scrum-for-operations-just-add-devops/
 * http://sysadmincasts.com/
 * http://vimeo.com/77207216
-
+* http://www.binpress.com/blog/2014/09/09/binpress-podcast-episode-10-mitchell-hashimoto-hashicorp/
 
 [jedi4ever]: http://jedi.be/
 [noah-sussman]: http://www.noahsussman.com/
