@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-11-12T21:49:57+05:30</updated>
+  <updated>2014-11-13T11:36:03+05:30</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -2393,6 +2393,18 @@ enlightening talk on the subject.</li>
 
 <ul>
 <li><a href="http://devops-bookmarks.herokuapp.com/">Devops Bookmarks</a> &ndash; This is the ultimate one stop shop for all tools</li>
+</ul>
+
+
+<h2>Links (need sorting and or context)</h2>
+
+<ul>
+<li><a href="http://www.slideshare.net/garethbowles/managing-jenkins-with-jenkins-uc2013">http://www.slideshare.net/garethbowles/managing-jenkins-with-jenkins-uc2013</a></li>
+<li><a href="http://www.slideshare.net/PeterLeschev/puppet-camp-melbourne-nov-2014-a-build-engineering-teams-journey-of-infrastructure-as-code">http://www.slideshare.net/PeterLeschev/puppet-camp-melbourne-nov-2014-a-build-engineering-teams-journey-of-infrastructure-as-code</a></li>
+<li><a href="http://www.gartner.com/technology/reprints.do?ct=140925&amp;id=1-22AAXZR&amp;st=sb">http://www.gartner.com/technology/reprints.do?ct=140925&amp;id=1-22AAXZR&amp;st=sb</a></li>
+<li><a href="http://theagileadmin.com/2014/09/30/scrum-for-operations-just-add-devops/">http://theagileadmin.com/2014/09/30/scrum-for-operations-just-add-devops/</a></li>
+<li><a href="http://sysadmincasts.com/">http://sysadmincasts.com/</a></li>
+<li><a href="http://vimeo.com/77207216">http://vimeo.com/77207216</a></li>
 </ul>
 
 ]]></content>
