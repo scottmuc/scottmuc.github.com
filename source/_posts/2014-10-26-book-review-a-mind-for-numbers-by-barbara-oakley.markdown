@@ -156,6 +156,10 @@ encourage you to read the book yourself and practice the exercises at the end of
 * [HealthyHacker Podcast][healthyhacker] which talks a lot about memorization techniques and developing positive habits.
 * [Better Explained][better-explained] Kalid Azad does an exceptional job of explaining things. In an interview in the
   course he describes his method of ADEPT (analogy, diagram, example, plain English, technical).
+* [Slow Tech][slow-tech], a talk about distraction and how to be focused. After the course, the points in this video
+  appear well connected with the material.
+* [John Cleese on 5 Factors to Make Your Life More Creative][john-cleese]. A comedic genius explains how he uses time
+  boxing to focus on his craft.
 
 1 "diffuse vs focused mode" picture http://tdlc.ucsd.edu/educators/educators%5Fwebinar%5Foakley5%F031213.html<br />
 2 "chunking" picture p.56 A Mind For Numbers, Barbara Oakley<br />
@@ -163,4 +167,6 @@ encourage you to read the book yourself and practice the exercises at the end of
 [better-explained]: http://betterexplained.com/
 [prag-thinking]: https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning
 [healthyhacker]: http://www.healthyhacker.com/
+[slow-tech]: https://www.youtube.com/watch?v=EzpX0TLKS9Q
+[john-cleese]: http://www.brainpickings.org/2012/04/12/john-cleese-on-creativity-1991/
 
