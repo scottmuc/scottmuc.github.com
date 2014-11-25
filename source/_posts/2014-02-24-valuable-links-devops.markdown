@@ -40,7 +40,7 @@ the fact that it's a collection of principles rather than straight up proceesses
 ## Must Watch Videos
 
 * [The Devops Transformation][the-devops-transformation] - [Ben Rockwood][ben-rockwood] does a most
-  enlightening talk on the subject.
+  enlightening talk on the subject
 * [Devops Demystified][devops-demystified] - Another **Ben Rockwood** talk that is awesome
 
 ## Events
@@ -57,6 +57,11 @@ the fact that it's a collection of principles rather than straight up proceesses
 ## Tools
 
 * [Devops Bookmarks][devops-bookmarks] - This is the ultimate one stop shop for all tools
+* [Vagrant, Packer, Consul, Serf][mitchellh] - Mitchell Hashimoto discusses some core concepts around devops tooling and
+  provides examples
+
+[devops-bookmarks]: http://www.devopsbookmarks.com
+[mitchellh]: http://www.infoq.com/presentations/vagrant-packer-consul-serf
 
 ## Links (need sorting and or context)
 
@@ -88,5 +93,4 @@ the fact that it's a collection of principles rather than straight up proceesses
 [devops-toolchain]: https://code.google.com/p/devops-toolchain/
 [devops-weekly]: http://devopsweekly.com/
 
-[devops-bookmarks]: http://devops-bookmarks.herokuapp.com/
 
