@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Links | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/links/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-11-14T12:08:44+05:30</updated>
+  <updated>2014-11-28T09:53:57+05:30</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -122,7 +122,8 @@ ticket, this episode explains all the details of why tickets cost the same regar
 <p><img class="right" src="/images/blog/podcasts/a16z.jpg" width="200">
 Getting into the startup world is not something I&rsquo;m terribly interested in, but I am critical
 about the tech community, especially startups. This show helps me better understand the world of startups so I can
-better understand the mechanics of startups.</p>
+better understand the mechanics of startups. Over time this podcast has become to irritate me. The Valley speak gets to
+you after a while (count how many questions are answered with an excited &ldquo;Absolutely!&rdquo;).</p>
 
 <p><strong>Favourites:</strong></p>
 
@@ -165,7 +166,9 @@ Sometimes you can invest in something simply because you want it to exist.</li>
 
 <p><img class="right" src="/images/blog/podcasts/99pi.png" width="200">
 Now one of my favourites. You never know what to expect with this show because the
-enigmatic host, <a href="https://twitter.com/romanmars">Roman Mars</a>, always finds something interesting that you likely have no idea about.</p>
+enigmatic host, <a href="https://twitter.com/romanmars">Roman Mars</a>, always finds something interesting that you likely have no idea about.
+Roman started a group called [Radiotopia][radiotopia] which is a collective of like minded artists to create
+exceptional podcasts.</p>
 
 <p><strong>Favourites (all of them):</strong></p>
 
@@ -224,6 +227,24 @@ identity. We are more global and cross-cultural than ever before.</li>
 <br style="clear:both;" />
 
 
+<h3><a href="http://toe.prx.org/">Theory of Everything</a><a href="http://feeds.prx.org/toe"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+
+<p><img class="right" src="/images/blog/podcasts/toe.jpg" width="200">
+A member of the [Radiotopia][radiotopia] collective. Just started getting into this podcast recently.
+I&rsquo;m already becoming a huge fan!</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://toe.prx.org/2014/11/paying-for-it-the-dislike-club-part-ii/">Paying For It</a> &ndash; This is part of a series called
+&ldquo;Dislike Club&rdquo; which is focusing on the Internet. This episode calls to attention the problems happening with todays
+monetization of the web through advertising. It sums up so many of the thoughts I&rsquo;ve had about technology recently.</li>
+</ul>
+
+
+<br style="clear:both;" />
+
+
 <h3><a href="http://www.cbc.ca/tapestry/index.html">Tapestry</a><a href="http://www.cbc.ca/podcasting/includes/tapestry.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
 
 <p><img class="right" src="/images/blog/podcasts/tapestry.jpg" width="200">
@@ -243,12 +264,22 @@ face the whole time.</li>
 <br style="clear:both;" />
 
 
-<h3><a href="http://www.cbc.ca/whitecoat/index.html">White Coat Black Art</a><a href="http://www.cbc.ca/podcasting/includes/whitecoat.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
+<h3><a href="http://www.cbc.ca/whitecoat/">White Coat Black Art</a><a href="http://www.cbc.ca/podcasting/includes/whitecoat.xml"><img src="http://scottmuc.com/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" /></a></h3>
 
 <p><img class="right" src="/images/blog/podcasts/whitecoat.jpg" width="200">
 The health care system is usually a bit of a black box and this show provides some visibility into how things work. Like
 tapestry, this was a show I used to listen to all the time when I lived in Canada. Recently subscribed to feel that
 connection back to where I came from.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://www.cbc.ca/radio/whitecoat/slow-code-1.2827708">Slow Code</a> &ndash; A conversation about health care professionals
+minimaly applying &ldquo;Code Blue&rdquo; protocols when they know the patient won&rsquo;t survive or will survive at a considerable
+cost. This episode made me remember that my job is pretty much pointless and to think about the people that do real
+honest work out there.</li>
+</ul>
+
 
 <br style="clear:both;" />
 
@@ -380,7 +411,7 @@ the fact that it&rsquo;s a collection of principles rather than straight up proc
 
 <ul>
 <li><a href="https://www.youtube.com/watch?v=3KpPBnEtRj4">The Devops Transformation</a> &ndash; <a href="https://twitter.com/benr/">Ben Rockwood</a> does a most
-enlightening talk on the subject.</li>
+enlightening talk on the subject</li>
 <li><a href="https://www.youtube.com/watch?v=h5E--QSBVBY">Devops Demystified</a> &ndash; Another <strong>Ben Rockwood</strong> talk that is awesome</li>
 </ul>
 
@@ -405,7 +436,9 @@ enlightening talk on the subject.</li>
 <h2>Tools</h2>
 
 <ul>
-<li><a href="http://devops-bookmarks.herokuapp.com/">Devops Bookmarks</a> &ndash; This is the ultimate one stop shop for all tools</li>
+<li><a href="http://www.devopsbookmarks.com">Devops Bookmarks</a> &ndash; This is the ultimate one stop shop for all tools</li>
+<li><a href="http://www.infoq.com/presentations/vagrant-packer-consul-serf">Vagrant, Packer, Consul, Serf</a> &ndash; Mitchell Hashimoto discusses some core concepts around devops tooling and
+provides examples</li>
 </ul>
 
 
