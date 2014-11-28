@@ -127,7 +127,8 @@ have to wait 15 minutes before something.
 {% img right /images/blog/podcasts/a16z.jpg 200 %}
 Getting into the startup world is not something I'm terribly interested in, but I am critical
 about the tech community, especially startups. This show helps me better understand the world of startups so I can
-better understand the mechanics of startups.
+better understand the mechanics of startups. Over time this podcast has become to irritate me. The Valley speak gets to
+you after a while (count how many questions are answered with an excited "Absolutely!").
 
 **Favourites:**
 
@@ -173,6 +174,8 @@ sorts of concerns completely separate from what he really wants to do, because t
 {% img right /images/blog/podcasts/99pi.png 200 %}
 Now one of my favourites. You never know what to expect with this show because the
 enigmatic host, [Roman Mars][roman-mars], always finds something interesting that you likely have no idea about.
+Roman started a group called [Radiotopia][radiotopia] which is a collective of like minded artists to create
+exceptional podcasts.
 
 **Favourites (all of them):**
 
@@ -237,6 +240,23 @@ I find this more rich than the talk on its own.
 
 <br style="clear:both;" />
 
+###[Theory of Everything][podcast-toe][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-toe-rss]
+
+{% img right /images/blog/podcasts/toe.jpg 200 %}
+A member of the [Radiotopia][radiotopia] collective. Just started getting into this podcast recently.
+I'm already becoming a huge fan!
+
+**Favourites:**
+
+* [Paying For It](http://toe.prx.org/2014/11/paying-for-it-the-dislike-club-part-ii/) - This is part of a series called
+  "Dislike Club" which is focusing on the Internet. This episode calls to attention the problems happening with todays
+  monetization of the web through advertising. It sums up so many of the thoughts I've had about technology recently.
+
+[podcast-toe]: http://toe.prx.org/
+[podcast-toe-rss]: http://feeds.prx.org/toe
+
+<br style="clear:both;" />
+
 ###[Tapestry][podcast-tapestry][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-tapestry-rss]
 
 {% img right /images/blog/podcasts/tapestry.jpg 200 %}
@@ -263,7 +283,14 @@ The health care system is usually a bit of a black box and this show provides so
 tapestry, this was a show I used to listen to all the time when I lived in Canada. Recently subscribed to feel that
 connection back to where I came from.
 
-[podcast-white-coat-black-art]: http://www.cbc.ca/whitecoat/index.html
+**Favourites:**
+
+* [Slow Code](http://www.cbc.ca/radio/whitecoat/slow-code-1.2827708) - A conversation about health care professionals
+  minimaly applying "Code Blue" protocols when they know the patient won't survive or will survive at a considerable
+  cost. This episode made me remember that my job is pretty much pointless and to think about the people that do real
+  honest work out there.
+
+[podcast-white-coat-black-art]: http://www.cbc.ca/whitecoat/
 [podcast-white-coat-black-art-rss]: http://www.cbc.ca/podcasting/includes/whitecoat.xml
 
 <br style="clear:both;" />
