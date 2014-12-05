@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-11-28T14:35:52+05:30</updated>
+  <updated>2014-12-05T11:03:40+05:30</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,88 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What Makes Something a "Devops" Tool?]]></title>
+    <link href="http://scottmuc.com/what-makes-something-a-devops-tool/"/>
+    <updated>2014-12-05T09:43:52+05:30</updated>
+    <id>http://scottmuc.com/what-makes-something-a-devops-tool</id>
+    <content type="html"><![CDATA[<p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
+gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
+
+<p>The reason this has been on my mind is that myself and <a href="twitter.com/rdsubhas">Subhas</a> released a website called
+<a href="http://www.devopsbookmarks.com/">Devops Bookmarks</a> to aggregate all the tools in the landscape. Using a <a href="https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/CONTRIBUTING.md">Github Pull Request</a>
+for contributions results in reviewing a lot of tools and after a short amount of time I found myself second-guessing
+the need for such a website. It felt that we were diluting the devops term.</p>
+
+<p>Here&rsquo;s a couple that I think got it wrong:</p>
+
+<ul>
+<li><a href="http://blog.xebialabs.com/2014/04/30/taxonomy/">http://blog.xebialabs.com/2014/04/30/taxonomy/</a></li>
+<li><a href="http://newrelic.com/devops/toolset">http://newrelic.com/devops/toolset</a></li>
+</ul>
+
+
+<p>I&rsquo;m greatly concerned the Devops Bookmarks is going to feel the same unless context is added to support the inclusion of
+the tools. It&rsquo;s why I made a <a href="http://scottmuc.com/valuable-links-devops/">devops links post</a> on my blog so that I could explain a little
+bit why something is included.</p>
+
+<h3>Going To the <a href="https://en.wikipedia.org/wiki/Gemba">Gemba</a></h3>
+
+<p>Honestly, <a href="http://www.jedi.be/blog/">Patrick Debois&rsquo;s</a> blog is a must read to get adequate context around devops. He has an
+excellent <a href="http://www.jedi.be/blog/2010/02/12/what-is-this-devops-thing-anyway/">introductory post</a> (written almost 5 years ago) and he&rsquo;s made an excellent slide deck pointing
+out the same concepts I&rsquo;m struggling with right now.</p>
+
+<div style="width: 450px; margin: 0 auto 0 auto;">
+<iframe src="//www.slideshare.net/slideshow/embed_code/9631120" width="425" height="355" frameborder="0" marginwidth="0"
+marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"
+allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a
+href="//www.slideshare.net/jedi4ever/devops-tools-fools-and-other-smart-things" title="Devops Tools Fools and Other
+smart things" target="_blank">Devops Tools Fools and Other smart things</a> </strong> from <strong><a
+href="//www.slideshare.net/jedi4ever" target="_blank">Patrick Debois</a></strong> </div>
+</div>
+
+
+<p>In that presentation the point of articulating desired <em>Behaviours</em> is very clear. To me a devops tool is something that
+promotes good behaviour if it&rsquo;s executed well. The desired behaviours are cleary represented by
+<a href="https://twitter.com/botchagalupe">John Willis&#8217;</a> excellent blog post titled: <a href="https://www.chef.io/blog/2010/07/16/what-devops-means-to-me/">What Devops Means to Me</a>.</p>
+
+<p><strong>Examples</strong></p>
+
+<ul>
+<li><strong>Chef</strong> &ndash; promotes the behaviour of automating the configuration of machines. This reduces the tribal knowledge and
+provides a collaborative environment to work on this automation (because it&rsquo;s now code instead of a Word doc).</li>
+<li><strong>Vagrant</strong> &ndash; enables the ability to create production like environments anywhere. All roles in the software lifecycle
+work with consistent infrastructure, thus can share their improvements and feedback.</li>
+<li><strong>Gauntlt</strong> &ndash; security testing for humans. Using Cucumber, security tests can be easily read by everyone and the tests
+can be executed in a continuous integration pipeline.</li>
+</ul>
+
+
+<p><strong>Not Sure About These</strong></p>
+
+<ul>
+<li><strong>Gitorious</strong> &ndash; is it a devops tool because having source control is necessary?</li>
+<li><strong>Static Analysis</strong> &ndash; is a python static analysis tool really a devops tool? What about something like Puppet Lint?</li>
+</ul>
+
+
+<p>Are some tools purely dev, and some purely ops? Everything lies on a spectrum and I guess what I&rsquo;m wondering is if
+devops tools are simply the ones that are in the middle of that spectrum.</p>
+
+<h3>Moving Forward</h3>
+
+<p>I&rsquo;m torn, but I think a feature in <a href="http://www.devopsbookmarks.com/">Devops Bookmarks</a> should be a requirement to explain why the tools
+is a devops tool, and what behaviours does it try to support. If no explanation is provided, then it cannot be listed.</p>
+
+<p>Currently the website is broken down by <em>Topics</em>, but that could change to <em>Behaviours</em> and the tools can be tagged with
+the behaviours that it supports.</p>
+
+<p>Consider this a request for comments.</p>
+
+<p><em>This post took 3 pomodoros to complete</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Joining SoundCloud and Moving to Berlin]]></title>
@@ -2526,85 +2608,6 @@ well.</p>
 <a href="http://thinkprogress.org/security/2013/12/31/3108661/10-biggest-privacy-security-breaches-rocked-2013/">theft of e-mail addresses and passwords</a> have also lowered confidence in IT as a whole. Let&rsquo;s not talk about <a href="http://www.theverge.com/2013/10/20/4859316/healthcare-gov-woes">Obama Care</a>.
 It&rsquo;s frustating to see the industry that I love so much do so much harm, and become so untrustworthy.
 2014 is going to shape to be an interesting year as a result of these events.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Valuable Links - Vim]]></title>
-    <link href="http://scottmuc.com/valuable-links-vim/"/>
-    <updated>2013-11-03T19:31:00+05:30</updated>
-    <id>http://scottmuc.com/valuable-links-vim</id>
-    <content type="html"><![CDATA[<h2>First Off &ndash; Introducing Valuable Links</h2>
-
-<p>Today I&rsquo;ve decided to start something new. I tend to send my friends and colleagues
-links about all sorts of things. Usually when they are pertinent to a problem they are
-having, or to supplement a conversation I&rsquo;ve had with them. My usual process to reproduce
-these links ends up being a search in: <a href="https://twitter.com/scottmuc/" title="My Twitter Feed">Twitter</a>, <a href="http://getpocket.com/users/scottmuc" title="My Pocket Feed">Pocket</a>, History, and my Bookmarks.</p>
-
-<p>Also, when I share my links I tend to write a few sentences about them. It adds a personal
-touch and a bit of context, so that&rsquo;s why I&rsquo;m exploring this channel for displaying them.
-As opposed to using a bookmarking website.</p>
-
-<h2>Valuable Links for Vim</h2>
-
-<p>I would say I&rsquo;m a moderate <a href="http://www.vim.org/">Vim</a> user. I have a simple <code>.vimrc</code> with few plugins. Learning
-to be competent at <code>vim</code> has made my computing experience so much better. Here are a few
-websites that have helped me out:</p>
-
-<ul>
-<li><a href="http://www.danielmiessler.com/study/vim/" title="Daniel Miessler's Vim Primer">Vim Primer</a> &ndash; I can&rsquo;t think of a more thorough primer. Even after knowing
-vim for a while I learned a lot from this article. Not only that, it helped reinforce
-the things I knew already to better explain them.</li>
-<li><a href="http://statico.github.io/vim.html" title="Vim After 11 Years">Vim After 11 Years</a> &ndash; A good story on someone&rsquo;s journey learning
-vim for the last 11 years.</li>
-<li><a href="http://vimgolf.com/" title="Vim Golf">Vim Golf</a> &ndash; Try and do the editing exercises in the minimum number of keystrokes.</li>
-<li><a href="https://www.destroyallsoftware.com/" title="Destroy All Software">Destroy All Software</a> &ndash; Watching <a href="https://twitter.com/garybernhardt" title="Gary's Twitter Feed">Gary Bernhardt</a> is a great
-way to learn vim. His excellent screencasts have 3 episodes focused on Vim:
-<a href="https://www.destroyallsoftware.com/screencasts/catalog/file-navigation-in-vim" title="File Navigation in Vim">File Navigation in Vim</a>, <a href="https://www.destroyallsoftware.com/screencasts/catalog/some-vim-tips" title="Some Vim Tips">Some Vim Tips</a>, and
-<a href="https://www.destroyallsoftware.com/screencasts/catalog/the-vimrc" title="The vimrc">The vimrc</a>.</li>
-</ul>
-
-
-<h3>My Own Tips</h3>
-
-<ul>
-<li>Disable the arrow keys. They just encourage bad habits. For me, I had to use the
-<code>h</code>, <code>j</code>, <code>l</code>, and <code>l</code> out of necessity. I travel a lot, and writing code on an
-airplane is difficult if you have to move your hand to the arrow keys. The key is
-not to do this too early otherwise you&rsquo;ll be frustrated like <a href="http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/">Yehuda Katz</a>.</li>
-<li>Don&rsquo;t use a premade vim configuration. Things like <a href="https://github.com/carlhuda/janus" title="Janus">Janus</a> make it easy
-for vim to behave more like <a href="http://macromates.com/" title="TextMate">TextMate</a> or <a href="http://www.sublimetext.com/" title="Sublime Editor">Sublime</a> (both great
-editors), but if that&rsquo;s what you want, why not just use them? Instead, strive to
-keep your <code>.vimrc</code> your own and rely on plugins to get the benefits of the excellent
-work that&rsquo;s been done by other people. <a href="http://blog.clifreeder.com/blog/2012/07/08/leaving-janus-for-vim/" title="Leaving Janus">Clif Reeder</a> articulates when
-to leave Janus quite well.</li>
-<li>Keep it simple! The more you stray from default, the more dependant you are on
-your own configuration. Use plugins in order to extend functionality. If you can&rsquo;t
-explain every line of your own <code>.vimrc</code> then either figure it out, or remove it.</li>
-<li>As you grow more comfortable, start using vim everywhere. If you use <strong>gmail</strong>, turn
-on the keyboard shortcuts (some of them are vim like). If you&rsquo;re using Chrome,
-install <a href="http://vimium.github.io/">Vimium</a>. It allows you to navigate the browser
-as if it&rsquo;s vim. There&rsquo;s even
-<a href="http://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329">VsVim</a>
-for Visual Studio users!</li>
-</ul>
-
-
-<p>Admittedly, I still have a lot to learn. I&rsquo;m by no means an expert.</p>
-
-<p><strong>Disclaimer</strong> &ndash; I&rsquo;m a &ldquo;learn it the hard way&rdquo; type of person. So that may explain
-my thoughts on the subject.</p>
-
-<p>Hope you enjoyed the first of what could be many &ldquo;valuable links&rdquo; posts.</p>
-
-<h3>Addendum</h3>
-
-<ul>
-<li><a href="http://dougblack.io/words/a-good-vimrc.html">A Good Vimrc</a></li>
-<li><a href="http://nvie.com/posts/how-i-boosted-my-vim/">How I Boosted My Vim</a></li>
-<li><a href="http://stevelosh.com/blog/2010/09/coming-home-to-vim/">Coming Home to Vim</a></li>
-</ul>
-
 ]]></content>
   </entry>
   

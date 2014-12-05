@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>What Makes Something a "Devops" Tool? - More Muc Than You Can Handle</title>
+  <meta name="author" content="Scott Muc">
+
+  
+  <meta name="description" content="The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
+gain traction. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://scottmuc.com/what-makes-something-a-devops-tool">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
+<link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4298809-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.scottmuc.com/scottmucblog" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
+  <li><a href="https://github.com/scottmuc/">Github</a></li>
+  <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
+  <li><a href="https://about.me/scottmuc/">About Me</a></li>
+  <li><a href="http://careers.stackoverflow.com/scottmuc">Hire Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">What Makes Something a "Devops" Tool?</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-05T09:43:52+05:30" pubdate data-updated="true">Dec 5<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
+gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
+
+<p>The reason this has been on my mind is that myself and <a href="twitter.com/rdsubhas">Subhas</a> released a website called
+<a href="http://www.devopsbookmarks.com/">Devops Bookmarks</a> to aggregate all the tools in the landscape. Using a <a href="https://github.com/devopsbookmarks/devopsbookmarks.com/blob/master/CONTRIBUTING.md">Github Pull Request</a>
+for contributions results in reviewing a lot of tools and after a short amount of time I found myself second-guessing
+the need for such a website. It felt that we were diluting the devops term.</p>
+
+<p>Here&rsquo;s a couple that I think got it wrong:</p>
+
+<ul>
+<li><a href="http://blog.xebialabs.com/2014/04/30/taxonomy/">http://blog.xebialabs.com/2014/04/30/taxonomy/</a></li>
+<li><a href="http://newrelic.com/devops/toolset">http://newrelic.com/devops/toolset</a></li>
+</ul>
+
+
+<p>I&rsquo;m greatly concerned the Devops Bookmarks is going to feel the same unless context is added to support the inclusion of
+the tools. It&rsquo;s why I made a <a href="/valuable-links-devops/">devops links post</a> on my blog so that I could explain a little
+bit why something is included.</p>
+
+<h3>Going To the <a href="https://en.wikipedia.org/wiki/Gemba">Gemba</a></h3>
+
+<p>Honestly, <a href="http://www.jedi.be/blog/">Patrick Debois&rsquo;s</a> blog is a must read to get adequate context around devops. He has an
+excellent <a href="http://www.jedi.be/blog/2010/02/12/what-is-this-devops-thing-anyway/">introductory post</a> (written almost 5 years ago) and he&rsquo;s made an excellent slide deck pointing
+out the same concepts I&rsquo;m struggling with right now.</p>
+
+<div style="width: 450px; margin: 0 auto 0 auto;">
+<iframe src="//www.slideshare.net/slideshow/embed_code/9631120" width="425" height="355" frameborder="0" marginwidth="0"
+marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"
+allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a
+href="//www.slideshare.net/jedi4ever/devops-tools-fools-and-other-smart-things" title="Devops Tools Fools and Other
+smart things" target="_blank">Devops Tools Fools and Other smart things</a> </strong> from <strong><a
+href="//www.slideshare.net/jedi4ever" target="_blank">Patrick Debois</a></strong> </div>
+</div>
+
+
+<p>In that presentation the point of articulating desired <em>Behaviours</em> is very clear. To me a devops tool is something that
+promotes good behaviour if it&rsquo;s executed well. The desired behaviours are cleary represented by
+<a href="https://twitter.com/botchagalupe">John Willis&#8217;</a> excellent blog post titled: <a href="https://www.chef.io/blog/2010/07/16/what-devops-means-to-me/">What Devops Means to Me</a>.</p>
+
+<p><strong>Examples</strong></p>
+
+<ul>
+<li><strong>Chef</strong> &ndash; promotes the behaviour of automating the configuration of machines. This reduces the tribal knowledge and
+provides a collaborative environment to work on this automation (because it&rsquo;s now code instead of a Word doc).</li>
+<li><strong>Vagrant</strong> &ndash; enables the ability to create production like environments anywhere. All roles in the software lifecycle
+work with consistent infrastructure, thus can share their improvements and feedback.</li>
+<li><strong>Gauntlt</strong> &ndash; security testing for humans. Using Cucumber, security tests can be easily read by everyone and the tests
+can be executed in a continuous integration pipeline.</li>
+</ul>
+
+
+<p><strong>Not Sure About These</strong></p>
+
+<ul>
+<li><strong>Gitorious</strong> &ndash; is it a devops tool because having source control is necessary?</li>
+<li><strong>Static Analysis</strong> &ndash; is a python static analysis tool really a devops tool? What about something like Puppet Lint?</li>
+</ul>
+
+
+<p>Are some tools purely dev, and some purely ops? Everything lies on a spectrum and I guess what I&rsquo;m wondering is if
+devops tools are simply the ones that are in the middle of that spectrum.</p>
+
+<h3>Moving Forward</h3>
+
+<p>I&rsquo;m torn, but I think a feature in <a href="http://www.devopsbookmarks.com/">Devops Bookmarks</a> should be a requirement to explain why the tools
+is a devops tool, and what behaviours does it try to support. If no explanation is provided, then it cannot be listed.</p>
+
+<p>Currently the website is broken down by <em>Topics</em>, but that could change to <em>Behaviours</em> and the tools can be tagged with
+the behaviours that it supports.</p>
+
+<p>Consider this a request for comments.</p>
+
+<p><em>This post took 3 pomodoros to complete</em></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Scott Muc</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-05T09:43:52+05:30" pubdate data-updated="true">Dec 5<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/devops/'>devops</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/joining-soundcloud-and-moving-to-berlin/" title="Previous Post: Joining SoundCloud and Moving to Berlin">&laquo; Joining SoundCloud and Moving to Berlin</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Scott Muc -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'scottmuc-dot-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://scottmuc.com/what-makes-something-a-devops-tool/';
+        var disqus_url = 'http://scottmuc.com/what-makes-something-a-devops-tool/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
