@@ -8,7 +8,8 @@ categories: [links, devops]
 
 ## Valuable Links for Devops
 
-TL;DR - Watch [this][the-devops-transformation] video
+TL;DR - Watch [this][the-devops-transformation] video and read [the 10 myths of DevOps][10-myths] (which also links to
+what I now find is the best [video][beerops-video] on devops).
 
 Since I first learned the term devops 4 years ago I've gone through many leaps in understanding. I really wish I saw
 [this video (history of devops)][history-devops] before I got involved. As a software developer, I find delivering
@@ -18,6 +19,8 @@ to why devops is important.
 
 [history-devops]: https://www.youtube.com/watch?v=o7-IuYS0iSE
 [devops-success]: http://blog.devopsguys.com/2014/02/25/a-scientific-basis-for-devops-success/
+[10-myths]: https://sethvargo.com/the-ten-myths-of-devops/
+[beerops-video]: https://vimeo.com/101735253
 
 ## People
 
