@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2014-12-10T12:53:37+05:30</updated>
+  <updated>2015-01-01T22:07:06-08:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -14,9 +14,74 @@
 
   
   <entry>
+    <title type="html"><![CDATA[My Resolutions for 2015]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
+    <updated>2015-01-01T17:08:42-08:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2015</id>
+    <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
+the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
+comes to technical learning so I&rsquo;ve dropped that from the title. Even though I tend to despise meaningless dates, I look
+at resolutions as one large <a href="http://pomodorotechnique.com/">pomodoro</a>. So the tradition lives on!</p>
+
+<h2>Reflections on <a href="http://scottmuc.com/my-developer-resolutions-for-2014/">2014</a></h2>
+
+<p>Going on a <a href="http://scottmuc.com/blog/categories/career-break/">career break</a> sort of twisted everything around in 2014. Still, it was interesting to see how
+I did:</p>
+
+<ul>
+<li>Increase Signal to Noise Ration &ndash; I&rsquo;m only following 118 people on Twitter now as opposed to 627, but my &ldquo;friend&rdquo;
+count on FaceBook went up to 507 from 480. Considering that Twitter is where most of the noise comes from, I think I
+succeeded in this goal.</li>
+<li>Learn Docker &ndash; I&rsquo;ve yet to run the docker CLI, so didn&rsquo;t go far with this. I&rsquo;m not terribly interested in it now as my
+frustration with tech is still there. 2015 may be a success if I still don&rsquo;t touch docker.</li>
+<li>Do Meaningful Work &ndash; Does quitting my job and traveling the world for 9 months count as success? It does to me so I
+think I slayed this resolution! I&rsquo;m also getting back into the <a href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/">workforce</a> with a company that is in a domain I care
+about and I&rsquo;ve gotten the opportunity to be on the board of advisors for an interesting <a href="http://zolair-energy.com/">clean energy start up</a>.</li>
+</ul>
+
+
+<h2>Goals for 2015:</h2>
+
+<p>I think the time off has given me a new perspective. These goals are more about looking at myself externally and
+figuring out what kind of design changes to I want to make on myself.</p>
+
+<h3>Brew Beer</h3>
+
+<p>Given that I want to look into the business of beer, it would help if I&rsquo;ve actually brewed some. I believe brewing 10
+batches is a reasonable goal. If I can&rsquo;t do this, then I can safely drop the idea of building a beer related business in
+the future. I enjoy publishing my <a href="https://twitter.com/todayschai">chai</a> experiments and I&rsquo;ll do the same thing with my beer brewing. Will
+probably publish them on this blog for now.</p>
+
+<h3>Nurture a Healthy Habit</h3>
+
+<p>Over the last 15 years of my life I&rsquo;ve ridden a health rollercoaster. I can&rsquo;t recall any year where I didn&rsquo;t go
+off the routine and regress to my old unhealthy habits. This year I&rsquo;m aiming to be more proactive around my habits and
+plan a bit better when I can see potential for a habit to break (eg: when traveling, or a busy period). My goal is run
+at least 10 times every month. Be sure to verify my results on <a href="http://www.strava.com/athletes/6575733">Strava</a>. I am training for a half marathon but
+this is very typical of my health ambitions. Do something big, and then stop.</p>
+
+<h3>Think More Critically</h3>
+
+<p>This could be due to having a lot of time to consume too much media over the last year, but I feel that I should be more
+thoughtful in my communication and critical of my messages. It&rsquo;s easy to type out a pithy tweet skipping a load of
+context. When being critical I will do due dilligence in citing research when trying to impose my ideas, or at least be
+more transparent in pointing out how much is anecdotal. This one is a tougher one to measure. The only thing I can think
+of is comparing the number of tweets over the course of the years, and having source lists in all my blog posts (or
+stating the source are my own observations and are completely theoretical).</p>
+
+<h3>Summary</h3>
+
+<p>When reading my <a href="http://scottmuc.com/my-developer-resolutions-for-2014/">2014 post</a> I can tell that I was getting jaded about the IT industry. It looks like I&rsquo;m still a bit
+jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s see what these new waters are like.</p>
+
+<p><em>This post took 2 pomodoros to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Why I Like Running]]></title>
     <link href="http://scottmuc.com/why-i-like-running/"/>
-    <updated>2014-12-10T10:39:27+05:30</updated>
+    <updated>2014-12-09T21:09:27-08:00</updated>
     <id>http://scottmuc.com/why-i-like-running</id>
     <content type="html"><![CDATA[<p><a href="http://instagram.com/p/LepNTRLlIB/"><img class="center" src="http://scottmuc.com/images/blog/running/venice.jpg" width="700"></a></p>
 
@@ -112,7 +177,7 @@ who egged me on to join a trail run series. If you wish to give me encouragement
   <entry>
     <title type="html"><![CDATA[What Makes Something a "Devops" Tool?]]></title>
     <link href="http://scottmuc.com/what-makes-something-a-devops-tool/"/>
-    <updated>2014-12-05T09:43:52+05:30</updated>
+    <updated>2014-12-04T20:13:52-08:00</updated>
     <id>http://scottmuc.com/what-makes-something-a-devops-tool</id>
     <content type="html"><![CDATA[<p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
 gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
@@ -194,7 +259,7 @@ the behaviours that it supports.</p>
   <entry>
     <title type="html"><![CDATA[Joining SoundCloud and Moving to Berlin]]></title>
     <link href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/"/>
-    <updated>2014-11-05T18:39:37+05:30</updated>
+    <updated>2014-11-05T05:09:37-08:00</updated>
     <id>http://scottmuc.com/joining-soundcloud-and-moving-to-berlin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/career-break/berlin-reichstag.medium.jpg" width="900"></p>
 
@@ -369,7 +434,7 @@ Keep an eye here for my next steps 5 years from now. Wish me luck!</p>
   <entry>
     <title type="html"><![CDATA[Siófok/Tihany, Italian Grand Prix, and Istanbul]]></title>
     <link href="http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul/"/>
-    <updated>2014-11-02T14:18:21+05:30</updated>
+    <updated>2014-11-02T01:48:21-07:00</updated>
     <id>http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul</id>
     <content type="html"><![CDATA[<p><em>August 30th &ndash; September 19</em></p>
 
@@ -515,7 +580,7 @@ with friends, and get re-invigorated about software development.</p>
   <entry>
     <title type="html"><![CDATA[Book Review - a Mind for Numbers by Barbara Oakley]]></title>
     <link href="http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley/"/>
-    <updated>2014-10-26T13:35:53+05:30</updated>
+    <updated>2014-10-26T01:05:53-07:00</updated>
     <id>http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley</id>
     <content type="html"><![CDATA[<p><a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245"><img class="left" src="http://scottmuc.com/images/blog/l2l/book.jpg" width="200"></a>
 Over the last 4 weeks I&rsquo;ve been taking the <a href="https://www.coursera.org/">Coursera</a> course <a href="https://www.coursera.org/course/learning">Learning how to Learn</a> on the
@@ -654,7 +719,7 @@ boxing to focus on his craft.</li>
   <entry>
     <title type="html"><![CDATA[Valuable Links - Podcasts]]></title>
     <link href="http://scottmuc.com/valuable-links-podcasts/"/>
-    <updated>2014-10-16T11:59:46+05:30</updated>
+    <updated>2014-10-15T23:29:46-07:00</updated>
     <id>http://scottmuc.com/valuable-links-podcasts</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/podcast.jpg" width="300">
 It&rsquo;s quite surprising that I haven&rsquo;t really brought up the topic of <a href="https://en.wikipedia.org/wiki/Podcast">podcasts</a> on my blog considering that
@@ -1009,7 +1074,7 @@ listening software.</p>
   <entry>
     <title type="html"><![CDATA[Book Review - Learning Continuous Integration With TeamCity by Manoj Mahalingam]]></title>
     <link href="http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/"/>
-    <updated>2014-10-13T17:34:30+05:30</updated>
+    <updated>2014-10-13T05:04:30-07:00</updated>
     <id>http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam</id>
     <content type="html"><![CDATA[<p><strong>Disclaimer</strong> &ndash; I personally know Manoj and have worked with him in the past. I was asked to review his book,
 <a href="http://goo.gl/5wUy3v">Learning Continuous Integration with TeamCity</a>, by <a href="https://www.packtpub.com/">Packt Publishing</a>.</p>
@@ -1052,7 +1117,7 @@ new with TeamCity and some context of the usage of TeamCity specific features.</
   <entry>
     <title type="html"><![CDATA[Visiting the Motherland - Ukraine]]></title>
     <link href="http://scottmuc.com/visiting-the-motherland-ukraine/"/>
-    <updated>2014-10-06T20:01:12+05:30</updated>
+    <updated>2014-10-06T07:31:12-07:00</updated>
     <id>http://scottmuc.com/visiting-the-motherland-ukraine</id>
     <content type="html"><![CDATA[<p><em>August 17th &ndash; August 29th</em></p>
 
@@ -1231,7 +1296,7 @@ of these uncontrollable events (on my part), I’ve been afforded so many luxuri
   <entry>
     <title type="html"><![CDATA[Rome, Switzerland, and Vienna]]></title>
     <link href="http://scottmuc.com/rome-switzerland-and-vienna/"/>
-    <updated>2014-08-13T17:39:31+05:30</updated>
+    <updated>2014-08-13T05:09:31-07:00</updated>
     <id>http://scottmuc.com/rome-switzerland-and-vienna</id>
     <content type="html"><![CDATA[<p><em>July 30th &ndash; August 17th</em></p>
 
@@ -1374,7 +1439,7 @@ down and I took the metro back to the apartment and hung out in the flat with Ro
   <entry>
     <title type="html"><![CDATA[Growing an Open Source Project: The Pester Story]]></title>
     <link href="http://scottmuc.com/growing-an-open-source-project-the-pester-story/"/>
-    <updated>2014-08-07T21:20:58+05:30</updated>
+    <updated>2014-08-07T08:50:58-07:00</updated>
     <id>http://scottmuc.com/growing-an-open-source-project-the-pester-story</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/pester/Pester"><img src="http://scottmuc.com/images/blog/github-pester.png"></a></p>
 
@@ -1483,7 +1548,7 @@ Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent
   <entry>
     <title type="html"><![CDATA[Prague, Budapest, and the Hungarian Grand Prix]]></title>
     <link href="http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix/"/>
-    <updated>2014-08-04T17:53:50+05:30</updated>
+    <updated>2014-08-04T05:23:50-07:00</updated>
     <id>http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 22nd &ndash; July 29th</em></p>
 
@@ -1609,7 +1674,7 @@ next destination, Rome.</p>
   <entry>
     <title type="html"><![CDATA[Glasgow, Berlin, Heidelberg and the German Grand Prix]]></title>
     <link href="http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix/"/>
-    <updated>2014-07-21T18:14:37+05:30</updated>
+    <updated>2014-07-21T05:44:37-07:00</updated>
     <id>http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 7th &ndash; July 21st</em></p>
 
@@ -1728,7 +1793,7 @@ the awards ceremony!</p>
   <entry>
     <title type="html"><![CDATA[Belgium, France, London and the British Grand Prix]]></title>
     <link href="http://scottmuc.com/belgium-france-london-and-the-british-grand-prix/"/>
-    <updated>2014-07-08T18:12:19+05:30</updated>
+    <updated>2014-07-08T05:42:19-07:00</updated>
     <id>http://scottmuc.com/belgium-france-london-and-the-british-grand-prix</id>
     <content type="html"><![CDATA[<p><em>June 24th &ndash; July 7th</em></p>
 
@@ -1876,7 +1941,7 @@ enough. I was going to write about my learnings over the last few weeks, but wil
   <entry>
     <title type="html"><![CDATA[Crossing the Atlantic via Container Ship]]></title>
     <link href="http://scottmuc.com/crossing-the-atlantic-via-container-ship/"/>
-    <updated>2014-06-24T09:32:51+05:30</updated>
+    <updated>2014-06-23T21:02:51-07:00</updated>
     <id>http://scottmuc.com/crossing-the-atlantic-via-container-ship</id>
     <content type="html"><![CDATA[<p>As I mentioned in my <a href="http://scottmuc.com/leaving-vancouver-and-north-america/">last post</a>, I finished the crossing of the Atlantic ocean via container ship. It was a great
 experiene that I&rsquo;ll happily do again. 11 days wasn&rsquo;t enough, and would be happy to spend a month next time around.</p>
@@ -1949,7 +2014,7 @@ then, I turn off all notifications and keep it silent.</p>
   <entry>
     <title type="html"><![CDATA[Leaving Vancouver and North America]]></title>
     <link href="http://scottmuc.com/leaving-vancouver-and-north-america/"/>
-    <updated>2014-06-13T18:40:36+05:30</updated>
+    <updated>2014-06-13T06:10:36-07:00</updated>
     <id>http://scottmuc.com/leaving-vancouver-and-north-america</id>
     <content type="html"><![CDATA[<p>After another relaxing two weeks in Vancouver (and attending <a href="http://www.sasquatchfestival.com/">Sasquatch</a>), it&rsquo;s time to leave. Here&rsquo;s the
 last sunset I watched from the beach. If you can believe it, the weather in Vancouver was 99% rain free!</p>
@@ -2017,7 +2082,7 @@ my phone behind and go for a wander. Writing blog posts like this is much more f
   <entry>
     <title type="html"><![CDATA[Testing Powershell Code That Talks to CLR Objects]]></title>
     <link href="http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects/"/>
-    <updated>2014-06-06T06:09:41+05:30</updated>
+    <updated>2014-06-05T17:39:41-07:00</updated>
     <id>http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects</id>
     <content type="html"><![CDATA[<p>Several months ago someone posted an excellent question on the <a href="https://groups.google.com/forum/#!topic/pester/Y8UzSiNlcSE">Pester Group</a> about a certain problem area
 in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
@@ -2261,7 +2326,7 @@ testing framework to be able to do for me though.</p>
   <entry>
     <title type="html"><![CDATA[Two Weeks Living Off the Clock]]></title>
     <link href="http://scottmuc.com/two-weeks-living-off-the-clock/"/>
-    <updated>2014-05-23T04:44:14+05:30</updated>
+    <updated>2014-05-22T16:14:14-07:00</updated>
     <id>http://scottmuc.com/two-weeks-living-off-the-clock</id>
     <content type="html"><![CDATA[<p>For the last two weeks I&rsquo;ve been house sitting for a friend in the beautiful area of <a href="https://en.wikipedia.org/wiki/Kitsilano">Kitsalano</a> in Vancouver. The
 goal for the two weeks was to figure out the rest of my travel plans and to meet up with a lot of my friends and
@@ -2350,7 +2415,7 @@ No better way to go slow than to stand still. Queue the <a href="http://www.yout
   <entry>
     <title type="html"><![CDATA[Reflections of Being Unemployed and Homeless for 1 Month]]></title>
     <link href="http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month/"/>
-    <updated>2014-05-13T07:43:53+05:30</updated>
+    <updated>2014-05-12T19:13:53-07:00</updated>
     <id>http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month</id>
     <content type="html"><![CDATA[<p>For some context, you may want to read my <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">previous post</a> about quitting my job.</p>
 
@@ -2440,7 +2505,7 @@ later time.</p>
   <entry>
     <title type="html"><![CDATA[Leaving a Dream Job and Going on an Adventure]]></title>
     <link href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/"/>
-    <updated>2014-03-26T23:58:28+05:30</updated>
+    <updated>2014-03-26T11:28:28-07:00</updated>
     <id>http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure</id>
     <content type="html"><![CDATA[<p>On January 4th 2010 I joined <a href="http://scottmuc.com/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/">ThoughtWorks</a> and it has been an amazing journey. I&rsquo;ve seen more systems,
 worked with more people, and seen more countries than the entire 30 years that preceded that date. I still can&rsquo;t believe
@@ -2534,95 +2599,6 @@ synthesize itself the best it can. If you&rsquo;re thinking about applying at Th
 place to work, and full of great people. During this sabbitcal I plan on visiting as many ThoughtWorkers as I can!</p>
 
 <p>I&rsquo;m looking forward to reading this post a year from now.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Valuable Links - Devops]]></title>
-    <link href="http://scottmuc.com/valuable-links-devops/"/>
-    <updated>2014-02-24T07:47:52+05:30</updated>
-    <id>http://scottmuc.com/valuable-links-devops</id>
-    <content type="html"><![CDATA[<h2>Valuable Links for Devops</h2>
-
-<p>TL;DR &ndash; Watch <a href="https://www.youtube.com/watch?v=3KpPBnEtRj4">this</a> video</p>
-
-<p>Since I first learned the term devops 4 years ago I&rsquo;ve gone through many leaps in understanding. I really wish I saw
-<a href="https://www.youtube.com/watch?v=o7-IuYS0iSE">this video (history of devops)</a> before I got involved. As a software developer, I find delivering
-frequently highly motivating. Devops is a set of principles and practices that aim to ensure delivery goes as smooth
-as possible. I found this post, <a href="http://blog.devopsguys.com/2014/02/25/a-scientific-basis-for-devops-success/">A Scientific Basis For Devops Success</a>, to be a great introduction
-to why devops is important.</p>
-
-<h2>People</h2>
-
-<p>This list isn&rsquo;t comprehensive, but you can&rsquo;t go wrong by reading what these people have to say:</p>
-
-<ul>
-<li><a href="http://jedi.be/">Patrick Debois</a> &ndash; coined the term devops</li>
-<li><a href="http://www.noahsussman.com/">Noah Sussman</a> &ndash; provides excellent insights around QA</li>
-<li><a href="http://www.kitchensoap.com/">John Allspaw</a> &ndash; has many excellent posts on the culture of devops</li>
-<li><a href="http://itrevolution.com/">Gene Kim</a> &ndash; co-author of The Phoenix Project</li>
-<li><a href="http://continuousdelivery.com/">Jez Humble</a> &ndash; co-author of Continuous Delivery</li>
-</ul>
-
-
-<h2>Devops is not a Role</h2>
-
-<p>It took me a while to realize that devops is not a role played on a team and that it&rsquo;s got more in commong with Agile in
-the fact that it&rsquo;s a collection of principles rather than straight up proceesses.</p>
-
-<ul>
-<li><a href="http://www.getchef.com/blog/2010/07/16/what-devops-means-to-me/">CAMS</a> &ndash; <a href="https://twitter.com/botchagalupe/">John Willis</a>&lsquo; posts a list of principles</li>
-<li><a href="http://blog.lusis.org/blog/2013/06/04/devops-the-title-match/">Lusis&#8217; rant</a> &ndash; an excellent rant about the absurditity of devops being a role</li>
-</ul>
-
-
-<h2>Must Watch Videos</h2>
-
-<ul>
-<li><a href="https://www.youtube.com/watch?v=3KpPBnEtRj4">The Devops Transformation</a> &ndash; <a href="https://twitter.com/benr/">Ben Rockwood</a> does a most
-enlightening talk on the subject</li>
-<li><a href="https://www.youtube.com/watch?v=h5E--QSBVBY">Devops Demystified</a> &ndash; Another <strong>Ben Rockwood</strong> talk that is awesome</li>
-</ul>
-
-
-<h2>Events</h2>
-
-<ul>
-<li><a href="http://www.devopsdays.org/">DevOpsDays</a></li>
-<li><a href="http://devopssummit.com/">DevOps Summit</a></li>
-<li><a href="http://web.experiencedevops.org/">Experience DevOps</a></li>
-</ul>
-
-
-<h2>Mailing Lists</h2>
-
-<ul>
-<li><a href="https://code.google.com/p/devops-toolchain/">Devops Toolchain</a></li>
-<li><a href="http://devopsweekly.com/">Devops Weekly</a></li>
-</ul>
-
-
-<h2>Tools</h2>
-
-<ul>
-<li><a href="http://www.devopsbookmarks.com">Devops Bookmarks</a> &ndash; This is the ultimate one stop shop for all tools</li>
-<li><a href="http://www.infoq.com/presentations/vagrant-packer-consul-serf">Vagrant, Packer, Consul, Serf</a> &ndash; Mitchell Hashimoto discusses some core concepts around devops tooling and
-provides examples</li>
-</ul>
-
-
-<h2>Links (need sorting and or context)</h2>
-
-<ul>
-<li><a href="http://www.slideshare.net/garethbowles/managing-jenkins-with-jenkins-uc2013">http://www.slideshare.net/garethbowles/managing-jenkins-with-jenkins-uc2013</a></li>
-<li><a href="http://www.slideshare.net/PeterLeschev/puppet-camp-melbourne-nov-2014-a-build-engineering-teams-journey-of-infrastructure-as-code">http://www.slideshare.net/PeterLeschev/puppet-camp-melbourne-nov-2014-a-build-engineering-teams-journey-of-infrastructure-as-code</a></li>
-<li><a href="http://www.gartner.com/technology/reprints.do?ct=140925&amp;id=1-22AAXZR&amp;st=sb">http://www.gartner.com/technology/reprints.do?ct=140925&amp;id=1-22AAXZR&amp;st=sb</a></li>
-<li><a href="http://theagileadmin.com/2014/09/30/scrum-for-operations-just-add-devops/">http://theagileadmin.com/2014/09/30/scrum-for-operations-just-add-devops/</a></li>
-<li><a href="http://sysadmincasts.com/">http://sysadmincasts.com/</a></li>
-<li><a href="http://vimeo.com/77207216">http://vimeo.com/77207216</a></li>
-<li><a href="http://www.binpress.com/blog/2014/09/09/binpress-podcast-episode-10-mitchell-hashimoto-hashicorp/">http://www.binpress.com/blog/2014/09/09/binpress-podcast-episode-10-mitchell-hashimoto-hashicorp/</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
