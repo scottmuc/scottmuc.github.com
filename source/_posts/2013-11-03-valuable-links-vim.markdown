@@ -44,7 +44,7 @@ websites that have helped me out:
   editors), but if that's what you want, why not just use them? Instead, strive to
   keep your `.vimrc` your own and rely on plugins to get the benefits of the excellent
   work that's been done by other people. [Clif Reeder][leaving-janus] articulates when
-  to leave Janus quite well.
+  to leave Janus quite well. [Ben Orenstein][min-vimrc] supports this tip too.
 * Keep it simple! The more you stray from default, the more dependant you are on
   your own configuration. Use plugins in order to extend functionality. If you can't
   explain every line of your own `.vimrc` then either figure it out, or remove it.
@@ -80,6 +80,7 @@ Hope you enjoyed the first of what could be many "valuable links" posts.
 [das-ep60]: https://www.destroyallsoftware.com/screencasts/catalog/the-vimrc "The vimrc"
 [janus]: https://github.com/carlhuda/janus "Janus"
 [leaving-janus]: http://blog.clifreeder.com/blog/2012/07/08/leaving-janus-for-vim/ "Leaving Janus"
+[min-vimrc]: http://www.benorenstein.com/blog/your-first-vimrc-should-be-nearly-empty/ "Minimal .vimrc"
 [textmate]: http://macromates.com/ "TextMate"
 [sublime]: http://www.sublimetext.com/ "Sublime Editor"
 [yehuda]: http://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/
