@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Vim | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/vim/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2015-01-01T22:07:06-08:00</updated>
+  <updated>2015-02-23T22:11:00+01:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Valuable Links - Vim]]></title>
     <link href="http://scottmuc.com/valuable-links-vim/"/>
-    <updated>2013-11-03T19:31:00-08:00</updated>
+    <updated>2013-11-03T19:31:00+01:00</updated>
     <id>http://scottmuc.com/valuable-links-vim</id>
     <content type="html"><![CDATA[<h2>First Off &ndash; Introducing Valuable Links</h2>
 
@@ -61,7 +61,7 @@ for vim to behave more like <a href="http://macromates.com/" title="TextMate">Te
 editors), but if that&rsquo;s what you want, why not just use them? Instead, strive to
 keep your <code>.vimrc</code> your own and rely on plugins to get the benefits of the excellent
 work that&rsquo;s been done by other people. <a href="http://blog.clifreeder.com/blog/2012/07/08/leaving-janus-for-vim/" title="Leaving Janus">Clif Reeder</a> articulates when
-to leave Janus quite well.</li>
+to leave Janus quite well. <a href="http://www.benorenstein.com/blog/your-first-vimrc-should-be-nearly-empty/" title="Minimal .vimrc">Ben Orenstein</a> supports this tip too.</li>
 <li>Keep it simple! The more you stray from default, the more dependant you are on
 your own configuration. Use plugins in order to extend functionality. If you can&rsquo;t
 explain every line of your own <code>.vimrc</code> then either figure it out, or remove it.</li>

@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2015-01-01T22:07:06-08:00</updated>
+  <updated>2015-02-23T22:11:00+01:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2015]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
-    <updated>2015-01-01T17:08:42-08:00</updated>
+    <updated>2015-01-02T02:08:42+01:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2015</id>
     <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
 the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
@@ -79,9 +79,133 @@ jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Three Months in India]]></title>
+    <link href="http://scottmuc.com/three-months-in-india/"/>
+    <updated>2014-12-16T06:21:47+01:00</updated>
+    <id>http://scottmuc.com/three-months-in-india</id>
+    <content type="html"><![CDATA[<p><em>September 20th &ndash; December 16th</em></p>
+
+<p><img class="center" src="http://scottmuc.com/images/blog/career-break/blr-lake.large.jpg" width="800"></p>
+
+<p>Ugh, I left this post until way too late. Unfortunately I&rsquo;ll have to drop a lot of detail as 3 months is pretty hard to
+sum up in a single blog post. Hopefully I can do it justice as India is a place I&rsquo;m very fond of. I feel bad for all the
+wonderful little experiences that happened and didn&rsquo;t get written about. I&rsquo;ll just have to visit India again and
+properly journal the whole experience.</p>
+
+<h3>Arrival</h3>
+
+<p><a href="http://scottmuc.com/images/blog/career-break/blr-flood.jpg"><img class="right" src="http://scottmuc.com/images/blog/career-break/blr-flood.medium.jpg" width="200"></a>
+The minute I got off the plane I was greeted with the familiar scent of Bangalore. The city gives me a bizarre sense of
+being home. My arrival to India this time around is much different than the paniced call to Calgary at 4am where my
+arrange pickup wasn&rsquo;t there. This time I breezed through the crowd to the taxi line and made my way to Indiranagar where
+I was to stay in a wonderful <a href="https://www.airbnb.co.in/rooms/1009953">guest house</a> for the next long while.</p>
+
+<p>It was the end of monsoon season and there was a bit more rain than last time. It was quite refreshing because it kept
+the air clean for a little while. There was one evening where the road leading up to my apartment was flooded and had to
+wade through knee deep &ldquo;water&rdquo;.</p>
+
+<h3>Work Life Balance</h3>
+
+<p>My goal in India was to finish my job search and just chill out for a little while. But first, I had to find a place
+where I could hang out for most of the day to use the Internet. I first tried <a href="http://www.cobaltblr.com/">Cobalt</a> which was on Church St,
+just a few minutes away from MG Road metro station. It had good Internet and there were other people around that made it
+feel nice. The next day I tried <a href="http://www.beaglesloft.com/">Beaglesloft</a> as it was started by an ex-ThoughtWorker. It was a short walk from Trinity metro station, and it was decent too. A bit too quiet though.</p>
+
+<h3>Finding Nilenso</h3>
+
+<p>There was one more place to check out. An ex-ThoughtWorker, <a href="https://twitter.com/deobald">Steve</a> from Calgary, has lived in Bangalore for a
+while and has is part of a software collective called <a href="http://nilenso.com/">Nilenso</a>. I also recommend reading his
+<a href="http://blog.deobald.ca/">blog</a> as he is an excellent writer and has written some very insightful posts about life.</p>
+
+<p>After one day of hanging out with the folks at Nilenso I had realized I had found my home. The whole group was extremely
+welcoming to me. I had met Steve once before (for like around 5 minutes) and didn&rsquo;t know the others yet I now consider
+them friends and will visit them every time I go back to Bangalore. They set me up with good Internet, a workstation
+setup and meals! It was really hard not to apply and work with them. They also were excellent test subjects for my
+<a href="https://twitter.com/todayschai">chai experiments</a></p>
+
+<p><img class="center" src="http://scottmuc.com/images/blog/career-break/blr-chai.large.jpg" width="800"></p>
+
+<h3>Pune</h3>
+
+<p>After a few weeks I scheduled a trip to Pune to see some old friends and meet a company for a job interview. I had
+Internet issues at the place I was staying at so I had to go to Starbucks nearly everyday for interviews and other
+correspondance.</p>
+
+<p>The job interview went really well, but declined to pursue the job any further as it felt like it would be ThoughtWorks
+part 2. I used the down time to write a couple blog posts and do a little cooking.</p>
+
+<h3>Chennai</h3>
+
+<p>I wanted to meet some friends in Chennai as well so I did another short outing to see them. Besides eating awesome South
+Indian food all day long I collaborated with <a href="https://twitter.com/rdsubhas">Subhas Dandapani</a> on <a href="http://www.devopsbookmarks.com/">devopsbookmarks.com</a>. All I
+really did was &ldquo;project manage&rdquo; and Subhas essentially did all the work.</p>
+
+<h3>Beer Tour</h3>
+
+<p>Bangalore has a beer scene that&rsquo;s growing strong. In this trip alone I was able to visit 10 brewpubs and that&rsquo;s not
+hitting them all!</p>
+
+<ul>
+<li><a href="http://toit.in/">Toit</a> &ndash; Definitely one of my favourites. I think I went there at least once a week. I highly recommend their
+weiss beer.</li>
+<li><a href="http://www.murphysbrewhouse.in/">Murphy&rsquo;s</a> &ndash; Only went their once for lunch. None of their beers really stood out to me. I regret not going
+again because the view is quite nice.</li>
+<li><a href="http://windmillscraftworks.com/">Windmills</a> &ndash; Overall, I think Windmills makes the best beer in Bangalore. It&rsquo;s a bit of a trek because
+it&rsquo;s all the way in Whitefield.</li>
+<li><a href="http://www.barleyz.com/">Barleyz</a> &ndash; The beer isn&rsquo;t that great, but the rooftop terrace is a good reason to go there. All the beers
+tasted too watery.</li>
+<li><a href="http://thebiereclub.com/">Biere Club</a> &ndash; A decent spot with decent beers.</li>
+<li><a href="http://www.arborbrewing.com/locations/india/">Arbor</a> &ndash; Arbor always shows up as the place to go for the best beer in Bangalore. I do think the beer is ok,
+but it&rsquo;s not even close to Windmills in quality. I also found their beer gave me an allergic reaction. The beer is not
+filtered and I know sometimes that can affect me, but it was more pronounced there.</li>
+<li><a href="https://www.facebook.com/VapourBangalore">Vapour</a> &ndash; I ignored this spot for a while due to people around me saying it wasn&rsquo;t very good. While not all
+beers were of consistent quality, the red ale was pretty good and their weiss beer was decent too. It&rsquo;s also a nice
+roof top patio that serves decent food.</li>
+<li><a href="https://www.facebook.com/Bigpitcher">Big Pitcher</a> &ndash; A giant establishment. Only checked it out once. There were a couple decent beers, but
+the others tasted really off.</li>
+<li><a href="http://www.brewsky.in/">Brewsky</a> &ndash; Best IPA I&rsquo;ve had in India. The dunkel was also really good, but the rest were quite bad.</li>
+<li><a href="http://prost.in/">Prost</a> &ndash; I&rsquo;ve heard mixed reviews about the beers, but I found them to be pretty good. The Big Ben ale reminds
+me a lot of the English Bay Pale Ale, which is an old favourite of mine. Their stout is quite good too, which is a
+beer that doesn&rsquo;t seem to get much love in other Bangalore pubs.</li>
+</ul>
+
+
+<h3>Pun Town</h3>
+
+<p>One of the reasons why Bangalore is close to my heart has to be their love of puns. Here are some of the stores that
+were within 1km of where I was staying:</p>
+
+<ul>
+<li>Blind Love</li>
+<li>Berry&#8217;ed Alive</li>
+<li>Phobidden Fruit</li>
+<li>Wearhouse</li>
+<li>Infinitea</li>
+<li>Chaipatty</li>
+</ul>
+
+
+<h3>Oh, and I Got a Job!</h3>
+
+<p>Over the course of a few months I had interviewed with several companies. It was interesting trying to manage all of
+this while moving around and being in terribly inconvenient time zones. I&rsquo;ve already <a href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/">written</a> and huge post
+about the job hunt process. Now I have a blog that if read in order really doesn&rsquo;t make any sense.</p>
+
+<h3>Summary</h3>
+
+<p>All and all, this trip to India is a very stark contrast compared to my previous visit. I didn&rsquo;t do a whole lot of
+traveling. It was really a low-key retreat so that I could do lots of reading, podcast listening, computering, and
+reflecting. Sort of makes me wish I wrote about my previous trip because that one was definitely a lot more things going
+on, but this trip was exactly what I needed/wanted.</p>
+
+<p>*This post took an unknown number of pomodoros because I lack discipline :&ndash;( *</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Why I Like Running]]></title>
     <link href="http://scottmuc.com/why-i-like-running/"/>
-    <updated>2014-12-09T21:09:27-08:00</updated>
+    <updated>2014-12-10T06:09:27+01:00</updated>
     <id>http://scottmuc.com/why-i-like-running</id>
     <content type="html"><![CDATA[<p><a href="http://instagram.com/p/LepNTRLlIB/"><img class="center" src="http://scottmuc.com/images/blog/running/venice.jpg" width="700"></a></p>
 
@@ -177,7 +301,7 @@ who egged me on to join a trail run series. If you wish to give me encouragement
   <entry>
     <title type="html"><![CDATA[What Makes Something a "Devops" Tool?]]></title>
     <link href="http://scottmuc.com/what-makes-something-a-devops-tool/"/>
-    <updated>2014-12-04T20:13:52-08:00</updated>
+    <updated>2014-12-05T05:13:52+01:00</updated>
     <id>http://scottmuc.com/what-makes-something-a-devops-tool</id>
     <content type="html"><![CDATA[<p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
 gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
@@ -259,7 +383,7 @@ the behaviours that it supports.</p>
   <entry>
     <title type="html"><![CDATA[Joining SoundCloud and Moving to Berlin]]></title>
     <link href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/"/>
-    <updated>2014-11-05T05:09:37-08:00</updated>
+    <updated>2014-11-05T14:09:37+01:00</updated>
     <id>http://scottmuc.com/joining-soundcloud-and-moving-to-berlin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/career-break/berlin-reichstag.medium.jpg" width="900"></p>
 
@@ -434,7 +558,7 @@ Keep an eye here for my next steps 5 years from now. Wish me luck!</p>
   <entry>
     <title type="html"><![CDATA[Siófok/Tihany, Italian Grand Prix, and Istanbul]]></title>
     <link href="http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul/"/>
-    <updated>2014-11-02T01:48:21-07:00</updated>
+    <updated>2014-11-02T09:48:21+01:00</updated>
     <id>http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul</id>
     <content type="html"><![CDATA[<p><em>August 30th &ndash; September 19</em></p>
 
@@ -580,7 +704,7 @@ with friends, and get re-invigorated about software development.</p>
   <entry>
     <title type="html"><![CDATA[Book Review - a Mind for Numbers by Barbara Oakley]]></title>
     <link href="http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley/"/>
-    <updated>2014-10-26T01:05:53-07:00</updated>
+    <updated>2014-10-26T09:05:53+01:00</updated>
     <id>http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley</id>
     <content type="html"><![CDATA[<p><a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245"><img class="left" src="http://scottmuc.com/images/blog/l2l/book.jpg" width="200"></a>
 Over the last 4 weeks I&rsquo;ve been taking the <a href="https://www.coursera.org/">Coursera</a> course <a href="https://www.coursera.org/course/learning">Learning how to Learn</a> on the
@@ -719,7 +843,7 @@ boxing to focus on his craft.</li>
   <entry>
     <title type="html"><![CDATA[Valuable Links - Podcasts]]></title>
     <link href="http://scottmuc.com/valuable-links-podcasts/"/>
-    <updated>2014-10-15T23:29:46-07:00</updated>
+    <updated>2014-10-16T08:29:46+02:00</updated>
     <id>http://scottmuc.com/valuable-links-podcasts</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/podcast.jpg" width="300">
 It&rsquo;s quite surprising that I haven&rsquo;t really brought up the topic of <a href="https://en.wikipedia.org/wiki/Podcast">podcasts</a> on my blog considering that
@@ -1074,7 +1198,7 @@ listening software.</p>
   <entry>
     <title type="html"><![CDATA[Book Review - Learning Continuous Integration With TeamCity by Manoj Mahalingam]]></title>
     <link href="http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/"/>
-    <updated>2014-10-13T05:04:30-07:00</updated>
+    <updated>2014-10-13T14:04:30+02:00</updated>
     <id>http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam</id>
     <content type="html"><![CDATA[<p><strong>Disclaimer</strong> &ndash; I personally know Manoj and have worked with him in the past. I was asked to review his book,
 <a href="http://goo.gl/5wUy3v">Learning Continuous Integration with TeamCity</a>, by <a href="https://www.packtpub.com/">Packt Publishing</a>.</p>
@@ -1117,7 +1241,7 @@ new with TeamCity and some context of the usage of TeamCity specific features.</
   <entry>
     <title type="html"><![CDATA[Visiting the Motherland - Ukraine]]></title>
     <link href="http://scottmuc.com/visiting-the-motherland-ukraine/"/>
-    <updated>2014-10-06T07:31:12-07:00</updated>
+    <updated>2014-10-06T16:31:12+02:00</updated>
     <id>http://scottmuc.com/visiting-the-motherland-ukraine</id>
     <content type="html"><![CDATA[<p><em>August 17th &ndash; August 29th</em></p>
 
@@ -1296,7 +1420,7 @@ of these uncontrollable events (on my part), I’ve been afforded so many luxuri
   <entry>
     <title type="html"><![CDATA[Rome, Switzerland, and Vienna]]></title>
     <link href="http://scottmuc.com/rome-switzerland-and-vienna/"/>
-    <updated>2014-08-13T05:09:31-07:00</updated>
+    <updated>2014-08-13T14:09:31+02:00</updated>
     <id>http://scottmuc.com/rome-switzerland-and-vienna</id>
     <content type="html"><![CDATA[<p><em>July 30th &ndash; August 17th</em></p>
 
@@ -1439,7 +1563,7 @@ down and I took the metro back to the apartment and hung out in the flat with Ro
   <entry>
     <title type="html"><![CDATA[Growing an Open Source Project: The Pester Story]]></title>
     <link href="http://scottmuc.com/growing-an-open-source-project-the-pester-story/"/>
-    <updated>2014-08-07T08:50:58-07:00</updated>
+    <updated>2014-08-07T17:50:58+02:00</updated>
     <id>http://scottmuc.com/growing-an-open-source-project-the-pester-story</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/pester/Pester"><img src="http://scottmuc.com/images/blog/github-pester.png"></a></p>
 
@@ -1548,7 +1672,7 @@ Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent
   <entry>
     <title type="html"><![CDATA[Prague, Budapest, and the Hungarian Grand Prix]]></title>
     <link href="http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix/"/>
-    <updated>2014-08-04T05:23:50-07:00</updated>
+    <updated>2014-08-04T14:23:50+02:00</updated>
     <id>http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 22nd &ndash; July 29th</em></p>
 
@@ -1674,7 +1798,7 @@ next destination, Rome.</p>
   <entry>
     <title type="html"><![CDATA[Glasgow, Berlin, Heidelberg and the German Grand Prix]]></title>
     <link href="http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix/"/>
-    <updated>2014-07-21T05:44:37-07:00</updated>
+    <updated>2014-07-21T14:44:37+02:00</updated>
     <id>http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 7th &ndash; July 21st</em></p>
 
@@ -1793,7 +1917,7 @@ the awards ceremony!</p>
   <entry>
     <title type="html"><![CDATA[Belgium, France, London and the British Grand Prix]]></title>
     <link href="http://scottmuc.com/belgium-france-london-and-the-british-grand-prix/"/>
-    <updated>2014-07-08T05:42:19-07:00</updated>
+    <updated>2014-07-08T14:42:19+02:00</updated>
     <id>http://scottmuc.com/belgium-france-london-and-the-british-grand-prix</id>
     <content type="html"><![CDATA[<p><em>June 24th &ndash; July 7th</em></p>
 
@@ -1941,7 +2065,7 @@ enough. I was going to write about my learnings over the last few weeks, but wil
   <entry>
     <title type="html"><![CDATA[Crossing the Atlantic via Container Ship]]></title>
     <link href="http://scottmuc.com/crossing-the-atlantic-via-container-ship/"/>
-    <updated>2014-06-23T21:02:51-07:00</updated>
+    <updated>2014-06-24T06:02:51+02:00</updated>
     <id>http://scottmuc.com/crossing-the-atlantic-via-container-ship</id>
     <content type="html"><![CDATA[<p>As I mentioned in my <a href="http://scottmuc.com/leaving-vancouver-and-north-america/">last post</a>, I finished the crossing of the Atlantic ocean via container ship. It was a great
 experiene that I&rsquo;ll happily do again. 11 days wasn&rsquo;t enough, and would be happy to spend a month next time around.</p>
@@ -2014,7 +2138,7 @@ then, I turn off all notifications and keep it silent.</p>
   <entry>
     <title type="html"><![CDATA[Leaving Vancouver and North America]]></title>
     <link href="http://scottmuc.com/leaving-vancouver-and-north-america/"/>
-    <updated>2014-06-13T06:10:36-07:00</updated>
+    <updated>2014-06-13T15:10:36+02:00</updated>
     <id>http://scottmuc.com/leaving-vancouver-and-north-america</id>
     <content type="html"><![CDATA[<p>After another relaxing two weeks in Vancouver (and attending <a href="http://www.sasquatchfestival.com/">Sasquatch</a>), it&rsquo;s time to leave. Here&rsquo;s the
 last sunset I watched from the beach. If you can believe it, the weather in Vancouver was 99% rain free!</p>
@@ -2082,7 +2206,7 @@ my phone behind and go for a wander. Writing blog posts like this is much more f
   <entry>
     <title type="html"><![CDATA[Testing Powershell Code That Talks to CLR Objects]]></title>
     <link href="http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects/"/>
-    <updated>2014-06-05T17:39:41-07:00</updated>
+    <updated>2014-06-06T02:39:41+02:00</updated>
     <id>http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects</id>
     <content type="html"><![CDATA[<p>Several months ago someone posted an excellent question on the <a href="https://groups.google.com/forum/#!topic/pester/Y8UzSiNlcSE">Pester Group</a> about a certain problem area
 in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
@@ -2326,7 +2450,7 @@ testing framework to be able to do for me though.</p>
   <entry>
     <title type="html"><![CDATA[Two Weeks Living Off the Clock]]></title>
     <link href="http://scottmuc.com/two-weeks-living-off-the-clock/"/>
-    <updated>2014-05-22T16:14:14-07:00</updated>
+    <updated>2014-05-23T01:14:14+02:00</updated>
     <id>http://scottmuc.com/two-weeks-living-off-the-clock</id>
     <content type="html"><![CDATA[<p>For the last two weeks I&rsquo;ve been house sitting for a friend in the beautiful area of <a href="https://en.wikipedia.org/wiki/Kitsilano">Kitsalano</a> in Vancouver. The
 goal for the two weeks was to figure out the rest of my travel plans and to meet up with a lot of my friends and
@@ -2415,7 +2539,7 @@ No better way to go slow than to stand still. Queue the <a href="http://www.yout
   <entry>
     <title type="html"><![CDATA[Reflections of Being Unemployed and Homeless for 1 Month]]></title>
     <link href="http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month/"/>
-    <updated>2014-05-12T19:13:53-07:00</updated>
+    <updated>2014-05-13T04:13:53+02:00</updated>
     <id>http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month</id>
     <content type="html"><![CDATA[<p>For some context, you may want to read my <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">previous post</a> about quitting my job.</p>
 
@@ -2499,106 +2623,6 @@ of who I am and find it something I can&rsquo;t negotiate.</p>
 
 <p>I have no idea how to summarize anything right now. The focus is on data ingress and going to delegate the analysis to a
 later time.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Leaving a Dream Job and Going on an Adventure]]></title>
-    <link href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/"/>
-    <updated>2014-03-26T11:28:28-07:00</updated>
-    <id>http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure</id>
-    <content type="html"><![CDATA[<p>On January 4th 2010 I joined <a href="http://scottmuc.com/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/">ThoughtWorks</a> and it has been an amazing journey. I&rsquo;ve seen more systems,
-worked with more people, and seen more countries than the entire 30 years that preceded that date. I still can&rsquo;t believe
-how lucky I&rsquo;ve been to have such a wonderful opportunity. That&rsquo;s why it took me a long time to decide to leave it, and
-go on a bit of an adventure.</p>
-
-<h2>Why Leave Such a Good Thing?</h2>
-
-<p>For some reason I&rsquo;ve had every job I&rsquo;ve had for 4 years since I was 12 years old, so I&rsquo;m just keeping to my routine! To
-be honest though, there were a few things that instigated this change.</p>
-
-<ul>
-<li><strong>Consulting Fatigue</strong> &ndash; It&rsquo;s hard work always coming in as an outsider and trying to convince people to change their
-ways. You never know if what you suggest is correct, and there&rsquo;s always so much context to process. One thing that I&rsquo;ve gotten
-out of this though is becoming much more of a critical thinker. I&rsquo;ve learned to hold off on knee-jerk reactions and to
-actively listen to the problem at hand. This has been something I apply on a day-to-day basis.</li>
-<li><strong>Product Complacency</strong> &ndash; Though, I&rsquo;ve worked on some interesting projects (the latest being very cool), I can&rsquo;t shake
-the satisfaction I got from working at <a href="http://music.cbc.ca/radio3/">CBC Radio 3</a> where I got to essentially build the product I wanted to
-build on my own anyways. This may have been mitigated but the following reason adds to this one.</li>
-<li><strong>Miss Small Teams</strong> &ndash; For some reason people thought I was great at working on large programs of work. While I thought
-the challenges were interesting, I&rsquo;m more a small business person at heart. Some may be surprised by this because I&rsquo;ve
-been on small teams, but they were in these large programs of work. I&rsquo;ve learned that I&rsquo;m more of a system thinker than I
-thought and I find myself getting lost in the system thinking and see myself as this tiny insignificant cog just
-wanting to make some impactful change.</li>
-</ul>
-
-
-<p>Though I&rsquo;m listing things related to ThoughtWorks, a lot of my weariness is more from IT in general. It could be an age
-thing, but I&rsquo;ve been around long enough to see a lot of terrible things going on in this industry. No one seems to care
-about security, and the innovation that is making billions in the stock market are consumer products that mean almost
-nothing to me. It&rsquo;s hard to be optimistic after <a href="https://en.wikipedia.org/wiki/Edward_Snowden">Edward Snowden</a> revealed the NSA privacy issues.</p>
-
-<p>In the last few years I&rsquo;ve managed to save some money, and given that I&rsquo;m still relatively young and healthy, I thought
-now is the time to take a break before I get too cynical.</p>
-
-<h2>What am I Going to do?</h2>
-
-<p>The plan right now is pretty loose, but I have made a rough 6 month itinerary:</p>
-
-<ul>
-<li>Head back to North America. This will involve crashing at my brother&rsquo;s places and spend some time with family
-and friends.</li>
-<li>Do some roadtrips in Canada and the USA.</li>
-<li>Taking a cargo ship across the Atlantic.</li>
-<li>July is the month of Formula 1! I have tickets for the British GP and the German GP.</li>
-<li>Visit Eastern Europe.</li>
-<li>Hang out in India for a couple months.</li>
-</ul>
-
-
-<p>Along with the travels, I will be taking some mental journeys</p>
-
-<ul>
-<li>I want to study economics and capitalism. If we&rsquo;re in this prison of a system, I want to be an educated prisoner.</li>
-<li>Get back to the basics of software development and attempt to unlearn all this &ldquo;Enterprise&rdquo; cruft I&rsquo;ve picked up.
-Hoping to to this by learning a few new languages, doing code katas daily and releasing tiny side projects.</li>
-<li>It&rsquo;s a stretch, but I would like to do some athletic training (mainly running).</li>
-</ul>
-
-
-<p>Like most things, I&rsquo;m probably thinking about it too much, but in this case it&rsquo;s the planning that&rsquo;s been valuable and
-not the plan itself.</p>
-
-<h2>Sounds Awesome, but That Cannot Last Forever</h2>
-
-<p>During this time I&rsquo;m attempting to figure out future career ideas. At the end I&rsquo;ll
-figure out a place to live and what on my list of interesting domains to pursue:</p>
-
-<ul>
-<li>Formula 1</li>
-<li>Health care</li>
-<li>Beer / Cocktails</li>
-<li>Golf</li>
-<li>Energy</li>
-<li>Public Transportation</li>
-<li>Music Distribution</li>
-<li>Billiards</li>
-<li>Space Exploration</li>
-<li>City Planning</li>
-<li>Software Delivery</li>
-</ul>
-
-
-<p>Heck, I haven&rsquo;t ruled out re-applying to ThoughtWorks.</p>
-
-<h2>ThoughtWorks Made Me Do This</h2>
-
-<p>The irony is that that ThoughtWorks has opened up my mind in such a way that it&rsquo;s empowered me to make this decision.
-The ingress of information, concerns, cultures, opinions and experience is a storm brewing in my head trying it&rsquo;s best to
-synthesize itself the best it can. If you&rsquo;re thinking about applying at ThoughtWorks, please ping me. It&rsquo;s an awesome
-place to work, and full of great people. During this sabbitcal I plan on visiting as many ThoughtWorkers as I can!</p>
-
-<p>I&rsquo;m looking forward to reading this post a year from now.</p>
 ]]></content>
   </entry>
   
