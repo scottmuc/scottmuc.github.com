@@ -8,9 +8,16 @@ categories:
 ---
 *September 20th - December 16th*
 
-Believe it or not, it's pretty easy to sum up the 3 months I spent in India. This is primarily because I'm still
-traveled out and I've explored India a lot when I lived here for 8 months starting near the end of 2012.
+{% img center /images/blog/career-break/blr-lake.large.jpg 800 %}
 
+Ugh, I left this post until way too late. Unfortunately I'll have to drop a lot of detail as 3 months is pretty hard to
+sum up in a single blog post. Hopefully I can do it justice as India is a place I'm very fond of. I feel bad for all the
+wonderful little experiences that happened and didn't get written about. I'll just have to visit India again and
+properly journal the whole experience.
+
+### Arrival
+
+[{% img right /images/blog/career-break/blr-flood.medium.jpg 200 %}][blr-flood]
 The minute I got off the plane I was greeted with the familiar scent of Bangalore. The city gives me a bizarre sense of
 being home. My arrival to India this time around is much different than the paniced call to Calgary at 4am where my
 arrange pickup wasn't there. This time I breezed through the crowd to the taxi line and made my way to Indiranagar where
@@ -19,24 +26,39 @@ I was to stay in a wonderful [guest house][guest-house] for the next long while.
 [guest-house]: https://www.airbnb.co.in/rooms/1009953
 [indaranagar]: http://www.bangalorean.co.in/2013/06/about-indira-nagar-bangalore.html
 
-In my first week I got to attend my 3rd wedding in India. This one was a small catholic ceremony, but still a valid
-excuse to wear the Ukrainian shirt my cousins got for me.
-
 It was the end of monsoon season and there was a bit more rain than last time. It was quite refreshing because it kept
 the air clean for a little while. There was one evening where the road leading up to my apartment was flooded and had to
 wade through knee deep "water".
 
+[blr-flood]: /images/blog/career-break/blr-flood.jpg
+
 ### Work Life Balance
 
 My goal in India was to finish my job search and just chill out for a little while. But first, I had to find a place
-where I could hang out for most of the day to use the Internet. I first tried *FILL IN NAME* which was on Church St,
+where I could hang out for most of the day to use the Internet. I first tried [Cobalt][cobalt] which was on Church St,
 just a few minutes away from MG Road metro station. It had good Internet and there were other people around that made it
-feel nice. The next day I tried Beaglesloft as it was started by an ex-ThoughtWorker. It was a short walk from Trinity
-metro station, and it was decent too. A bit too quiet though.
+feel nice. The next day I tried [Beaglesloft][beaglesloft] as it was started by an ex-ThoughtWorker. It was a short walk from Trinity metro station, and it was decent too. A bit too quiet though.
 
-### Findind Nilenso
+[cobalt]: http://www.cobaltblr.com/
+[beaglesloft]: http://www.beaglesloft.com/
 
-Neither of the previous two compared to hanging out at the Nilenso office. I found them through a loose 
+### Finding Nilenso
+
+There was one more place to check out. An ex-ThoughtWorker, [Steve][steve] from Calgary, has lived in Bangalore for a
+while and has is part of a software collective called [Nilenso][nilenso]. I also recommend reading his
+[blog][steves-blog] as he is an excellent writer and has written some very insightful posts about life.
+
+[steve]: https://twitter.com/deobald
+[steves-blog]: http://blog.deobald.ca/
+[nilenso]: http://nilenso.com/
+
+After one day of hanging out with the folks at Nilenso I had realized I had found my home. The whole group was extremely
+welcoming to me. I had met Steve once before (for like around 5 minutes) and didn't know the others yet I now consider
+them friends and will visit them every time I go back to Bangalore. They set me up with good Internet, a workstation
+setup and meals! It was really hard not to apply and work with them. They also were excellent test subjects for my
+[chai experiments](https://twitter.com/todayschai)
+
+{% img center /images/blog/career-break/blr-chai.large.jpg 800 %}
 
 ### Pune
 
@@ -47,11 +69,14 @@ correspondance.
 The job interview went really well, but declined to pursue the job any further as it felt like it would be ThoughtWorks
 part 2. I used the down time to write a couple blog posts and do a little cooking.
 
-### Failed Contract Work
-
 ### Chennai
 
-- devopsbookmarks.com
+I wanted to meet some friends in Chennai as well so I did another short outing to see them. Besides eating awesome South
+Indian food all day long I collaborated with [Subhas Dandapani][subhas] on [devopsbookmarks.com][devopsbookmarks]. All I
+really did was "project manage" and Subhas essentially did all the work.
+
+[subhas]: https://twitter.com/rdsubhas
+[devopsbookmarks]: http://www.devopsbookmarks.com/
 
 ### Beer Tour
 
@@ -80,20 +105,21 @@ hitting them all!
   me a lot of the English Bay Pale Ale, which is an old favourite of mine. Their stout is quite good too, which is a
   beer that doesn't seem to get much love in other Bangalore pubs.
 
-[toit]:
-[murphys]:
-[windmills]:
-[barleyz]:
-[biere-club]:
-[arbor]:
-[vapour]:
-[big-pitcher]:
-[brewsky]:
-[prost]:
-
-### Pudgeting My Time
+[toit]: http://toit.in/
+[murphys]: http://www.murphysbrewhouse.in/
+[windmills]: http://windmillscraftworks.com/
+[barleyz]: http://www.barleyz.com/
+[biere-club]: http://thebiereclub.com/
+[arbor]: http://www.arborbrewing.com/locations/india/
+[vapour]: https://www.facebook.com/VapourBangalore
+[big-pitcher]: https://www.facebook.com/Bigpitcher
+[brewsky]: http://www.brewsky.in/
+[prost]: http://prost.in/
 
 ### Pun Town
+
+One of the reasons why Bangalore is close to my heart has to be their love of puns. Here are some of the stores that
+were within 1km of where I was staying:
 
 - Blind Love
 - Berry'ed Alive
@@ -102,13 +128,20 @@ hitting them all!
 - Infinitea
 - Chaipatty
 
+### Oh, and I Got a Job!
+
+Over the course of a few months I had interviewed with several companies. It was interesting trying to manage all of
+this while moving around and being in terribly inconvenient time zones. I've already [written][job-post] and huge post
+about the job hunt process. Now I have a blog that if read in order really doesn't make any sense.
+
+[job-post]: /joining-soundcloud-and-moving-to-berlin/
+
 ### Summary
 
 All and all, this trip to India is a very stark contrast compared to my previous visit. I didn't do a whole lot of
 traveling. It was really a low-key retreat so that I could do lots of reading, podcast listening, computering, and
 reflecting. Sort of makes me wish I wrote about my previous trip because that one was definitely a lot more things going
 on, but this trip was exactly what I needed/wanted.
-
 
 *This post took an unknown number of pomodoros because I lack discipline :-( *
 
