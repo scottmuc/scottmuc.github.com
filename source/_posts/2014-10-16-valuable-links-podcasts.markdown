@@ -120,53 +120,6 @@ have to wait 15 minutes before something.
 
 <br style="clear:both;" />
 
-## Startups
-
-###[a16z][podcast-a16z][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-a16z-rss]
-
-{% img right /images/blog/podcasts/a16z.jpg 200 %}
-Getting into the startup world is not something I'm terribly interested in, but I am critical
-about the tech community, especially startups. This show helps me better understand the world of startups so I can
-better understand the mechanics of startups. Over time this podcast has become to irritate me. The Valley speak gets to
-you after a while (count how many questions are answered with an excited "Absolutely!").
-
-**Favourites:**
-
-* [Everything You Need to Know About Amazon][amazon] - Explanation of how Amazon re-invests all of its profits to avoid
-  opportunity costs is a novel concept. Not sure why investors are ok with it. Makes me more curious about what Amazon
-  will be doing 20-30 years from now.
-* [Creating New Silicon Valleys][silicon-valleys] - When something becomes trendy, people always want to figure out how
-  to replicate it. This episode explains how cultures are emergent, not created. Common sense it would seem, but that
-  doesn't seem to really stop people. I feel the same around the topic of [DevOps][devops].
-
-[amazon]: http://a16z.com/2014/09/05/a16z-podcast-everything-you-need-to-know-about-amazon/
-[silicon-valleys]: http://a16z.com/2014/09/30/a16z-podcast-creating-new-silicon-valleys/
-[podcast-a16z]: http://a16z.com/tag/podcast/
-[podcast-a16z-rss]: http://feeds.soundcloud.com/users/soundcloud:users:62921190/sounds.rss
-
-<br style="clear:both;" />
-
-###[StartUp][podcast-startup][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-startup-rss]
-
-{% img right /images/blog/podcasts/startup.png 200 %}
-A podcast about a podcast startup. It mixes so many of my favourite things into one show.
-Fantastic storytelling about a medium I'm passionate about and a domain that I want to learn more of. What connects
-me to the show is that [Alex Blumberg][alex-blumberg] just wants to work on something he's passionate about, but has to wade through all
-sorts of concerns completely separate from what he really wants to do, because that's business.
-
-**Favourites:**
-
-* [Startups are Risky Business][risky-business] - This gave me insight around the different VC models. I used to think
-  that they are all looking for the 100x payoff. I need to learn more about the more modest investments out there.
-  Sometimes you can invest in something simply because you want it to exist.
-
-[risky-business]: http://hearstartup.com/episodes/gbm3498ruf7abd4owt4xs20uck1cvn
-[podcast-startup]: http://hearstartup.com/
-[podcast-startup-rss]: http://feeds.hearstartup.com/hearstartup
-[alex-blumberg]: https://twitter.com/abexlumberg
-
-<br style="clear:both;" />
-
 ### Culture and Curiosities
 
 ###[99% Invisible][podcast-99pi][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-99pi-rss]
@@ -336,11 +289,81 @@ because it's created by the CBC, there isn't any product/partner agenda.
 
 <br style="clear:both;" />
 
+## Summary
+
+There are a lot of podcasts here and I'm constantly re-evaluating which ones should remain. Finding the balance of time
+and value is hard to figure out. Currently I'm unemployed making it a lot easier to consume this much content. I also
+listen to tech specific podcasts when I'm spending some time in that technology. A good example of that would be the
+[ruby rogues][ruby-rogues] podcast. Or, I may take a look at [HanselMinutes][hanselminutes] to see if something
+interesting has come up.
+
+To subscribe to all the same podcasts that I do, import this [OPML][podcasts-opml] file into your favourite podcast
+listening software.
+
+[ruby-rogues]: http://rubyrogues.com/
+[hanselminutes]: http://hanselminutes.com/
+
+## Unsubcribed
+
+After a while I find myself changing my podcast listening tastes. Rather than delete them from this post, I'll list
+them here and provide some context as to why I don't listen to them anymore.
+
+###[a16z][podcast-a16z][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-a16z-rss]
+
+{% img right /images/blog/podcasts/a16z.jpg 200 %}
+Getting into the startup world is not something I'm terribly interested in, but I am critical
+about the tech community, especially startups. This show helps me better understand the world of startups so I can
+better understand the mechanics of startups. Over time this podcast has become to irritate me. The Valley speak gets to
+you after a while (count how many questions are answered with an excited "Absolutely!"). I stopped listen to this
+because I realized that I simply did not care about the startup world. Listening to this podcast started to depress me.
+
+**Favourites:**
+
+* [Everything You Need to Know About Amazon][amazon] - Explanation of how Amazon re-invests all of its profits to avoid
+  opportunity costs is a novel concept. Not sure why investors are ok with it. Makes me more curious about what Amazon
+  will be doing 20-30 years from now.
+* [Creating New Silicon Valleys][silicon-valleys] - When something becomes trendy, people always want to figure out how
+  to replicate it. This episode explains how cultures are emergent, not created. Common sense it would seem, but that
+  doesn't seem to really stop people. I feel the same around the topic of [DevOps][devops].
+
+[amazon]: http://a16z.com/2014/09/05/a16z-podcast-everything-you-need-to-know-about-amazon/
+[silicon-valleys]: http://a16z.com/2014/09/30/a16z-podcast-creating-new-silicon-valleys/
+[podcast-a16z]: http://a16z.com/tag/podcast/
+[podcast-a16z-rss]: http://feeds.soundcloud.com/users/soundcloud:users:62921190/sounds.rss
+
+<br style="clear:both;" />
+
+###[StartUp][podcast-startup][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-startup-rss]
+
+{% img right /images/blog/podcasts/startup.png 200 %}
+A podcast about a podcast startup. It mixes so many of my favourite things into one show.
+Fantastic storytelling about a medium I'm passionate about and a domain that I want to learn more of. What connects
+me to the show is that [Alex Blumberg][alex-blumberg] just wants to work on something he's passionate about, but has to wade through all
+sorts of concerns completely separate from what he really wants to do, because that's business. Though this podcast
+didn't depress me like the a16z podcast did, I found the material getting pretty old. It was starting to repeat many of
+the lessons from the [StackOverflow Podcast][so-podcast] (from 2008). Also, more North American podcast content isn't
+something I really want more of.
+
+**Favourites:**
+
+* [Startups are Risky Business][risky-business] - This gave me insight around the different VC models. I used to think
+  that they are all looking for the 100x payoff. I need to learn more about the more modest investments out there.
+  Sometimes you can invest in something simply because you want it to exist.
+
+[risky-business]: http://hearstartup.com/episodes/gbm3498ruf7abd4owt4xs20uck1cvn
+[podcast-startup]: http://hearstartup.com/
+[podcast-startup-rss]: http://feeds.hearstartup.com/hearstartup
+[alex-blumberg]: https://twitter.com/abexlumberg
+[so-podcast]: http://blog.stackoverflow.com/2008/04/podcast-1/
+
+<br style="clear:both;" />
+
 ###[Giant Robots Smashing into Other Giant Robots][podcast-giant-robots][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-giant-robots-rss]
 
 {% img right /images/blog/podcasts/giantrobots.jpg 200 %}
 Not quite a technical podcast, but it shares stories from the software development world. I became a fan of
-[Ben Orenstein][ben-orenstein] when I saw him do a play-by-play screencast. He strikes me as someone I would enjoy working with.
+[Ben Orenstein][ben-orenstein] when I saw him do a play-by-play screencast. He strikes me as someone I would enjoy
+working with. I'm weaning myself off of tech podcasts so this had to be removed.
 
 [ben-orenstein]: https://twitter.com/r00k
 [podcast-giant-robots]: http://podcasts.thoughtbot.com/giantrobots
@@ -353,6 +376,7 @@ Not quite a technical podcast, but it shares stories from the software developme
 {% img right /images/blog/podcasts/shipshow.jpg 200 %}
 Co-started by an old on-line friend of mine, [Youssuf Elkalay][youssuf-elkalay].
 I like the conversational style of this show as a way to keep me in the loop in the world of [DevOps][devops].
+Removed because I'm trying to stay away from technical podcasts.
 
 [youssuf-elkalay]: https://twitter.com/buildscientist
 [devops]: /valuable-links-devops/
@@ -366,7 +390,8 @@ I like the conversational style of this show as a way to keep me in the loop in 
 {% img right /images/blog/podcasts/healthyhacker.png 200 %}
 This one is fairly new and I've already become a fan. [Chris Hunt][chris-hunt]
 delivers his show in a charming style. He discusses being healthy, and what's interesting in the software world. All to
-the tune of a catchy theme song. Now I just need to get into the habit of doing the workout of the week.
+the tune of a catchy theme song. Now I just need to get into the habit of doing the workout of the week. Removed for now
+because of its technical base.
 
 **Favourites:**
 
@@ -382,17 +407,5 @@ the tune of a catchy theme song. Now I just need to get into the habit of doing 
 
 <br style="clear:both;" />
 
-## Summary
 
-There are a lot of podcasts here and I'm constantly re-evaluating which ones should remain. Finding the balance of time
-and value is hard to figure out. Currently I'm unemployed making it a lot easier to consume this much content. I also
-listen to tech specific podcasts when I'm spending some time in that technology. A good example of that would be the
-[ruby rogues][ruby-rogues] podcast. Or, I may take a look at [HanselMinutes][hanselminutes] to see if something
-interesting has come up.
-
-To subscribe to all the same podcasts that I do, import this [OPML][podcasts-opml] file into your favourite podcast
-listening software.
-
-[ruby-rogues]: http://rubyrogues.com/
-[hanselminutes]: http://hanselminutes.com/
 
