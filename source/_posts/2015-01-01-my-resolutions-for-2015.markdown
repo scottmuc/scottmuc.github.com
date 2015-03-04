@@ -47,6 +47,8 @@ probably publish them on this blog for now.
 
 [todayschai]: https://twitter.com/todayschai
 
+**Progress**: 0 batches brewed
+
 ### Nurture a Healthy Habit
 
 Over the last 15 years of my life I've ridden a health rollercoaster. I can't recall any year where I didn't go
@@ -56,6 +58,19 @@ at least 10 times every month. Be sure to verify my results on [Strava][strava].
 this is very typical of my health ambitions. Do something big, and then stop.
 
 [strava]: http://www.strava.com/athletes/6575733
+
+**January**: 19 runs<br/>
+**February**: 13 runs<br/>
+**March**:<br/>
+**April**:<br/>
+**May**:<br/>
+**June**:<br/>
+**July**:<br/>
+**August**:<br/>
+**September**:<br/>
+**October**:<br/>
+**November**:<br/>
+**December**:<br/>
 
 ### Think More Critically
 
