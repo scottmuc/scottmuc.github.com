@@ -4,6 +4,7 @@ title: "My Developer Resolutions for 2013"
 date: 2012-12-31 10:45
 comments: true
 categories:
+  - yearly-goals
 ---
 
 2012 started off interesting because I was on on an iOS/ruby project. Nearly everything was new to me, but I liked how

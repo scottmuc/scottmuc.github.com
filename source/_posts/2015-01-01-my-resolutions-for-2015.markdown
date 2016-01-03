@@ -4,6 +4,7 @@ title: "My Resolutions For 2015"
 date: 2015-01-01 17:08:42 -0800
 comments: true
 categories:
+  - yearly-goals
 ---
 
 This has become a bit of a tradition for me so I can't quite writing these now. This one will be a bit different than

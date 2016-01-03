@@ -4,6 +4,7 @@ title: "My Developer Resolutions for 2014"
 date: 2014-01-02 10:45
 comments: true
 categories:
+  - yearly-goals
 ---
 
 I was tempted to not write this post. My motivations are changing a bit and growing strong technically isn't one of

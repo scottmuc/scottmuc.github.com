@@ -4,7 +4,8 @@ title: "My Developer Resolutions for 2012"
 date: 2011-12-31 10:45
 comments: true
 permalink: /blog/development/my-developer-resolutions-for-2012/
-categories: 
+categories:
+  - yearly-goals
 ---
 
 An interesting thing about 2011 is that my resolutions from earlier became quite prominent. Given that 8 months of 2011 were spent on a large account with less technical focus, I'm amazed at some of the technical things that I've done.

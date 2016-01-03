@@ -4,7 +4,8 @@ title: "My Developer Resolutions For 2009"
 date: 2008-12-30 00:11
 comments: true
 permalink: /blog/development/my-developer-resolutions-for-2009/
-categories: 
+categories:
+  - yearly-goals
 ---
 
 I've never made any New Years resolutions before. This year I'm going to break that trend simply to create a checklist of tasks to keep me on track. I easily get distracted, but having to check things off a list is a sure way for me to stay focused.

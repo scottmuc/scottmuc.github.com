@@ -5,6 +5,7 @@ date: 2010-12-27 21:35
 permalink: /blog/development/my-developer-resolutions-for-2011/
 comments: true
 categories: 
+  - yearly-goals
 ---
 
 Looking back at 2010 I can't say I did a good job of following through with [my resolutions](http://scottmuc.com/blog/development/my-developer-resolutions-for-2010/), but I believe I have a valid excuse! For the last 12 months I've been working more as a [build/release specialist](http://scottmuc.com/blog/development/getting-my-build-and-release-on/) than a software developer. Anyways, here's a rundown of what I didn't accomplish last year:
