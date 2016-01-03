@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2015-04-26T13:10:49+02:00</updated>
+  <updated>2016-01-03T21:05:09+01:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,70 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Resolutions for 2016]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2016/"/>
+    <updated>2016-01-02T02:08:42+01:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2016</id>
+    <content type="html"><![CDATA[<p>This post almost didn&rsquo;t happen. 2015 holds a lot of dead-air from me in the blogging world, but I&rsquo;m so compelled by my
+routines that I felt that I had to do it! Honouring a self-made routine/tradition is my achilles heel and my biggest
+strength at the same time.</p>
+
+<h2>Reflections on <a href="http://scottmuc.com/my-resolutions-for-2015/">2015</a></h2>
+
+<p>2015 wasn&rsquo;t a good year for sticking to my goals, but I still learned a lot on the way:</p>
+
+<ul>
+<li><strong>Brew Beer</strong> &ndash; Didn&rsquo;t do well here since I didn&rsquo;t brew a single batch, but there was a lot of taste testing!</li>
+<li><strong>Nurture a Healthy Habit</strong> &ndash; The year was off to a great start until I injured my leg. I attempted to get back into
+running a bit too strong and injured myself again. If there&rsquo;s something positive I can take from this though is
+that I still wish to run. It&rsquo;s been a very frustrating year as a result because I missed running in Berlin during
+the best time of the year! I ended up gaining weight, which made me not feel so good about myself and other healthy
+habits collapsed as well. The good news is that the desire is still there and I just need get back slowly.</li>
+<li><strong>Think More Critically</strong> &ndash; This one is a strange one because I don&rsquo;t have anything countable to associate with it. In the
+end I feel more clueless about everything. As I put a critical focus on anything it opens up complexity that I had
+never imagined. Now I&rsquo;m not sure how people are so sure about anything! I need to stop listening to so many economics
+podcasts ;&ndash;).</li>
+</ul>
+
+
+<p>That being said, I kicked arse on a <a href="http://scottmuc.com/my-developer-resolutions-for-2014/">2014 resolution</a> which was to learn <a href="https://www.docker.com/">Docker</a>! Docker is a core
+piece of technology in what I was working on at <a href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/">SoundCloud</a>.</p>
+
+<p>Looking back, 2015 was a difficult year to make such goals. I&rsquo;ve found a lot of interesting tactics on
+<a href="http://jamesclear.com/good-habits">James Clear&rsquo;s article about good habits</a>. How would things been different had I set the goal to 1 run
+per month? Even with my injury I&rsquo;m sure I would have been more proactive in testing the waters with a single 3k run each month.
+Also, why not make the beer brewing goal a single brew for the entire year? I held back on brewing because I was
+intimidated by the equipment I would have had to purchase and store. If it was one brew, I would have simply
+brewed with the few people that I&rsquo;ve met in Berlin that do home brewing. Then again, it&rsquo;s easy to say that
+in retrospect.</p>
+
+<h2>Goal for 2016:</h2>
+
+<p>This year I&rsquo;m going on a bit of a tangent from previous years. I feel I pushed 2015 too hard. It was more work than I
+had anticipated. A good challenge but I set my expectations too high. 2016 is likely to be similar with moving to a new
+city and starting a new job (post on that coming later this month). So I&rsquo;m only going to make 1 goal. I see it as a
+realigning goal, a course correction from the journey that started when I left <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">ThoughtWorks back in 2014</a>.</p>
+
+<h3>Write in a Journal</h3>
+
+<p>I have the urge to write, but the public forum doesn&rsquo;t feel right. A real physical book where my text doesn&rsquo;t flow
+through prying eyes wanting to find patterns, so that they can serve me better ads. I&rsquo;ve been
+fairly public with my life and I&rsquo;m curious about taking that down a notch. My head feels like a swirling mass of
+ideas that hasn&rsquo;t quite found its outlet (though those who have been out drinking with me when the topic of
+economics comes up, would beg to differ).</p>
+
+<p>Think of it as close-sourcing my thoughts. Once public, it&rsquo;s hard to make things private, but the other way is
+certainly possible.</p>
+
+<h3>Summary</h3>
+
+<p>A bit of a change from the usual. Let&rsquo;s see how things are in a year, shall we?</p>
+
+<p><em>This post took 2 pomodoros to complete</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to Make Masala Chai]]></title>
@@ -2563,95 +2627,6 @@ an integrated way. The first refactoring change I would likely do to this functi
 That way I wouldn&rsquo;t need to mock <code>New-Object</code>, but passing a mock object is still an issue. Perhaps Pester needs a mock
 object builder of some kind, though writing mocks by hand wasn&rsquo;t too difficult either. It&rsquo;s something I would expect a
 testing framework to be able to do for me though.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Two Weeks Living Off the Clock]]></title>
-    <link href="http://scottmuc.com/two-weeks-living-off-the-clock/"/>
-    <updated>2014-05-23T01:14:14+02:00</updated>
-    <id>http://scottmuc.com/two-weeks-living-off-the-clock</id>
-    <content type="html"><![CDATA[<p>For the last two weeks I&rsquo;ve been house sitting for a friend in the beautiful area of <a href="https://en.wikipedia.org/wiki/Kitsilano">Kitsalano</a> in Vancouver. The
-goal for the two weeks was to figure out the rest of my travel plans and to meet up with a lot of my friends and
-acquaintances that I haven&rsquo;t seen for a while.</p>
-
-<h3>According to Plan?</h3>
-
-<p>The two weeks went by quickly. I mainly organized myself around other people&rsquo;s clocks. This meant meeting people for
-lunch or after work the majority of the time. Since I had gaps in time between meet ups, I spent a lot of time walking
-everywhere (and sometimes biking). Experiencing many modes of transportation ends up being an influence on me later on.
-It was refreshing to not be the dictator of my time, albeit my intentions did dictate who to meet. So by a transitive
-relationship, I was still directing my time?</p>
-
-<h3>Natural Time Management</h3>
-
-<p>As an experiment I decided to not turn my morning alarm clock on. I&rsquo;ve always thought of myself as a morning person and
-wanted to see if that held true. What ended up happening was that I rolled out of bed around 8:30pm every morning
-regardless of when I went to bed (range: 11:00pm &ndash; 1:00am). I&rsquo;m curious about whether or not work pressure (or pressure
-in general) has been the cause of my normal much earlier natural wake up time.</p>
-
-<p>Another normal time structure that I thought my body adhered to strictly was when to eat. I started to eat when I was hungry
-and found that some days I only ate 1 meal, or my lunch ended up happening at 4pm. There wasn&rsquo;t any natural rhythm to my
-eating times.</p>
-
-<p>It&rsquo;s interesting to start following nature&rsquo;s conventions rather than socially, and I guess structurally imposed ones.</p>
-
-<h3>Career Ideas</h3>
-
-<p>It&rsquo;s nice when part of my &ldquo;mission&rdquo; with this career break moves forward in some dimension. During my many walks along
-the <a href="https://en.wikipedia.org/wiki/Seawall_(Vancouver)">seawall</a> I&rsquo;ve listened to many episodes of <a href="http://www.econtalk.org/">EconTalk</a>. One in particular got me a little bit
-inspired. The episode was about <a href="http://www.econtalk.org/archives/2014/05/charles_marohn.html">Strong Towns</a>, and revealed that I have a lot of interest in urban
-development. Shortly after that, I had dinner with a colleague, and conversation with his girlfriend got me inspired
-too. It turns out she works for <a href="http://www.translink.ca/">TransLink</a> and she mentioned there&rsquo;s work available for someone with my
-skills. What fascinated me was my initial feeling of joy to chat with someone regarding this topic.</p>
-
-<p>Did I mention that I&rsquo;m slowing getting addicted to <a href="http://www.positech.co.uk/democracy3/">Democracy 3</a>?</p>
-
-<h3>Speaking of Transport</h3>
-
-<p>Being mobile via foot, bike, bus, train, and car share has reinforced my thoughts on urban planning. Another part of my
-&ldquo;mission&rdquo; is to figure out where to live. Being mobile, while having a low impact, is an opinion that has been further
-strengthened while being here. The bicycle is such a wonderful piece of engineering that has changed, relatively, little
-over the years. It&rsquo;s an efficient form of transport and it&rsquo;s fun. I can&rsquo;t imagine living anywhere where I wouldn&rsquo;t feel
-comfortable riding a bike much of the time.</p>
-
-<h3>Discovering the Source of My Anxiety</h3>
-
-<p>In my <a href="http://scottmuc.com/reflections-of-being-unemployed-and-homeless-for-1-month/">previous post</a> I alluded to a sense of anxiousness that I was feeling. It dawned on me that I was spending a lot of
-time coordinating what was going to be a hurried and expensive road trip across the continent. Eventually I realized
-that I didn&rsquo;t have to do that trip. I&rsquo;m already going to be doing plenty of travel in the coming months. It also
-occurred to me that I spent a good amount of my &ldquo;relaxing&rdquo; time trying to make this trip work. So I&rsquo;ve canceled the
-road trip and am going to spend an extra two weeks in Vancouver!</p>
-
-<p>Here&rsquo;s the list of reasons that convinced that this was the right decision:</p>
-
-<ul>
-<li>Not providing ample time to truly enjoy the trip</li>
-<li>Not being able to spend a proper amount of time visiting each and every person</li>
-<li>Going to be more expensive than the cargo ship cruise!</li>
-<li>Goes against the principles of this career break which is to take things slowly and this road trip would be a dash to Wilmington, NC</li>
-<li>Lessons learned from the SF road trip (I should have slowed it down)</li>
-<li>I&rsquo;m not doing any of the tech related practice I&rsquo;ve wanted to do</li>
-</ul>
-
-
-<p>Not sure if the software analogy fits, but it felt like removing scope from an unfinished project.</p>
-
-<h3>Summary</h3>
-
-<p>Responding to feedback is important. On my road trip to San Francisco I learned that I&rsquo;m not going slow enough during my
-time off. During the last two weeks in Vancouver I learned that it&rsquo;s nice to stand still and I wasn&rsquo;t doing too much of
-that. The speed of the journey and the complexity in coordinating amongst many people and locations was resulting in an
-energy level overhead that was creating anxiety (and how can someone who&rsquo;s not working possibly feel anxious about
-anything). Responding to this feedback by canceling the road trip made me feel like a weight was lifted off of my
-shoulders.</p>
-
-<p>Along with the negative feedback, I&rsquo;m going to explore the positive feedback my mind felt when pondering ideas around
-urban planning and public transport.</p>
-
-<p>Unfortunately I won&rsquo;t get to see a lot of people that I wanted to, but I realized the quality of the interactions is more
-important than the quantity of the interactions. This touches on my principle of doing things slowly during this break.
-No better way to go slow than to stand still. Queue the <a href="http://www.youtube.com/watch?v=dMSFqXGZ5TQ">Rush</a>!</p>
 ]]></content>
   </entry>
   

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Yearly-goals | More Muc Than You Can Handle]]></title>
+  <link href="http://scottmuc.com/blog/categories/yearly-goals/atom.xml" rel="self"/>
+  <link href="http://scottmuc.com/"/>
+  <updated>2016-01-03T21:05:09+01:00</updated>
+  <id>http://scottmuc.com/</id>
+  <author>
+    <name><![CDATA[Scott Muc]]></name>
+    <email><![CDATA[scottmuc@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Resolutions for 2016]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2016/"/>
+    <updated>2016-01-02T02:08:42+01:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2016</id>
+    <content type="html"><![CDATA[<p>This post almost didn&rsquo;t happen. 2015 holds a lot of dead-air from me in the blogging world, but I&rsquo;m so compelled by my
+routines that I felt that I had to do it! Honouring a self-made routine/tradition is my achilles heel and my biggest
+strength at the same time.</p>
+
+<h2>Reflections on <a href="/my-resolutions-for-2015/">2015</a></h2>
+
+<p>2015 wasn&rsquo;t a good year for sticking to my goals, but I still learned a lot on the way:</p>
+
+<ul>
+<li><strong>Brew Beer</strong> &ndash; Didn&rsquo;t do well here since I didn&rsquo;t brew a single batch, but there was a lot of taste testing!</li>
+<li><strong>Nurture a Healthy Habit</strong> &ndash; The year was off to a great start until I injured my leg. I attempted to get back into
+running a bit too strong and injured myself again. If there&rsquo;s something positive I can take from this though is
+that I still wish to run. It&rsquo;s been a very frustrating year as a result because I missed running in Berlin during
+the best time of the year! I ended up gaining weight, which made me not feel so good about myself and other healthy
+habits collapsed as well. The good news is that the desire is still there and I just need get back slowly.</li>
+<li><strong>Think More Critically</strong> &ndash; This one is a strange one because I don&rsquo;t have anything countable to associate with it. In the
+end I feel more clueless about everything. As I put a critical focus on anything it opens up complexity that I had
+never imagined. Now I&rsquo;m not sure how people are so sure about anything! I need to stop listening to so many economics
+podcasts ;&ndash;).</li>
+</ul>
+
+
+<p>That being said, I kicked arse on a <a href="/my-developer-resolutions-for-2014/">2014 resolution</a> which was to learn <a href="https://www.docker.com/">Docker</a>! Docker is a core
+piece of technology in what I was working on at <a href="/joining-soundcloud-and-moving-to-berlin/">SoundCloud</a>.</p>
+
+<p>Looking back, 2015 was a difficult year to make such goals. I&rsquo;ve found a lot of interesting tactics on
+<a href="http://jamesclear.com/good-habits">James Clear&rsquo;s article about good habits</a>. How would things been different had I set the goal to 1 run
+per month? Even with my injury I&rsquo;m sure I would have been more proactive in testing the waters with a single 3k run each month.
+Also, why not make the beer brewing goal a single brew for the entire year? I held back on brewing because I was
+intimidated by the equipment I would have had to purchase and store. If it was one brew, I would have simply
+brewed with the few people that I&rsquo;ve met in Berlin that do home brewing. Then again, it&rsquo;s easy to say that
+in retrospect.</p>
+
+<h2>Goal for 2016:</h2>
+
+<p>This year I&rsquo;m going on a bit of a tangent from previous years. I feel I pushed 2015 too hard. It was more work than I
+had anticipated. A good challenge but I set my expectations too high. 2016 is likely to be similar with moving to a new
+city and starting a new job (post on that coming later this month). So I&rsquo;m only going to make 1 goal. I see it as a
+realigning goal, a course correction from the journey that started when I left <a href="/leaving-a-dream-job-and-going-on-an-adventure/">ThoughtWorks back in 2014</a>.</p>
+
+<h3>Write in a Journal</h3>
+
+<p>I have the urge to write, but the public forum doesn&rsquo;t feel right. A real physical book where my text doesn&rsquo;t flow
+through prying eyes wanting to find patterns, so that they can serve me better ads. I&rsquo;ve been
+fairly public with my life and I&rsquo;m curious about taking that down a notch. My head feels like a swirling mass of
+ideas that hasn&rsquo;t quite found its outlet (though those who have been out drinking with me when the topic of
+economics comes up, would beg to differ).</p>
+
+<p>Think of it as close-sourcing my thoughts. Once public, it&rsquo;s hard to make things private, but the other way is
+certainly possible.</p>
+
+<h3>Summary</h3>
+
+<p>A bit of a change from the usual. Let&rsquo;s see how things are in a year, shall we?</p>
+
+<p><em>This post took 2 pomodoros to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Resolutions for 2015]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
+    <updated>2015-01-02T02:08:42+01:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2015</id>
+    <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
+the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
+comes to technical learning so I&rsquo;ve dropped that from the title. Even though I tend to despise meaningless dates, I look
+at resolutions as one large <a href="http://pomodorotechnique.com/">pomodoro</a>. So the tradition lives on!</p>
+
+<h2>Reflections on <a href="/my-developer-resolutions-for-2014/">2014</a></h2>
+
+<p>Going on a <a href="/blog/categories/career-break/">career break</a> sort of twisted everything around in 2014. Still, it was interesting to see how
+I did:</p>
+
+<ul>
+<li>Increase Signal to Noise Ration &ndash; I&rsquo;m only following 118 people on Twitter now as opposed to 627, but my &ldquo;friend&rdquo;
+count on FaceBook went up to 507 from 480. Considering that Twitter is where most of the noise comes from, I think I
+succeeded in this goal.</li>
+<li>Learn Docker &ndash; I&rsquo;ve yet to run the docker CLI, so didn&rsquo;t go far with this. I&rsquo;m not terribly interested in it now as my
+frustration with tech is still there. 2015 may be a success if I still don&rsquo;t touch docker.</li>
+<li>Do Meaningful Work &ndash; Does quitting my job and traveling the world for 9 months count as success? It does to me so I
+think I slayed this resolution! I&rsquo;m also getting back into the <a href="/joining-soundcloud-and-moving-to-berlin/">workforce</a> with a company that is in a domain I care
+about and I&rsquo;ve gotten the opportunity to be on the board of advisors for an interesting <a href="http://zolair-energy.com/">clean energy start up</a>.</li>
+</ul>
+
+
+<h2>Goals for 2015:</h2>
+
+<p>I think the time off has given me a new perspective. These goals are more about looking at myself externally and
+figuring out what kind of design changes to I want to make on myself.</p>
+
+<h3>Brew Beer</h3>
+
+<p>Given that I want to look into the business of beer, it would help if I&rsquo;ve actually brewed some. I believe brewing 10
+batches is a reasonable goal. If I can&rsquo;t do this, then I can safely drop the idea of building a beer related business in
+the future. I enjoy publishing my <a href="https://twitter.com/todayschai">chai</a> experiments and I&rsquo;ll do the same thing with my beer brewing. Will
+probably publish them on this blog for now.</p>
+
+<p><strong>Progress</strong>: 0 batches brewed</p>
+
+<h3>Nurture a Healthy Habit</h3>
+
+<p>Over the last 15 years of my life I&rsquo;ve ridden a health rollercoaster. I can&rsquo;t recall any year where I didn&rsquo;t go
+off the routine and regress to my old unhealthy habits. This year I&rsquo;m aiming to be more proactive around my habits and
+plan a bit better when I can see potential for a habit to break (eg: when traveling, or a busy period). My goal is run
+at least 10 times every month. Be sure to verify my results on <a href="http://www.strava.com/athletes/6575733">Strava</a>. I am training for a half marathon but
+this is very typical of my health ambitions. Do something big, and then stop.</p>
+
+<p><strong>January</strong>: 19 runs<br/>
+<strong>February</strong>: 13 runs<br/>
+<strong>March</strong>: 6 runs (strained hamstring injury)<br/>
+<strong>April</strong>:<br/>
+<strong>May</strong>:<br/>
+<strong>June</strong>:<br/>
+<strong>July</strong>:<br/>
+<strong>August</strong>:<br/>
+<strong>September</strong>:<br/>
+<strong>October</strong>:<br/>
+<strong>November</strong>:<br/>
+<strong>December</strong>:<br/></p>
+
+<h3>Think More Critically</h3>
+
+<p>This could be due to having a lot of time to consume too much media over the last year, but I feel that I should be more
+thoughtful in my communication and critical of my messages. It&rsquo;s easy to type out a pithy tweet skipping a load of
+context. When being critical I will do due dilligence in citing research when trying to impose my ideas, or at least be
+more transparent in pointing out how much is anecdotal. This one is a tougher one to measure. The only thing I can think
+of is comparing the number of tweets over the course of the years, and having source lists in all my blog posts (or
+stating the source are my own observations and are completely theoretical).</p>
+
+<h3>Summary</h3>
+
+<p>When reading my <a href="/my-developer-resolutions-for-2014/">2014 post</a> I can tell that I was getting jaded about the IT industry. It looks like I&rsquo;m still a bit
+jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s see what these new waters are like.</p>
+
+<p><em>This post took 2 pomodoros to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Developer Resolutions for 2014]]></title>
+    <link href="http://scottmuc.com/my-developer-resolutions-for-2014/"/>
+    <updated>2014-01-02T10:45:00+01:00</updated>
+    <id>http://scottmuc.com/my-developer-resolutions-for-2014</id>
+    <content type="html"><![CDATA[<p>I was tempted to not write this post. My motivations are changing a bit and growing strong technically isn&rsquo;t one of
+my top priorities nowadays.</p>
+
+<h2>Reflections on <a href="/my-developer-resolutions-for-2013/">2013</a></h2>
+
+<p>Last year was very interesting for me. It&rsquo;s the first time I didn&rsquo;t really have a home. I&rsquo;ve split my time between
+India, United States, and South Africa, (ok, I was in Toronto for a few weeks too). During that time I&rsquo;ve reflected a
+lot (probably too much). My work was split between training new software developers and developing tools to deploy
+the largest and most complex distributed system I&rsquo;ve ever worked on.</p>
+
+<p>First, let&rsquo;s look back at 2013 and see how I did with my resolutions:</p>
+
+<ul>
+<li>Read 7 Languages in 7 Weeks &ndash; This was a massive fail. I never even got past chapter 1!</li>
+<li>More Presentations &ndash; I would give myself a passing grade here. I&rsquo;ve started doing more internal presentations, but
+I&rsquo;m sure that there&rsquo;s expectation for me to do more. The problem here is that I really don&rsquo;t enjoy delivering
+presentations, but I do struggle when I believe I have interesting things to say and they&rsquo;re stuck in my head. I
+definitely need an outlet and will have to figure this out going forward.</li>
+<li>Expand my Ops Toolbelt &ndash; This one was definitely a success. I&rsquo;ve picked up Puppet, Ansible and MCollective. Also, I
+feel that I&rsquo;ve grown quite adept at Continuous Delivery pipelines and Vagrantizing development environments.</li>
+</ul>
+
+
+<h2>Development Goals for 2014:</h2>
+
+<p>2014 is going to be a different year for me. I don&rsquo;t really care about goals as much, but want to build better habits. I&rsquo;ve reached
+many of my goals only to regress behaviour after the goals have been achieved. I&rsquo;ve realized that many of my technical
+goals were due more to my ego and fear of looking dumb in front of colleagues and clients. I&rsquo;ve realized that I actually
+have a pretty good personal brand, and that people respect my abilities. I&rsquo;ve proven myself over and over again, and
+it&rsquo;s time for me to believe it myself.</p>
+
+<h3>Increase Signal to Noise Ratio</h3>
+
+<p>Social media tax is too high for me right now. It&rsquo;s time to start culling the amount of inputs I have. At least I&rsquo;ve
+deleted my LinkedIn account. I&rsquo;m going to have a daily unfriend/unfollow 1 person, until I feel things are a bit more
+manageable. One small victory in 2013 was deleting my LinkedIn account.</p>
+
+<p>Improving my e-mail habits are up there as well. Things like not checking my e-mail before work is a habit that I plan
+on picking up. I also need to write less e-mails. E-mails beget more e-mail.</p>
+
+<ul>
+<li><strong>Facebook Friends at end of 2013</strong> == 480</li>
+<li><strong>Following on Twitter at of 2013</strong> == 627</li>
+</ul>
+
+
+<h3>Learn Docker</h3>
+
+<p>OK, I&rsquo;ll sneak in a technical goal. I want to simply understand what the hype is around <a href="https://www.docker.io/">Docker</a>. I tend to be very slow
+to catch onto trends. There&rsquo;s enough hype around Docker that I think I should at least understand what I&rsquo;m missing if I
+do miss that boat.</p>
+
+<h3>Do Meaningful Work</h3>
+
+<p>4 years ago I left <a href="http://www.cbc.ca/">CBC</a> for <a href="http://www.thoughtworks.com/">ThoughtWorks</a>. I don&rsquo;t regret the decision at all, but I now understand what it&rsquo;s like to do
+meaningful work. Working on <a href="http://music.cbc.ca/#/blogs/2009/12/Today-on-Lanarama-Techie-Tuesday-A-Fond-Farewell-to-Scott-Muc">Radio 3</a> was fulfilling work, and I&rsquo;m still proud of what was created, and have strong
+connections with the people I worked with there.</p>
+
+<p>The tough part about the consulting business is that you can potentially work for money hungry
+organisations. I personally don&rsquo;t want to help retail vendors sell more shirts, or banks earn more interest.
+ThoughtWorks does do a lot of meaningful work, and I&rsquo;m going to do something I find more fulfilling. Another
+stint in India doing ThoughtWorks University would be something that would satisfying this need.</p>
+
+<p>Being a competent developer, I think I owe it to society to do what I can for a greater good. So I&rsquo;m looking at
+contributing to <a href="http://www.mailpile.is/">MailPile</a> as a first step. The open government space is something I would like to explore as
+well.</p>
+
+<h3>Summary</h3>
+
+<p>I think 2013 was a bit of a downer because of what&rsquo;s been revealed by <a href="http://www.theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded#section/1">Edward Snowden</a>. The numerous large scale
+<a href="http://thinkprogress.org/security/2013/12/31/3108661/10-biggest-privacy-security-breaches-rocked-2013/">theft of e-mail addresses and passwords</a> have also lowered confidence in IT as a whole. Let&rsquo;s not talk about <a href="http://www.theverge.com/2013/10/20/4859316/healthcare-gov-woes">Obama Care</a>.
+It&rsquo;s frustating to see the industry that I love so much do so much harm, and become so untrustworthy.
+2014 is going to shape to be an interesting year as a result of these events.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Developer Resolutions for 2013]]></title>
+    <link href="http://scottmuc.com/my-developer-resolutions-for-2013/"/>
+    <updated>2012-12-31T10:45:00+01:00</updated>
+    <id>http://scottmuc.com/my-developer-resolutions-for-2013</id>
+    <content type="html"><![CDATA[<p>2012 started off interesting because I was on on an iOS/ruby project. Nearly everything was new to me, but I liked how
+my past experiences with other technology stacks were still relevant. Even though I didn&rsquo;t know the languages very well
+the patterns I&rsquo;ve seen before still applied.</p>
+
+<p>The last quarter of the year was spent teaching new software developers in India, which has been one of the most
+rewarding experiences of my career! It has definitely influenced my goals for 2013.</p>
+
+<!-- more -->
+
+
+<h2>Reflections on 2012 and carry over from 2011:</h2>
+
+<ul>
+<li>Learn a server provisioning automation tool (2011) &ndash; I may have failed this one big time in 2011 but 2012 was a great
+year for this. I spent much of the year getting to know Chef. I feel I can check this one off now.</li>
+<li>Stop reading comments (2012) &ndash; Can&rsquo;t say I&rsquo;ve stopped reading comments but I&rsquo;m more conscious of when I&rsquo;m wasting my
+time and tend to stop immediately. I started following a <a href="https://twitter.com/AvoidComments">useful twitter account</a>
+which provides constant reminders that reading comments can be a huge waste of time.</li>
+<li>No client work when away from client (2012) &ndash; I twisted this one into a conditional success. I still like to hack in
+my spare time but I hack on my personal projects and stay away from doing extra billable hours when I should be having
+ME time. I&rsquo;ve been much better at saying NO to excess outings and have focused on being healthy.</li>
+<li>Complete <a href="https://github.com/manojlds/YDeliver/">YDeliver</a> (2012) &ndash; This one is a big failure. I barely touched
+YDeliver all year. Apparently it&rsquo;s been used in a few ThoughtWorks projects by <a href="https://github.com/manojlds">Manoj</a> and he now
+has ownership of the repository. I&rsquo;ve come to the realization that OSS doesn&rsquo;t come out of a vacuum. YDeliver was
+going strong when I still had fresh memories of that previous project, but as time went on, the relevance (to me) of
+YDeliver was diminishing. The takeaway for is me to maintain the momentum if it&rsquo;s there.</li>
+</ul>
+
+
+<h2>Development Goals for 2013:</h2>
+
+<p>While 2012 was a great mix of fun ops tooling learning and consulting, I want to get back to my roots (pun?) and do more low
+level tech related things. At the same time, I want to improve on my teaching skills which will mean facilitating more learning
+workshops and presenting more frequently.</p>
+
+<h3>Read <a href="http://pragprog.com/book/btlang/seven-languages-in-seven-weeks">7 Languages in 7 Weeks</a></h3>
+
+<p>Much of my effort is spent making many puzzle pieces fit together. Being isolated to a
+<a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a> and a text editor would be
+pleasant change. Also, I haven&rsquo;t dived deep into a language lately. All my ruby learning has been simply by having to
+write ruby code for work. I can&rsquo;t say I know the language, but I&rsquo;ve managed to figure things out. I miss having a little
+bit deeper knowledge of a language like I used to have with C#.</p>
+
+<p>My action plan is to purchase the book and do 1 language a month. So by July this goal will be accomplished.</p>
+
+<h3>More Presentations</h3>
+
+<p>Being a trainer at ThoughtWorks University taught me that I have a lot to learn about presenting. <a href="http://www.learninggeneralist.com/">Sumeet
+Moghe</a>, who was the previous lead trainer, showed excellent examples of what makes a
+good presentation. It was interesting, because I always felt those points internally, but he expresses them externally
+in a digestable way that actually inspires me to make excellent presentations.</p>
+
+<p>My colleague <a href="http://twitter.com/tpbrown">Tim Brown</a> will be happy about this goal because he&rsquo;s been nagging me for a
+while about this. Some topics I&rsquo;ve been pondering so far are:</p>
+
+<ul>
+<li>Using <a href="http://vagrantup.com/">Vagrant</a> to provide local infrastructure (aka never install a DB server on your machine again)</li>
+<li>Application configuration patterns with a non-trivial number of environments</li>
+<li>PowerShell BDD with <a href="https://github.com/pester/Pester/">Pester</a></li>
+</ul>
+
+
+<p>The action plan is to choose 1 of these topics and present it 3 times. As well as the presentations, I will design 3
+different workshops and faciliate each one 3 times.</p>
+
+<h3>Expand my Ops Toolbelt</h3>
+
+<p>I really love ops and I think this is the career path I want to continue on. 2012 was great for learning
+<a href="http://www.opscode.com/chef/">Chef</a>, so this year I want to learn <a href="http://puppetlabs.com/">Puppet</a>. Another area
+that I would like to improve upon my knowledge is the domain of remoting.</p>
+
+<p>My action plan is to duplicate any Vagrant server setups that use Chef to use Puppet as well. This will be great for
+a side-by-side comparison. So currently that would mean the following repositories need a puppet provisioner:</p>
+
+<ul>
+<li><a href="https://github.com/scottmuc/vagrant-postgresql">vagrant-postgresql</a></li>
+<li><a href="https://github.com/scottmuc/vagrant_rails">vagrant-rails</a></li>
+<li><a href="https://github.com/scottmuc/gordon">gordon</a></li>
+</ul>
+
+
+<p>For remoting I plan on writing 10 blog posts on tools like ssh, winRM. I want to dive into the mechanics of
+authentication and networking to better understand technologies like kerberos, certificates, and gssapi which are
+crucial for making remoting work on a larger scale.</p>
+
+<h3>Summary</h3>
+
+<p>The last few years I&rsquo;ve learned a lot about managing my goals. I&rsquo;m doing my best to keep my goals
+<a href="http://en.wikipedia.org/wiki/SMART_criteria">SMART</a> so that I can actually achieve them. We&rsquo;ll see how things turn
+out 365 days from now!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Developer Resolutions for 2012]]></title>
+    <link href="http://scottmuc.com/blog/development/my-developer-resolutions-for-2012/"/>
+    <updated>2011-12-31T10:45:00+01:00</updated>
+    <id>http://scottmuc.com/blog/development/my-developer-resolutions-for-2012</id>
+    <content type="html"><![CDATA[<p>An interesting thing about 2011 is that my resolutions from earlier became quite prominent. Given that 8 months of 2011 were spent on a large account with less technical focus, I&rsquo;m amazed at some of the technical things that I&rsquo;ve done.</p>
+
+<!-- more -->
+
+
+<h2>Reflections on 2011 and carry over from 2010:</h2>
+
+<ul>
+<li>Mouseless Computing (2010) &ndash; I think the practice is paying off as a colleague of mine told me &ldquo;You make Windows fly!&rdquo;, and he&rsquo;s a savvy keyboard only Mac OSX user.</li>
+<li>OSS participation (2010) &ndash; I started the following projects:
+
+<ul>
+<li>Pester &ndash; I&rsquo;ve blogged about it and it&rsquo;s getting some traction out there in the wild. It&rsquo;s a spec based testing framework for Powershell. The first implementation was written on a hung-over new years day!</li>
+<li>yari &ndash; A Windows ruby version manager. Currently being used by a very large client. I wrote this on a whim, because I thought I could do better than what was previously implemented. Turned out the client liked this a lot more and decided to adopt it right away.</li>
+<li>YDeliver &ndash; The beginnings of a Continuous Delivery framework for .Net projects.</li>
+<li>Misc &ndash; Submitted a patch to OpenMRS, a bug report to Puppet, directory additions to PSGet</li>
+</ul>
+</li>
+<li>Learn VIM (2011) &ndash; This went really well. I&rsquo;m definitely no expert at this point but I&rsquo;m continuoully trying to learn new things. I&rsquo;ve setup a github project for my vimfiles which is a fun way to share my tweaks.</li>
+<li>Develop an Android App (2011) &ndash; Nope, didn&rsquo;t do anything here. It&rsquo;s actually dropped off my radar as it&rsquo;s not really something I&rsquo;m interested in anymore</li>
+<li>Learn a server provisioning automation tool (2011) &ndash; I barely get a passing grade on this one. I&rsquo;ve yet to use any of these tools (chef, puppet, etc&hellip;) on a project. In my spare time I&rsquo;ve tried them out and understand the gist of how they work. I do question how necessary they are though. Unless you&rsquo;re doing massive scaling it seems like they just add extra overhead for simple scenarios.</li>
+<li>Move this blog (2011) &ndash; This will be my last post on this blog engine. I&rsquo;ve currently setup Octopress and have my new blog ready on github. I just have the task of migrating over all posts (and deleting some). I have more to say about Octopress soon.</li>
+</ul>
+
+
+<h2>Development Goals for 2012:</h2>
+
+<p>2012 is going to be different for me development wise. I&rsquo;m finding myself less focused on technical issues and more on system, culture, and people goals. I&rsquo;m striving to become more of a leader (clear sign of post-technical syndrome) and I think that&rsquo;s reflected in my resolutions for this year.</p>
+
+<h3>Stop reading comments</h3>
+
+<p>Often when I read comments online I want to get those precious minutes of my life back. I favour a discussion over pointless online kibitzing any day. Now of course every scenario is different. The probability of reading comments on Youtube or on some news website is very low. On a blog post about some technical issue, I&rsquo;ll likely read the comments.</p>
+
+<h3>No client work when away from client</h3>
+
+<p>Being away from the client is not a place in space problem, it&rsquo;s a frame of mind issue. I want to develop some skills in removing myself from the client mentally. This is purely for my own sanity and likely for the sanity of those around me. I&rsquo;m finding myself disconnected from my personal goals and more focused at facilitating the goals of whom I am working for. One thing I&rsquo;ve learned by being on the road is that ME time is harder to come by. As an introverted individual, that ME time is how I recharge.</p>
+
+<h3>Complete YDeliver</h3>
+
+<p>Hey, an actual technical resolution! By the end of 2012 I want to know that at least 5 projects are using YDeliver. It&rsquo;s incomplete right now and I need to get off my arse and complete some of the &ldquo;last mile&rdquo; stories to get it out there. I also don&rsquo;t want to be the single committer to the project. This is a call for help for anyone interested in participating! I have some very strong opinions on how some of the pieces should work together and I will be happy to provide guidance.</p>
+
+<h3>Summary</h3>
+
+<p>Yeah, so this is probably less interesting than previous years. I&rsquo;m actually very happy on how my previous resolutions have developed and are continuing to get better and better. In previous years I mentioned developing something on a completely different stack (like Ruby on Rails). Next year I&rsquo;m starting a new project working on a small application that involves iOS and ruby development. So work is going to force some of my previous resolutions on me.</p>
+]]></content>
+  </entry>
+  
+</feed>
