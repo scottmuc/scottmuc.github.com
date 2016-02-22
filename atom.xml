@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2016-01-03T21:05:09+01:00</updated>
+  <updated>2016-02-21T16:46:55-08:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -14,9 +14,102 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Joining Pivotal Cloud Foundry and Moving to Dublin]]></title>
+    <link href="http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin/"/>
+    <updated>2016-02-21T13:45:13-08:00</updated>
+    <id>http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/pivotal-office.jpg" width="1024"></p>
+
+<p>It&rsquo;s been a while since I&rsquo;ve posted a &ldquo;life update&rdquo;. The <strong>TL;DR</strong> is that I have joined <a href="http://pivotal.io/platform">Pivotal Cloud Foundry</a> in
+January and will be moving to <a href="https://en.wikipedia.org/wiki/Dublin">Dublin</a> in June.</p>
+
+<h2>Reflections on Berlin and SoundCloud</h2>
+
+<p>My guess is the most frequent question about this is: what happened? When I <a href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/">posted</a> about my decision to
+move to Berlin and join SoundCloud it appeared that I had found something I really wanted to do. Looking back at the
+post you can see subtle hints of doubt, but went with the option that seemed a little more risky. In the end, the risk
+was worth it as I learned a heck of a lot!</p>
+
+<p><strong>The Awesome Stuff</strong></p>
+
+<ul>
+<li>Berlin has been my favourite city I&rsquo;ve ever lived in. It&rsquo;s modified future projections of where I would like to live
+long term. It&rsquo;s a city for humans with its comprehensive public transportation system, low cost of living, and its
+openness to new cultures moving to the city.</li>
+<li>I felt I managed to fulfill many of the goals I had set in mind in my earlier <a href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/">post</a>. My most important
+take-away is having developed empathy for those who speak English as a second language.</li>
+<li>More traveling (Ukraine for Easter, Prague, London, Paris, Germany, and Switzerland). There are still so many places
+to check out.</li>
+<li>New friends (you know who you are)</li>
+</ul>
+
+
+<p><strong>Not So Awesome Stuff</strong></p>
+
+<ul>
+<li>Working in the media domain is very different than the public media domain. As monetization became a focus and utilizing
+advertising became a core piece of it, I felt that it wasn&rsquo;t a strategy I wanted to participate in. Watching <a href="http://thoughtmaybe.com/the-century-of-the-self/">Century of Self</a>
+too many times has probably made me a bit too cynical about advertising.</li>
+<li>Really missed the ThoughtWorks culture around software development. I missed pair-programming and the role was more
+consulting than it was software-dev (which is one of the reasons why I left ThoughtWorks). At the same time, I learned
+how important it is to be aligned with the &ldquo;how we do work&rdquo; at an organisation. I can&rsquo;t say SoundCloud is doing it
+wrong&hellip; there&rsquo;s just too little data to make that call. All I know is that it left me drained and unmotivated (but
+has the opposite effect for many of the great engineers there).</li>
+<li>I injured my hamstrings (and later my back), that definitely affected my life, but unrelated to my decision to move to
+Berlin and join SoundCloud.</li>
+<li>My personal possessions didn&rsquo;t reach Berlin until July which may have made the whole move feel quite transitory since
+I never quite got the chance to settle down properly. I had grown the thought of leaving SoundCloud only just a few
+months after my things from Canada had arrived.</li>
+</ul>
+
+
+<h2>What Triggered the Change?</h2>
+
+<p>The funny thing is when I explain the work I was a part of in SoundCloud many folks wonder why I would ever leave. The
+technology was interesting and we had a lot of autonomy. This was true, but when it comes to work, I&rsquo;m a process over
+product kind of person. After a few events occurred I felt the urge to explore my options. I reached out to <a href="https://twitter.com/mkocher">Mathew Kocher</a>
+and he said that the offer from a year ago still stands! After living in Berlin, I didn&rsquo;t have much
+desire to leave the city let alone move to North America. He encouraged me to go to London and go through another round
+of interviews.</p>
+
+<p>In London I had a fantastic day of pairing interviews then a good evening out with <a href="https://twitter.com/tammersaleh">Tammer Saleh</a>. We discussed
+many things about the industry (he later was a receipient of my link bombs that I often send out after an evening discussion). I was
+definitely engergized about the experience but still wasn&rsquo;t decided. A few weeks later, many people came to Berlin for
+the <a href="http://berlin2015.cfsummit.com/">Cloud Foundry Summit</a> and there  was a chance to meet some more people. I expressed that I love Berlin a lot,
+and that I wasn&rsquo;t ready to leave Europe. Then the option of Dublin came up. It would allow me to go to SF for 3 months
+and move to Ireland in the summertime. If I do want to do consulting again, there&rsquo;s a <a href="http://pivotal.io/locations/berlin">Pivotal Labs office in Berlin</a>.</p>
+
+<p>The energy I had after the pairing sessions still was on my mind. I learned that the 3rd pillar of the company is to &ldquo;Be
+Nice&rdquo; and the people I interacted with definitely seemed to espouse this value. After a few more days of discussing the
+contract and some e-mail back and forth, I gave my notice to SoundCloud and accepted the offer from Pivotal.</p>
+
+<h2>So What is Happening Now?</h2>
+
+<p><a href="https://en.wikipedia.org/wiki/File:Ireland_Dublin_Night.JPG"><img class="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ireland%5FDublin%5FNight.JPG/640px-Ireland%5FDublin%5FNight.JPG" width="640"></a></p>
+
+<p>It&rsquo;s quite common for companies to have a 2-3 month notice period. So I had 2 months to finish up my work at SoundCloud
+and then figure out the process for a Canadian living in Germany soon to be employed in Ireland but going to begin work
+in the USA. I&rsquo;ll spare the details, but I managed to get my passport the day before going to SF.</p>
+
+<p>After 3 weeks I&rsquo;m feeling quite good about my decision. I&rsquo;ve been pairing every single day and really enjoy the people
+that I&rsquo;m working with. There&rsquo;s a strong diversity initiative as well, so hopefully the demographics of the organisation
+will be just as good as ThoughtWorks. The applications for Cloud Foundry are more large scale and focused on the
+Enterprise which I&rsquo;ve learned is an area that I&rsquo;m much more interested in (as opposed to start up products).</p>
+
+<p>Since I&rsquo;ve &ldquo;lived&rdquo; in SF before I&rsquo;m not feeling very rushed. I&rsquo;m spending my days as I normally would with meeting up
+with friends periodically dotting my calendar. I&rsquo;m excited about living in Dublin even though I&rsquo;ve never set foot in
+Ireland before!</p>
+
+<p>Even my back is feeling a bit better. I managed to do 2 3k runs this weekend. :&ndash;)</p>
+
+<p><em>This post took 6 pomodoros to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[My Resolutions for 2016]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2016/"/>
-    <updated>2016-01-02T02:08:42+01:00</updated>
+    <updated>2016-01-01T17:08:42-08:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2016</id>
     <content type="html"><![CDATA[<p>This post almost didn&rsquo;t happen. 2015 holds a lot of dead-air from me in the blogging world, but I&rsquo;m so compelled by my
 routines that I felt that I had to do it! Honouring a self-made routine/tradition is my achilles heel and my biggest
@@ -80,7 +173,7 @@ certainly possible.</p>
   <entry>
     <title type="html"><![CDATA[How to Make Masala Chai]]></title>
     <link href="http://scottmuc.com/how-to-make-masala-chai/"/>
-    <updated>2015-04-26T12:22:50+02:00</updated>
+    <updated>2015-04-26T03:22:50-07:00</updated>
     <id>http://scottmuc.com/how-to-make-masala-chai</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/chai/08-chai.jpg" width="300">
 This is the simplest <a href="https://en.wikipedia.org/wiki/Masala_chai">masala chai</a> recipe I know how to make. Compared to the street side chai you would get in India my
@@ -172,7 +265,7 @@ the pot. It can be hard to make a large batch when the pot is more than &frac34;
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2015]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
-    <updated>2015-01-02T02:08:42+01:00</updated>
+    <updated>2015-01-01T17:08:42-08:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2015</id>
     <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
 the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
@@ -252,7 +345,7 @@ jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s
   <entry>
     <title type="html"><![CDATA[Three Months in India]]></title>
     <link href="http://scottmuc.com/three-months-in-india/"/>
-    <updated>2014-12-16T06:21:47+01:00</updated>
+    <updated>2014-12-15T21:21:47-08:00</updated>
     <id>http://scottmuc.com/three-months-in-india</id>
     <content type="html"><![CDATA[<p><em>September 20th &ndash; December 16th</em></p>
 
@@ -376,7 +469,7 @@ on, but this trip was exactly what I needed/wanted.</p>
   <entry>
     <title type="html"><![CDATA[Why I Like Running]]></title>
     <link href="http://scottmuc.com/why-i-like-running/"/>
-    <updated>2014-12-10T06:09:27+01:00</updated>
+    <updated>2014-12-09T21:09:27-08:00</updated>
     <id>http://scottmuc.com/why-i-like-running</id>
     <content type="html"><![CDATA[<p><a href="http://instagram.com/p/LepNTRLlIB/"><img class="center" src="http://scottmuc.com/images/blog/running/venice.jpg" width="700"></a></p>
 
@@ -472,7 +565,7 @@ who egged me on to join a trail run series. If you wish to give me encouragement
   <entry>
     <title type="html"><![CDATA[What Makes Something a "Devops" Tool?]]></title>
     <link href="http://scottmuc.com/what-makes-something-a-devops-tool/"/>
-    <updated>2014-12-05T05:13:52+01:00</updated>
+    <updated>2014-12-04T20:13:52-08:00</updated>
     <id>http://scottmuc.com/what-makes-something-a-devops-tool</id>
     <content type="html"><![CDATA[<p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
 gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
@@ -554,7 +647,7 @@ the behaviours that it supports.</p>
   <entry>
     <title type="html"><![CDATA[Joining SoundCloud and Moving to Berlin]]></title>
     <link href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/"/>
-    <updated>2014-11-05T14:09:37+01:00</updated>
+    <updated>2014-11-05T05:09:37-08:00</updated>
     <id>http://scottmuc.com/joining-soundcloud-and-moving-to-berlin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/career-break/berlin-reichstag.medium.jpg" width="900"></p>
 
@@ -729,7 +822,7 @@ Keep an eye here for my next steps 5 years from now. Wish me luck!</p>
   <entry>
     <title type="html"><![CDATA[Siófok/Tihany, Italian Grand Prix, and Istanbul]]></title>
     <link href="http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul/"/>
-    <updated>2014-11-02T09:48:21+01:00</updated>
+    <updated>2014-11-02T01:48:21-07:00</updated>
     <id>http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul</id>
     <content type="html"><![CDATA[<p><em>August 30th &ndash; September 19</em></p>
 
@@ -875,7 +968,7 @@ with friends, and get re-invigorated about software development.</p>
   <entry>
     <title type="html"><![CDATA[Book Review - a Mind for Numbers by Barbara Oakley]]></title>
     <link href="http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley/"/>
-    <updated>2014-10-26T09:05:53+01:00</updated>
+    <updated>2014-10-26T01:05:53-07:00</updated>
     <id>http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley</id>
     <content type="html"><![CDATA[<p><a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245"><img class="left" src="http://scottmuc.com/images/blog/l2l/book.jpg" width="200"></a>
 Over the last 4 weeks I&rsquo;ve been taking the <a href="https://www.coursera.org/">Coursera</a> course <a href="https://www.coursera.org/course/learning">Learning how to Learn</a> on the
@@ -1014,7 +1107,7 @@ boxing to focus on his craft.</li>
   <entry>
     <title type="html"><![CDATA[Valuable Links - Podcasts]]></title>
     <link href="http://scottmuc.com/valuable-links-podcasts/"/>
-    <updated>2014-10-16T08:29:46+02:00</updated>
+    <updated>2014-10-15T23:29:46-07:00</updated>
     <id>http://scottmuc.com/valuable-links-podcasts</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/podcast.jpg" width="300">
 It&rsquo;s quite surprising that I haven&rsquo;t really brought up the topic of <a href="https://en.wikipedia.org/wiki/Podcast">podcasts</a> on my blog considering that
@@ -1381,7 +1474,7 @@ something similar at some point.</li>
   <entry>
     <title type="html"><![CDATA[Book Review - Learning Continuous Integration With TeamCity by Manoj Mahalingam]]></title>
     <link href="http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/"/>
-    <updated>2014-10-13T14:04:30+02:00</updated>
+    <updated>2014-10-13T05:04:30-07:00</updated>
     <id>http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam</id>
     <content type="html"><![CDATA[<p><strong>Disclaimer</strong> &ndash; I personally know Manoj and have worked with him in the past. I was asked to review his book,
 <a href="http://goo.gl/5wUy3v">Learning Continuous Integration with TeamCity</a>, by <a href="https://www.packtpub.com/">Packt Publishing</a>.</p>
@@ -1424,7 +1517,7 @@ new with TeamCity and some context of the usage of TeamCity specific features.</
   <entry>
     <title type="html"><![CDATA[Visiting the Motherland - Ukraine]]></title>
     <link href="http://scottmuc.com/visiting-the-motherland-ukraine/"/>
-    <updated>2014-10-06T16:31:12+02:00</updated>
+    <updated>2014-10-06T07:31:12-07:00</updated>
     <id>http://scottmuc.com/visiting-the-motherland-ukraine</id>
     <content type="html"><![CDATA[<p><em>August 17th &ndash; August 29th</em></p>
 
@@ -1603,7 +1696,7 @@ of these uncontrollable events (on my part), I’ve been afforded so many luxuri
   <entry>
     <title type="html"><![CDATA[Rome, Switzerland, and Vienna]]></title>
     <link href="http://scottmuc.com/rome-switzerland-and-vienna/"/>
-    <updated>2014-08-13T14:09:31+02:00</updated>
+    <updated>2014-08-13T05:09:31-07:00</updated>
     <id>http://scottmuc.com/rome-switzerland-and-vienna</id>
     <content type="html"><![CDATA[<p><em>July 30th &ndash; August 17th</em></p>
 
@@ -1746,7 +1839,7 @@ down and I took the metro back to the apartment and hung out in the flat with Ro
   <entry>
     <title type="html"><![CDATA[Growing an Open Source Project: The Pester Story]]></title>
     <link href="http://scottmuc.com/growing-an-open-source-project-the-pester-story/"/>
-    <updated>2014-08-07T17:50:58+02:00</updated>
+    <updated>2014-08-07T08:50:58-07:00</updated>
     <id>http://scottmuc.com/growing-an-open-source-project-the-pester-story</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/pester/Pester"><img src="http://scottmuc.com/images/blog/github-pester.png"></a></p>
 
@@ -1855,7 +1948,7 @@ Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent
   <entry>
     <title type="html"><![CDATA[Prague, Budapest, and the Hungarian Grand Prix]]></title>
     <link href="http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix/"/>
-    <updated>2014-08-04T14:23:50+02:00</updated>
+    <updated>2014-08-04T05:23:50-07:00</updated>
     <id>http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 22nd &ndash; July 29th</em></p>
 
@@ -1981,7 +2074,7 @@ next destination, Rome.</p>
   <entry>
     <title type="html"><![CDATA[Glasgow, Berlin, Heidelberg and the German Grand Prix]]></title>
     <link href="http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix/"/>
-    <updated>2014-07-21T14:44:37+02:00</updated>
+    <updated>2014-07-21T05:44:37-07:00</updated>
     <id>http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 7th &ndash; July 21st</em></p>
 
@@ -2100,7 +2193,7 @@ the awards ceremony!</p>
   <entry>
     <title type="html"><![CDATA[Belgium, France, London and the British Grand Prix]]></title>
     <link href="http://scottmuc.com/belgium-france-london-and-the-british-grand-prix/"/>
-    <updated>2014-07-08T14:42:19+02:00</updated>
+    <updated>2014-07-08T05:42:19-07:00</updated>
     <id>http://scottmuc.com/belgium-france-london-and-the-british-grand-prix</id>
     <content type="html"><![CDATA[<p><em>June 24th &ndash; July 7th</em></p>
 
@@ -2248,7 +2341,7 @@ enough. I was going to write about my learnings over the last few weeks, but wil
   <entry>
     <title type="html"><![CDATA[Crossing the Atlantic via Container Ship]]></title>
     <link href="http://scottmuc.com/crossing-the-atlantic-via-container-ship/"/>
-    <updated>2014-06-24T06:02:51+02:00</updated>
+    <updated>2014-06-23T21:02:51-07:00</updated>
     <id>http://scottmuc.com/crossing-the-atlantic-via-container-ship</id>
     <content type="html"><![CDATA[<p>As I mentioned in my <a href="http://scottmuc.com/leaving-vancouver-and-north-america/">last post</a>, I finished the crossing of the Atlantic ocean via container ship. It was a great
 experiene that I&rsquo;ll happily do again. 11 days wasn&rsquo;t enough, and would be happy to spend a month next time around.</p>
@@ -2321,7 +2414,7 @@ then, I turn off all notifications and keep it silent.</p>
   <entry>
     <title type="html"><![CDATA[Leaving Vancouver and North America]]></title>
     <link href="http://scottmuc.com/leaving-vancouver-and-north-america/"/>
-    <updated>2014-06-13T15:10:36+02:00</updated>
+    <updated>2014-06-13T06:10:36-07:00</updated>
     <id>http://scottmuc.com/leaving-vancouver-and-north-america</id>
     <content type="html"><![CDATA[<p>After another relaxing two weeks in Vancouver (and attending <a href="http://www.sasquatchfestival.com/">Sasquatch</a>), it&rsquo;s time to leave. Here&rsquo;s the
 last sunset I watched from the beach. If you can believe it, the weather in Vancouver was 99% rain free!</p>
@@ -2383,250 +2476,6 @@ my phone behind and go for a wander. Writing blog posts like this is much more f
 (aka tweets) that lack context, albeit they are more timely.</p>
 
 <p>See you on the other side!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Testing Powershell Code That Talks to CLR Objects]]></title>
-    <link href="http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects/"/>
-    <updated>2014-06-06T02:39:41+02:00</updated>
-    <id>http://scottmuc.com/testing-powershell-code-that-talks-to-clr-objects</id>
-    <content type="html"><![CDATA[<p>Several months ago someone posted an excellent question on the <a href="https://groups.google.com/forum/#!topic/pester/Y8UzSiNlcSE">Pester Group</a> about a certain problem area
-in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
-is done afterwards. It also reveals a missing feature of Pester.</p>
-
-<p>First let me display the code that needed tests:</p>
-
-<div><script src='https://gist.github.com/e5abe37881628f13cd0a.js?file=Get-FromSFtp.ps1'></script>
-<noscript><pre><code>Add-Type -Path (Join-Path -Path $psScriptRoot &quot;Renci.SshNet.dll&quot;)
-
-function Get-FromSFtp {
-    $fileList=$null
-    try {
-        $sftp=New-Object Renci.SshNet.SftpClient(&quot;127.0.0.1&quot;,&quot;test&quot;,&quot;test&quot;)
-        $sftp.Connect()
-        if($sftp.IsConnected) {
-            $sftp.ChangeDirectory(&quot;/test&quot;)
-            $fileList=$sftp.ListDirectory(&quot;.&quot;)
-        }
-        return $fileList
-    } catch [Exception] {
-        Write-Host $_.Exception.ToString()
-    } finally {
-        if(($sftp -ne $null) -and ($sftp.IsConnected)) {
-            $sftp.Disconnect()
-        }
-    }
-}
-</code></pre></noscript></div>
-
-
-<p>Here are a couple reasons why this code is difficult to test:</p>
-
-<ul>
-<li>Line 4 returns a CLR object that actually does SFTP</li>
-<li>Many parameters are hard coded</li>
-</ul>
-
-
-<h3>Start With Integration</h3>
-
-<p>I started this exercise with the intention of not changing a single character of the code submitted. Here&rsquo;s the story of
-how the changes took place (I had a git repo of this, but the files got corrupted). First thing to do was to make the
-existing code pass a test as is. In order to do that, I needed an integration environment for it to talk to. So I used
-<a href="http://www.vagrantup.com/">Vagrant</a> to spin up a local linux box. I manually configured the box such that the credentials in the code
-work. Here&rsquo;s the Vagrantfile</p>
-
-<div><script src='https://gist.github.com/e5abe37881628f13cd0a.js?file=Vagrantfile'></script>
-<noscript><pre><code># -*- mode: ruby -*-
-# vi: set ft=ruby :
-
-# Vagrantfile API/syntax version. Don&#39;t touch unless you know what you&#39;re doing!
-VAGRANTFILE_API_VERSION = &quot;2&quot;
-
-Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = &quot;precise64&quot;
-  config.vm.box_url = &quot;http://files.vagrantup.com/precise64.box&quot;
-  config.vm.network &quot;forwarded_port&quot;, guest: 22, host: 22
-end
-</code></pre></noscript></div>
-
-
-<p>and here&rsquo;s the passing test. I&rsquo;m happy with it because I could change the code or the environment and cause the test to
-fail, thus giving me confidence that the test is good enough to tell if me I broke anything.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="n">Describe</span> <span class="s2">&quot;Get-FromSFtp Integration&quot;</span> <span class="p">{</span>
-</span><span class='line'>    <span class="n">It</span> <span class="s2">&quot;returns the 2 default dir entries&quot;</span> <span class="p">{</span>
-</span><span class='line'>        <span class="nb">Get-FromSFtp</span> <span class="p">|</span> <span class="k">ForEach</span><span class="n">-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Name</span> <span class="p">}</span> <span class="p">|</span> <span class="n">Should</span> <span class="n">Be</span> <span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="s2">&quot;..&quot;</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Happy that I have a feedback loop going now, I begin to start testing the code in isolation. I start by writing the
-contexts and specifications:</p>
-
-<h3>Follow Up With Isolated Tests</h3>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-</pre></td><td class='code'><pre><code class='powershell'><span class='line'><span class="n">Describe</span> <span class="s2">&quot;Get-FromSFtp&quot;</span> <span class="p">{</span>
-</span><span class='line'>    <span class="n">Context</span> <span class="s2">&quot;when connected&quot;</span> <span class="p">{</span>
-</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;attempts to connect to an sftp server&quot;</span> <span class="p">{</span> <span class="p">}</span>
-</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;changes to the directory /test&quot;</span> <span class="p">{</span> <span class="p">}</span>
-</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;gets the contents listing of the directory&quot;</span> <span class="p">{</span> <span class="p">}</span>
-</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;disconnects from the sftp server&quot;</span> <span class="p">{</span> <span class="p">}</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="n">Context</span> <span class="s2">&quot;when not connected&quot;</span> <span class="p">{</span>
-</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;returns 0 files&quot;</span> <span class="p">{</span> <span class="p">}</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="n">Context</span> <span class="s2">&quot;when an error happens&quot;</span> <span class="p">{</span>
-</span><span class='line'>        <span class="n">It</span> <span class="s2">&quot;prints out the error to the user&quot;</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>I was stumped for a bit because I realized Pester didn&rsquo;t have the power necessary to do this easily. It didn&rsquo;t mean it
-couldn&rsquo;t be tested though. The Mocking functionality came to the rescue as I was able to mock <code>New-Object</code> and decouple
-my tests from the <code>Renci.SshNet</code> library. The hard part was hand-rolling the mock object to be used in the tests.</p>
-
-<p>One by one, I made each spec pass. The beginning of each <code>Context</code> was the setup, and each <code>It</code> asserted something from
-after that setup and action had been taken. The nice thing that resulted was I could break a specific piece of the
-production code, and the specific test would tell me that it&rsquo;s broken at that place (eg: change the directory the
-production code goes to).</p>
-
-<p>Here&rsquo;s the complete test file for the code:</p>
-
-<div><script src='https://gist.github.com/e5abe37881628f13cd0a.js?file=Get-FromSFtp.Tests.ps1'></script>
-<noscript><pre><code>$here = Split-Path -Parent $MyInvocation.MyCommand.Path
-$sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(&quot;.Tests.&quot;, &quot;.&quot;)
-. &quot;$here\$sut&quot;
-
-$mockSFtpCode = @&quot;
-public class MockSFtp {
-    public bool ConnectCalled { get; private set; }
-    public bool DisconnectCalled { get; private set; }
-    public bool IsConnected { get; set; }
-    public string ChangeDirectoryParam { get; private set; }
-    public string ListDirectoryParam { get; private set; }
-
-    public void Connect() {
-        this.ConnectCalled = true;
-    }
-
-    public void Disconnect() {
-        this.DisconnectCalled = true;
-    }
-
-    public void ChangeDirectory(string directory) {
-        this.ChangeDirectoryParam = directory;
-    }
-
-    public string[] ListDirectory(string path) {
-        this.ListDirectoryParam = path;
-        return new string[] { &quot;test1&quot; };
-    }
-}
-&quot;@
-
-$throwingMockSFtpCode = @&quot;
-public class ThrowingMockSFtp {
-    public void Connect() {
-        throw new System.Exception();
-    }
-}
-&quot;@
-
-Add-Type -TypeDefinition $mockSFtpCode
-Add-Type -TypeDefinition $throwingMockSFtpCode
-
-Describe &quot;Get-FromSFtp&quot; {
-    Context &quot;when connected&quot; {
-        $mockSFtp = New-Object MockSFtp
-        $mockSFtp.IsConnected = $true
-        Mock New-Object -MockWith { $mockSFtp }
-        $files = Get-FromSFtp
-
-        It &quot;attempts to connect to an sftp server&quot; {
-            $mockSFtp.ConnectCalled | Should Be $true
-        }
-
-        It &quot;changes to the directory /test&quot; {
-            $mockSFtp.ChangeDirectoryParam | Should Be &#39;/test&#39;
-        }
-
-        It &quot;gets the content listing of the directory&quot; {
-            $mockSFtp.ListDirectoryParam | Should Be &#39;.&#39;
-            $files | Should Be @(&quot;test1&quot;)
-        }
-
-        It &quot;disconnects from the sftp server&quot; {
-            $mockSFtp.DisconnectCalled | Should Be $true
-        }
-    }
-
-    Context &quot;when not connected&quot; {
-        $mockSFtp = New-Object MockSFtp
-        $mockSFtp.IsConnected = $false
-        Mock New-Object -MockWith { $mockSFtp }
-        $files = Get-FromSFtp
-
-        It &quot;returns 0 files&quot; {
-            $files | Should BeNullOrEmpty
-        }
-    }
-
-    Context &quot;when an exception happens&quot; {
-        $mockSFtp = New-Object ThrowingMockSFtp
-        Mock New-Object -MockWith { $mockSFtp }
-
-        It &quot;prints out the error to the user&quot; {
-            # I do not think this is a good test, but until
-            # mocking of Write-Host can be done, this is all
-            # that we can really do.
-            { Get-FromSFtp } | Should Not Throw
-        }
-    }
-}
-
-Describe &quot;Get-FromSFtp Integration&quot; {
-    It &quot;returns the 2 default dir entries&quot; {
-        Get-FromSFtp | ForEach-Object { $_.Name } | Should Be &quot;.&quot;, &quot;..&quot;
-    }
-}
-</code></pre></noscript></div>
-
-
-<h3>Summary</h3>
-
-<p>I can&rsquo;t say this is the best test code out there. I think testing PowerShell is in a different place than testing C# or
-other OO languages. It seems like the best you can do is test the function logic and test the composition of it all in
-an integrated way. The first refactoring change I would likely do to this function is make the connection a parameter.
-That way I wouldn&rsquo;t need to mock <code>New-Object</code>, but passing a mock object is still an issue. Perhaps Pester needs a mock
-object builder of some kind, though writing mocks by hand wasn&rsquo;t too difficult either. It&rsquo;s something I would expect a
-testing framework to be able to do for me though.</p>
 ]]></content>
   </entry>
   
