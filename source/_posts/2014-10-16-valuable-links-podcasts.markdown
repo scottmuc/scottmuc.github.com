@@ -167,33 +167,6 @@ missing the excellent stories.
 
 <br style="clear:both;" />
 
-###[TED Radio Hour][podcast-ted-radio-hour][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ted-radio-hour-rss]
-
-{% img right /images/blog/podcasts/ted-radio-hour.jpg 200 %}
-Episodes are themed around TED talks of similar topics. It blends interviews with the speakers along with their talks.
-I find this more rich than the talk on its own.
-
-**Favourites:**
-
-* [The Violence Within Us][violence] - Sort of a scary episode, but it helps me understand that life is always in a
-  delicate balance. We'll never live in a world where everyone is good. I tend to be utopian in my thinking and this
-  provides a good dose of reality.
-* [What is Original][original] - The thought of being unique and interesting is something everyone craves, but in the
-  end most of things are derivitive. This episode is good to pair with the 99% Invisible episode:
-  [Duplitecture][duplitecture].
-* [Identities][identities] - The next few generations of humans are going to have a much different concept about their
-  identity. We are more global and cross-cultural than ever before.
-
-[duplitecture]: http://99percentinvisible.org/episode/duplitecture/
-[violence]: http://www.npr.org/2013/03/28/175609678/the-violence-within-us?showDate=2014-08-08
-[original]: http://www.npr.org/programs/ted-radio-hour/321797073/what-is-original?showDate=2014-06-27
-[identities]: http://www.npr.org/2013/10/06/229879937/identities?showDate=2014-02-21
-
-[podcast-ted-radio-hour]: http://www.npr.org/programs/ted-radio-hour/
-[podcast-ted-radio-hour-rss]: http://www.npr.org/rss/podcast.php?id=510298
-
-<br style="clear:both;" />
-
 ###[Theory of Everything][podcast-toe][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-toe-rss]
 
 {% img right /images/blog/podcasts/toe.jpg 200 %}
@@ -211,41 +184,13 @@ I'm already becoming a huge fan!
 
 <br style="clear:both;" />
 
-###[Tapestry][podcast-tapestry][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-tapestry-rss]
+###[Stuff You Should Know][podcast-sysk][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-sysk-rss]
 
-{% img right /images/blog/podcasts/tapestry.jpg 200 %}
-Getting into the spiritual side a bit. This show talks about culture and religion with an
-open mind. The show reminds me to appreciate the differences between all of us on this rock. I used to listen to this
-show all the time when I lived in Canada. I just recently subscribed to the podcast.
+{% img right /images/blog/podcasts/sysk.jpg 200 %}
+Stuff you should Know
 
-**Favourites:**
-
-* [Being Alone][being-alone] - The 2nd portion with **Nikki Giovanni** is so delightful. It's a candid conversation that
-  has so many quotable verses. I was walking the streets of Bangalore while listening to it and I had a huge smile on my
-  face the whole time.
-
-[being-alone]: http://www.cbc.ca/tapestry/episode/2014/10/24/being-alone-views-from-a-mormon-feminist-poet-nikki-giovanni/
-[podcast-tapestry]: http://www.cbc.ca/tapestry/index.html
-[podcast-tapestry-rss]: http://www.cbc.ca/podcasting/includes/tapestry.xml
-
-<br style="clear:both;" />
-
-###[White Coat Black Art][podcast-white-coat-black-art][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-white-coat-black-art-rss]
-
-{% img right /images/blog/podcasts/whitecoat.jpg 200 %}
-The health care system is usually a bit of a black box and this show provides some visibility into how things work. Like
-tapestry, this was a show I used to listen to all the time when I lived in Canada. Recently subscribed to feel that
-connection back to where I came from.
-
-**Favourites:**
-
-* [Slow Code](http://www.cbc.ca/radio/whitecoat/slow-code-1.2827708) - A conversation about health care professionals
-  minimaly applying "Code Blue" protocols when they know the patient won't survive or will survive at a considerable
-  cost. This episode made me remember that my job is pretty much pointless and to think about the people that do real
-  honest work out there.
-
-[podcast-white-coat-black-art]: http://www.cbc.ca/whitecoat/
-[podcast-white-coat-black-art-rss]: http://www.cbc.ca/podcasting/includes/whitecoat.xml
+[podcast-sysk]: http://www.stuffyoushouldknow.com/
+[podcast-sysk-rss]: http://www.howstuffworks.com/podcasts/stuff-you-should-know.rss
 
 <br style="clear:both;" />
 
@@ -278,14 +223,27 @@ you'll learn how to listen to music and grow appreciation for the more subtle el
 
 ## Tech / Programming
 
-###[Spark][podcast-spark][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-spark-rss]
+As you can see, I don't really listen to any tech/programming podcasts anymore.
 
-{% img right /images/blog/podcasts/spark.jpg 200 %}
-A Canadian look into the technical world. Always nice to hear a Canadian perspective of what's going on. Hopefully
-because it's created by the CBC, there isn't any product/partner agenda.
+## Language
 
-[podcast-spark]: http://www.cbc.ca/spark/index.html
-[podcast-spark-rss]: http://www.cbc.ca/podcasting/includes/spark.xml
+###[The Allusionist][podcast-allusionist][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-allusionist-rss]
+
+{% img right /images/blog/podcasts/allusionist.png 200 %}
+The Allusionist
+
+[podcast-allusionist]: http://www.theallusionist.org/
+[podcast-allusionist-rss]: http://feeds.theallusionist.org/Allusionist
+
+<br style="clear:both;" />
+
+###[Lexicon Valley][podcast-lexvalley][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-lexvalley-rss]
+
+{% img right /images/blog/podcasts/lexvalley.jpg 200 %}
+Lexicon Valley
+
+[podcast-lexvalley]: http://www.slate.com/articles/podcasts/lexicon_valley.html
+[podcast-lexvalley-rss]: http://feeds.feedburner.com/SlateLexiconValley
 
 <br style="clear:both;" />
 
@@ -404,6 +362,82 @@ because of its technical base.
 [chris-hunt]: https://twitter.com/chrishunt
 [podcast-healthyhacker]: http://www.healthyhacker.com/
 [podcast-healthyhacker-rss]: http://www.healthyhacker.com/feed.xml
+
+<br style="clear:both;" />
+
+###[TED Radio Hour][podcast-ted-radio-hour][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ted-radio-hour-rss]
+
+{% img right /images/blog/podcasts/ted-radio-hour.jpg 200 %}
+Episodes are themed around TED talks of similar topics. It blends interviews with the speakers along with their talks.
+I find this more rich than the talk on its own.
+
+**Favourites:**
+
+* [The Violence Within Us][violence] - Sort of a scary episode, but it helps me understand that life is always in a
+  delicate balance. We'll never live in a world where everyone is good. I tend to be utopian in my thinking and this
+  provides a good dose of reality.
+* [What is Original][original] - The thought of being unique and interesting is something everyone craves, but in the
+  end most of things are derivitive. This episode is good to pair with the 99% Invisible episode:
+  [Duplitecture][duplitecture].
+* [Identities][identities] - The next few generations of humans are going to have a much different concept about their
+  identity. We are more global and cross-cultural than ever before.
+
+[duplitecture]: http://99percentinvisible.org/episode/duplitecture/
+[violence]: http://www.npr.org/2013/03/28/175609678/the-violence-within-us?showDate=2014-08-08
+[original]: http://www.npr.org/programs/ted-radio-hour/321797073/what-is-original?showDate=2014-06-27
+[identities]: http://www.npr.org/2013/10/06/229879937/identities?showDate=2014-02-21
+
+[podcast-ted-radio-hour]: http://www.npr.org/programs/ted-radio-hour/
+[podcast-ted-radio-hour-rss]: http://www.npr.org/rss/podcast.php?id=510298
+
+<br style="clear:both;" />
+
+###[Tapestry][podcast-tapestry][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-tapestry-rss]
+
+{% img right /images/blog/podcasts/tapestry.jpg 200 %}
+Getting into the spiritual side a bit. This show talks about culture and religion with an
+open mind. The show reminds me to appreciate the differences between all of us on this rock. I used to listen to this
+show all the time when I lived in Canada. I just recently subscribed to the podcast.
+
+**Favourites:**
+
+* [Being Alone][being-alone] - The 2nd portion with **Nikki Giovanni** is so delightful. It's a candid conversation that
+  has so many quotable verses. I was walking the streets of Bangalore while listening to it and I had a huge smile on my
+  face the whole time.
+
+[being-alone]: http://www.cbc.ca/tapestry/episode/2014/10/24/being-alone-views-from-a-mormon-feminist-poet-nikki-giovanni/
+[podcast-tapestry]: http://www.cbc.ca/tapestry/index.html
+[podcast-tapestry-rss]: http://www.cbc.ca/podcasting/includes/tapestry.xml
+
+<br style="clear:both;" />
+
+###[White Coat Black Art][podcast-white-coat-black-art][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-white-coat-black-art-rss]
+
+{% img right /images/blog/podcasts/whitecoat.jpg 200 %}
+The health care system is usually a bit of a black box and this show provides some visibility into how things work. Like
+tapestry, this was a show I used to listen to all the time when I lived in Canada. Recently subscribed to feel that
+connection back to where I came from.
+
+**Favourites:**
+
+* [Slow Code](http://www.cbc.ca/radio/whitecoat/slow-code-1.2827708) - A conversation about health care professionals
+  minimaly applying "Code Blue" protocols when they know the patient won't survive or will survive at a considerable
+  cost. This episode made me remember that my job is pretty much pointless and to think about the people that do real
+  honest work out there.
+
+[podcast-white-coat-black-art]: http://www.cbc.ca/whitecoat/
+[podcast-white-coat-black-art-rss]: http://www.cbc.ca/podcasting/includes/whitecoat.xml
+
+<br style="clear:both;" />
+
+###[Spark][podcast-spark][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-spark-rss]
+
+{% img right /images/blog/podcasts/spark.jpg 200 %}
+A Canadian look into the technical world. Always nice to hear a Canadian perspective of what's going on. Hopefully
+because it's created by the CBC, there isn't any product/partner agenda.
+
+[podcast-spark]: http://www.cbc.ca/spark/index.html
+[podcast-spark-rss]: http://www.cbc.ca/podcasting/includes/spark.xml
 
 <br style="clear:both;" />
 
