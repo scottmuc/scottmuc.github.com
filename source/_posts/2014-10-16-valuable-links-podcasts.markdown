@@ -253,6 +253,17 @@ you'll learn how to listen to music and grow appreciation for the more subtle el
 
 <br style="clear:both;" />
 
+###[All Songs Considered][podcast-npr-asc][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-npr-asc-rss]
+
+{% img right /images/blog/podcasts/npr-asc.jpg 200 %}
+A podcast I tend to listen to when I going to sleep. I don't quite keep up with music as much as I should, but I find
+listening to this keeps me somewhat informed of what's going on.
+
+[podcast-npr-asc]: http://www.npr.org/podcasts/510019/all-songs-considered
+[podcast-npr-asc-rss]: http://www.npr.org/templates/rss/podcast.php?id=510019
+
+<br style="clear:both;" />
+
 ## Tech / Programming
 
 As you can see, I don't really listen to any tech/programming podcasts anymore.
