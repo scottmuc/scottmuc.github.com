@@ -120,7 +120,6 @@ have to wait 15 minutes before something.
 
 <br style="clear:both;" />
 
-<!-- Podcast Block -->
 ###[Conversations with Tyler][podcast-cwt][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-cwt-rss]
 
 {% img right /images/blog/podcasts/cwt.jpg 200 %}
@@ -141,7 +140,17 @@ interview.
 [podcast-cwt-rss]: http://feeds.soundcloud.com/users/soundcloud:users:146429914/sounds.rss
 
 <br style="clear:both;" />
-<!-- Podcast Block -->
+
+###[FT Alphachat][podcast-ft-alphachat][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ft-alphachat-rss]
+
+{% img right /images/blog/podcasts/ft-alphachat.png 200 %}
+Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
+some of the other business/economic podcasts.
+
+[podcast-ft-alphachat]: https://www.acast.com/ft-alphachat
+[podcast-ft-alphachat-rss]: http://rss.acast.com/ft-alphachat
+
+<br style="clear:both;" />
 
 ### Culture and Curiosities
 
