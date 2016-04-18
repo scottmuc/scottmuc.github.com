@@ -257,7 +257,9 @@ I'm already becoming a huge fan!
 ###[Stuff You Should Know][podcast-sysk][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-sysk-rss]
 
 {% img right /images/blog/podcasts/sysk.jpg 200 %}
-Stuff you should Know
+An exceptional podcast hosted by two charismatic people. Normally I find tangents in podcasts to be distracting, but for
+some reason these two often make it worthwhile. They cover a myriad of topics and they make the most mundane seem
+fascinating. I think I might have too many favourites to list.
 
 [podcast-sysk]: http://www.stuffyoushouldknow.com/
 [podcast-sysk-rss]: http://www.howstuffworks.com/podcasts/stuff-you-should-know.rss
