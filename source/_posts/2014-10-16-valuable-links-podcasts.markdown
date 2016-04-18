@@ -193,6 +193,18 @@ show a bit deeper than something like Freakanomics or Planet Money.
 
 <br style="clear:both;" />
 
+###[Slate Money][podcast-slate-money][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-slate-money-rss]
+
+{% img right /images/blog/podcasts/slate-money.png 200 %}
+Yet another podcast that talks about world events and how they affect the economy. Each episode covers 2-4 topics. I
+don't always listen to this one, but when a new episode comes in I'll look at the contents of the episode and choose to
+delete it if it isn't offering much more than other podcasts have covered.
+
+[podcast-slate-money]: http://www.slate.com/articles/podcasts/slate_money.html
+[podcast-slate-money-rss]: http://feeds.feedburner.com/SlateMoney
+
+<br style="clear:both;" />
+
 ### Politics and World News
 
 ###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-analysis-rss]
