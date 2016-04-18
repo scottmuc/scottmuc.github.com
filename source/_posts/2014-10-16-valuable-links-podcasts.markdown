@@ -141,17 +141,6 @@ interview.
 
 <br style="clear:both;" />
 
-###[FT Alphachat][podcast-ft-alphachat][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ft-alphachat-rss]
-
-{% img right /images/blog/podcasts/ft-alphachat.png 200 %}
-Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
-some of the other business/economic podcasts.
-
-[podcast-ft-alphachat]: http://podcast.ft.com/s/ft-alphachat/
-[podcast-ft-alphachat-rss]: http://rss.acast.com/ft-alphachat
-
-<br style="clear:both;" />
-
 ###[BBC More or Less][podcast-bbc-mol][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-mol-rss]
 
 {% img right /images/blog/podcasts/bbc-mol.jpg 200 %}
@@ -190,6 +179,38 @@ show a bit deeper than something like Freakanomics or Planet Money.
 [norway-tax]: http://www.bbc.co.uk/programmes/p03qg5rq
 [podcast-bbc-pdwob]: http://www.bbc.co.uk/programmes/p02nrwfk
 [podcast-bbc-pdwob-rss]: http://www.bbc.co.uk/programmes/p02nrwfk/episodes/downloads.rss
+
+<br style="clear:both;" />
+
+###[BBC The Bottom Line][podcast-bbc-bottom-line][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-bottom-line-rss]
+
+{% img right /images/blog/podcasts/bbc-bottom-line.jpg 200 %}
+Provides a focus on what makes a business successful. It's a domain that I don't really have a clue. I find myself
+wanting to be closer to the business in the work I do day to day so this has been good at introducing me to what
+executives think about.
+
+**Favourites:**
+
+* [Data Privacy][data-privacy] - As someone on the sidelines watching the privacy debates from a technologist, it's
+  important to learn how these topics are perceived from a business owner level.
+* [Life After a Blockbuster][life-after-blockbuster] - The story about Angry Birds was fascinating. It reveals how often
+  the success we put on a pedestal comes from consistent tenanicity.
+
+[life-after-blockbuster]: http://www.bbc.co.uk/programmes/b0745q4l
+[data-privacy]: http://www.bbc.co.uk/programmes/b070hns6
+[podcast-bbc-bottom-line]: http://www.bbc.co.uk/programmes/b006sz6t
+[podcast-bbc-bottom-line-rss]: http://www.bbc.co.uk/programmes/b006sz6t/episodes/downloads.rss
+
+<br style="clear:both;" />
+
+###[FT Alphachat][podcast-ft-alphachat][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ft-alphachat-rss]
+
+{% img right /images/blog/podcasts/ft-alphachat.png 200 %}
+Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
+some of the other business/economic podcasts.
+
+[podcast-ft-alphachat]: http://podcast.ft.com/s/ft-alphachat/
+[podcast-ft-alphachat-rss]: http://rss.acast.com/ft-alphachat
 
 <br style="clear:both;" />
 
