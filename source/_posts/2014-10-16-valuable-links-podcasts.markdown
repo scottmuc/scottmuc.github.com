@@ -398,8 +398,17 @@ As you can see, I don't really listen to any tech/programming podcasts anymore.
 ###[The Allusionist][podcast-allusionist][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-allusionist-rss]
 
 {% img right /images/blog/podcasts/allusionist.png 200 %}
-The Allusionist
+I could list to Helen Zaltzman speak all day. Her style and sense of humour is wonderful and I find that I learn a lot
+about the origins of the words in my native language.
 
+**Favourites:**
+
+* [Please][allusionist-please] - Listen to this episode and think again if someone from another culture is being rude.
+  Also, think about how other cultures may have perceived you as being rude by trying to be overly polite!
+* [WLTM][allusionist-wltm] - The language surrounding dating from three hundred years ago.
+
+[allusionist-wltm]: http://www.theallusionist.org/allusionist/wltm-i
+[allusionist-please]: http://www.theallusionist.org/allusionist/please
 [podcast-allusionist]: http://www.theallusionist.org/
 [podcast-allusionist-rss]: http://feeds.theallusionist.org/Allusionist
 
@@ -408,8 +417,18 @@ The Allusionist
 ###[Lexicon Valley][podcast-lexvalley][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-lexvalley-rss]
 
 {% img right /images/blog/podcasts/lexvalley.jpg 200 %}
-Lexicon Valley
+Each episode starts with a clue as to what the topic is going to be, and the hosts try to figure it out. They often have
+great dialogues about the words and are well researched in trying to pinpoint the origin of term. They have a good sense
+of humour too.
 
+**Favourties:**
+
+* [Language Positivity Bias][lexvalley-positivity] - This episode made me laugh out loud while grocery shopping. They
+  dive into the lyrics of Slayer and it's really a priceless moment.
+* [A Cat, a Coward, and Female Genitalia][lexvalley-pussy] - Where did the word pussy come from?
+
+[lexvalley-pussy]: http://www.slate.com/articles/podcasts/lexicon_valley/2015/11/pussy_the_etymology_and_history_of_a_cat_a_coward_and_female_genitalia.html
+[lexvalley-positivity]: http://www.slate.com/articles/podcasts/lexicon_valley/2015/06/lexicon_valley_the_pollyanna_hypothesis_all_languages_have_a_positivity.html
 [podcast-lexvalley]: http://www.slate.com/articles/podcasts/lexicon_valley.html
 [podcast-lexvalley-rss]: http://feeds.feedburner.com/SlateLexiconValley
 
