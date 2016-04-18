@@ -152,6 +152,33 @@ some of the other business/economic podcasts.
 
 <br style="clear:both;" />
 
+
+### Politics and World News
+
+###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-analysis-rss]
+
+{% img right /images/blog/podcasts/bbc-analysis.jpg 200 %}
+For once it's nice to listen to something that isn't about US politics. I started listening to economic podcasts to
+understand more of the world around me. Now it's pointing me in the direction of politics. This show is interesting to
+hear about how ideas and policies gets introduced to society. They tackle some difficult issues as well which makes it a
+bit heavier than some of the other lighter podcasts I have listed here.
+
+**Favourites:**
+
+* [The End of Free][end-of-free] - I've been incorporating ad blocking daily for over a decade. It was fascinating to
+  hear how it's hit a point where this practice is getting attention. Brands just want to engage with you! Why are we
+  being so mean to them!
+* [Free Speech][free-speech] - This is the first for a 4 part series. It asks the questions around the trade offs of
+  free speech. I find myself conflicted and tripping over my own thoughts on what should be allowed. Learning the types
+  of nullifiers to free speech I found interesting too.
+
+[end-of-free]: http://www.bbc.co.uk/programmes/b072j3g6
+[free-speech]: http://www.bbc.co.uk/programmes/p03qvxgb
+[podcast-bbc-analysis]: http://www.bbc.co.uk/programmes/b006r4vz
+[podcast-bbc-analysis-rss]: http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss
+
+<br style="clear:both;" />
+
 ### Culture and Curiosities
 
 ###[99% Invisible][podcast-99pi][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-99pi-rss]
