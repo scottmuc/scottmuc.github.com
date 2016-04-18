@@ -147,7 +147,7 @@ interview.
 Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
 some of the other business/economic podcasts.
 
-[podcast-ft-alphachat]: https://www.acast.com/ft-alphachat
+[podcast-ft-alphachat]: http://podcast.ft.com/s/ft-alphachat/
 [podcast-ft-alphachat-rss]: http://rss.acast.com/ft-alphachat
 
 <br style="clear:both;" />
@@ -176,6 +176,17 @@ bit heavier than some of the other lighter podcasts I have listed here.
 [free-speech]: http://www.bbc.co.uk/programmes/p03qvxgb
 [podcast-bbc-analysis]: http://www.bbc.co.uk/programmes/b006r4vz
 [podcast-bbc-analysis-rss]: http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss
+
+<br style="clear:both;" />
+
+###[FT World Weekly][podcast-ft-worldweekly][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ft-worldweekly-rss]
+
+{% img right /images/blog/podcasts/ft-worldweekly.png 200 %}
+Another good source for global news how it influences the world markets. Can't really say I have any favourites, but I
+do like how it's not just US news.
+
+[podcast-ft-worldweekly]: http://podcast.ft.com/s/world-weekly-with-gideon-rachman/
+[podcast-ft-worldweekly-rss]: http://rss.acast.com/ft-world-weekly
 
 <br style="clear:both;" />
 
