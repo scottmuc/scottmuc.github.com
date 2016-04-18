@@ -174,6 +174,25 @@ to reveal a non-biased presentation.
 
 <br style="clear:both;" />
 
+###[BBC Peter Day's World of Business][podcast-bbc-pdwob][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-pdwob-rss]
+
+{% img right /images/blog/podcasts/bbc-pdwob.jpg 200 %}
+A show that does a good job of covering both sides around global trends or analysing specific environments. I find this
+show a bit deeper than something like Freakanomics or Planet Money.
+
+**Favourites:**
+
+* [Tax Transparency - Norway's Model][norway-tax] - Personally, I've become fascinated with transparent systems. I like
+  the idea of everyone knowing what each other makes because it provides the knowledge required to make better
+  decisions. This episode provides a look into why this was imposed in Norway's past and some of the complexities that
+  have resulted in a more modern era.
+
+[norway-tax]: http://www.bbc.co.uk/programmes/p03qg5rq
+[podcast-bbc-pdwob]: http://www.bbc.co.uk/programmes/p02nrwfk
+[podcast-bbc-pdwob-rss]: http://www.bbc.co.uk/programmes/p02nrwfk/episodes/downloads.rss
+
+<br style="clear:both;" />
+
 ### Politics and World News
 
 ###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-analysis-rss]
