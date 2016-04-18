@@ -264,6 +264,18 @@ Stuff you should Know
 
 <br style="clear:both;" />
 
+###[Futility Closet][podcast-futility-closet][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-futility-closet-rss]
+
+{% img right /images/blog/podcasts/futilitycloset.png 200 %}
+A show about curious events. They did a neat thing where they perform a lateral thinking puzzle with each episode. It
+reminds me that sometimes truth is stranger than fiction and to always be curious about what is laid out in front of
+you. I've only listened to a few episodes so I don't have any favourites to list at the moment in time.
+
+[podcast-futility-closet]: http://www.futilitycloset.com/category/podcast/
+[podcast-futility-closet-rss]: http://feedpress.me/futilitycloset
+
+<br style="clear:both;" />
+
 ## Music
 
 ###[CBC Radio 3][podcast-cbcradio3][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-cbcradio3-rss]
