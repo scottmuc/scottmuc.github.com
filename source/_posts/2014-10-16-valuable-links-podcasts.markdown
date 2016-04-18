@@ -120,6 +120,29 @@ have to wait 15 minutes before something.
 
 <br style="clear:both;" />
 
+<!-- Podcast Block -->
+###[Conversations with Tyler][podcast-cwt][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-cwt-rss]
+
+{% img right /images/blog/podcasts/cwt.jpg 200 %}
+A new one that I just got into. It's a bit more candid than EconTalk and more accessible. The guests are of the same
+caliber and sometimes the Q&A at the end can add interesting tidbits that may not neccessarily come up during an
+interview.
+
+**Favourites:**
+
+* [Jeffrey Sachs][cwt-sachs] - I've only listened to a few and they are all excellent but this one stands out because I
+  found Jeffrey Sachs inspires me a little bit. Instead of shrugging his shoulders and pointing out how all the terrible
+  things in the world can be explained by value functions and rational behaviour, he uses that knowledge to learn how to
+  tweak these systems. He's an interesting balance of idealist and a realist and I find that refreshing compared to
+  other economic speakers I've listened to.
+
+[cwt-sachs]: https://medium.com/conversations-with-tyler/jeffrey-sachs-on-the-future-of-economic-development-2650c27b2776#.utox5d73q
+[podcast-cwt]: http://mercatus.org/conversations-with-tyler
+[podcast-cwt-rss]: http://feeds.soundcloud.com/users/soundcloud:users:146429914/sounds.rss
+
+<br style="clear:both;" />
+<!-- Podcast Block -->
+
 ### Culture and Curiosities
 
 ###[99% Invisible][podcast-99pi][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-99pi-rss]
@@ -441,5 +464,18 @@ because it's created by the CBC, there isn't any product/partner agenda.
 
 <br style="clear:both;" />
 
+
+<!-- Podcast Block
+###[Podcast Name][podcast-name][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-name-rss]
+
+{% img right /images/blog/podcasts/podcastname.png 200 %}
+
+**Favourites:**
+
+[podcast-name]: podcast-website
+[podcast-name-rss]: podcast-rss
+
+<br style="clear:both;" />
+-->
 
 
