@@ -351,6 +351,30 @@ you. I've only listened to a few episodes so I don't have any favourites to list
 
 <br style="clear:both;" />
 
+###[Hidden Brain][podcast-npr-hidden-brain][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-npr-hidden-brain-rss]
+
+{% img right /images/blog/podcasts/npr-hiddenbrain.jpg 200 %}
+A topic that I've been loving lately is learning how our brains work. Not at the micro level, but at the macro level.
+What makes us make all the silly decisions that we make. How do we subtly use this knowledge to manipulate people for
+good and bad. Whenever you find yourself asking the question "why would anyone behave this way?", listen to this show
+and it'll shed some light on us crazy humans.
+
+**Favourites:**
+
+* [Grit][grit] - I found myself nodding at many of the points in this episode. It highlights how expertise requires
+  spending a large portion of your time performing deliberate practice. It also looks at why people love people that
+  show mastery in something but disregard the massive dedication these people spent on becoming a master.
+* [AirBnB While Black][airbnbwhileblack] - As a western white male, the easiness of my life is often not very obvious,
+  that is until you hear the stories of others. I have a feeling that the Internet is exposing our unconscious biases
+  more frequently while at the same time providing people with techniques to overcome these hurdles.
+
+[grit]: http://www.npr.org/podcasts/510308/hidden-brain
+[airbnbwhileblack]: http://www.npr.org/podcasts/510308/hidden-brain
+[podcast-npr-hidden-brain]: http://www.npr.org/podcasts/510308/hidden-brain
+[podcast-npr-hidden-brain-rss]: http://www.npr.org/rss/podcast.php?id=510308
+
+<br style="clear:both;" />
+
 ## Music
 
 ###[CBC Radio 3][podcast-cbcradio3][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-cbcradio3-rss]
