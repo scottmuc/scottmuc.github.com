@@ -375,6 +375,25 @@ and it'll shed some light on us crazy humans.
 
 <br style="clear:both;" />
 
+###[Hello Internet][podcast-hello-internet][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-hello-internet-rss]
+
+{% img right /images/blog/podcasts/hellointernet.png 200 %}
+Most of the time I dislike drawn out conversational style podcasts but this one I enjoy listening to while doing tasks
+(and I don't mind not absorbing the contents of the episode). The hosts are: [CGP Grey][cgpgrey], who entertains me with
+his affinity for comfort and observing the world from a far. Often I find myself aligned with his views and enjoy his
+[Youtube Channel][cgpgrey-youtube] immensely. The other host is [Brady Haran][brady] who is energetic and curious. I
+enjoy is enthusiasm around travel. I would love to have beer with these two which I know Grey would despise the idea and
+Brady would love it. Their contrasting personalities and mutual respect for each other is why I'll stick with this
+podcast even though the episodes are too long by my listening standards.
+
+[cgpgrey]: https://en.wikipedia.org/wiki/CGP_Grey
+[cgpgrey-youtube]: https://www.youtube.com/channel/UC2C_jShtL725hvbm1arSV9w
+[brady]: https://en.wikipedia.org/wiki/Brady_Haran
+[podcast-hello-internet]: http://www.hellointernet.fm/
+[podcast-hello-internet-rss]: http://www.hellointernet.fm/podcast?format=rss
+
+<br style="clear:both;" />
+
 ## Music
 
 ###[CBC Radio 3][podcast-cbcradio3][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-cbcradio3-rss]
