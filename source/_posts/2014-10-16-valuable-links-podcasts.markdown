@@ -37,7 +37,7 @@ where you've found too much good content and there isn't enough time to listen t
 
 ## Economics
 
-###[EconTalk][podcast-econtalk][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-econtalk-rss]
+###[EconTalk][podcast-econtalk][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-econtalk-rss]
 
 {% img right /images/blog/podcasts/econtalk.jpg 200 %}
 I begun listening to this show at the beginning of my [career break][career-break]. The
@@ -67,9 +67,9 @@ listening to it regardless of the topic!
 [great-debate]: http://www.econtalk.org/archives/2014/05/yuval_levin_on.html
 [gdp]: http://www.econtalk.org/archives/2014/09/martha_nussbaum.html
 
-<br style="clear:both;" />
+- - -
 
-###[Freakonomics Radio][podcast-freakonomics][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-freakonomics-rss]
+###[Freakonomics Radio][podcast-freakonomics][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-freakonomics-rss]
 
 {% img right /images/blog/podcasts/freakonomics.jpg 200 %}
 Sometimes hit or miss. Strives to be entertaining more than educational
@@ -96,9 +96,9 @@ intrespective quiet person.
 [podcast-freakonomics-rss]: http://feeds.feedburner.com/freakonomicsradio
 [steve-levitt]: https://en.wikipedia.org/wiki/Steven_Levitt
 
-<br style="clear:both;" />
+- - -
 
-###[Planet Money][podcast-planet-money][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-planet-money-rss]
+###[Planet Money][podcast-planet-money][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-planet-money-rss]
 
 {% img right /images/blog/podcasts/planetmoney.png 200 %}
 Short and to the point episodes that focus on very specific topics or issues. I
@@ -118,9 +118,9 @@ have to wait 15 minutes before something.
 [podcast-planet-money]: http://www.npr.org/blogs/money/
 [podcast-planet-money-rss]: http://www.npr.org/rss/podcast.php?id=510289
 
-<br style="clear:both;" />
+- - -
 
-###[Conversations with Tyler][podcast-cwt][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-cwt-rss]
+###[Conversations with Tyler][podcast-cwt][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-cwt-rss]
 
 {% img right /images/blog/podcasts/cwt.jpg 200 %}
 A new one that I just got into. It's a bit more candid than EconTalk and more accessible. The guests are of the same
@@ -139,9 +139,9 @@ interview.
 [podcast-cwt]: http://mercatus.org/conversations-with-tyler
 [podcast-cwt-rss]: http://feeds.soundcloud.com/users/soundcloud:users:146429914/sounds.rss
 
-<br style="clear:both;" />
+- - -
 
-###[BBC More or Less][podcast-bbc-mol][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-mol-rss]
+###[BBC More or Less][podcast-bbc-mol][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-mol-rss]
 
 {% img right /images/blog/podcasts/bbc-mol.jpg 200 %}
 This show takes a deeper look around statistics. It does the deeper critical view so you don't have to. Listening to
@@ -161,9 +161,9 @@ to reveal a non-biased presentation.
 [podcast-bbc-mol]: http://www.bbc.co.uk/programmes/p02nrss1
 [podcast-bbc-mol-rss]: http://www.bbc.co.uk/programmes/p02nrss1/episodes/downloads.rss
 
-<br style="clear:both;" />
+- - -
 
-###[BBC Peter Day's World of Business][podcast-bbc-pdwob][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-pdwob-rss]
+###[BBC Peter Day's World of Business][podcast-bbc-pdwob][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-pdwob-rss]
 
 {% img right /images/blog/podcasts/bbc-pdwob.jpg 200 %}
 A show that does a good job of covering both sides around global trends or analysing specific environments. I find this
@@ -180,9 +180,9 @@ show a bit deeper than something like Freakanomics or Planet Money.
 [podcast-bbc-pdwob]: http://www.bbc.co.uk/programmes/p02nrwfk
 [podcast-bbc-pdwob-rss]: http://www.bbc.co.uk/programmes/p02nrwfk/episodes/downloads.rss
 
-<br style="clear:both;" />
+- - -
 
-###[BBC The Bottom Line][podcast-bbc-bottom-line][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-bottom-line-rss]
+###[BBC The Bottom Line][podcast-bbc-bottom-line][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-bottom-line-rss]
 
 {% img right /images/blog/podcasts/bbc-bottom-line.jpg 200 %}
 Provides a focus on what makes a business successful. It's a domain that I don't really have a clue. I find myself
@@ -201,9 +201,9 @@ executives think about.
 [podcast-bbc-bottom-line]: http://www.bbc.co.uk/programmes/b006sz6t
 [podcast-bbc-bottom-line-rss]: http://www.bbc.co.uk/programmes/b006sz6t/episodes/downloads.rss
 
-<br style="clear:both;" />
+- - -
 
-###[FT Alphachat][podcast-ft-alphachat][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ft-alphachat-rss]
+###[FT Alphachat][podcast-ft-alphachat][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ft-alphachat-rss]
 
 {% img right /images/blog/podcasts/ft-alphachat.png 200 %}
 Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
@@ -212,9 +212,9 @@ some of the other business/economic podcasts.
 [podcast-ft-alphachat]: http://podcast.ft.com/s/ft-alphachat/
 [podcast-ft-alphachat-rss]: http://rss.acast.com/ft-alphachat
 
-<br style="clear:both;" />
+- - -
 
-###[Slate Money][podcast-slate-money][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-slate-money-rss]
+###[Slate Money][podcast-slate-money][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-slate-money-rss]
 
 {% img right /images/blog/podcasts/slate-money.png 200 %}
 Yet another podcast that talks about world events and how they affect the economy. Each episode covers 2-4 topics. I
@@ -224,11 +224,11 @@ delete it if it isn't offering much more than other podcasts have covered.
 [podcast-slate-money]: http://www.slate.com/articles/podcasts/slate_money.html
 [podcast-slate-money-rss]: http://feeds.feedburner.com/SlateMoney
 
-<br style="clear:both;" />
+- - -
 
 ### Politics and World News
 
-###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-bbc-analysis-rss]
+###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-analysis-rss]
 
 {% img right /images/blog/podcasts/bbc-analysis.jpg 200 %}
 For once it's nice to listen to something that isn't about US politics. I started listening to economic podcasts to
@@ -250,9 +250,9 @@ bit heavier than some of the other lighter podcasts I have listed here.
 [podcast-bbc-analysis]: http://www.bbc.co.uk/programmes/b006r4vz
 [podcast-bbc-analysis-rss]: http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss
 
-<br style="clear:both;" />
+- - -
 
-###[FT World Weekly][podcast-ft-worldweekly][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ft-worldweekly-rss]
+###[FT World Weekly][podcast-ft-worldweekly][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ft-worldweekly-rss]
 
 {% img right /images/blog/podcasts/ft-worldweekly.png 200 %}
 Another good source for global news how it influences the world markets. Can't really say I have any favourites, but I
@@ -261,11 +261,11 @@ do like how it's not just US news.
 [podcast-ft-worldweekly]: http://podcast.ft.com/s/world-weekly-with-gideon-rachman/
 [podcast-ft-worldweekly-rss]: http://rss.acast.com/ft-world-weekly
 
-<br style="clear:both;" />
+- - -
 
 ### Culture and Curiosities
 
-###[99% Invisible][podcast-99pi][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-99pi-rss]
+###[99% Invisible][podcast-99pi][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-99pi-rss]
 
 {% img right /images/blog/podcasts/99pi.png 200 %}
 Now one of my favourites. You never know what to expect with this show because the
@@ -290,9 +290,9 @@ exceptional podcasts.
 [podcast-99pi-rss]: http://feeds.99percentinvisible.org/99percentinvisible
 [radiotopia]: http://www.radiotopia.fm/
 
-<br style="clear:both;" />
+- - -
 
-###[RadioLab][podcast-radiolab][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-radiolab-rss]
+###[RadioLab][podcast-radiolab][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-radiolab-rss]
 
 {% img right /images/blog/podcasts/radiolab.png 200 %}
 One of the pioneers in story-telling podcasts. I've been away from it for a while and have re-subscribed as I've been
@@ -308,9 +308,9 @@ missing the excellent stories.
 [podcast-radiolab]: http://www.radiolab.org/
 [podcast-radiolab-rss]: http://feeds.wnyc.org/radiolab
 
-<br style="clear:both;" />
+- - -
 
-###[Theory of Everything][podcast-toe][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-toe-rss]
+###[Theory of Everything][podcast-toe][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-toe-rss]
 
 {% img right /images/blog/podcasts/toe.jpg 200 %}
 A member of the [Radiotopia][radiotopia] collective. Just started getting into this podcast recently.
@@ -325,9 +325,9 @@ I'm already becoming a huge fan!
 [podcast-toe]: http://toe.prx.org/
 [podcast-toe-rss]: http://feeds.prx.org/toe
 
-<br style="clear:both;" />
+- - -
 
-###[Stuff You Should Know][podcast-sysk][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-sysk-rss]
+###[Stuff You Should Know][podcast-sysk][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-sysk-rss]
 
 {% img right /images/blog/podcasts/sysk.jpg 200 %}
 An exceptional podcast hosted by two charismatic people. Normally I find tangents in podcasts to be distracting, but for
@@ -337,9 +337,9 @@ fascinating. I think I might have too many favourites to list.
 [podcast-sysk]: http://www.stuffyoushouldknow.com/
 [podcast-sysk-rss]: http://www.howstuffworks.com/podcasts/stuff-you-should-know.rss
 
-<br style="clear:both;" />
+- - -
 
-###[Futility Closet][podcast-futility-closet][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-futility-closet-rss]
+###[Futility Closet][podcast-futility-closet][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-futility-closet-rss]
 
 {% img right /images/blog/podcasts/futilitycloset.png 200 %}
 A show about curious events. They did a neat thing where they perform a lateral thinking puzzle with each episode. It
@@ -349,9 +349,9 @@ you. I've only listened to a few episodes so I don't have any favourites to list
 [podcast-futility-closet]: http://www.futilitycloset.com/category/podcast/
 [podcast-futility-closet-rss]: http://feedpress.me/futilitycloset
 
-<br style="clear:both;" />
+- - -
 
-###[Hidden Brain][podcast-npr-hidden-brain][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-npr-hidden-brain-rss]
+###[Hidden Brain][podcast-npr-hidden-brain][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-npr-hidden-brain-rss]
 
 {% img right /images/blog/podcasts/npr-hiddenbrain.jpg 200 %}
 A topic that I've been loving lately is learning how our brains work. Not at the micro level, but at the macro level.
@@ -373,9 +373,9 @@ and it'll shed some light on us crazy humans.
 [podcast-npr-hidden-brain]: http://www.npr.org/podcasts/510308/hidden-brain
 [podcast-npr-hidden-brain-rss]: http://www.npr.org/rss/podcast.php?id=510308
 
-<br style="clear:both;" />
+- - -
 
-###[Hello Internet][podcast-hello-internet][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-hello-internet-rss]
+###[Hello Internet][podcast-hello-internet][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-hello-internet-rss]
 
 {% img right /images/blog/podcasts/hellointernet.png 200 %}
 Most of the time I dislike drawn out conversational style podcasts but this one I enjoy listening to while doing tasks
@@ -392,11 +392,11 @@ podcast even though the episodes are too long by my listening standards.
 [podcast-hello-internet]: http://www.hellointernet.fm/
 [podcast-hello-internet-rss]: http://www.hellointernet.fm/podcast?format=rss
 
-<br style="clear:both;" />
+- - -
 
 ## Music
 
-###[CBC Radio 3][podcast-cbcradio3][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-cbcradio3-rss]
+###[CBC Radio 3][podcast-cbcradio3][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-cbcradio3-rss]
 
 {% img right /images/blog/podcasts/cbcradio3.jpg 200 %}
 It's likely that I'm a bit biased, but this is where I discover new music. I worked
@@ -407,9 +407,9 @@ don't think there are as many shows as there used to be.
 [podcast-cbcradio3]: http://music.cbc.ca/radio3/
 [podcast-cbcradio3-rss]: http://www.cbcradio3.com/podcast/
 
-<br style="clear:both;" />
+- - -
 
-###[Song Exploder][podcast-song-exploder][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-song-exploder-rss]
+###[Song Exploder][podcast-song-exploder][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-song-exploder-rss]
 
 {% img right /images/blog/podcasts/songexploder.png 200 %}
 This show satifies my curiosity about how a song gets made. It also makes me
@@ -419,9 +419,9 @@ you'll learn how to listen to music and grow appreciation for the more subtle el
 [podcast-song-exploder]: http://songexploder.net/
 [podcast-song-exploder-rss]: http://songexploder.libsyn.com/rss
 
-<br style="clear:both;" />
+- - -
 
-###[All Songs Considered][podcast-npr-asc][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-npr-asc-rss]
+###[All Songs Considered][podcast-npr-asc][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-npr-asc-rss]
 
 {% img right /images/blog/podcasts/npr-asc.jpg 200 %}
 A podcast I tend to listen to when I going to sleep. I don't quite keep up with music as much as I should, but I find
@@ -430,7 +430,7 @@ listening to this keeps me somewhat informed of what's going on.
 [podcast-npr-asc]: http://www.npr.org/podcasts/510019/all-songs-considered
 [podcast-npr-asc-rss]: http://www.npr.org/templates/rss/podcast.php?id=510019
 
-<br style="clear:both;" />
+- - -
 
 ## Tech / Programming
 
@@ -438,7 +438,7 @@ As you can see, I don't really listen to any tech/programming podcasts anymore.
 
 ## Language
 
-###[The Allusionist][podcast-allusionist][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-allusionist-rss]
+###[The Allusionist][podcast-allusionist][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-allusionist-rss]
 
 {% img right /images/blog/podcasts/allusionist.png 200 %}
 I could list to Helen Zaltzman speak all day. Her style and sense of humour is wonderful and I find that I learn a lot
@@ -455,9 +455,9 @@ about the origins of the words in my native language.
 [podcast-allusionist]: http://www.theallusionist.org/
 [podcast-allusionist-rss]: http://feeds.theallusionist.org/Allusionist
 
-<br style="clear:both;" />
+- - -
 
-###[Lexicon Valley][podcast-lexvalley][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-lexvalley-rss]
+###[Lexicon Valley][podcast-lexvalley][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-lexvalley-rss]
 
 {% img right /images/blog/podcasts/lexvalley.jpg 200 %}
 Each episode starts with a clue as to what the topic is going to be, and the hosts try to figure it out. They often have
@@ -475,7 +475,7 @@ of humour too.
 [podcast-lexvalley]: http://www.slate.com/articles/podcasts/lexicon_valley.html
 [podcast-lexvalley-rss]: http://feeds.feedburner.com/SlateLexiconValley
 
-<br style="clear:both;" />
+- - -
 
 ## Summary
 
@@ -496,7 +496,7 @@ listening software.
 After a while I find myself changing my podcast listening tastes. Rather than delete them from this post, I'll list
 them here and provide some context as to why I don't listen to them anymore.
 
-###[a16z][podcast-a16z][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-a16z-rss]
+###[a16z][podcast-a16z][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-a16z-rss]
 
 {% img right /images/blog/podcasts/a16z.jpg 200 %}
 Getting into the startup world is not something I'm terribly interested in, but I am critical
@@ -519,9 +519,9 @@ because I realized that I simply did not care about the startup world. Listening
 [podcast-a16z]: http://a16z.com/tag/podcast/
 [podcast-a16z-rss]: http://feeds.soundcloud.com/users/soundcloud:users:62921190/sounds.rss
 
-<br style="clear:both;" />
+- - -
 
-###[StartUp][podcast-startup][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-startup-rss]
+###[StartUp][podcast-startup][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-startup-rss]
 
 {% img right /images/blog/podcasts/startup.png 200 %}
 A podcast about a podcast startup. It mixes so many of my favourite things into one show.
@@ -544,9 +544,9 @@ something I really want more of.
 [alex-blumberg]: https://twitter.com/abexlumberg
 [so-podcast]: http://blog.stackoverflow.com/2008/04/podcast-1/
 
-<br style="clear:both;" />
+- - -
 
-###[Giant Robots Smashing into Other Giant Robots][podcast-giant-robots][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-giant-robots-rss]
+###[Giant Robots Smashing into Other Giant Robots][podcast-giant-robots][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-giant-robots-rss]
 
 {% img right /images/blog/podcasts/giantrobots.jpg 200 %}
 Not quite a technical podcast, but it shares stories from the software development world. I became a fan of
@@ -557,9 +557,9 @@ working with. I'm weaning myself off of tech podcasts so this had to be removed.
 [podcast-giant-robots]: http://podcasts.thoughtbot.com/giantrobots
 [podcast-giant-robots-rss]: http://podcasts.thoughtbot.com/giantrobots.xml
 
-<br style="clear:both;" />
+- - -
 
-###[The Ship Show][podcast-ship-show][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ship-show-rss]
+###[The Ship Show][podcast-ship-show][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ship-show-rss]
 
 {% img right /images/blog/podcasts/shipshow.jpg 200 %}
 Co-started by an old on-line friend of mine, [Youssuf Elkalay][youssuf-elkalay].
@@ -571,9 +571,9 @@ Removed because I'm trying to stay away from technical podcasts.
 [podcast-ship-show]: http://theshipshow.com/
 [podcast-ship-show-rss]: http://theshipshow.com/podcast.xml
 
-<br style="clear:both;" />
+- - -
 
-###[HealthyHacker][podcast-healthyhacker][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-healthyhacker-rss]
+###[HealthyHacker][podcast-healthyhacker][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-healthyhacker-rss]
 
 {% img right /images/blog/podcasts/healthyhacker.png 200 %}
 This one is fairly new and I've already become a fan. [Chris Hunt][chris-hunt]
@@ -593,9 +593,9 @@ because of its technical base.
 [podcast-healthyhacker]: http://www.healthyhacker.com/
 [podcast-healthyhacker-rss]: http://www.healthyhacker.com/feed.xml
 
-<br style="clear:both;" />
+- - -
 
-###[TED Radio Hour][podcast-ted-radio-hour][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-ted-radio-hour-rss]
+###[TED Radio Hour][podcast-ted-radio-hour][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ted-radio-hour-rss]
 
 {% img right /images/blog/podcasts/ted-radio-hour.jpg 200 %}
 Episodes are themed around TED talks of similar topics. It blends interviews with the speakers along with their talks.
@@ -620,9 +620,9 @@ I find this more rich than the talk on its own.
 [podcast-ted-radio-hour]: http://www.npr.org/programs/ted-radio-hour/
 [podcast-ted-radio-hour-rss]: http://www.npr.org/rss/podcast.php?id=510298
 
-<br style="clear:both;" />
+- - -
 
-###[Tapestry][podcast-tapestry][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-tapestry-rss]
+###[Tapestry][podcast-tapestry][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-tapestry-rss]
 
 {% img right /images/blog/podcasts/tapestry.jpg 200 %}
 Getting into the spiritual side a bit. This show talks about culture and religion with an
@@ -639,9 +639,9 @@ show all the time when I lived in Canada. I just recently subscribed to the podc
 [podcast-tapestry]: http://www.cbc.ca/tapestry/index.html
 [podcast-tapestry-rss]: http://www.cbc.ca/podcasting/includes/tapestry.xml
 
-<br style="clear:both;" />
+- - -
 
-###[White Coat Black Art][podcast-white-coat-black-art][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-white-coat-black-art-rss]
+###[White Coat Black Art][podcast-white-coat-black-art][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-white-coat-black-art-rss]
 
 {% img right /images/blog/podcasts/whitecoat.jpg 200 %}
 The health care system is usually a bit of a black box and this show provides some visibility into how things work. Like
@@ -658,9 +658,9 @@ connection back to where I came from.
 [podcast-white-coat-black-art]: http://www.cbc.ca/whitecoat/
 [podcast-white-coat-black-art-rss]: http://www.cbc.ca/podcasting/includes/whitecoat.xml
 
-<br style="clear:both;" />
+- - -
 
-###[Spark][podcast-spark][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-spark-rss]
+###[Spark][podcast-spark][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-spark-rss]
 
 {% img right /images/blog/podcasts/spark.jpg 200 %}
 A Canadian look into the technical world. Always nice to hear a Canadian perspective of what's going on. Hopefully
@@ -669,11 +669,10 @@ because it's created by the CBC, there isn't any product/partner agenda.
 [podcast-spark]: http://www.cbc.ca/spark/index.html
 [podcast-spark-rss]: http://www.cbc.ca/podcasting/includes/spark.xml
 
-<br style="clear:both;" />
-
+- - -
 
 <!-- Podcast Block
-###[Podcast Name][podcast-name][<img src="/images/feed-icon-28x28.png" style="border:none;padding-left:5px;" />][podcast-name-rss]
+###[Podcast Name][podcast-name][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-name-rss]
 
 {% img right /images/blog/podcasts/podcastname.png 200 %}
 
@@ -682,7 +681,6 @@ because it's created by the CBC, there isn't any product/partner agenda.
 [podcast-name]: podcast-website
 [podcast-name-rss]: podcast-rss
 
-<br style="clear:both;" />
+- - -
 -->
-
 
