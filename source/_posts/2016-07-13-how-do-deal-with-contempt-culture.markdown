@@ -45,6 +45,13 @@ find myself absorbing a bit of their attitude and will potentially mimic it.
 
 [contempt-culture]: http://blog.aurynn.com/contempt-culture
 
+A [follow up][on-critizing-languages] brought up an interesting observation about identity. Ever ask someone which
+editor they prefer? I love responding this now saying I'm editor agnostic. Honestly, I do have a preference, but that's
+not relevent for the goals I'm trying to achieve. The goal is to write some software that provides values, right? Value
+can mean many things. You could value the exercise, challenge, or the functionality.
+
+[on-critizing-languages]: http://www.drmaciver.com/2015/12/on-criticizing-programming-languages/
+
 ## Strategies to Handle Individuals
 
 Aurynn's post has a lot of good strategies to handle your own personal contempt, but what I need are ways to handle
