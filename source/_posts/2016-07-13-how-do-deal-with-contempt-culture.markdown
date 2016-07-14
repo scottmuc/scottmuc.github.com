@@ -5,9 +5,18 @@ date: 2016-07-13 18:10:27 -0600
 comments: true
 categories:
 ---
-A few years ago I [left ThoughtWorks][leaving-tw] and was considering leaving IT altogether. After a long break and
-working at a couple more companies I was able to pinpoint some specific behaviours of individuals that really drained
-my energy.
+A few years ago I [left ThoughtWorks][leaving-tw] and was considering leaving IT altogether.
+
+{% blockquote Me http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/ Leaving a Dream Job and Going on an Adventure %}
+Though I’m listing things related to ThoughtWorks, a lot of my weariness is more from IT in general.
+It could be an age thing, but I’ve been around long enough to see a lot of terrible things going on in
+this industry. No one seems to care about security, and the innovation that is making billions in the
+stock market are consumer products that mean almost nothing to me. It’s hard to be optimistic after
+Edward Snowden revealed the NSA privacy issues.
+{% endblockquote %}
+
+After a long break and working at a couple more companies I was able to pinpoint some specific behaviours
+of individuals that really drained my energy.
 
 [leaving-tw]: /leaving-a-dream-job-and-going-on-an-adventure/
 
