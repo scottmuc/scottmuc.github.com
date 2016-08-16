@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Devops | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/devops/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2016-04-27T17:09:02-07:00</updated>
+  <updated>2016-08-16T21:47:21+01:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[What Makes Something a "Devops" Tool?]]></title>
     <link href="http://scottmuc.com/what-makes-something-a-devops-tool/"/>
-    <updated>2014-12-04T20:13:52-08:00</updated>
+    <updated>2014-12-05T04:13:52+00:00</updated>
     <id>http://scottmuc.com/what-makes-something-a-devops-tool</id>
     <content type="html"><![CDATA[<p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
 gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
@@ -98,7 +98,7 @@ the behaviours that it supports.</p>
   <entry>
     <title type="html"><![CDATA[Valuable Links - Devops]]></title>
     <link href="http://scottmuc.com/valuable-links-devops/"/>
-    <updated>2014-02-23T18:17:52-08:00</updated>
+    <updated>2014-02-24T02:17:52+00:00</updated>
     <id>http://scottmuc.com/valuable-links-devops</id>
     <content type="html"><![CDATA[<h2>Valuable Links for Devops</h2>
 

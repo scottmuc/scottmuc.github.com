@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2016-04-27T17:09:02-07:00</updated>
+  <updated>2016-08-16T21:47:21+01:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -14,9 +14,97 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Dealing With Contempt Culture in the Software World]]></title>
+    <link href="http://scottmuc.com/dealing-with-contempt-culture-in-the-software-world/"/>
+    <updated>2016-07-14T01:10:27+01:00</updated>
+    <id>http://scottmuc.com/dealing-with-contempt-culture-in-the-software-world</id>
+    <content type="html"><![CDATA[<p>A few years ago I <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">left ThoughtWorks</a> and was considering leaving IT altogether.</p>
+
+<blockquote><p>Though I’m listing things related to ThoughtWorks, a lot of my weariness is more<br/>from IT in general. It could be an age thing, but I’ve been around long enough to<br/>see a lot of terrible things going on in this industry. No one seems to care about<br/>security, and the innovation that is making billions in the stock market are consumer<br/>products that mean almost nothing to me. It’s hard to be optimistic after Edward<br/>Snowden revealed the NSA privacy issues.</p><footer><strong>Me</strong> <cite><a href='http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/'>Leaving a Dream Job and Going on an Adventure</a></cite></footer></blockquote>
+
+
+<p>After a long break and working at a couple more companies I am able to pinpoint some specific behaviours
+of individuals that have an affect on my work ethic and general work happiness.</p>
+
+<h2>Contempt Culture (in software)</h2>
+
+<p>Recently I read an excellent post about <a href="http://blog.aurynn.com/contempt-culture">Contempt Culture</a>. What resonated so much with me was that I
+remember being that way when I first started my career. I was impressionable and looked up to the veterans that I met at
+conferences that appeared to me as people that knew everything. They&rsquo;ve seen it all. They would speak with such
+authority on all the things and I bought it all. I didn&rsquo;t question, nor probe for reasons.</p>
+
+<p>Nowadays I feel like my attitude is much better (friends, please correct me if I&rsquo;m wrong), but I still have a lot of room
+for improvement. But&hellip; I&rsquo;m now one of those so called veterans I looked up to. I can see how much BS they were spouting
+and how overconfident they were. I don&rsquo;t believe I&rsquo;m a bad developer, in fact I think I have a fairly strong skillset, but
+I definitely don&rsquo;t know as much as I perceived those veterans to know.</p>
+
+<p>Reading the quote from my previous blog post reveals the contempt that I was feeling. Do I still feel the same?
+Sort of, but my energy is more focused on delivering value. It feels like a weight off my shoulders.</p>
+
+<p>Part of me feels that <a href="http://bikeshed.com/">bike shedding</a> and the <a href="http://weblog.raganwald.com/2008/05/narcissism-of-small-code-differences.html">narcissism of small (code) differences</a>
+are linked in some way. I don&rsquo;t have any evidence whatsoever, just something to ponder. It&rsquo;s easier to mock something
+that differs in a trivial way. Anecdotally, I&rsquo;ve heard more criticism fired at Python because of the significance of
+whitespace more than any other parts of the language.</p>
+
+<p>Please watch this discussion titled <a href="https://vimeo.com/3536799">Why So Mean</a> from the Alt.NET Seattle 2009 open space
+conversation. It does show many of the different personalities and perspectives.</p>
+
+<h2>How it Affects Me (and how I deal with it)</h2>
+
+<p>What I&rsquo;ve learnt is that this attitude can suck the energy out of me. When I meet an individual that exhibits these
+behaviours I then have contempt for them! This is just as toxic and I&rsquo;m struggling to deal with it. I rarely engage
+with these people because of the energy it takes out of me. Here are some thoughts that come to my head when I
+hear dismissive comments:</p>
+
+<ul>
+<li>My friend made that! I saw what was there before and they have improved it so much!</li>
+<li>If it&rsquo;s so easy why don&rsquo;t you do it?</li>
+<li>You&rsquo;re wasting energy, can we focus on the problem in front of us?</li>
+<li>You&rsquo;re too stupid to understand the complexity of the problem they are trying to solve.</li>
+<li>If everyone did things the way you think they ought to be done, you think the world would be better?</li>
+</ul>
+
+
+<p>Not so healthy huh? I don&rsquo;t like having these thoughts. They drain me and dampen my motivation. What&rsquo;s worse is that I
+find myself absorbing a bit of their attitude and will potentially mimic it. I don&rsquo;t know why but I get the feeling my
+reaction to this is stronger than others. I wish I could ignore it, but if I could, I clearly wouldn&rsquo;t be writing this
+post.</p>
+
+<h2>Strategies for Handling Contemptuous Individuals</h2>
+
+<p>Aurynn&rsquo;s post has a lot of good strategies to handle your own personal contempt, but what I need are ways to handle
+other individuals. If I don&rsquo;t, I could see myself getting overly frustrated with the industry again.</p>
+
+<p><a href="http://www.drmaciver.com/2015/12/on-criticizing-programming-languages/">This response</a> not only summarizes with a good list on how to deal with your own contempt but
+also brought up an interesting observation about identity. The language, tool, framework
+becomes an identity of sorts. However, that does bring up the point
+categorizing the individual is not healthy. Placing someone in a bucket doesn&rsquo;t move things forward at all.</p>
+
+<ul>
+<li>Assume the person is experiencing imposter syndrome and is mimicing others in the field.</li>
+<li>Ask why they have such a strong reaction. Try and find the root cause of the reaction.</li>
+<li>Redirect the focus to the outcomes. Yes, language X has problems, but look how it is helping Y.</li>
+</ul>
+
+
+<p>A recent EconTalk episode titled <a href="http://www.econtalk.org/archives/2016/08/chuck_klosterma.html">&ldquo;What if We&rsquo;re Wrong&rdquo;</a> discusses in the first 10 minutes around
+the utility around strong statements. Understanding the individual may better lead to why they feel the need to voice
+their disdain so loudly.</p>
+
+<p>Also that contempt culture can take many forms. This year has been full of unhealthy thoughts, but this post is
+intended to speak specifically about the programming industry.</p>
+
+<p>Clearly I need some assistance with this. Please leave a comment with your strategies. Or, if this doesn&rsquo;t bother you
+much, I would love to hear why.</p>
+
+<p><em>This post took 10 pomodoros to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Joining Pivotal Cloud Foundry and Moving to Dublin]]></title>
     <link href="http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin/"/>
-    <updated>2016-02-21T13:45:13-08:00</updated>
+    <updated>2016-02-21T21:45:13+00:00</updated>
     <id>http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/pivotal-office.jpg" width="1024"></p>
 
@@ -109,7 +197,7 @@ Ireland before!</p>
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2016]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2016/"/>
-    <updated>2016-01-01T17:08:42-08:00</updated>
+    <updated>2016-01-02T01:08:42+00:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2016</id>
     <content type="html"><![CDATA[<p>This post almost didn&rsquo;t happen. 2015 holds a lot of dead-air from me in the blogging world, but I&rsquo;m so compelled by my
 routines that I felt that I had to do it! Honouring a self-made routine/tradition is my achilles heel and my biggest
@@ -173,7 +261,7 @@ certainly possible.</p>
   <entry>
     <title type="html"><![CDATA[How to Make Masala Chai]]></title>
     <link href="http://scottmuc.com/how-to-make-masala-chai/"/>
-    <updated>2015-04-26T03:22:50-07:00</updated>
+    <updated>2015-04-26T11:22:50+01:00</updated>
     <id>http://scottmuc.com/how-to-make-masala-chai</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/chai/08-chai.jpg" width="300">
 This is the simplest <a href="https://en.wikipedia.org/wiki/Masala_chai">masala chai</a> recipe I know how to make. Compared to the street side chai you would get in India my
@@ -265,7 +353,7 @@ the pot. It can be hard to make a large batch when the pot is more than &frac34;
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2015]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
-    <updated>2015-01-01T17:08:42-08:00</updated>
+    <updated>2015-01-02T01:08:42+00:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2015</id>
     <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
 the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
@@ -345,7 +433,7 @@ jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s
   <entry>
     <title type="html"><![CDATA[Three Months in India]]></title>
     <link href="http://scottmuc.com/three-months-in-india/"/>
-    <updated>2014-12-15T21:21:47-08:00</updated>
+    <updated>2014-12-16T05:21:47+00:00</updated>
     <id>http://scottmuc.com/three-months-in-india</id>
     <content type="html"><![CDATA[<p><em>September 20th &ndash; December 16th</em></p>
 
@@ -469,7 +557,7 @@ on, but this trip was exactly what I needed/wanted.</p>
   <entry>
     <title type="html"><![CDATA[Why I Like Running]]></title>
     <link href="http://scottmuc.com/why-i-like-running/"/>
-    <updated>2014-12-09T21:09:27-08:00</updated>
+    <updated>2014-12-10T05:09:27+00:00</updated>
     <id>http://scottmuc.com/why-i-like-running</id>
     <content type="html"><![CDATA[<p><a href="http://instagram.com/p/LepNTRLlIB/"><img class="center" src="http://scottmuc.com/images/blog/running/venice.jpg" width="700"></a></p>
 
@@ -565,7 +653,7 @@ who egged me on to join a trail run series. If you wish to give me encouragement
   <entry>
     <title type="html"><![CDATA[What Makes Something a "Devops" Tool?]]></title>
     <link href="http://scottmuc.com/what-makes-something-a-devops-tool/"/>
-    <updated>2014-12-04T20:13:52-08:00</updated>
+    <updated>2014-12-05T04:13:52+00:00</updated>
     <id>http://scottmuc.com/what-makes-something-a-devops-tool</id>
     <content type="html"><![CDATA[<p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
 gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
@@ -647,7 +735,7 @@ the behaviours that it supports.</p>
   <entry>
     <title type="html"><![CDATA[Joining SoundCloud and Moving to Berlin]]></title>
     <link href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/"/>
-    <updated>2014-11-05T05:09:37-08:00</updated>
+    <updated>2014-11-05T13:09:37+00:00</updated>
     <id>http://scottmuc.com/joining-soundcloud-and-moving-to-berlin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/career-break/berlin-reichstag.medium.jpg" width="900"></p>
 
@@ -822,7 +910,7 @@ Keep an eye here for my next steps 5 years from now. Wish me luck!</p>
   <entry>
     <title type="html"><![CDATA[Siófok/Tihany, Italian Grand Prix, and Istanbul]]></title>
     <link href="http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul/"/>
-    <updated>2014-11-02T01:48:21-07:00</updated>
+    <updated>2014-11-02T08:48:21+00:00</updated>
     <id>http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul</id>
     <content type="html"><![CDATA[<p><em>August 30th &ndash; September 19</em></p>
 
@@ -968,7 +1056,7 @@ with friends, and get re-invigorated about software development.</p>
   <entry>
     <title type="html"><![CDATA[Book Review - a Mind for Numbers by Barbara Oakley]]></title>
     <link href="http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley/"/>
-    <updated>2014-10-26T01:05:53-07:00</updated>
+    <updated>2014-10-26T08:05:53+00:00</updated>
     <id>http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley</id>
     <content type="html"><![CDATA[<p><a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245"><img class="left" src="http://scottmuc.com/images/blog/l2l/book.jpg" width="200"></a>
 Over the last 4 weeks I&rsquo;ve been taking the <a href="https://www.coursera.org/">Coursera</a> course <a href="https://www.coursera.org/course/learning">Learning how to Learn</a> on the
@@ -1107,7 +1195,7 @@ boxing to focus on his craft.</li>
   <entry>
     <title type="html"><![CDATA[Valuable Links - Podcasts]]></title>
     <link href="http://scottmuc.com/valuable-links-podcasts/"/>
-    <updated>2014-10-15T23:29:46-07:00</updated>
+    <updated>2014-10-16T07:29:46+01:00</updated>
     <id>http://scottmuc.com/valuable-links-podcasts</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/podcast.jpg" width="300">
 It&rsquo;s quite surprising that I haven&rsquo;t really brought up the topic of <a href="https://en.wikipedia.org/wiki/Podcast">podcasts</a> on my blog considering that
@@ -1696,7 +1784,7 @@ because it&rsquo;s created by the CBC, there isn&rsquo;t any product/partner age
   <entry>
     <title type="html"><![CDATA[Book Review - Learning Continuous Integration With TeamCity by Manoj Mahalingam]]></title>
     <link href="http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/"/>
-    <updated>2014-10-13T05:04:30-07:00</updated>
+    <updated>2014-10-13T13:04:30+01:00</updated>
     <id>http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam</id>
     <content type="html"><![CDATA[<p><strong>Disclaimer</strong> &ndash; I personally know Manoj and have worked with him in the past. I was asked to review his book,
 <a href="http://goo.gl/5wUy3v">Learning Continuous Integration with TeamCity</a>, by <a href="https://www.packtpub.com/">Packt Publishing</a>.</p>
@@ -1739,7 +1827,7 @@ new with TeamCity and some context of the usage of TeamCity specific features.</
   <entry>
     <title type="html"><![CDATA[Visiting the Motherland - Ukraine]]></title>
     <link href="http://scottmuc.com/visiting-the-motherland-ukraine/"/>
-    <updated>2014-10-06T07:31:12-07:00</updated>
+    <updated>2014-10-06T15:31:12+01:00</updated>
     <id>http://scottmuc.com/visiting-the-motherland-ukraine</id>
     <content type="html"><![CDATA[<p><em>August 17th &ndash; August 29th</em></p>
 
@@ -1918,7 +2006,7 @@ of these uncontrollable events (on my part), I’ve been afforded so many luxuri
   <entry>
     <title type="html"><![CDATA[Rome, Switzerland, and Vienna]]></title>
     <link href="http://scottmuc.com/rome-switzerland-and-vienna/"/>
-    <updated>2014-08-13T05:09:31-07:00</updated>
+    <updated>2014-08-13T13:09:31+01:00</updated>
     <id>http://scottmuc.com/rome-switzerland-and-vienna</id>
     <content type="html"><![CDATA[<p><em>July 30th &ndash; August 17th</em></p>
 
@@ -2061,7 +2149,7 @@ down and I took the metro back to the apartment and hung out in the flat with Ro
   <entry>
     <title type="html"><![CDATA[Growing an Open Source Project: The Pester Story]]></title>
     <link href="http://scottmuc.com/growing-an-open-source-project-the-pester-story/"/>
-    <updated>2014-08-07T08:50:58-07:00</updated>
+    <updated>2014-08-07T16:50:58+01:00</updated>
     <id>http://scottmuc.com/growing-an-open-source-project-the-pester-story</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/pester/Pester"><img src="http://scottmuc.com/images/blog/github-pester.png"></a></p>
 
@@ -2170,7 +2258,7 @@ Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent
   <entry>
     <title type="html"><![CDATA[Prague, Budapest, and the Hungarian Grand Prix]]></title>
     <link href="http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix/"/>
-    <updated>2014-08-04T05:23:50-07:00</updated>
+    <updated>2014-08-04T13:23:50+01:00</updated>
     <id>http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 22nd &ndash; July 29th</em></p>
 
@@ -2296,7 +2384,7 @@ next destination, Rome.</p>
   <entry>
     <title type="html"><![CDATA[Glasgow, Berlin, Heidelberg and the German Grand Prix]]></title>
     <link href="http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix/"/>
-    <updated>2014-07-21T05:44:37-07:00</updated>
+    <updated>2014-07-21T13:44:37+01:00</updated>
     <id>http://scottmuc.com/glasgow-berlin-heidelberg-and-the-german-grand-prix</id>
     <content type="html"><![CDATA[<p><em>July 7th &ndash; July 21st</em></p>
 
@@ -2415,7 +2503,7 @@ the awards ceremony!</p>
   <entry>
     <title type="html"><![CDATA[Belgium, France, London and the British Grand Prix]]></title>
     <link href="http://scottmuc.com/belgium-france-london-and-the-british-grand-prix/"/>
-    <updated>2014-07-08T05:42:19-07:00</updated>
+    <updated>2014-07-08T13:42:19+01:00</updated>
     <id>http://scottmuc.com/belgium-france-london-and-the-british-grand-prix</id>
     <content type="html"><![CDATA[<p><em>June 24th &ndash; July 7th</em></p>
 
@@ -2563,7 +2651,7 @@ enough. I was going to write about my learnings over the last few weeks, but wil
   <entry>
     <title type="html"><![CDATA[Crossing the Atlantic via Container Ship]]></title>
     <link href="http://scottmuc.com/crossing-the-atlantic-via-container-ship/"/>
-    <updated>2014-06-23T21:02:51-07:00</updated>
+    <updated>2014-06-24T05:02:51+01:00</updated>
     <id>http://scottmuc.com/crossing-the-atlantic-via-container-ship</id>
     <content type="html"><![CDATA[<p>As I mentioned in my <a href="http://scottmuc.com/leaving-vancouver-and-north-america/">last post</a>, I finished the crossing of the Atlantic ocean via container ship. It was a great
 experiene that I&rsquo;ll happily do again. 11 days wasn&rsquo;t enough, and would be happy to spend a month next time around.</p>
@@ -2630,74 +2718,6 @@ then, I turn off all notifications and keep it silent.</p>
 <p>After a 140 euro ride through immigration and into Antwerp, I can begin the next phase of my journey!</p>
 
 <p><strong>Update</strong> I was later interviewed by the BBC and the video is <a href="http://www.bbc.com/travel/feature/20140908-taking-cruises-by-way-of-cargo-ship">online</a> now.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Leaving Vancouver and North America]]></title>
-    <link href="http://scottmuc.com/leaving-vancouver-and-north-america/"/>
-    <updated>2014-06-13T06:10:36-07:00</updated>
-    <id>http://scottmuc.com/leaving-vancouver-and-north-america</id>
-    <content type="html"><![CDATA[<p>After another relaxing two weeks in Vancouver (and attending <a href="http://www.sasquatchfestival.com/">Sasquatch</a>), it&rsquo;s time to leave. Here&rsquo;s the
-last sunset I watched from the beach. If you can believe it, the weather in Vancouver was 99% rain free!</p>
-
-<p><img class="center" src="http://scottmuc.com/images/blog/kits-sunset.jpg"></p>
-
-<h3>Schools Out for Summer</h3>
-
-<p>During my downtime I&rsquo;ve enrolled in the <a href="https://www.coursera.org/course/money">Economics of Banking and Money</a> on <a href="https://www.coursera.org">Coursera</a>. I never
-thought I would find learning this stuff so much fun! To supplement the course material, I&rsquo;ve been listening to the
-following podcasts too:</p>
-
-<ul>
-<li><a href="http://www.econtalk.org/">EconTalk</a></li>
-<li><a href="http://www.npr.org/blogs/money/">Planet Money</a></li>
-<li><a href="http://freakonomics.com/radio/">Freakanomics Radio</a></li>
-</ul>
-
-
-<p>This is the first <a href="https://en.wikipedia.org/wiki/Massive_open_online_course">MOOC</a> I&rsquo;ve taken and I really enjoy the format. It could be the fact that I&rsquo;m older and have
-already been established in a career for a while that my approach to learning is different. School always seemed to be
-about grades to me growing up. With this course, I&rsquo;m more focused on learning and developing an intuition for the
-subject.</p>
-
-<p>From this course I&rsquo;ve learned that the banking and money system is a lot more complicated than I thought. I also now
-feel that the system itself isn&rsquo;t altogether evil, it&rsquo;s just trying to facilitate trade the best that it can. I&rsquo;m still
-not confident in my ability to summarize what I&rsquo;ve learnt so far, but I think I&rsquo;m going to come out of this much more
-empowered.</p>
-
-<h3>Ship Happens</h3>
-
-<p>Today I finally start my voyage on a container ship! You can track where I am on this <a href="http://www.marinetraffic.com/ais/details/ships/636091353/vessel:INDEPENDENT_ACCORD">Facebook for ships</a>
-website. If you search for the name &ldquo;Independent Accord&rdquo; in your favourite online search website
-you&rsquo;ll see there are dozens of websites that have databases of ships. The websites are pretty well done too. I had no
-idea this shipping world can be so interesting. I&rsquo;m sure the captain and crew are going to be sick of my questions over
-the next 11 days.</p>
-
-<p>If you&rsquo;re interested, <a href="http://www.cruisepeople.co.uk/">here&rsquo;s</a> that I booked my travel through. If you&rsquo;re nostalgic for the 90&rsquo;s you&rsquo;ll
-enjoy it a lot.</p>
-
-<h3>Map Reduce</h3>
-
-<p>Since I have all this time on my hands, I&rsquo;ve started journalling the places that I&rsquo;m staying (and coffee shops I leech
-Internet off of) in this <a href="https://mapsengine.google.com/map/edit?mid=znoHAqfzfPKU.k2lUp8fKHDCg">online map</a>. It&rsquo;s work in progress and will be fleshed out more as I go.</p>
-
-<h3>Back to Life, Back to Reality</h3>
-
-<p>One question I&rsquo;ve been getting asked frequently is &ldquo;when are you coming back to reality?&rdquo;. I find it an odd question.
-This is reality. There&rsquo;s nothing to get back to (unless I could travel in time). Sure, I&rsquo;ll be figuring out what to do
-work wise. Not sure how that&rsquo;s coming &ldquo;back&rdquo; to reality though. I think we&rsquo;re living in an era where social norms are
-shifting all over the place. Hopes and aspirations appear to be more varied than before. One persons normality is
-another persons exceptionality. So when I hear this question my interpretation is &ldquo;when are you coming back to the
-lifestyle of yours that I consider normal?&rdquo;.</p>
-
-<h3>Summary</h3>
-
-<p>I&rsquo;m starting to feel the career break settling in. I&rsquo;ve slowed things down a lot. My favourite thing to do now is leave
-my phone behind and go for a wander. Writing blog posts like this is much more fulfilling than a series of micro-blogs
-(aka tweets) that lack context, albeit they are more timely.</p>
-
-<p>See you on the other side!</p>
 ]]></content>
   </entry>
   
