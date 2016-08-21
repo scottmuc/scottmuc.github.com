@@ -6,6 +6,19 @@ comments: true
 categories:
   - links
   - podcasts
+
+blog-post-template: |
+  ###[Podcast Name][podcast-name][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-name-rss]
+
+  {% img right /images/blog/podcasts/podcastname.png 200 %}
+
+  **Favourites:**
+
+  [podcast-name]: podcast-website
+  [podcast-name-rss]: podcast-rss
+
+  - - -
+
 ---
 {% img right /images/blog/podcasts/podcast.jpg 300 %}
 It's quite surprising that I haven't really brought up the topic of [podcasts][podcast-wiki] on my blog considering that
@@ -670,17 +683,3 @@ because it's created by the CBC, there isn't any product/partner agenda.
 [podcast-spark-rss]: http://www.cbc.ca/podcasting/includes/spark.xml
 
 - - -
-
-<!-- Podcast Block
-###[Podcast Name][podcast-name][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-name-rss]
-
-{% img right /images/blog/podcasts/podcastname.png 200 %}
-
-**Favourites:**
-
-[podcast-name]: podcast-website
-[podcast-name-rss]: podcast-rss
-
-- - -
--->
-
