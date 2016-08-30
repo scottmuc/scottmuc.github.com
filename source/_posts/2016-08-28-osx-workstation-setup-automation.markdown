@@ -6,8 +6,6 @@ comments: true
 categories:
 ---
 
-TODO insert picture of desktop after fresh install???
-
 ## Objective
 
 IT infrastructure has gone done a long journey of automating all of the things. We have automate deployments, production
@@ -66,21 +64,49 @@ repository. Though, I'll probably copy this information into my own repository f
 ## There's No Place Like Home
 
 While I like where he went with it, but it missed a few things that I liked that **sprout**
-offered. I did have a full **sprout** way of setting up my machine that was inspired by [Gary Bernhardt's][bernhardt-setup]
-where his home directory is a repository.
+offered. I did have a full **sprout** way of setting up my machine that was inspired by
+[Gary Bernhardt's][bernhardt-setup] where his home directory is a repository.
 
-I've found that many people have `dotfile` repositories that get installed by their scripting. Cloning straight into
-home removes a lot of moving parts.
+I've found that many people have `dotfile` repositories that get installed by their scripting. This adds a level of
+complexity and absraction that is not really necessary. Cloning straight into home removes a lot of moving parts.
+All of the sudden all the abstractions and scripts that go into setting up your home directory disappear. 
+If you can successfully transform home into a repository you have a simple and easy way of maintaining dot files,
+and scripts to support your day-to-day activities. You've essentially already completed the first
+step in getting your machine setup. Also, because it's a repository, when you delete a file, it goes away.
+It's inherently an idempotent system!
 
 [bernhardt-setup]: https://github.com/garybernhardt/dotfiles
 
-## Key Management
+## Keys and Secrets Management
 
 Since this way of setting up your machine depends on being able to clone git repositories as a first step, it means that
 you're going to need to have your keys. For this, I follow Tammer Saleh's excellent post on
 [building an encrypted usb drive for your keys][tammer-usb].
 
+Every other secret goes into 1Password. At work we use LastPass and are able to integrate it into our scripting by
+running commands like `eval "$(lpass show 'Awesome/aws-secrets' --notes)"`. This way secrets are never recorded on disk in
+their unencryped form.
+
 [tammer-usb]: http://tammersaleh.com/posts/building-an-encrypted-usb-drive-for-your-ssh-keys-in-os-x/
+
+## What Could Possibly Go Wrong
+
+Workstation automation can be extremely flaky and that's due to the nature of it fetching dependencies from all sorts
+of locations. This drives home the reason for needing to run this frequently. I can pretty much guarantee that the code
+that worked a month ago will work today. Packages change name, or download locations change. This can result in a lot of
+mistrust of the automation. This leads to the following...
+
+## Duplication is OK
+
+Choosing when to vendor something is an important decision to make around construction your setup. The more you vendor,
+the more reproducable your automation will be. The more you vendor, the harder it is to keep up to date with changes.
+
+Something that took me a while to come to terms with is the amount of duplication in the world. There does not exist one
+true workstation to rule them all, but it is important to figure out what level of "sameness" is needed for your
+development needs. I have my personal workstation automation, but I also work with a team-wide system for workstation
+automation. I believe the team level is the largest group you can realistically manage without creating something too
+complex of manage. Your automation is going to be a somewhat handcrafted piece of art, but it's going to be a simple piece
+of art (hopefully). 
 
 ## Summary
 
@@ -91,4 +117,4 @@ working on this kind of stuff. There are a lot of moving parts and it'll only pr
 
 [gerhards-setup]: https://github.com/gerhard/setup
 
-*This post took 3 pomodoros to complete*
+*This post took 4 pomodoros to complete*
