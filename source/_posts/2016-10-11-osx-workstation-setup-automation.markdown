@@ -33,19 +33,6 @@ There are plenty of [tools](#existing-tools) that help with this process. What I
 approach, but I hope the simplicity of it will be attractive to those who have struggled trying to get other frameworks
 to work.
 
-## Starting From Scratch
-
-Technically you cannot start from scratch because you need at least an existing OSX machine to create the installer USB
-stick. To do this, I followed the instructions on Brooke Kuhlmann's [workstation automation][bkuhlmann-setup]\*
-repository. Though, I'll probably copy this information into my own repository for reasons I'll explain later.
-
-When following this process, I reformat the machines disk with an encrypted volume and always create my new machine with
-a different username (to ensure my automation doesn't make too many assumptions on pathes).
-
-\* *Similar steps worked just recently for macOS Sierra*
-
-[bkuhlmann-setup]: https://github.com/bkuhlmann/osx#os-x-el-capitan
-
 ## There's No Place Like Home
 
 {% img center /images/blog/gh-dotfiles.png %}
@@ -133,8 +120,8 @@ Gerhard's, a colleague of mine.
     bit more complexity than is really necessary.
 
     [Sam Gibson][sams-homepage] wrote a [great article][sams-setup] about this using [Babushka][babushka]. He believed the
-    above styles are too complex and strived to find a simpler solution. I like it, but I felt that it could go a bit
-    further.
+    above styles are too complex and strived to find a simpler solution. I like it, but I felt that it could be
+    simplified further.
 
     [Gerhard Lazu's][gerhards-setup] workstation setup. He replaced **sprout** with a collection to
     shell scripts that I may be tempted to migrate towards. But one thing at a time; that's an important principle around
@@ -143,6 +130,16 @@ Gerhard's, a colleague of mine.
 2. You are probably going to want to update your automation. In order to be able to push your changes you'll need to
    have your keys. For this, I follow Tammer Saleh's excellent post on [building an encrypted usb drive for your keys][tammer-usb].
 
+3. Technically you cannot start from scratch because you need at least an existing OSX machine to create the installer USB
+   stick. To do this, I followed the instructions on Brooke Kuhlmann's [workstation automation][bkuhlmann-setup]\*
+   repository. Though, I'll probably copy this information into my own repository for reasons I'll explain later.
+
+   When following this process, I reformat the machines disk with an encrypted volume and always create my new machine with
+   a different username (to ensure my automation doesn't make too many assumptions on pathes).
+
+   \* *Similar steps worked just recently for macOS Sierra*
+
+[bkuhlmann-setup]: https://github.com/bkuhlmann/osx#os-x-el-capitan
 [tammer-usb]: http://tammersaleh.com/posts/building-an-encrypted-usb-drive-for-your-ssh-keys-in-os-x/
 [sams-setup]: https://www.thoughtworks.com/p2magazine/issue08/babushka/
 [sams-homepage]: http://www.ifdown.net/
