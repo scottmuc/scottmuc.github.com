@@ -14,9 +14,8 @@ workstation under source control, and this strategy may destroy the machine you 
 ## Objective
 
 IT infrastructure has gone done a long journey of automating all of the things. We have automated deployments, production
-environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes.
-
-The developer workstation is another story. Often, the developer workstation is a finely crafted machine. Just like
+environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes. The
+developer workstation is another story. Often, the developer workstation is a finely crafted machine. Just like
 production, your workstation should be treated like a [hotel room][phil-cattle-vs-pets] rather than an owned residence.
 
 [phil-cattle-vs-pets]: https://twitter.com/pcalcado/status/759218156493795329
@@ -24,14 +23,21 @@ production, your workstation should be treated like a [hotel room][phil-cattle-v
 ## My Workstation
 
 Why bother with this for my personal machine? It serves as a good disaster recovery method. Using this automation for
-the last several years (and several laptops + multiple laptop repaves) has given me a lot of confidence that I know what
+the last several years (several laptops + multiple laptop repaves) has given me a lot of confidence that I know what
 is required to get my machine ready.
-
-## Existing Tools
 
 There are plenty of [tools](#existing-tools) that help with this process. What I am going to describe is yet another
 approach, but I hope the simplicity of it will be attractive to those who have struggled trying to get other frameworks
 to work.
+
+With this automation, you get the following:
+
+* [Dot files](#dot-files)
+* [`~/bin`](#home-bin)
+* [Directory skeleton](#home-skeleton)
+* [Homebrew automation](#homebrew)
+* [Awkward OSX settings configuration](#osx-settings)
+* [OSX software updates]((#software-updates)
 
 ## There's No Place Like Home
 
@@ -375,5 +381,5 @@ Since softwareupdate ran recently, not going to do anything
 remove /Users/merry/.softwareupdate_indicator to force an update
 ```
 
-*This post took 8 pomodoros to complete (more than enough time to setup a laptop from scratch)*
+*This post took 9 pomodoros to complete (more time than it takes to setup a laptop from scratch)*
 
