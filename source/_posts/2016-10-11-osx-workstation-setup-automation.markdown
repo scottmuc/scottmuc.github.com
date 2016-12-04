@@ -29,7 +29,9 @@ is required to get my machine ready.
 
 ## Existing Tools
 
-There are plenty of tools that help with this process. NEEDS LINK TO APPENDIX
+There are plenty of [tools](#existing-tools) that help with this process. What I am going to describe is yet another
+approach, but I hope the simplicity of it will be attractive to those who have struggled trying to get other frameworks
+to work.
 
 ## Starting From Scratch
 
@@ -120,23 +122,23 @@ colleague of mine.
 
 ## Appendix
 
-1. Existing tools
-  * [Sprout][sprout-wrap] - Intially this was called `pivotal_workstation` but transformed into a slightly more
-    configurable and modular system. It uses `chef` under the covers and is quite comprehensive.
-  * [Boxen][boxen] - Created by GitHub, this tool uses `puppet` under the covers.
-  * [osxc][osxc] - Not sure where it was born from, but it uses `ansible` underneath.
+1. <span id="existing-tools">**Existing tools**</span>
+    * [Sprout][sprout-wrap] - Intially this was called `pivotal_workstation` but transformed into a slightly more
+      configurable and modular system. It uses `chef` under the covers and is quite comprehensive.
+    * [Boxen][boxen] - Created by GitHub, this tool uses `puppet` under the covers.
+    * [osxc][osxc] - Not sure where it was born from, but it uses `ansible` underneath.
 
-  All three of these strive for the same thing, but use different engines. It probably makes sense to use whichever one
-  uses the Configuration Management tool you're most comfortable with. The problem though, is that these tools may add a
-  bit more complexity than is really necessary.
+    All three of these strive for the same thing, but use different engines. It probably makes sense to use whichever one
+    uses the Configuration Management tool you're most comfortable with. The problem though, is that these tools may add a
+    bit more complexity than is really necessary.
 
-  [Sam Gibson][sams-homepage] wrote a [great article][sams-setup] about this using [Babushka][babushka]. He believed the
-  above styles are too complex and strived to find a simpler solution. I like it, but I felt that it could go a bit
-  further.
+    [Sam Gibson][sams-homepage] wrote a [great article][sams-setup] about this using [Babushka][babushka]. He believed the
+    above styles are too complex and strived to find a simpler solution. I like it, but I felt that it could go a bit
+    further.
 
-  [Gerhard Lazu's][gerhards-setup] workstation setup. He replaced **sprout** with a collection to
-  shell scripts that I may be tempted to migrate towards. But one thing at a time; that's an important principle around
-  working on this kind of stuff. There are a lot of moving parts and it'll only prove itself out over time.
+    [Gerhard Lazu's][gerhards-setup] workstation setup. He replaced **sprout** with a collection to
+    shell scripts that I may be tempted to migrate towards. But one thing at a time; that's an important principle around
+    working on this kind of stuff. There are a lot of moving parts and it'll only prove itself out over time.
 
 [sams-setup]: https://www.thoughtworks.com/p2magazine/issue08/babushka/
 [sams-homepage]: http://www.ifdown.net/
