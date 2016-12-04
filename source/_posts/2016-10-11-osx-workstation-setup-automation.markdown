@@ -18,21 +18,14 @@ environments, and regression testing. We can make an API request to Amazon and g
 
 The developer workstation is another story. Often, the developer workstation is a finely crafted machine. Just like
 production, your workstation should be treated like a [hotel room][phil-cattle-vs-pets] rather than an owned residence.
-The potential problems can manifest themselves as the follwoing:
-
-* Onboarding a new employee takes too long. How long is too long? For me a new developer should be able to go from an
-  unboxed machine to a successful build in less than a day within a reasonable number of manual steps.
-* Lot's of cruft builds over time leaving to things working (or breaking) without much indication as to why. Things like
-  out of date tools like `vagrant` or `docker`.
-* The machine starts off well, but as changes are introduced, newer machines never receive these changes.
 
 [phil-cattle-vs-pets]: https://twitter.com/pcalcado/status/759218156493795329
 
 ## My Workstation
 
-Some of what I'm discussing here is in a professional work context, but I find this automation valuable for my personal
-machines too. Being able to recreate my machine on a regular basis gives me faith that I can replicate this environment
-if needed.
+Why bother with this for my personal machine? It serves as a good disaster recovery method. Using this automation for
+the last several years (and several laptops + multiple laptop repaves) has given me a lot of confidence that I know what
+is required to get my machine ready.
 
 ## Existing Tools
 
