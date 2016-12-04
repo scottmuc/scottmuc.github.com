@@ -6,6 +6,11 @@ comments: true
 categories:
 ---
 
+**DISCLAIMER**
+
+**Try out at your own trisk. This setup is not meant to be copy+paste reusable. It's about keeping MY
+workstation under source control, and this strategy may destroy the machine you wish to attempt this on.**
+
 ## Objective
 
 IT infrastructure has gone done a long journey of automating all of the things. We have automated deployments, production
