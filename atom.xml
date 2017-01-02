@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2016-08-21T11:28:29+01:00</updated>
+  <updated>2017-01-02T15:04:53+00:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,672 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Resolutions for 2017]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2017/"/>
+    <updated>2017-01-02T13:07:40+00:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2017</id>
+    <content type="html"><![CDATA[<p>2016 was the first time I accomplished my goal!</p>
+
+<h2>Reflections on <a href="http://scottmuc.com/my-resolutions-for-2016/">2016</a></h2>
+
+<ul>
+<li><strong>Write in a Journal</strong> &ndash; This one I am marking as a success.  Here are the (manually) calculated stats:</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Jan 9
+</span><span class='line'>Feb 3
+</span><span class='line'>Mar 12
+</span><span class='line'>Apr 9
+</span><span class='line'>May 15
+</span><span class='line'>Jun 9
+</span><span class='line'>Jul 13
+</span><span class='line'>Aug 14
+</span><span class='line'>Sep 12
+</span><span class='line'>Oct 14
+</span><span class='line'>Nov 9
+</span><span class='line'>Dec 12</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I wrote <strong>143</strong> journal entries over the course of 2016.  After counting them all up there are far fewer than I thought,
+but the frequency is actually more consistent than I thought. I had imagined I had more months that only had a couple
+entries. I see this as my first step in writing more and hopefully bringing it to this website. Seeing that my
+journalling actually increased by the end of the year makes me really happy. I&rsquo;m going to continue this in 2017 for
+sure.</p>
+
+<h2>Goal for 2017:</h2>
+
+<p>In the spirit of keeping my goal(s) simple and achievable I&rsquo;m going to stick to a similar strategy as 2016.</p>
+
+<h3>Perform 1 Perfect Pullup</h3>
+
+<p>It&rsquo;s been many years since I&rsquo;ve been able to do a pullup. My body finally feels recovered from my previous injuries, but
+it&rsquo;s certainly weaker than it&rsquo;s ever been. My <a href="http://scottmuc.com/health/">health dashboard</a> has already helped me reach a gym
+going habit, but now I need to direct this routine to a different end. I cannot do the physical things I used to because
+I&rsquo;ve gotten so out of shape and my previous focus on running put too much pressure on my weak body.</p>
+
+<h3>Summary</h3>
+
+<p>As I grow older, the length of a year seems much shorter. I wonder if my previous <a href="http://scottmuc.com/yearly-goals/">goals</a> were a result of not
+acknowledging how much I can possibly do in that time frame.</p>
+
+<p><em>This post took 1 pomodoro to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OSX Workstation Setup Automation]]></title>
+    <link href="http://scottmuc.com/osx-workstation-setup-automation/"/>
+    <updated>2016-10-11T15:45:48+01:00</updated>
+    <id>http://scottmuc.com/osx-workstation-setup-automation</id>
+    <content type="html"><![CDATA[<p><strong>DISCLAIMER</strong></p>
+
+<p><strong>Try out at your own trisk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
+workstation under source control, and this strategy may destroy the machine you wish to attempt this on.</strong></p>
+
+<h2>Objective</h2>
+
+<p>IT infrastructure has gone done a long journey of automating all of the things. We have automated deployments, production
+environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes. The
+developer workstation is another story. Often, the developer workstation is a finely crafted machine. Just like
+production, your workstation should be treated like a <a href="https://twitter.com/pcalcado/status/759218156493795329">hotel room</a> rather than an owned residence.</p>
+
+<h2>My Workstation</h2>
+
+<p>Why bother with this for my personal machine? It serves as a good disaster recovery method. Using this automation for
+the last several years (several laptops + multiple laptop repaves) has given me a lot of confidence that I know what
+is required to get my machine ready.</p>
+
+<p>There are plenty of <a href="#existing-tools">tools</a> that help with this process. What I am going to describe is yet another
+approach, but I hope the simplicity of it will be attractive to those who have struggled trying to get other frameworks
+to work.</p>
+
+<p>With this automation, you get the following:</p>
+
+<ul>
+<li><a href="#dot-files">Dot files</a></li>
+<li><a href="#home-bin"><code>~/bin</code></a></li>
+<li><a href="#home-skeleton">Directory skeleton</a></li>
+<li><a href="#homebrew">Homebrew automation</a></li>
+<li><a href="#osx-settings">Awkward OSX settings configuration</a></li>
+<li><a href="(#software-updates">OSX software updates</a></li>
+</ul>
+
+
+<h2>There&rsquo;s No Place Like Home</h2>
+
+<p><img class="center" src="http://scottmuc.com/images/blog/gh-dotfiles.png"></p>
+
+<p>I&rsquo;ve found that many people have <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=dotfiles">dotfile repositories</a> that get installed by their scripting. This adds
+a level of complexity and absraction that is not really necessary. Cloning straight into home removes a lot of moving parts.
+All of the sudden all the abstractions and scripts that go into setting up your home directory disappear.
+If you can successfully transform home into a repository you have a simple and easy way of maintaining dot files,
+and scripts to support your day-to-day activities. You&rsquo;ve essentially already completed the first
+step in getting your machine setup. Also, because it&rsquo;s a repository, when you delete a file, it goes away.
+It&rsquo;s inherently an idempotent system!</p>
+
+<p>One type of complexity that comes with using re-usable components is that there&rsquo;s almost always a shim that allows you
+add your own customisations. For my personal machine, this is quite unneccessary and I want to minimize the number of
+mechanisms used to actually configure my machine.</p>
+
+<p>Rather than adding a <code>bash</code> plugin manager, I favour adding scripts to <code>~/bin</code> (which is added to <code>PATH</code>). This keeps
+the dependency on <code>bash</code> quite small and hence leaves the <code>.bashrc</code> pretty lean.</p>
+
+<p>So this is why <a href="https://github.com/scottmuc/osx-homedir/">my workstation automation</a> is cloned straight into <code>$HOME</code> on a fresh machine:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># Assuming my keys are loaded using the process described in the next section
+</span><span class='line'>sudo xcodebuild -license
+</span><span class='line'>git init
+</span><span class='line'>git remote add origin git@github.com:scottmuc/osx-homedir.git
+</span><span class='line'>git fetch --all
+</span><span class='line'>git checkout master
+</span><span class='line'>bin/coalesce_this_machine</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Awkward OSX Settings</h2>
+
+<p>My previous iteration of this automation was 100% <code>sprout</code> based. If you look <a href="https://github.com/scottmuc/osx-homedir/blob/9e9c6bee3e24b481c06ba0cfaffdb0e3b6ac93ff/bin/coalesce_this_machine#L14-L21">closely</a> you will see that this
+automation still invokes <code>sprout</code>. I&rsquo;ve gone the route of using <code>sprout</code> as a collection of OSX configurations. I could
+maintain some of these as shell scripts, but I feel ok having this additional complexity and added dependency.</p>
+
+<h2>What Could Possibly Go Wrong</h2>
+
+<p>Workstation automation can be extremely flaky and that&rsquo;s due to the nature of it fetching dependencies from all sorts
+of locations. This drives home the reason for needing to run it frequently. I can pretty much guarantee that the code
+that worked a month ago will not work today. Packages change name, or download locations change. This can result in a
+lot of mistrust of the automation. This leads to the following&hellip;</p>
+
+<h2>Duplication is OK</h2>
+
+<p>Choosing when to vendor something is an important decision to make around construction your setup. The more you vendor,
+the more reproducable your automation will be. The more you vendor, the harder it is to keep up to date with changes.</p>
+
+<p>Something that took me a while to come to terms with is the amount of duplication that will exist. There does not exist
+one true workstation to rule them all, but it is important to figure out what level of &ldquo;sameness&rdquo; is needed for your
+development needs. I have my personal workstation automation, but I also work with a team-wide system for workstation
+automation. I believe the team level is the largest group you can realistically manage without creating something too
+complex of manage. Your automation is going to be a somewhat handcrafted piece of art, but it&rsquo;s going to be a simple piece
+of art (hopefully).</p>
+
+<p>The <a href="https://github.com/bkuhlmann/osx#os-x-el-capitan">OSX installer</a> steps is something I&rsquo;d be willing to copy and paste into my own repository. The <code>vim</code>
+<a href="https://github.com/scottmuc/osx-homedir/blob/master/.vim/autoload/pathogen.vim">pathogen</a> plugin manager is vendored as are the plugins (albeit as submodules, which means they could still
+fail).</p>
+
+<h2>Summary</h2>
+
+<p>In the end, I have a setup I&rsquo;m relatively happy with. It turns out that my implementation looks oddly similar to
+Gerhard&rsquo;s, a colleague of mine.</p>
+
+<hr />
+
+
+<h2>Appendix</h2>
+
+<ol>
+<li><p><span id="existing-tools"><strong>Existing tools</strong></span></p>
+
+<ul>
+<li><a href="https://github.com/pivotal-sprout/sprout-wrap">Sprout</a> &ndash; Intially this was called <code>pivotal_workstation</code> but transformed into a slightly more
+configurable and modular system. It uses <code>chef</code> under the covers and is quite comprehensive.</li>
+<li><a href="https://github.com/boxen/boxen">Boxen</a> &ndash; Created by GitHub, this tool uses <code>puppet</code> under the covers.</li>
+<li><a href="https://osxc.github.io/">osxc</a> &ndash; Not sure where it was born from, but it uses <code>ansible</code> underneath.</li>
+</ul>
+
+
+<p> All three of these strive for the same thing, but use different engines. It probably makes sense to use whichever one
+ uses the Configuration Management tool you&rsquo;re most comfortable with. The problem though, is that these tools may add a
+ bit more complexity than is really necessary.</p>
+
+<p> <a href="http://www.ifdown.net/">Sam Gibson</a> wrote a <a href="https://www.thoughtworks.com/p2magazine/issue08/babushka/">great article</a> about this using <a href="https://babushka.me/">Babushka</a>. He believed the
+ above styles are too complex and strived to find a simpler solution. I like it, but I felt that it could be
+ simplified further.</p>
+
+<p> <a href="https://github.com/gerhard/setup">Gerhard Lazu&rsquo;s</a> workstation setup. He replaced <strong>sprout</strong> with a collection to
+ shell scripts that I may be tempted to migrate towards. But one thing at a time; that&rsquo;s an important principle around
+ working on this kind of stuff. There are a lot of moving parts and it&rsquo;ll only prove itself out over time.</p></li>
+<li><p>You are probably going to want to update your automation. In order to be able to push your changes you&rsquo;ll need to
+have your keys. For this, I follow Tammer Saleh&rsquo;s excellent post on <a href="http://tammersaleh.com/posts/building-an-encrypted-usb-drive-for-your-ssh-keys-in-os-x/">building an encrypted usb drive for your keys</a>.</p></li>
+<li><p>Technically you cannot start from scratch because you need at least an existing OSX machine to create the installer USB
+stick. To do this, I followed the instructions on Brooke Kuhlmann&rsquo;s <a href="https://github.com/bkuhlmann/osx#os-x-el-capitan">workstation automation</a>*
+repository. Though, I&rsquo;ll probably copy this information into my own repository for reasons I&rsquo;ll explain later.</p>
+
+<p>When following this process, I reformat the machines disk with an encrypted volume and always create my new machine with
+a different username (to ensure my automation doesn&rsquo;t make too many assumptions on pathes).</p>
+
+<p>* <em>Similar steps worked just recently for macOS Sierra</em></p></li>
+</ol>
+
+
+<p><strong>For fun, here&rsquo;s the complete output of the latest run:</strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+<span class='line-number'>68</span>
+<span class='line-number'>69</span>
+<span class='line-number'>70</span>
+<span class='line-number'>71</span>
+<span class='line-number'>72</span>
+<span class='line-number'>73</span>
+<span class='line-number'>74</span>
+<span class='line-number'>75</span>
+<span class='line-number'>76</span>
+<span class='line-number'>77</span>
+<span class='line-number'>78</span>
+<span class='line-number'>79</span>
+<span class='line-number'>80</span>
+<span class='line-number'>81</span>
+<span class='line-number'>82</span>
+<span class='line-number'>83</span>
+<span class='line-number'>84</span>
+<span class='line-number'>85</span>
+<span class='line-number'>86</span>
+<span class='line-number'>87</span>
+<span class='line-number'>88</span>
+<span class='line-number'>89</span>
+<span class='line-number'>90</span>
+<span class='line-number'>91</span>
+<span class='line-number'>92</span>
+<span class='line-number'>93</span>
+<span class='line-number'>94</span>
+<span class='line-number'>95</span>
+<span class='line-number'>96</span>
+<span class='line-number'>97</span>
+<span class='line-number'>98</span>
+<span class='line-number'>99</span>
+<span class='line-number'>100</span>
+<span class='line-number'>101</span>
+<span class='line-number'>102</span>
+<span class='line-number'>103</span>
+<span class='line-number'>104</span>
+<span class='line-number'>105</span>
+<span class='line-number'>106</span>
+<span class='line-number'>107</span>
+<span class='line-number'>108</span>
+<span class='line-number'>109</span>
+<span class='line-number'>110</span>
+<span class='line-number'>111</span>
+<span class='line-number'>112</span>
+<span class='line-number'>113</span>
+<span class='line-number'>114</span>
+<span class='line-number'>115</span>
+<span class='line-number'>116</span>
+<span class='line-number'>117</span>
+<span class='line-number'>118</span>
+<span class='line-number'>119</span>
+<span class='line-number'>120</span>
+<span class='line-number'>121</span>
+<span class='line-number'>122</span>
+<span class='line-number'>123</span>
+<span class='line-number'>124</span>
+<span class='line-number'>125</span>
+<span class='line-number'>126</span>
+<span class='line-number'>127</span>
+<span class='line-number'>128</span>
+<span class='line-number'>129</span>
+<span class='line-number'>130</span>
+<span class='line-number'>131</span>
+<span class='line-number'>132</span>
+<span class='line-number'>133</span>
+<span class='line-number'>134</span>
+<span class='line-number'>135</span>
+<span class='line-number'>136</span>
+<span class='line-number'>137</span>
+<span class='line-number'>138</span>
+<span class='line-number'>139</span>
+<span class='line-number'>140</span>
+<span class='line-number'>141</span>
+<span class='line-number'>142</span>
+<span class='line-number'>143</span>
+<span class='line-number'>144</span>
+<span class='line-number'>145</span>
+<span class='line-number'>146</span>
+<span class='line-number'>147</span>
+<span class='line-number'>148</span>
+<span class='line-number'>149</span>
+<span class='line-number'>150</span>
+<span class='line-number'>151</span>
+<span class='line-number'>152</span>
+<span class='line-number'>153</span>
+<span class='line-number'>154</span>
+<span class='line-number'>155</span>
+<span class='line-number'>156</span>
+<span class='line-number'>157</span>
+<span class='line-number'>158</span>
+<span class='line-number'>159</span>
+<span class='line-number'>160</span>
+<span class='line-number'>161</span>
+<span class='line-number'>162</span>
+<span class='line-number'>163</span>
+<span class='line-number'>164</span>
+<span class='line-number'>165</span>
+<span class='line-number'>166</span>
+<span class='line-number'>167</span>
+<span class='line-number'>168</span>
+<span class='line-number'>169</span>
+<span class='line-number'>170</span>
+<span class='line-number'>171</span>
+<span class='line-number'>172</span>
+<span class='line-number'>173</span>
+<span class='line-number'>174</span>
+<span class='line-number'>175</span>
+<span class='line-number'>176</span>
+<span class='line-number'>177</span>
+<span class='line-number'>178</span>
+<span class='line-number'>179</span>
+<span class='line-number'>180</span>
+<span class='line-number'>181</span>
+<span class='line-number'>182</span>
+<span class='line-number'>183</span>
+<span class='line-number'>184</span>
+<span class='line-number'>185</span>
+<span class='line-number'>186</span>
+<span class='line-number'>187</span>
+<span class='line-number'>188</span>
+<span class='line-number'>189</span>
+<span class='line-number'>190</span>
+<span class='line-number'>191</span>
+<span class='line-number'>192</span>
+<span class='line-number'>193</span>
+<span class='line-number'>194</span>
+<span class='line-number'>195</span>
+<span class='line-number'>196</span>
+<span class='line-number'>197</span>
+<span class='line-number'>198</span>
+<span class='line-number'>199</span>
+<span class='line-number'>200</span>
+<span class='line-number'>201</span>
+<span class='line-number'>202</span>
+<span class='line-number'>203</span>
+<span class='line-number'>204</span>
+<span class='line-number'>205</span>
+<span class='line-number'>206</span>
+<span class='line-number'>207</span>
+<span class='line-number'>208</span>
+<span class='line-number'>209</span>
+<span class='line-number'>210</span>
+<span class='line-number'>211</span>
+<span class='line-number'>212</span>
+<span class='line-number'>213</span>
+<span class='line-number'>214</span>
+<span class='line-number'>215</span>
+<span class='line-number'>216</span>
+<span class='line-number'>217</span>
+<span class='line-number'>218</span>
+<span class='line-number'>219</span>
+<span class='line-number'>220</span>
+<span class='line-number'>221</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>~ ? coalesce_this_machine
+</span><span class='line'>~/workspace/sprout-wrap ~
+</span><span class='line'>Rubygems 2.0.14.1 is not threadsafe, so your gems will be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.
+</span><span class='line'>Using rake 10.5.0
+</span><span class='line'>Using awesome_print 1.6.1
+</span><span class='line'>Using builder 3.2.2
+</span><span class='line'>Using mixlib-config 2.2.1
+</span><span class='line'>Using mixlib-shellout 2.2.5
+</span><span class='line'>Using libyajl2 1.2.0
+</span><span class='line'>Using hashie 2.1.2
+</span><span class='line'>Using mixlib-log 1.6.0
+</span><span class='line'>Using rack 1.6.4
+</span><span class='line'>Using uuidtools 2.1.5
+</span><span class='line'>Using diff-lcs 1.2.5
+</span><span class='line'>Using erubis 2.7.0
+</span><span class='line'>Using highline 1.7.8
+</span><span class='line'>Using rspec-support 3.4.1
+</span><span class='line'>Using mixlib-cli 1.5.0
+</span><span class='line'>Using net-ssh 2.9.2
+</span><span class='line'>Using ffi 1.9.10
+</span><span class='line'>Using ipaddress 0.8.2
+</span><span class='line'>Using systemu 2.6.5
+</span><span class='line'>Using wmi-lite 1.0.0
+</span><span class='line'>Using plist 3.1.0
+</span><span class='line'>Using proxifier 1.0.3
+</span><span class='line'>Using coderay 1.1.0
+</span><span class='line'>Using method_source 0.8.2
+</span><span class='line'>Using slop 3.6.0
+</span><span class='line'>Using multi_json 1.11.2
+</span><span class='line'>Using net-telnet 0.1.1
+</span><span class='line'>Using sfl 2.2
+</span><span class='line'>Using syslog-logger 1.6.8
+</span><span class='line'>Using mini_portile2 2.0.0
+</span><span class='line'>Using rufus-lru 1.0.5
+</span><span class='line'>Using polyglot 0.3.5
+</span><span class='line'>Using yajl-ruby 1.2.1
+</span><span class='line'>Using thor 0.19.1
+</span><span class='line'>Using minitar 0.5.4
+</span><span class='line'>Using bundler 1.13.2
+</span><span class='line'>Using chef-config 12.6.0
+</span><span class='line'>Using ffi-yajl 2.2.3
+</span><span class='line'>Using rspec-core 3.4.1
+</span><span class='line'>Using rspec-expectations 3.4.0
+</span><span class='line'>Using rspec-mocks 3.4.1
+</span><span class='line'>Using net-ssh-gateway 1.2.0
+</span><span class='line'>Using net-scp 1.2.1
+</span><span class='line'>Using pry 0.10.3
+</span><span class='line'>Using gherkin 2.12.2
+</span><span class='line'>Using nokogiri 1.6.7.2
+</span><span class='line'>Using treetop 1.6.3
+</span><span class='line'>Using librarian 0.1.2
+</span><span class='line'>Using chef-zero 4.4.2
+</span><span class='line'>Using ohai 8.8.1
+</span><span class='line'>Using rspec_junit_formatter 0.2.3
+</span><span class='line'>Using rspec-its 1.2.0
+</span><span class='line'>Using mixlib-authentication 1.4.0
+</span><span class='line'>Using rspec 3.4.0
+</span><span class='line'>Using net-ssh-multi 1.2.1
+</span><span class='line'>Using specinfra 2.50.3
+</span><span class='line'>Using foodcritic 6.0.0
+</span><span class='line'>Using serverspec 2.29.1
+</span><span class='line'>Using chef 12.6.0
+</span><span class='line'>Using librarian-chef 0.0.4
+</span><span class='line'>Using soloist 1.0.3
+</span><span class='line'>Bundle complete! 3 Gemfile dependencies, 61 gems now installed.
+</span><span class='line'>Use `bundle show [gemname]` to see where a bundled gem is installed.
+</span><span class='line'>Installing build-essential (2.2.4)
+</span><span class='line'>Installing dmg (2.3.0)
+</span><span class='line'>Installing homebrew (2.0.5)
+</span><span class='line'>Installing osx (0.1.0)
+</span><span class='line'>Installing sprout-base (0.3.0)
+</span><span class='line'>Installing sprout-osx-settings (0.1.0)
+</span><span class='line'>Installing sprout-osx-apps (0.1.0)
+</span><span class='line'>Password:
+</span><span class='line'>[2016-10-11T22:06:06+01:00] INFO: Forking chef instance to converge...
+</span><span class='line'>Starting Chef Client, version 12.6.0
+</span><span class='line'>[2016-10-11T22:06:06+01:00] INFO: *** Chef 12.6.0 ***
+</span><span class='line'>[2016-10-11T22:06:06+01:00] INFO: Chef-client pid: 14253
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Setting the run_list to ["sprout-base", "sprout-osx-settings::defaults_fast_key_repeat_rate", "sprout-osx-settings::function_keys", "sprout-osx-settings::screensaver", "sprout-osx-settings::set_menubar_clock_format", "sprout-osx-settings::dock_preferences"] from CLI options
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Run List is [recipe[sprout-base], recipe[sprout-osx-settings::defaults_fast_key_repeat_rate], recipe[sprout-osx-settings::function_keys], recipe[sprout-osx-settings::screensaver], recipe[sprout-osx-settings::set_menubar_clock_format], recipe[sprout-osx-settings::dock_preferences]]
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Run List expands to [sprout-base, sprout-osx-settings::defaults_fast_key_repeat_rate, sprout-osx-settings::function_keys, sprout-osx-settings::screensaver, sprout-osx-settings::set_menubar_clock_format, sprout-osx-settings::dock_preferences]
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Starting Chef Run for Meriadocs-MacBook-Air.local
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Running start handlers
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Start handlers complete.
+</span><span class='line'>Compiling Cookbooks...
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: /Users/merry
+</span><span class='line'>[2016-10-11T22:06:20+01:00] WARN: Cloning resource attributes for osx_defaults[adjusts dock size to ] from prior resource (CHEF-3694)
+</span><span class='line'>[2016-10-11T22:06:20+01:00] WARN: Previous osx_defaults[adjusts dock size to ]: /Users/merry/workspace/sprout-wrap/cookbooks/sprout-osx-settings/recipes/dock_preferences.rb:24:in `from_file'
+</span><span class='line'>[2016-10-11T22:06:20+01:00] WARN: Current  osx_defaults[adjusts dock size to ]: /Users/merry/workspace/sprout-wrap/cookbooks/sprout-osx-settings/recipes/dock_preferences.rb:31:in `from_file'
+</span><span class='line'>Converging 17 resources
+</span><span class='line'>Recipe: sprout-base::var_chef_cache
+</span><span class='line'>  * directory[/var/chef/cache] action create[2016-10-11T22:06:20+01:00] INFO: Processing directory[/var/chef/cache] action create (sprout-base::var_chef_cache line 3)
+</span><span class='line'> (up to date)
+</span><span class='line'>Recipe: sprout-osx-settings::defaults_fast_key_repeat_rate
+</span><span class='line'>  * osx_defaults[set key repeat rate] action write[2016-10-11T22:06:20+01:00] INFO: Processing osx_defaults[set key repeat rate] action write (sprout-osx-settings::defaults_fast_key_repeat_rate line 1)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[set key repeat rate - /Users/merry/Library/Preferences/.GlobalPreferences - KeyRepeat] action run[2016-10-11T22:06:20+01:00] INFO: Processing execute[set key repeat rate - /Users/merry/Library/Preferences/.GlobalPreferences - KeyRepeat] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>1
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: execute[Guard resource] ran successfully
+</span><span class='line'> (skipped due to not_if)
+</span><span class='line'>  * osx_defaults[set initial key repeat delay] action write[2016-10-11T22:06:20+01:00] INFO: Processing osx_defaults[set initial key repeat delay] action write (sprout-osx-settings::defaults_fast_key_repeat_rate line 8)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[set initial key repeat delay - /Users/merry/Library/Preferences/.GlobalPreferences - InitialKeyRepeat] action run[2016-10-11T22:06:20+01:00] INFO: Processing execute[set initial key repeat delay - /Users/merry/Library/Preferences/.GlobalPreferences - InitialKeyRepeat] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>15
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: execute[Guard resource] ran successfully
+</span><span class='line'> (skipped due to not_if)
+</span><span class='line'>Recipe: sprout-osx-settings::function_keys
+</span><span class='line'>  * osx_defaults[Turn on function-keys-work-as-function keys] action write[2016-10-11T22:06:20+01:00] INFO: Processing osx_defaults[Turn on function-keys-work-as-function keys] action write (sprout-osx-settings::function_keys line 5)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[Turn on function-keys-work-as-function keys - /Users/merry/Library/Preferences/.GlobalPreferences - com.apple.keyboard.fnState] action run[2016-10-11T22:06:20+01:00] INFO: Processing execute[Turn on function-keys-work-as-function keys - /Users/merry/Library/Preferences/.GlobalPreferences - com.apple.keyboard.fnState] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>[2016-10-11T22:06:20+01:00] INFO: execute[Turn on function-keys-work-as-function keys - /Users/merry/Library/Preferences/.GlobalPreferences - com.apple.keyboard.fnState] ran successfully
+</span><span class='line'>
+</span><span class='line'>    - execute defaults write /Users/merry/Library/Preferences/.GlobalPreferences com.apple.keyboard.fnState -boolean true
+</span><span class='line'>  * ruby_block[Fix Function Keys] action run[2016-10-11T22:06:20+01:00] INFO: Processing ruby_block[Fix Function Keys] action run (sprout-osx-settings::function_keys line 13)
+</span><span class='line'>merry             275   0.0  0.5  2611920  40944   ??  S    Sat06pm   7:11.60 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+</span><span class='line'>157:242: execution error: access for assistive devices is NOT enabled! (This is not an error, just a warning) (-2700)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: ruby_block[Fix Function Keys] called
+</span><span class='line'>
+</span><span class='line'>    - execute the ruby block Fix Function Keys
+</span><span class='line'>Recipe: sprout-osx-settings::screensaver
+</span><span class='line'>  * osx_defaults[ask for password when screen is locked] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[ask for password when screen is locked] action write (sprout-osx-settings::screensaver line 1)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[ask for password when screen is locked - com.apple.screensaver - askForPassword] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[ask for password when screen is locked - com.apple.screensaver - askForPassword] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>1
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[Guard resource] ran successfully
+</span><span class='line'> (skipped due to not_if)
+</span><span class='line'>  * osx_defaults[wait 60 seconds between screensaver & lock] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[wait 60 seconds between screensaver & lock] action write (sprout-osx-settings::screensaver line 7)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[wait 60 seconds between screensaver & lock - com.apple.screensaver - askForPasswordDelay] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[wait 60 seconds between screensaver & lock - com.apple.screensaver - askForPasswordDelay] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[wait 60 seconds between screensaver & lock - com.apple.screensaver - askForPasswordDelay] ran successfully
+</span><span class='line'>
+</span><span class='line'>    - execute defaults write com.apple.screensaver askForPasswordDelay -float 60.0
+</span><span class='line'>  * osx_defaults[set screensaver timeout] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[set screensaver timeout] action write (sprout-osx-settings::screensaver line 19)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[set screensaver timeout - ByHost/com.apple.screensaver.E30179FA-16E3-5588-9F5E-127D843E0F27 - idleTime] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[set screensaver timeout - ByHost/com.apple.screensaver.E30179FA-16E3-5588-9F5E-127D843E0F27 - idleTime] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>600
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[Guard resource] ran successfully
+</span><span class='line'> (skipped due to not_if)
+</span><span class='line'>  * execute[set display, disk and computer sleep times] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[set display, disk and computer sleep times] action run (sprout-osx-settings::screensaver line 26)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[set display, disk and computer sleep times] ran successfully
+</span><span class='line'>
+</span><span class='line'>    - execute pmset -a displaysleep 20 disksleep 15 sleep 0
+</span><span class='line'>Recipe: sprout-osx-settings::set_menubar_clock_format
+</span><span class='line'>  * osx_defaults[turn on date & seconds for menubar clock] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[turn on date & seconds for menubar clock] action write (sprout-osx-settings::set_menubar_clock_format line 2)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[turn on date & seconds for menubar clock - com.apple.menuextra.clock - DateFormat] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[turn on date & seconds for menubar clock - com.apple.menuextra.clock - DateFormat] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>MMM d  HH:mm:ss
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[Guard resource] ran successfully
+</span><span class='line'> (skipped due to not_if)
+</span><span class='line'>Recipe: sprout-osx-settings::dock_preferences
+</span><span class='line'>  * osx_defaults[set dock to be on left] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[set dock to be on left] action write (sprout-osx-settings::dock_preferences line 3)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[set dock to be on left - com.apple.dock - orientation] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[set dock to be on left - com.apple.dock - orientation] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>left
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[Guard resource] ran successfully
+</span><span class='line'> (skipped due to not_if)
+</span><span class='line'>  * osx_defaults[set dock autohide to ] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[set dock autohide to ] action write (sprout-osx-settings::dock_preferences line 10)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[set dock autohide to  - com.apple.dock - autohide] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[set dock autohide to  - com.apple.dock - autohide] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[set dock autohide to  - com.apple.dock - autohide] ran successfully
+</span><span class='line'>
+</span><span class='line'>    - execute defaults write com.apple.dock autohide -boolean true
+</span><span class='line'>  * osx_defaults[remove persistent apps from the dock] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[remove persistent apps from the dock] action write (sprout-osx-settings::dock_preferences line 17)
+</span><span class='line'> (up to date)
+</span><span class='line'>  * execute[remove persistent apps from the dock - com.apple.dock - persistent-apps] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[remove persistent apps from the dock - com.apple.dock - persistent-apps] action run (/Users/merry/workspace/sprout-wrap/cookbooks/osx/providers/defaults.rb line 4)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Processing execute[Guard resource] action run (dynamically defined)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[remove persistent apps from the dock - com.apple.dock - persistent-apps] ran successfully
+</span><span class='line'>
+</span><span class='line'>    - execute defaults write com.apple.dock persistent-apps -array
+</span><span class='line'>  * osx_defaults[adjusts dock size to ] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[adjusts dock size to ] action write (sprout-osx-settings::dock_preferences line 24)
+</span><span class='line'> (skipped due to only_if)
+</span><span class='line'>  * osx_defaults[adjusts dock size to ] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[adjusts dock size to ] action write (sprout-osx-settings::dock_preferences line 31)
+</span><span class='line'> (skipped due to only_if)
+</span><span class='line'>  * osx_defaults[toggle dock magnification on/off] action write[2016-10-11T22:06:21+01:00] INFO: Processing osx_defaults[toggle dock magnification on/off] action write (sprout-osx-settings::dock_preferences line 38)
+</span><span class='line'> (skipped due to not_if)
+</span><span class='line'>  * execute[relaunch dock] action run[2016-10-11T22:06:21+01:00] INFO: Processing execute[relaunch dock] action run (sprout-osx-settings::dock_preferences line 45)
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: execute[relaunch dock] ran successfully
+</span><span class='line'>
+</span><span class='line'>    - execute killall Dock
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Chef Run complete in 1.275448 seconds
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Skipping removal of unused files from the cache
+</span><span class='line'>
+</span><span class='line'>Running handlers:
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Running report handlers
+</span><span class='line'>Running handlers complete
+</span><span class='line'>[2016-10-11T22:06:21+01:00] INFO: Report handlers complete
+</span><span class='line'>Chef Client finished, 7/27 resources updated in 15 seconds
+</span><span class='line'>~
+</span><span class='line'>Already up-to-date.
+</span><span class='line'>Succeeded in installing golang
+</span><span class='line'>Succeeded in installing jq
+</span><span class='line'>Succeeded in installing mp3blaster
+</span><span class='line'>Succeeded in installing pstree
+</span><span class='line'>Succeeded in installing tree
+</span><span class='line'>Succeeded in installing 1password
+</span><span class='line'>Succeeded in installing dropbox
+</span><span class='line'>Succeeded in installing evernote
+</span><span class='line'>Succeeded in installing flycut
+</span><span class='line'>Succeeded in installing google-chrome
+</span><span class='line'>Succeeded in installing iterm2
+</span><span class='line'>Succeeded in installing selfcontrol
+</span><span class='line'>Succeeded in installing shiftit
+</span><span class='line'>Succeeded in installing skype
+</span><span class='line'>Succeeded in installing tunnelbear
+</span><span class='line'>Succeeded in installing vagrant
+</span><span class='line'>Succeeded in installing vlc
+</span><span class='line'>Succeeded in installing virtualbox
+</span><span class='line'>
+</span><span class='line'>Success: 18 Fail: 0
+</span><span class='line'>Last software update was 3 days ago
+</span><span class='line'>Since softwareupdate ran recently, not going to do anything
+</span><span class='line'>remove /Users/merry/.softwareupdate_indicator to force an update</span></code></pre></td></tr></table></div></figure>
+
+
+<p><em>This post took 9 pomodoros to complete (more time than it takes to setup a laptop from scratch)</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Dealing With Contempt Culture in the Software World]]></title>
@@ -2481,227 +3147,6 @@ means, but I&rsquo;m guessing it&rsquo;s how hot it is in you&rsquo;re sitting i
 and watch them go through the first turn. It was scary to see Massa&rsquo;s car flip during the start of the race but
 was relieved to see him walk out of the car. The picture here is a first for me; I actually made it to the podium area for
 the awards ceremony!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Belgium, France, London and the British Grand Prix]]></title>
-    <link href="http://scottmuc.com/belgium-france-london-and-the-british-grand-prix/"/>
-    <updated>2014-07-08T13:42:19+01:00</updated>
-    <id>http://scottmuc.com/belgium-france-london-and-the-british-grand-prix</id>
-    <content type="html"><![CDATA[<p><em>June 24th &ndash; July 7th</em></p>
-
-<h3>Shipment Delivered</h3>
-
-<p>Upon arrival in Antwerp I saw my taxi from the deck. I had all my belongings ready and made my way down
-to the port. The ship crew was busy with the offloading of containers so I decided it probably wasn’t a good idea
-to disturb them to say farewell. It was a long drive to the immigration office, and there I found out that I needed
-a passenger manifest to get the stamp of approval. This meant going all the way back to the ship and back. This
-added around an extra hour of taxi travel. The chief mate was ready for my return as he had the document in his
-hand. After that confusion, I made it to central Antwerp and found a hotel near the train station.</p>
-
-<p>Antwerp is a fairly small city. The port area takes up more space than the actual city. After a quick nap I wandered
-around old Antwerp and in the evening found a little pub. I ended up having more drinks than necessary with a couple
-that were a lot of fun. The lady has been in the shipping industry and even knew the ship that I came in on!</p>
-
-<h3>In Bruges</h3>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/bruges.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/bruges.small.jpg" width="300"></a> The trip
-from Antwerp to Bruges was pretty easy. As was finding the <a href="https://www.airbnb.co.uk/rooms/2176619">residence</a> I was going to stay in. The house was
-just outside the old town so after getting some travel logistics out of the way I set out to do a walking tour.</p>
-
-<p><a href="https://en.wikipedia.org/wiki/Bruges">Bruges</a> is one of the prettiest towns I’ve ever seen. It’s like a snapshot
-in time of Belgium several hundred years ago.  In some spots it was insanely crowded, but in other spots it
-was quiet and peaceful, which made me stick to those areas. When I got back, I met Lander, the
-host of the house. He was very personable and enjoyed conversing with him about my travels.</p>
-
-<p>The next day I did another self guided walking tour. My favourite moment was just relaxing having a couple beers at the
-<a href="http://fr.yelp.be/biz/caf%C3%A9-vlissinghe-brugge">oldest tavern</a> in Bruges. After a full day in the town I went back to the house where Lander invited some friends over for
-the game. We then headed out to watch the Belgium game in the town square. It was so much fun! I lost the group for a
-bit so I gave my round of beers to some random strangers in the crowd. That seemed to make people happy. Next thing I
-know it&rsquo;s 5:00am and I&rsquo;m chatting away with a fellow drunk.</p>
-
-<p>These are the beers I had in Belgium:</p>
-
-<ul>
-<li><a href="http://www.dekoninck.be/en">De Koninck</a></li>
-<li><a href="http://www.boon.be/en/our-beers/geuze-boon-old-style">Gueze Boon</a></li>
-<li><a href="http://www.rodenbach.be/">Rodenbach</a></li>
-<li><a href="http://www.trappistwestmalle.be/en/page/dubbel.aspx">Westmalle Trappist Dubbel</a></li>
-<li><a href="http://www.duvel.com/en-us">Duvel</a></li>
-<li><a href="http://www.orval.be/en/58/How-Orval-beer-is-made">Orval</a></li>
-<li><a href="http://www.abbaye-de-leffe.be/the_beer/en_5_varieties_of_beer_article200.html">Leffe Dark</a></li>
-<li><a href="http://www.halvemaan.be/index.php?id=15&amp;L=2">Brugse Zot</a></li>
-<li><a href="http://www.bestbelgianspecialbeers.be/main_eng.html">Tripel Karmeliet</a></li>
-<li><a href="http://www.halvemaan.be/index.php?id=14&amp;L=2">Straffe Hendrik</a></li>
-<li><a href="http://www.achouffe.be/en/beers#la-chouffe">La Chouffe</a></li>
-</ul>
-
-
-<p>Of all of these, I would say the <strong>Tripel Karmeliet</strong> and <strong>Orval</strong> were my favourites. There are so many beers to try
-that I really want to come back and spend several weeks sampling all the wonderful beers. There&rsquo;s something about
-a country where the monks participate in the brewing process. The day before I got to Bruges, the <a href="http://www.halvemaan.be/">De Halve Maan</a>
-had a priest come in and bless their new brewing equipment!</p>
-
-<h3>Dieppe Thoughts</h3>
-
-<p>The next leg of my trip is to Dieppe, France. Unfortunately I woke up hungover and slept through my alarm. This meant
-I missed my train which had the best connections to Dieppe. Armed with the
-<a href="http://www.eurail.com/plan-your-trip/rail-planner-app">Eurail app</a>, I tried to make a new itinerary.
-Due to my decisions of last night, I slept through my connection and passed Brussels. Turned out it didn’t really matter
-because at the following station I learned it was the first day of holidays in France and all reservation trains were booked.
-Using the app, I figured out an itinerary that could get me to Dieppe without reserved seating. One of the trains was delayed
-and I just made my only connecting train with only a minute to spare. Last part of the journey was the walk to to where
-I <a href="https://www.airbnb.co.uk/rooms/1157655">stayed</a>. The only issue was that I forgot to cache the map, but at least I had a star showing where it
-was and functional gps.</p>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/dieppe.jpg"><img class="right" src="http://scottmuc.com/images/blog/career-break/dieppe.small.jpg" width="300"></a> My primary motivation
-for visiting Dieppe was to see the beaches the Canadian troops attempted to invade in WWII. The
-invasion of Dieppe preceded D-Day and was used as an information gathering invasion. Essentially they learned a lot at
-the expenses of thousands of lives. I’m not a patriotic person, but I couldn’t help but feel moved by the lives that were lost
-there. You can read more at <a href="https://en.wikipedia.org/wiki/Dieppe_Raid">Wikipedia</a> (notice that my picture of the beach
-is very close to the image in Wikipedia!</p>
-
-<p>After my walk about, I walked some more! I headed down to where all the restaurants were and had a nice meal and then
-proceeded to hang around the beach area to catch the sunset. It was definitely worth it.</p>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/dieppe-sunset.jpg"><img class="center" src="http://scottmuc.com/images/blog/career-break/dieppe-sunset.medium.jpg" width="1024"></a></p>
-
-<h3>A Boat Time</h3>
-
-<p>At 3:30am I left the residence and walked to the ferry terminal. Luckily I walked there the day before so I knew how long
-it would take, and that I had to be there at 4:30am. I wasn’t initially planning on being there that early so I’m glad I did
-my exploratory research. The ferry was pleasant, but spent the majority of the journey falling asleep and hitting my head against the window.</p>
-
-<h3>London Calling</h3>
-
-<p>The ferry arrived in Newhaven on time. I had a nice chat with the immigration officer who supported my goal of seeing
-all the Formula 1 races. I got my luggage and took a series of trains to <a href="https://en.wikipedia.org/wiki/Hitchin">Hitchin</a> where
-I met up with <a href="https://twitter.com/zoodor">Mark</a>, a old ThoughtWorks colleague. It was quite refreshing to see a familiar face!</p>
-
-<p>My next few days were lunch and dinner plans with people I know in London. I got a chance to talk about where my mind
-is at regarding my future. It was also nice to see more familiar faces. I really like London, but all the tubing around I was
-doing unfortunately left me with a cold before I left.</p>
-
-<h3>Milton Keynes</h3>
-
-<p>This was to be my face for the first F1 on my trip. My <a href="https://www.airbnb.co.uk/rooms/1433999">hosts</a> picked up from the
-train station. They were amazing hosts and were very pleasant to talk to. I had a lot of fun talking shop
-with them as they run an <a href="http://evidencetalks.com/en/">IT business</a> in the city centre.
-Their <a href="http://mxcl.github.io/">son</a> is also note-worthy as he created <a href="http://brew.sh/">Homebrew</a>!</p>
-
-<p>The city of <a href="https://en.wikipedia.org/wiki/Milton_Keynes">Milton Keynes</a> was interesting because it was a planned city.
-It was easy to get around, there were plenty of trails that made walking around the periphery quite pleasant.</p>
-
-<h3>This Place is the Bombe!</h3>
-
-<p>I planned for a free day before the race so I could visit <a href="https://en.wikipedia.org/wiki/Bletchley_Park">Bletchley Park</a>.
-It was such an amazing experience to see where
-<a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a> worked and observing a working Colossus, WITCH, and
-Bombe machines (in the <a href="http://www.tnmoc.org/">National Museum of Computing</a>)! While visiting the grounds it made
-me think about NSA’s involvement in security. If the NSA had a facility that celebrated its ability to crack codes, I don’t think
-people would have the same feeling. WWII was great a creating a binary view of activities. Bletchley Park was also
-dismantled after the war. I guess things were simpler and less ambiguous then.</p>
-
-<p>Here&rsquo;s what the Colossus sounds like! I wish I recorded a lot more audio because I can hear a song wanting to come out.</p>
-
-<iframe width="100%" height="450" scrolling="no" frameborder="no"
-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/157140660&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-
-<h3>&nbsp;</h3>
-
-<h3>Race 1 of 3</h3>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/british-gp.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/british-gp.small.jpg"></a> The commute to the
-track was quite reasonable, but Friday was a bit much for me as I was in the worst part of my cold.
-Saturday had the most comfortable weather and I spent a lot of time at the track enjoying different vantage points. Race
-day was a big spectacle as it was the 50th race at Silverstone. Before the race there was an air display by the Red Arrows.
-It was far better than I had expected. Afterwards I went up to me seat and watched a great race. Lots of drama on the first
-lap as Raikonnen had an accident. This red flagged the race as they had to repair a barrier on the track. The rest of the
-race was rather uneventful, but the battle between Alonso and Vettel (below) was a show of great driver talent. It was
-a shame Roseberg had a malfunction because the battle for 1st could have been just as great.</p>
-
-<iframe width="100%" height="640" src="//www.youtube.com/embed/jyhz5c0mR4c" frameborder="0" allowfullscreen></iframe>
-
-
-<h3>To Glasgow</h3>
-
-<p>The journey continues to Glasgow, Scotland! The write up for that will have to wait though as this post is long
-enough. I was going to write about my learnings over the last few weeks, but will hold that thought for a bit.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Crossing the Atlantic via Container Ship]]></title>
-    <link href="http://scottmuc.com/crossing-the-atlantic-via-container-ship/"/>
-    <updated>2014-06-24T05:02:51+01:00</updated>
-    <id>http://scottmuc.com/crossing-the-atlantic-via-container-ship</id>
-    <content type="html"><![CDATA[<p>As I mentioned in my <a href="http://scottmuc.com/leaving-vancouver-and-north-america/">last post</a>, I finished the crossing of the Atlantic ocean via container ship. It was a great
-experiene that I&rsquo;ll happily do again. 11 days wasn&rsquo;t enough, and would be happy to spend a month next time around.</p>
-
-<h3>Too Much Twine on my Hands</h3>
-
-<p>A blog post probably wouldn&rsquo;t due the experience justice so I decided to play around with a basic word game engine to
-give you a more <a href="http://scottmuc.com/twinery/independent-accord.html">self-directed tour</a>. Hope you enjoy it!</p>
-
-<p>Working with <a href="http://twinery.org/">Twine</a> was quite enjoyable and I could see myself using it a lot in many different lines of work. If I was
-still consulting, it would become a prominent tool in my tool-belt. My biggest complaint with it is that the
-documentation is all online so I couldn&rsquo;t figure out how to do anything more sophisticated than what I created.</p>
-
-<h3>Man Over-bored</h3>
-
-<p>Honestly, that header was just for the pun factor. What amazed me about the voyage was how quick it went by. I didn&rsquo;t
-think <strong>once</strong> that I wanted it to end and that I was bored. I savoured not being in a rush to do anything. The only structure to my
-days revolved around meals which were at: 07:30, 12:30, and 17:30. That set my rythym for the 11 days.</p>
-
-<h3>Crew Man Group</h3>
-
-<p>The ship was run by a crew of 21, all male. The captain was Romanian and the rest of the officers were Croation. The chief
-engineer was Ukrainian and the rest were Filipino. Everyone was very nice, but when asked for their name, they simply
-asked to be addressed by their position (Third, Chief, etc&hellip;).</p>
-
-<h3>Retrospective</h3>
-
-<p><strong>What Went Well</strong>:</p>
-
-<ul>
-<li>Scotch &ndash; Sipping 18yo Glenlivet was a wonderful way to be even <em>more</em> relaxed</li>
-<li>Jambox &ndash; This dependable gadget has been filling rooms with tunes well for several years now</li>
-<li>Offline Wikipedia &ndash; Wow! I cannot believe how much I perused Wikipedia while I was on this trip.</li>
-<li>11 days of no expenses &ndash; Being disconnected is a good way to not spend money.</li>
-</ul>
-
-
-<p><strong>Not So Well</strong>:</p>
-
-<ul>
-<li>Gym clothes &ndash; There&rsquo;s an exercise room with a stationary bike. I wasn&rsquo;t always allowed on the main deck (to do laps
-around the ship) so being able to do 30min of hard cardio would have been good to stave off the belly I grew.</li>
-<li>Scotch &ndash; One bottle was definitely not enough.</li>
-<li>Offline map &ndash; I would have liked to better explorer the route and plan the rest of my trip better.</li>
-<li>Making Twine tour at the last minute &ndash; I wish I had a skeleton of it done much earlier so I could get more details
-from the crew.</li>
-</ul>
-
-
-<p><strong>Action Items</strong>: I&rsquo;ll definitely do this again and I&rsquo;ll be sure to come with a fitness plan. Though that directly opposes the action to
-bring more liquor.</p>
-
-<h3>Offline By Default</h3>
-
-<p>Being disconnected from the world for 11 days was a far better experience than I had expected. It&rsquo;s made me realize I
-need to create a habit of disconnecting. It brought me back to the era when your computer was offline by default, and
-you had to explicitly connect to see what&rsquo;s going on in the rest of the Internet universe. This experience has showed me
-that I like that. It may sound backwards to a lot of people, but the computer has always been a tool, not an
-entertainment device (gaming being the exception). My phone may eventually be the only always-connected device, but even
-then, I turn off all notifications and keep it silent.</p>
-
-<h3>Let the Eurotrip Begin</h3>
-
-<p>After a 140 euro ride through immigration and into Antwerp, I can begin the next phase of my journey!</p>
-
-<p><strong>Update</strong> I was later interviewed by the BBC and the video is <a href="http://www.bbc.com/travel/feature/20140908-taking-cruises-by-way-of-cargo-ship">online</a> now.</p>
 ]]></content>
   </entry>
   

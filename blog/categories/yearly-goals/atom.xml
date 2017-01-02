@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Yearly-goals | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/yearly-goals/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2016-08-21T11:28:29+01:00</updated>
+  <updated>2017-01-02T15:04:53+00:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Resolutions for 2017]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2017/"/>
+    <updated>2017-01-02T13:07:40+00:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2017</id>
+    <content type="html"><![CDATA[<p>2016 was the first time I accomplished my goal!</p>
+
+<h2>Reflections on <a href="/my-resolutions-for-2016/">2016</a></h2>
+
+<ul>
+<li><strong>Write in a Journal</strong> &ndash; This one I am marking as a success.  Here are the (manually) calculated stats:</li>
+</ul>
+
+
+<p><code>
+Jan 9
+Feb 3
+Mar 12
+Apr 9
+May 15
+Jun 9
+Jul 13
+Aug 14
+Sep 12
+Oct 14
+Nov 9
+Dec 12
+</code></p>
+
+<p>I wrote <strong>143</strong> journal entries over the course of 2016.  After counting them all up there are far fewer than I thought,
+but the frequency is actually more consistent than I thought. I had imagined I had more months that only had a couple
+entries. I see this as my first step in writing more and hopefully bringing it to this website. Seeing that my
+journalling actually increased by the end of the year makes me really happy. I&rsquo;m going to continue this in 2017 for
+sure.</p>
+
+<h2>Goal for 2017:</h2>
+
+<p>In the spirit of keeping my goal(s) simple and achievable I&rsquo;m going to stick to a similar strategy as 2016.</p>
+
+<h3>Perform 1 Perfect Pullup</h3>
+
+<p>It&rsquo;s been many years since I&rsquo;ve been able to do a pullup. My body finally feels recovered from my previous injuries, but
+it&rsquo;s certainly weaker than it&rsquo;s ever been. My <a href="/health/">health dashboard</a> has already helped me reach a gym
+going habit, but now I need to direct this routine to a different end. I cannot do the physical things I used to because
+I&rsquo;ve gotten so out of shape and my previous focus on running put too much pressure on my weak body.</p>
+
+<h3>Summary</h3>
+
+<p>As I grow older, the length of a year seems much shorter. I wonder if my previous <a href="/yearly-goals/">goals</a> were a result of not
+acknowledging how much I can possibly do in that time frame.</p>
+
+<p><em>This post took 1 pomodoro to complete</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2016]]></title>
@@ -333,58 +388,6 @@ crucial for making remoting work on a larger scale.</p>
 <p>The last few years I&rsquo;ve learned a lot about managing my goals. I&rsquo;m doing my best to keep my goals
 <a href="http://en.wikipedia.org/wiki/SMART_criteria">SMART</a> so that I can actually achieve them. We&rsquo;ll see how things turn
 out 365 days from now!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My Developer Resolutions for 2012]]></title>
-    <link href="http://scottmuc.com/blog/development/my-developer-resolutions-for-2012/"/>
-    <updated>2011-12-31T10:45:00+00:00</updated>
-    <id>http://scottmuc.com/blog/development/my-developer-resolutions-for-2012</id>
-    <content type="html"><![CDATA[<p>An interesting thing about 2011 is that my resolutions from earlier became quite prominent. Given that 8 months of 2011 were spent on a large account with less technical focus, I&rsquo;m amazed at some of the technical things that I&rsquo;ve done.</p>
-
-<!-- more -->
-
-
-<h2>Reflections on 2011 and carry over from 2010:</h2>
-
-<ul>
-<li>Mouseless Computing (2010) &ndash; I think the practice is paying off as a colleague of mine told me &ldquo;You make Windows fly!&rdquo;, and he&rsquo;s a savvy keyboard only Mac OSX user.</li>
-<li>OSS participation (2010) &ndash; I started the following projects:
-
-<ul>
-<li>Pester &ndash; I&rsquo;ve blogged about it and it&rsquo;s getting some traction out there in the wild. It&rsquo;s a spec based testing framework for Powershell. The first implementation was written on a hung-over new years day!</li>
-<li>yari &ndash; A Windows ruby version manager. Currently being used by a very large client. I wrote this on a whim, because I thought I could do better than what was previously implemented. Turned out the client liked this a lot more and decided to adopt it right away.</li>
-<li>YDeliver &ndash; The beginnings of a Continuous Delivery framework for .Net projects.</li>
-<li>Misc &ndash; Submitted a patch to OpenMRS, a bug report to Puppet, directory additions to PSGet</li>
-</ul>
-</li>
-<li>Learn VIM (2011) &ndash; This went really well. I&rsquo;m definitely no expert at this point but I&rsquo;m continuoully trying to learn new things. I&rsquo;ve setup a github project for my vimfiles which is a fun way to share my tweaks.</li>
-<li>Develop an Android App (2011) &ndash; Nope, didn&rsquo;t do anything here. It&rsquo;s actually dropped off my radar as it&rsquo;s not really something I&rsquo;m interested in anymore</li>
-<li>Learn a server provisioning automation tool (2011) &ndash; I barely get a passing grade on this one. I&rsquo;ve yet to use any of these tools (chef, puppet, etc&hellip;) on a project. In my spare time I&rsquo;ve tried them out and understand the gist of how they work. I do question how necessary they are though. Unless you&rsquo;re doing massive scaling it seems like they just add extra overhead for simple scenarios.</li>
-<li>Move this blog (2011) &ndash; This will be my last post on this blog engine. I&rsquo;ve currently setup Octopress and have my new blog ready on github. I just have the task of migrating over all posts (and deleting some). I have more to say about Octopress soon.</li>
-</ul>
-
-
-<h2>Development Goals for 2012:</h2>
-
-<p>2012 is going to be different for me development wise. I&rsquo;m finding myself less focused on technical issues and more on system, culture, and people goals. I&rsquo;m striving to become more of a leader (clear sign of post-technical syndrome) and I think that&rsquo;s reflected in my resolutions for this year.</p>
-
-<h3>Stop reading comments</h3>
-
-<p>Often when I read comments online I want to get those precious minutes of my life back. I favour a discussion over pointless online kibitzing any day. Now of course every scenario is different. The probability of reading comments on Youtube or on some news website is very low. On a blog post about some technical issue, I&rsquo;ll likely read the comments.</p>
-
-<h3>No client work when away from client</h3>
-
-<p>Being away from the client is not a place in space problem, it&rsquo;s a frame of mind issue. I want to develop some skills in removing myself from the client mentally. This is purely for my own sanity and likely for the sanity of those around me. I&rsquo;m finding myself disconnected from my personal goals and more focused at facilitating the goals of whom I am working for. One thing I&rsquo;ve learned by being on the road is that ME time is harder to come by. As an introverted individual, that ME time is how I recharge.</p>
-
-<h3>Complete YDeliver</h3>
-
-<p>Hey, an actual technical resolution! By the end of 2012 I want to know that at least 5 projects are using YDeliver. It&rsquo;s incomplete right now and I need to get off my arse and complete some of the &ldquo;last mile&rdquo; stories to get it out there. I also don&rsquo;t want to be the single committer to the project. This is a call for help for anyone interested in participating! I have some very strong opinions on how some of the pieces should work together and I will be happy to provide guidance.</p>
-
-<h3>Summary</h3>
-
-<p>Yeah, so this is probably less interesting than previous years. I&rsquo;m actually very happy on how my previous resolutions have developed and are continuing to get better and better. In previous years I mentioned developing something on a completely different stack (like Ruby on Rails). Next year I&rsquo;m starting a new project working on a small application that involves iOS and ruby development. So work is going to force some of my previous resolutions on me.</p>
 ]]></content>
   </entry>
   
