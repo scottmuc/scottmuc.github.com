@@ -3,6 +3,7 @@ layout: post
 title: "OSX Workstation Setup Automation"
 date: 2016-10-11 15:45:48 +0100
 comments: true
+published: false
 categories:
 ---
 
