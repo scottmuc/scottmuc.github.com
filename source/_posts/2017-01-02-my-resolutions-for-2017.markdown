@@ -55,7 +55,7 @@ I've gotten so out of shape and my previous focus on running put too much pressu
 As I grow older, the length of a year seems much shorter. I wonder if my previous [goals][goals] were a result of not
 acknowledging how much I can possibly do in that time frame.
 
-[goals]: /yearly-goals/
+[goals]: /blog/categories/yearly-goals/
 
 *This post took 1 pomodoro to complete*
 
