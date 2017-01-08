@@ -345,10 +345,21 @@ I'm already becoming a huge fan!
 {% img right /images/blog/podcasts/sysk.jpg 200 %}
 An exceptional podcast hosted by two charismatic people. Normally I find tangents in podcasts to be distracting, but for
 some reason these two often make it worthwhile. They cover a myriad of topics and they make the most mundane seem
-fascinating. I think I might have too many favourites to list.
+fascinating. There are many excellent episodes but the following ones really stood out for me.
+
+**Favourites:**
+
+* The two part series ([episode 1][grimm1] [episode 2][grimm2]) is a wonderful explanation of the origins of fairy tales
+  and how dark the originally were. The Juniper Tree one is quite horrifying.
+* Another two part series one [male puberty][male-puberty] and [female puberty][female-puberty] discusses the awkward
+  phase of life that we all had with great clarity.
 
 [podcast-sysk]: http://www.stuffyoushouldknow.com/
 [podcast-sysk-rss]: http://www.howstuffworks.com/podcasts/stuff-you-should-know.rss
+[grimm1]: http://www.stuffyoushouldknow.com/podcasts/the-dark-origins-of-fairy-tales.htm
+[grimm2]: http://www.stuffyoushouldknow.com/podcasts/how-grimms-fairy-tales-work.htm
+[male-puberty]: http://www.stuffyoushouldknow.com/podcasts/josh-and-chuck-make-it-through-male-puberty.htm
+[female-puberty]: http://www.stuffyoushouldknow.com/podcasts/chuck-and-josh-make-it-through-female-puberty.htm
 
 - - -
 
