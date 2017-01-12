@@ -1,16 +1,14 @@
 ---
 layout: post
 title: "OSX Workstation Setup Automation"
-date: 2016-10-11 15:45:48 +0100
+date: 2017-01-11 15:45:48 +0100
 comments: true
-published: false
+published: true
 categories:
 ---
 
-**DISCLAIMER**
-
-**Try out at your own trisk. This setup is not meant to be copy+paste reusable. It's about keeping MY
-workstation under source control, and this strategy may destroy the machine you wish to attempt this on.**
+<span style="color: red;">**DISCLAIMER Try out at your own trisk. This setup is not meant to be copy+paste reusable. It's about keeping MY
+workstation under source control, and this strategy may destroy the machine you wish to attempt this on.**</span>
 
 ## Objective
 
@@ -21,7 +19,7 @@ production, your workstation should be treated like a [hotel room][phil-cattle-v
 
 [phil-cattle-vs-pets]: https://twitter.com/pcalcado/status/759218156493795329
 
-## My Workstation
+## My Setup
 
 Why bother with this for my personal machine? It serves as a good disaster recovery method. Using this automation for
 the last several years (several laptops + multiple laptop repaves) has given me a lot of confidence that I know what
@@ -31,92 +29,68 @@ There are plenty of [tools](#existing-tools) that help with this process. What I
 approach, but I hope the simplicity of it will be attractive to those who have struggled trying to get other frameworks
 to work.
 
-With this automation, you get the following:
+To see what's included in this tooling take a look at the [Inventory][automation-inventory]. Essentially you get shell configuration, some OSX tweaks, and a bunch of software installed.
 
-* [Dot files](#dot-files)
-* [`~/bin`](#home-bin)
-* [Directory skeleton](#home-skeleton)
-* [Homebrew automation](#homebrew)
-* [Awkward OSX settings configuration](#osx-settings)
-* [OSX software updates]((#software-updates)
+[automation-inventory]: https://github.com/scottmuc/osx-homedir#so-whats-included
 
 ## There's No Place Like Home
 
+[My workstation automation][osx-homedir] is cloned straight into `$HOME` on a fresh machine. This is a bit different than a lot of the other [dotfile repositories][gh-dotfiles] you'll see on GitHub.
+
 {% img center /images/blog/gh-dotfiles.png %}
 
-I've found that many people have [dotfile repositories][gh-dotfiles] that get installed by their scripting. This adds
-a level of complexity and absraction that is not really necessary. Cloning straight into home removes a lot of moving parts.
-All of the sudden all the abstractions and scripts that go into setting up your home directory disappear. 
-If you can successfully transform home into a repository you have a simple and easy way of maintaining dot files,
-and scripts to support your day-to-day activities. You've essentially already completed the first
-step in getting your machine setup. Also, because it's a repository, when you delete a file, it goes away.
-It's inherently an idempotent system!
+`$HOME` as a repository was heavily influenced by [Gary Bernhardt's dot files](https://github.com/garybernhardt/dotfiles). I really liked the simplicity of not having extra scripting to create a bunch of symlinks. Once you have your home directory cloned, you're already quite far down the path of having your machine the way you want it. Because it's a repository, when you delete a file, it goes away and rerunning your setup will not restore that file. It's inherently an idempotent system!
 
-One type of complexity that comes with using re-usable components is that there's almost always a shim that allows you
-add your own customisations. For my personal machine, this is quite unneccessary and I want to minimize the number of
-mechanisms used to actually configure my machine.
+Another feature I like about Gary's setup is that uses `~/bin` scripts rather than liberal use of aliases in his shell profile. This way you really minimize the configuration of your shell. I personally dislike shell plugin frameworks like [bash-it][bash-it] and [oh-my-zsh][oh-my-zsh] as I believe they add complexity where it really isn't warranted. Keep things simple and you don't need frameworks to manage stuff.
 
-Rather than adding a `bash` plugin manager, I favour adding scripts to `~/bin` (which is added to `PATH`). This keeps
-the dependency on `bash` quite small and hence leaves the `.bashrc` pretty lean.
-
-So this is why [my workstation automation][osx-homedir] is cloned straight into `$HOME` on a fresh machine:
-
-```
-# Assuming my keys are loaded using the process described in the next section
-sudo xcodebuild -license
-git init
-git remote add origin git@github.com:scottmuc/osx-homedir.git
-git fetch --all
-git checkout master
-bin/coalesce_this_machine
-```
+That being said, not using a framework is accepting the trade-off of not getting the benefit of community updates. I personally like watching the community for inspiration, not for automatically ingesting their updates.
 
 [osx-homedir]: https://github.com/scottmuc/osx-homedir/
 [gh-dotfiles]: https://github.com/search?utf8=%E2%9C%93&q=dotfiles
+[bash-it]: https://github.com/Bash-it/bash-it
+[oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
 
 ## Awkward OSX Settings
 
-My previous iteration of this automation was 100% `sprout` based. If you look [closely][sprout-cmd] you will see that this
-automation still invokes `sprout`. I've gone the route of using `sprout` as a collection of OSX configurations. I could
-maintain some of these as shell scripts, but I feel ok having this additional complexity and added dependency.
+My previous iteration of this automation was 100% [pivotal-sprout][pivotal-sprout] based. If you look [closely][sprout-cmd] you will see that this
+automation still invokes sprout. I've gone the route of using it as a collection of OSX configurations. I could maintain some of these as shell scripts, but I feel ok having this additional complexity and added dependency.
 
+The configuration provided by sprout is listed in the [Inventory][automation-inventory].
+
+[pivotal-sprout]: https://github.com/pivotal-sprout/sprout-wrap
 [sprout-cmd]: https://github.com/scottmuc/osx-homedir/blob/9e9c6bee3e24b481c06ba0cfaffdb0e3b6ac93ff/bin/coalesce_this_machine#L14-L21
 
 ## What Could Possibly Go Wrong
 
-Workstation automation can be extremely flaky and that's due to the nature of it fetching dependencies from all sorts
-of locations. This drives home the reason for needing to run it frequently. I can pretty much guarantee that the code
-that worked a month ago will not work today. Packages change name, or download locations change. This can result in a
-lot of mistrust of the automation. This leads to the following...
+Workstation automation can be extremely flaky and that's due to the nature of it fetching dependencies from all sorts of locations. This drives home the reason for needing to run it frequently. I can pretty much guarantee that the code that worked a month ago will not work today. Packages change name, or download locations change. This can result in a lot of mistrust of the automation.
+
+Having a good routine of wiping your machine and setting up from scratch is a good way to ensure it all still works. I used to be the type that was proud of how long they could keep their workstation running and would do OS upgrades (Windows, OSX, and FreeBSD). Now I feel much more satisfied by destroying and recreating.
 
 ## Duplication is OK
 
 Choosing when to vendor something is an important decision to make around construction your setup. The more you vendor,
 the more reproducable your automation will be. The more you vendor, the harder it is to keep up to date with changes.
 
-Something that took me a while to come to terms with is the amount of duplication that will exist. There does not exist
-one true workstation to rule them all, but it is important to figure out what level of "sameness" is needed for your
-development needs. I have my personal workstation automation, but I also work with a team-wide system for workstation
-automation. I believe the team level is the largest group you can realistically manage without creating something too
-complex of manage. Your automation is going to be a somewhat handcrafted piece of art, but it's going to be a simple piece
+The [OSX installer][bkuhlmann-setup] steps is something I'd be willing to copy and paste into my own repository. Vendoring `vim` plugins is something I'm in favour of doing as well. The principle is that the fewer moving parts there are, the better. Even with what I believe to be a simple workstation setup, there's still many external facing pieces that will cause failure or tricky bugs to appear.
+
+There does not exist one true workstation to rule them all. Neither is there one workstation automation method to rule them all. Your automation is going to be a somewhat handcrafted piece of art, but it's going to be a simple piece
 of art (hopefully).
 
-The [OSX installer][bkuhlmann-setup] steps is something I'd be willing to copy and paste into my own repository. The `vim`
-[pathogen][pathogen] plugin manager is vendored as are the plugins (albeit as submodules, which means they could still
-fail).
+## Replicating This Strategy
 
-[pathogen]: https://github.com/scottmuc/osx-homedir/blob/master/.vim/autoload/pathogen.vim
+Attempting this kind of automation seems to be best grown and not copied. If you're starting from scratch, the first step is running `git init` in your `$HOME` dir, adding 1 precious dot file, and pushing that somewhere off your machine.
 
 ## Summary
 
-In the end, I have a setup I'm relatively happy with. It turns out that my implementation looks oddly similar to
-Gerhard's, a colleague of mine.
+In the end, I have a setup I'm relatively happy with. It turns out that my implementation looks oddly similar to [Gerhard's][gerhards-setup], a colleague of mine.
+
+This post still took way too long to write making me think that I haven't made it simple enough though. There's still a lot of moving parts and many concepts I didn't dive into at all (e.g.: what about my data).
 
 <hr />
 
 ## Appendix
 
-1. <span id="existing-tools">**Existing tools**</span>
+1. <span id="existing-tools">**Other Tools and Strategies**</span>
     * [Sprout][sprout-wrap] - Intially this was called `pivotal_workstation` but transformed into a slightly more
       configurable and modular system. It uses `chef` under the covers and is quite comprehensive.
     * [Boxen][boxen] - Created by GitHub, this tool uses `puppet` under the covers.
@@ -133,13 +107,20 @@ Gerhard's, a colleague of mine.
     [Gerhard Lazu's][gerhards-setup] workstation setup. He replaced **sprout** with a collection to
     shell scripts that I may be tempted to migrate towards. But one thing at a time; that's an important principle around
     working on this kind of stuff. There are a lot of moving parts and it'll only prove itself out over time.
+    
+    [Joey Hess][joeyh-web] has been doing this since 2000 using CVS (then SVN, then git).
 
-2. You are probably going to want to update your automation. In order to be able to push your changes you'll need to
+2. **SSH keys**
+
+	You are probably going to want to update your code. In order to be able to push your changes to GitHub you'll need to
    have your keys. For this, I follow Tammer Saleh's excellent post on [building an encrypted usb drive for your keys][tammer-usb].
 
-3. Technically you cannot start from scratch because you need at least an existing OSX machine to create the installer USB
+
+3. **Baseline OS**
+
+	Technically you cannot start from scratch because you need at least an existing OSX machine to create the installer USB
    stick. To do this, I followed the instructions on Brooke Kuhlmann's [workstation automation][bkuhlmann-setup]\*
-   repository. Though, I'll probably copy this information into my own repository for reasons I'll explain later.
+   repository.
 
    When following this process, I reformat the machines disk with an encrypted volume and always create my new machine with
    a different username (to ensure my automation doesn't make too many assumptions on pathes).
@@ -155,6 +136,7 @@ Gerhard's, a colleague of mine.
 [osxc]: https://osxc.github.io/
 [babushka]: https://babushka.me/
 [gerhards-setup]: https://github.com/gerhard/setup
+[joeyh-web]: http://joeyh.name/svnhome/ 
 
 **For fun, here's the complete output of the latest run:**
 
@@ -382,5 +364,5 @@ Since softwareupdate ran recently, not going to do anything
 remove /Users/merry/.softwareupdate_indicator to force an update
 ```
 
-*This post took 9 pomodoros to complete (more time than it takes to setup a laptop from scratch)*
+*This post took 12 pomodoros to complete (more time than it takes to setup a laptop from scratch)*
 
