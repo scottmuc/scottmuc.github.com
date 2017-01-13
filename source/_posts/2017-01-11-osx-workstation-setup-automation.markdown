@@ -69,7 +69,7 @@ Having a good routine of wiping your machine and setting up from scratch is a go
 ## Duplication is OK
 
 Choosing when to vendor something is an important decision to make around construction your setup. The more you vendor,
-the more reproducable your automation will be. The more you vendor, the harder it is to keep up to date with changes.
+the more reproducible your automation will be. The more you vendor, the harder it is to keep up to date with changes.
 
 The [OSX installer][bkuhlmann-setup] steps is something I'd be willing to copy and paste into my own repository. Vendoring `vim` plugins is something I'm in favour of doing as well. The principle is that the fewer moving parts there are, the better. Even with what I believe to be a simple workstation setup, there's still many external facing pieces that will cause failure or tricky bugs to appear.
 
