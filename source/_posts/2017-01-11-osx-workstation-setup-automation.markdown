@@ -7,12 +7,12 @@ published: true
 categories:
 ---
 
-<span style="color: red;">**DISCLAIMER Try out at your own trisk. This setup is not meant to be copy+paste reusable. It's about keeping MY
+<span style="color: red;">**DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It's about keeping MY
 workstation under source control, and this strategy may destroy the machine you wish to attempt this on.**</span>
 
 ## Objective
 
-IT infrastructure has gone done a long journey of automating all of the things. We have automated deployments, production
+IT infrastructure has gone down a long journey of automating all of the things. We have automated deployments, production
 environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes. The
 developer workstation is another story. Often, the developer workstation is a finely crafted machine. Just like
 production, your workstation should be treated like a [hotel room][phil-cattle-vs-pets] rather than an owned residence.
