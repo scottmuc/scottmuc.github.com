@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2017-01-12T22:02:52+00:00</updated>
+  <updated>2017-01-21T15:21:13+00:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -18,12 +18,12 @@
     <link href="http://scottmuc.com/osx-workstation-setup-automation/"/>
     <updated>2017-01-11T14:45:48+00:00</updated>
     <id>http://scottmuc.com/osx-workstation-setup-automation</id>
-    <content type="html"><![CDATA[<p><span style="color: red;"><strong>DISCLAIMER Try out at your own trisk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
+    <content type="html"><![CDATA[<p><span style="color: red;"><strong>DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
 workstation under source control, and this strategy may destroy the machine you wish to attempt this on.</strong></span></p>
 
 <h2>Objective</h2>
 
-<p>IT infrastructure has gone done a long journey of automating all of the things. We have automated deployments, production
+<p>IT infrastructure has gone down a long journey of automating all of the things. We have automated deployments, production
 environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes. The
 developer workstation is another story. Often, the developer workstation is a finely crafted machine. Just like
 production, your workstation should be treated like a <a href="https://twitter.com/pcalcado/status/759218156493795329">hotel room</a> rather than an owned residence.</p>
@@ -68,7 +68,7 @@ automation still invokes sprout. I&rsquo;ve gone the route of using it as a coll
 <h2>Duplication is OK</h2>
 
 <p>Choosing when to vendor something is an important decision to make around construction your setup. The more you vendor,
-the more reproducable your automation will be. The more you vendor, the harder it is to keep up to date with changes.</p>
+the more reproducible your automation will be. The more you vendor, the harder it is to keep up to date with changes.</p>
 
 <p>The <a href="https://github.com/bkuhlmann/osx#os-x-el-capitan">OSX installer</a> steps is something I&rsquo;d be willing to copy and paste into my own repository. Vendoring <code>vim</code> plugins is something I&rsquo;m in favour of doing as well. The principle is that the fewer moving parts there are, the better. Even with what I believe to be a simple workstation setup, there&rsquo;s still many external facing pieces that will cause failure or tricky bugs to appear.</p>
 
@@ -2012,9 +2012,21 @@ some of the other business/economic podcasts.</p>
 <h3><a href="http://www.slate.com/articles/podcasts/slate_money.html">Slate Money</a><a href="http://feeds.feedburner.com/SlateMoney"><img src="http://scottmuc.com/images/feed-icon-28x28.png" class="podcast-image" /></a></h3>
 
 <p><img class="right" src="http://scottmuc.com/images/blog/podcasts/slate-money.png" width="200">
-Yet another podcast that talks about world events and how they affect the economy. Each episode covers 2-4 topics. I
-don&rsquo;t always listen to this one, but when a new episode comes in I&rsquo;ll look at the contents of the episode and choose to
-delete it if it isn&rsquo;t offering much more than other podcasts have covered.</p>
+Yet another podcast that talks about world events and how they affect the economy. Each episode covers 2-4 topics. This
+is starting become one of my required listening podcasts to stay informed about current events. The hosts discuss the
+economics in a way that&rsquo;s targetted for people who don&rsquo;t know all the lingo.</p>
+
+<p><strong>Favourites:</strong></p>
+
+<ul>
+<li><a href="http://www.slate.com/articles/podcasts/slate_money/2016/08/slate_money_takes_on_epipen_passive_investing_and_hedge_funds.html">The Worse than Marxism Edition</a> &ndash; As someone interested (and doing) passive investing, I wanted to
+hear what they had to say about it.</li>
+<li><a href="http://www.slate.com/articles/podcasts/slate_money/2016/08/slate_money_on_three_of_today_s_top_online_products.html">The Product Edition</a> &ndash; Anything with Paul Ford is great to listen to. He has a nice down-to-earth
+style of describing what Product Development is all about.</li>
+<li><a href="http://www.slate.com/articles/podcasts/slate_money/2016/06/slate_money_on_microsoft_s_acquisition_of_linkedin.html">The I&rsquo;d Like to Add You to my Professional Network Edition</a> &ndash; Another Paul Ford episode and it was
+interesting to hear the conversation about the reasoning as to why such a massive purchase could happen.</li>
+</ul>
+
 
 <hr />
 
