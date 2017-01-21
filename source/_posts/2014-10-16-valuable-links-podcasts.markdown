@@ -230,10 +230,22 @@ some of the other business/economic podcasts.
 ###[Slate Money][podcast-slate-money][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-slate-money-rss]
 
 {% img right /images/blog/podcasts/slate-money.png 200 %}
-Yet another podcast that talks about world events and how they affect the economy. Each episode covers 2-4 topics. I
-don't always listen to this one, but when a new episode comes in I'll look at the contents of the episode and choose to
-delete it if it isn't offering much more than other podcasts have covered.
+Yet another podcast that talks about world events and how they affect the economy. Each episode covers 2-4 topics. This
+is starting become one of my required listening podcasts to stay informed about current events. The hosts discuss the
+economics in a way that's targetted for people who don't know all the lingo.
 
+**Favourites:**
+
+* [The Worse than Marxism Edition][worse-marxism] - As someone interested (and doing) passive investing, I wanted to
+  hear what they had to say about it.
+* [The Product Edition][product-edition] - Anything with Paul Ford is great to listen to. He has a nice down-to-earth
+  style of describing what Product Development is all about.
+* [The I'd Like to Add You to my Professional Network Edition][linkedin-edition] - Another Paul Ford episode and it was
+  interesting to hear the conversation about the reasoning as to why such a massive purchase could happen.
+
+[worse-marxism]: http://www.slate.com/articles/podcasts/slate_money/2016/08/slate_money_takes_on_epipen_passive_investing_and_hedge_funds.html
+[product-edition]: http://www.slate.com/articles/podcasts/slate_money/2016/08/slate_money_on_three_of_today_s_top_online_products.html
+[linkedin-edition]: http://www.slate.com/articles/podcasts/slate_money/2016/06/slate_money_on_microsoft_s_acquisition_of_linkedin.html
 [podcast-slate-money]: http://www.slate.com/articles/podcasts/slate_money.html
 [podcast-slate-money-rss]: http://feeds.feedburner.com/SlateMoney
 
