@@ -411,6 +411,23 @@ and it'll shed some light on us crazy humans.
 
 - - -
 
+###[The Human Zoo][human-zoo][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][human-zoo-rss]
+
+{% img right /images/blog/podcasts/humanzoo.jpg 200 %}
+Over time I have really started enjoying the topic of human behaviour and what makes us who we are.
+
+**Favourites:**
+
+* [Trust me... I'm an expert][expert]
+* [Perfect people][perfect-people]
+
+[human-zoo]: http://www.bbc.co.uk/programmes/b036tbly
+[human-zoo-rss]: http://www.bbc.co.uk/programmes/b036tbly/episodes/downloads.rss
+[expert]: http://www.bbc.co.uk/programmes/b07j4ppt
+[perfect-people]: http://www.bbc.co.uk/programmes/b060zr3d
+
+- - -
+
 ###[Hello Internet][podcast-hello-internet][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-hello-internet-rss]
 
 {% img right /images/blog/podcasts/hellointernet.png 200 %}
