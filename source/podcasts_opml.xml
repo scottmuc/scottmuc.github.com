@@ -8,29 +8,31 @@
       <outline type="rss" text="Song Exploder" xmlUrl="http://songexploder.libsyn.com/rss" />
       <outline type="rss" text="Benjamen Walker’s Theory of Everything" xmlUrl="http://feeds.prx.org/toe" />
       <outline type="rss" text="Slate Money" xmlUrl="http://feeds.feedburner.com/SlateMoney" />
-      <outline type="rss" text="Peter Day's World of Business" xmlUrl="http://www.bbc.co.uk/programmes/p02nrwfk/episodes/downloads.rss" />
-      <outline type="rss" text="London School of Economics: Public lectures and events" xmlUrl="http://www.lse.ac.uk/assets/richmedia/webFeeds/publicLecturesAndEvents_iTunesStore.xml" />
-      <outline type="rss" text="The Guardian Long Read" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:29668643/sounds.rss" />
+      <outline type="rss" text="Philosophize This!" xmlUrl="http://philosophizethis.libsyn.com/rss" />
       <outline type="rss" text="Planet Money" xmlUrl="http://www.npr.org/rss/podcast.php?id=510289" />
-      <outline type="rss" text="FT Money Show" xmlUrl="http://rss.acast.com/ft-money-show" />
+      <outline type="rss" text="Placemakers" xmlUrl="http://feeds.feedburner.com/SlatePlacemakers" />
+      <outline type="rss" text="Software Engineering Radio - The Podcast for Professional Software Developers" xmlUrl="http://feeds.feedburner.com/se-radio" />
       <outline type="rss" text="FT Alphachat" xmlUrl="http://rss.acast.com/ft-alphachat" />
-      <outline type="rss" text="Causes and Things" xmlUrl="http://www.lse.ac.uk/assets/richmedia/webFeeds/causesAndThings_iTunesRssAudioOnlyLatest300.xml" />
       <outline type="rss" text="Stuff You Should Know" xmlUrl="http://www.howstuffworks.com/podcasts/stuff-you-should-know.rss" />
       <outline type="rss" text="The Bottom Line" xmlUrl="http://www.bbc.co.uk/programmes/b006sz6t/episodes/downloads.rss" />
+      <outline type="rss" text="Radiolab" xmlUrl="http://feeds.wnyc.org/radiolab" />
       <outline type="rss" text="Conversations with Tyler" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:146429914/sounds.rss" />
-      <outline type="rss" text="Hidden Brain" xmlUrl="http://www.npr.org/rss/podcast.php?id=510308" />
+      <outline type="rss" text="50 Things That Made the Modern Economy" xmlUrl="http://www.bbc.co.uk/programmes/p04b1g3c/episodes/downloads.rss" />
+      <outline type="rss" text="Hidden Brain" xmlUrl="https://www.npr.org/rss/podcast.php?id=510308" />
       <outline type="rss" text="The Allusionist" xmlUrl="http://feeds.theallusionist.org/Allusionist" />
       <outline type="rss" text="Analysis" xmlUrl="http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss" />
-      <outline type="rss" text="Hello Internet" xmlUrl="http://feeds.podtrac.com/rZy85ymZYZc$" />
       <outline type="rss" text="Slate Presents Lexicon Valley" xmlUrl="http://feeds.feedburner.com/SlateLexiconValley" />
+      <outline type="rss" text="Open Account with SuChin Pak" xmlUrl="http://feeds.feedburner.com/OpenAccount" />
       <outline type="rss" text="All Songs Considered" xmlUrl="http://www.npr.org/rss/podcast.php?id=510019&amp;uid=n1qe4e85742c986fdb81d2d38ffa0d5d53" />
       <outline type="rss" text="More or Less: Behind the Stats" xmlUrl="http://www.bbc.co.uk/programmes/p02nrss1/episodes/downloads.rss" />
-      <outline type="rss" text="The Reboot Podcast" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:106956234/sounds.rss" />
+      <outline type="rss" text="Hard Pass" xmlUrl="http://rss.acast.com/hardpass" />
+      <outline type="rss" text="Track Changes" xmlUrl="http://trackchanges.libsyn.com/rss" />
       <outline type="rss" text="Freakonomics Radio" xmlUrl="http://feeds.feedburner.com/freakonomicsradio" />
-      <outline type="rss" text="Futility Closet" xmlUrl="http://feedpress.me/futilitycloset" />
+      <outline type="rss" text="Podcast – Software Engineering Daily" xmlUrl="http://softwareengineeringdaily.com/category/podcast/feed/" />
       <outline type="rss" text="99% Invisible" xmlUrl="http://feeds.99percentinvisible.org/99percentinvisible?" />
       <outline type="rss" text="EconTalk" xmlUrl="http://files.libertyfund.org/econtalk/EconTalk.xml" />
-      <outline type="rss" text="Radio Spaetkauf - Berlin's English Podcast" xmlUrl="http://feeds.feedburner.com/RadioSpaetkauf" />
+      <outline type="rss" text="Financial Independence Podcast - Early Retirement | Investing | Real Estate | Entrepreneurship" xmlUrl="http://feeds.feedburner.com/MadFientistPodcast" />
+      <outline type="rss" text="Why Are Computers" xmlUrl="http://whyarecomputers.com/feed.rss" />
       <outline type="rss" text="FT World Weekly" xmlUrl="http://rss.acast.com/ft-world-weekly" />
     </outline>
   </body>
