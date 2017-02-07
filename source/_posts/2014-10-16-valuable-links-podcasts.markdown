@@ -356,18 +356,6 @@ fascinating. There are many excellent episodes but the following ones really sto
 
 - - -
 
-###[Futility Closet][podcast-futility-closet][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-futility-closet-rss]
-
-{% img right /images/blog/podcasts/futilitycloset.png 200 %}
-A show about curious events. They did a neat thing where they perform a lateral thinking puzzle with each episode. It
-reminds me that sometimes truth is stranger than fiction and to always be curious about what is laid out in front of
-you. I've only listened to a few episodes so I don't have any favourites to list at the moment in time.
-
-[podcast-futility-closet]: http://www.futilitycloset.com/category/podcast/
-[podcast-futility-closet-rss]: http://feedpress.me/futilitycloset
-
-- - -
-
 ###[Hidden Brain][podcast-npr-hidden-brain][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-npr-hidden-brain-rss]
 
 {% img right /images/blog/podcasts/npr-hiddenbrain.jpg 200 %}
@@ -721,6 +709,18 @@ show a bit deeper than something like Freakanomics or Planet Money.
 [norway-tax]: http://www.bbc.co.uk/programmes/p03qg5rq
 [podcast-bbc-pdwob]: http://www.bbc.co.uk/programmes/p02nrwfk
 [podcast-bbc-pdwob-rss]: http://www.bbc.co.uk/programmes/p02nrwfk/episodes/downloads.rss
+
+- - -
+
+###[Futility Closet][podcast-futility-closet][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-futility-closet-rss]
+
+{% img right /images/blog/podcasts/futilitycloset.png 200 %}
+A show about curious events. They did a neat thing where they perform a lateral thinking puzzle with each episode. It
+reminds me that sometimes truth is stranger than fiction and to always be curious about what is laid out in front of
+you. I've only listened to a few episodes so I don't have any favourites to list at the moment in time.
+
+[podcast-futility-closet]: http://www.futilitycloset.com/category/podcast/
+[podcast-futility-closet-rss]: http://feedpress.me/futilitycloset
 
 - - -
 
