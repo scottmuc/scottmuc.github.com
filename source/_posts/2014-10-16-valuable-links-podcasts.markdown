@@ -232,6 +232,18 @@ economics in a way that's targetted for people who don't know all the lingo.
 
 - - -
 
+###[Hard Pass][hardpass][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][hardpass-rss]
+
+{% img right /images/blog/podcasts/hardpass.jpg 200 %}
+I learned about Linette Lopez from the Slate Money podcast and really liked her style. She's punchy
+and tells it like it is. Hard Pass is a good low-dose entertaining podcast about the business and
+econmics news of the day. The episodes are so short that it's easy to digest any time.
+
+[hardpass]: https://itunes.apple.com/us/podcast/hard-pass/id1090135741?mt=2
+[hardpass-rss]: http://rss.acast.com/hardpass
+
+- - -
+
 ### Politics and World News
 
 ###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-analysis-rss]
