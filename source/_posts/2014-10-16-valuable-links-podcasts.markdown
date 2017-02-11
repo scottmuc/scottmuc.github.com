@@ -397,6 +397,18 @@ Over time I have really started enjoying the topic of human behaviour and what m
 
 - - -
 
+###[History of the World in 100 Objects][history-of-world][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][history-of-world-rss]
+
+{% img right /images/blog/podcasts/history-of-world.jpg 200 %}
+An excellent history of the world in small bite sized chunks. The format gives you a really good perspective of how
+long civilization takes to change. I can only imagine how much time it took to determine which objects to use
+from the last century. While listening to this I realized how much bias I have around change being technical.
+
+[history-of-world]: http://www.bbc.co.uk/programmes/b00nrtd2
+[history-of-world-rss]: http://www.bbc.co.uk/programmes/b00nrtd2/episodes/downloads.rss
+
+- - -
+
 ## Music
 
 ###[CBC Radio 3][podcast-cbcradio3][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-cbcradio3-rss]
