@@ -6,6 +6,7 @@ comments: true
 categories:
 ---
 
+
 Over the last month I had the wonderful opportunity of learning all about Irish whiskey. It was held in the
 [liquor store][mitchell-and-son] in [The CHQ Building][the-chq] (where I work). If you see them offering it
 again I highly recommend it! Not only did I learn a lot about Irish whiskey, I learned a lot about whiskey
@@ -28,7 +29,7 @@ loved their competitors liquid and they were happy to be a part of the booming I
 disappointed about the world view of Irish whiskey. Scotch is perceived as the ultimate whiskey and that Irish whiskey
 is only used for shots (and usually only Jameson).
 
-Before we begin let's explain a few key words:
+TODO need to tie this to the next section
 
 ## Week 1 - Pot Still Whiskey
 
@@ -76,8 +77,31 @@ To the right you can see the whiskeys I tried.
 ## Week 2 - Single Malt Whiskey
 
 {% img left /images/blog/whiskey/week2-whiskies.jpg 400 %}
+The theme for this week is single malt whiskey. The term "single malt" has become synonymous with high quality. You may
+even people say that they like a nice "single malt" and not mention that it's whiskey. That's how popular and recognized
+the term has become.
+
+Some individuals think this is the only real style of whiskey and frown upon anything that's blended. They forget that
+the word "single" implies that the liquid is just coming from the same distillery. Blending 100% malt whiskey of
+different ages is very common. Again it's a matter of economics as well as taste. Because the business has fairly long
+feedback loops their finance departments often face liquidity (zing) issues. So when you get a bottle and it says 10
+years on the label, that's just the age of the youngest liquid in the bottle. Master blenders will use their stock to
+combine different casks of several ages and come up with flavours that can be great and ready for sale.
 
 {% img right /images/blog/whiskey/week2-notes.jpg 500 %}
+The brand ambassador of the evening was from Bushmills which is the only old time distillery still in operation on the
+island of Ireland (circa 1784). I really need to get myself up to Belfast for a visit and then a distillery tour up in
+Bushmills at some point.
+
+To the right you can see the whiskeys I tried.
+
+1. [Bushmills Port Cask][bushmills-port-cask] -
+2. [Teeling Revival Volume II][teeling-revival] -
+3. [Tullamore Dew 18yr][tullamore-dew-18yr] -
+
+[bushmills-port-cask]: hello
+[teeling-revival]: http://mitchellandson.com/spirits/spirits-category/whiskey/teeling-revival-volume-ii-13-year-old.html
+[tullamore-dew-18yr]: hello
 
 <br style="clear: both;" />
 
@@ -108,4 +132,8 @@ a bit about what you're getting.
 {% img center /images/blog/whiskey/personal-collection.jpg %}
 
 
-*This post took 4 pomodoros to complete*
+**Disclaimer - I was not paid or propositioned to write this post and/or link to Mitchell & Son web store. I just
+enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies.**
+
+
+*This post took 5 pomodoros to complete*
