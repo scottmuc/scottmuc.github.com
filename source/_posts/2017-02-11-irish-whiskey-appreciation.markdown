@@ -22,7 +22,7 @@ very clear is that people do spend way too much time arguing about what is the "
 
 [uisce]: https://en.wikipedia.org/wiki/Uisce_beatha
 
-Three of the lessons had brand ambassadors to do a bit of a sales pitch. At least that's what I thought was going
+Three of the evenings had brand ambassadors to do a bit of a sales pitch. At least that's what I thought was going
 to happen. What I got out of them was that they were deeply passionate about whiskey and its Irish origins. They
 loved their competitors liquid and they were happy to be a part of the booming Irish whiskey industry. They were
 disappointed about the world view of Irish whiskey. Scotch is perceived as the ultimate whiskey and that Irish whiskey
@@ -32,6 +32,7 @@ Before we begin let's explain a few key words:
 
 ## Week 1 - Pot Still Whiskey
 
+{% img left /images/blog/whiskey/week1-whiskies.jpg 400 %}
 Irish [pot still][pot-still-wiki] whiskey is the traditional way. It's a bit more laborious compared to using a
 [continuous still (aka column still)][column-still-wiki].
 
@@ -48,18 +49,37 @@ most likely because of budget since the extra still does cost quite a bit.
 [pot-still-wiki]: https://en.wikipedia.org/wiki/Pot_still
 [column-still-wiki]: https://en.wikipedia.org/wiki/Column_still
 
-{% img left /images/blog/whiskey/week1-whiskies.jpg 500 %}
+{% img right /images/blog/whiskey/week1-notes.jpg 500 %}
 The evening started with a collection of whiskies in a circle. In the period of 2 hours we heard the wise words
-of Mark McLaughlin
+of Mark McLaughlin. You can instantly tell the guy is mad about whiskey. He does an excellent job of getting you just
+as excited experience the whiskey as he is.
+
+To the right you can see the whiskeys I tried.
+
+1. [Green Spot Château Léoville Barton][green-spot-barton] - A very unique nose (how it smells) on this one. My notes
+   say hopscotch but after further tastings I would add cookie dough or frosting. On the palate (how it tastes) is a bit
+   like buttered toast but transforms into a cinnamon toast. There's some nuts and spice to it as well. The finish
+   (aftertaste) is fruity, warm, and medium length.
+2. [Red Breat Lustau][red-breast-lustau] - Like the above it had a buttery nose to it. On the palate it was much meatier
+   and savory. There's dried fruit and a bit of spice. This is one of the remaining bottles I feel I need to add to the
+   collection.
+3. I have to mention the [Green Spot 10 Year Old][green-spot-10yr] and the [Middleton Dair Ghaelach][middleton-dair]
+   because they were amazing, but way out of my price range. I'm quite content with the mid priced gems above.
+
+[green-spot-barton]: http://mitchellandson.com/spirits/spirits-category/whiskey/green-spot-chateau-leoville-barton.html
+[red-breast-lustau]: http://mitchellandson.com/redbreast-sherry-finish-lustau-edition.html
+[green-spot-10yr]: http://mitchellandson.com/spirits/spirits-category/green-yellow-spot/green-spot-whiskey-10-year-old.html
+[middleton-dair]: http://mitchellandson.com/spirits/spirits-category/midleton-dair-ghaelach-irish-oak-tree-3.html
 
 <br style="clear: both;" />
 
-{% img center /images/blog/whiskey/week1-notes.jpg 500 %}
-
 ## Week 2 - Single Malt Whiskey
 
-{% img center /images/blog/whiskey/week2-notes.jpg %}
-{% img center /images/blog/whiskey/week2-whiskies.jpg %}
+{% img left /images/blog/whiskey/week2-whiskies.jpg 400 %}
+
+{% img right /images/blog/whiskey/week2-notes.jpg 500 %}
+
+<br style="clear: both;" />
 
 ## Week 3 - Independent Bottlers
 
@@ -88,4 +108,4 @@ a bit about what you're getting.
 {% img center /images/blog/whiskey/personal-collection.jpg %}
 
 
-*This post took 3 pomodoros to complete*
+*This post took 4 pomodoros to complete*
