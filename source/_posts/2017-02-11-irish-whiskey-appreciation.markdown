@@ -105,15 +105,44 @@ To the right you can see the whiskeys I tried.
 
 <br style="clear: both;" />
 
-## Week 3 - Independent Bottlers
+## Week 3 - All Grain and Independent Bottlers
 
-{% img center /images/blog/whiskey/week3-notes.jpg %}
-{% img center /images/blog/whiskey/week3-whiskies.jpg %}
+{% img left /images/blog/whiskey/week3-whiskies.jpg 400 %}
+The first couple whiskeys of the evening was a brief tour of Single Grain whiskey. The best I can understand it is that
+the distillate is made of corn and distilled by column stills. This makes them a bit cheaper to produce and have their
+own flavour profiles. They are much lighter on the palate and easy to drink. While I thought they were quite drinkable,
+they didn't have the bigger flavour that I prefer.
+
+Independent Bottlers are a collecting of brands that aren't back by the big players in the market. What I found very
+interesting is that brand of the whiskey doesn't imply that they distilled the liquid. Since Ireland only has a handful
+of running distilleries the liquid would only come from them (usually Bushmills but others are upping their production).
+The independents can then choose their casks and blending strategies to make something unique and distinctly theirs. I'm
+glad they did because they produced a couple of my favourites!
+
+{% img right /images/blog/whiskey/week3-notes.jpg 500 %}
+To the right you can see the whiskeys I tried.
+
+1. [Writer's Tears Red Head][writers-tears] - This is probably the best value out of all the whiskies that I rated
+   highly. The finish just keeps going. The middle provides this mouth feel that is a joy for the tongue.
+2. [Dunvilles PX Cask Finish][dunvilles-px] - The nose is full of pineapple and tropical fruit. There's a bit of
+   chocolate there too. When you taste it you get something like a spicy valentines day heart candy, which settles down
+   into a nutty soft middle. The finish is smooth and long with hints of black berries and pine. Every sip of this is a
+   new story and trying to explain the flavours is so much fun. This is by far my favourite whiskey of the entire
+   course.
+
+The first two were so good that I bought both of them the next day.
+
+[writers-tears]: http://mitchellandson.com/writer-s-tears-red-head.html
+[dunvilles-px]: http://mitchellandson.com/spirits/dunville-s-10yo-px-finish.html
+
+<br style="clear: both;" />
 
 ## Week 4 - Blended Whiskey
 
-{% img center /images/blog/whiskey/week4-notes.jpg %}
-{% img center /images/blog/whiskey/week4-whiskies.jpg %}
+{% img left /images/blog/whiskey/week4-whiskies.jpg 400 %}
+{% img right /images/blog/whiskey/week4-notes.jpg 500 %}
+
+<br style="clear: both;" />
 
 ## Summary
 
@@ -125,15 +154,10 @@ much better value for the money spent because I am purchasing the whiskeys that 
 complain about any of the whiskies I tried, but when it comes to spending your hard earned cash, it's nice to know
 a bit about what you're getting.
 
-## Words
-
-
-
 {% img center /images/blog/whiskey/personal-collection.jpg %}
 
 
 **Disclaimer - I was not paid or propositioned to write this post and/or link to Mitchell & Son web store. I just
 enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies.**
 
-
-*This post took 5 pomodoros to complete*
+*This post took 6 pomodoros to complete*
