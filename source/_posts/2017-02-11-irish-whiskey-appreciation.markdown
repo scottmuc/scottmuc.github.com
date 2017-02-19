@@ -6,7 +6,6 @@ comments: true
 categories:
 ---
 
-
 Over the last month I had the wonderful opportunity of learning all about Irish whiskey. It was held in the
 [liquor store][mitchell-and-son] in [The CHQ Building][the-chq] (where I work). If you see them offering it
 again I highly recommend it! Not only did I learn a lot about Irish whiskey, I learned a lot about whiskey
@@ -31,10 +30,10 @@ is only used for shots (and usually only Jameson).
 
 TODO need to tie this to the next section
 
-## Week 1 - Pot Still Whiskey
+## Week 1 - Single Pot Still Whiskey
 
 {% img left /images/blog/whiskey/week1-whiskies.jpg 400 %}
-Irish [pot still][pot-still-wiki] whiskey is the traditional way. It's a bit more laborious compared to using a
+Irish single [pot still][pot-still-wiki] whiskey is the traditional way. It's a bit more laborious compared to using a
 [continuous still (aka column still)][column-still-wiki].
 
 For traditional Irish pot still whiskey the mash bill is half malted barley and half unmalted barley. The unmalted
@@ -45,7 +44,7 @@ The distilling begins with a fermenting mash heated to a temperature where the a
 distillation isn't pure enough so this gets distilled again. When you read a label that says "triple distilled", it's
 because it was distilled in pot stills and you need that third distillation to really extract the cleanest
 distilate. Some whiskeys are known and enjoyed for being double distilled, but this usually isn't by design. It's
-most likely because of budget since the extra still does cost quite a bit.
+most likely because of budget since the extra still does cost quite a bit (again with the financial incentives).
 
 [pot-still-wiki]: https://en.wikipedia.org/wiki/Pot_still
 [column-still-wiki]: https://en.wikipedia.org/wiki/Column_still
@@ -53,7 +52,7 @@ most likely because of budget since the extra still does cost quite a bit.
 {% img right /images/blog/whiskey/week1-notes.jpg 500 %}
 The evening started with a collection of whiskies in a circle. In the period of 2 hours we heard the wise words
 of Mark McLaughlin. You can instantly tell the guy is mad about whiskey. He does an excellent job of getting you just
-as excited experience the whiskey as he is.
+as excited to experience the whiskey as he is.
 
 To the right you can see the whiskeys I tried.
 
@@ -140,7 +139,32 @@ The first two were so good that I bought both of them the next day.
 ## Week 4 - Blended Whiskey
 
 {% img left /images/blog/whiskey/week4-whiskies.jpg 400 %}
+In the single malt section I described a bit of what blending entails. It's pretty simple to describe, but the execution
+of the tasty blend is where the skills comes in. Blends are also quite fun to drink because it provides a puzzle for the
+drinker to disect and figure out the blend composition is made up of. I felt that I was a bit snobby regarding blended
+whiskies but I'm ready to give blends much more time than before. It's funny how fickle our opinions can be when it
+comes to taste. If it doesn't taste like what you're used to it seems natural to dislike it. Shake out those
+preconceived biases and enjoy the drink on its own. Easier said than done.
+
+The final week was extra special because the tastings were done blind. I loved this because it makes biased opinions
+disappear. I would like to taste more whiskies this way. Something to keep in mind is that every single whiskey is very
+good. None would be something I wouldn't be able to finish a bottle of. My scores just help me decide which of these
+fine whiskies I should spend my money on.
+
 {% img right /images/blog/whiskey/week4-notes.jpg 500 %}
+To the right you can see the whiskeys I tried.
+
+1. [Tullamore Dew 12yr][tullamore-12yr] - This one was a lot of fun to drink. It's a triple style blend (single
+   pot-still, malt, and grain). I don't know if it's the blending but I enjoyed the juxtaposition of on the nose
+   compared to the palate. It plays with the tongue in a prickly way too. At less than 50€ it's a pretty decent value
+   too.
+2. [Irishman Cask Strength][irishman-cask] - A bit pricey but it provides so many ways to enjoy it. Every sip was
+   different. Adding a few drops of water took the edge off and created a brand new whiskey. Reading my notes seems to
+   reflect that because they didn't even make any sense! They were all over the place.
+
+
+[tullamore-12yr]: http://mitchellandson.com/tullamore-dew-12-year-old.html
+[irishman-cask]: http://mitchellandson.com/the-irishman-cask-strength.html
 
 <br style="clear: both;" />
 
@@ -156,8 +180,7 @@ a bit about what you're getting.
 
 {% img center /images/blog/whiskey/personal-collection.jpg %}
 
+*This post took 7 pomodoros (and drams) to complete*
 
 **Disclaimer - I was not paid or propositioned to write this post and/or link to Mitchell & Son web store. I just
 enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies.**
-
-*This post took 6 pomodoros to complete*
