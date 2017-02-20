@@ -5,11 +5,13 @@ date: 2017-02-11 19:05:47 +0000
 comments: true
 categories:
 ---
+**Disclaimer - I was not paid or propositioned to write this post and/or link to the Mitchell & Son web store. I just
+enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies.**
 
 Over the last month I had the wonderful opportunity of learning all about Irish whiskey. It was held in the
-[liquor store][mitchell-and-son] in [The CHQ Building][the-chq] (where I work). If you see them offering it
-again I highly recommend it! Not only did I learn a lot about Irish whiskey, I learned a lot about whiskey
-in general.
+[Mitchell and Son][mitchell-and-son] in [The CHQ Building][the-chq] (where I work) so how could I not participate?
+If you see them offering it again I highly recommend it! Not only did I learn a lot about Irish whiskey, I learned
+a lot about whiskey in general.
 
 [the-chq]: http://chq.ie/
 [mitchell-and-son]: http://mitchellandson.com/
@@ -17,14 +19,14 @@ in general.
 First, a bit of history. It's quite possible that you are screaming at your screen saying that I am spelling
 whiskey incorrectly. Chill out. The word originated from the Irish word *[uisce][uisce]* (meaning water). When Scotch
 whisky became popular the proud Irish introduced 'e' into the anglicised version of *uisce*, hence whiskey. The USA
-often uses this spelling too which may be because of the large amounts of Irish emigration during that time. What's
-very clear is that people do spend way too much time arguing about what is the "right" way.
+often uses this spelling too which may be because of the large amounts of Irish emigration during that time.
+What's very clear is that people do spend way too much time arguing about what is the "right" way.
 
 [uisce]: https://en.wikipedia.org/wiki/Uisce_beatha
 
 Three of the evenings had brand ambassadors to do a bit of a sales pitch. At least that's what I thought was going
 to happen. What I got out of them was that they were deeply passionate about whiskey and its Irish origins. They
-loved their competitors liquid and they were happy to be a part of the booming Irish whiskey industry. They were
+loved their competitors products and they were happy to be a part of the booming Irish whiskey recovery. They were
 disappointed about the world view of Irish whiskey. Scotch is perceived as the ultimate whiskey and that Irish whiskey
 is only used for shots (and usually only Jameson).
 
@@ -94,13 +96,14 @@ Bushmills at some point.
 
 To the right you can see the whiskeys I tried.
 
-1. [Bushmills Port Cask][bushmills-port-cask] -
+1. Bushmills Port Cask -
 2. [Teeling Revival Volume II][teeling-revival] -
-3. [Tullamore Dew 18yr][tullamore-dew-18yr] -
+3. Tullamore Dew 18yr -
 
-[bushmills-port-cask]: hello
+You may have noticed an absence of links in a couple of the above whiskies. It turns out that airport duty free stores
+are a huge market and many brands create airport only whiskies! Such a shame because these two were really really good.
+
 [teeling-revival]: http://mitchellandson.com/spirits/spirits-category/whiskey/teeling-revival-volume-ii-13-year-old.html
-[tullamore-dew-18yr]: hello
 
 <br style="clear: both;" />
 
@@ -170,17 +173,16 @@ To the right you can see the whiskeys I tried.
 
 ## Summary
 
-The course was well worth the 160€. I was surpised at how little I knew before hand and how much preconceived
-perceptions I had of whiskey build up.
+The course was well worth the 160€. In the long run I believe I'm going to enjoy the whiskies I have in the future a lot
+more and I'll be saving money getting the whiskies that I loved that are the easiest on the pocket book.
 
 Now I'm happily building up a small collection of my favourites. Because of this course I feel that I am getting
 much better value for the money spent because I am purchasing the whiskeys that best fit what I enjoy. I wouldn't
 complain about any of the whiskies I tried, but when it comes to spending your hard earned cash, it's nice to know
-a bit about what you're getting.
+a bit about what you're getting. Now if I just need to add the [Red Breast Lustau][red-breast-lustau],
+[Tullamore Dew 12][tullamore-12yr] and the [Teeling Revival Volume II][teeling-revival] and I'll have a collection
+fit for any occasion. Ok, I still need something peaty like a Connemara too.
 
 {% img center /images/blog/whiskey/personal-collection.jpg %}
 
-*This post took 7 pomodoros (and drams) to complete*
-
-**Disclaimer - I was not paid or propositioned to write this post and/or link to Mitchell & Son web store. I just
-enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies.**
+*This post took 8 pomodoros (and drams) to complete*
