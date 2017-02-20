@@ -44,12 +44,13 @@ Let's begin!
 ## Week 1 - Single Pot Still Whiskey
 
 {% img left /images/blog/whiskey/week1-whiskies.jpg 400 %}
-Irish single [pot still][pot-still-wiki] whiskey is the traditional way. It's a bit more laborious compared to using a
-[continuous still (aka column still)][column-still-wiki], which some whiskeys in later weeks are made from.
+Irish single [pot still][pot-still-wiki] whiskey is the traditional way of making the spirit. It's a bit more laborious
+compared to using a [continuous still (aka column still)][column-still-wiki], which some whiskeys in later weeks are made by.
 
 For traditional Irish single pot still whiskey the mash bill is half malted barley and half unmalted barley. The unmalted
 barley is there because of tax laws the existed in 1795. This tickles the economist in me because I love seeing how
-financial incentives create innovation (the history of British ales and Belgium beer has similar economic origins).
+financial incentives create innovation (the history of British ales and Belgium beer has similar economic origins). With
+the tax incentives gone this style of whiskey is still made because the flavour profile became rather popular.
 
 The distilling begins with a fermenting mash heated to a temperature where the alcohol evaporates. The first
 distillation isn't pure enough so this gets distilled again. When you read a label that says "triple distilled", it's
@@ -77,6 +78,8 @@ To the right you can see the whiskeys I tried.
 3. I have to mention the [Green Spot 10 Year Old][green-spot-10yr] and the [Middleton Dair Ghaelach][middleton-dair]
    because they were amazing, but way out of my price range. I'm quite content with the mid priced gems above.
 
+The representitive for this week was from Irish Distillers and boy could he talk... and talk... and talk.
+
 [green-spot-barton]: http://mitchellandson.com/spirits/spirits-category/whiskey/green-spot-chateau-leoville-barton.html
 [red-breast-lustau]: http://mitchellandson.com/redbreast-sherry-finish-lustau-edition.html
 [green-spot-10yr]: http://mitchellandson.com/spirits/spirits-category/green-yellow-spot/green-spot-whiskey-10-year-old.html
@@ -92,7 +95,8 @@ even hear people say that they like a nice "single malt" and not mention the wor
 the term has become.
 
 Some individuals think this is the only real style of whiskey and frown upon anything that's blended. They forget that
-the word "single" implies that the liquid is just coming from the same distillery. Blending 100% malt whiskey of
+the word "single" implies that the liquid is just coming from the same distillery. The "malt" part means that only malted
+barley is in the mash bill (you'll recall single pot still also had unmalted barley). Blending 100% malt whiskey of
 different ages is very common. Again it's a matter of economics as well as taste. Because the business has fairly long
 feedback loops their finance departments often face liquidity (zing) issues. So when you get a bottle and it says 10
 years on the label, that's just the age of the youngest liquid in the bottle. Master blenders will use their stock to
@@ -109,14 +113,15 @@ To the right you can see the whiskeys I tried.
    warm cozy blanket. This one was like that.
 2. [Teeling Revival Volume II][teeling-revival] - My notes show a dominate apple characteristic. The nose was like
    freshly cut green apple. The palate was like experiencing a 3 course meal! First was a light salad with fresh cut
-   apples, then something savoury like a vegetable stew, the finishes up with apple pie. I don't know if the first
+   apples, then something savoury like a vegetable stew, then finishes up with apple pie. I don't know if the first
    whiskies had an affect on me, but I need to get a bottle of this to see if I can replicate that experience.
 3. *Tullamore Dew 18yr* - Again I got lots of apple, but that could have been the residue from the previous whiskey. The
    palate was all over the place with juniper, mint, raisin, and honey. I even got a feeling of masala chai out of it.
    This was very nice whiskey.
 
 You may have noticed an absence of links in a couple of the above whiskies. It turns out that airport duty free stores
-are a huge market and many brands create airport only whiskies! Such a shame because these two were really really good.
+are a huge market and many brands create airport only whiskies. The Bushmills representive said that 50% of their
+product turnover is in airports! Such a shame because these two were really really good.
 
 [teeling-revival]: http://mitchellandson.com/spirits/spirits-category/whiskey/teeling-revival-volume-ii-13-year-old.html
 
@@ -130,7 +135,7 @@ the distillate is made of corn and distilled by column stills. This makes them a
 own flavour profiles. They are much lighter on the palate and easy to drink. While I thought they were quite drinkable,
 they didn't have the bigger flavour that I prefer.
 
-Independent Bottlers are a collecting of brands that aren't backed by the big players in the market. What I found very
+Independent bottlers are a collection of brands that aren't backed by the big players in the market. What I found very
 interesting is that the brand of the whiskey doesn't imply that they distilled the liquid. Since Ireland only has a handful
 of running distilleries the liquid would only come from them (usually Bushmills but others are upping their production).
 The independents can then choose their casks and blending strategies to make something unique and distinctly theirs. I'm
@@ -147,7 +152,7 @@ To the right you can see the whiskeys I tried.
    new story and trying to explain the flavours is so much fun. This is by far my favourite whiskey of the entire
    course.
 3. [Connemara 22 yrs][connemara-22yr] - Another really complex whiskey with the flavour going all over the map. It was
-   very peaty, but behind the smokiness was many other flavours hiding in the woodwork (another zing). At the price
+   very peaty, but behind the smokiness was many other flavours hiding in the woodwork (zing!). At the price
    point it'll be something I pick up for a special occasion. Nah, I'll probably get a bottle soon enough.
 
 The first two were so good that I bought both of them the next day.
@@ -201,4 +206,4 @@ fit for any occasion. Ok, I still need something peaty like a Connemara too.
 
 {% img center /images/blog/whiskey/personal-collection.jpg %}
 
-*This post took 9 pomodoros (and drams) to complete*
+*This post took 10 pomodoros (and drams) to complete*
