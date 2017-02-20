@@ -7,30 +7,31 @@ categories:
 ---
 **Disclaimer - I was not paid or propositioned to write this post and/or link to the Mitchell & Son web store. I just
 enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies. I
-would also recommend the [Celtic Whiskey Shop][celtic-whiskey] as well.**
+would also recommend the [Celtic Whiskey Shop][celtic-whiskey] too.**
 
 [celtic-whiskey]: http://www.celticwhiskeyshop.com/
 
 Over the last month I had the wonderful opportunity of learning all about Irish whiskey. It was held in the
-[Mitchell and Son][mitchell-and-son] in [The CHQ Building][the-chq] (where I work) so how could I not participate?
+[Mitchell and Son][mitchell-and-son] store in [The CHQ Building][the-chq] (where I work) so how could I not participate?
 If you see them offering it again I highly recommend it! Not only did I learn a lot about Irish whiskey, I learned
 a lot about whiskey in general.
 
 [the-chq]: http://chq.ie/
 [mitchell-and-son]: http://mitchellandson.com/
 
-First, a bit of history. It's quite possible that you are screaming at your screen saying that I am spelling
-whiskey incorrectly. Chill out. The word originated from the Irish word *[uisce][uisce]* (meaning water). When Scotch
-whisky became popular the proud Irish introduced 'e' into the anglicised version of *uisce*, hence whiskey. The USA
-often uses this spelling too which may be because of the large amounts of Irish emigration during that time.
-What's very clear is that people do spend way too much time arguing about what is the "right" way.
+First, a bit of history. It's quite possible that you are screaming at your screen shouting that I am spelling
+whiskey incorrectly. Chill out. The word originates from the old Irish word *[uisce][uisce]* (meaning water). When
+Scotch whisky became popular the proud Irish introduced 'e' into the anglicised version of *uisce*, hence whiskey.
+The USA often uses this spelling too which may be because of the large amounts of Irish emigration during that time.
+What's very clear is that people do spend way too much time arguing about what is the "right" way. The liquid doesn't
+care what you call it.
 
 [uisce]: https://en.wikipedia.org/wiki/Uisce_beatha
 
-Three of the evenings had brand ambassadors to do a bit of a sales pitch. At least that's what I thought was going
-to happen. What I got out of them was that they were deeply passionate about whiskey and its Irish origins. They
-loved their competitors products and they were happy to be a part of the booming Irish whiskey recovery. They were
-disappointed about the world view of Irish whiskey. Scotch is perceived as the ultimate whiskey and that Irish whiskey
+Three of the evenings had brand ambassadors to do a bit of a sales pitch. At least that's what I thought they were going
+to do. What I ended up hearing from them was passion about whiskey and its Irish origins. They enjoyed their competitors
+products and they were happy to be a part of the booming Irish whiskey resurgence. There was a feeling of
+disappointment  about the world view of Irish whiskey. Scotch is perceived as the ultimate whiskey and that Irish whiskey
 is only used for shots (and usually only Jameson).
 
 Thankfully, I know better now. The course made me appreciate Irish whiskey, but it made me appreciate the Irish people
