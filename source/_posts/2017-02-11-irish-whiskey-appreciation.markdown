@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Irish Whiskey Appreciation"
-date: 2017-02-11 19:05:47 +0000
+date: 2017-02-20 19:05:47 +0000
 comments: true
 categories:
 ---
 **Disclaimer - I was not paid or propositioned to write this post and/or link to the Mitchell & Son web store. I just
-enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies.**
+enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies. I
+would also recommend the [Celtic Whiskey Shop][celtic-whiskey] as well.**
+
+[celtic-whiskey]: http://www.celticwhiskeyshop.com/
 
 Over the last month I had the wonderful opportunity of learning all about Irish whiskey. It was held in the
 [Mitchell and Son][mitchell-and-son] in [The CHQ Building][the-chq] (where I work) so how could I not participate?
@@ -30,15 +33,20 @@ loved their competitors products and they were happy to be a part of the booming
 disappointed about the world view of Irish whiskey. Scotch is perceived as the ultimate whiskey and that Irish whiskey
 is only used for shots (and usually only Jameson).
 
-TODO need to tie this to the next section
+Thankfully, I know better now. The course made me appreciate Irish whiskey, but it made me appreciate the Irish people
+as well. The course did not have any air of snobbery about it. The presenters gave tips and hints about how they like to
+enjoy their whiskey but didn't seem to be too bothered too much if people had other ways of enjoying it. In the end they
+just wanted people to know that Irish whiskey isn't just shots of Jameson and a brutal hangover.
+
+Let's begin!
 
 ## Week 1 - Single Pot Still Whiskey
 
 {% img left /images/blog/whiskey/week1-whiskies.jpg 400 %}
 Irish single [pot still][pot-still-wiki] whiskey is the traditional way. It's a bit more laborious compared to using a
-[continuous still (aka column still)][column-still-wiki].
+[continuous still (aka column still)][column-still-wiki], which some whiskeys in later weeks are made from.
 
-For traditional Irish pot still whiskey the mash bill is half malted barley and half unmalted barley. The unmalted
+For traditional Irish single pot still whiskey the mash bill is half malted barley and half unmalted barley. The unmalted
 barley is there because of tax laws the existed in 1795. This tickles the economist in me because I love seeing how
 financial incentives create innovation (the history of British ales and Belgium beer has similar economic origins).
 
@@ -79,7 +87,7 @@ To the right you can see the whiskeys I tried.
 
 {% img left /images/blog/whiskey/week2-whiskies.jpg 400 %}
 The theme for this week is single malt whiskey. The term "single malt" has become synonymous with high quality. You may
-even people say that they like a nice "single malt" and not mention that it's whiskey. That's how popular and recognized
+even hear people say that they like a nice "single malt" and not mention the word whiskey. That's how popular and recognized
 the term has become.
 
 Some individuals think this is the only real style of whiskey and frown upon anything that's blended. They forget that
@@ -87,7 +95,7 @@ the word "single" implies that the liquid is just coming from the same distiller
 different ages is very common. Again it's a matter of economics as well as taste. Because the business has fairly long
 feedback loops their finance departments often face liquidity (zing) issues. So when you get a bottle and it says 10
 years on the label, that's just the age of the youngest liquid in the bottle. Master blenders will use their stock to
-combine different casks of several ages and come up with flavours that can be great and ready for sale.
+combine different casks of several ages and come up with flavours that can be great and ready for the shelf.
 
 {% img right /images/blog/whiskey/week2-notes.jpg 500 %}
 The brand ambassador of the evening was from Bushmills which is the only old time distillery still in operation on the
@@ -96,9 +104,15 @@ Bushmills at some point.
 
 To the right you can see the whiskeys I tried.
 
-1. Bushmills Port Cask -
-2. [Teeling Revival Volume II][teeling-revival] -
-3. Tullamore Dew 18yr -
+1. *Bushmills Port Cask* - Something about this one tasted familiar. I believe I had a port cask Lagavulin that was like a
+   warm cozy blanket. This one was like that.
+2. [Teeling Revival Volume II][teeling-revival] - My notes show a dominate apple characteristic. The nose was like
+   freshly cut green apple. The palate was like experiencing a 3 course meal! First was a light salad with fresh cut
+   apples, then something savoury like a vegetable stew, the finishes up with apple pie. I don't know if the first
+   whiskies had an affect on me, but I need to get a bottle of this to see if I can replicate that experience.
+3. *Tullamore Dew 18yr* - Again I got lots of apple, but that could have been the residue from the previous whiskey. The
+   palate was all over the place with juniper, mint, raisin, and honey. I even got a feeling of masala chai out of it.
+   This was very nice whiskey.
 
 You may have noticed an absence of links in a couple of the above whiskies. It turns out that airport duty free stores
 are a huge market and many brands create airport only whiskies! Such a shame because these two were really really good.
@@ -115,8 +129,8 @@ the distillate is made of corn and distilled by column stills. This makes them a
 own flavour profiles. They are much lighter on the palate and easy to drink. While I thought they were quite drinkable,
 they didn't have the bigger flavour that I prefer.
 
-Independent Bottlers are a collecting of brands that aren't back by the big players in the market. What I found very
-interesting is that brand of the whiskey doesn't imply that they distilled the liquid. Since Ireland only has a handful
+Independent Bottlers are a collecting of brands that aren't backed by the big players in the market. What I found very
+interesting is that the brand of the whiskey doesn't imply that they distilled the liquid. Since Ireland only has a handful
 of running distilleries the liquid would only come from them (usually Bushmills but others are upping their production).
 The independents can then choose their casks and blending strategies to make something unique and distinctly theirs. I'm
 glad they did because they produced a couple of my favourites!
@@ -131,11 +145,15 @@ To the right you can see the whiskeys I tried.
    into a nutty soft middle. The finish is smooth and long with hints of black berries and pine. Every sip of this is a
    new story and trying to explain the flavours is so much fun. This is by far my favourite whiskey of the entire
    course.
+3. [Connemara 22 yrs][connemara-22yr] - Another really complex whiskey with the flavour going all over the map. It was
+   very peaty, but behind the smokiness was many other flavours hiding in the woodwork (another zing). At the price
+   point it'll be something I pick up for a special occasion. Nah, I'll probably get a bottle soon enough.
 
 The first two were so good that I bought both of them the next day.
 
 [writers-tears]: http://mitchellandson.com/writer-s-tears-red-head.html
 [dunvilles-px]: http://mitchellandson.com/spirits/dunville-s-10yo-px-finish.html
+[connemara-22yr]: http://mitchellandson.com/spirits/connemara-22-year-old.html
 
 <br style="clear: both;" />
 
@@ -173,16 +191,13 @@ To the right you can see the whiskeys I tried.
 
 ## Summary
 
-The course was well worth the 160€. In the long run I believe I'm going to enjoy the whiskies I have in the future a lot
-more and I'll be saving money getting the whiskies that I loved that are the easiest on the pocket book.
-
-Now I'm happily building up a small collection of my favourites. Because of this course I feel that I am getting
-much better value for the money spent because I am purchasing the whiskeys that best fit what I enjoy. I wouldn't
-complain about any of the whiskies I tried, but when it comes to spending your hard earned cash, it's nice to know
-a bit about what you're getting. Now if I just need to add the [Red Breast Lustau][red-breast-lustau],
+The course was well worth the 160€. Now I'm happily building up a small collection of my favourites. Because of this
+course I feel that I am getting much better value for the money spent because I am purchasing the whiskeys that best
+fit what I enjoy. I wouldn't complain about any of the whiskies I tried, but when it comes to spending your hard earned
+cash, it's nice to know a bit about what you're getting. Now if I just need to add the [Red Breast Lustau][red-breast-lustau],
 [Tullamore Dew 12][tullamore-12yr] and the [Teeling Revival Volume II][teeling-revival] and I'll have a collection
 fit for any occasion. Ok, I still need something peaty like a Connemara too.
 
 {% img center /images/blog/whiskey/personal-collection.jpg %}
 
-*This post took 8 pomodoros (and drams) to complete*
+*This post took 9 pomodoros (and drams) to complete*
