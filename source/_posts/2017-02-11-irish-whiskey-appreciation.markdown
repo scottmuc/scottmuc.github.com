@@ -5,6 +5,9 @@ date: 2017-02-20 19:05:47 +0000
 comments: true
 categories:
 ---
+
+{% img center /images/blog/whiskey/dublin.jpg 1024 %}
+
 **Disclaimer - I was not paid or propositioned to write this post and/or link to the Mitchell & Son web store. I just
 enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies. I
 would also recommend the [Celtic Whiskey Shop][celtic-whiskey] too.**
@@ -43,13 +46,13 @@ Let's begin!
 
 ## Week 1 - Single Pot Still Whiskey
 
-{% img left /images/blog/whiskey/week1-whiskies.jpg 400 %}
+[{% img left /images/blog/whiskey/week1-whiskies.jpg 400 %}](/images/blog/whiskey/week1-whiskies-full.jpg)
 Irish single [pot still][pot-still-wiki] whiskey is the traditional way of making the spirit. It's a bit more laborious
 compared to using a [continuous still (aka column still)][column-still-wiki], which some whiskeys in later weeks are made by.
 
 For traditional Irish single pot still whiskey the mash bill is half malted barley and half unmalted barley. The unmalted
 barley is there because of tax laws the existed in 1795. This tickles the economist in me because I love seeing how
-financial incentives create innovation (the history of British ales and Belgium beer has similar economic origins). With
+financial incentives create innovation (the history of British ales and Belgium beer have similar economic origins). With
 the tax incentives gone this style of whiskey is still made because the flavour profile became rather popular.
 
 The distilling begins with a fermenting mash heated to a temperature where the alcohol evaporates. The first
@@ -61,7 +64,7 @@ most likely because of budget since the extra still does cost quite a bit (again
 [pot-still-wiki]: https://en.wikipedia.org/wiki/Pot_still
 [column-still-wiki]: https://en.wikipedia.org/wiki/Column_still
 
-{% img right /images/blog/whiskey/week1-notes.jpg 500 %}
+[{% img right /images/blog/whiskey/week1-notes.jpg 500 %}](/images/blog/whiskey/week1-notes-full.jpg)
 The evening started with a collection of whiskies in a circle. In the period of 2 hours we heard the wise words
 of Mark McLaughlin. You can instantly tell the guy is mad about whiskey. He does an excellent job of getting you just
 as excited to experience the whiskey as he is.
@@ -78,18 +81,19 @@ To the right you can see the whiskeys I tried.
 3. I have to mention the [Green Spot 10 Year Old][green-spot-10yr] and the [Middleton Dair Ghaelach][middleton-dair]
    because they were amazing, but way out of my price range. I'm quite content with the mid priced gems above.
 
-The representitive for this week was from Irish Distillers and boy could he talk... and talk... and talk.
+The representitive for this week was from [Irish Distillers][irish-distillers] and boy could he talk... and talk... and talk.
 
 [green-spot-barton]: http://mitchellandson.com/spirits/spirits-category/whiskey/green-spot-chateau-leoville-barton.html
 [red-breast-lustau]: http://mitchellandson.com/redbreast-sherry-finish-lustau-edition.html
 [green-spot-10yr]: http://mitchellandson.com/spirits/spirits-category/green-yellow-spot/green-spot-whiskey-10-year-old.html
 [middleton-dair]: http://mitchellandson.com/spirits/spirits-category/midleton-dair-ghaelach-irish-oak-tree-3.html
+[irish-distillers]: http://www.irishdistillers.ie/
 
 <br style="clear: both;" />
 
 ## Week 2 - Single Malt Whiskey
 
-{% img left /images/blog/whiskey/week2-whiskies.jpg 400 %}
+[{% img left /images/blog/whiskey/week2-whiskies.jpg 400 %}](/images/blog/whiskey/week2-whiskies-full.jpg)
 The theme for this week is single malt whiskey. The term "single malt" has become synonymous with high quality. You may
 even hear people say that they like a nice "single malt" and not mention the word whiskey. That's how popular and recognized
 the term has become.
@@ -98,14 +102,16 @@ Some individuals think this is the only real style of whiskey and frown upon any
 the word "single" implies that the liquid is just coming from the same distillery. The "malt" part means that only malted
 barley is in the mash bill (you'll recall single pot still also had unmalted barley). Blending 100% malt whiskey of
 different ages is very common. Again it's a matter of economics as well as taste. Because the business has fairly long
-feedback loops their finance departments often face liquidity (zing) issues. So when you get a bottle and it says 10
+feedback loops their finance departments often face liquidity (zing) issues. So when you get a bottle and it says 8 
 years on the label, that's just the age of the youngest liquid in the bottle. Master blenders will use their stock to
 combine different casks of several ages and come up with flavours that can be great and ready for the shelf.
 
-{% img right /images/blog/whiskey/week2-notes.jpg 500 %}
-The brand ambassador of the evening was from Bushmills which is the only old time distillery still in operation on the
+[{% img right /images/blog/whiskey/week2-notes.jpg 500 %}](/images/blog/whiskey/week2-notes-full.jpg)
+The brand ambassador of the evening was from [Bushmills][bushmills] which is the only old time distillery still in operation on the
 island of Ireland (circa 1784). I really need to get myself up to Belfast for a visit and then a distillery tour up in
 Bushmills at some point.
+
+[bushmills]: http://www.bushmills.com/
 
 To the right you can see the whiskeys I tried.
 
@@ -129,7 +135,7 @@ product turnover is in airports! Such a shame because these two were really real
 
 ## Week 3 - All Grain and Independent Bottlers
 
-{% img left /images/blog/whiskey/week3-whiskies.jpg 400 %}
+[{% img left /images/blog/whiskey/week3-whiskies.jpg 400 %}](/images/blog/whiskey/week3-whiskies-full.jpg)
 The first couple whiskeys of the evening was a brief tour of Single Grain whiskey. The best I can understand it is that
 the distillate is made of corn and distilled by column stills. This makes them a bit cheaper to produce and have their
 own flavour profiles. They are much lighter on the palate and easy to drink. While I thought they were quite drinkable,
@@ -141,7 +147,7 @@ of running distilleries the liquid would only come from them (usually Bushmills 
 The independents can then choose their casks and blending strategies to make something unique and distinctly theirs. I'm
 glad they did because they produced a couple of my favourites!
 
-{% img right /images/blog/whiskey/week3-notes.jpg 500 %}
+[{% img right /images/blog/whiskey/week3-notes.jpg 500 %}](/images/blog/whiskey/week3-notes-full.jpg)
 To the right you can see the whiskeys I tried.
 
 1. [Writer's Tears Red Head][writers-tears] - This is probably the best value out of all the whiskies that I rated
@@ -165,7 +171,7 @@ The first two were so good that I bought both of them the next day.
 
 ## Week 4 - Blended Whiskey
 
-{% img left /images/blog/whiskey/week4-whiskies.jpg 400 %}
+[{% img left /images/blog/whiskey/week4-whiskies.jpg 400 %}](/images/blog/whiskey/week4-whiskies-full.jpg)
 In the single malt section I described a bit of what blending entails. It's pretty simple to describe, but the execution
 of the tasty blend is where the skills comes in. Blends are also quite fun to drink because it provides a puzzle for the
 drinker to disect and figure out the blend composition is made up of. I felt that I was a bit snobby regarding blended
@@ -174,24 +180,27 @@ comes to taste. If it doesn't taste like what you're used to it seems natural to
 preconceived biases and enjoy the drink on its own. Easier said than done.
 
 The final week was extra special because the tastings were done blind. I loved this because it makes biased opinions
-disappear. I would like to taste more whiskies this way. Something to keep in mind is that every single whiskey is very
+a lot harder. I would like to taste more whiskies this way. Something to keep in mind is that every single whiskey is very
 good. None would be something I wouldn't be able to finish a bottle of. My scores just help me decide which of these
 fine whiskies I should spend my money on.
 
-{% img right /images/blog/whiskey/week4-notes.jpg 500 %}
+[{% img right /images/blog/whiskey/week4-notes.jpg 500 %}](/images/blog/whiskey/week4-notes-full.jpg)
 To the right you can see the whiskeys I tried.
 
 1. [Tullamore Dew 12yr][tullamore-12yr] - This one was a lot of fun to drink. It's a triple style blend (single
-   pot-still, malt, and grain). I don't know if it's the blending but I enjoyed the juxtaposition of on the nose
+   pot-still, malt, and grain). I don't know if it's the blending but I enjoyed the juxtaposition of the nose
    compared to the palate. It plays with the tongue in a prickly way too. At less than 50€ it's a pretty decent value
    too.
 2. [Irishman Cask Strength][irishman-cask] - A bit pricey but it provides so many ways to enjoy it. Every sip was
    different. Adding a few drops of water took the edge off and created a brand new whiskey. Reading my notes seems to
    reflect that because they didn't even make any sense! They were all over the place.
 
+The representitive for this week was from [Tullamore Dew][tullamore]. I enjoyed his easy going nature and his more
+laissez faire attitude about how to drink whiskey. Seemed like someone that would be fun to go out for drinks with.
 
 [tullamore-12yr]: http://mitchellandson.com/tullamore-dew-12-year-old.html
 [irishman-cask]: http://mitchellandson.com/the-irishman-cask-strength.html
+[tullamore]: https://www.tullamoredew.com/
 
 <br style="clear: both;" />
 
@@ -200,10 +209,12 @@ To the right you can see the whiskeys I tried.
 The course was well worth the 160€. Now I'm happily building up a small collection of my favourites. Because of this
 course I feel that I am getting much better value for the money spent because I am purchasing the whiskeys that best
 fit what I enjoy. I wouldn't complain about any of the whiskies I tried, but when it comes to spending your hard earned
-cash, it's nice to know a bit about what you're getting. Now if I just need to add the [Red Breast Lustau][red-breast-lustau],
+cash, it's nice to know a bit about what you're getting. Now I just need to add the [Red Breast Lustau][red-breast-lustau],
 [Tullamore Dew 12][tullamore-12yr] and the [Teeling Revival Volume II][teeling-revival] and I'll have a collection
 fit for any occasion. Ok, I still need something peaty like a Connemara too.
 
+**Sláinte!**
+
 {% img center /images/blog/whiskey/personal-collection.jpg %}
 
-*This post took 10 pomodoros (and drams) to complete*
+*This post took 12 pomodoros (and drams) to complete*
