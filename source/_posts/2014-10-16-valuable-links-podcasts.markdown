@@ -461,7 +461,35 @@ listening to this keeps me somewhat informed of what's going on.
 
 ## Tech / Programming
 
-As you can see, I don't really listen to any tech/programming podcasts anymore.
+###[Track Changes][track-changes][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][track-changes-rss]
+
+{% img right /images/blog/podcasts/trackchanges.png 200 %}
+Enjoying this podcast makes me feel quite odd. It's a branding exercise by Paul and Rich's company, but I'm able to see
+past that and enjoy the dialogue of this show. I feel connected with [Paul Ford][paul-ford] as he brings out the
+computer nostalgia non-stop. It's a nice light-weight podcast that's nice for the gym or listening to before going to
+sleep.
+
+**Favourites:**
+
+* **Craig Mod on Great Design and Long Journeys** ([part 1][craig-mod-1], [part 2][craig-mod-2]) - I really enjoyed hearing
+  the chill zen thoughts from Craig compared to the NYC startup fast life of Rich and Paul. I got the sense that there's
+  a lot I can learn from Craig.
+* [Clover Newsletter][clover-newsletter] - Want to get some some insight to how the younger generation rediscovers
+  old mediums and finds them useful for their cause? This episode is great for that.
+  I was really impressed at how wise beyond their years [Liza Darwin][liza-darwin]
+  and [Casey Lewis][casey-lewis] talk about their newsletter business. More interesting for me is to hear about a
+  demographic (teenage girls) that is so often not spoken about in tech circles.
+
+[liza-darwin]: https://twitter.com/lizadarwin
+[casey-lewis]: https://twitter.com/caseymlewis
+[clover-newsletter]: https://trackchanges.postlight.com/track-changes-podcast-32-clover-newsletter-turning-over-a-new-leaf-or-four-with-founders-liza-291e89d1aa69#.q38zxsyhz
+[craig-mod-1]: https://trackchanges.postlight.com/craig-mod-on-great-design-and-long-journeys-part-1-49739ae17a0c#.84a4n1jhd
+[craig-mod-2]: https://trackchanges.postlight.com/craig-mod-on-great-design-and-long-journeys-part-2-ddaebcf0117a#.rnmqfuno1
+[track-changes]: https://trackchanges.postlight.com/tagged/podcast
+[track-changes-rss]: http://trackchanges.libsyn.com/rss
+[paul-ford]: https://twitter.com/ftrain
+
+- - -
 
 ## Language
 
