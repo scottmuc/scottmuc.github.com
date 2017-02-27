@@ -42,7 +42,7 @@ now. Most importantly, it allows me to export my subscribed shows as an [OPML fi
 [pocketcasts]: http://www.shiftyjelly.com/android/pocketcasts
 [podcasts-opml]: /podcasts_opml.xml
 
-##The List
+## The List
 
 Podcasts are a great way to tap into interests of all different types. You'll notice that only a few are related to my
 professional life. Listening to podcasts is a wonderful activity and I do get a lot out of them, there becomes a point
@@ -244,7 +244,26 @@ econmics news of the day. The episodes are so short that it's easy to digest any
 
 - - -
 
-### Politics and World News
+###[Mad Fientist][mad-fientist][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][mad-fientist-rss]
+
+{% img right /images/blog/podcasts/madfientist.jpg 200 %}
+Over the last year I've been interested in those that pursue Financial Independence / Early Retirement (known as FIRE
+for short). This podcast is a regular dose of inspiration on my own pursuit of getting out of the rat race.
+
+**Favourites:**
+
+* [JL Collins Simple Path to Wealth][jl-collins] - The simplicity and logic was enough for me to go out and buy his
+  book. I'm following the steps mentioned here for the last year and it's been pretty positive so far. I like the simple
+  steps involved and I like the removal of the pressure that I need to be rediculously smart to make money from the
+  market.
+
+[jl-collins]: http://www.madfientist.com/jl-collins-interview/
+[mad-fientist]: http://www.madfientist.com/podcast/
+[mad-fientist-rss]: http://feeds.feedburner.com/MadFientistPodcast
+
+- - -
+
+## Politics and World News
 
 ###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-analysis-rss]
 
@@ -281,7 +300,7 @@ do like how it's not just US news.
 
 - - -
 
-### Culture and Curiosities
+## Culture and Curiosities
 
 ###[99% Invisible][podcast-99pi][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-99pi-rss]
 
