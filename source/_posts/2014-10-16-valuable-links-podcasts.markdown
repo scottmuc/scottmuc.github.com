@@ -440,6 +440,28 @@ from the last century. While listening to this I realized how much bias I have a
 
 - - -
 
+###[Revisionist History][revisionist-history][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][revisionist-history-rss]
+
+{% img right /images/blog/podcasts/revisionisthistory.jpg 200 %}
+Malcolm Gladwell is exceptional at cherry picking great stories to make his point. In this podcast he brings forward
+stories to make you think differently about past events. I really enjoyed this show as it reminds me of how delusional
+the human mind can be. At only 10 episodes it's something I believe is worth listening to a second time.
+
+**Favourites:**
+
+* [The Big Man Can't Shoot][big-man-cant-shoot] - An excellent showcase about how we humans don't behave in ways to
+  maximize specific outcomes even when we know how to do it. Using the example of professional basketball, Malcolm
+  explores why humans don't choose to do things that would put us to the top.
+* [Blame Game][blame-game] - Can a collective of people trully be mass delusional? Hearing how a root cause analysis can
+  completely break down is bizarre to hear.
+
+[big-man-cant-shoot]: http://revisionisthistory.com/episodes/03-the-big-man-cant-shoot
+[blame-game]: http://revisionisthistory.com/episodes/08-blame-game
+[revisionist-history]: http://revisionisthistory.com/about
+[revisionist-history-rss]: http://feeds.feedburner.com/RevisionistHistory
+
+- - -
+
 ## Music
 
 ###[CBC Radio 3][podcast-cbcradio3][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-cbcradio3-rss]
