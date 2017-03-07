@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2017-03-02T20:54:13+00:00</updated>
+  <updated>2017-03-07T20:57:36+00:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,73 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Valuable Links - TLS]]></title>
+    <link href="http://scottmuc.com/valuable-links-tls/"/>
+    <updated>2017-03-06T21:40:48+00:00</updated>
+    <id>http://scottmuc.com/valuable-links-tls</id>
+    <content type="html"><![CDATA[<p>This is embarassing to admit but I have to re-learn TLS on a continuous basis. This post is my cheatsheet to remembering
+all the itty bitty details, which I&rsquo;ll forgot shortly after I do whatever TLS related task I have on my plate.</p>
+
+<h2>What&rsquo;s The Difference Between SSL And TLS?</h2>
+
+<p>The fact that I still think <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">SSL</a> over <a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS</a> is likely a result of my first exposure to dealing with
+these sorts of things was in a multi-tenant Windows web hosting environment. I seriously can&rsquo;t believe I was able to do
+the things I did back then without having one iota of understanding what was going on.</p>
+
+<p>I only learned that the difference between <em>SSL</em> and <em>TLS</em> is so simple just a couple years ago. It boils down to this:</p>
+
+<ul>
+<li>Are you expecting a secure connection because the port you&rsquo;re connecting to is by definition intended to be a secure
+port? Then we&rsquo;re talking about <strong>SSL</strong>.</li>
+<li>Do you start connecting and switch to a secure mode based on the feedback coming back over the &ldquo;wire&rdquo;? Then we&rsquo;re
+talking about <strong>TLS</strong>.</li>
+</ul>
+
+
+<p>Yup, it&rsquo;s as simple as that. Big thanks to the <a href="https://luxsci.com/blog/ssl-versus-tls-whats-the-difference.html">SSL vs TLS &ndash; What&rsquo;s the Difference?</a> post for helping
+me finally understand this!</p>
+
+<h2>What Are Certificates?</h2>
+
+<p>When it comes to certifcates, I&rsquo;ve yet to find a resource that does a good high level explanation. For the time being
+I&rsquo;ve found <a href="https://blog.talpor.com/2015/07/ssltls-certificates-beginners-tutorial/">SSL/TLS Certificates Beginners&#8217; Tutorial</a> the best resource because it does explain the <code>openssl</code>
+command in a bit of detail and links to even more resources. Having a basic grasp of <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authorities</a>,
+and the <a href="https://en.wikipedia.org/wiki/Chain_of_trust">chain of trust</a> (not a 90&rsquo;s Christian metal band) is another piece
+of the puzzle to understand well because it&rsquo;s where things can often go wrong and result in cryptic errors
+(like the browser warnings that we all ignore).</p>
+
+<p>My simplified understanding is that a certificate certifies hat the one (machine) with the certificate is the entity
+that the certificate says it&rsquo;s certifying. I believe this is true for server and client certificates, but I am not 100% sure.</p>
+
+<h2>What Goes On When You Use HTTPS?</h2>
+
+<p>Nearly everytime I need to setup <a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a> I find that I need to reread the
+<a href="https://en.wikipedia.org/wiki/HTTPS">First Few Milliseconds of an HTTPS Connection</a> article. It&rsquo;s a long read but if you spend a day following
+the links and focusing on understanding that article, you&rsquo;ll tackle any <em>HTTPS</em> related task with ease. You&rsquo;ll just
+forget it all after a few days.</p>
+
+<h2>How Do Things Go Wrong?</h2>
+
+<p>The following video by <a href="https://moxie.org/">Moxie Marlinspike</a> is told at a nice slow pace on how certificates can break down.
+It&rsquo;s a good reminder to be humble when dealing with these complex security tools. I tend to rewatch this video after
+reading the above articles. If I can follow the video, then I&rsquo;ve chunked enough knowledge to move on.</p>
+
+<iframe width="640" height="510" src="http://www.youtube.com/embed/ibF36Yyeehw " frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Summary</h2>
+
+<p>Hope these help. It&rsquo;s inspired by all the other folks that also couldn&rsquo;t tell me the difference between SSL and TLS.
+It&rsquo;s easy to feel ashamed about not knowing these technologies, security is a very hard domain. I&rsquo;ve kept my
+explanations to a minimum because I don&rsquo;t feel confident I can provide correct information, nor am I able to explain it
+simply. When in doubt, I&rsquo;ll look to the resources here. Hopefully this will give you a good starting ground if you&rsquo;ve
+been asked to do anything related to <strong>SSL/TLS</strong> and <strong>certificates</strong>.</p>
+
+<p><em>This post took 2 pomodoros to complete</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Irish Whiskey Appreciation]]></title>
@@ -3191,132 +3258,6 @@ e-mail notifications (the google group, and the github project).</p>
 I would like to shout a big thank you to everyone who made this project so wonderful. Especially to <a href="https://twitter.com/manojlds">Manoj
 Mahalingam</a> who did some great work in the early days and really helped me get this project off the ground.
 Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent logo!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Prague, Budapest, and the Hungarian Grand Prix]]></title>
-    <link href="http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix/"/>
-    <updated>2014-08-04T13:23:50+01:00</updated>
-    <id>http://scottmuc.com/prague-budapest-and-the-hungarian-grand-prix</id>
-    <content type="html"><![CDATA[<p><em>July 22nd &ndash; July 29th</em></p>
-
-<h3>Prague</h3>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/prague.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/prague.small.jpg" width="300"></a></p>
-
-<p>Next portion of the trip is to Eastern Europe! I had a nice simple itinerary to Prague: <strong>Heidelberg &ndash;> Munich &ndash;> Prague</strong>.
-Unfortunately something was going on with the brakes on the train and I missed my train in Munich so it
-turned into: <strong>Heidelberg &ndash;> Munich &ndash;> Neurberg &ndash;> Cheb &ndash;> Prague</strong>. By now I&rsquo;m a seasoned itinerary refactorer so this
-didn&rsquo;t phase me. These little <em>adjustments of the universe</em> can sometimes end up with interesting things happening. At
-the Plzen stop, a woman sat across from me in the couchette. She started speaking to me in Czech and my response was the
-standard Canadian response: I&rsquo;m sorry?</p>
-
-<br />
-
-
-<blockquote><p>&ldquo;I&rsquo;m sorry?&rdquo; or &ldquo;sowry&rdquo; in the short form is Canadian for: I apologize that I don&rsquo;t speak your language and I&rsquo;m embarassed to
-ask you to repeat yourself in English because I&rsquo;ve never had to deal with speaking and understanding multiple languages. Of course
-I&rsquo;m also making the assumption that you can speak English because a world without English is just unfathomable. Again,
-I&rsquo;m sorry</p></blockquote>
-
-<p>Then in English she said I looked Czech and was just inquiring about the train. Turns out
-she spoke excellent English, lives in San Diego and was just in the country to visit her family. Eventually we
-started chit chatting and the conversation about my trip became the focus of interest. I had fun demoing her the <a href="http://scottmuc.com/twinery/independent-accord.html">cargo ship tour</a>
-and got some usability feedback as a result. Next thing I knew we were in Prague. Even with my limited
-social ability to pick up on body language, I think she was flirting with me! In my usual fashion I dropped the ball. We
-parted ways with a handshake and me wishing her a pleasant visit with her family.</p>
-
-<p>After hitting my head against a wall for what seemed like a decade, I continued on to a rendezvous point in the
-train station where I was to meet up with <a href="https://twitter.com/nohwnd">Jakub Jareš</a>. He&rsquo;s a core contributor to <a href="https://github.com/pester/Pester">Pester</a>,
-who in the last 6 months, has taken pretty much all the maintenance burden off of my shoulders. He offered to take me out for beers and I obviously
-couldn&rsquo;t resist an offer like that. It was the rainiest day of the summer and he guided me to the <a href="https://www.airbnb.com/rooms/2094840">airbnb</a>
-where I was to stay for the next couple days. Then we proceeded to a <a href="http://www.pivovarskyklub.com/">bar</a> (and got soaked in the process). We enjoyed many beers,
-discussed much about software development, and my ineptness with the woman on the train was soon forgotten.</p>
-
-<p>Sandeman operates in Prague too so I did a couple tours:</p>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/prague-castle.jpg"><img class="right" src="http://scottmuc.com/images/blog/career-break/prague-castle.small.jpg" width="300"></a></p>
-
-<ul>
-<li><a href="http://www.newpraguetours.com/daily-tours/new-prague-free-tour.html">Free Tour</a>: I can&rsquo;t really talk about this tour without talking about the guide. <a href="http://www.newpraguetours.com/our-guides/pavel.html">Pavel</a>
-was quite the character. He had an entertaining dry wit and personalized the tour with stories of his own family. I
-was blown away when he said is grandmother has lived in the same flat her whole life and has lived in 9 different
-countries as a result. It was a good reminder on the craziness humans have to deal with all the time.</li>
-<li><a href="http://www.newpraguetours.com/daily-tours/prague-castle-tour.html">Castle Tour</a>: Fortunately, Pavel was the guide for this tour too! He sort of stumbled over a
-little late and asked the group if we could deviate from the standard tour itinerary and visit a
-<a href="http://europeupclose.com/article/st-norberts-brewery-in-prague/">monastery</a> where some award winning beer is brewed. No one was opposed and I got to have a fantastic
-beer at the beginning of the tour. The castle was very different than other castles I&rsquo;ve seen. The distictive
-feature was the cathedral but the surrounding buildings were much different. At the end of the tour, I really
-enjoyed walking through the <a href="http://www.hrad.cz/en/prague-castle/guidepost-for-visitors/gardens-of-the-prague-castle.shtml#a5">garden around the ramparts</a>.</li>
-</ul>
-
-
-<p>Overall, I really enjoyed Prague. You really need to avoid the square as much as possible. Once out of the tourist area,
-everything is quite afforable and less hectic. Even though my stay was short, I felt that I got the most out of it. I
-would like to go back and explore further and do some hacking with Jakub though.</p>
-
-<h3>Arriving in Budapest</h3>
-
-<p>My stay was short in Prague because I had to get to Budapest for the last of my Grand Prix adventure. Fortunately it was
-a direct train! The <a href="https://www.airbnb.com/rooms/1767274">airbnb</a> was close to the station and was able to take the metro there. I was really happy with the
-location, and the host was exceptional in responding to my queries. One interesting thing about taking the train around
-Europe is that you start to see patterns in the train stations from different countries. There was quite a difference
-between the stations in Czech Republic and Slovakia compared to Germany and Hungary. Now I want to create an archive of
-train stations so I can do more comparing and contrasting.</p>
-
-<h3>Hungarian Grand Prix</h3>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/budapest-bags.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/budapest-bags.small.jpg" width="300"></a></p>
-
-<p>Getting to the race track was a fairly painless experience in Budapest. The transit workers were also extremely helpful
-and knowledgable about the logistics of the race. The track was located in a beautiful area just outside Budapest. I
-spent the Friday walking around the track (in 35C weather). The track area was super clean and I think that&rsquo;s owed to
-the fact that bright blue garbage bags were never more than 20ft away from you. Overall, I would say this Grand Prix had
-the most pleasant logistics experience. More importantly though, this was an <a href="http://www.autoblog.com/2014/07/28/race-recap-2014-hungarian-grand-prix-a-thrilling-wet-mess/">incredible race</a>! A cloud burst occured
-around 60 minutes before the race began. All the drivers had to change their strategies and start with wet tyres. Then
-an accident occured a few laps in that caused some pit lane confusion resulting in the leaders being in the middle of
-the pack. Nearly every lap had battles going on from all positions. I think this ranks up there as one of the best races
-of the year (Bahrain was pretty close). I&rsquo;m sort of sad that my stream of F1 races is over, but also happy because now
-the rest of my time is entirely unscheduled. Who knows, maybe I&rsquo;ll do a quick detour to Belgium and go to the race there
-at the end of the month.</p>
-
-<br />
-
-
-<br />
-
-
-<h3>Dream Theater in Budapest</h3>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/dream-theater.jpg"><img class="right" src="http://scottmuc.com/images/blog/career-break/dream-theater.small.jpg" width="300"></a></p>
-
-<p>As a bonus I saw posters stating that <a href="http://www.dreamtheater.net/">Dream Theater</a> is playing nearby! I&rsquo;ve been a fan of them since 1998 and have never
-seen them live! Everything looked too perfect: the venue was a beautiful tram ride away, it starts after the majority of
-the F1 events are done, it ended at a decent hour so I could be rested for race day, and tickets were still available!
-After freshening up after another hot day at the track I walk to the tram and arrive at the venue around an hour before
-the show starts. I was in line to grab some food when the woman next to me asks me a question in Hungarian. Here we go
-again! I respond with &ldquo;I&rsquo;m sorry?&rdquo;. She switches to English and asks if I was
-ahead of her. I had no idea, and it didn&rsquo;t really matter to me so I said she was first. As I get my food, she asks where
-I&rsquo;m from. I tell her I&rsquo;m going to find some beer and she offers to show me where I can sample some
-proper Hungarian liquor. I follow her lead and she orders me palinka which is a fruit brandy. Fortunately I&rsquo;m well
-adapted to plum whiskey from hazy memories of <a href="https://www.youtube.com/watch?v=G7Eb7a8-LvQ">ThoughtBoarder</a> trips (thanks <a href="http://www.yycapps.com/2012/09/developer-interview-radu-muresan/">Radu</a>), so the shot goes down easy. She says
-she needs to bring the food back to her group and I bid farewell and find a spot in the crowd to watch the show. Ten or
-fifteen minutes pass and she finds me in the crowd. We continue to chat about music, travel and Hungary. It turns out
-that her dad brought her to the concert (coolest dad in the world!), and she asked if it was ok to hang out with me
-during the show (you had to ask?!). You would think that I would have learned my lesson from my previous female
-encounter&hellip; nope. Though I did do a bit better. I wrote down my website and she asked if she could find me on Facebook
-(I wasn&rsquo;t sure if my profile was searchable, but I said yes). The show was fantastic and made better by having her company.
-I got a message from her a few days later and we&rsquo;re still corresponding! Clearly something supernatural was going on as
-you can tell from this image of the show.</p>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/budapest-view.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/budapest-view.small.jpg" width="300"></a></p>
-
-<p>The weather following the race was not so good. I managed to explore a little bit around the vicinity of where I was
-staying, but spent most of the time catching up with Coursera. Sandeman did not have any presence in Budapest so I took
-a free tour by another organization. I can&rsquo;t say it was up to the same standard, but it was still informative
-nevertheless. It ended near the castle and I enjoyed a relatively rain free walk back to my flat and prepared for my
-next destination, Rome.</p>
 ]]></content>
   </entry>
   
