@@ -7,8 +7,14 @@ categories:
   - links
   - tls
 ---
-This is embarassing to admit but I have to re-learn TLS on a continuous basis. This post is my cheatsheet to remembering
-all the itty bitty details, which I'll forgot shortly after I do whatever TLS related task I have on my plate.
+This is embarassing to admit but I have to re-learn Transport Layer Security (TLS) on a continuous basis. This post
+is my cheatsheet to remembering all the itty bitty details, which I'll forgot shortly after I do whatever TLS related
+task I have on my plate.
+
+What's TLS you ask? Take 9 minutes to listen to this fantastic episode on [Public key cryptography][podcast-episode]
+which will prime (hah!) you up for the rest of the post.
+
+[podcast-episode]: http://www.bbc.co.uk/programmes/p04vqrwy
 
 ## What's The Difference Between SSL And TLS?
 
