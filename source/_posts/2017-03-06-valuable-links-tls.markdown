@@ -80,4 +80,11 @@ explanations to a minimum because I don't feel confident I can provide correct i
 simply. When in doubt, I'll look to the resources here. Hopefully this will give you a good starting ground if you've
 been asked to do anything related to **SSL/TLS** and **certificates**.
 
+**Update** I was contacted by [Matt Banner][matt-banner] who asked me to update this article with some content from his
+website. I took a look at it and it's a [really good guide][infographic] for updating from `http` to `https` (pop quiz, is
+this SSL or TLS?) plus it has a really good infographic.
+
+[matt-banner]: https://twitter.com/BlastYourBlog
+[infographic]: https://www.onblastblog.com/http-to-https/
+
 *This post took 2 pomodoros to complete*
