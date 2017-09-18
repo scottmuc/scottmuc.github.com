@@ -154,49 +154,6 @@ interview.
 
 - - -
 
-###[BBC More or Less][podcast-bbc-mol][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-mol-rss]
-
-{% img right /images/blog/podcasts/bbc-mol.jpg 200 %}
-This show takes a deeper look around statistics. It does the deeper critical view so you don't have to. Listening to
-this makes me trust reports even less. Spin is such a problem and how information is presented requires a lot of effort
-to reveal a non-biased presentation.
-
-**Favourites:**
-
-* [When £10,000 Isn't a Good Incentive][when-10000] - As a snooker fan I thought this was an interesting story of a
-  straightforward incentive behaviour.
-* [Fact Checking The Big Short][fact-check-big-short] - I really enjoyed the movie [The Big Short][big-short] and the
-  timing of this episode was really good as I had just watched it. 
-
-[big-short]: http://www.imdb.com/title/tt1596363/
-[when-10000]: http://www.bbc.co.uk/programmes/p03k2stg
-[fact-check-big-short]: http://www.bbc.co.uk/programmes/p03lj18n
-[podcast-bbc-mol]: http://www.bbc.co.uk/programmes/p02nrss1
-[podcast-bbc-mol-rss]: http://www.bbc.co.uk/programmes/p02nrss1/episodes/downloads.rss
-
-- - -
-
-###[BBC The Bottom Line][podcast-bbc-bottom-line][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-bottom-line-rss]
-
-{% img right /images/blog/podcasts/bbc-bottom-line.jpg 200 %}
-Provides a focus on what makes a business successful. It's a domain that I don't really have a clue. I find myself
-wanting to be closer to the business in the work I do day to day so this has been good at introducing me to what
-executives think about.
-
-**Favourites:**
-
-* [Data Privacy][data-privacy] - As someone on the sidelines watching the privacy debates from a technologist, it's
-  important to learn how these topics are perceived from a business owner level.
-* [Life After a Blockbuster][life-after-blockbuster] - The story about Angry Birds was fascinating. It reveals how often
-  the success we put on a pedestal comes from consistent tenanicity.
-
-[life-after-blockbuster]: http://www.bbc.co.uk/programmes/b0745q4l
-[data-privacy]: http://www.bbc.co.uk/programmes/b070hns6
-[podcast-bbc-bottom-line]: http://www.bbc.co.uk/programmes/b006sz6t
-[podcast-bbc-bottom-line-rss]: http://www.bbc.co.uk/programmes/b006sz6t/episodes/downloads.rss
-
-- - -
-
 ###[FT Alphachat][podcast-ft-alphachat][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ft-alphachat-rss]
 
 {% img right /images/blog/podcasts/ft-alphachat.png 200 %}
@@ -263,43 +220,6 @@ for short). This podcast is a regular dose of inspiration on my own pursuit of g
 
 - - -
 
-## Politics and World News
-
-###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-analysis-rss]
-
-{% img right /images/blog/podcasts/bbc-analysis.jpg 200 %}
-For once it's nice to listen to something that isn't about US politics. I started listening to economic podcasts to
-understand more of the world around me. Now it's pointing me in the direction of politics. This show is interesting to
-hear about how ideas and policies gets introduced to society. They tackle some difficult issues as well which makes it a
-bit heavier than some of the other lighter podcasts I have listed here.
-
-**Favourites:**
-
-* [The End of Free][end-of-free] - I've been incorporating ad blocking daily for over a decade. It was fascinating to
-  hear how it's hit a point where this practice is getting attention. Brands just want to engage with you! Why are we
-  being so mean to them!
-* [Free Speech][free-speech] - This is the first for a 4 part series. It asks the questions around the trade offs of
-  free speech. I find myself conflicted and tripping over my own thoughts on what should be allowed. Learning the types
-  of nullifiers to free speech I found interesting too.
-
-[end-of-free]: http://www.bbc.co.uk/programmes/b072j3g6
-[free-speech]: http://www.bbc.co.uk/programmes/p03qvxgb
-[podcast-bbc-analysis]: http://www.bbc.co.uk/programmes/b006r4vz
-[podcast-bbc-analysis-rss]: http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss
-
-- - -
-
-###[FT World Weekly][podcast-ft-worldweekly][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ft-worldweekly-rss]
-
-{% img right /images/blog/podcasts/ft-worldweekly.png 200 %}
-Another good source for global news how it influences the world markets. Can't really say I have any favourites, but I
-do like how it's not just US news.
-
-[podcast-ft-worldweekly]: http://podcast.ft.com/s/world-weekly-with-gideon-rachman/
-[podcast-ft-worldweekly-rss]: http://rss.acast.com/ft-world-weekly
-
-- - -
-
 ## Culture and Curiosities
 
 ###[99% Invisible][podcast-99pi][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-99pi-rss]
@@ -344,23 +264,6 @@ missing the excellent stories.
 
 [podcast-radiolab]: http://www.radiolab.org/
 [podcast-radiolab-rss]: http://feeds.wnyc.org/radiolab
-
-- - -
-
-###[Theory of Everything][podcast-toe][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-toe-rss]
-
-{% img right /images/blog/podcasts/toe.jpg 200 %}
-A member of the [Radiotopia][radiotopia] collective. Just started getting into this podcast recently.
-I'm already becoming a huge fan!
-
-**Favourites:**
-
-* [Paying For It](http://toe.prx.org/2014/11/paying-for-it-the-dislike-club-part-ii/) - This is part of a series called
-  "Dislike Club" which is focusing on the Internet. This episode calls to attention the problems happening with todays
-  monetization of the web through advertising. It sums up so many of the thoughts I've had about technology recently.
-
-[podcast-toe]: http://toe.prx.org/
-[podcast-toe-rss]: http://feeds.prx.org/toe
 
 - - -
 
@@ -815,4 +718,100 @@ podcast even though the episodes are too long by my listening standards.
 [podcast-hello-internet]: http://www.hellointernet.fm/
 [podcast-hello-internet-rss]: http://www.hellointernet.fm/podcast?format=rss
 
+- - -
+
+###[BBC More or Less][podcast-bbc-mol][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-mol-rss]
+
+{% img right /images/blog/podcasts/bbc-mol.jpg 200 %}
+This show takes a deeper look around statistics. It does the deeper critical view so you don't have to. Listening to
+this makes me trust reports even less. Spin is such a problem and how information is presented requires a lot of effort
+to reveal a non-biased presentation.
+
+**Favourites:**
+
+* [When £10,000 Isn't a Good Incentive][when-10000] - As a snooker fan I thought this was an interesting story of a
+  straightforward incentive behaviour.
+* [Fact Checking The Big Short][fact-check-big-short] - I really enjoyed the movie [The Big Short][big-short] and the
+  timing of this episode was really good as I had just watched it. 
+
+[big-short]: http://www.imdb.com/title/tt1596363/
+[when-10000]: http://www.bbc.co.uk/programmes/p03k2stg
+[fact-check-big-short]: http://www.bbc.co.uk/programmes/p03lj18n
+[podcast-bbc-mol]: http://www.bbc.co.uk/programmes/p02nrss1
+[podcast-bbc-mol-rss]: http://www.bbc.co.uk/programmes/p02nrss1/episodes/downloads.rss
+
+- - -
+
+###[BBC The Bottom Line][podcast-bbc-bottom-line][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-bottom-line-rss]
+
+{% img right /images/blog/podcasts/bbc-bottom-line.jpg 200 %}
+Provides a focus on what makes a business successful. It's a domain that I don't really have a clue. I find myself
+wanting to be closer to the business in the work I do day to day so this has been good at introducing me to what
+executives think about.
+
+**Favourites:**
+
+* [Data Privacy][data-privacy] - As someone on the sidelines watching the privacy debates from a technologist, it's
+  important to learn how these topics are perceived from a business owner level.
+* [Life After a Blockbuster][life-after-blockbuster] - The story about Angry Birds was fascinating. It reveals how often
+  the success we put on a pedestal comes from consistent tenanicity.
+
+[life-after-blockbuster]: http://www.bbc.co.uk/programmes/b0745q4l
+[data-privacy]: http://www.bbc.co.uk/programmes/b070hns6
+[podcast-bbc-bottom-line]: http://www.bbc.co.uk/programmes/b006sz6t
+[podcast-bbc-bottom-line-rss]: http://www.bbc.co.uk/programmes/b006sz6t/episodes/downloads.rss
+
+- - -
+
+## Politics and World News
+
+###[BBC Analysis][podcast-bbc-analysis][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-bbc-analysis-rss]
+
+{% img right /images/blog/podcasts/bbc-analysis.jpg 200 %}
+For once it's nice to listen to something that isn't about US politics. I started listening to economic podcasts to
+understand more of the world around me. Now it's pointing me in the direction of politics. This show is interesting to
+hear about how ideas and policies gets introduced to society. They tackle some difficult issues as well which makes it a
+bit heavier than some of the other lighter podcasts I have listed here.
+
+**Favourites:**
+
+* [The End of Free][end-of-free] - I've been incorporating ad blocking daily for over a decade. It was fascinating to
+  hear how it's hit a point where this practice is getting attention. Brands just want to engage with you! Why are we
+  being so mean to them!
+* [Free Speech][free-speech] - This is the first for a 4 part series. It asks the questions around the trade offs of
+  free speech. I find myself conflicted and tripping over my own thoughts on what should be allowed. Learning the types
+  of nullifiers to free speech I found interesting too.
+
+[end-of-free]: http://www.bbc.co.uk/programmes/b072j3g6
+[free-speech]: http://www.bbc.co.uk/programmes/p03qvxgb
+[podcast-bbc-analysis]: http://www.bbc.co.uk/programmes/b006r4vz
+[podcast-bbc-analysis-rss]: http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss
+
+- - -
+
+###[FT World Weekly][podcast-ft-worldweekly][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ft-worldweekly-rss]
+
+{% img right /images/blog/podcasts/ft-worldweekly.png 200 %}
+Another good source for global news how it influences the world markets. Can't really say I have any favourites, but I
+do like how it's not just US news.
+
+[podcast-ft-worldweekly]: http://podcast.ft.com/s/world-weekly-with-gideon-rachman/
+[podcast-ft-worldweekly-rss]: http://rss.acast.com/ft-world-weekly
+
+- - -
+
+###[Theory of Everything][podcast-toe][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-toe-rss]
+
+{% img right /images/blog/podcasts/toe.jpg 200 %}
+A member of the [Radiotopia][radiotopia] collective. Just started getting into this podcast recently.
+I'm already becoming a huge fan!
+
+**Favourites:**
+
+* [Paying For It](http://toe.prx.org/2014/11/paying-for-it-the-dislike-club-part-ii/) - This is part of a series called
+  "Dislike Club" which is focusing on the Internet. This episode calls to attention the problems happening with todays
+  monetization of the web through advertising. It sums up so many of the thoughts I've had about technology recently.
+
+[podcast-toe]: http://toe.prx.org/
+[podcast-toe-rss]: http://feeds.prx.org/toe
 
