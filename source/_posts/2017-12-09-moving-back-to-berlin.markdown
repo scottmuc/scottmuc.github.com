@@ -5,7 +5,7 @@ date: 2017-12-09 16:25:18 +0100
 comments: true
 categories: 
 ---
-Remember that [post][moving-dublin] from almost a couple years ago? Consider this a tiny `git revert --no-commit` of that change, modify it slightly to keep my location as Berlin but Pivotal as my employer. Just like in software rollbacks, you cannot rollback time so roll-forward I go.
+Remember that [post][moving-dublin] from almost a couple years ago? Consider this a tiny `git revert --no-commit` of that, modify it slightly to keep my location as Berlin but Pivotal as my employer.
 
 [moving-dublin]: /joining-pivotal-cloud-foundry-and-moving-to-dublin/
 
@@ -23,11 +23,17 @@ The whole process started with a strong desire to move back to Berlin. I was wil
 [cloudfoundry]: https://www.cloudfoundry.org/
 [ert]: https://network.pivotal.io/products/elastic-runtime
 
-In all of these projects I got to work with great people who challenged me and allowed me to challenge them as well. The products themselves are also quite interesting and are gaining a lot of traction in the market. It's something I would have enjoyed using if my primary activity was writing application code.
+In all of these projects I got to work with great people who challenged me and allowed me to challenge them as well. The products themselves are also quite interesting and are gaining a lot of traction in the market. Cloud Foundry is something I would have enjoyed using if my primary activity was writing application code.
 
-So, when I mentioned my desire to move to my manager, Jamie Monseratt (he's an ok fella), he responded with support and positivity. I was able to explore the different things I could do in Berlin and eventually landed on a role called [Platform Reliability Engineer][pre] (we're hiring). It feels like it'll be a fun mix of enablement, hands on operations, and customer engagement. I've learned I love running the software more than the building of the software so this appears to be a great fit for me.
+So, when I mentioned my desire to move to my manager, Jamie Monseratt (he's an ok fella), he responded with support and positivity. I was able to explore the different things I could do in Berlin and eventually landed on a role called [Platform Reliability Engineer][pre] (we're hiring). It feels like it'll be a fun mix of enablement, hands on operations, and customer engagement. I've learned that I love running software more than the building software so this appears to be a great fit for me.
 
 [pre]: https://boards.greenhouse.io/pivotalsoftware/jobs/877047#.WiwIP7Q-fdQ
+
+## Dublin
+
+Living in Dublin was a great experience. I've learned all about [irish whiskey][irish-whiskey] which is now my favourite spirit. I've made some friends and have visited more pubs than I can possible count. I'm going to miss all the concert venues which became my home away from home in the city.
+
+[irish-whiskey]: /irish-whiskey-appreciation/
 
 ## Settling Down
 
@@ -35,7 +41,9 @@ What I really love about this move is that it's the first time I've ever moved b
 
 In my head this is the last move I'm going to be doing voluntarily. I wish to settle down in Berlin and make it the first place I've lived in for longer than 2 years since I lived in Vancouver (which implies I haven't lived in the same city for longer than 18 months in the last 8 years).
 
-*This post took 1 pomodoros to complete*
+In my first week in Berlin I've found my new home. It's an interesting flat in Wilmersdorf. It's large, has lots of character, and is well connected to all of Berlin. I look forward to having you over :-)
+
+*This post took 2 pomodoros to complete*
 
 
 
