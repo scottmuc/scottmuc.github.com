@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2017-09-18T22:19:45+01:00</updated>
+  <updated>2017-12-17T10:49:42+01:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -14,9 +14,53 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Moving Back to Berlin]]></title>
+    <link href="http://scottmuc.com/moving-back-to-berlin/"/>
+    <updated>2017-12-09T16:25:18+01:00</updated>
+    <id>http://scottmuc.com/moving-back-to-berlin</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/berlin-walk.jpg" width="1024"></p>
+
+<p>Remember that <a href="http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin/">post about moving to Dublin</a> from almost a couple years ago? Consider this a tiny <code>git revert --no-commit</code> of that, modify it slightly to keep my location as Berlin but Pivotal as my employer.</p>
+
+<h2>A Pivotal Moment (that has lasted 2 years)</h2>
+
+<p>The whole process started with a strong desire to move back to Berlin (I&rsquo;ll go into why later). I was willing to look for a different job but I really really didn&rsquo;t want to. Pivotal has been fantastic and I&rsquo;ve enjoyed it there. Since I joined I&rsquo;ve worked on 3 different teams over 2 years:</p>
+
+<ul>
+<li><strong><a href="https://network.pivotal.io/products/ops-manager">Ops Manager</a></strong> &ndash; A web platform for managing all the products offered on the <a href="https://network.pivotal.io/">Pivotal Network</a> (think of this as an AppStore for Ops Manager)</li>
+<li><strong>Release Engineering</strong> &ndash; A team responsible for packaging all the components of <a href="https://www.cloudfoundry.org/">Cloud Foundry</a> in a <a href="https://network.pivotal.io/products/elastic-runtime">package</a> that can install in <strong>Ops Manager</strong>. Now they support even more products and the automation to sustain it all is really impressive!</li>
+<li><strong><a href="https://network.pivotal.io/products/p-rabbitmq">RabbitMQ for PCF</a></strong> &ndash; This is where I spent the bulk of my time (18 months). For part of the time I played software developer and for the majority of the time I played product manager. Both roles had a myriad of activities that cover the many facets of software delivery so I enjoyed this time very much.</li>
+</ul>
+
+
+<p>In all of these projects I got to work with great people who challenged me and allowed me to challenge them as well. The products themselves are also quite interesting and are gaining a lot of traction in the market. Cloud Foundry is something I would have enjoyed using if my primary activity was writing application code.</p>
+
+<p>So, when I mentioned my desire to move to my manager, <a href="https://twitter.com/jamiemonserrate">Jamie Monseratte</a>,  he responded with support and positivity. I was able to explore the different things I could do in Berlin and eventually landed on a role called <a href="https://boards.greenhouse.io/pivotalsoftware/jobs/877047#.WiwIP7Q-fdQ">Platform Reliability Engineer</a> (we&rsquo;re hiring). It feels like it&rsquo;ll be a fun mix of enablement, hands on operations, and customer engagement. I&rsquo;ve learned that I love running software more than the building software so this appears to be a great fit for me.</p>
+
+<p>I&rsquo;ve spent a few days in the office and met everyone at the Christmas party (photo to be added soon). I already feel welcome!</p>
+
+<h2>Dublin</h2>
+
+<p><img class="center" src="http://scottmuc.com/images/blog/dublin-spree.jpg" width="1024"></p>
+
+<p>Living in Dublin was a great experience. I&rsquo;ve learned all about <a href="http://scottmuc.com/irish-whiskey-appreciation/">irish whiskey</a> which is now my favourite spirit. I&rsquo;ve made some friends and have visited more pubs than I can possible count. I&rsquo;m going to miss all the concert venues which became my home away from home.</p>
+
+<h2>What&rsquo;s The Deal With Berlin?</h2>
+
+<p>It&rsquo;s hard to explain why exactly I wanted to be back in Berlin. It&rsquo;s the first time I&rsquo;ve ever moved back to a city. The best way I can describe how I felt is that Berlin has the most gravity. Every location has a bit of gravity: Vancouver, San Francisco, Bangalore; But Berlin had sufficient gravity to pull me out of Dublin. You know a place is right when people describe the things they dislike about a city and you find those are the reasons why you like it.</p>
+
+<p>In my head this is the last move I&rsquo;m going to be doing voluntarily. I wish to settle down in Berlin and make it the first place I&rsquo;ve lived in for longer than 2 years since I lived in Vancouver (which implies I haven&rsquo;t lived in the same city for longer than 18 months in the last 8 years).</p>
+
+<p>In my first week in Berlin I&rsquo;ve found my new home. It&rsquo;s an interesting flat in Wilmersdorf. It&rsquo;s large, has lots of character, and is well connected to all of Berlin. I look forward to having you over :&ndash;)</p>
+
+<p><em>This post took 4 pomodoros to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Valuable Links - TLS]]></title>
     <link href="http://scottmuc.com/valuable-links-tls/"/>
-    <updated>2017-03-06T21:40:48+00:00</updated>
+    <updated>2017-03-06T22:40:48+01:00</updated>
     <id>http://scottmuc.com/valuable-links-tls</id>
     <content type="html"><![CDATA[<p>This is embarassing to admit but I have to re-learn Transport Layer Security (TLS) on a continuous basis. This post
 is my cheatsheet to remembering all the itty bitty details, which I&rsquo;ll forgot shortly after I do whatever TLS related
@@ -91,7 +135,7 @@ this SSL or TLS?) plus it has a really good infographic.</p>
   <entry>
     <title type="html"><![CDATA[Irish Whiskey Appreciation]]></title>
     <link href="http://scottmuc.com/irish-whiskey-appreciation/"/>
-    <updated>2017-02-20T19:05:47+00:00</updated>
+    <updated>2017-02-20T20:05:47+01:00</updated>
     <id>http://scottmuc.com/irish-whiskey-appreciation</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/whiskey/dublin.jpg" width="1024"></p>
 
@@ -299,7 +343,7 @@ fit for any occasion. Ok, I still need something peaty like a Connemara too.</p>
   <entry>
     <title type="html"><![CDATA[OSX Workstation Setup Automation]]></title>
     <link href="http://scottmuc.com/osx-workstation-setup-automation/"/>
-    <updated>2017-01-11T14:45:48+00:00</updated>
+    <updated>2017-01-11T15:45:48+01:00</updated>
     <id>http://scottmuc.com/osx-workstation-setup-automation</id>
     <content type="html"><![CDATA[<p><span style="color: red;"><strong>DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
 workstation under source control, and this strategy may destroy the machine you wish to attempt this on.</strong></span></p>
@@ -867,7 +911,7 @@ a different username (to ensure my automation doesn&rsquo;t make too many assump
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2017]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2017/"/>
-    <updated>2017-01-02T13:07:40+00:00</updated>
+    <updated>2017-01-02T14:07:40+01:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2017</id>
     <content type="html"><![CDATA[<p>2016 was the first time I accomplished my goal!</p>
 
@@ -933,7 +977,7 @@ acknowledging how much I can possibly do in that time frame.</p>
   <entry>
     <title type="html"><![CDATA[Dealing With Contempt Culture in the Software World]]></title>
     <link href="http://scottmuc.com/dealing-with-contempt-culture-in-the-software-world/"/>
-    <updated>2016-07-14T01:10:27+01:00</updated>
+    <updated>2016-07-14T02:10:27+02:00</updated>
     <id>http://scottmuc.com/dealing-with-contempt-culture-in-the-software-world</id>
     <content type="html"><![CDATA[<p>A few years ago I <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">left ThoughtWorks</a> and was considering leaving IT altogether.</p>
 
@@ -1021,7 +1065,7 @@ much, I would love to hear why.</p>
   <entry>
     <title type="html"><![CDATA[Joining Pivotal Cloud Foundry and Moving to Dublin]]></title>
     <link href="http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin/"/>
-    <updated>2016-02-21T21:45:13+00:00</updated>
+    <updated>2016-02-21T22:45:13+01:00</updated>
     <id>http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/pivotal-office.jpg" width="1024"></p>
 
@@ -1114,7 +1158,7 @@ Ireland before!</p>
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2016]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2016/"/>
-    <updated>2016-01-02T01:08:42+00:00</updated>
+    <updated>2016-01-02T02:08:42+01:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2016</id>
     <content type="html"><![CDATA[<p>This post almost didn&rsquo;t happen. 2015 holds a lot of dead-air from me in the blogging world, but I&rsquo;m so compelled by my
 routines that I felt that I had to do it! Honouring a self-made routine/tradition is my achilles heel and my biggest
@@ -1178,7 +1222,7 @@ certainly possible.</p>
   <entry>
     <title type="html"><![CDATA[How to Make Masala Chai]]></title>
     <link href="http://scottmuc.com/how-to-make-masala-chai/"/>
-    <updated>2015-04-26T11:22:50+01:00</updated>
+    <updated>2015-04-26T12:22:50+02:00</updated>
     <id>http://scottmuc.com/how-to-make-masala-chai</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/chai/08-chai.jpg" width="300">
 This is the simplest <a href="https://en.wikipedia.org/wiki/Masala_chai">masala chai</a> recipe I know how to make. Compared to the street side chai you would get in India my
@@ -1270,7 +1314,7 @@ the pot. It can be hard to make a large batch when the pot is more than &frac34;
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2015]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
-    <updated>2015-01-02T01:08:42+00:00</updated>
+    <updated>2015-01-02T02:08:42+01:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2015</id>
     <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
 the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
@@ -1350,7 +1394,7 @@ jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s
   <entry>
     <title type="html"><![CDATA[Three Months in India]]></title>
     <link href="http://scottmuc.com/three-months-in-india/"/>
-    <updated>2014-12-16T05:21:47+00:00</updated>
+    <updated>2014-12-16T06:21:47+01:00</updated>
     <id>http://scottmuc.com/three-months-in-india</id>
     <content type="html"><![CDATA[<p><em>September 20th &ndash; December 16th</em></p>
 
@@ -1474,7 +1518,7 @@ on, but this trip was exactly what I needed/wanted.</p>
   <entry>
     <title type="html"><![CDATA[Why I Like Running]]></title>
     <link href="http://scottmuc.com/why-i-like-running/"/>
-    <updated>2014-12-10T05:09:27+00:00</updated>
+    <updated>2014-12-10T06:09:27+01:00</updated>
     <id>http://scottmuc.com/why-i-like-running</id>
     <content type="html"><![CDATA[<p><a href="http://instagram.com/p/LepNTRLlIB/"><img class="center" src="http://scottmuc.com/images/blog/running/venice.jpg" width="700"></a></p>
 
@@ -1570,7 +1614,7 @@ who egged me on to join a trail run series. If you wish to give me encouragement
   <entry>
     <title type="html"><![CDATA[What Makes Something a "Devops" Tool?]]></title>
     <link href="http://scottmuc.com/what-makes-something-a-devops-tool/"/>
-    <updated>2014-12-05T04:13:52+00:00</updated>
+    <updated>2014-12-05T05:13:52+01:00</updated>
     <id>http://scottmuc.com/what-makes-something-a-devops-tool</id>
     <content type="html"><![CDATA[<p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
 gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
@@ -1652,7 +1696,7 @@ the behaviours that it supports.</p>
   <entry>
     <title type="html"><![CDATA[Joining SoundCloud and Moving to Berlin]]></title>
     <link href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/"/>
-    <updated>2014-11-05T13:09:37+00:00</updated>
+    <updated>2014-11-05T14:09:37+01:00</updated>
     <id>http://scottmuc.com/joining-soundcloud-and-moving-to-berlin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/career-break/berlin-reichstag.medium.jpg" width="900"></p>
 
@@ -1827,7 +1871,7 @@ Keep an eye here for my next steps 5 years from now. Wish me luck!</p>
   <entry>
     <title type="html"><![CDATA[Siófok/Tihany, Italian Grand Prix, and Istanbul]]></title>
     <link href="http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul/"/>
-    <updated>2014-11-02T08:48:21+00:00</updated>
+    <updated>2014-11-02T09:48:21+01:00</updated>
     <id>http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul</id>
     <content type="html"><![CDATA[<p><em>August 30th &ndash; September 19</em></p>
 
@@ -1973,7 +2017,7 @@ with friends, and get re-invigorated about software development.</p>
   <entry>
     <title type="html"><![CDATA[Book Review - a Mind for Numbers by Barbara Oakley]]></title>
     <link href="http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley/"/>
-    <updated>2014-10-26T08:05:53+00:00</updated>
+    <updated>2014-10-26T09:05:53+01:00</updated>
     <id>http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley</id>
     <content type="html"><![CDATA[<p><a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245"><img class="left" src="http://scottmuc.com/images/blog/l2l/book.jpg" width="200"></a>
 Over the last 4 weeks I&rsquo;ve been taking the <a href="https://www.coursera.org/">Coursera</a> course <a href="https://www.coursera.org/course/learning">Learning how to Learn</a> on the
@@ -2112,7 +2156,7 @@ boxing to focus on his craft.</li>
   <entry>
     <title type="html"><![CDATA[Valuable Links - Podcasts]]></title>
     <link href="http://scottmuc.com/valuable-links-podcasts/"/>
-    <updated>2014-10-16T07:29:46+01:00</updated>
+    <updated>2014-10-16T08:29:46+02:00</updated>
     <id>http://scottmuc.com/valuable-links-podcasts</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/podcast.jpg" width="300">
 It&rsquo;s quite surprising that I haven&rsquo;t really brought up the topic of <a href="https://en.wikipedia.org/wiki/Podcast">podcasts</a> on my blog considering that
@@ -2798,7 +2842,7 @@ monetization of the web through advertising. It sums up so many of the thoughts 
   <entry>
     <title type="html"><![CDATA[Book Review - Learning Continuous Integration With TeamCity by Manoj Mahalingam]]></title>
     <link href="http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/"/>
-    <updated>2014-10-13T13:04:30+01:00</updated>
+    <updated>2014-10-13T14:04:30+02:00</updated>
     <id>http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam</id>
     <content type="html"><![CDATA[<p><strong>Disclaimer</strong> &ndash; I personally know Manoj and have worked with him in the past. I was asked to review his book,
 <a href="http://goo.gl/5wUy3v">Learning Continuous Integration with TeamCity</a>, by <a href="https://www.packtpub.com/">Packt Publishing</a>.</p>
@@ -2841,7 +2885,7 @@ new with TeamCity and some context of the usage of TeamCity specific features.</
   <entry>
     <title type="html"><![CDATA[Visiting the Motherland - Ukraine]]></title>
     <link href="http://scottmuc.com/visiting-the-motherland-ukraine/"/>
-    <updated>2014-10-06T15:31:12+01:00</updated>
+    <updated>2014-10-06T16:31:12+02:00</updated>
     <id>http://scottmuc.com/visiting-the-motherland-ukraine</id>
     <content type="html"><![CDATA[<p><em>August 17th &ndash; August 29th</em></p>
 
@@ -3020,7 +3064,7 @@ of these uncontrollable events (on my part), I’ve been afforded so many luxuri
   <entry>
     <title type="html"><![CDATA[Rome, Switzerland, and Vienna]]></title>
     <link href="http://scottmuc.com/rome-switzerland-and-vienna/"/>
-    <updated>2014-08-13T13:09:31+01:00</updated>
+    <updated>2014-08-13T14:09:31+02:00</updated>
     <id>http://scottmuc.com/rome-switzerland-and-vienna</id>
     <content type="html"><![CDATA[<p><em>July 30th &ndash; August 17th</em></p>
 
@@ -3157,115 +3201,6 @@ down and I took the metro back to the apartment and hung out in the flat with Ro
 <a href="http://scottmuc.com/images/blog/career-break/vienna-golden-boy.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/vienna-golden-boy.small.jpg" width="335"></a></p>
 
 <p>After one more sleep it&rsquo;s time for me to leave Vienna and head to L&#8217;viv, Ukraine!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Growing an Open Source Project: The Pester Story]]></title>
-    <link href="http://scottmuc.com/growing-an-open-source-project-the-pester-story/"/>
-    <updated>2014-08-07T16:50:58+01:00</updated>
-    <id>http://scottmuc.com/growing-an-open-source-project-the-pester-story</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/pester/Pester"><img src="http://scottmuc.com/images/blog/github-pester.png"></a></p>
-
-<h3>In the Beginning</h3>
-
-<p>In 2010 I was on a project that focused on build and release software for a bunch of .Net projects (and a few Java
-projects). Our &ldquo;glue&rdquo; was written in PowerShell because of the wonderful remoting capabilities and it&rsquo;s integration with
-Windows automation. Our code was untested and our code base was growing over time because our tools proved to be useful and
-we were getting more and more feedback. Thus, the code required change more frequently. Without the safety net of tests
-for the most basic logic, our feedback loop was slow as it required us to run builds and deploys to adequately cover our
-bases.</p>
-
-<p>It was January 1st, 2011. I was a touch hungover from the previous night and was chilling in my apartment in Calgary.
-The difficulty in changing our PowerShell code was bothering me enough that I got a bunch of coffee from
-<a href="http://www.yelp.com/biz/caffe-beano-calgary">Cafe Beano</a> and attempted to make an <code>rspec</code> like testing tool for PowerShell. The next day I was able to make a <a href="https://github.com/pester/Pester/commit/a1d6a0e01f58375175ed090647ab8245a049f1a6">commit</a>
-with actual working code! A few days later I was able to <a href="https://github.com/scottmuc/PowerYaml/commits/master?page=1">add tests</a> to PowerYaml. That&rsquo;s how
-<a href="https://github.com/pester/Pester">Pester</a> was born.</p>
-
-<p>In the next couple months I integrated Pester into our project. It was a real superficial integration as we didn&rsquo;t have
-too much time to retroactively add a lot of tests. So for me, my consumption of Pester was a few months in early 2011!</p>
-
-<h3>The Early Days (2011 &ndash; 2012)</h3>
-
-<p>Over the course of the year, the tool seemed to be adopted by a few. A <a href="http://mrtn.nrd.io/">friend in Vancouver</a> apparently had begun using it
-in one of his projects. He&rsquo;s also the first <a href="https://github.com/pester/Pester/commits/master?author=mrtns">contributor</a> to the project! It wasn&rsquo;t until the next year
-that <a href="https://twitter.com/ferventcoder">Rob Reynolds (aka ferventcoder)</a> used Pester in the <a href="http://chocolatey.org/">Chocolatey</a> project. That was my
-first hint that there&rsquo;s potential in this project.</p>
-
-<p>In 2012 there wasn&rsquo;t much going on until <a href="https://twitter.com/mwrockx">Matt Wrock</a> added mocking support and contributed a whole lot of fixes.
-It was then that Pester got a new core maintainer. It was very cool to meet him during my <a href="http://scottmuc.com/blog/categories/career-break/">career break</a>
-in Seattle and give him a proper thank you for the work that&rsquo;s done. I believe he also wrote the <a href="http://www.mattwrock.com/post/2012/11/15/Unit-Testing-Powershell-and-Hello-Pester.aspx">earliest post</a>
-on Pester. I then noticed a comprehensive post on the <a href="http://blogs.endjin.com/?s=pester">endjin.com</a> blog website.</p>
-
-<p>Seeing other people use Pester was a massively ego boosting thing. I&rsquo;m afraid I&rsquo;m one of those people in the software
-community that does feed off of this kind of thing. For some reason it made me feel validated as a professional in the
-software community. Despite the pleasure I got from Pester being associated with me, I decided to move Pester from my
-personal github user to a Pester organization. I&rsquo;m really happy I did that, because it made it feel more like a
-community project than a personal one. A <a href="https://groups.google.com/forum/#!forum/pester">google group</a> was eventually created too as to not clutter
-Github with conversations in the issue tracker.</p>
-
-<p>Later on I would find out that it&rsquo;s been used in several <a href="http://www.thoughtworks.com/">ThoughtWorks</a> projects! These use cases weren&rsquo;t
-even initiated by me. Someone wanted to test their PowerShell code, found Pester, and started using it. They would find
-out I also worked for ThoughtWorks and would ping me on our internal chat and ask me questions.</p>
-
-<h3>The Year of Change (2013)</h3>
-
-<p>While I was living in India I had several months with some extra time that I used to update Pester. Throughout the year
-I spent quite a bit of time maintaining the project. There definitely was a motive for this activity. I knew that
-projects that have activity in the codebase are usually favoured by other devs. I still haven&rsquo;t used Pester on a project
-since early 2011! There&rsquo;s no functionality that I could possibly need out of Pester but I carved out time to take care
-of a few niggling design flaws and close some issues. This resulted in a <a href="http://scottmuc.com/powershell-pester-2-and-1-dot-2-released/">major release</a> which is pretty
-much the last time I really did anything to the code. It was great to see another <a href="http://johanleino.wordpress.com/2013/09/13/pester-unit-testing-for-powershell/">quality blog post</a> by
-Johan Leino appear on the Web.</p>
-
-<h3>The Year of Transition (2014)</h3>
-
-<p><a href="https://twitter.com/LogicalDiagram/status/461638955725631488"><img class="left" src="http://scottmuc.com/images/blog/pester-mention.png"></a>
-2014 marked a large surge in Pester interest. During the PowerShell Summit it was rumoured that the creator of
-PowerShell, <a href="http://www.jsnover.com/blog/">Jeffrey Snover</a>, mentioned Pester in one of his talks! Heck, I was even <a href="http://powershell.org/wp/2014/03/23/episode-262-powerscripting-podcast-scott-muc-on-testing-with-pester/">interviewed</a> for the
-PowerScripting Podcast!</p>
-
-<p>Another contributor by the name of <a href="https://twitter.com/nohwnd">Jakub Jareš</a> was very active and soon became a core member of the Pester team. During
-my travels on my <a href="http://scottmuc.com/blog/categories/career-break/">career break</a> I got to meet up with him in Prague! He also wrote a
-<a href="http://www.powershellmagazine.com/author/jjakub/">couple</a> great articles too.</p>
-
-<p>Now it looks like there&rsquo;s another one joining in too. Welcome <a href="https://twitter.com/MSH_Dave">Dave</a> to the Pester team!</p>
-
-<p>Looking at the logs of the Beta branch, it&rsquo;s wonderful to see my commit percentage diminishing. I&rsquo;ve now only committed
-30% of the code base!</p>
-
-<h3>Lessons Learned</h3>
-
-<p>Though not a big project, I can say I learned a lot maintaining this open source project. There&rsquo;s something very
-different than working with a colocated team and random contributors around the world. Colocated teams develop unwritten
-rules (a culture) and there&rsquo;s less debate over small issues. I didn&rsquo;t realize how much brace alignment, trailing
-whitespace, tab stops, and other petty things would annoy me. What&rsquo;s harder is that I didn&rsquo;t want to complain about it
-to the community afraid that I would come across as an OCD control freak. My biggest mistake with Pester was thinking
-too much on how it reflected upon me, and not what is good for the community. If I had lived and breathed Windows
-projects over the last few years, I think that would have been different. I&rsquo;m happy that Pester has a few excellent
-maintainers now and that I&rsquo;ve participated in an open source project from first commit to stepping away.</p>
-
-<p>Another lesson was that empowering would be contributors was an investment well worth doing. It&rsquo;s hard to say, but I
-feel that doing this is what&rsquo;s enabled me to lessen my involvement over time.</p>
-
-<p>This talk also resonated with me a bit (the last 4-5 minutes):</p>
-
-<iframe width="640" height="510" src="http://www.youtube.com/embed/UIDb6VBO9os " frameborder="0" allowfullscreen></iframe>
-
-
-<h3>Stepping Down</h3>
-
-<p>The adventure of watching a project grow and have a life on its own has been a wonderful experience. Looking at the
-project history and correspondance it&rsquo;s pretty easy to see that I&rsquo;m not nearly as active. That&rsquo;s really thanks to Jakub
-and Dave doing nearly all the maintenance.</p>
-
-<p>That being said, I&rsquo;m &ldquo;officially&rdquo; stepping down and retiring from Pester. This will be done by unsubcribing from any
-e-mail notifications (the google group, and the github project).</p>
-
-<p><img class="right" src="http://pesterbdd.com/images/Pester.png">
-I would like to shout a big thank you to everyone who made this project so wonderful. Especially to <a href="https://twitter.com/manojlds">Manoj
-Mahalingam</a> who did some great work in the early days and really helped me get this project off the ground.
-Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent logo!</p>
 ]]></content>
   </entry>
   
