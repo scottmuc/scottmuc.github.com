@@ -12,7 +12,7 @@ Remember that [post about moving to Dublin][moving-dublin] from almost a couple 
 
 [moving-dublin]: /joining-pivotal-cloud-foundry-and-moving-to-dublin/
 
-## A Pivotal Moment
+## A Pivotal Moment (that has lasted 2 years)
 
 The whole process started with a strong desire to move back to Berlin (I'll go into why later). I was willing to look for a different job but I really really didn't want to. Pivotal has been fantastic and I've enjoyed it there. Since I joined I've worked on 3 different teams over 2 years:
 
@@ -28,14 +28,16 @@ The whole process started with a strong desire to move back to Berlin (I'll go i
 
 In all of these projects I got to work with great people who challenged me and allowed me to challenge them as well. The products themselves are also quite interesting and are gaining a lot of traction in the market. Cloud Foundry is something I would have enjoyed using if my primary activity was writing application code.
 
-So, when I mentioned my desire to move to my manager, [Jamie Monseratte][jme], and he responded with support and positivity. I was able to explore the different things I could do in Berlin and eventually landed on a role called [Platform Reliability Engineer][pre] (we're hiring). It feels like it'll be a fun mix of enablement, hands on operations, and customer engagement. I've learned that I love running software more than the building software so this appears to be a great fit for me.
+So, when I mentioned my desire to move to my manager, [Jamie Monseratte][jme],  he responded with support and positivity. I was able to explore the different things I could do in Berlin and eventually landed on a role called [Platform Reliability Engineer][pre] (we're hiring). It feels like it'll be a fun mix of enablement, hands on operations, and customer engagement. I've learned that I love running software more than the building software so this appears to be a great fit for me.
 
-I've spent a few days in the office and met everyone at the Christmas party. I already feel welcome!
+I've spent a few days in the office and met everyone at the Christmas party (photo to be added soon). I already feel welcome!
 
 [jme]: https://twitter.com/jamiemonserrate
 [pre]: https://boards.greenhouse.io/pivotalsoftware/jobs/877047#.WiwIP7Q-fdQ
 
 ## Dublin
+
+{% img center /images/blog/dublin-spree.jpg 1024 %}
 
 Living in Dublin was a great experience. I've learned all about [irish whiskey][irish-whiskey] which is now my favourite spirit. I've made some friends and have visited more pubs than I can possible count. I'm going to miss all the concert venues which became my home away from home.
 
@@ -43,13 +45,13 @@ Living in Dublin was a great experience. I've learned all about [irish whiskey][
 
 ## What's The Deal With Berlin?
 
-It's hard to explain why exactly I wanted to be back in Berlin. It's the first time I've ever moved back to a place. The best way I can describe how I felt is that Berlin has the most gravity. Every location has a bit of gravity: Vancouver, San Francisco, Bangalore; But Berlin had sufficient gravity to pull me out of Dublin. You know a place is right when people describe the things they hate about a city and you find those are the reasons why you like it.
+It's hard to explain why exactly I wanted to be back in Berlin. It's the first time I've ever moved back to a city. The best way I can describe how I felt is that Berlin has the most gravity. Every location has a bit of gravity: Vancouver, San Francisco, Bangalore; But Berlin had sufficient gravity to pull me out of Dublin. You know a place is right when people describe the things they dislike about a city and you find those are the reasons why you like it.
 
 In my head this is the last move I'm going to be doing voluntarily. I wish to settle down in Berlin and make it the first place I've lived in for longer than 2 years since I lived in Vancouver (which implies I haven't lived in the same city for longer than 18 months in the last 8 years).
 
 In my first week in Berlin I've found my new home. It's an interesting flat in Wilmersdorf. It's large, has lots of character, and is well connected to all of Berlin. I look forward to having you over :-)
 
-*This post took 3 pomodoros to complete*
+*This post took 4 pomodoros to complete*
 
 
 
