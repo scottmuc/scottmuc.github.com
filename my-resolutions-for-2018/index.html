@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>JS Builder Exceptions With Multiline JS Strings - More Muc Than You Can Handle</title>
+  <title>My Resolutions for 2018 - More Muc Than You Can Handle</title>
   <meta name="author" content="Scott Muc">
 
   
-  <meta name="description" content="I&rsquo;m creating an automated build process and one of the items in the build is to build an external resource which is a java script library. The &hellip;">
+  <meta name="description" content="Reflections on 2017 Perform 1 pull up &ndash; This didn&rsquo;t go so well. I&rsquo;m now the heaviest that I&rsquo;ve ever been (95kg). My psoriasis &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://scottmuc.com/blog/development/js-builder-exceptions-with-multiline-js-strings">
+  <link rel="canonical" href="http://scottmuc.com/my-resolutions-for-2018">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
@@ -75,7 +75,7 @@
   
   <header>
     
-      <h1 class="entry-title">JS Builder Exceptions With Multiline JS Strings</h1>
+      <h1 class="entry-title">My Resolutions for 2018</h1>
     
     
       <p class="meta">
@@ -91,42 +91,44 @@
   
 
 
-<time datetime="2008-10-03T16:32:00-07:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2008</time>
+<time datetime="2018-01-01T16:13:42-08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2018</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I&rsquo;m creating an automated build process and one of the items in the build is to build an external resource which is a java script library. The javascript is contained in multiple files and I want to concatenate them into one script. I found a very useful tool called <a href="http://code.google.com/p/js-builder/">JS Builder</a> which has a command line executable which I can use to automate the construction of this javascript file.</p>
+<div class="entry-content"><h2>Reflections on <a href="/my-resolutions-for-2017/">2017</a></h2>
 
-<!-- more -->
-
-
-<p>Setup was very simple. I created a JS Build project in my build directory. Inside it I reference the .js files I want to include/minimize/concatenate. I select the folder containing the scripts and attempt to run the build.</p>
-
-<p>My first attempt results in the following error:</p>
-
-<p>An unhandled exception occurred while building:</p>
-
-<pre>
-System.Exception: Error: JSMIN unterminated string literal: 10
- at JSBuild.JSMin.action(Int32 d)
- at JSBuild.JSMin.jsmin()
- at JSBuild.JSMin.MinifyToString(String src)
- at JSBuild.JavascriptFile.get_Minified()
- at JSBuild.JavascriptFile.MinifyTo(String target)
- at JSBuild.ProjectBuilder.Build(Project project, String outputDir)
- at JSBuild.ProjectBuilder.Build(Project project)
- at JSBuild.MainForm.Build()
-</pre>
+<ul>
+<li><strong>Perform 1 pull up</strong> &ndash; This didn&rsquo;t go so well. I&rsquo;m now the heaviest that I&rsquo;ve ever been (95kg). My psoriasis (scalp) has become really annoying and gets worse when I exercise. So 2017 wasn&rsquo;t a good year for my health. It&rsquo;s very clear that I don&rsquo;t handle disruption of my routine very well. Below is a graph of my workouts:</li>
+</ul>
 
 
-<p>I tried to google the error but could not find anything. To troubleshoot I added 1 javascript file at a time and found that there were a small group of files that caused this error. It turns out that JS Build chokes on multiline strings that use the &lsquo;\&rsquo; character to have the string declared on multiple lines in the source code.</p>
+<p><img class="center" src="/images/blog/workouts-2017.png" width="1024"></p>
 
-<p>Not a big deal, I did multiline string concatenation to build the strings instead (probably implement a string builder in the future). After that, everything built fine. During the research I came across an <a href="http://kazoolist.blogspot.com/2008/06/multi-line-strings-in-javascript.html">interesting article</a> regarding the validitiy of the syntax of strings using the &lsquo;\&rsquo; character.</p>
+<p>Only 1 or 2 of those gaps was related to illness; most of them were due to travel (work and play). The last few months was me being preoccupied with my move to Berlin (yet another excuse).</p>
 
-<p>Now I have a simple NAnt task that executes JS Build that constructs a single javascript file for a complex javascript audio player for the future CBC Radio 3 website (kudos to <a href="http://www.rabin.ca/">Phil Rabin</a> for the code). Next step is to figure out how to deal with thirdparty javascript libraries that the project depends on.</p>
+<ul>
+<li><strong>journaling</strong> &ndash; I also took a look at if I adhered to my <a href="/my-resolutions-for-2016/">2016</a> goal to maintain a journal. The following graph shows that I started the year off strong and then it faded away for a bit.</li>
+</ul>
+
+
+<p><img class="center" src="/images/blog/journal-entries-2017.png" width="1024"></p>
+
+<p>I&rsquo;ve been looking back in my journal periodically now and finding it a great source of insight into what my previous self was thinking. I&rsquo;m happy I&rsquo;ve started picking it up last month.</p>
+
+<h2>Goal for 2018:</h2>
+
+<p>Inspired by <a href="https://medium.com/@catehstn/the-2018liberation-list-4e229bdbb919">Cate Huston</a>, I&rsquo;m going to liberate myself from making a goal for this year. I&rsquo;ve just moved back to Berlin and will spend this year settling in and exploring.</p>
+
+<p>This doesn&rsquo;t mean I&rsquo;m not going to doing anything about my personal health, I just am not deciding what it is at this current moment.</p>
+
+<h2>Summary</h2>
+
+<p>2018 is going to be a year of settling down and some reflection. I&rsquo;m happy to have found a home where I&rsquo;m excited by the prospect of being there for many years. I&rsquo;m just going to let that feeling spawn iniatives as the year goes on.</p>
+
+<p><em>This post took 2 pomodoro to complete</em></p>
 </div>
 
 
@@ -149,8 +151,14 @@ System.Exception: Error: JSMIN unterminated string literal: 10
   
 
 
-<time datetime="2008-10-03T16:32:00-07:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2008</time>
+<time datetime="2018-01-01T16:13:42-08:00" pubdate data-updated="true">Jan 1<span>st</span>, 2018</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/yearly-goals/'>yearly-goals</a>
+  
+</span>
 
 
     </p>
@@ -164,10 +172,8 @@ System.Exception: Error: JSMIN unterminated string literal: 10
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/why-i-ve-chosen-to-use-my-desktop-as-my-default-download-location/" title="Previous Post: Desktop As My Default Download Location">&laquo; Desktop As My Default Download Location</a>
+        <a class="basic-alignment left" href="/moving-back-to-berlin/" title="Previous Post: Moving Back to Berlin">&laquo; Moving Back to Berlin</a>
       
-      
-        <a class="basic-alignment right" href="/blog/development/it-s-good-to-laugh-at-your-old-code/" title="Next Post: It Is Good To Laugh At Your Old Code">It Is Good To Laugh At Your Old Code &raquo;</a>
       
     </p>
   </footer>
@@ -203,8 +209,8 @@ System.Exception: Error: JSMIN unterminated string literal: 10
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://scottmuc.com/blog/development/js-builder-exceptions-with-multiline-js-strings/';
-        var disqus_url = 'http://scottmuc.com/blog/development/js-builder-exceptions-with-multiline-js-strings/';
+        var disqus_identifier = 'http://scottmuc.com/my-resolutions-for-2018/';
+        var disqus_url = 'http://scottmuc.com/my-resolutions-for-2018/';
         var disqus_script = 'embed.js';
       
     (function () {

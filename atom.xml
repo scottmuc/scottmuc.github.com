@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2017-12-17T10:49:42+01:00</updated>
+  <updated>2018-01-02T12:03:26-08:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -14,9 +14,48 @@
 
   
   <entry>
+    <title type="html"><![CDATA[My Resolutions for 2018]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2018/"/>
+    <updated>2018-01-01T16:13:42-08:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2018</id>
+    <content type="html"><![CDATA[<h2>Reflections on <a href="http://scottmuc.com/my-resolutions-for-2017/">2017</a></h2>
+
+<ul>
+<li><strong>Perform 1 pull up</strong> &ndash; This didn&rsquo;t go so well. I&rsquo;m now the heaviest that I&rsquo;ve ever been (95kg). My psoriasis (scalp) has become really annoying and gets worse when I exercise. So 2017 wasn&rsquo;t a good year for my health. It&rsquo;s very clear that I don&rsquo;t handle disruption of my routine very well. Below is a graph of my workouts:</li>
+</ul>
+
+
+<p><img class="center" src="http://scottmuc.com/images/blog/workouts-2017.png" width="1024"></p>
+
+<p>Only 1 or 2 of those gaps was related to illness; most of them were due to travel (work and play). The last few months was me being preoccupied with my move to Berlin (yet another excuse).</p>
+
+<ul>
+<li><strong>journaling</strong> &ndash; I also took a look at if I adhered to my <a href="http://scottmuc.com/my-resolutions-for-2016/">2016</a> goal to maintain a journal. The following graph shows that I started the year off strong and then it faded away for a bit.</li>
+</ul>
+
+
+<p><img class="center" src="http://scottmuc.com/images/blog/journal-entries-2017.png" width="1024"></p>
+
+<p>I&rsquo;ve been looking back in my journal periodically now and finding it a great source of insight into what my previous self was thinking. I&rsquo;m happy I&rsquo;ve started picking it up last month.</p>
+
+<h2>Goal for 2018:</h2>
+
+<p>Inspired by <a href="https://medium.com/@catehstn/the-2018liberation-list-4e229bdbb919">Cate Huston</a>, I&rsquo;m going to liberate myself from making a goal for this year. I&rsquo;ve just moved back to Berlin and will spend this year settling in and exploring.</p>
+
+<p>This doesn&rsquo;t mean I&rsquo;m not going to doing anything about my personal health, I just am not deciding what it is at this current moment.</p>
+
+<h2>Summary</h2>
+
+<p>2018 is going to be a year of settling down and some reflection. I&rsquo;m happy to have found a home where I&rsquo;m excited by the prospect of being there for many years. I&rsquo;m just going to let that feeling spawn iniatives as the year goes on.</p>
+
+<p><em>This post took 2 pomodoro to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Moving Back to Berlin]]></title>
     <link href="http://scottmuc.com/moving-back-to-berlin/"/>
-    <updated>2017-12-09T16:25:18+01:00</updated>
+    <updated>2017-12-09T07:25:18-08:00</updated>
     <id>http://scottmuc.com/moving-back-to-berlin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/berlin-walk.jpg" width="1024"></p>
 
@@ -60,7 +99,7 @@
   <entry>
     <title type="html"><![CDATA[Valuable Links - TLS]]></title>
     <link href="http://scottmuc.com/valuable-links-tls/"/>
-    <updated>2017-03-06T22:40:48+01:00</updated>
+    <updated>2017-03-06T13:40:48-08:00</updated>
     <id>http://scottmuc.com/valuable-links-tls</id>
     <content type="html"><![CDATA[<p>This is embarassing to admit but I have to re-learn Transport Layer Security (TLS) on a continuous basis. This post
 is my cheatsheet to remembering all the itty bitty details, which I&rsquo;ll forgot shortly after I do whatever TLS related
@@ -135,7 +174,7 @@ this SSL or TLS?) plus it has a really good infographic.</p>
   <entry>
     <title type="html"><![CDATA[Irish Whiskey Appreciation]]></title>
     <link href="http://scottmuc.com/irish-whiskey-appreciation/"/>
-    <updated>2017-02-20T20:05:47+01:00</updated>
+    <updated>2017-02-20T11:05:47-08:00</updated>
     <id>http://scottmuc.com/irish-whiskey-appreciation</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/whiskey/dublin.jpg" width="1024"></p>
 
@@ -343,7 +382,7 @@ fit for any occasion. Ok, I still need something peaty like a Connemara too.</p>
   <entry>
     <title type="html"><![CDATA[OSX Workstation Setup Automation]]></title>
     <link href="http://scottmuc.com/osx-workstation-setup-automation/"/>
-    <updated>2017-01-11T15:45:48+01:00</updated>
+    <updated>2017-01-11T06:45:48-08:00</updated>
     <id>http://scottmuc.com/osx-workstation-setup-automation</id>
     <content type="html"><![CDATA[<p><span style="color: red;"><strong>DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
 workstation under source control, and this strategy may destroy the machine you wish to attempt this on.</strong></span></p>
@@ -911,7 +950,7 @@ a different username (to ensure my automation doesn&rsquo;t make too many assump
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2017]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2017/"/>
-    <updated>2017-01-02T14:07:40+01:00</updated>
+    <updated>2017-01-02T05:07:40-08:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2017</id>
     <content type="html"><![CDATA[<p>2016 was the first time I accomplished my goal!</p>
 
@@ -977,7 +1016,7 @@ acknowledging how much I can possibly do in that time frame.</p>
   <entry>
     <title type="html"><![CDATA[Dealing With Contempt Culture in the Software World]]></title>
     <link href="http://scottmuc.com/dealing-with-contempt-culture-in-the-software-world/"/>
-    <updated>2016-07-14T02:10:27+02:00</updated>
+    <updated>2016-07-13T17:10:27-07:00</updated>
     <id>http://scottmuc.com/dealing-with-contempt-culture-in-the-software-world</id>
     <content type="html"><![CDATA[<p>A few years ago I <a href="http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/">left ThoughtWorks</a> and was considering leaving IT altogether.</p>
 
@@ -1065,7 +1104,7 @@ much, I would love to hear why.</p>
   <entry>
     <title type="html"><![CDATA[Joining Pivotal Cloud Foundry and Moving to Dublin]]></title>
     <link href="http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin/"/>
-    <updated>2016-02-21T22:45:13+01:00</updated>
+    <updated>2016-02-21T13:45:13-08:00</updated>
     <id>http://scottmuc.com/joining-pivotal-cloud-foundry-and-moving-to-dublin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/pivotal-office.jpg" width="1024"></p>
 
@@ -1158,7 +1197,7 @@ Ireland before!</p>
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2016]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2016/"/>
-    <updated>2016-01-02T02:08:42+01:00</updated>
+    <updated>2016-01-01T17:08:42-08:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2016</id>
     <content type="html"><![CDATA[<p>This post almost didn&rsquo;t happen. 2015 holds a lot of dead-air from me in the blogging world, but I&rsquo;m so compelled by my
 routines that I felt that I had to do it! Honouring a self-made routine/tradition is my achilles heel and my biggest
@@ -1222,7 +1261,7 @@ certainly possible.</p>
   <entry>
     <title type="html"><![CDATA[How to Make Masala Chai]]></title>
     <link href="http://scottmuc.com/how-to-make-masala-chai/"/>
-    <updated>2015-04-26T12:22:50+02:00</updated>
+    <updated>2015-04-26T03:22:50-07:00</updated>
     <id>http://scottmuc.com/how-to-make-masala-chai</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/chai/08-chai.jpg" width="300">
 This is the simplest <a href="https://en.wikipedia.org/wiki/Masala_chai">masala chai</a> recipe I know how to make. Compared to the street side chai you would get in India my
@@ -1314,7 +1353,7 @@ the pot. It can be hard to make a large batch when the pot is more than &frac34;
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2015]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
-    <updated>2015-01-02T02:08:42+01:00</updated>
+    <updated>2015-01-01T17:08:42-08:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2015</id>
     <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
 the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
@@ -1394,7 +1433,7 @@ jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s
   <entry>
     <title type="html"><![CDATA[Three Months in India]]></title>
     <link href="http://scottmuc.com/three-months-in-india/"/>
-    <updated>2014-12-16T06:21:47+01:00</updated>
+    <updated>2014-12-15T21:21:47-08:00</updated>
     <id>http://scottmuc.com/three-months-in-india</id>
     <content type="html"><![CDATA[<p><em>September 20th &ndash; December 16th</em></p>
 
@@ -1518,7 +1557,7 @@ on, but this trip was exactly what I needed/wanted.</p>
   <entry>
     <title type="html"><![CDATA[Why I Like Running]]></title>
     <link href="http://scottmuc.com/why-i-like-running/"/>
-    <updated>2014-12-10T06:09:27+01:00</updated>
+    <updated>2014-12-09T21:09:27-08:00</updated>
     <id>http://scottmuc.com/why-i-like-running</id>
     <content type="html"><![CDATA[<p><a href="http://instagram.com/p/LepNTRLlIB/"><img class="center" src="http://scottmuc.com/images/blog/running/venice.jpg" width="700"></a></p>
 
@@ -1614,7 +1653,7 @@ who egged me on to join a trail run series. If you wish to give me encouragement
   <entry>
     <title type="html"><![CDATA[What Makes Something a "Devops" Tool?]]></title>
     <link href="http://scottmuc.com/what-makes-something-a-devops-tool/"/>
-    <updated>2014-12-05T05:13:52+01:00</updated>
+    <updated>2014-12-04T20:13:52-08:00</updated>
     <id>http://scottmuc.com/what-makes-something-a-devops-tool</id>
     <content type="html"><![CDATA[<p>The term &ldquo;devops&rdquo; has only existed for 5 years and the trend is to label your tool as a devops tool in order for it to
 gain traction. When I look at the landscape of tools, most look like Ops tools, just relabeled.</p>
@@ -1696,7 +1735,7 @@ the behaviours that it supports.</p>
   <entry>
     <title type="html"><![CDATA[Joining SoundCloud and Moving to Berlin]]></title>
     <link href="http://scottmuc.com/joining-soundcloud-and-moving-to-berlin/"/>
-    <updated>2014-11-05T14:09:37+01:00</updated>
+    <updated>2014-11-05T05:09:37-08:00</updated>
     <id>http://scottmuc.com/joining-soundcloud-and-moving-to-berlin</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://scottmuc.com/images/blog/career-break/berlin-reichstag.medium.jpg" width="900"></p>
 
@@ -1871,7 +1910,7 @@ Keep an eye here for my next steps 5 years from now. Wish me luck!</p>
   <entry>
     <title type="html"><![CDATA[Siófok/Tihany, Italian Grand Prix, and Istanbul]]></title>
     <link href="http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul/"/>
-    <updated>2014-11-02T09:48:21+01:00</updated>
+    <updated>2014-11-02T01:48:21-07:00</updated>
     <id>http://scottmuc.com/siofok-tihany-italian-grand-prix-and-istanbul</id>
     <content type="html"><![CDATA[<p><em>August 30th &ndash; September 19</em></p>
 
@@ -2017,7 +2056,7 @@ with friends, and get re-invigorated about software development.</p>
   <entry>
     <title type="html"><![CDATA[Book Review - a Mind for Numbers by Barbara Oakley]]></title>
     <link href="http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley/"/>
-    <updated>2014-10-26T09:05:53+01:00</updated>
+    <updated>2014-10-26T01:05:53-07:00</updated>
     <id>http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley</id>
     <content type="html"><![CDATA[<p><a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245"><img class="left" src="http://scottmuc.com/images/blog/l2l/book.jpg" width="200"></a>
 Over the last 4 weeks I&rsquo;ve been taking the <a href="https://www.coursera.org/">Coursera</a> course <a href="https://www.coursera.org/course/learning">Learning how to Learn</a> on the
@@ -2156,7 +2195,7 @@ boxing to focus on his craft.</li>
   <entry>
     <title type="html"><![CDATA[Valuable Links - Podcasts]]></title>
     <link href="http://scottmuc.com/valuable-links-podcasts/"/>
-    <updated>2014-10-16T08:29:46+02:00</updated>
+    <updated>2014-10-15T23:29:46-07:00</updated>
     <id>http://scottmuc.com/valuable-links-podcasts</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://scottmuc.com/images/blog/podcasts/podcast.jpg" width="300">
 It&rsquo;s quite surprising that I haven&rsquo;t really brought up the topic of <a href="https://en.wikipedia.org/wiki/Podcast">podcasts</a> on my blog considering that
@@ -2842,7 +2881,7 @@ monetization of the web through advertising. It sums up so many of the thoughts 
   <entry>
     <title type="html"><![CDATA[Book Review - Learning Continuous Integration With TeamCity by Manoj Mahalingam]]></title>
     <link href="http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/"/>
-    <updated>2014-10-13T14:04:30+02:00</updated>
+    <updated>2014-10-13T05:04:30-07:00</updated>
     <id>http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam</id>
     <content type="html"><![CDATA[<p><strong>Disclaimer</strong> &ndash; I personally know Manoj and have worked with him in the past. I was asked to review his book,
 <a href="http://goo.gl/5wUy3v">Learning Continuous Integration with TeamCity</a>, by <a href="https://www.packtpub.com/">Packt Publishing</a>.</p>
@@ -2885,7 +2924,7 @@ new with TeamCity and some context of the usage of TeamCity specific features.</
   <entry>
     <title type="html"><![CDATA[Visiting the Motherland - Ukraine]]></title>
     <link href="http://scottmuc.com/visiting-the-motherland-ukraine/"/>
-    <updated>2014-10-06T16:31:12+02:00</updated>
+    <updated>2014-10-06T07:31:12-07:00</updated>
     <id>http://scottmuc.com/visiting-the-motherland-ukraine</id>
     <content type="html"><![CDATA[<p><em>August 17th &ndash; August 29th</em></p>
 
@@ -3058,149 +3097,6 @@ is simply because of the country I was born in.</p>
 
 <p>What I’m really trying to say is that I’m so freaking lucky to be born into an awesome family and country. Because
 of these uncontrollable events (on my part), I’ve been afforded so many luxuries.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Rome, Switzerland, and Vienna]]></title>
-    <link href="http://scottmuc.com/rome-switzerland-and-vienna/"/>
-    <updated>2014-08-13T14:09:31+02:00</updated>
-    <id>http://scottmuc.com/rome-switzerland-and-vienna</id>
-    <content type="html"><![CDATA[<p><em>July 30th &ndash; August 17th</em></p>
-
-<h2>When in Rome</h2>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/rome-fountain.jpg"><img class="center" src="http://scottmuc.com/images/blog/career-break/rome-fountain.medium.jpg" width="900"></a></p>
-
-<p>When I learned that my uncle and his family would be in Rome I looked at my schedule to see if I could make seeing them
-work. It turned out it fit perfectly! The last time I saw them was in London while they were doing their 2013 summer
-trip and I was on my Belgian Grand Prix vacation. My aunt and uncle are well versed in the world of business so we had
-many evenings discussing what I&rsquo;ve learned from the economics courses and floating ideas of what&rsquo;s next for my life. Of
-course I got to catch up with my cousins too. Can&rsquo;t believe how quickly they are growing up (I won&rsquo;t mention that I
-remember seeing them in diapers to avoid their embarassment).  They had rented a flat near the <a href="https://en.wikipedia.org/wiki/Spanish_Steps">Spanish Steps</a>
-which made it easy for me to cram in a bunch of sight-seeing in a short amount of time.</p>
-
-<p>Touring Rome is pretty easy because all you have to do is step outside. Even on my first walk I stumbled across many
-interersting sites. I did a couple free walking tours, but they weren&rsquo;t organized by Sandeman and weren&rsquo;t nearly the
-same quality. Still, it was good to have a guided walk to the Colloseum and to the Vatican. My favourite place was the
-<a href="https://en.wikipedia.org/wiki/The_Gallery_of_Maps">Hallway of Maps</a> in the Vatican Museum. Ever since I was a kid, I&rsquo;ve always loved looking at maps. On
-roadtrips I would be the navigator, and my favourite thing about Ultima VII is the cloth map that was packaged with the
-game</p>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/rome-colosseum.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/rome-colosseum.small.jpg" width="335"></a>
-<a href="http://scottmuc.com/images/blog/career-break/rome-square.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/rome-square.small.jpg" width="335"></a>
-<a href="http://scottmuc.com/images/blog/career-break/rome-st-peters.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/rome-st-peters.small.jpg" width="335"></a></p>
-
-<p>As beautiful as Rome was, I knew my time as a tourist was ending. I was at the point where I didn&rsquo;t want to elbow my
-way through tourists anymore. Nor was I as interested as I was before in exploring musuems and historical places. The
-brain can only hold so much. One thing I enjoyed immensely were the flavour of the tomatoes! Every meal I had I was sure
-to have tomatoes as a part of it.</p>
-
-<h2>Watching Time Go By in Switzerland</h2>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/swiss-home.jpg"><img class="center" src="http://scottmuc.com/images/blog/career-break/swiss-home.medium.jpg" width="900"></a></p>
-
-<p>The other part that made Rome convenient was that I could travel to Switzerland to meet up with fellow ex-ThoughtWork
-<a href="https://twitter.com/mhoefi">Marc Hofer</a>, who I worked with in India in ThoughtWorks University (TWU), and who&rsquo;s balcony view is displayed above.
-He had a 1L bottle of scotch ready (we numbed our heads with scotch nearly every evening during TWU). Thankfully he was
-generous enough to give me a couch for as long as I needed one. I ended up spending 10 days in beautiful <a href="http://www.myswitzerland.com/en/thun.html">Thun</a>!</p>
-
-<p>Over the those days I did the following:</p>
-
-<ul>
-<li><strong>Dinners and chats with Marc</strong> &ndash; Catching up with Marc was a lot of fun. During the day I would accrue a lot of ideas and
-he became my wall to bounce them off of. One such idea was my new currency that I called &ldquo;Sunset&rdquo;. It&rsquo;s a time based
-currency where you determine the exchange rate of the base amount which is a Day. If your daily expenses are $100USD,
-then that&rsquo;s the exchange rate into Days. If you have $1400 in the bank than you have 2 Weeks saved. It&rsquo;s a completely
-personal currency because everyone&rsquo;s exchange into Days will be different. We of course
-talked about our time in India and software development in Switzerland. We never really lacked of things to talk about
-the whole time I was there.</li>
-<li><a href="http://scottmuc.com/images/blog/career-break/swiss-bern.jpg"><img class="right" src="http://scottmuc.com/images/blog/career-break/swiss-bern.small.jpg" width="300"></a> <strong>Bern
-Excursion</strong> &ndash; Marc had a meetup with some of his colleagues and invited me out. I took a train out to Bern a few
-hours before the meetup started so I could wander around a bit. It didn&rsquo;t take long for me to find the
-<a href="https://en.wikipedia.org/wiki/Kindlifresserbrunnen">Kindlifresserbrunnen (Child Eater Fountain)</a> which is probably the most bizarre statue I&rsquo;ve ever seen. The old
-town was beautiful (like Antwerp, Bruges, Heidelberg, Prague, etc&hellip;) and of course I found a nearby
-<a href="http://www.altestramdepot.ch/htm/home.htm">brewery</a> to quench my thirst for a bit before heading to meet up with Marc and his colleagues.</li>
-<li><strong>Coffee shops</strong> &ndash; During the day I looked to find cafes to hang out in and work on my blog (these posts seem to take me a
-heck of a lot of time). There was <a href="https://plus.google.com/106555922181396502598/about?hl=en">one cafe</a> that I really liked. The staff were friendly, played good music, and the
-coffee and beers available were very tasty. During this period I was getting working on my <a href="http://careers.stackoverflow.com/scottmuc">CV</a> and getting
-excited about working again!</li>
-<li><a href="http://scottmuc.com/images/blog/career-break/swiss-bike.jpg"><img class="right" src="http://scottmuc.com/images/blog/career-break/swiss-bike.small.jpg" width="300"></a> <strong>Bike
-around Lake Thun</strong> &ndash; The weather was hit-and-miss, but for one day there was excellent weather. I rented a bike and
-rode it to <a href="https://en.wikipedia.org/wiki/Interlaken">Interlaken</a> and back to Thun for a total of 60km. It was a beautiful ride, but I could feel that I&rsquo;m a bit
-out of shape.</li>
-<li><strong>Train tour</strong> &ndash; There were spare days on my Eurail pass so I decided to check out all the main city centers in the
-country. I started by going to <a href="https://en.wikipedia.org/wiki/Geneva">Geneva</a>, then <a href="https://en.wikipedia.org/wiki/Zurich">Zurich</a>, and finished in <a href="https://en.wikipedia.org/wiki/Lucerne">Luzern</a>.
-Mike Wong, a ThoughtWorker from SF, was on vacation and we met up for dinner. Seriously, ThoughtWorkers are everywhere!</li>
-<li><strong>Oberhofen Castle and Clock Museum</strong> &ndash; Over the weekend Marc played tourist with me and we headed over to Oberhofen. The
-purpose of the trip was to go the <a href="http://www.myswitzerland.com/en/museum-of-clocks-and-mechanical-musical-instruments.html">clock museum</a> but it didn&rsquo;t open for a few hours. We walked around and decided to
-tour the <a href="http://www.schlossoberhofen.ch/en/home">castle</a>. After a bit of walking and a quick snack we went back to the clock museum. They
-didn&rsquo;t do tours in English so Marc played translator. Even in Swiss-German it was a fun tour. The guide was clearly
-passionate about the watches and the music devices.</li>
-</ul>
-
-
-<p><a href="http://scottmuc.com/images/blog/career-break/swiss-spiez.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/swiss-spiez.small.jpg" width="335"></a>
-<a href="http://scottmuc.com/images/blog/career-break/swiss-thun-canal.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/swiss-thun-canal.small.jpg" width="335"></a>
-<a href="http://scottmuc.com/images/blog/career-break/swiss-bridge.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/swiss-bridge.small.jpg" width="335"></a></p>
-
-<p>Since I was in the land of clocks I was hoping to purchase a watch there. Something to be a symbol of taking time to
-enjoy life (a principle of my career break) and something to keep me from looking at my phone for the time. I was
-inspired by the intricate work that goes into making a watch and thought having one on my wrist would remind me to take
-pride in my work and take the necessary time to do it well. Unfortunately all the watch stores were posh and displayed
-ideas around prestige and fashion more than engineering. It switched off my idea of purchasing a watch for now.</p>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/swiss-currency.jpg"><img class="right" src="http://scottmuc.com/images/blog/career-break/swiss-currency.small.jpg" width="180"></a>
-It was hard to leave Switzerland because I was growing comfortable there. The people were friendly and forgiving of my
-inability to speak any of the 4 official languages. Then again, paying over $30 (0.3 Days) was quickly draining my money
-reserves. At least the best part of Switzerland is free; the scenery. Oh, and I also like how the currency folded nicely
-in my money clip. The notes are sized in such a way that the denomination of the note aligns in such a way that you can
-see all of your notes when folded! I can&rsquo;t say how many times I&rsquo;ve had a roll of US notes and found that they were all
-$1 bills and I only had a total of $30 on me.</p>
-
-<h3>&nbsp;</h3>
-
-<h2>Composing my Thoughts in Vienna</h2>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/vienna-cats.jpg"><img class="center" src="http://scottmuc.com/images/blog/career-break/vienna-cats.medium.jpg" width="900"></a></p>
-
-<p>The next leg of my journey is a long train trip to L&#8217;viv, Ukraine. I decided to break up the trip with a stop in Vienna
-for a couple days. With only a couple days I had to pack in the sight-seeing. This was made easier with me being
-museumed-out so I was mostly checking things out from the outside. To make things easy, I found a
-<a href="https://www.airbnb.com/rooms/1531563">great location</a> with a host with a couple cats (pictured above).</p>
-
-<p>My first day was spent checking out the two largest palaces in Vienna. The highlight was a stop at a <a href="http://www.salmbraeu.com/index.php?id=2&amp;L=1">brewery</a> just
-outside the <a href="https://en.wikipedia.org/wiki/Belvedere_(palace)">Belvedere</a> palace. The service was great, the food yummy, and every beer tasty. After 1.5L of beer I was set
-for <a href="https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace">Schönbrunn</a> palace. I took the metro there and climb up the hill to Gloriette and had a little nap on the grass there.</p>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/vienna-belvedere.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/vienna-belvedere.small.jpg" width="335"></a>
-<a href="http://scottmuc.com/images/blog/career-break/vienna-schunbrunn.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/vienna-schunbrunn.small.jpg" width="335"></a>
-<a href="http://scottmuc.com/images/blog/career-break/vienna-center.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/vienna-center.small.jpg" width="335"></a></p>
-
-<p>The next day I used a city bike rental. I&rsquo;m glad I did because I saw a very different Vienna. First stop was to checkout
-the <a href="https://en.wikipedia.org/wiki/Hundertwasser_Haus">Hundertwasserhaus</a>. It was so interesting and pretty that I wondered why beautiful buildings
-like it had to be the exception to the rule. His <a href="http://www.hundertwasser.com/">website</a> is full of interesting ideas. His 5-skins
-concept is one I find myself conflicted about. I wonder what it would have been like to have him and
-<a href="https://en.wikipedia.org/wiki/Gene_Roddenberry">Gene Roddenberry</a> had a conversation.</p>
-
-<p>I then went through <a href="http://www.wien-vienna.com/prater.php">Prater</a> which was a scary amusement park. The weather was a bit gloomy and there were some
-giant clown shaped buildings that made me think of the book IT.</p>
-
-<p>Since I was on a bike I could cover
-a bit more distance so I went towards the bridge and crossed North to <a href="https://en.wikipedia.org/wiki/Donau_City">Donaucity</a>. It was like riding into a dystopian
-story! The streets were stark and there was a cold feeling to the area. I rode away to the nearby park and found it odd
-to see such a large expanse of greenery vacant on a Saturday afternoon. It reminded me again that big design up front
-for cities does not work. What you end up with is something functional but complete devoid of any human feel. After
-riding back to the center I parked the bike at another area and checked out another <a href="http://www.1516brewingcompany.com/cms/">brewery</a>. I think I
-went there during shift change because it took a long time to get the attention of a waitress. The beer and the currywurst was really
-good, but the poor service at the obnoxious sounding Australian behind me (probably was just my mood) was wearing me
-down and I took the metro back to the apartment and hung out in the flat with Roman and his cats.</p>
-
-<p><a href="http://scottmuc.com/images/blog/career-break/vienna-hundertwasser.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/vienna-hundertwasser.small.jpg" width="335"></a>
-<a href="http://scottmuc.com/images/blog/career-break/vienna-donaucity.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/vienna-donaucity.small.jpg" width="335"></a>
-<a href="http://scottmuc.com/images/blog/career-break/vienna-golden-boy.jpg"><img class="left" src="http://scottmuc.com/images/blog/career-break/vienna-golden-boy.small.jpg" width="335"></a></p>
-
-<p>After one more sleep it&rsquo;s time for me to leave Vienna and head to L&#8217;viv, Ukraine!</p>
 ]]></content>
   </entry>
   

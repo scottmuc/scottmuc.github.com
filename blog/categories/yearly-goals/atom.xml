@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Yearly-goals | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/yearly-goals/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2017-12-17T10:49:42+01:00</updated>
+  <updated>2018-01-02T12:03:26-08:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -14,9 +14,48 @@
 
   
   <entry>
+    <title type="html"><![CDATA[My Resolutions for 2018]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2018/"/>
+    <updated>2018-01-01T16:13:42-08:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2018</id>
+    <content type="html"><![CDATA[<h2>Reflections on <a href="/my-resolutions-for-2017/">2017</a></h2>
+
+<ul>
+<li><strong>Perform 1 pull up</strong> &ndash; This didn&rsquo;t go so well. I&rsquo;m now the heaviest that I&rsquo;ve ever been (95kg). My psoriasis (scalp) has become really annoying and gets worse when I exercise. So 2017 wasn&rsquo;t a good year for my health. It&rsquo;s very clear that I don&rsquo;t handle disruption of my routine very well. Below is a graph of my workouts:</li>
+</ul>
+
+
+<p><img class="center" src="/images/blog/workouts-2017.png" width="1024"></p>
+
+<p>Only 1 or 2 of those gaps was related to illness; most of them were due to travel (work and play). The last few months was me being preoccupied with my move to Berlin (yet another excuse).</p>
+
+<ul>
+<li><strong>journaling</strong> &ndash; I also took a look at if I adhered to my <a href="/my-resolutions-for-2016/">2016</a> goal to maintain a journal. The following graph shows that I started the year off strong and then it faded away for a bit.</li>
+</ul>
+
+
+<p><img class="center" src="/images/blog/journal-entries-2017.png" width="1024"></p>
+
+<p>I&rsquo;ve been looking back in my journal periodically now and finding it a great source of insight into what my previous self was thinking. I&rsquo;m happy I&rsquo;ve started picking it up last month.</p>
+
+<h2>Goal for 2018:</h2>
+
+<p>Inspired by <a href="https://medium.com/@catehstn/the-2018liberation-list-4e229bdbb919">Cate Huston</a>, I&rsquo;m going to liberate myself from making a goal for this year. I&rsquo;ve just moved back to Berlin and will spend this year settling in and exploring.</p>
+
+<p>This doesn&rsquo;t mean I&rsquo;m not going to doing anything about my personal health, I just am not deciding what it is at this current moment.</p>
+
+<h2>Summary</h2>
+
+<p>2018 is going to be a year of settling down and some reflection. I&rsquo;m happy to have found a home where I&rsquo;m excited by the prospect of being there for many years. I&rsquo;m just going to let that feeling spawn iniatives as the year goes on.</p>
+
+<p><em>This post took 2 pomodoro to complete</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[My Resolutions for 2017]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2017/"/>
-    <updated>2017-01-02T14:07:40+01:00</updated>
+    <updated>2017-01-02T05:07:40-08:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2017</id>
     <content type="html"><![CDATA[<p>2016 was the first time I accomplished my goal!</p>
 
@@ -71,7 +110,7 @@ acknowledging how much I can possibly do in that time frame.</p>
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2016]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2016/"/>
-    <updated>2016-01-02T02:08:42+01:00</updated>
+    <updated>2016-01-01T17:08:42-08:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2016</id>
     <content type="html"><![CDATA[<p>This post almost didn&rsquo;t happen. 2015 holds a lot of dead-air from me in the blogging world, but I&rsquo;m so compelled by my
 routines that I felt that I had to do it! Honouring a self-made routine/tradition is my achilles heel and my biggest
@@ -135,7 +174,7 @@ certainly possible.</p>
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2015]]></title>
     <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
-    <updated>2015-01-02T02:08:42+01:00</updated>
+    <updated>2015-01-01T17:08:42-08:00</updated>
     <id>http://scottmuc.com/my-resolutions-for-2015</id>
     <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
 the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
@@ -215,7 +254,7 @@ jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s
   <entry>
     <title type="html"><![CDATA[My Developer Resolutions for 2014]]></title>
     <link href="http://scottmuc.com/my-developer-resolutions-for-2014/"/>
-    <updated>2014-01-02T10:45:00+01:00</updated>
+    <updated>2014-01-02T10:45:00-08:00</updated>
     <id>http://scottmuc.com/my-developer-resolutions-for-2014</id>
     <content type="html"><![CDATA[<p>I was tempted to not write this post. My motivations are changing a bit and growing strong technically isn&rsquo;t one of
 my top priorities nowadays.</p>
@@ -290,104 +329,6 @@ well.</p>
 <a href="http://thinkprogress.org/security/2013/12/31/3108661/10-biggest-privacy-security-breaches-rocked-2013/">theft of e-mail addresses and passwords</a> have also lowered confidence in IT as a whole. Let&rsquo;s not talk about <a href="http://www.theverge.com/2013/10/20/4859316/healthcare-gov-woes">Obama Care</a>.
 It&rsquo;s frustating to see the industry that I love so much do so much harm, and become so untrustworthy.
 2014 is going to shape to be an interesting year as a result of these events.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My Developer Resolutions for 2013]]></title>
-    <link href="http://scottmuc.com/my-developer-resolutions-for-2013/"/>
-    <updated>2012-12-31T10:45:00+01:00</updated>
-    <id>http://scottmuc.com/my-developer-resolutions-for-2013</id>
-    <content type="html"><![CDATA[<p>2012 started off interesting because I was on on an iOS/ruby project. Nearly everything was new to me, but I liked how
-my past experiences with other technology stacks were still relevant. Even though I didn&rsquo;t know the languages very well
-the patterns I&rsquo;ve seen before still applied.</p>
-
-<p>The last quarter of the year was spent teaching new software developers in India, which has been one of the most
-rewarding experiences of my career! It has definitely influenced my goals for 2013.</p>
-
-<!-- more -->
-
-
-<h2>Reflections on 2012 and carry over from 2011:</h2>
-
-<ul>
-<li>Learn a server provisioning automation tool (2011) &ndash; I may have failed this one big time in 2011 but 2012 was a great
-year for this. I spent much of the year getting to know Chef. I feel I can check this one off now.</li>
-<li>Stop reading comments (2012) &ndash; Can&rsquo;t say I&rsquo;ve stopped reading comments but I&rsquo;m more conscious of when I&rsquo;m wasting my
-time and tend to stop immediately. I started following a <a href="https://twitter.com/AvoidComments">useful twitter account</a>
-which provides constant reminders that reading comments can be a huge waste of time.</li>
-<li>No client work when away from client (2012) &ndash; I twisted this one into a conditional success. I still like to hack in
-my spare time but I hack on my personal projects and stay away from doing extra billable hours when I should be having
-ME time. I&rsquo;ve been much better at saying NO to excess outings and have focused on being healthy.</li>
-<li>Complete <a href="https://github.com/manojlds/YDeliver/">YDeliver</a> (2012) &ndash; This one is a big failure. I barely touched
-YDeliver all year. Apparently it&rsquo;s been used in a few ThoughtWorks projects by <a href="https://github.com/manojlds">Manoj</a> and he now
-has ownership of the repository. I&rsquo;ve come to the realization that OSS doesn&rsquo;t come out of a vacuum. YDeliver was
-going strong when I still had fresh memories of that previous project, but as time went on, the relevance (to me) of
-YDeliver was diminishing. The takeaway for is me to maintain the momentum if it&rsquo;s there.</li>
-</ul>
-
-
-<h2>Development Goals for 2013:</h2>
-
-<p>While 2012 was a great mix of fun ops tooling learning and consulting, I want to get back to my roots (pun?) and do more low
-level tech related things. At the same time, I want to improve on my teaching skills which will mean facilitating more learning
-workshops and presenting more frequently.</p>
-
-<h3>Read <a href="http://pragprog.com/book/btlang/seven-languages-in-seven-weeks">7 Languages in 7 Weeks</a></h3>
-
-<p>Much of my effort is spent making many puzzle pieces fit together. Being isolated to a
-<a href="http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a> and a text editor would be
-pleasant change. Also, I haven&rsquo;t dived deep into a language lately. All my ruby learning has been simply by having to
-write ruby code for work. I can&rsquo;t say I know the language, but I&rsquo;ve managed to figure things out. I miss having a little
-bit deeper knowledge of a language like I used to have with C#.</p>
-
-<p>My action plan is to purchase the book and do 1 language a month. So by July this goal will be accomplished.</p>
-
-<h3>More Presentations</h3>
-
-<p>Being a trainer at ThoughtWorks University taught me that I have a lot to learn about presenting. <a href="http://www.learninggeneralist.com/">Sumeet
-Moghe</a>, who was the previous lead trainer, showed excellent examples of what makes a
-good presentation. It was interesting, because I always felt those points internally, but he expresses them externally
-in a digestable way that actually inspires me to make excellent presentations.</p>
-
-<p>My colleague <a href="http://twitter.com/tpbrown">Tim Brown</a> will be happy about this goal because he&rsquo;s been nagging me for a
-while about this. Some topics I&rsquo;ve been pondering so far are:</p>
-
-<ul>
-<li>Using <a href="http://vagrantup.com/">Vagrant</a> to provide local infrastructure (aka never install a DB server on your machine again)</li>
-<li>Application configuration patterns with a non-trivial number of environments</li>
-<li>PowerShell BDD with <a href="https://github.com/pester/Pester/">Pester</a></li>
-</ul>
-
-
-<p>The action plan is to choose 1 of these topics and present it 3 times. As well as the presentations, I will design 3
-different workshops and faciliate each one 3 times.</p>
-
-<h3>Expand my Ops Toolbelt</h3>
-
-<p>I really love ops and I think this is the career path I want to continue on. 2012 was great for learning
-<a href="http://www.opscode.com/chef/">Chef</a>, so this year I want to learn <a href="http://puppetlabs.com/">Puppet</a>. Another area
-that I would like to improve upon my knowledge is the domain of remoting.</p>
-
-<p>My action plan is to duplicate any Vagrant server setups that use Chef to use Puppet as well. This will be great for
-a side-by-side comparison. So currently that would mean the following repositories need a puppet provisioner:</p>
-
-<ul>
-<li><a href="https://github.com/scottmuc/vagrant-postgresql">vagrant-postgresql</a></li>
-<li><a href="https://github.com/scottmuc/vagrant_rails">vagrant-rails</a></li>
-<li><a href="https://github.com/scottmuc/gordon">gordon</a></li>
-</ul>
-
-
-<p>For remoting I plan on writing 10 blog posts on tools like ssh, winRM. I want to dive into the mechanics of
-authentication and networking to better understand technologies like kerberos, certificates, and gssapi which are
-crucial for making remoting work on a larger scale.</p>
-
-<h3>Summary</h3>
-
-<p>The last few years I&rsquo;ve learned a lot about managing my goals. I&rsquo;m doing my best to keep my goals
-<a href="http://en.wikipedia.org/wiki/SMART_criteria">SMART</a> so that I can actually achieve them. We&rsquo;ll see how things turn
-out 365 days from now!</p>
 ]]></content>
   </entry>
   
