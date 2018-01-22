@@ -42,7 +42,7 @@ now. Most importantly, it allows me to export my subscribed shows as an [OPML fi
 [pocketcasts]: http://www.shiftyjelly.com/android/pocketcasts
 [podcasts-opml]: /podcasts_opml.xml
 
-## The List
+## What I Am Listening to Now
 
 Podcasts are a great way to tap into interests of all different types. You'll notice that only a few are related to my
 professional life. Listening to podcasts is a wonderful activity and I do get a lot out of them, there becomes a point
@@ -82,89 +82,6 @@ listening to it regardless of the topic!
 
 - - -
 
-###[Freakonomics Radio][podcast-freakonomics][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-freakonomics-rss]
-
-{% img right /images/blog/podcasts/freakonomics.jpg 200 %}
-Sometimes hit or miss. Strives to be entertaining more than educational
-sometimes, but overall the content is quite good. I identify a bit with [Steve Levitt][steve-levitt] as he's more of an
-intrespective quiet person.
-
-**Favourites:**
-
-* [Regulate This!][regulate-this] - As a user of services like Uber and Airbnb, it's interesting to hear the issues that
-  these services raise. I find myself leaning towards the side of less regulation, but I still can't figure out where
-  the balance is. The term "sharing economy" also drives me nuts, because sharing implies no charge to me. These are
-  just peer-to-peer market places enabled by technology.
-* [Fitness Apartheid][fitness-apartheid] - An excellent example of how too little thought around a problem can lead to
-  bad consequences. It brings the concerns of both sides together and makes the listener understand that nothing is ever
-  as simple as you think it ought to be.
-* [The Upside of Quitting][upside-of-quitting] - Very fitting for my [career break][career-break].
-* [Failure is your Friend][failure-is-your-friend] - A follow up to the previous episode.
-
-[regulate-this]: http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/
-[fitness-apartheid]: http://freakonomics.com/2014/09/25/fitness-apartheid-a-new-freakonomics-radio-podcast/
-[upside-of-quitting]: http://freakonomics.com/2014/05/29/the-upside-of-quitting-a-freakonomics-radio-rebroadcast/
-[failure-is-your-friend]: http://freakonomics.com/2014/06/05/failure-is-your-friend-a-new-freakonomics-radio-podcast/
-[podcast-freakonomics]: http://www.wnyc.org/shows/freakonomics-radio/
-[podcast-freakonomics-rss]: http://feeds.feedburner.com/freakonomicsradio
-[steve-levitt]: https://en.wikipedia.org/wiki/Steven_Levitt
-
-- - -
-
-###[Planet Money][podcast-planet-money][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-planet-money-rss]
-
-{% img right /images/blog/podcasts/planetmoney.png 200 %}
-Short and to the point episodes that focus on very specific topics or issues. I
-like this show because the pieces are bite-sized and frequently released. I find myself listening to this show when I
-have to wait 15 minutes before something.
-
-**Favourites:**
-
-* [Why Raising Money for Ebola is Hard][ebola] - Excellent insights around why we give, and the pychology of charity.
-* [A Mall Divided][mall-divided] - A peak into how economic policy can distrupt small businesses.
-* [Blockbusters, Bombs, and the Price of a Ticket][movie-prices] - I had never put much thought into the cost of a movie
-  ticket, this episode explains all the details of why tickets cost the same regardless if it's sold-out or empty.
-
-[ebola]: http://www.npr.org/blogs/money/2014/09/26/351515481/episode-571-why-raising-money-for-ebola-is-hard
-[mall-divided]: http://www.npr.org/blogs/money/2014/08/22/342232976/episode-562-a-mall-divided
-[movie-prices]: http://www.npr.org/blogs/money/2014/07/11/330680385/episode-552-blockbusters-bombs-and-the-price-of-a-ticket
-[podcast-planet-money]: http://www.npr.org/blogs/money/
-[podcast-planet-money-rss]: http://www.npr.org/rss/podcast.php?id=510289
-
-- - -
-
-###[Conversations with Tyler][podcast-cwt][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-cwt-rss]
-
-{% img right /images/blog/podcasts/cwt.jpg 200 %}
-A new one that I just got into. It's a bit more candid than EconTalk and more accessible. The guests are of the same
-caliber and sometimes the Q&A at the end can add interesting tidbits that may not neccessarily come up during an
-interview.
-
-**Favourites:**
-
-* [Jeffrey Sachs][cwt-sachs] - I've only listened to a few and they are all excellent but this one stands out because I
-  found Jeffrey Sachs inspires me a little bit. Instead of shrugging his shoulders and pointing out how all the terrible
-  things in the world can be explained by value functions and rational behaviour, he uses that knowledge to learn how to
-  tweak these systems. He's an interesting balance of idealist and a realist and I find that refreshing compared to
-  other economic speakers I've listened to.
-
-[cwt-sachs]: https://medium.com/conversations-with-tyler/jeffrey-sachs-on-the-future-of-economic-development-2650c27b2776#.utox5d73q
-[podcast-cwt]: http://mercatus.org/conversations-with-tyler
-[podcast-cwt-rss]: http://feeds.soundcloud.com/users/soundcloud:users:146429914/sounds.rss
-
-- - -
-
-###[FT Alphachat][podcast-ft-alphachat][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ft-alphachat-rss]
-
-{% img right /images/blog/podcasts/ft-alphachat.png 200 %}
-Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
-some of the other business/economic podcasts.
-
-[podcast-ft-alphachat]: http://podcast.ft.com/s/ft-alphachat/
-[podcast-ft-alphachat-rss]: http://rss.acast.com/ft-alphachat
-
-- - -
-
 ###[Slate Money][podcast-slate-money][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-slate-money-rss]
 
 {% img right /images/blog/podcasts/slate-money.png 200 %}
@@ -186,37 +103,6 @@ economics in a way that's targetted for people who don't know all the lingo.
 [linkedin-edition]: http://www.slate.com/articles/podcasts/slate_money/2016/06/slate_money_on_microsoft_s_acquisition_of_linkedin.html
 [podcast-slate-money]: http://www.slate.com/articles/podcasts/slate_money.html
 [podcast-slate-money-rss]: http://feeds.feedburner.com/SlateMoney
-
-- - -
-
-###[Hard Pass][hardpass][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][hardpass-rss]
-
-{% img right /images/blog/podcasts/hardpass.jpg 200 %}
-I learned about Linette Lopez from the Slate Money podcast and really liked her style. She's punchy
-and tells it like it is. Hard Pass is a good low-dose entertaining podcast about the business and
-econmics news of the day. The episodes are so short that it's easy to digest any time.
-
-[hardpass]: https://itunes.apple.com/us/podcast/hard-pass/id1090135741?mt=2
-[hardpass-rss]: http://rss.acast.com/hardpass
-
-- - -
-
-###[Mad Fientist][mad-fientist][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][mad-fientist-rss]
-
-{% img right /images/blog/podcasts/madfientist.jpg 200 %}
-Over the last year I've been interested in those that pursue Financial Independence / Early Retirement (known as FIRE
-for short). This podcast is a regular dose of inspiration on my own pursuit of getting out of the rat race.
-
-**Favourites:**
-
-* [JL Collins Simple Path to Wealth][jl-collins] - The simplicity and logic was enough for me to go out and buy his
-  book. I'm following the steps mentioned here for the last year and it's been pretty positive so far. I like the simple
-  steps involved and I like the removal of the pressure that I need to be rediculously smart to make money from the
-  market.
-
-[jl-collins]: http://www.madfientist.com/jl-collins-interview/
-[mad-fientist]: http://www.madfientist.com/podcast/
-[mad-fientist-rss]: http://feeds.feedburner.com/MadFientistPodcast
 
 - - -
 
@@ -290,80 +176,6 @@ fascinating. There are many excellent episodes but the following ones really sto
 
 - - -
 
-###[Hidden Brain][podcast-npr-hidden-brain][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-npr-hidden-brain-rss]
-
-{% img right /images/blog/podcasts/npr-hiddenbrain.jpg 200 %}
-A topic that I've been loving lately is learning how our brains work. Not at the micro level, but at the macro level.
-What makes us make all the silly decisions that we make. How do we subtly use this knowledge to manipulate people for
-good and bad. Whenever you find yourself asking the question "why would anyone behave this way?", listen to this show
-and it'll shed some light on us crazy humans.
-
-**Favourites:**
-
-* [Grit][grit] - I found myself nodding at many of the points in this episode. It highlights how expertise requires
-  spending a large portion of your time performing deliberate practice. It also looks at why people love people that
-  show mastery in something but disregard the massive dedication these people spent on becoming a master.
-* [AirBnB While Black][airbnbwhileblack] - As a western white male, the easiness of my life is often not very obvious,
-  that is until you hear the stories of others. I have a feeling that the Internet is exposing our unconscious biases
-  more frequently while at the same time providing people with techniques to overcome these hurdles.
-
-[grit]: http://www.npr.org/podcasts/510308/hidden-brain
-[airbnbwhileblack]: http://www.npr.org/podcasts/510308/hidden-brain
-[podcast-npr-hidden-brain]: http://www.npr.org/podcasts/510308/hidden-brain
-[podcast-npr-hidden-brain-rss]: http://www.npr.org/rss/podcast.php?id=510308
-
-- - -
-
-###[The Human Zoo][human-zoo][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][human-zoo-rss]
-
-{% img right /images/blog/podcasts/humanzoo.jpg 200 %}
-Over time I have really started enjoying the topic of human behaviour and what makes us who we are.
-
-**Favourites:**
-
-* [Trust me... I'm an expert][expert]
-* [Perfect people][perfect-people]
-
-[human-zoo]: http://www.bbc.co.uk/programmes/b036tbly
-[human-zoo-rss]: http://www.bbc.co.uk/programmes/b036tbly/episodes/downloads.rss
-[expert]: http://www.bbc.co.uk/programmes/b07j4ppt
-[perfect-people]: http://www.bbc.co.uk/programmes/b060zr3d
-
-- - -
-
-###[History of the World in 100 Objects][history-of-world][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][history-of-world-rss]
-
-{% img right /images/blog/podcasts/history-of-world.jpg 200 %}
-An excellent history of the world in small bite sized chunks. The format gives you a really good perspective of how
-long civilization takes to change. I can only imagine how much time it took to determine which objects to use
-from the last century. While listening to this I realized how much bias I have around change being technical.
-
-[history-of-world]: http://www.bbc.co.uk/programmes/b00nrtd2
-[history-of-world-rss]: http://www.bbc.co.uk/programmes/b00nrtd2/episodes/downloads.rss
-
-- - -
-
-###[Revisionist History][revisionist-history][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][revisionist-history-rss]
-
-{% img right /images/blog/podcasts/revisionisthistory.jpg 200 %}
-Malcolm Gladwell is exceptional at cherry picking great stories to make his point. In this podcast he brings forward
-stories to make you think differently about past events. I really enjoyed this show as it reminds me of how delusional
-the human mind can be. At only 10 episodes it's something I believe is worth listening to a second time.
-
-**Favourites:**
-
-* [The Big Man Can't Shoot][big-man-cant-shoot] - An excellent showcase about how we humans don't behave in ways to
-  maximize specific outcomes even when we know how to do it. Using the example of professional basketball, Malcolm
-  explores why humans don't choose to do things that would put us to the top.
-* [Blame Game][blame-game] - Can a collective of people trully be mass delusional? Hearing how a root cause analysis can
-  completely break down is bizarre to hear.
-
-[big-man-cant-shoot]: http://revisionisthistory.com/episodes/03-the-big-man-cant-shoot
-[blame-game]: http://revisionisthistory.com/episodes/08-blame-game
-[revisionist-history]: http://revisionisthistory.com/about
-[revisionist-history-rss]: http://feeds.feedburner.com/RevisionistHistory
-
-- - -
 
 ## Music
 
@@ -403,38 +215,6 @@ listening to this keeps me somewhat informed of what's going on.
 
 - - -
 
-## Tech / Programming
-
-###[Track Changes][track-changes][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][track-changes-rss]
-
-{% img right /images/blog/podcasts/trackchanges.png 200 %}
-Enjoying this podcast makes me feel quite odd. It's a branding exercise by Paul and Rich's company, but I'm able to see
-past that and enjoy the dialogue of this show. I feel connected with [Paul Ford][paul-ford] as he brings out the
-computer nostalgia non-stop. It's a nice light-weight podcast that's nice for the gym or listening to before going to
-sleep.
-
-**Favourites:**
-
-* **Craig Mod on Great Design and Long Journeys** ([part 1][craig-mod-1], [part 2][craig-mod-2]) - I really enjoyed hearing
-  the chill zen thoughts from Craig compared to the NYC startup fast life of Rich and Paul. I got the sense that there's
-  a lot I can learn from Craig.
-* [Clover Newsletter][clover-newsletter] - Want to get some some insight to how the younger generation rediscovers
-  old mediums and finds them useful for their cause? This episode is great for that.
-  I was really impressed at how wise beyond their years [Liza Darwin][liza-darwin]
-  and [Casey Lewis][casey-lewis] talk about their newsletter business. More interesting for me is to hear about a
-  demographic (teenage girls) that is so often not spoken about in tech circles.
-
-[liza-darwin]: https://twitter.com/lizadarwin
-[casey-lewis]: https://twitter.com/caseymlewis
-[clover-newsletter]: https://trackchanges.postlight.com/track-changes-podcast-32-clover-newsletter-turning-over-a-new-leaf-or-four-with-founders-liza-291e89d1aa69#.q38zxsyhz
-[craig-mod-1]: https://trackchanges.postlight.com/craig-mod-on-great-design-and-long-journeys-part-1-49739ae17a0c#.84a4n1jhd
-[craig-mod-2]: https://trackchanges.postlight.com/craig-mod-on-great-design-and-long-journeys-part-2-ddaebcf0117a#.rnmqfuno1
-[track-changes]: https://trackchanges.postlight.com/tagged/podcast
-[track-changes-rss]: http://trackchanges.libsyn.com/rss
-[paul-ford]: https://twitter.com/ftrain
-
-- - -
-
 ## Language
 
 ###[The Allusionist][podcast-allusionist][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-allusionist-rss]
@@ -453,26 +233,6 @@ about the origins of the words in my native language.
 [allusionist-please]: http://www.theallusionist.org/allusionist/please
 [podcast-allusionist]: http://www.theallusionist.org/
 [podcast-allusionist-rss]: http://feeds.theallusionist.org/Allusionist
-
-- - -
-
-###[Lexicon Valley][podcast-lexvalley][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-lexvalley-rss]
-
-{% img right /images/blog/podcasts/lexvalley.jpg 200 %}
-Each episode starts with a clue as to what the topic is going to be, and the hosts try to figure it out. They often have
-great dialogues about the words and are well researched in trying to pinpoint the origin of term. They have a good sense
-of humour too.
-
-**Favourties:**
-
-* [Language Positivity Bias][lexvalley-positivity] - This episode made me laugh out loud while grocery shopping. They
-  dive into the lyrics of Slayer and it's really a priceless moment.
-* [A Cat, a Coward, and Female Genitalia][lexvalley-pussy] - Where did the word pussy come from?
-
-[lexvalley-pussy]: http://www.slate.com/articles/podcasts/lexicon_valley/2015/11/pussy_the_etymology_and_history_of_a_cat_a_coward_and_female_genitalia.html
-[lexvalley-positivity]: http://www.slate.com/articles/podcasts/lexicon_valley/2015/06/lexicon_valley_the_pollyanna_hypothesis_all_languages_have_a_positivity.html
-[podcast-lexvalley]: http://www.slate.com/articles/podcasts/lexicon_valley.html
-[podcast-lexvalley-rss]: http://feeds.feedburner.com/SlateLexiconValley
 
 - - -
 
@@ -814,4 +574,262 @@ I'm already becoming a huge fan!
 
 [podcast-toe]: http://toe.prx.org/
 [podcast-toe-rss]: http://feeds.prx.org/toe
+
+- - -
+
+###[Freakonomics Radio][podcast-freakonomics][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-freakonomics-rss]
+
+{% img right /images/blog/podcasts/freakonomics.jpg 200 %}
+Sometimes hit or miss. Strives to be entertaining more than educational
+sometimes, but overall the content is quite good. I identify a bit with [Steve Levitt][steve-levitt] as he's more of an
+intrespective quiet person.
+
+**Favourites:**
+
+* [Regulate This!][regulate-this] - As a user of services like Uber and Airbnb, it's interesting to hear the issues that
+  these services raise. I find myself leaning towards the side of less regulation, but I still can't figure out where
+  the balance is. The term "sharing economy" also drives me nuts, because sharing implies no charge to me. These are
+  just peer-to-peer market places enabled by technology.
+* [Fitness Apartheid][fitness-apartheid] - An excellent example of how too little thought around a problem can lead to
+  bad consequences. It brings the concerns of both sides together and makes the listener understand that nothing is ever
+  as simple as you think it ought to be.
+* [The Upside of Quitting][upside-of-quitting] - Very fitting for my [career break][career-break].
+* [Failure is your Friend][failure-is-your-friend] - A follow up to the previous episode.
+
+[regulate-this]: http://freakonomics.com/2014/09/04/regulate-this-a-new-freakonomics-radio-podcast/
+[fitness-apartheid]: http://freakonomics.com/2014/09/25/fitness-apartheid-a-new-freakonomics-radio-podcast/
+[upside-of-quitting]: http://freakonomics.com/2014/05/29/the-upside-of-quitting-a-freakonomics-radio-rebroadcast/
+[failure-is-your-friend]: http://freakonomics.com/2014/06/05/failure-is-your-friend-a-new-freakonomics-radio-podcast/
+[podcast-freakonomics]: http://www.wnyc.org/shows/freakonomics-radio/
+[podcast-freakonomics-rss]: http://feeds.feedburner.com/freakonomicsradio
+[steve-levitt]: https://en.wikipedia.org/wiki/Steven_Levitt
+
+- - -
+
+###[Planet Money][podcast-planet-money][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-planet-money-rss]
+
+{% img right /images/blog/podcasts/planetmoney.png 200 %}
+Short and to the point episodes that focus on very specific topics or issues. I
+like this show because the pieces are bite-sized and frequently released. I find myself listening to this show when I
+have to wait 15 minutes before something.
+
+**Favourites:**
+
+* [Why Raising Money for Ebola is Hard][ebola] - Excellent insights around why we give, and the pychology of charity.
+* [A Mall Divided][mall-divided] - A peak into how economic policy can distrupt small businesses.
+* [Blockbusters, Bombs, and the Price of a Ticket][movie-prices] - I had never put much thought into the cost of a movie
+  ticket, this episode explains all the details of why tickets cost the same regardless if it's sold-out or empty.
+
+[ebola]: http://www.npr.org/blogs/money/2014/09/26/351515481/episode-571-why-raising-money-for-ebola-is-hard
+[mall-divided]: http://www.npr.org/blogs/money/2014/08/22/342232976/episode-562-a-mall-divided
+[movie-prices]: http://www.npr.org/blogs/money/2014/07/11/330680385/episode-552-blockbusters-bombs-and-the-price-of-a-ticket
+[podcast-planet-money]: http://www.npr.org/blogs/money/
+[podcast-planet-money-rss]: http://www.npr.org/rss/podcast.php?id=510289
+
+- - -
+
+###[Conversations with Tyler][podcast-cwt][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-cwt-rss]
+
+{% img right /images/blog/podcasts/cwt.jpg 200 %}
+A new one that I just got into. It's a bit more candid than EconTalk and more accessible. The guests are of the same
+caliber and sometimes the Q&A at the end can add interesting tidbits that may not neccessarily come up during an
+interview.
+
+**Favourites:**
+
+* [Jeffrey Sachs][cwt-sachs] - I've only listened to a few and they are all excellent but this one stands out because I
+  found Jeffrey Sachs inspires me a little bit. Instead of shrugging his shoulders and pointing out how all the terrible
+  things in the world can be explained by value functions and rational behaviour, he uses that knowledge to learn how to
+  tweak these systems. He's an interesting balance of idealist and a realist and I find that refreshing compared to
+  other economic speakers I've listened to.
+
+[cwt-sachs]: https://medium.com/conversations-with-tyler/jeffrey-sachs-on-the-future-of-economic-development-2650c27b2776#.utox5d73q
+[podcast-cwt]: http://mercatus.org/conversations-with-tyler
+[podcast-cwt-rss]: http://feeds.soundcloud.com/users/soundcloud:users:146429914/sounds.rss
+
+- - -
+
+###[FT Alphachat][podcast-ft-alphachat][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-ft-alphachat-rss]
+
+{% img right /images/blog/podcasts/ft-alphachat.png 200 %}
+Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
+some of the other business/economic podcasts.
+
+[podcast-ft-alphachat]: http://podcast.ft.com/s/ft-alphachat/
+[podcast-ft-alphachat-rss]: http://rss.acast.com/ft-alphachat
+
+- - -
+
+###[Hard Pass][hardpass][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][hardpass-rss]
+
+{% img right /images/blog/podcasts/hardpass.jpg 200 %}
+I learned about Linette Lopez from the Slate Money podcast and really liked her style. She's punchy
+and tells it like it is. Hard Pass is a good low-dose entertaining podcast about the business and
+econmics news of the day. The episodes are so short that it's easy to digest any time.
+
+[hardpass]: https://itunes.apple.com/us/podcast/hard-pass/id1090135741?mt=2
+[hardpass-rss]: http://rss.acast.com/hardpass
+
+- - -
+
+###[Mad Fientist][mad-fientist][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][mad-fientist-rss]
+
+{% img right /images/blog/podcasts/madfientist.jpg 200 %}
+Over the last year I've been interested in those that pursue Financial Independence / Early Retirement (known as FIRE
+for short). This podcast is a regular dose of inspiration on my own pursuit of getting out of the rat race.
+
+**Favourites:**
+
+* [JL Collins Simple Path to Wealth][jl-collins] - The simplicity and logic was enough for me to go out and buy his
+  book. I'm following the steps mentioned here for the last year and it's been pretty positive so far. I like the simple
+  steps involved and I like the removal of the pressure that I need to be rediculously smart to make money from the
+  market.
+
+[jl-collins]: http://www.madfientist.com/jl-collins-interview/
+[mad-fientist]: http://www.madfientist.com/podcast/
+[mad-fientist-rss]: http://feeds.feedburner.com/MadFientistPodcast
+
+- - -
+
+###[Track Changes][track-changes][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][track-changes-rss]
+
+{% img right /images/blog/podcasts/trackchanges.png 200 %}
+Enjoying this podcast makes me feel quite odd. It's a branding exercise by Paul and Rich's company, but I'm able to see
+past that and enjoy the dialogue of this show. I feel connected with [Paul Ford][paul-ford] as he brings out the
+computer nostalgia non-stop. It's a nice light-weight podcast that's nice for the gym or listening to before going to
+sleep.
+
+**Favourites:**
+
+* **Craig Mod on Great Design and Long Journeys** ([part 1][craig-mod-1], [part 2][craig-mod-2]) - I really enjoyed hearing
+  the chill zen thoughts from Craig compared to the NYC startup fast life of Rich and Paul. I got the sense that there's
+  a lot I can learn from Craig.
+* [Clover Newsletter][clover-newsletter] - Want to get some some insight to how the younger generation rediscovers
+  old mediums and finds them useful for their cause? This episode is great for that.
+  I was really impressed at how wise beyond their years [Liza Darwin][liza-darwin]
+  and [Casey Lewis][casey-lewis] talk about their newsletter business. More interesting for me is to hear about a
+  demographic (teenage girls) that is so often not spoken about in tech circles.
+
+[liza-darwin]: https://twitter.com/lizadarwin
+[casey-lewis]: https://twitter.com/caseymlewis
+[clover-newsletter]: https://trackchanges.postlight.com/track-changes-podcast-32-clover-newsletter-turning-over-a-new-leaf-or-four-with-founders-liza-291e89d1aa69#.q38zxsyhz
+[craig-mod-1]: https://trackchanges.postlight.com/craig-mod-on-great-design-and-long-journeys-part-1-49739ae17a0c#.84a4n1jhd
+[craig-mod-2]: https://trackchanges.postlight.com/craig-mod-on-great-design-and-long-journeys-part-2-ddaebcf0117a#.rnmqfuno1
+[track-changes]: https://trackchanges.postlight.com/tagged/podcast
+[track-changes-rss]: http://trackchanges.libsyn.com/rss
+[paul-ford]: https://twitter.com/ftrain
+
+- - -
+
+###[Hidden Brain][podcast-npr-hidden-brain][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-npr-hidden-brain-rss]
+
+{% img right /images/blog/podcasts/npr-hiddenbrain.jpg 200 %}
+A topic that I've been loving lately is learning how our brains work. Not at the micro level, but at the macro level.
+What makes us make all the silly decisions that we make. How do we subtly use this knowledge to manipulate people for
+good and bad. Whenever you find yourself asking the question "why would anyone behave this way?", listen to this show
+and it'll shed some light on us crazy humans.
+
+**Favourites:**
+
+* [Grit][grit] - I found myself nodding at many of the points in this episode. It highlights how expertise requires
+  spending a large portion of your time performing deliberate practice. It also looks at why people love people that
+  show mastery in something but disregard the massive dedication these people spent on becoming a master.
+* [AirBnB While Black][airbnbwhileblack] - As a western white male, the easiness of my life is often not very obvious,
+  that is until you hear the stories of others. I have a feeling that the Internet is exposing our unconscious biases
+  more frequently while at the same time providing people with techniques to overcome these hurdles.
+
+[grit]: http://www.npr.org/podcasts/510308/hidden-brain
+[airbnbwhileblack]: http://www.npr.org/podcasts/510308/hidden-brain
+[podcast-npr-hidden-brain]: http://www.npr.org/podcasts/510308/hidden-brain
+[podcast-npr-hidden-brain-rss]: http://www.npr.org/rss/podcast.php?id=510308
+
+- - -
+
+###[Lexicon Valley][podcast-lexvalley][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][podcast-lexvalley-rss]
+
+{% img right /images/blog/podcasts/lexvalley.jpg 200 %}
+Each episode starts with a clue as to what the topic is going to be, and the hosts try to figure it out. They often have
+great dialogues about the words and are well researched in trying to pinpoint the origin of term. They have a good sense
+of humour too.
+
+**Favourties:**
+
+* [Language Positivity Bias][lexvalley-positivity] - This episode made me laugh out loud while grocery shopping. They
+  dive into the lyrics of Slayer and it's really a priceless moment.
+* [A Cat, a Coward, and Female Genitalia][lexvalley-pussy] - Where did the word pussy come from?
+
+[lexvalley-pussy]: http://www.slate.com/articles/podcasts/lexicon_valley/2015/11/pussy_the_etymology_and_history_of_a_cat_a_coward_and_female_genitalia.html
+[lexvalley-positivity]: http://www.slate.com/articles/podcasts/lexicon_valley/2015/06/lexicon_valley_the_pollyanna_hypothesis_all_languages_have_a_positivity.html
+[podcast-lexvalley]: http://www.slate.com/articles/podcasts/lexicon_valley.html
+[podcast-lexvalley-rss]: http://feeds.feedburner.com/SlateLexiconValley
+
+- - -
+
+###[Hurry Slowly][hurry-slowly][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][hurry-slowly-rss]
+
+{% img right /images/blog/podcasts/hurryslowly.png 200 %}
+Another productivity show that aligns with my current beliefs. It's good content delivered well, but I've stopped listening because I've heard most of the teachings in the show.
+
+**Favourites:**
+
+* [Craig Mod - I Want My Attention Back][attention-back] - The attention economy is powerful and real. I like listening to Craig Mod on how he deals with it.
+* [Tyler Cowan - The Quiet Dangers of Complacency][cowan-complacency] - Tyler Cowan does a great job of reminding us what it takes do be better than the day before.
+
+[cowan-complacency]: http://hurryslowly.co/009-tyler-cowen/
+[attention-back]: http://hurryslowly.co/003-craig-mod/
+[hurry-slowly]: http://hurryslowly.co/
+[hurry-slowly-rss]: http://hurryslowly.co/feed/podcast/	
+
+- - -
+
+###[Revisionist History][revisionist-history][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][revisionist-history-rss]
+
+{% img right /images/blog/podcasts/revisionisthistory.jpg 200 %}
+Malcolm Gladwell is exceptional at cherry picking great stories to make his point. In this podcast he brings forward
+stories to make you think differently about past events. I really enjoyed this show as it reminds me of how delusional
+the human mind can be. At only 10 episodes it's something I believe is worth listening to a second time.
+
+**Favourites:**
+
+* [The Big Man Can't Shoot][big-man-cant-shoot] - An excellent showcase about how we humans don't behave in ways to
+  maximize specific outcomes even when we know how to do it. Using the example of professional basketball, Malcolm
+  explores why humans don't choose to do things that would put us to the top.
+* [Blame Game][blame-game] - Can a collective of people trully be mass delusional? Hearing how a root cause analysis can
+  completely break down is bizarre to hear.
+
+[big-man-cant-shoot]: http://revisionisthistory.com/episodes/03-the-big-man-cant-shoot
+[blame-game]: http://revisionisthistory.com/episodes/08-blame-game
+[revisionist-history]: http://revisionisthistory.com/about
+[revisionist-history-rss]: http://feeds.feedburner.com/RevisionistHistory
+
+- - -
+
+###[The Human Zoo][human-zoo][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][human-zoo-rss]
+
+{% img right /images/blog/podcasts/humanzoo.jpg 200 %}
+Over time I have really started enjoying the topic of human behaviour and what makes us who we are.
+
+**Favourites:**
+
+* [Trust me... I'm an expert][expert]
+* [Perfect people][perfect-people]
+
+[human-zoo]: http://www.bbc.co.uk/programmes/b036tbly
+[human-zoo-rss]: http://www.bbc.co.uk/programmes/b036tbly/episodes/downloads.rss
+[expert]: http://www.bbc.co.uk/programmes/b07j4ppt
+[perfect-people]: http://www.bbc.co.uk/programmes/b060zr3d
+
+- - -
+
+###[History of the World in 100 Objects][history-of-world][<img src="/images/feed-icon-28x28.png" class="podcast-image" />][history-of-world-rss]
+
+{% img right /images/blog/podcasts/history-of-world.jpg 200 %}
+An excellent history of the world in small bite sized chunks. The format gives you a really good perspective of how
+long civilization takes to change. I can only imagine how much time it took to determine which objects to use
+from the last century. While listening to this I realized how much bias I have around change being technical.
+
+[history-of-world]: http://www.bbc.co.uk/programmes/b00nrtd2
+[history-of-world-rss]: http://www.bbc.co.uk/programmes/b00nrtd2/episodes/downloads.rss
+
+- - -
 
