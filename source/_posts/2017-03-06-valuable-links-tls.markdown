@@ -59,8 +59,20 @@ Nearly everytime I need to setup [HTTPS][https-link] I find that I need to rerea
 the links and focusing on understanding that article, you'll tackle any *HTTPS* related task with ease. You'll just
 forget it all after a few days.
 
+[Everything You Ever Wanted to Know SSL...][everything-ssl] is another great post that dives deep into the low level of
+what happens in creating a secure connection.
+
 [https-link]: https://en.wikipedia.org/wiki/HTTPS
 [first-few-seconds]: http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html
+[everything-ssl]: http://www.robinhowlett.com/blog/2016/01/05/everything-you-ever-wanted-to-know-about-ssl-but-were-afraid-to-ask/
+
+## Hostname Verification
+
+[Will Sargent][will-sargent] wrote an excellent series on [Testing Hostname Verification][testing-hostname-verification]
+which goes into the guts of many of the parts discussed in this post.
+
+[will-sargent]: "https://twitter.com/will_sargent"
+[testing-hostname-verification]: https://tersesystems.com/blog/2014/03/31/testing-hostname-verification/
 
 ## How Do Things Go Wrong?
 
