@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Resolutions for 2019"
-date: 2019-01-13 20:12:53 +0100
+date: 2019-02-16 20:12:53 +0100
 comments: true
 categories: 
   - yearly-goals
@@ -20,25 +20,29 @@ Here are some things I discovered about myself in 2018:
 
 * Working from home for the first time and I absolutely love it! I don't believe I'll ever go back to
   having a regular commute again.
-* My travel hunger has been satiated. I will be minimizing my travel until my appetite grows for it.
+* My travel hunger has been satiated. I will be minimizing my travel until my appetite grows for it again.
 * Berlin is truly where I want to settle down in the long term. So much so that I’ve bought a home
-  here and will be moving in a month or so.
+  here and I've just finished moving in!
+* I love writing, but sometimes my output doesn't reach the public domain. I've written more in 2018
+  than probably any other year.
 
 ## Goals for 2019:
 
-This year is less about figuring out my goals but more about vocalizing them. I intend to measure these to
-see if I am making any progress.
-
-* Savings rate of 50%
-* Publish a full game recording
-* Register for a German course
+As always there are so many things I would like to do. I had a dozen blog post drafts that I ended up purging. I need to work
+on my physical health too. Those who know me know that I have some very specific financial goals. To keep things
+simple, I'm going to stick with one goal and approach it more like a project. For 2019, I would like to end the
+year with a published [Let's Play](https://en.wikipedia.org/wiki/Let's_Play) that has at least 50 views of the final
+video in the series. This ought to be a good test on whether or not game recordings is something worth pursuing.
 
 ## Summary
 
-2018 is going to be a year of settling down and some reflection. I'm happy to have found a home where I'm excited by the
-prospect of being there for many years. I'm just going to let that feeling spawn iniatives as the year goes on.
+I've sneakily already started on my goal with a completed series of Civilization VI! So far it's only been shared
+with a private group of friends.
 
-Journaling has been the one habit that I’ve cultivated and has lasted several years! Here are the numbers:
+By-the-way, journaling ([goal from 2016](/my-resolutions-for-2016/) has been the one habit that I’ve cultivated
+and has lasted several years! Here are the numbers:
+
+{% img center /images/blog/journaling-at-end-of-2018.png %}
 
 *No pomodoros were harmed in the making of this post (I composed this while watching a Stellaris stream)*
 
