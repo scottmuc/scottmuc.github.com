@@ -39,7 +39,7 @@ video in the series. This ought to be a good test on whether or not game recordi
 I've sneakily already started on my goal with a completed series of Civilization VI! So far it's only been shared
 with a private group of friends.
 
-By-the-way, journaling ([goal from 2016](/my-resolutions-for-2016/) has been the one habit that I’ve cultivated
+By-the-way, journaling ([goal from 2016](/my-resolutions-for-2016/)) has been the one habit that I’ve cultivated
 and has lasted several years! Here are the numbers:
 
 {% img center /images/blog/journaling-at-end-of-2018.png %}
