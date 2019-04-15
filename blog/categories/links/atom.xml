@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Links | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/links/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2019-02-24T14:32:03+01:00</updated>
+  <updated>2019-04-15T08:28:14+02:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -90,6 +90,11 @@ been asked to do anything related to <strong>SSL/TLS</strong> and <strong>certif
 <p><strong>Update</strong> I was contacted by <a href="https://twitter.com/BlastYourBlog">Matt Banner</a> who asked me to update this article with some content from his
 website. I took a look at it and it&rsquo;s a <a href="https://www.onblastblog.com/http-to-https/">really good guide</a> for updating from <code>http</code> to <code>https</code> (pop quiz, is
 this SSL or TLS?) plus it has a really good infographic.</p>
+
+<p><strong>Update 2</strong> Found a couple more excellent resources on the subject. <a href="https://www.youtube.com/watch?v=yzz3bcnWf7M">A Tour of TLS</a> is probably the clearest
+video I&rsquo;ve watched on the subject. It clarified some of the more obscure pieces of the protocol like OCSP and Stapling
+in such a way that I finally got it! <a href="https://smallstep.com/blog/everything-pki.html">Everything PKI</a> brings pretty much of what&rsquo;s in the Tour of
+TLS video in the frame of a system operator (e.g.: through <code>openssl</code> commands).</p>
 
 <p><em>This post took 2 pomodoros to complete</em></p>
 ]]></content>
