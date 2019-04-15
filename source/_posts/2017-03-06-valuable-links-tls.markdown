@@ -99,4 +99,12 @@ this SSL or TLS?) plus it has a really good infographic.
 [matt-banner]: https://twitter.com/BlastYourBlog
 [infographic]: https://www.onblastblog.com/http-to-https/
 
+**Update 2** Found a couple more excellent resources on the subject. [A Tour of TLS][tour-tls] is probably the clearest
+video I've watched on the subject. It clarified some of the more obscure pieces of the protocol like OCSP and Stapling
+in such a way that I finally got it! [Everything PKI][everything-pki] brings pretty much of what's in the Tour of
+TLS video in the frame of a system operator (e.g.: through `openssl` commands).
+
+[everything-pki]: https://smallstep.com/blog/everything-pki.html
+[tour-tls]: https://www.youtube.com/watch?v=yzz3bcnWf7M
+
 *This post took 2 pomodoros to complete*
