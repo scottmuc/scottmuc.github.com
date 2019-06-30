@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Links | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/links/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2019-06-10T18:41:05+02:00</updated>
+  <updated>2019-06-30T17:07:58+02:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Valuable Links - Git]]></title>
+    <link href="http://scottmuc.com/valuable-links-git/"/>
+    <updated>2019-06-30T16:16:51+02:00</updated>
+    <id>http://scottmuc.com/valuable-links-git</id>
+    <content type="html"><![CDATA[<p>Why a links post about Git? There are plenty of resources, right? Exactly! There&rsquo;s almost too many resources around Git and you can reach a profiency in Git with just a few.</p>
+
+<p>For fun, check out the results of this search for <a href="https://www.goodreads.com/shelf/show/git">git books</a> vs <a href="https://www.goodreads.com/shelf/show/svn">svn books</a>. Hopefully this post will help you to never need to go through that list.</p>
+
+<h2>Some Opinions</h2>
+
+<p>It&rsquo;s funny to me that <code>git</code> is a tool one can become skilled at. When using <code>svn</code> I never felt that I had to learn advanced things (I did own one of those books listed above though). Perhaps it&rsquo;s more a sign of the times and the number of people in software has grown immensely; which is great!.</p>
+
+<p>Start with just the bare bones <code>git</code> CLI. All those helper tools like <a href="https://jonas.github.io/tig/"><code>tig</code></a>, <a href="http://gitx.frim.nl/seeit.html"><code>gitx</code></a>, and IDE integrations will hide what&rsquo;s going on. Knowing how <code>git</code> works comes most handy when you&rsquo;ve done something and you think all your code is lost. Learning through vanilla <code>git</code> commands will go far. Why learn another tools way of doing things when you can just use the underlying <code>git</code> commands?</p>
+
+<p>Ignore the <code>git</code> cheat sheets out there. You&rsquo;ll be able to make your own cheat sheets easily enough. Trust me, once you learn a bit of how the internals work, you&rsquo;ll realise that it&rsquo;s difficult to really screw things up. Source control is, hopefully, something you&rsquo;ll be using every single day. The commands will become muscle memory quickly.</p>
+
+<p>OK, I&rsquo;ll get off my soap box.</p>
+
+<h2>Links</h2>
+
+<ul>
+<li><a href="https://maryrosecook.com/blog/post/git-from-the-inside-out">Git from the inside out</a> &ndash; Mary has written by far the best article I&rsquo;ve read about <code>git</code>. It&rsquo;s long, but if you get to the end with a focused effort, you&rsquo;ll never need to stress about any <code>git</code> command. She even posted a video too!</li>
+<li><a href="http://gitready.com">gitready.com</a> &ndash; This site has been around when <code>git</code> first started and has a few good recipes that you should be able to understand well if you&rsquo;ve read the above article. Yeah, there are cheat sheets, but you don&rsquo;t need them now, right?</li>
+<li><a href="https://github.com/scottmuc/presentations/tree/master/git">The Human Git Graph</a> &ndash; A great way to learn is to teach. I created this workshop for those that could use a different angle at understanding <code>git</code>. It&rsquo;s a lot of fun and I would love to know if you try faciliating it yourself.</li>
+</ul>
+
+
+<h2>Summary</h2>
+
+<p>What? Just 3 links? Pretty much! The 2nd link has enough resources to keep you busy for days, but I don&rsquo;t believe you need them. You can use that time to grow more important skills.</p>
+
+<p><em>This post took 2 pomodoros to complete</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Valuable Links - TLS]]></title>
