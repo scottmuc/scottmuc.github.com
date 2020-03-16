@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Links | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/links/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2019-06-30T17:07:58+02:00</updated>
+  <updated>2020-03-16T14:55:15+00:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Valuable Links - Git]]></title>
     <link href="http://scottmuc.com/valuable-links-git/"/>
-    <updated>2019-06-30T16:16:51+02:00</updated>
+    <updated>2019-06-30T14:16:51+00:00</updated>
     <id>http://scottmuc.com/valuable-links-git</id>
     <content type="html"><![CDATA[<p>Why a links post about Git? There are plenty of resources, right? Exactly! There&rsquo;s almost too many resources around Git and you can reach a profiency in Git with just a few.</p>
 
@@ -52,7 +52,7 @@
   <entry>
     <title type="html"><![CDATA[Valuable Links - TLS]]></title>
     <link href="http://scottmuc.com/valuable-links-tls/"/>
-    <updated>2017-03-06T22:40:48+01:00</updated>
+    <updated>2017-03-06T21:40:48+00:00</updated>
     <id>http://scottmuc.com/valuable-links-tls</id>
     <content type="html"><![CDATA[<p>This is embarassing to admit but I have to re-learn Transport Layer Security (TLS) on a continuous basis. This post
 is my cheatsheet to remembering all the itty bitty details, which I&rsquo;ll forgot shortly after I do whatever TLS related
@@ -139,7 +139,7 @@ TLS video in the frame of a system operator (e.g.: through <code>openssl</code> 
   <entry>
     <title type="html"><![CDATA[Valuable Links - Podcasts]]></title>
     <link href="http://scottmuc.com/valuable-links-podcasts/"/>
-    <updated>2014-10-16T08:29:46+02:00</updated>
+    <updated>2014-10-16T06:29:46+00:00</updated>
     <id>http://scottmuc.com/valuable-links-podcasts</id>
     <content type="html"><![CDATA[<p><img class="right" src="/images/blog/podcasts/podcast.jpg" width="300">
 It&rsquo;s quite surprising that I haven&rsquo;t really brought up the topic of <a href="https://en.wikipedia.org/wiki/Podcast">podcasts</a> on my blog considering that
@@ -840,7 +840,7 @@ from the last century. While listening to this I realized how much bias I have a
   <entry>
     <title type="html"><![CDATA[Valuable Links - Devops]]></title>
     <link href="http://scottmuc.com/valuable-links-devops/"/>
-    <updated>2014-02-24T03:17:52+01:00</updated>
+    <updated>2014-02-24T02:17:52+00:00</updated>
     <id>http://scottmuc.com/valuable-links-devops</id>
     <content type="html"><![CDATA[<h2>Valuable Links for Devops</h2>
 
@@ -930,7 +930,7 @@ provides examples</li>
   <entry>
     <title type="html"><![CDATA[Valuable Links - Vim]]></title>
     <link href="http://scottmuc.com/valuable-links-vim/"/>
-    <updated>2013-11-03T19:31:00+01:00</updated>
+    <updated>2013-11-03T19:31:00+00:00</updated>
     <id>http://scottmuc.com/valuable-links-vim</id>
     <content type="html"><![CDATA[<h2>First Off &ndash; Introducing Valuable Links</h2>
 

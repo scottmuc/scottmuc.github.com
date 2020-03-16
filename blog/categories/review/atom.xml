@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Review | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/review/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2019-06-30T17:07:58+02:00</updated>
+  <updated>2020-03-16T14:55:15+00:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Book Review - a Mind for Numbers by Barbara Oakley]]></title>
     <link href="http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley/"/>
-    <updated>2014-10-26T09:05:53+01:00</updated>
+    <updated>2014-10-26T08:05:53+00:00</updated>
     <id>http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley</id>
     <content type="html"><![CDATA[<p><a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245"><img class="left" src="/images/blog/l2l/book.jpg" width="200"></a>
 Over the last 4 weeks I&rsquo;ve been taking the <a href="https://www.coursera.org/">Coursera</a> course <a href="https://www.coursera.org/course/learning">Learning how to Learn</a> on the
@@ -154,7 +154,7 @@ boxing to focus on his craft.</li>
   <entry>
     <title type="html"><![CDATA[Book Review - Learning Continuous Integration With TeamCity by Manoj Mahalingam]]></title>
     <link href="http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/"/>
-    <updated>2014-10-13T14:04:30+02:00</updated>
+    <updated>2014-10-13T12:04:30+00:00</updated>
     <id>http://scottmuc.com/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam</id>
     <content type="html"><![CDATA[<p><strong>Disclaimer</strong> &ndash; I personally know Manoj and have worked with him in the past. I was asked to review his book,
 <a href="http://goo.gl/5wUy3v">Learning Continuous Integration with TeamCity</a>, by <a href="https://www.packtpub.com/">Packt Publishing</a>.</p>
@@ -197,7 +197,7 @@ new with TeamCity and some context of the usage of TeamCity specific features.</
   <entry>
     <title type="html"><![CDATA[Book Review - the Art of Unit Testing by Roy Osherove]]></title>
     <link href="http://scottmuc.com/blog/reviews/book-review-the-art-of-unit-testing-by-roy-osherove/"/>
-    <updated>2009-07-08T08:56:00+02:00</updated>
+    <updated>2009-07-08T08:56:00+00:00</updated>
     <id>http://scottmuc.com/blog/reviews/book-review-the-art-of-unit-testing-by-roy-osherove</id>
     <content type="html"><![CDATA[<p><img class="left <a" src="href="http://www.manning.com/osherove/osherove_cover150.jpg">http://www.manning.com/osherove/osherove_cover150.jpg</a>">
 In a recent splurge I purchased 4 books from <a href="http://www.manning.com/">Manning Press</a> with one of them being <a href="http://www.manning.com/osherove/">The Art of Unit Testing</a> by <strong>Roy Osherove</strong>.</p>

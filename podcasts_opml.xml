@@ -5,35 +5,34 @@
   </head>
   <body>
     <outline text="feeds">
-      <outline type="rss" text="Song Exploder" xmlUrl="http://songexploder.libsyn.com/rss" />
-      <outline type="rss" text="Benjamen Walker’s Theory of Everything" xmlUrl="http://feeds.prx.org/toe" />
-      <outline type="rss" text="Slate Money" xmlUrl="http://feeds.feedburner.com/SlateMoney" />
+      <outline type="rss" text="99% Invisible" xmlUrl="http://feeds.99percentinvisible.org/99percentinvisible" />
+      <outline type="rss" text="Song Exploder" xmlUrl="http://feed.songexploder.net/songexploder" />
+      <outline type="rss" text="The Business of Video Games" xmlUrl="https://feeds.buzzsprout.com/164561.rss" />
+      <outline type="rss" text="Slate Money" xmlUrl="https://feeds.megaphone.fm/slatemoney" />
       <outline type="rss" text="Philosophize This!" xmlUrl="http://philosophizethis.libsyn.com/rss" />
-      <outline type="rss" text="Planet Money" xmlUrl="http://www.npr.org/rss/podcast.php?id=510289" />
-      <outline type="rss" text="Placemakers" xmlUrl="http://feeds.feedburner.com/SlatePlacemakers" />
-      <outline type="rss" text="Software Engineering Radio - The Podcast for Professional Software Developers" xmlUrl="http://feeds.feedburner.com/se-radio" />
-      <outline type="rss" text="FT Alphachat" xmlUrl="http://rss.acast.com/ft-alphachat" />
-      <outline type="rss" text="Stuff You Should Know" xmlUrl="http://www.howstuffworks.com/podcasts/stuff-you-should-know.rss" />
-      <outline type="rss" text="The Bottom Line" xmlUrl="http://www.bbc.co.uk/programmes/b006sz6t/episodes/downloads.rss" />
+      <outline type="rss" text="Cautionary Tales" xmlUrl="https://feeds.megaphone.fm/cautionarytales" />
+      <outline type="rss" text="Berlinology" xmlUrl="https://berlinology.podigee.io/feed/mp3" />
+      <outline type="rss" text="Radio Spaetkauf - Berlin's English Podcast" xmlUrl="http://radiospaetkauf.libsyn.com/rss" />
       <outline type="rss" text="Radiolab" xmlUrl="http://feeds.wnyc.org/radiolab" />
-      <outline type="rss" text="Conversations with Tyler" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:146429914/sounds.rss" />
-      <outline type="rss" text="50 Things That Made the Modern Economy" xmlUrl="http://www.bbc.co.uk/programmes/p04b1g3c/episodes/downloads.rss" />
-      <outline type="rss" text="Hidden Brain" xmlUrl="https://www.npr.org/rss/podcast.php?id=510308" />
+      <outline type="rss" text="All Songs Considered" xmlUrl="https://www.npr.org/rss/podcast.php?id=510019" />
+      <outline type="rss" text="Invest Like the Best" xmlUrl="https://investlikethebest.libsyn.com/rss" />
+      <outline type="rss" text="Tone Control" xmlUrl="HTTP://www.idlethumbs.net/feeds/tonecontrol" />
+      <outline type="rss" text="Ben, Ben and Blue" xmlUrl="http://benbenandblue.libsyn.com/rss" />
+      <outline type="rss" text="How to Money" xmlUrl="https://feeds.megaphone.fm/HSW9903314957" />
+      <outline type="rss" text="The End Of The World with Josh Clark" xmlUrl="https://feeds.megaphone.fm/HSW2707885722" />
+      <outline type="rss" text="Headlong: Missing Richard Simmons" xmlUrl="https://rss.prod.firstlook.media/missingrichardsimmons/podcast.rss" />
+      <outline type="rss" text="Whisky Battles: Totalus Rankium" xmlUrl="https://whiskytotalusrankium.podbean.com/feed.xml" />
       <outline type="rss" text="The Allusionist" xmlUrl="http://feeds.theallusionist.org/Allusionist" />
-      <outline type="rss" text="Analysis" xmlUrl="http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss" />
-      <outline type="rss" text="Slate Presents Lexicon Valley" xmlUrl="http://feeds.feedburner.com/SlateLexiconValley" />
-      <outline type="rss" text="Open Account with SuChin Pak" xmlUrl="http://feeds.feedburner.com/OpenAccount" />
-      <outline type="rss" text="All Songs Considered" xmlUrl="http://www.npr.org/rss/podcast.php?id=510019&amp;uid=n1qe4e85742c986fdb81d2d38ffa0d5d53" />
-      <outline type="rss" text="More or Less: Behind the Stats" xmlUrl="http://www.bbc.co.uk/programmes/p02nrss1/episodes/downloads.rss" />
-      <outline type="rss" text="Hard Pass" xmlUrl="http://rss.acast.com/hardpass" />
-      <outline type="rss" text="Track Changes" xmlUrl="http://trackchanges.libsyn.com/rss" />
-      <outline type="rss" text="Freakonomics Radio" xmlUrl="http://feeds.feedburner.com/freakonomicsradio" />
-      <outline type="rss" text="Podcast – Software Engineering Daily" xmlUrl="http://softwareengineeringdaily.com/category/podcast/feed/" />
-      <outline type="rss" text="99% Invisible" xmlUrl="http://feeds.99percentinvisible.org/99percentinvisible?" />
-      <outline type="rss" text="EconTalk" xmlUrl="http://files.libertyfund.org/econtalk/EconTalk.xml" />
+      <outline type="rss" text="The Anthropocene Reviewed" xmlUrl="http://feeds.wnyc.org/TheAnthropoceneReviewed" />
+      <outline type="rss" text="Stuff You Should Know" xmlUrl="https://feeds.megaphone.fm/stuffyoushouldknow" />
+      <outline type="rss" text="2038" xmlUrl="https://rss.art19.com/2038" />
+      <outline type="rss" text="IRL - Online Life Is Real Life" xmlUrl="https://feeds.mozilla-podcasts.org/irl" />
+      <outline type="rss" text="The History Respawned Podcast" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:210843624/sounds.rss" />
       <outline type="rss" text="Financial Independence Podcast - Early Retirement | Investing | Real Estate | Entrepreneurship" xmlUrl="http://feeds.feedburner.com/MadFientistPodcast" />
-      <outline type="rss" text="Why Are Computers" xmlUrl="http://whyarecomputers.com/feed.rss" />
-      <outline type="rss" text="FT World Weekly" xmlUrl="http://rss.acast.com/ft-world-weekly" />
+      <outline type="rss" text="Coffee Break German" xmlUrl="http://rss.acast.com/coffeebreakgerman" />
+      <outline type="rss" text="Track Changes" xmlUrl="http://trackchanges.libsyn.com/rss" />
+      <outline type="rss" text="EconTalk" xmlUrl="http://files.libertyfund.org/econtalk/EconTalk.xml" />
+      <outline type="rss" text="The Secret History of the Future" xmlUrl="https://feeds.megaphone.fm/historyofthefuture" />
     </outline>
   </body>
 </opml>
