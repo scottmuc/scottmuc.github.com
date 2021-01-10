@@ -2,8 +2,9 @@
 
 set -e
 
-# Script assumes the stage is created via
-#   git clone -b master --depth 1 git@github.com:scottmuc/scottmuc.github.com.git master
+if [ ! -d ./master ]; then
+  git clone -b master --depth 1 git@github.com:scottmuc/scottmuc.github.com.git master
+fi
 
 # prepate hugo
 pushd hugo
