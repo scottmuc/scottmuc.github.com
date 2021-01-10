@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Yearly-goals | More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/blog/categories/yearly-goals/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2020-03-16T14:55:15+00:00</updated>
+  <updated>2021-01-10T20:22:25+00:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Goals for 2021]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2021/"/>
+    <updated>2021-01-10T19:12:53+00:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2021</id>
+    <content type="html"><![CDATA[<h2>Reflections on 2020 and Earlier</h2>
+
+<p>I can&rsquo;t recall exactly why I didn&rsquo;t bother write a goal post (pun?) last year, but let&rsquo;s ignore that for now. I&rsquo;m back
+in action! Let&rsquo;s start with some reflections:</p>
+
+<ul>
+<li><p>Berlin has now been my home for 3 years. This is the longest I&rsquo;ve lived somewhere outside of my home city since
+<a href="/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/">Calgary</a> (over 11 years ago)! I&rsquo;m loving my home and my life here so I don&rsquo;t see myself moving again
+anytime soon. Here&rsquo;s a view of my happy place in my flat (Meine Wohnung).</p>
+
+<p><img src="/images/blog/2021-happy-place.jpg" width="1000"></p></li>
+<li><p>I managed to do start some initiatives related to my <a href="/my-resolutions-for-2019/">2019 goal</a> around game streaming!. My videos have
+been vieed 377 times and watched for 71hrs. The <a href="https://www.youtube.com/playlist?list=PLdY9IPS1jPwLpHwPL3KnLlPi9GpkAKXyP">Soul Level 1 Dark Souls play through</a> is by far my favourite. It&rsquo;s
+really a shame I lost episode 1 on Twitch. I learned that doing these streams and videos does take a lot of time and
+energy and doing it while working full time is not feasible for me (I did these videos during a couple months break
+from work).</p>
+
+<p><img class="left" src="/images/blog/2020-youtube-stats.png" width="500">
+<br style="clear:both" /></p></li>
+<li>Journal entries: 27 &ndash; I found myself writing in my journal a lot less in 2020. This is not something I want to abandon
+this year. Reading my previous entries has been valuable to me. That being said, I&rsquo;ve probably written more words in
+2020 than previous years, they just aren&rsquo;t publically accessible. My internal work journal probably has more than 27
+entries.</li>
+</ul>
+
+
+<h2>Goals for 2021:</h2>
+
+<ul>
+<li><strong>Permanent Residence</strong> &ndash; Given how much I gush about living here, you would think I&rsquo;m a permanent resident? Nope, my
+residency here depends on my work permit. I want to break this coupling.</li>
+<li><strong>Winding Down Work</strong> &ndash; I&rsquo;m reaching a point where I would prefer to have more time in my life than money. Success
+will be reducing my hours somehow (most preferrably working 4 days a week). This is primarily for obligitaory employed
+work. I know I&rsquo;ll never stop working :&ndash;)</li>
+<li><p><strong>Cycling Initiative</strong> &ndash; I bought a bike this year, and given that all things are pointing to me sticking around
+Berlin, I&rsquo;m not as concerned about have to either sell it or transport it. I&rsquo;ve been dealing with all sorts of
+different pains in my legs/knees/back ever since I injured myself training for a half marathon in 2015. Riding a bike
+has been the best activity for me. Even walking long distances hasn&rsquo;t been good. I want to incorporate bicycling with
+how I travel and experience Germany. I have a MASSIVE goal around biking to Luxembourg for a wedding.</p>
+
+<p><img class="left" src="/images/blog/2021-bike.jpg" width="500">
+<br style="clear:both" /></p></li>
+<li><strong>Launch Personal Finance Site</strong> &ndash; The first two goals wouldn&rsquo;t have seemed feasible to me but the way I&rsquo;ve been
+managing my money has opened them up to me. At the moment there&rsquo;s a skeleton of a website for a project that I&rsquo;ve
+called <a href="https://www.goodenoughmoney.com/">Good Enough Money</a>.</li>
+</ul>
+
+
+<h2>Summary</h2>
+
+<p>I&rsquo;m looking forward to shaking things up a bit. My appetite for risk and adventure is back. Funny how in my last update
+I mention my travel hunger is satiated. That&rsquo;s certainly turning around now.</p>
+
+<p><em>this post took 3 pomodoros to complete</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My Resolutions for 2019]]></title>
@@ -213,86 +275,6 @@ certainly possible.</p>
 <h3>Summary</h3>
 
 <p>A bit of a change from the usual. Let&rsquo;s see how things are in a year, shall we?</p>
-
-<p><em>This post took 2 pomodoros to complete</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My Resolutions for 2015]]></title>
-    <link href="http://scottmuc.com/my-resolutions-for-2015/"/>
-    <updated>2015-01-02T01:08:42+00:00</updated>
-    <id>http://scottmuc.com/my-resolutions-for-2015</id>
-    <content type="html"><![CDATA[<p>This has become a bit of a tradition for me so I can&rsquo;t quite writing these now. This one will be a bit different than
-the previous ones though. Normally these posts are my <em>technical</em> resolutions. I&rsquo;m not that ambitious anymore when it
-comes to technical learning so I&rsquo;ve dropped that from the title. Even though I tend to despise meaningless dates, I look
-at resolutions as one large <a href="http://pomodorotechnique.com/">pomodoro</a>. So the tradition lives on!</p>
-
-<h2>Reflections on <a href="/my-developer-resolutions-for-2014/">2014</a></h2>
-
-<p>Going on a <a href="/blog/categories/career-break/">career break</a> sort of twisted everything around in 2014. Still, it was interesting to see how
-I did:</p>
-
-<ul>
-<li>Increase Signal to Noise Ration &ndash; I&rsquo;m only following 118 people on Twitter now as opposed to 627, but my &ldquo;friend&rdquo;
-count on FaceBook went up to 507 from 480. Considering that Twitter is where most of the noise comes from, I think I
-succeeded in this goal.</li>
-<li>Learn Docker &ndash; I&rsquo;ve yet to run the docker CLI, so didn&rsquo;t go far with this. I&rsquo;m not terribly interested in it now as my
-frustration with tech is still there. 2015 may be a success if I still don&rsquo;t touch docker.</li>
-<li>Do Meaningful Work &ndash; Does quitting my job and traveling the world for 9 months count as success? It does to me so I
-think I slayed this resolution! I&rsquo;m also getting back into the <a href="/joining-soundcloud-and-moving-to-berlin/">workforce</a> with a company that is in a domain I care
-about and I&rsquo;ve gotten the opportunity to be on the board of advisors for an interesting <a href="http://zolair-energy.com/">clean energy start up</a>.</li>
-</ul>
-
-
-<h2>Goals for 2015:</h2>
-
-<p>I think the time off has given me a new perspective. These goals are more about looking at myself externally and
-figuring out what kind of design changes to I want to make on myself.</p>
-
-<h3>Brew Beer</h3>
-
-<p>Given that I want to look into the business of beer, it would help if I&rsquo;ve actually brewed some. I believe brewing 10
-batches is a reasonable goal. If I can&rsquo;t do this, then I can safely drop the idea of building a beer related business in
-the future. I enjoy publishing my <a href="https://twitter.com/todayschai">chai</a> experiments and I&rsquo;ll do the same thing with my beer brewing. Will
-probably publish them on this blog for now.</p>
-
-<p><strong>Progress</strong>: 0 batches brewed</p>
-
-<h3>Nurture a Healthy Habit</h3>
-
-<p>Over the last 15 years of my life I&rsquo;ve ridden a health rollercoaster. I can&rsquo;t recall any year where I didn&rsquo;t go
-off the routine and regress to my old unhealthy habits. This year I&rsquo;m aiming to be more proactive around my habits and
-plan a bit better when I can see potential for a habit to break (eg: when traveling, or a busy period). My goal is run
-at least 10 times every month. Be sure to verify my results on <a href="http://www.strava.com/athletes/6575733">Strava</a>. I am training for a half marathon but
-this is very typical of my health ambitions. Do something big, and then stop.</p>
-
-<p><strong>January</strong>: 19 runs<br/>
-<strong>February</strong>: 13 runs<br/>
-<strong>March</strong>: 6 runs (strained hamstring injury)<br/>
-<strong>April</strong>:<br/>
-<strong>May</strong>:<br/>
-<strong>June</strong>:<br/>
-<strong>July</strong>:<br/>
-<strong>August</strong>:<br/>
-<strong>September</strong>:<br/>
-<strong>October</strong>:<br/>
-<strong>November</strong>:<br/>
-<strong>December</strong>:<br/></p>
-
-<h3>Think More Critically</h3>
-
-<p>This could be due to having a lot of time to consume too much media over the last year, but I feel that I should be more
-thoughtful in my communication and critical of my messages. It&rsquo;s easy to type out a pithy tweet skipping a load of
-context. When being critical I will do due dilligence in citing research when trying to impose my ideas, or at least be
-more transparent in pointing out how much is anecdotal. This one is a tougher one to measure. The only thing I can think
-of is comparing the number of tweets over the course of the years, and having source lists in all my blog posts (or
-stating the source are my own observations and are completely theoretical).</p>
-
-<h3>Summary</h3>
-
-<p>When reading my <a href="/my-developer-resolutions-for-2014/">2014 post</a> I can tell that I was getting jaded about the IT industry. It looks like I&rsquo;m still a bit
-jaded, but this time I&rsquo;m steering the ship away from IT a bit. Let&rsquo;s see what these new waters are like.</p>
 
 <p><em>This post took 2 pomodoros to complete</em></p>
 ]]></content>

@@ -4,7 +4,7 @@
   <title><![CDATA[More Muc Than You Can Handle]]></title>
   <link href="http://scottmuc.com/atom.xml" rel="self"/>
   <link href="http://scottmuc.com/"/>
-  <updated>2020-03-16T14:55:15+00:00</updated>
+  <updated>2021-01-10T20:22:25+00:00</updated>
   <id>http://scottmuc.com/</id>
   <author>
     <name><![CDATA[Scott Muc]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Goals for 2021]]></title>
+    <link href="http://scottmuc.com/my-resolutions-for-2021/"/>
+    <updated>2021-01-10T19:12:53+00:00</updated>
+    <id>http://scottmuc.com/my-resolutions-for-2021</id>
+    <content type="html"><![CDATA[<h2>Reflections on 2020 and Earlier</h2>
+
+<p>I can&rsquo;t recall exactly why I didn&rsquo;t bother write a goal post (pun?) last year, but let&rsquo;s ignore that for now. I&rsquo;m back
+in action! Let&rsquo;s start with some reflections:</p>
+
+<ul>
+<li><p>Berlin has now been my home for 3 years. This is the longest I&rsquo;ve lived somewhere outside of my home city since
+<a href="http://scottmuc.com/blog/a-new-beginning-or-goodbye-20-s-hello-30-s/">Calgary</a> (over 11 years ago)! I&rsquo;m loving my home and my life here so I don&rsquo;t see myself moving again
+anytime soon. Here&rsquo;s a view of my happy place in my flat (Meine Wohnung).</p>
+
+<p><img src="http://scottmuc.com/images/blog/2021-happy-place.jpg" width="1000"></p></li>
+<li><p>I managed to do start some initiatives related to my <a href="http://scottmuc.com/my-resolutions-for-2019/">2019 goal</a> around game streaming!. My videos have
+been vieed 377 times and watched for 71hrs. The <a href="https://www.youtube.com/playlist?list=PLdY9IPS1jPwLpHwPL3KnLlPi9GpkAKXyP">Soul Level 1 Dark Souls play through</a> is by far my favourite. It&rsquo;s
+really a shame I lost episode 1 on Twitch. I learned that doing these streams and videos does take a lot of time and
+energy and doing it while working full time is not feasible for me (I did these videos during a couple months break
+from work).</p>
+
+<p><img class="left" src="http://scottmuc.com/images/blog/2020-youtube-stats.png" width="500">
+<br style="clear:both" /></p></li>
+<li>Journal entries: 27 &ndash; I found myself writing in my journal a lot less in 2020. This is not something I want to abandon
+this year. Reading my previous entries has been valuable to me. That being said, I&rsquo;ve probably written more words in
+2020 than previous years, they just aren&rsquo;t publically accessible. My internal work journal probably has more than 27
+entries.</li>
+</ul>
+
+
+<h2>Goals for 2021:</h2>
+
+<ul>
+<li><strong>Permanent Residence</strong> &ndash; Given how much I gush about living here, you would think I&rsquo;m a permanent resident? Nope, my
+residency here depends on my work permit. I want to break this coupling.</li>
+<li><strong>Winding Down Work</strong> &ndash; I&rsquo;m reaching a point where I would prefer to have more time in my life than money. Success
+will be reducing my hours somehow (most preferrably working 4 days a week). This is primarily for obligitaory employed
+work. I know I&rsquo;ll never stop working :&ndash;)</li>
+<li><p><strong>Cycling Initiative</strong> &ndash; I bought a bike this year, and given that all things are pointing to me sticking around
+Berlin, I&rsquo;m not as concerned about have to either sell it or transport it. I&rsquo;ve been dealing with all sorts of
+different pains in my legs/knees/back ever since I injured myself training for a half marathon in 2015. Riding a bike
+has been the best activity for me. Even walking long distances hasn&rsquo;t been good. I want to incorporate bicycling with
+how I travel and experience Germany. I have a MASSIVE goal around biking to Luxembourg for a wedding.</p>
+
+<p><img class="left" src="http://scottmuc.com/images/blog/2021-bike.jpg" width="500">
+<br style="clear:both" /></p></li>
+<li><strong>Launch Personal Finance Site</strong> &ndash; The first two goals wouldn&rsquo;t have seemed feasible to me but the way I&rsquo;ve been
+managing my money has opened them up to me. At the moment there&rsquo;s a skeleton of a website for a project that I&rsquo;ve
+called <a href="https://www.goodenoughmoney.com/">Good Enough Money</a>.</li>
+</ul>
+
+
+<h2>Summary</h2>
+
+<p>I&rsquo;m looking forward to shaking things up a bit. My appetite for risk and adventure is back. Funny how in my last update
+I mention my travel hunger is satiated. That&rsquo;s certainly turning around now.</p>
+
+<p><em>this post took 3 pomodoros to complete</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Valuable Links - Git]]></title>
@@ -2223,145 +2285,6 @@ career break. It&rsquo;ll be a good way to close out the series. But not yet! No
 with friends, and get re-invigorated about software development.</p>
 
 <p><em>This post took 10 pomodoros to complete</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Book Review - a Mind for Numbers by Barbara Oakley]]></title>
-    <link href="http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley/"/>
-    <updated>2014-10-26T08:05:53+00:00</updated>
-    <id>http://scottmuc.com/book-review-a-mind-for-numbers-by-barbara-oakley</id>
-    <content type="html"><![CDATA[<p><a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245"><img class="left" src="http://scottmuc.com/images/blog/l2l/book.jpg" width="200"></a>
-Over the last 4 weeks I&rsquo;ve been taking the <a href="https://www.coursera.org/">Coursera</a> course <a href="https://www.coursera.org/course/learning">Learning how to Learn</a> on the
-recommendation of my friend <a href="https://twitter.com/sragu">Srini</a>. The 2nd assignment in the course is to create a presentation or some
-form of media to present an understanding of the topics. An accompaniment to the course is the book,
-<a href="http://www.penguin.com/book/a-mind-for-numbers-by-barbara-oakley/9780399165245">A Mind for Numbers</a> by <a href="http://www.barbaraoakley.com/">Barbara Oakley</a> (the primary course instructor), which is a short read but very
-insightful and full of references. I&rsquo;m thoroughly enjoying the course and love the concept around the assignment. This
-blog is my way of trying to synthesize ideas that are flying around in my head, which is exactly the purpose of the
-assignment.</p>
-
-<p>Over my education and career, I feel that I have developed some pretty good habits. The book has confirmed some of these
-habits and given me an understanding around why they work. It&rsquo;s also able to point out some flaws that I tend to
-down-play, but now realize that they are habits I need to deal with.</p>
-
-<h2>Core Concepts</h2>
-
-<p>The material in the book (and the course) were broken up into easy to consume chunks (see what I did there?).
-I can&rsquo;t really cover all of it here but these are the 3 concepts that really stuck with me.</p>
-
-<h3>Chunking</h3>
-
-<p>Chunks can be thought of as an abstraction around a collection of specific thoughts. When I speak to another developer
-and I say that this code <em>makes a web request</em>, that is a chunk of knowledge that I&rsquo;ve developed. I could break that
-phrase down and say: establish a TCP connection with the remote server, using the HTTP protocol send a GET request
-message, the server will receive this and route it to an appropriate controller, the application code will send an HTTP
-response, the client will take the results and render the HTML to the browser. Woah, that was a lot of detail, and
-that&rsquo;s one example of why it&rsquo;s important to chunk knowledge.</p>
-
-<p><a href="http://scottmuc.com/images/blog/l2l/chunking.png"><img class="center" src="http://scottmuc.com/images/blog/l2l/chunking.png" title="&#34;chunking&#34;" alt="&#34;chunking&#34;"></a></p>
-
-<p>It wasn&rsquo;t mentioned in the book, but a lot of what I read on chunking looked like reaching the <strong>competent</strong> level on the
-<a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Dreyfus Model of Skill Acquisition</a>. I&rsquo;m now curious if <strong>diffuse mode</strong> is an essential part of
-becoming <strong>proficent</strong> or an <strong>expert</strong> in a particular topic.</p>
-
-<p>This section of the book has made me realize some flaws in the way I learn and I feel I fall into the trap called
-<strong>illusion of competence</strong>. This can be caused by <a href="http://blog.coursera.org/post/93424900982/learning-how-not-to-learn">poor learning practices</a> (below), and I know I am guilty of many of
-these. Speaking of the Dreyfus model, <strong>Erik Dietrich</strong> wrote an article about the <a href="http://www.daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner">Advanced Beginner</a>,
-which is another great way of explaining the <strong>illusion of competence</strong>.</p>
-
-<blockquote><p>* Passive rereading<br/>* Letting highlights overwhelm you<br/>* Merely glancing at a problem&#8217;s solution and thinking you know how to do it<br/>* Waiting until the last minute to study<br/>* Repeatedly solving problems of the same type that you already know how to solve<br/>* Letting study sessions with friends turn into chat sessions<br/>* Neglecting to read the textbook before you start working problems<br/>* Not checking with your instructors or classmates to clear up points of confusion<br/>* Thinking you can learn deeply when you are being constantly distracted<br/>* Not getting enough sleep</p><footer><strong>Barbara Oakley</strong> <cite><a href='http://blog.coursera.org/post/93424900982/learning-how-not-to-learn'>Learning How (Not) to Learn</a></cite></footer></blockquote>
-
-
-<p>I&rsquo;ve been lucky to accidentally avoid some of these habits. As a computer savvy person for the last 25 years, I still
-prefer taking my notes on paper. I&rsquo;ve always stressed sleep too. I&rsquo;m definitely guilty of passive rereading, but I&rsquo;m
-getting much better now. Solving similar problems is another one I need to catch myself doing.</p>
-
-<h3>Diffuse and Focused Modes of Thinking</h3>
-
-<p><strong>Focused Mode</strong> &ndash; When the brain is in this mode, it&rsquo;s busy building up foundations of material for access later. I
-like to think of it as going to the gym. You&rsquo;re exercising ideas and building up their strength. If you don&rsquo;t practice
-them deliberately, they can lose strength. If you don&rsquo;t focus on concepts with discipline, you don&rsquo;t effectively
-chunk the concepts. When you get up from your task and realize that a lot more time has gone by than you had expected,
-then you know you&rsquo;ve been in the focused mode.</p>
-
-<p><strong>Diffuse Mode</strong> &ndash; This is where synthesis of multiple ideas (or chunks) happens. Our brain is good at continuing effort, solving
-problems, while our bodies are performing activities like going for a walk, running, socializing, and cooking. This is
-why when struggling with a problem late at night, sleeping on it, usually results in some new insights in the morning.
-You know when you have yesterdays problem figured out in the morning during your shower? That&rsquo;s the diffuse mode kicking in.
-Using the workout analogy, this is like using your in-shape body to enjoy life: traveling, playing with your children,
-fixing up your garden.</p>
-
-<p><img class="left" src="http://scottmuc.com/images/blog/l2l/diffuse-focused.jpg" width="400" title="&#34;diffuse vs focused mode&#34;" alt="&#34;diffuse vs focused mode&#34;">
-What&rsquo;s important to understand is that both of these modes can&rsquo;t operate at the same time. I <a href="http://scottmuc.com/going-against-the-flow/">even wrote</a>
-about this a while ago and this book has given me the knowledge to better understand what I was observing when I wrote
-that post. As a developer, the state of flow (deep focused mode) has its appeal, but breaking that up so that you can
-piece together your new knowledge is equally important.</p>
-
-<p>Sometimes you&rsquo;ll hear someone say that they are a great multi-tasker. This usually results in an inability to focus!
-If someone is a multi-tasker, then they are taking time away from the <strong>focused mode</strong> of operating, and thus fall into
-the many ways <a href="http://blog.coursera.org/post/93424900982/learning-how-not-to-learn">not to learn</a>.</p>
-
-<h3>Procrastination and Habits</h3>
-
-<p>The topic of procrastination was very informative. The explanation of how dopamine effects long term beneficial actions
-(<a href="http://www.psychologytoday.com/blog/intrinsic-motivation-and-magical-unicorns/201206/procrastination-and-dopamine-receptor-density">reference</a>) is insightful and can be used to influence how we develop habits. The book is full of
-ideas on how prevent procrastination and here&rsquo;s my list of tactics:</p>
-
-<ul>
-<li><strong>Zero Notifications</strong> &ndash; this is an easy one for me as I already try to live a notification free life. My phone is
-almost always on silent unless I&rsquo;m <em>expecting</em> a call or message. All my applications on my phone and computer have
-notifications turned off. It&rsquo;s very hard to think of any reason why any notification would need immediate action.</li>
-<li><strong><a href="http://pomodorotechnique.com/">Pomodoro Technique</a></strong> &ndash; I&rsquo;ve been a fan of this process for a long time. Procrastination doesn&rsquo;t stand
-a chance when the timer is on. I like to use <a href="http://lifehacker.com/pomodoro-one-is-a-free-lightweight-pomodoro-timer-for-1626504270">pomodoro one</a> on my laptop. There are 4 components of
-developing a habit, and the first one is the <strong>cue</strong>. Starting the timer triggers me to go into a focused mode.
-<a href="http://scottmuc.com/images/blog/l2l/self-control.png"><img class="right" src="http://scottmuc.com/images/blog/l2l/self-control.png" width="300"></a></li>
-<li><strong><a href="http://selfcontrolapp.com/">Self Control</a></strong> (pictured) &ndash; This application does a machine level block of the hostnames that you specify for a
-specific time period. It runs outside of the web-browser so it&rsquo;ll block applications that talk to these services and
-even killing the process or rebooting your machine won&rsquo;t get the hostname working again. I will use this every time
-I&rsquo;m doing a pomodoro.</li>
-<li><strong>Process over Product</strong> &ndash; Unless the task is very very small, the time allocated to a single pomodoro should be
-process based. As of right now, I have on my task list the following: &ldquo;2 pomodoros of coursera project&rdquo;. This keeps
-the focus on the activity and now the anxiety around the outcome. I don&rsquo;t know how long it&rsquo;s going to take to complete
-this post, but I know if I chip away at it with time-boxes of focus it&rsquo;ll be completed before I know it.</li>
-</ul>
-
-
-<p>I like reading about other people&rsquo;s techniques and thought <a href="http://jamesclear.com/">James Clear</a> has a good
-<a href="http://jamesclear.com/multipliers">blog post</a> and a good list. On my reading list is <a href="http://masoncurrey.com/Daily-Rituals">Daily Rituals</a> which looks very
-interesting. One thing that seems clear, is that many productive people have developed a system and it&rsquo;s important to
-discover my own.</p>
-
-<h3>Summary</h3>
-
-<p>I began reading the book before taking the course and immediately benefited from a process that is described in the
-book. The book on its own is a fantastic resource and is an excellent compliment to the course. I really think taking the
-course at the same time instilled a lot of the information far better than if I had only just read the book. I was
-surprised when I finished the book because my Kindle reported that I was only 65% complete when I was at the end. Well
-that&rsquo;s because the remainder is a massive collection of references of all the research that&rsquo;s been done on all of the
-topics! It shows that the content is truly backed by science which is refreshing given all the anecdotal type of
-information that&rsquo;s published on the Internet.</p>
-
-<p>Reading the book and taking the course was very meta; as I learned techniques from the
-book, I applied them to the course and vice versa. I get the feeling this is going to be a book that I read on a yearly
-basis (spaced repetition) to continuously improve these concepts. This post could have been a lot longer, but I&rsquo;d rather
-encourage you to read the book yourself and practice the exercises at the end of each chapter.</p>
-
-<h4>Other Resources and References</h4>
-
-<ul>
-<li><a href="https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning">Pragmatic Thinking and Learning</a> which is geared more towards software developers.</li>
-<li><a href="http://www.healthyhacker.com/">HealthyHacker Podcast</a> which talks a lot about memorization techniques and developing positive habits.</li>
-<li><a href="http://betterexplained.com/">Better Explained</a> Kalid Azad does an exceptional job of explaining things. In an interview in the
-course he describes his method of ADEPT (analogy, diagram, example, plain English, technical).</li>
-<li><a href="https://www.youtube.com/watch?v=EzpX0TLKS9Q">Slow Tech</a>, a talk about distraction and how to be focused. After the course, the points in this video
-appear well connected with the material.</li>
-<li><a href="http://www.brainpickings.org/2012/04/12/john-cleese-on-creativity-1991/">John Cleese on 5 Factors to Make Your Life More Creative</a>. A comedic genius explains how he uses time
-boxing to focus on his craft.</li>
-</ul>
-
-
-<p>1 &ldquo;diffuse vs focused mode&rdquo; picture <a href="http://tdlc.ucsd.edu/educators/educators%5Fwebinar%5Foakley5%F031213.html">http://tdlc.ucsd.edu/educators/educators%5Fwebinar%5Foakley5%F031213.html</a><br />
-2 &ldquo;chunking&rdquo; picture p.56 A Mind For Numbers, Barbara Oakley<br /></p>
 ]]></content>
   </entry>
   
