@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PowerShell Pester 2 and 1.2 Released!</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+	<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>PowerShell Pester 2 and 1.2 Released!</h1>
+			<time>01.01.0001 00:00</time>
+			<div>
+				<p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
+<h2 id="new-expectation-and-matcher-syntax">New Expectation and Matcher Syntax</h2>
+<p>In prior versions of Pester, we have the dot notation expectation and matcher syntax</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$some_string.should.be(<span style="color:#e6db74">&#34;some value&#34;</span>)
+</code></pre></div><p>This required some <a href="https://github.com/pester/Pester/blob/bf3afbf330808cfee8a26665a77c9388ae432286/ObjectAdaptations/types.ps1xml">clever and downright nasty hacks</a> to the PowerShell runtime. This created a <a href="https://github.com/pester/Pester/issues/19">few</a> <a href="https://github.com/pester/Pester/issues/27">issues</a> for some users and I wanted to get that fixed. It turned out the extension on Object was the root issue so I investigated a pipeline based expectation syntax. Here is the result:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">$deployDir                | Should Be <span style="color:#e6db74">&#34;C:\inetpub\wwwroot\myApp&#34;</span>
+<span style="color:#e6db74">&#34;iis:\Sites\myApp&#34;</span>        | Should Exist <span style="color:#75715e"># this works with any PowerShell provider</span>
+<span style="color:#e6db74">&#34;C:\test\rush_albums.txt&#34;</span> | Should Contain 2112
+<span style="color:#e6db74">&#34;&#34;</span>                        | Should Be NullOrEmpty
+{ <span style="color:#66d9ef">throw</span> }                 | Should <span style="color:#66d9ef">Throw</span>
+</code></pre></div><p>Negative statements work too:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">2                                   | Should Not Be 1
+<span style="color:#e6db74">&#34;C:\temp\deployment_scratch_space&#34;</span>  | Should Not Exist
+<span style="color:#e6db74">&#34;C:\test\rush_albums.txt&#34;</span>           | Should Not Contain 5150
+1,2,3                               | Should Not Be NullOrEmpty
+{ Deploy-Website <span style="color:#e6db74">&#34;superawesome&#34;</span> }   | Should Not <span style="color:#66d9ef">Throw</span>
+</code></pre></div><p>Extending the syntax is simply a matter of adding domain specific expectations, that follow the Pester function naming
+conventions, to your test suite:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#66d9ef">function</span> PesterBeCanadian($sentence) {
+    <span style="color:#66d9ef">return</span> ($sentence <span style="color:#f92672">-match</span> <span style="color:#e6db74">&#34;.*[,\ ]eh.$&#34;</span>)
+}
+
+<span style="color:#66d9ef">function</span> PesterBeCanadianFailureMessage($sentence) {
+    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Expected: {$sentence} to end with &#39;eh&#39;&#34;</span>
+}
+
+<span style="color:#66d9ef">function</span> NotPesterBeCanadianFailureMessage($sentence) {
+    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Expected: {$sentence} ended with eh, you hoser!&#34;</span>
+}
+
+Describe <span style="color:#e6db74">&#34;a few sentences&#34;</span> {
+    Context <span style="color:#e6db74">&#34;when scott says something&#34;</span> {
+        It <span style="color:#e6db74">&#34;is Canadian&#34;</span> {
+            $what_scott_says = <span style="color:#e6db74">&#34;Good show, eh?&#34;</span> 
+            $what_scott_says | Should BeCanadian
+        }
+    }
+
+    Context <span style="color:#e6db74">&#34;when pete hodgson says something&#34;</span> {
+        It <span style="color:#e6db74">&#34;is not Canadian&#34;</span> {
+            $what_pete_says = <span style="color:#e6db74">&#34;Have you tried testing it with Frank?&#34;</span>
+            $what_pete_says | Should Not BeCanadian
+        }
+    }
+}
+</code></pre></div><p>Pretty cool, eh? I feel that this can lessen the potential bloat of expectations in Pester and allow people to write
+test suites that fit their infrastructure domain model. The expectations are also very <a href="https://github.com/pester/Pester/blob/master/Functions/Assertions/Be.Tests.ps1">easy to test</a> in isolation. The core matchers are pretty light, but they should be easy to modify now that matchers have test coverage unlike the previous syntax.</p>
+<p>Adding your own matcher requires you to add 3 convention following functions. One that is the matcher, and 2 that return
+failure messages for postive and negative expectations. The biggest problem I see with this method is that if the
+convention ever changes, I&rsquo;ll have to be very cautious and make it backwards compatible.</p>
+<h2 id="mocks">Mocks!</h2>
+<p>This was released earlier but I didn&rsquo;t really announce anything. Thanks to <a href="http://www.mattwrock.com/">Matt Wrock</a>(<a href="https://twitter.com/mwrockx">twitter</a>) Pester has the ability to mock cmdlets. I&rsquo;m looking forward to trying this out on my next project.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Mock Get-Location { <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;you are home, sir.&#34;</span> }
+Get-Location | Should Be <span style="color:#e6db74">&#34;you are home, sir.&#34;</span>
+</code></pre></div><h2 id="description-tagging">Description Tagging</h2>
+<p>Thanks to <a href="https://github.com/rismoney">Rich Siegel</a>, Pester can now run blocks that fit a certain tag.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Describe -Tag <span style="color:#e6db74">&#34;Acceptance&#34;</span> <span style="color:#e6db74">&#34;Website deployment flow&#34;</span> {
+    It <span style="color:#e6db74">&#34;...&#34;</span> { ... }
+}
+
+<span style="color:#75715e"># and run it like this:</span>
+Invoke-Pester -Tag Acceptance
+</code></pre></div><h2 id="xml-reporting">Xml Reporting</h2>
+<p>Another contributor is <a href="https://github.com/mbergmann">Max Bergmann</a> who added NUnit style xml reporting to Pester runs.
+We are even using it in Pester&rsquo;s own <a href="http://teamcity.codebetter.com/project.html?projectId=project261&amp;tab=projectOverview">CI build</a>.
+There&rsquo;s some XML validation bugs that are still being sorted out.</p>
+<h2 id="why-12x-and-20x">Why 1.2.x and 2.0.x?</h2>
+<p>The motivation for this release is to fix the issues people have add where a <code>should</code> property is added to every Object.
+I&rsquo;m not sure how exactly it was breaking things, but it was messy anyways, and I wanted to get rid of it.</p>
+<p>In version <code>1.2.x</code>, you can disable the old assertions by running Pester with the <code>-DisableLegacyExpectations</code>. This will
+mean that your test suite has to only use the new pipeline style expectations.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#75715e"># version 1.2.x has this switch</span>
+Invoke-Pester -DisableLegacyExpectations
+</code></pre></div><p>For version <code>2.0.x</code> we disable the old style assertions and you need to explicitly enable them using the
+<code>-EnableLegacyExpectations</code> switch. In the next significant release we&rsquo;re going to remove the dot style assertions
+completely from the codebase.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#75715e"># version 2.0.x has this switch</span>
+Invoke-Pester -EnableLegacyExpectations
+</code></pre></div><p>So if you&rsquo;re upgrading Pester, then you should probably move to <code>1.2.x</code> first. If you can run your tests with the
+<code>-DisableLegacyAssertions</code> flag set, then you should be fine to move to <code>2.0.x</code>. If you&rsquo;re starting from scratch, then
+definitely use <code>2.0.x</code>.</p>
+<h2 id="whats-left-to-do">What&rsquo;s Left To Do?</h2>
+<p>Lots and lots of documenting. The <code>Get-Help</code> pages need to be updated and I want to get pesterbdd.com up as soon as
+possible. I think version 2 should be a fairly stable version of Pester.</p>
+<p>If you&rsquo;re interested in contributing to Pester please join the <a href="https://groups.google.com/forum/?fromgroups#!forum/pester">google group</a>.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/hugo/blog/2019-06-30-valuable-links-git/">Valuable Links - Git</a></li>
+				
+				<li><a href="/hugo/blog/2019-05-26-the-day-the-universe-changed-me/">The Day the Universe Changed (Me)</a></li>
+				
+				<li><a href="/hugo/blog/2019-01-13-my-resolutions-for-2019/">My Resolutions for 2019</a></li>
+				
+				<li><a href="/hugo/blog/2018-01-01-my-resolutions-for-2018/">My Resolutions for 2018</a></li>
+				
+				<li><a href="/hugo/blog/2017-12-09-moving-back-to-berlin/">Moving Back to Berlin</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2022 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+</footer>
+
+</body>
+</html>

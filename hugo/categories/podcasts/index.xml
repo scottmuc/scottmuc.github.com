@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>podcasts on More Muc Than You Can Handle</title>
+    <link>https://scottmuc.com/hugo/categories/podcasts/</link>
+    <description>Recent content in podcasts on More Muc Than You Can Handle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 Oct 2014 11:59:46 +0530</lastBuildDate>
+    
+	<atom:link href="https://scottmuc.com/hugo/categories/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Valuable Links - Podcasts</title>
+      <link>https://scottmuc.com/hugo/blog/2014-10-16-valuable-links-podcasts/</link>
+      <pubDate>Thu, 16 Oct 2014 11:59:46 +0530</pubDate>
+      
+      <guid>https://scottmuc.com/hugo/blog/2014-10-16-valuable-links-podcasts/</guid>
+      <description>{% img right /images/blog/podcasts/podcast.jpg 300 %} It&amp;rsquo;s quite surprising that I haven&amp;rsquo;t really brought up the topic of podcasts on my blog considering that I&amp;rsquo;ve been consuming them for almost 10 years! My methods and taste have changed a lot over the years. I want a place to point people when asked about what podcasts I listen to, and with a little more context than just a pure list.
+Software / Tools A podcast is such a simple concept (from the technical side) that it allows for a lot of tools and applications to be created around the idea.</description>
+    </item>
+    
+  </channel>
+</rss>

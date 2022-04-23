@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>running on More Muc Than You Can Handle</title>
+    <link>https://scottmuc.com/hugo/categories/running/</link>
+    <description>Recent content in running on More Muc Than You Can Handle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 10 Dec 2014 10:39:27 +0530</lastBuildDate>
+    
+	<atom:link href="https://scottmuc.com/hugo/categories/running/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I Like Running</title>
+      <link>https://scottmuc.com/hugo/blog/2014-12-10-why-i-like-running/</link>
+      <pubDate>Wed, 10 Dec 2014 10:39:27 +0530</pubDate>
+      
+      <guid>https://scottmuc.com/hugo/blog/2014-12-10-why-i-like-running/</guid>
+      <description>{% img center /images/blog/running/venice.jpg 700 %}
+I&amp;rsquo;ve been an off and on jogger for the last 2 years, but my goal is to be a jogger for the rest of my life. For some reason I&amp;rsquo;ve felt compelled to journal my reasons. If one person thinks to take up jogging, then that would be wonderful.
+Inspiration The Oatmeal made a fantastic comic of his reasons for running and found that there&amp;rsquo;s a lot of overlap.</description>
+    </item>
+    
+  </channel>
+</rss>
