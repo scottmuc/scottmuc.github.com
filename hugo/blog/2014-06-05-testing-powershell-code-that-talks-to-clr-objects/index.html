@@ -41,15 +41,15 @@ work. Here&rsquo;s the Vagrantfile</p>
 <p>{% gist e5abe37881628f13cd0a Vagrantfile %}</p>
 <p>and here&rsquo;s the passing test. I&rsquo;m happy with it because I could change the code or the environment and cause the test to
 fail, thus giving me confidence that the test is good enough to tell if me I broke anything.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Describe <span style="color:#e6db74">&#34;Get-FromSFtp Integration&#34;</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Describe <span style="color:#e6db74">&#34;Get-FromSFtp Integration&#34;</span> {
     It <span style="color:#e6db74">&#34;returns the 2 default dir entries&#34;</span> {
-        Get-FromSFtp | <span style="color:#66d9ef">ForEach</span>-Object { $_.Name } | Should Be <span style="color:#e6db74">&#34;.&#34;</span>, <span style="color:#e6db74">&#34;..&#34;</span>
+        Get-FromSFtp | ForEach-Object { $_.Name } | Should Be <span style="color:#e6db74">&#34;.&#34;</span>, <span style="color:#e6db74">&#34;..&#34;</span>
     }
 }
 </code></pre></div><p>Happy that I have a feedback loop going now, I begin to start testing the code in isolation. I start by writing the
 contexts and specifications:</p>
 <h3 id="follow-up-with-isolated-tests">Follow Up With Isolated Tests</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Describe <span style="color:#e6db74">&#34;Get-FromSFtp&#34;</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Describe <span style="color:#e6db74">&#34;Get-FromSFtp&#34;</span> {
     Context <span style="color:#e6db74">&#34;when connected&#34;</span> {
         It <span style="color:#e6db74">&#34;attempts to connect to an sftp server&#34;</span> { }
         It <span style="color:#e6db74">&#34;changes to the directory /test&#34;</span> { }

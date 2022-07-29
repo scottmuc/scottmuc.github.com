@@ -5,11 +5,7 @@
     <link>https://scottmuc.com/hugo/blog/</link>
     <description>Recent content in Blogs on More Muc Than You Can Handle</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 30 Jun 2019 16:16:51 +0200</lastBuildDate>
-    
-	<atom:link href="https://scottmuc.com/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 30 Jun 2019 16:16:51 +0200</lastBuildDate><atom:link href="https://scottmuc.com/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Valuable Links - Git</title>
       <link>https://scottmuc.com/hugo/blog/2019-06-30-valuable-links-git/</link>
@@ -87,7 +83,7 @@ Over the last month I had the wonderful opportunity of learning all about Irish 
       <pubDate>Wed, 11 Jan 2017 15:45:48 +0100</pubDate>
       
       <guid>https://scottmuc.com/hugo/blog/2017-01-11-osx-workstation-setup-automation/</guid>
-      <description>**DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&amp;rsquo;s about keeping MY workstation under source control, and this strategy may destroy the machine you wish to attempt this on.**Objective IT infrastructure has gone down a long journey of automating all of the things. We have automated deployments, production environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes.</description>
+      <description>DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&amp;rsquo;s about keeping MY workstation under source control, and this strategy may destroy the machine you wish to attempt this on.Objective IT infrastructure has gone down a long journey of automating all of the things. We have automated deployments, production environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes.</description>
     </item>
     
     <item>

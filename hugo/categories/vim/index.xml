@@ -4,11 +4,7 @@
     <title>vim on More Muc Than You Can Handle</title>
     <link>https://scottmuc.com/hugo/categories/vim/</link>
     <description>Recent content in vim on More Muc Than You Can Handle</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://scottmuc.com/hugo/categories/vim/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://scottmuc.com/hugo/categories/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Valuable Links - Vim</title>
       <link>https://scottmuc.com/hugo/blog/2013-11-03-valuable-links-vim/</link>
