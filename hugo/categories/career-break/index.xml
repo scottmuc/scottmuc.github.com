@@ -5,7 +5,11 @@
     <link>https://scottmuc.com/hugo/categories/career-break/</link>
     <description>Recent content in career break on More Muc Than You Can Handle</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 16 Dec 2014 10:51:47 +0530</lastBuildDate><atom:link href="https://scottmuc.com/hugo/categories/career-break/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Dec 2014 10:51:47 +0530</lastBuildDate>
+    
+	<atom:link href="https://scottmuc.com/hugo/categories/career-break/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Three Months in India</title>
       <link>https://scottmuc.com/hugo/blog/2014-12-16-three-months-in-india/</link>
