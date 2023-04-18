@@ -27,7 +27,7 @@
 <p>{% youtube Mfsnlbd-4xQ %}</p>
 <p>That talk made me want to play with overtone. Here&rsquo;s the diary of my workstation setup.</p>
 <h2 id="leiningen">Leiningen</h2>
-<p>{% img right <a href="http://leiningen.org/img/leiningen.jpg">http://leiningen.org/img/leiningen.jpg</a> %} Thinking I know what I&rsquo;m doing I say &ldquo;So, Overtone is in Clojure, right? So I&rsquo;ll first install that.&quot;. To which he replied &ldquo;No, you need to install <a href="http://leiningen.org/">Leiningen</a>.&quot;. What?! I want to install clojure, why do I need this oddly named tool? Already my world has been turned upside down.</p>
+<p>{% img right <a href="http://leiningen.org/img/leiningen.jpg">http://leiningen.org/img/leiningen.jpg</a> %} Thinking I know what I&rsquo;m doing I say &ldquo;So, Overtone is in Clojure, right? So I&rsquo;ll first install that.&rdquo;. To which he replied &ldquo;No, you need to install <a href="http://leiningen.org/">Leiningen</a>.&rdquo;. What?! I want to install clojure, why do I need this oddly named tool? Already my world has been turned upside down.</p>
 <p>Leiningen is a package manager for Clojure. I can&rsquo;t say I understand completely what it&rsquo;s doing, but when I did a <code>sudo port install leiningen</code> I saw Maven was being installed. Chris calmed me down and said that <code>lein</code> hides the pain so I don&rsquo;t have to worry about it.</p>
 <p>Sure enough, the install works. I run <code>lein new mucmusic</code> and a simple project structure is setup for me. I updated the <code>project.clj</code> to refer to the 1.4.0 version of Clojure.</p>
 <p>I then run <code>lein repl</code> and see the package manager at work. It downloads Clojure for me and I&rsquo;m in a repl. I try the most basic thing I know <code>(+ 1 1)</code> and it works! I can only imagine what&rsquo;s going on behind the scenes. I find it interesting that a package management tool is responsible for obtaining the language you&rsquo;re going to develop in. It makes a whole lot of sense actually. It&rsquo;s sort of like <a href="http://www.virtualenv.org/en/latest/">virtualenv</a>, but not quite.</p>
@@ -118,7 +118,7 @@ is a lein plugin that starts up a VimClojure server. To install this, I just add
 at first, but that was because MacPorts installs version 1.6 of lein. Nailgun was some C code that you have to download a compile and make reference to it in your vimrc. I&rsquo;m sort of lost on how all these components work together.</p>
 <p>A quick <code>lein upgrade</code> got me to version 2.0. Then an execution of <code>lein vimclojure</code> and the server is up and running.</p>
 <h2 id="summary">Summary</h2>
-<p>After installing a bunch of oddly named things I was able to play the pieces from Chris&rsquo; talk in vim.</p>
+<p>After installing a bunch of oddly named things I was able to play the pieces from Chris' talk in vim.</p>
 <p>There were some details that I left out (and forgot). I don&rsquo;t think I would have gotten this far without help from Chris
 and the considerable documentation that&rsquo;s in the README files and wikis. Part of me also thinks that it shouldn&rsquo;t
 require this much work. As a side project, I&rsquo;m going to look into pulling all of these steps into a Vagrant

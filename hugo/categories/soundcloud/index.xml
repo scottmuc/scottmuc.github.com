@@ -5,11 +5,7 @@
     <link>https://scottmuc.com/hugo/categories/soundcloud/</link>
     <description>Recent content in soundcloud on More Muc Than You Can Handle</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Feb 2016 13:45:13 -0800</lastBuildDate>
-    
-	<atom:link href="https://scottmuc.com/hugo/categories/soundcloud/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 21 Feb 2016 13:45:13 -0800</lastBuildDate><atom:link href="https://scottmuc.com/hugo/categories/soundcloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Joining Pivotal Cloud Foundry and Moving to Dublin</title>
       <link>https://scottmuc.com/hugo/blog/2016-02-21-joining-pivotal-cloud-foundry-and-moving-to-dublin/</link>
