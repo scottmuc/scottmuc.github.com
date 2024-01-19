@@ -15,7 +15,18 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 
 	octopressFilename := filepath.Base(path)
 	hugoFilename := strings.Replace(octopressFilename[11:], ".markdown", ".md", -1)
-	fmt.Println(hugoFilename)
+	hugoFilePath := "hugo/content/blog/" + hugoFilename
+	fmt.Printf("%s -> %s\n", path, hugoFilePath)
+
+
+	octopressFileContents, e := os.ReadFile(path)
+	if e != nil {
+		log.Fatal(e)
+	}
+
+	frontMatter := strings.Split(string(octopressFileContents), "---")[1]
+	fmt.Println(frontMatter)
+
 	return nil
 }
 
