@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"time"
-	"regexp"
 
 	"gopkg.in/yaml.v3"
 )
@@ -27,12 +27,34 @@ type OctopressDateTime struct {
 	time.Time
 }
 
+type ImageLink struct {
+	Alignment string
+	Width int
+	ImgSrc string
+	Href string
+}
+
 // Dates in Octopress seem to be a mixture of the following date formats
 const octopressTimeFormat = "2006-01-02 15:04"
 const octopressTimeFormat2 = "2006-01-02 15:04:05 -0700"
 
 const octopressPostsDir = "octopress/source/_posts"
 const hugoPostsDir = "hugo/content/blog"
+
+func parseImageLink(octopressImg string) (*ImageLink, error) {
+	pattern := `\{\%\s*img\s+[left|right|center]*\s*([\S]+)\s*\d*\s*(?P<skip>"[^"]*")?\s*\%\}`
+	re := regexp.MustCompile(pattern)
+	matches := re.FindStringSubmatch(octopressImg)
+
+	if len(matches) < 1 {
+		return nil, fmt.Errorf("Could not parse link: %s", octopressImg)
+	}
+
+	imageLink := &ImageLink{
+		ImgSrc: matches[1],
+	}
+	return imageLink, nil
+}
 
 // Behold the ugly!
 func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
@@ -103,7 +125,11 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	fmt.Printf("categories: %v\n", t.Categories)
 	fmt.Printf("imgs: \n")
 	for _, match := range matches {
-		fmt.Println(" - ", match)
+		imageLink, e := parseImageLink(match)
+		if e != nil {
+			log.Fatalln(e)
+		}
+		fmt.Printf(" - %v\n", imageLink)
 	}
 
 	hugoFrontMatter := HugoFrontMatter{
