@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Manager Suffixes Are a Code Smell</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>Manager Suffixes Are a Code Smell</h1>
+			<time>30.06.2008 16:31</time>
+			<div>
+				<p>After attending <a href="/blog/development/i-survived-jp-s-nothing-but-dot-net-boot-camp/">Nothing But .Net Bootcamp</a> I noticed none of the classes that were written in the course had a <em>Manager</em> suffix. I&rsquo;ve sort had a eureka moment and have a good idea on why this is.</p>
+<!-- raw HTML omitted -->
+<p>JP heavily emphasized the <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">Single Responsibility Principle</a> throughout the course. If a class is only has a single responsibility it will be pretty difficult to attach a Manager suffix to the class name.</p>
+<p>So often have have I grouped together methods into some sort of &ldquo;Manager&rdquo; class and have always felt guilty about it. Having a Manager class almost corresponds to the <a href="http://www.artima.com/intv/fixit.html">Broken Windows story</a>. You start thinking that since you have the Manager class it won&rsquo;t hurt to add another method to it, which is simply giving it more responsibilities.</p>
+<p>I think a good real world exercise for me to do is to <a href="http://en.wikipedia.org/wiki/Refactoring">refactor</a> one of my Manager classes into a set of classes that perform the same operations in a much more cohesive way.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

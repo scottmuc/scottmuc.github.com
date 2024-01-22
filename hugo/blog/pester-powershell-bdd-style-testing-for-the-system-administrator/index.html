@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pester - PowerShell BDD Style Testing For The System Administrator</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>Pester - PowerShell BDD Style Testing For The System Administrator</h1>
+			<time>11.05.2011 20:05</time>
+			<div>
+				<p>Hi there and welcome to my demo of Pester, a BDD style testing framework for Powershell. The creation of Pester came out of the desire to test some build/deployment infrastructure we were creating for a project. We wrote nearly all the code without tests and it came to bite us in the end. I wanted to find a way ensure these problems didn&rsquo;t happen again as well as provide some code coverage to give new entrants to the codebase some confidence that they won&rsquo;t break everything.</p>
+<!-- raw HTML omitted -->
+<p>Inside Pester there&rsquo;s already a trivial Calculator example but it&rsquo;s not really the best way to demonstrate the app. Pester itself is tested using Pester. In fact it&rsquo;s being tested by the version of Pester that&rsquo;s under test (although Martin pointed out some uncovered areas). Still, probably not the best way to show how it all works.</p>
+<p>What I&rsquo;m going to go through here is the beginning of what could possibly be a real world scenario for a person assigned to write deployment code.</p>
+<h2 id="heres-the-story">Here&rsquo;s the story:</h2>
+<p>Initech has had issues where their .Net web applications have been deployed on production servers with the debug compilation flag set to true. This has made production support people irritable because they now manually tweak the web.config every single time they do a deploy. Michael Bolton has decided he&rsquo;s going to automate this step but wants to right it test first. He doesn&rsquo;t want to repeat the debacle of his previous attempt at being clever.</p>
+<p>First step is to setup a project. Mike (as he now likes be known as) decides to call his project of tools IDeploy and creates a folder of that name where he does is development.</p>
+<p>Setting up Pester is simply a matter of following the instructions at PsGet (author Mike Chaliy has tons of great PowerShell modules)then running Install-Pester. Then running Import-Module Pester anytime you open up a PowerShell session where you want to use Pester. The console should look like the following:</p>
+<!-- raw HTML omitted -->
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

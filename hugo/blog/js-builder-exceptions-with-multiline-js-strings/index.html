@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>JS Builder Exceptions With Multiline JS Strings</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>JS Builder Exceptions With Multiline JS Strings</h1>
+			<time>03.10.2008 16:32</time>
+			<div>
+				<p>I&rsquo;m creating an automated build process and one of the items in the build is to build an external resource which is a java script library. The javascript is contained in multiple files and I want to concatenate them into one script. I found a very useful tool called <a href="http://code.google.com/p/js-builder/">JS Builder</a> which has a command line executable which I can use to automate the construction of this javascript file.</p>
+<!-- raw HTML omitted -->
+<p>Setup was very simple. I created a JS Build project in my build directory. Inside it I reference the .js files I want to include/minimize/concatenate. I select the folder containing the scripts and attempt to run the build.</p>
+<p>My first attempt results in the following error:</p>
+<p>An unhandled exception occurred while building:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>I tried to google the error but could not find anything. To troubleshoot I added 1 javascript file at a time and found that there were a small group of files that caused this error. It turns out that JS Build chokes on multiline strings that use the &lsquo;' character to have the string declared on multiple lines in the source code.</p>
+<p>Not a big deal, I did multiline string concatenation to build the strings instead (probably implement a string builder in the future). After that, everything built fine. During the research I came across an <a href="http://kazoolist.blogspot.com/2008/06/multi-line-strings-in-javascript.html">interesting article</a> regarding the validitiy of the syntax of strings using the &lsquo;' character.</p>
+<p>Now I have a simple NAnt task that executes JS Build that constructs a single javascript file for a complex javascript audio player for the future CBC Radio 3 website (kudos to <a href="http://www.rabin.ca/">Phil Rabin</a> for the code). Next step is to figure out how to deal with thirdparty javascript libraries that the project depends on.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

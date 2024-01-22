@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Intentional Programming aka Calling Your Shots</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>Intentional Programming aka Calling Your Shots</h1>
+			<time>21.02.2012 00:00</time>
+			<div>
+				<p>I just read this <a href="http://playswithfire.com/blog/2012/02/19/you-are-not-ruthless-enough/">blog post</a> and it&rsquo;s inspired me to finally post
+about something that&rsquo;s been in the back of my mind for while now.</p>
+<p>Back in the day I used to play 8-ball on a fairly regular basis. I would play with a regular group of friends who would all work on
+improving our game. One of the players was nearly a professional and provided me one training tip that helps me everyday. He would ask me
+to declare every variable of my shot. Not just what ball and pocket I&rsquo;m targeting, but what trajectory the cue ball will take after contact
+and how it will carom off of every rail, and to predict where the cue ball will end up. By doing this it revealed so much more of the game
+to me. As a novice, your primary concern is potting balls. But to be good, you need be in control of everything on the table.</p>
+<!-- raw HTML omitted -->
+<p>I like to apply this to software development. While watching Kent Beck&rsquo;s <a href="http://pragprog.com/screencasts/v-kbtdd/test-driven-development">TDD screencast</a>
+I heard him label this kind of thing as calling yours shots. I absolutely love that term for it and can&rsquo;t believe I never thought of naming it that
+before! Ultimately, calling your shots is like this:</p>
+<blockquote>
+<p><strong>When changing part of the system, predict how the the behaviour of the system has changed.</strong></p>
+</blockquote>
+<p>So if it&rsquo;s code under test, predict the test result. If you predict it&rsquo;s going to fail, declare exactly why it&rsquo;s going to fail. When making
+code change, declare your intent of what you want to happen as a result of that change. Before I went into software development I worked as
+a system administrator and this routine became valuable. Saying things like &ldquo;Because I have update this registry entry, a file named blah.log
+should be in C:\foo\logs&rdquo;. If that doesn&rsquo;t happen, then you have an opportunity to learn more on how the system works.</p>
+<p>I had an experience recently where I wasn&rsquo;t able to call my shots. I was working on some CSS positioning and nearly every change I made to
+that poor little SASS file was a shot in the dark. This was a clear indicator that I didn&rsquo;t know what I was doing and that some deeper
+understanding was necessary to be at all effective.</p>
+<p>This is the paragraph from the <a href="http://playswithfire.com/blog/2012/02/19/you-are-not-ruthless-enough/">blog post</a> that really hit home
+for me.</p>
+<blockquote>
+<p>Every time you throw in something that seems to work, find out why it works. If you don’t understand why it works then the code is
+just magic and you’re letting yourself off the hook. That code will become enshrined in your version control system for later
+generations (read: you, three months from now) to discover, wonder at, puzzle over, and leave it because no one understands what it does.</p>
+</blockquote>
+<p>When it comes to software and computers, I have little patience for magic. This probably slows me down initially but as the system grows
+I feel confident that I understand everything quite well.</p>
+<p>On the other side of the coin, playing around and exploring is also necessary. This is the realm of the spike. I had an experience with a colleague
+recently where I kept on insisting that they called their shot. They announce that they couldn&rsquo;t because of a lack of context and understanding
+and that they were simply exploring. It was a good reminder that exploration is extremely important and that we don&rsquo;t spike things out
+often enough. Our spikes end up being our production code which is part of what the linked to article is trying to get at.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Handy Web Path Concatenation Code</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>Handy Web Path Concatenation Code</h1>
+			<time>03.12.2008 16:33</time>
+			<div>
+				<p>Lot of web developement code is spent concatenating path snippets and I always hated having to deal with slashes. I wanted a function that was consistent with its return type, and very loose in its parameter requirements. I ended up with the following:</p>
+<!-- raw HTML omitted -->
+<p><em>Test First</em>:</p>
+<p>{% gist 1545719 WebPathSpecs.cs %}</p>
+<p>The <a href="http://en.wikipedia.org/wiki/Behavior_Driven_Development">BDD</a> style of testing is inspired (and pretty much copied) from JP Boodhoo&rsquo;s Nothing but .Net class.</p>
+<p><em>Here&rsquo;s the code</em>:</p>
+<p>{% gist 1545719 WebPath.cs %}</p>
+<p>That was my first go at it. I have a feeling I might generalize the class to be a delimited string builder. Which would be nice because then the method won&rsquo;t be static. Anyways, just thought I would share something that I think is concise but will be used a lot.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

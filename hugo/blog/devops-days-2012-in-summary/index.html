@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Devops Days 2012 in Summary</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>Devops Days 2012 in Summary</h1>
+			<time>29.06.2012 17:08</time>
+			<div>
+				<p><a href="http://devopsdays.org/">DevopsDays</a> is a juxtaposition in the world of IT. Most
+tech conferences focus on tools and processes, whereas Devops Days focuses on
+culture and the delivery of value. This year&rsquo;s conference was no exception and
+here is a summary of what I experienced:</p>
+<h2 id="day-1">Day 1</h2>
+<h4 id="the-audubon-society-for-partial-failures">The Audubon Society for Partial Failures</h4>
+<p>The first <a href="http://cl.ly/2t1J0H1M3b2O092a1v1S">presentation</a> was done by <a href="https://twitter.com/moonpolysoft">Cliff Moon</a>. He argues
+that there are many common patterns in the IT space and it would be valuable
+to have a repository of knowledge that we can visit to read about the types of
+errors that can happen. If we could build a taxonomy for the partial failures
+that exist we may better understand our systems and explain when full-blown
+outages occur.</p>
+<p>He stresses sharing as the ultimate method for this. Not just sharing ideas and
+hypotheses but also the data that lead to the hypothesis. This allows for peer
+review and corrections to be made if analysis of the data could have been
+misinterpreted.</p>
+<p>What I really enjoyed was the spirit of Cliff&rsquo;s talk. The influence for the title
+was a man who was obsessed with categorizing birds, John James Adubon. What
+really hit home was the idea that there&rsquo;s always someone on your team that is
+somewhat of a shaman when it comes to resolving production issues. It might
+simply be because that person understands the conventions of the system at
+work. Creating this taxonomy could help in revealing the shaman&rsquo;s &ldquo;secrets&rdquo; and
+allow for everyone to weave a little magic.</p>
+<h4 id="continuous-improvement">Continuous Improvement</h4>
+<p><a href="https://twitter.com/noahsussman">Noah Sussman</a> is a test architect at Etsy and he
+<a href="http://www.slideshare.net/noahsussman/continuous-improvement-devops-day-mountain-view-2012">presented</a> on how Continuous Deployment and
+Continuous Delivery change how quality assurance needs to be done.</p>
+<p>I believe this to be a very important topic because this is going to be
+a drastic change for most organisations. Large companies are enamoured with
+startup culture and ideas, but aren&rsquo;t seeing what&rsquo;s required of them to change
+to this model. A change in testing strategy is a significant barrier to entry
+for most large companies. Even if the devs and ops teams are collaborating,
+they can&rsquo;t deliver anything unless it gets passed the quality gates.</p>
+<h4 id="vagrant-20">Vagrant 2.0</h4>
+<p>I got a chance to meet <a href="https://twitter.com/mitchellh">Mitchell Hashimoto</a>,
+creator of a tool that I&rsquo;ve been enjoying quite a bit lately,
+<a href="http://vagrantup.com/">Vagrant</a>. There was an excellent discussion on how people
+are using vagrant in their organisation. What was also exciting was hearing
+what&rsquo;s coming out next:</p>
+<ul>
+<li>run on any VM software</li>
+<li>run any guest OS (that includes OS X)</li>
+<li>distributed as a package, not as a gem</li>
+<li>Builder (essentially merging veewee into vagrant)</li>
+</ul>
+<p>During the session I also learned about the concept of baking an image vs
+frying one (and everyone knows I love analogies). To bake an image is to use
+an image as is, no configuration management is needed. This doesn&rsquo;t mean
+configuration management isn&rsquo;t used to bake that image though which I thought
+was an important detail. Frying an image is to start with a common base and
+always reach an end state via configuration management. Frying is the approach
+I favour because I like to execute my chef recipes as often as possible. I
+also learned about different ways of baking images and still having the same
+level of confidence in configuration management scripting.</p>
+<h2 id="day-2">Day 2</h2>
+<h4 id="gauntlt-and-bridging-the-gap-between-security-and-everyone">Gauntlt and bridging the gap between security and everyone</h4>
+<p><a href="https://twitter.com/wickett">James Wickett</a>, a security consultant, discussed how security is feeling left
+out in this crazy world of Continuous Integration, Testing, and Delivery.
+What is cool, is that he&rsquo;s doing something about it.</p>
+<p>In typical security processes, an organisation has someone come in and
+perform an assessment of the security of the applications being developed.
+The artifact is usually a 100 page PDF describing everything that&rsquo;s wrong
+with the system being developed. Instead of a document, he suggests delivering
+a test suite that can be executed continuously. Hence <a href="https://github.com/thegauntlet/gauntlt">gauntlt</a> is born; a tool
+to execute security tests against a running application.</p>
+<p>I chatted with James briefly and somehow managed to volunteer to join their
+team. I am no security expert, but I believe there&rsquo;s a gap in security knowledge
+in the software industry. Hopefully by integrating gauntlt into future projects
+I can provide some feedback to make the tool more useful.</p>
+<h4 id="continuous-delivery-at-ancestrycom">Continuous Delivery at Ancestry.com</h4>
+<p>I posted my thoughts on a similar presentation at <a href="/chefconf-2012-in-summary/">Chef Conf</a> and again John
+delivered an excellent presentation on the values of culture and delivery focus
+at their organisation.</p>
+<p>Again I got a chance to chat with Dan Gilmer who implemented a lot of tech
+around their pipeline and am looking forward to collaborating with him on
+open sourcing his robust solution to dealing with Windows configuration
+management using PowerShell and Chef. Hopefully we&rsquo;ll have some of that
+knowledge in a project in github soon.</p>
+<h4 id="automating-application-configuration-deployment">Automating Application Configuration Deployment</h4>
+<p><a href="https://twitter.com/dcnem">Dan Nemec</a> delivered a presentation that is very near and dear to my heart.
+Application configuration management can be messy if left to people who do not
+have visibility into all the systems that are in play. He brought a system that
+required 400+ configuration files to a 2 file system. The 400+ files still
+existed but by using templates, and simple configuration hierarchy in chef
+he was able to make application configuration management much simpler and
+easier to scale.</p>
+<p>This hit home for me because I&rsquo;ve implemented my own turnkey implementation
+of this on my last few projects. Those that have worked with me know I refer
+to these as environment yaml files. These files are a manifest of the topology
+of an environment and all its configuration.</p>
+<p>You can read more about Dan&rsquo;s thoughts on this on his <a href="http://blog.geeksgonemad.com/2012/05/automating-application-configuration.html">blog</a>.</p>
+<h4 id="where-does-smallops-fit-in">Where Does SmallOps Fit In</h4>
+<p>This session was very relevant to me as someone who has been working on a small
+team for the last few months. <a href="https://twitter.com/mkocher">Matthew Kocher</a>
+highlights the simple solutions which is why I really enjoy hearing him discuss
+his opinion.</p>
+<p>During this session not much of a consensus was reached. I got the feeling that
+most of the people in the room didn&rsquo;t quite know what to do with SmallOps. How
+do you manage 20 servers and not complicate the infrastructure
+management?</p>
+<h4 id="devops-as-a-role-on-projects">Devops as a role on projects</h4>
+<p>This topic, I love in principle, but do a horrible job in practice. There&rsquo;s
+no such thing as a &ldquo;DevOps Engineer&rdquo;, it&rsquo;s just a mindset. This is where
+the cultural message is most important. DevOps is about transforming
+organisations to remove silos. Jamie who brought up the open space likened
+a software delivery team to a sports team (again, I love the analogies). With
+sports you still have specialists, but they work has a cohesive unit. In
+football, there&rsquo;s no reason a defense person can&rsquo;t score a goal. If you have
+a team where offensive players begin blaming defense for their lack of success
+you then have a disfunctional team.</p>
+<h4 id="what-am-i-going-to-do-now">What Am I Going To Do Now?</h4>
+<p>It really hit home to me after this Devops Days how I am doing a lot of things
+wrong in the mission to bridge these gaps.</p>
+<p>I&rsquo;m going to:</p>
+<ul>
+<li>Measure all things.</li>
+<li>Use monitoring tools (I&rsquo;ve been a cowboy ops person for too long)</li>
+<li>Keep my engagements short to force knowledge transfer early</li>
+</ul>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

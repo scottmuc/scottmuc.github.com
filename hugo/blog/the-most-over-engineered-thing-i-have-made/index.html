@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>The Most Over-Engineered Thing I Have Made</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>The Most Over-Engineered Thing I Have Made</h1>
+			<time>25.06.2013 08:13</time>
+			<div>
+				<p>The other day I overheard some interns boasting about their complicated shell setup. They felt pretty good about
+using tmux, zsh, and aliasing the heck out of everything. One of them had to re-map copy and paste because they messed
+that up, but they felt awesome when they figured out a clever work around.</p>
+<p>We&rsquo;ve all been there at some point. It&rsquo;s something that you grow out of over time. At least I hope so. Here&rsquo;s a story of
+the most complicated thing I&rsquo;ve made and I&rsquo;ll start with a network diagram of my basement suite circa 2003:</p>
+<p><a href="/images/blog/complicated-network.png" title="Network Diagram">{% img center /images/blog/complicated-network.png 600 %}</a></p>
+<h2 id="my-contribution-to-over-engineering">My Contribution to Over-Engineering</h2>
+<p>Hmm, after looking at that network diagram again, I&rsquo;m now thinking about how complicated I&rsquo;ve made a lot of things!
+Anyways, the most complicated thing I&rsquo;ve made was a music playing setup for my home. Doesn&rsquo;t sound like it should
+be complicated, right?</p>
+<p>Here are some of the requirements:</p>
+<ul>
+<li>Rebooting my laptop doesn&rsquo;t stop the music. I was quad booting (that&rsquo;s another story) and would switch frequently</li>
+<li>Control can be from any computer (I did some NAT translation so I could control it from outside the house too)</li>
+<li>The machine playing the music had to be quiet (PCs those days were much louder)</li>
+</ul>
+<h3 id="architecture">Architecture</h3>
+<blockquote>
+<p>The result was an mp3 playing system that required 5 computers in order to work.</p>
+</blockquote>
+<p><a href="/images/blog/complicated-rack.jpg" title="Server Rack">{% img right /images/blog/complicated-rack.jpg 300 %}</a> First there was the <strong>file server</strong> that contained
+all my music. It would expose files to the network via Nfs and Samba. I was pretty meticulous when it came to
+organizing my files. Every artist had a directory, and every album was a sub-directory. In case you&rsquo;re wondering,
+I organized artist names as <em>Last Name, First Name</em>. All the mp3s were created by ripping my personal CD collection.</p>
+<p>Second was the <strong>music player</strong> box. This was an underclocked machine with no hard drive. This way I was able to run it
+without any fans except for the power supply. It used PXE boot load the operating system and would Nfs mount it&rsquo;s filesystem.
+The only thing running on it was <a href="http://www.musicpd.org/" title="Music Player Daemon Website">music player daemon</a> which played mp3s that were also Nfs mounted.</p>
+<p>So since I required PXE boot, I setup a <strong>network config</strong> server. It was my local DNS, DHCP, and TFTP host. I
+configured DHCP to respond to the MAC address of the music player box and provide it a TFTP location to fetch its kernel.
+I had a DNS zone setup that handled internal .muc-central.com records (eg: jukebox.muc-central.com).</p>
+<p>Those 3 servers were sufficient to have a working music playing system, but it didn&rsquo;t have a user interface. This
+required the addition the <strong>web server</strong> which ran Apache and PHP to host <a href="http://mpd.wikia.com/wiki/Client:PhpMp" title="PHP Music Player">PhpMp</a> that connected to the music
+player boxes <code>mpd</code> service.</p>
+<p>Now with a UI, you can start playing songs, and update a playlist from any machine in the house. The 5th machine is the
+<strong>client</strong>, which was my laptop at the time. This was before the era of smart phones, but I imagine with some tweaks, a
+mobile web browser would have worked just fine too.</p>
+<h2 id="the-result">The Result</h2>
+<p><a href="/images/blog/complicated-livingroom.jpg" title="Living Room">{% img left /images/blog/complicated-livingroom.jpg 515 %}</a>
+<a href="/images/blog/complicated-ui.jpg" title="Screenshot">{% img left /images/blog/complicated-ui.jpg 515 %}</a></p>
+<p><!-- raw HTML omitted -->hack to break the floats<!-- raw HTML omitted --></p>
+<p>The machine that plays music is in a closet near the entrance into my apartment. Then I setup some shelves to
+put my <a href="http://www.amazon.com/Altec-Lansing-ACS48-Computer-Speakers/product-reviews/B00000JBJF" title="ACS48 Reviews">Altec Langsing ACS48</a> speakers on top of. The volume on the speakers was set to max so the volume could be
+controlled through the software.</p>
+<p>The web interface wasn&rsquo;t fancy but I still prefer it to many of the applications I&rsquo;ve used recently. It&rsquo;s a basic PHP
+app called <a href="http://mpd.wikia.com/wiki/Client:PhpMp" title="PHP Music Player">PhpMp</a>. What I liked about it the most was the playlist was easy to modify. My friends would browse
+the music collection and click a link to add a song to the playlist. The only picture I can find is an old desktop
+screenshot where you can see the playlist in the bottom left of the screen.</p>
+<h2 id="lesson-learned">Lesson Learned</h2>
+<p>Although I would never set something up like that again, I&rsquo;m glad I did it. It was an excellent learning experience and
+it actually was one of the best digital music setups I had. It also was the gateway to me starting to write technical
+<a href="http://muc-central.com/articles/index.php?file=FreeBSD%20Jukebox" title="My First Online Article">articles</a> online 10 years ago! While listening to the interns, it came to me that this is simply a right
+of passage. I don&rsquo;t think I would be where I am today if I did the simplest thing to solve all my problems. One thing it
+did make me think about is that I probably should contrive complex solutions as a way to practice my understanding
+of of complex systems.</p>
+<p>Things I learned by doing this:</p>
+<ul>
+<li>PXE booting</li>
+<li>Diskless computing</li>
+<li>TFTP</li>
+<li>Non trivial DHCP</li>
+</ul>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

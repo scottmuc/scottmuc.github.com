@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Migrated to Octopress!</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>Migrated to Octopress!</h1>
+			<time>15.01.2012 08:45</time>
+			<div>
+				<p>It&rsquo;s funny how many posts there are from <a href="https://www.google.com/search?q=migrating+to+octopress">people who have migrated to Octopress</a>. What would motivate someone to post their migration experience? I think I understand why. It&rsquo;s such a shift in thinking that it&rsquo;s worth talking about. My migration experience was so much pleasant that I feel that I must let everyone know.</p>
+<!-- raw HTML omitted -->
+<p>So what&rsquo;s my motivation for moving to a new blogging platform? Was what I was using before broken? Not
+exactly, but I didn&rsquo;t enjoy the blogging experience that much because I found the experience to not be a
+lot of fun. I want to start writing more and feel that removing any barriers to this activity will get more
+content out there. I also didn&rsquo;t like having to rely on a server side application server. For a website that changes around 30 times a year, a database backed content management system was overkill. Also, the website was hosted on a friends server that I had no backups for, and didn&rsquo;t want to spend much effort creating a backup/restoration strategy.</p>
+<p>After some searching, I found <a href="http://jekyllrb.com/">jekyll</a>, wich I love for its simplicity. I was going to use bare bones jekyll but then I was directed to <a href="http://octopress.org/">Octopress</a> which is a framework to make working
+with jekyll a lot easier.</p>
+<p>Since I was on Windows my install was a bit different than the documentation. Luckily I have created a tool
+to make <a href="http://scottmuc.com/blog/development/simplifying-ruby-installation-in-windows/">ruby installation simple on Windows</a>. Here&rsquo;s everything I did to go from nothing to having a working
+blog hosted on github!</p>
+<ol>
+<li>Installed <a href="https://github.com/scottmuc/yari">yari</a>, and got my environment using ruby 1.9.2</li>
+<li>Followed the octopress <a href="http://octopress.org/docs/setup/">setup instructions</a></li>
+<li>Followed the octopress <a href="http://octopress.org/docs/deploying/github/">deployment instructions</a></li>
+</ol>
+<p>I was blown away when I saw my blog appear when I went to <a href="http://scottmuc.github.com/">scottmuc.github.com</a>.</p>
+<h3 id="migration">Migration</h3>
+<p>Unfortunately my previous blog engine&rsquo;s export functionality is broken so migration had to be manual. Every post
+is going to be copy and pasted and re-linkified in markdown syntax. I wanted to get this new version up and
+running first so I made a few compromises.</p>
+<ol>
+<li>I decided not to migrate every post. Some of my old content doesn&rsquo;t really fit with the rest of the content
+so I decided to abandon the posts. I&rsquo;m keeping the <a href="http://old.scottmuc.com/">old blog</a> up and running so that people can still find the posts there if they really want them.</li>
+<li>Keeping links working is <strong>extremely</strong> important to me. Octopress provides the ability to set the permalink on
+an individual post which made this element of the migration super easy. Every blog post has &ldquo;front matter&rdquo; which is a little bit of YAML meta data. Adding a permalink value will make the post accessible from that URL path: <!-- raw HTML omitted -->permalink: /foo/bar/post<!-- raw HTML omitted --></li>
+<li>I went live with an incomplete migration. I only have about a third of my posts migrated. I did this so I can
+get this live and sort out issues right away before everything is migrated. Also, it&rsquo;s a way to motivate me to get
+everything into the new blog ASAP.</li>
+<li>Added a custom <a href="http://scottmuc.com/non-existent-page/">404</a> to guide those who want to see non-migrated content to the old blog.</li>
+<li>Added &ldquo;scottmuc.com&rdquo; to my CNAME file. I followed the instructions <a href="https://github.com/blog/315-cname-support-for-github-pages">here</a>. Note that this is enabled for non-paying users now! I use <a href="http://gandi.net/">gandi.net</a> for my DNS and updating the A record and CNAME (for www) was a snap.</li>
+</ol>
+<h3 id="other-stuff">Other Stuff</h3>
+<p>When setting up the blog I had an online discussion about how url design. I decided to leave dates out of my url
+and to include them in the title slug only when appropriate. I came to the conclusion that url slug design is
+extremely important and doesn&rsquo;t always have to be word for word related to the post title. Because Octopress is
+so easy to configure, the configuration setting for this is simply this value in _config.yml:</p>
+<!-- raw HTML omitted -->
+<p>I&rsquo;m now using other 3rd party services like feedburner, disqus, and gist.github.com. With all of these things
+taken care of for me, authoring a post is a call to <em>rake new_post[&ldquo;post title&rdquo;]</em>, edit in vim, and preview
+using <em>rake preview</em> to view the changes before I deploy them.</p>
+<p>The one thing I would like to change is learn how to create a custom theme. It&rsquo;s quite common to see a lot of
+octopress based blogs use the same default theme that I&rsquo;m using now.</p>
+<h3 id="summary">Summary</h3>
+<p>Octopress is awesome! I love the workflow for authoring new content. I much prefer markdown over using some
+WYSIWIG editor over a web connection. The ability to do everything local means there&rsquo;s significantly less
+effort for me. I believe Octopress is an excellent example of how an excellent deployment mechanism can shift
+how work can be done. If pushing brand new code to production is that easy, it removes the need for complex
+server side code.</p>
+<p>Lastly, if you would like to see what a raw blog post looks like, take a look <a href="https://github.com/scottmuc/scottmuc.github.com/tree/source/source/_posts">here</a>.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

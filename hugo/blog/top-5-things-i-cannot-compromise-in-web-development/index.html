@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Top 5 Things I Cannot Compromise In Web Development</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>Top 5 Things I Cannot Compromise In Web Development</h1>
+			<time>27.11.2008 16:33</time>
+			<div>
+				<p>Over the past few months I&rsquo;ve realized that I&rsquo;m a stubborn mule when it comes to certain aspects of web development. After some internal reflection I&rsquo;ve come up with my top 5 things I strongly feel that I won&rsquo;t compromise on in the web development process. These items are just for the presentation layer, I&rsquo;m loaded with issues deeper into the development stack.</p>
+<!-- raw HTML omitted -->
+<p><em>1 - URLs must be as beautiful as possible</em></p>
+<p>I really don&rsquo;t need to say much about this because <a href="http://mikeschinkel.com/blog/welldesignedurlsarebeautiful/">Mike Schinkel</a> has already said it all. We&rsquo;ve been contemplating the use of <a href="http://www.asual.com/swfaddress/">SWFAddress</a> as a method of deep linking because the new <a href="http://radio3.cbc.ca/">Radio 3 website</a> is wrapped in a FrameSet therefore you don&rsquo;t see the URL change in the Address bar of a web browser. I know how well deep linking solves this problem, but I still have a hard time looking at a URL with the hash (#). I personally would never use it for a personal website because that 1 character of noise is so distracting to me.</p>
+<p>Secondly, I believe urls should be guessable and hackable. <a href="http://stackoverflow.com/">Stackoverlow</a> has some clean urls but they aren&rsquo;t perfect. They are somewhat hackable, but what&rsquo;s with have the database key in the url? this makes urls impossible to guess. I really wish my profile URL was: <a href="http://stackoverflow.com/users/scott-muc">http://stackoverflow.com/users/scott-muc</a> instead.</p>
+<p><em>2 - Web pages must be constructed with semantic markup with no display decoration</em></p>
+<p>Seperating the design from the markup can be difficult but when done correctly it is a thing of beauty. The introduction of <a href="http://microformats.org/">micro-formats</a> has made me see a huge potential in the markup as data and not about display. I&rsquo;m extremely impressed by <a href="http://content.corkd.com/">Corkd</a> because you can actually use their website markup as a database for their wine reviews because of their usage of the <a href="http://microformats.org/wiki/hreview">hreview</a> microformat.</p>
+<p>Along with that I believe the markup should contain zero inline CSS and javascript. Easier said than done, but I simply believe that CSS should belong in the stylesheet files (or in the page header in the worst case). Inline boot strapping javascript I find ok, but using inline javascript to handle click events is really messy.</p>
+<p><em>3 - No browser specific CSS and/or hacks</em></p>
+<p>The first time I learned about the <a href="http://css-discuss.incutio.com/wiki/Star_Html_Hack">Star Hack</a> I was in heaven. I finally felt I could make IE 6 work. Unfortunately this hack came with the cost of making CSS maintenance difficult. It takes more time, but having a design that requires the minimal amount of IE 6 only hacks the better. Or better yet, don&rsquo;t do any IE 6 hacks and just use <a href="http://www.alistapart.com/articles/progressiveenhancementwithcss">progressive enhancement</a> and don&rsquo;t fret about IE 6 looking bad in some situations. It&rsquo;s simply not worth the time because we all have better things to do than support a nearly 10 year old web browser.</p>
+<p><em>4 - No flash or objects on the page</em></p>
+<p>Flash creates a load delay that&rsquo;s an order of magnitude slower than a regular text only page load. I do like flash and a lot of the features it provides, but I think the best usage of flash is to only load it when the user wishes to use a feature that requires flash. The embedable music players and the embedded youtube videos are the worst offenders in my humble opinion. These can easily be handled by loading of the flash on click events.</p>
+<p><em>5 - Don&rsquo;t let your server side application framework take over your markup</em></p>
+<p>The majority of my web experience is with Asp.Net and I really don&rsquo;t like how some of the controls create horrible markup. I&rsquo;m a big fan of the Repeater and ListView controls simply because I have 100% control over the markup they create. I can&rsquo;t say I&rsquo;ve ever used GridView in a production web site.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>

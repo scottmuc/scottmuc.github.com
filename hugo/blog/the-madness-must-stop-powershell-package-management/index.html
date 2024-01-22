@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>The Madness Must Stop! - PowerShell Package Management</title>
+	
+	
+	<link rel="stylesheet" href="/hugo/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<h1>The Madness Must Stop! - PowerShell Package Management</h1>
+			<time>10.10.2011 10:57</time>
+			<div>
+				<p>As a publisher for a few Powershell modules I&rsquo;m getting frustrated by the lack of standarization in the community on how to support versioning, deployment and conventions within Powershell module distribution. All I can find is rather adhoc mechanisms of sharing poorly written code with the &ldquo;use at your own risk&rdquo; kinds of disclaimers.</p>
+<!-- raw HTML omitted -->
+<p>I keep on looking at the ruby community with their amazing tools like rvm, ruby gems, and bundler to make ruby scripting highly testable and repeatable. The formalization also means that you don&rsquo;t see people writing ruby code with random imports and magical includes that only work in very specific scenarios. By creating a community around gems and some basic standards, it&rsquo;s forced developers to factor their ruby code accordingly and modularize when necessary.</p>
+<p>So far I&rsquo;ve found the following package management tools for Windows:</p>
+<ul>
+<li>Nuget - conversations online have lead me to understand that nuget isn&rsquo;t meant for powershell</li>
+<li>OpenWrap - still under evaluation</li>
+<li>Chocolatey (by Rob Reynolds) - wrapper around nuget. Seems to be about config management like Puppet and Chef.</li>
+<li>Chewie (by Eric Ridgeway) - bundler for nuget. Could have some input on how to manage PS module packages. Potential to be the front end for managing suites of modules.</li>
+<li>Web Platform Installer - not even going to go there</li>
+<li>PS-Get (by Andrew Nurse) - built around nuget but Andrew has the MS connection to make it popular.</li>
+<li>PS-Get (by Mike Chaliy) - my favourite but needs some growth in the community. A showcase for simplest thing that can possibly work.</li>
+<li>Nugit - almost forgot about this late entry. Don&rsquo;t know anything about it yet.</li>
+</ul>
+<p>Here&rsquo;s my wishlist (that none of the above can fulfill):</p>
+<ul>
+<li>Ability to deploy multiple versions of the same package</li>
+<li>Different levels of isolation (System | Profile | Project ) levels</li>
+<li>A management tool so that projects can declare versions and packages that they need along with dependency chaining (ala bundler and ivy)</li>
+<li>Packages can be stored in many different locations (Nuget.org, github, some url pattern)</li>
+</ul>
+<p>History has shown that pretty much all languages need their own package management system (which can then be wrapped by a system level package manager). I vote that some of us in the community have a round-table and discuss how to move forward with this. There&rsquo;s so much to learn from what already exists to get Windows out of the scripting ghetto.</p>
+
+			</div>
+			
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>&copy; 2024 <a href="https://scottmuc.com/hugo/">More Muc Than You Can Handle</a></p>
+	</footer>
+</body>
+</html>
