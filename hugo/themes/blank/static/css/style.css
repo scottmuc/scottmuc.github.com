@@ -1,0 +1,29 @@
+body {
+	margin:0;
+}
+body>header {
+	background: #333;
+	font-size: 1em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 18px;
+	padding-right: 18px;
+	display: block;
+	margin: 0;
+	border: 0;
+}
+
+
+body>header h1 {
+	display: inline-block;
+	margin: 0;
+	font-size: 2.2em;
+	font-weight: normal;
+	line-height: 1.2em;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body>header h1 a, body>header h1 a:visited, body>header h1 a:hover {
+	color: #f2f2f2;
+	text-decoration: none;
+}

@@ -14,16 +14,9 @@
 </head>
 <body>
 	<header>
-		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-		{{ with .Site.Menus.main }}
-		<nav>
-			<ul>
-				{{ range . }}
-				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-				{{ end }}
-			</ul>
-		</nav>
-		{{ end }}
+		<h1>
+			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		</h1>
 	</header>
 
 	{{ block "main" . }}{{ end }}
