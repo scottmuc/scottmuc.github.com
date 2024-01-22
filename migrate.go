@@ -14,6 +14,7 @@ import (
 type OctopressFrontMatter struct {
 	Title string
 	Date OctopressDateTime
+	Categories []string
 }
 
 type OctopressDateTime struct {
@@ -70,6 +71,7 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	fmt.Printf("%s -> %s\n", path, hugoFilePath)
 	fmt.Printf("title: %s\n", t.Title)
 	fmt.Printf("date: %v\n", t.Date)
+	fmt.Printf("categories: %v\n", t.Categories)
 
 	return nil
 }
