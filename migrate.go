@@ -112,12 +112,7 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	}
 
 	hugoYamlFrontMatter, _ := yaml.Marshal(&hugoFrontMatter)
-
-	hugoPost := fmt.Sprintf(`---
-%s
----
-%s
-`, hugoYamlFrontMatter, postContent)
+	hugoPost := fmt.Sprintf("---\n%s\n---\n%s\n", hugoYamlFrontMatter, postContent)
 
 	e3 := createHugoFile(hugoFilePath, hugoPost)
 	if e3 != nil {
