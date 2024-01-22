@@ -2,9 +2,9 @@
 	<main>
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
-			{{ .Render "summary" }}
+		<article>
+			<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+		</article>
 		{{ end }}
-		{{ partial "pagination.html" . }}
 	</main>
-{{ partial "sidebar.html" . }}
 {{ end }}

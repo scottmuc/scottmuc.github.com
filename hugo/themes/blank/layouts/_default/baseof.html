@@ -13,8 +13,23 @@
 	{{- end }}
 </head>
 <body>
-	{{ partial "header" . }}
+	<header>
+		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		{{ with .Site.Menus.main }}
+		<nav>
+			<ul>
+				{{ range . }}
+				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</nav>
+		{{ end }}
+	</header>
+
 	{{ block "main" . }}{{ end }}
-	{{ partial "footer" . }}
+
+	<footer>
+		<p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></p>
+	</footer>
 </body>
 </html>
