@@ -18,6 +18,11 @@ type OctopressFrontMatter struct {
 	Categories []string
 }
 
+type HugoFrontMatter struct {
+	Title string
+	Date time.Time
+}
+
 type OctopressDateTime struct {
 	time.Time
 }
@@ -101,7 +106,20 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 		fmt.Println(" - ", match)
 	}
 
-	e3 := createHugoFile(hugoFilePath, "testing")
+	hugoFrontMatter := HugoFrontMatter{
+		Title: t.Title,
+		Date:  t.Date.Time,
+	}
+
+	hugoYamlFrontMatter, _ := yaml.Marshal(&hugoFrontMatter)
+
+	hugoPost := fmt.Sprintf(`---
+%s
+---
+%s
+`, hugoYamlFrontMatter, postContent)
+
+	e3 := createHugoFile(hugoFilePath, hugoPost)
 	if e3 != nil {
 		log.Fatalln("Error writing hugo file:", e3)
 	}
