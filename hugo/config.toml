@@ -1,3 +1,4 @@
 baseURL = "https://scottmuc.com/hugo/"
 title = "More Muc Than You Can Handle"
 theme = "blank"
+paginate = 1000000

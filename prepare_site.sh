@@ -8,7 +8,7 @@ fi
 
 # prepate hugo
 pushd hugo
-hugo # generates hugo/public
+./build.sh # generates hugo/public
 popd
 
 # prepare octopress
