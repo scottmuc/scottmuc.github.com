@@ -26,6 +26,8 @@ type OctopressDateTime struct {
 const octopressTimeFormat = "2006-01-02 15:04"
 const octopressTimeFormat2 = "2006-01-02 15:04:05 -0700"
 
+const octopressPostsDir = "octopress/source/_posts"
+const hugoPostsDir = "hugo/content/blog"
 
 // Behold the ugly!
 func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
@@ -46,6 +48,21 @@ func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
 	return nil
 }
 
+func createHugoFile(filePath, content string) error {
+	file, err := os.Create(filePath)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	_, err = file.WriteString(content)
+	if err != nil {
+		return err
+	}
+	
+	return nil
+}
+
 func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	if fileInfo.IsDir() {
 		return nil
@@ -53,7 +70,7 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 
 	octopressFilename := filepath.Base(path)
 	hugoFilename := strings.Replace(octopressFilename[11:], ".markdown", ".md", -1)
-	hugoFilePath := "hugo/content/blog/" + hugoFilename
+	hugoFilePath := hugoPostsDir + "/" + hugoFilename
 
 	octopressFileContents, e := os.ReadFile(path)
 	if e != nil {
@@ -84,11 +101,17 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 		fmt.Println(" - ", match)
 	}
 
+	e3 := createHugoFile(hugoFilePath, "testing")
+	if e3 != nil {
+		log.Fatalln("Error writing hugo file:", e3)
+	}
 	return nil
 }
 
 func main() {
-	octopressPostsDir := "octopress/source/_posts"
+	os.RemoveAll(hugoPostsDir)
+	os.Mkdir(hugoPostsDir, 0755)
+
 	err := filepath.Walk(octopressPostsDir, MigratePost)
 	if err != nil {
 		log.Fatal(err)
