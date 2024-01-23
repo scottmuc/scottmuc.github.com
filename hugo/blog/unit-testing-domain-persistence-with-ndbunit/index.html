@@ -48,7 +48,7 @@
 <p>In each repository directory I create a custom test context class as a base class for all other fixtures in the directory. This test context will be used to expose the repository that&rsquo;s under test, and to populate the dummy database using NDbUnit. Here&rsquo;s an example of the UserRepositoryTestContext</p>
 <p>{% gist 1551024 UserRepositoryTestContext.cs %}</p>
 <p>The XSD for this section contains a dataset that for the Users, Roles, and UserRoles tables and the dummy data looks something like the following:</p>
-<p><img src="https://www.scottmuc.com/images/blog/UsersDS.jpg" alt="test image"></p>
+<p><img src="https://scottmuc.com/images/blog/UsersDS.jpg" alt="test image"></p>
 <p>{% gist 1551024 Users.xml %}</p>
 <p>Now I can write succinct unit tests leveraging all the infrastructure that I&rsquo;ve put in place:</p>
 <p>The User domain object is quite simple and that&rsquo;s why I also have tests for a simple BlogPost class that has a child collection of Comments. Using a similar structure I can write painless tests like the following:</p>
