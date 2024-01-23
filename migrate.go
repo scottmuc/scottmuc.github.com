@@ -127,7 +127,7 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	for _, image := range images {
 		imageLink, e := parseImageLink(image)
 
-		newImg := "![test image](https://www.scottmuc.com"+imageLink.ImgSrc+")"
+		newImg := "![test image](https://scottmuc.com"+imageLink.ImgSrc+")"
 		postContent = strings.Replace(postContent, image, newImg, -1)
 
 		if e != nil {
