@@ -1,6 +1,7 @@
 body {
 	margin:0;
 }
+
 body>header {
 	background: #333;
 	font-size: 1em;
@@ -12,7 +13,6 @@ body>header {
 	margin: 0;
 	border: 0;
 }
-
 
 body>header h1 {
 	display: inline-block;
@@ -26,4 +26,29 @@ body>header h1 {
 body>header h1 a, body>header h1 a:visited, body>header h1 a:hover {
 	color: #f2f2f2;
 	text-decoration: none;
+}
+
+main article {
+	padding: 1em 55px 1em 55px;
+	border-bottom: solid 1px #ccc;
+	background: none;
+}
+
+main article h1 {
+	font-size: 2.2em;
+	margin: 0;
+	line-height: 1.2;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+main article a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	transition: color .3s;
+}
+
+a:visited {
+	color: #c41192;
 }
