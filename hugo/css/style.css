@@ -2,6 +2,14 @@ body {
 	margin:0;
 }
 
+p {
+	font-family: "PT Serif",Georgia,Times,"Times New Roman",serif
+}
+
+time {
+	font-style: italic;
+}
+
 body>header {
 	background: #333;
 	font-size: 1em;
@@ -14,13 +22,16 @@ body>header {
 	border: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
 body>header h1 {
 	display: inline-block;
 	margin: 0;
 	font-size: 2.2em;
 	font-weight: normal;
 	line-height: 1.2em;
-	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 body>header h1 a, body>header h1 a:visited, body>header h1 a:hover {
@@ -39,7 +50,6 @@ main article h1 {
 	margin: 0;
 	line-height: 1.2;
 	font-weight: bold;
-	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 main article a {
@@ -49,6 +59,12 @@ main article a {
 	transition: color .3s;
 }
 
-a:visited {
-	color: #c41192;
+a:hover {
+	color: #261bee;
+	text-decoration: underline;
 }
+
+a:focus {
+	color: #261bee;
+}
+
