@@ -2,8 +2,12 @@ body {
 	margin:0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 p {
-	font-family: "PT Serif",Georgia,Times,"Times New Roman",serif
+	font-family: Georgia,Times,serif;
 }
 
 time {
@@ -20,10 +24,6 @@ body>header {
 	display: block;
 	margin: 0;
 	border: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 body>header h1 {
