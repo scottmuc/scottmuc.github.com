@@ -2,12 +2,12 @@ body {
 	margin:0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, footer p {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
 p {
-	font-family: Georgia,Times,serif;
+	font-family: Tahoma,Georgia,Times,serif;
 }
 
 time {
@@ -19,7 +19,7 @@ body>header {
 	font-size: 1em;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
-	padding-left: 18px;
+	padding-left: 55px;
 	padding-right: 18px;
 	display: block;
 	margin: 0;
@@ -52,6 +52,14 @@ main article h1 {
 	font-weight: bold;
 }
 
+a {
+	color: #261bee;
+}
+
+a:focus {
+	color: #261bee;
+}
+
 main article a {
 	text-decoration: none;
 	color: inherit;
@@ -64,7 +72,15 @@ a:hover {
 	text-decoration: underline;
 }
 
-a:focus {
-	color: #261bee;
+time {
+	color: #999;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
+body>footer {
+	color: #888;
+	padding-left: 55px;
+	font-size: 0.8em;
+	margin-bottom: 3em;
+}
