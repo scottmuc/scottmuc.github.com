@@ -115,17 +115,21 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 
 	postContent := strings.Split(string(octopressFileContents), "---")[2]
 
-	imgRegex := `{%\s*img.*`
+	imgRegex := `\{\%\s*img.*\%\}`
 	re := regexp.MustCompile(imgRegex)
-	matches := re.FindAllString(postContent, -1)
+	images := re.FindAllString(postContent, -1)
 
 	fmt.Printf("%s -> %s\n", path, hugoFilePath)
 	fmt.Printf("title: %s\n", t.Title)
 	fmt.Printf("date: %v\n", t.Date)
 	fmt.Printf("categories: %v\n", t.Categories)
 	fmt.Printf("imgs: \n")
-	for _, match := range matches {
-		imageLink, e := parseImageLink(match)
+	for _, image := range images {
+		imageLink, e := parseImageLink(image)
+
+		newImg := "![test image](https://www.scottmuc.com"+imageLink.ImgSrc+")"
+		postContent = strings.Replace(postContent, image, newImg, -1)
+
 		if e != nil {
 			log.Fatalln(e)
 		}
