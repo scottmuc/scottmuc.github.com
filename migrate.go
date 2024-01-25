@@ -34,9 +34,6 @@ type ImageLink struct {
 	Href string
 }
 
-// Dates in Octopress seem to be a mixture of the following date formats
-const octopressTimeFormat = "2006-01-02 15:04"
-const octopressTimeFormat2 = "2006-01-02 15:04:05 -0700"
 
 const octopressPostsDir = "octopress/source/_posts"
 const hugoPostsDir = "hugo/content/blog"
@@ -56,22 +53,17 @@ func parseImageLink(octopressImg string) (*ImageLink, error) {
 	return imageLink, nil
 }
 
-// Behold the ugly!
 func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
-	strValue := value.Value
-	parsedTime, err := time.Parse(octopressTimeFormat, strValue)
+	// Dates in Octopress seem to be a mixture of the following date formats
+	parsedTime, err := time.Parse("2006-01-02 15:04", value.Value)
 	if err != nil {
-		parsedTime, err = time.Parse(octopressTimeFormat2, strValue)
+		parsedTime, err = time.Parse("2006-01-02 15:04:05 -0700", value.Value)
 		if err != nil {
-			return err
-		} else {
-			odt.Time = parsedTime
+			return fmt.Errorf("Could not unmarshal date: %s", err)
 		}
-
-	} else {
-		odt.Time = parsedTime
 	}
 
+	odt.Time = parsedTime
 	return nil
 }
 
@@ -89,6 +81,7 @@ func createHugoFile(filePath, content string) error {
 	
 	return nil
 }
+
 
 func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	if fileInfo.IsDir() {
