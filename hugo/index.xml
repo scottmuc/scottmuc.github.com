@@ -328,7 +328,7 @@
       <link>https://scottmuc.com/hugo/blog/setting-up-overtone/</link>
       <pubDate>Sun, 27 Jan 2013 21:11:00 +0000</pubDate>
       <guid>https://scottmuc.com/hugo/blog/setting-up-overtone/</guid>
-      <description>Every now and then I like to sit in a coffee shop on a Sunday and focus on writing some code. This weekend I had the pleasure of spending this geeky time with a colleague, Chris Ford(twitter).&#xA;Chris has gotten me interested into an open source toolkit for creating sounds and making music called Overtone. Here&amp;rsquo;s a talk about demonstrates functional composition using clojure through music and overtone.&#xA;{% youtube Mfsnlbd-4xQ %}</description>
+      <description>Every now and then I like to sit in a coffee shop on a Sunday and focus on writing some code. This weekend I had the pleasure of spending this geeky time with a colleague, Chris Ford(twitter).&#xA;Chris has gotten me interested into an open source toolkit for creating sounds and making music called Overtone. Here&amp;rsquo;s a talk about demonstrates functional composition using clojure through music and overtone.&#xA;That talk made me want to play with overtone.</description>
     </item>
     <item>
       <title>My Developer Resolutions for 2013</title>
