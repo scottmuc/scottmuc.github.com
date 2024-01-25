@@ -28,17 +28,10 @@ type OctopressDateTime struct {
 	time.Time
 }
 
-type ImageLink struct {
-	Alignment string
-	Width     int
-	ImgSrc    string
-	Href      string
-}
-
 const octopressPostsDir = "octopress/source/_posts"
 const hugoPostsDir = "hugo/content/blog"
 
-func parseImageLink(octopressImg string) (*ImageLink, error) {
+func parseImageSrc(octopressImg string) (string, error) {
 	pattern := `\{\%\s*img\s+[left|right|center]*\s*([\S]+)\s*\d*\s*(?P<skip>"[^"]*")?\s*\%\}`
 	re := regexp.MustCompile(pattern)
 	matches := re.FindStringSubmatch(octopressImg)
@@ -48,14 +41,11 @@ func parseImageLink(octopressImg string) (*ImageLink, error) {
 		re := regexp.MustCompile(pattern)
 		matches = re.FindStringSubmatch(octopressImg)
 		if len(matches) < 1 {
-			return nil, fmt.Errorf("Could not parse link: %s", octopressImg)
+			return "", fmt.Errorf("Could not parse link: %s", octopressImg)
 		}
 	}
 
-	imageLink := &ImageLink{
-		ImgSrc: matches[1],
-	}
-	return imageLink, nil
+	return matches[1], nil
 }
 
 func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
@@ -125,14 +115,13 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 
 	images := parseImages(postContent)
 	for _, image := range images {
-		imageLink, e := parseImageLink(image)
-
-		newImg := "![test image](https://scottmuc.com" + imageLink.ImgSrc + ")"
-		postContent = strings.Replace(postContent, image, newImg, -1)
-
+		imgRelSrc, e := parseImageSrc(image)
 		if e != nil {
 			log.Fatalln(e)
 		}
+
+		newImg := "![test image](https://scottmuc.com" + imgRelSrc + ")"
+		postContent = strings.Replace(postContent, image, newImg, -1)
 	}
 
 	hugoFrontMatter := HugoFrontMatter{
