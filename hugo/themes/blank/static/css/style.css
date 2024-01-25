@@ -39,18 +39,38 @@ body>header h1 a, body>header h1 a:visited, body>header h1 a:hover {
 	text-decoration: none;
 }
 
+main ol {
+	margin: 0;
+	padding: 0;
+}
+
+main ol li {
+	padding: 1em 55px 1em 55px;
+	border-bottom: solid 1px #ccc;
+	background: none;
+	list-style-type: none;
+}
+
+main ol li h1 {
+	font-size: 2.2em;
+	margin: 0;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+main ol li a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	transition: color .3s;
+}
+
 main article {
 	padding: 1em 55px 1em 55px;
 	border-bottom: solid 1px #ccc;
 	background: none;
 }
 
-main article h1 {
-	font-size: 2.2em;
-	margin: 0;
-	line-height: 1.2;
-	font-weight: bold;
-}
 
 a {
 	color: #261bee;
@@ -60,16 +80,13 @@ a:focus {
 	color: #261bee;
 }
 
-main article a {
-	text-decoration: none;
-	color: inherit;
-	cursor: pointer;
-	transition: color .3s;
-}
-
 a:hover {
 	color: #261bee;
-	text-decoration: underline;
+}
+
+a:visited {
+	color: #e41192;
+
 }
 
 time {
