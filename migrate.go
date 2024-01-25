@@ -99,9 +99,9 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 
 	frontMatter := strings.Split(string(octopressFileContents), "---")[1]
 
-	t := OctopressFrontMatter{}
+	ofm := OctopressFrontMatter{}
 
-	e2 := yaml.Unmarshal([]byte(frontMatter), &t)
+	e2 := yaml.Unmarshal([]byte(frontMatter), &ofm)
 	if e2 != nil {
 		log.Fatalf("error: %v", e2)
 	}
@@ -112,11 +112,6 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	re := regexp.MustCompile(imgRegex)
 	images := re.FindAllString(postContent, -1)
 
-	fmt.Printf("%s -> %s\n", path, hugoFilePath)
-	fmt.Printf("title: %s\n", t.Title)
-	fmt.Printf("date: %v\n", t.Date)
-	fmt.Printf("categories: %v\n", t.Categories)
-	fmt.Printf("imgs: \n")
 	for _, image := range images {
 		imageLink, e := parseImageLink(image)
 
@@ -126,12 +121,11 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 		if e != nil {
 			log.Fatalln(e)
 		}
-		fmt.Printf(" - %v\n", imageLink)
 	}
 
 	hugoFrontMatter := HugoFrontMatter{
-		Title: t.Title,
-		Date:  t.Date.Time,
+		Title: ofm.Title,
+		Date:  ofm.Date.Time,
 	}
 
 	hugoYamlFrontMatter, _ := yaml.Marshal(&hugoFrontMatter)
