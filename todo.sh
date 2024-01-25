@@ -8,7 +8,6 @@ echo Sort of RSS feed
 echo Create Custom 404
 echo Update Robots.txt
 echo Create post page-bundle archetype
-echo Create Youtube shortcode and possible migrate
 echo Octopress directives to fix
 echo
 grep -R {% hugo/content

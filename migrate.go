@@ -91,6 +91,26 @@ func parseImageSrc(octopressImg string) (string, error) {
 	return matches[1], nil
 }
 
+func processContent(content string) string {
+	newContent := content
+	images := parseImages(content)
+	for _, image := range images {
+		imgRelSrc, e := parseImageSrc(image)
+		if e != nil {
+			log.Fatalln(e)
+		}
+
+		newImg := "![test image](https://scottmuc.com" + imgRelSrc + ")"
+		newContent = strings.Replace(newContent, image, newImg, -1)
+	}
+
+	youtubePattern := `\{% youtube ([^%]+) %\}`
+	re := regexp.MustCompile(youtubePattern)
+	newContent = re.ReplaceAllString(newContent, "{{< youtube $1 >}}")
+	return newContent
+}
+
+
 func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	if fileInfo.IsDir() {
 		return nil
@@ -112,18 +132,9 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	}
 
 	postContent := strings.Split(string(octopressFileContents), "---")[2]
+	processedContent := processContent(postContent)
 
-	images := parseImages(postContent)
-	for _, image := range images {
-		imgRelSrc, e := parseImageSrc(image)
-		if e != nil {
-			log.Fatalln(e)
-		}
-
-		newImg := "![test image](https://scottmuc.com" + imgRelSrc + ")"
-		postContent = strings.Replace(postContent, image, newImg, -1)
-	}
-
+	// processing complete, now compose the stuff to the hugo file structure
 	hugoFrontMatter := HugoFrontMatter{
 		Title: ofm.Title,
 		Date:  ofm.Date.Time,
@@ -131,7 +142,7 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	}
 
 	hugoYamlFrontMatter, _ := yaml.Marshal(&hugoFrontMatter)
-	hugoPost := fmt.Sprintf("---\n%s\n---\n%s\n", hugoYamlFrontMatter, postContent)
+	hugoPost := fmt.Sprintf("---\n%s\n---\n%s\n", hugoYamlFrontMatter, processedContent)
 
 	hugoPageBundleName := strings.Replace(octopressFilename[11:], ".markdown", "", -1)
 	hugoFilePath := hugoPostsDir + "/" + hugoPageBundleName
