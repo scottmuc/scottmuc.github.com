@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on More Muc Than You Can Handle</title>
+    <link>https://scottmuc.com/hugo/tags/vim/</link>
+    <description>Recent content in vim on More Muc Than You Can Handle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Nov 2013 19:31:00 +0000</lastBuildDate>
+    <atom:link href="https://scottmuc.com/hugo/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valuable Links - Vim</title>
+      <link>https://scottmuc.com/hugo/blog/valuable-links-vim/</link>
+      <pubDate>Sun, 03 Nov 2013 19:31:00 +0000</pubDate>
+      <guid>https://scottmuc.com/hugo/blog/valuable-links-vim/</guid>
+      <description>First Off - Introducing Valuable Links Today I&amp;rsquo;ve decided to start something new. I tend to send my friends and colleagues links about all sorts of things. Usually when they are pertinent to a problem they are having, or to supplement a conversation I&amp;rsquo;ve had with them. My usual process to reproduce these links ends up being a search in: Twitter, Pocket, History, and my Bookmarks.&#xA;Also, when I share my links I tend to write a few sentences about them.</description>
+    </item>
+  </channel>
+</rss>

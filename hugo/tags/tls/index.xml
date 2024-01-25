@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tls on More Muc Than You Can Handle</title>
+    <link>https://scottmuc.com/hugo/tags/tls/</link>
+    <description>Recent content in tls on More Muc Than You Can Handle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Mar 2017 21:40:48 +0000</lastBuildDate>
+    <atom:link href="https://scottmuc.com/hugo/tags/tls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valuable Links - TLS</title>
+      <link>https://scottmuc.com/hugo/blog/valuable-links-tls/</link>
+      <pubDate>Mon, 06 Mar 2017 21:40:48 +0000</pubDate>
+      <guid>https://scottmuc.com/hugo/blog/valuable-links-tls/</guid>
+      <description>This is embarassing to admit but I have to re-learn Transport Layer Security (TLS) on a continuous basis. This post is my cheatsheet to remembering all the itty bitty details, which I&amp;rsquo;ll forgot shortly after I do whatever TLS related task I have on my plate.&#xA;What&amp;rsquo;s TLS you ask? Take 9 minutes to listen to this fantastic episode on Public key cryptography which will prime (hah!) you up for the rest of the post.</description>
+    </item>
+  </channel>
+</rss>

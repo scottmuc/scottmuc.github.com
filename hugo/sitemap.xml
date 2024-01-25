@@ -20,6 +20,15 @@
     <loc>https://scottmuc.com/hugo/blog/my-resolutions-for-2021/</loc>
     <lastmod>2021-01-10T20:12:53+01:00</lastmod>
   </url><url>
+    <loc>https://scottmuc.com/hugo/tags/</loc>
+    <lastmod>2021-01-10T20:12:53+01:00</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/yearly-goals/</loc>
+    <lastmod>2021-01-10T20:12:53+01:00</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/links/</loc>
+    <lastmod>2019-06-30T16:16:51+02:00</lastmod>
+  </url><url>
     <loc>https://scottmuc.com/hugo/blog/valuable-links-git/</loc>
     <lastmod>2019-06-30T16:16:51+02:00</lastmod>
   </url><url>
@@ -34,6 +43,9 @@
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/moving-back-to-berlin/</loc>
     <lastmod>2017-12-09T16:25:18+01:00</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/tls/</loc>
+    <lastmod>2017-03-06T21:40:48+00:00</lastmod>
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/valuable-links-tls/</loc>
     <lastmod>2017-03-06T21:40:48+00:00</lastmod>
@@ -50,7 +62,13 @@
     <loc>https://scottmuc.com/hugo/blog/dealing-with-contempt-culture-in-the-software-world/</loc>
     <lastmod>2016-07-13T18:10:27-06:00</lastmod>
   </url><url>
+    <loc>https://scottmuc.com/hugo/tags/cloudfoundry/</loc>
+    <lastmod>2016-02-21T13:45:13-08:00</lastmod>
+  </url><url>
     <loc>https://scottmuc.com/hugo/blog/joining-pivotal-cloud-foundry-and-moving-to-dublin/</loc>
+    <lastmod>2016-02-21T13:45:13-08:00</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/soundcloud/</loc>
     <lastmod>2016-02-21T13:45:13-08:00</lastmod>
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/my-resolutions-for-2016/</loc>
@@ -62,11 +80,20 @@
     <loc>https://scottmuc.com/hugo/blog/my-resolutions-for-2015/</loc>
     <lastmod>2015-01-01T17:08:42-08:00</lastmod>
   </url><url>
+    <loc>https://scottmuc.com/hugo/tags/career-break/</loc>
+    <lastmod>2014-12-16T10:51:47+05:30</lastmod>
+  </url><url>
     <loc>https://scottmuc.com/hugo/blog/three-months-in-india/</loc>
     <lastmod>2014-12-16T10:51:47+05:30</lastmod>
   </url><url>
+    <loc>https://scottmuc.com/hugo/tags/running/</loc>
+    <lastmod>2014-12-10T10:39:27+05:30</lastmod>
+  </url><url>
     <loc>https://scottmuc.com/hugo/blog/why-i-like-running/</loc>
     <lastmod>2014-12-10T10:39:27+05:30</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/devops/</loc>
+    <lastmod>2014-12-05T09:43:52+05:30</lastmod>
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/what-makes-something-a-devops-tool/</loc>
     <lastmod>2014-12-05T09:43:52+05:30</lastmod>
@@ -77,8 +104,17 @@
     <loc>https://scottmuc.com/hugo/blog/siofok-tihany-italian-grand-prix-and-istanbul/</loc>
     <lastmod>2014-11-02T14:18:21+05:30</lastmod>
   </url><url>
+    <loc>https://scottmuc.com/hugo/tags/book/</loc>
+    <lastmod>2014-10-26T13:35:53+05:30</lastmod>
+  </url><url>
     <loc>https://scottmuc.com/hugo/blog/book-review-a-mind-for-numbers-by-barbara-oakley/</loc>
     <lastmod>2014-10-26T13:35:53+05:30</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/review/</loc>
+    <lastmod>2014-10-26T13:35:53+05:30</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/podcasts/</loc>
+    <lastmod>2014-10-16T11:59:46+05:30</lastmod>
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/valuable-links-podcasts/</loc>
     <lastmod>2014-10-16T11:59:46+05:30</lastmod>
@@ -93,6 +129,9 @@
     <lastmod>2014-08-13T14:09:31+02:00</lastmod>
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/growing-an-open-source-project-the-pester-story/</loc>
+    <lastmod>2014-08-07T17:50:58+02:00</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/pester/</loc>
     <lastmod>2014-08-07T17:50:58+02:00</lastmod>
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/prague-budapest-and-the-hungarian-grand-prix/</loc>
@@ -129,6 +168,9 @@
     <lastmod>2014-01-02T10:45:00+00:00</lastmod>
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/valuable-links-vim/</loc>
+    <lastmod>2013-11-03T19:31:00+00:00</lastmod>
+  </url><url>
+    <loc>https://scottmuc.com/hugo/tags/vim/</loc>
     <lastmod>2013-11-03T19:31:00+00:00</lastmod>
   </url><url>
     <loc>https://scottmuc.com/hugo/blog/the-most-over-engineered-thing-i-have-made/</loc>
@@ -239,7 +281,5 @@
     <loc>https://scottmuc.com/hugo/about/</loc>
   </url><url>
     <loc>https://scottmuc.com/hugo/categories/</loc>
-  </url><url>
-    <loc>https://scottmuc.com/hugo/tags/</loc>
   </url>
 </urlset>
