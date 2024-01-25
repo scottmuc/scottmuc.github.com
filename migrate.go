@@ -62,8 +62,11 @@ func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
 	return nil
 }
 
-func writeFile(filePath, content string) error {
-	file, err := os.Create(filePath)
+func createPostBundle(bundleDir, content string) error {
+	os.Mkdir(bundleDir, 0755)
+	postPath := bundleDir + "/index.md"
+
+	file, err := os.Create(postPath)
 	if err != nil {
 		return err
 	}
@@ -94,8 +97,6 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	}
 
 	octopressFilename := filepath.Base(path)
-	hugoFilename := strings.Replace(octopressFilename[11:], ".markdown", ".md", -1)
-	hugoFilePath := hugoPostsDir + "/" + hugoFilename
 
 	octopressFileContents, e := os.ReadFile(path)
 	if e != nil {
@@ -133,7 +134,9 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	hugoYamlFrontMatter, _ := yaml.Marshal(&hugoFrontMatter)
 	hugoPost := fmt.Sprintf("---\n%s\n---\n%s\n", hugoYamlFrontMatter, postContent)
 
-	e3 := writeFile(hugoFilePath, hugoPost)
+	hugoPageBundleName := strings.Replace(octopressFilename[11:], ".markdown", "", -1)
+	hugoFilePath := hugoPostsDir + "/" + hugoPageBundleName
+	e3 := createPostBundle(hugoFilePath, hugoPost)
 	if e3 != nil {
 		log.Fatalln("Error writing hugo file:", e3)
 	}
