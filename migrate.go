@@ -13,14 +13,14 @@ import (
 )
 
 type OctopressFrontMatter struct {
-	Title string
-	Date OctopressDateTime
+	Title      string
+	Date       OctopressDateTime
 	Categories []string
 }
 
 type HugoFrontMatter struct {
 	Title string
-	Date time.Time
+	Date  time.Time
 }
 
 type OctopressDateTime struct {
@@ -29,11 +29,10 @@ type OctopressDateTime struct {
 
 type ImageLink struct {
 	Alignment string
-	Width int
-	ImgSrc string
-	Href string
+	Width     int
+	ImgSrc    string
+	Href      string
 }
-
 
 const octopressPostsDir = "octopress/source/_posts"
 const hugoPostsDir = "hugo/content/blog"
@@ -44,7 +43,12 @@ func parseImageLink(octopressImg string) (*ImageLink, error) {
 	matches := re.FindStringSubmatch(octopressImg)
 
 	if len(matches) < 1 {
-		return nil, fmt.Errorf("Could not parse link: %s", octopressImg)
+		pattern := `src="([^"]*)"`
+		re := regexp.MustCompile(pattern)
+		matches = re.FindStringSubmatch(octopressImg)
+		if len(matches) < 1 {
+			return nil, fmt.Errorf("Could not parse link: %s", octopressImg)
+		}
 	}
 
 	imageLink := &ImageLink{
@@ -78,10 +82,20 @@ func writeFile(filePath, content string) error {
 	if err != nil {
 		return err
 	}
-	
+
 	return nil
 }
 
+func parseImages(content string) []string {
+	re := regexp.MustCompile(`\{\%\s*img.*\%\}`)
+	imagesOcto := re.FindAllString(content, -1)
+
+	re = regexp.MustCompile(`<img[^>]*>`)
+	imagesImg := re.FindAllString(content, -1)
+
+	images := append(imagesOcto, imagesImg...)
+	return images
+}
 
 func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	if fileInfo.IsDir() {
@@ -108,14 +122,11 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 
 	postContent := strings.Split(string(octopressFileContents), "---")[2]
 
-	imgRegex := `\{\%\s*img.*\%\}`
-	re := regexp.MustCompile(imgRegex)
-	images := re.FindAllString(postContent, -1)
-
+	images := parseImages(postContent)
 	for _, image := range images {
 		imageLink, e := parseImageLink(image)
 
-		newImg := "![test image](https://scottmuc.com"+imageLink.ImgSrc+")"
+		newImg := "![test image](https://scottmuc.com" + imageLink.ImgSrc + ")"
 		postContent = strings.Replace(postContent, image, newImg, -1)
 
 		if e != nil {
