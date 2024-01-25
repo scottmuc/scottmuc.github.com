@@ -67,7 +67,7 @@ func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
 	return nil
 }
 
-func createHugoFile(filePath, content string) error {
+func writeFile(filePath, content string) error {
 	file, err := os.Create(filePath)
 	if err != nil {
 		return err
@@ -137,7 +137,7 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	hugoYamlFrontMatter, _ := yaml.Marshal(&hugoFrontMatter)
 	hugoPost := fmt.Sprintf("---\n%s\n---\n%s\n", hugoYamlFrontMatter, postContent)
 
-	e3 := createHugoFile(hugoFilePath, hugoPost)
+	e3 := writeFile(hugoFilePath, hugoPost)
 	if e3 != nil {
 		log.Fatalln("Error writing hugo file:", e3)
 	}
