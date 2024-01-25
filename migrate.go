@@ -21,6 +21,7 @@ type OctopressFrontMatter struct {
 type HugoFrontMatter struct {
 	Title string
 	Date  time.Time
+	Tags  []string
 }
 
 type OctopressDateTime struct {
@@ -137,6 +138,7 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	hugoFrontMatter := HugoFrontMatter{
 		Title: ofm.Title,
 		Date:  ofm.Date.Time,
+		Tags:  ofm.Categories,
 	}
 
 	hugoYamlFrontMatter, _ := yaml.Marshal(&hugoFrontMatter)
