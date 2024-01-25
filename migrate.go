@@ -12,6 +12,9 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
+const octopressPostsDir = "octopress/source/_posts"
+const hugoPostsDir = "hugo/content/blog"
+
 type OctopressFrontMatter struct {
 	Title      string
 	Date       OctopressDateTime
@@ -26,26 +29,6 @@ type HugoFrontMatter struct {
 
 type OctopressDateTime struct {
 	time.Time
-}
-
-const octopressPostsDir = "octopress/source/_posts"
-const hugoPostsDir = "hugo/content/blog"
-
-func parseImageSrc(octopressImg string) (string, error) {
-	pattern := `\{\%\s*img\s+[left|right|center]*\s*([\S]+)\s*\d*\s*(?P<skip>"[^"]*")?\s*\%\}`
-	re := regexp.MustCompile(pattern)
-	matches := re.FindStringSubmatch(octopressImg)
-
-	if len(matches) < 1 {
-		pattern := `src="([^"]*)"`
-		re := regexp.MustCompile(pattern)
-		matches = re.FindStringSubmatch(octopressImg)
-		if len(matches) < 1 {
-			return "", fmt.Errorf("Could not parse link: %s", octopressImg)
-		}
-	}
-
-	return matches[1], nil
 }
 
 func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
@@ -91,13 +74,29 @@ func parseImages(content string) []string {
 	return images
 }
 
+func parseImageSrc(octopressImg string) (string, error) {
+	pattern := `\{\%\s*img\s+[left|right|center]*\s*([\S]+)\s*\d*\s*(?P<skip>"[^"]*")?\s*\%\}`
+	re := regexp.MustCompile(pattern)
+	matches := re.FindStringSubmatch(octopressImg)
+
+	if len(matches) < 1 {
+		pattern := `src="([^"]*)"`
+		re := regexp.MustCompile(pattern)
+		matches = re.FindStringSubmatch(octopressImg)
+		if len(matches) < 1 {
+			return "", fmt.Errorf("Could not parse link: %s", octopressImg)
+		}
+	}
+
+	return matches[1], nil
+}
+
 func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	if fileInfo.IsDir() {
 		return nil
 	}
 
 	octopressFilename := filepath.Base(path)
-
 	octopressFileContents, e := os.ReadFile(path)
 	if e != nil {
 		log.Fatal(e)
