@@ -39,7 +39,7 @@ where you've found too much good content and there isn't enough time to listen t
 
 ## Economics
 
-###[EconTalk][podcast-econtalk][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-econtalk-rss]
+### [EconTalk][podcast-econtalk][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-econtalk-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/econtalk.jpg)
 I begun listening to this show at the beginning of my [career break][career-break]. The
@@ -71,7 +71,7 @@ listening to it regardless of the topic!
 
 - - -
 
-###[Slate Money][podcast-slate-money][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-slate-money-rss]
+### [Slate Money][podcast-slate-money][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-slate-money-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/slate-money.png)
 Yet another podcast that talks about world events and how they affect the economy. Each episode covers 2-4 topics. This
@@ -97,7 +97,7 @@ economics in a way that's targetted for people who don't know all the lingo.
 
 ## Culture and Curiosities
 
-###[99% Invisible][podcast-99pi][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-99pi-rss]
+### [99% Invisible][podcast-99pi][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-99pi-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/99pi.png)
 Now one of my favourites. You never know what to expect with this show because the
@@ -124,7 +124,7 @@ exceptional podcasts.
 
 - - -
 
-###[RadioLab][podcast-radiolab][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-radiolab-rss]
+### [RadioLab][podcast-radiolab][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-radiolab-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/radiolab.png)
 One of the pioneers in story-telling podcasts. I've been away from it for a while and have re-subscribed as I've been
@@ -142,7 +142,7 @@ missing the excellent stories.
 
 - - -
 
-###[Stuff You Should Know][podcast-sysk][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-sysk-rss]
+### [Stuff You Should Know][podcast-sysk][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-sysk-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/sysk.jpg)
 An exceptional podcast hosted by two charismatic people. Normally I find tangents in podcasts to be distracting, but for
@@ -168,7 +168,7 @@ fascinating. There are many excellent episodes but the following ones really sto
 
 ## Music
 
-###[CBC Radio 3][podcast-cbcradio3][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-cbcradio3-rss]
+### [CBC Radio 3][podcast-cbcradio3][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-cbcradio3-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/cbcradio3.jpg)
 It's likely that I'm a bit biased, but this is where I discover new music. I worked
@@ -181,7 +181,7 @@ don't think there are as many shows as there used to be.
 
 - - -
 
-###[Song Exploder][podcast-song-exploder][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-song-exploder-rss]
+### [Song Exploder][podcast-song-exploder][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-song-exploder-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/songexploder.png)
 This show satifies my curiosity about how a song gets made. It also makes me
@@ -193,7 +193,7 @@ you'll learn how to listen to music and grow appreciation for the more subtle el
 
 - - -
 
-###[All Songs Considered][podcast-npr-asc][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-npr-asc-rss]
+### [All Songs Considered][podcast-npr-asc][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-npr-asc-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/npr-asc.jpg)
 A podcast I tend to listen to when I going to sleep. I don't quite keep up with music as much as I should, but I find
@@ -206,7 +206,7 @@ listening to this keeps me somewhat informed of what's going on.
 
 ## Language
 
-###[The Allusionist][podcast-allusionist][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-allusionist-rss]
+### [The Allusionist][podcast-allusionist][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-allusionist-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/allusionist.png)
 I could list to Helen Zaltzman speak all day. Her style and sense of humour is wonderful and I find that I learn a lot
@@ -244,7 +244,7 @@ listening software.
 After a while I find myself changing my podcast listening tastes. Rather than delete them from this post, I'll list
 them here and provide some context as to why I don't listen to them anymore.
 
-###[a16z][podcast-a16z][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-a16z-rss]
+### [a16z][podcast-a16z][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-a16z-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/a16z.jpg)
 Getting into the startup world is not something I'm terribly interested in, but I am critical
@@ -269,7 +269,7 @@ because I realized that I simply did not care about the startup world. Listening
 
 - - -
 
-###[StartUp][podcast-startup][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-startup-rss]
+### [StartUp][podcast-startup][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-startup-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/startup.png)
 A podcast about a podcast startup. It mixes so many of my favourite things into one show.
@@ -294,7 +294,7 @@ something I really want more of.
 
 - - -
 
-###[Giant Robots Smashing into Other Giant Robots][podcast-giant-robots][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-giant-robots-rss]
+### [Giant Robots Smashing into Other Giant Robots][podcast-giant-robots][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-giant-robots-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/giantrobots.jpg)
 Not quite a technical podcast, but it shares stories from the software development world. I became a fan of
@@ -307,7 +307,7 @@ working with. I'm weaning myself off of tech podcasts so this had to be removed.
 
 - - -
 
-###[The Ship Show][podcast-ship-show][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-ship-show-rss]
+### [The Ship Show][podcast-ship-show][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-ship-show-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/shipshow.jpg)
 Co-started by an old on-line friend of mine, [Youssuf Elkalay][youssuf-elkalay].
@@ -321,7 +321,7 @@ Removed because I'm trying to stay away from technical podcasts.
 
 - - -
 
-###[HealthyHacker][podcast-healthyhacker][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-healthyhacker-rss]
+### [HealthyHacker][podcast-healthyhacker][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-healthyhacker-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/healthyhacker.png)
 This one is fairly new and I've already become a fan. [Chris Hunt][chris-hunt]
@@ -343,7 +343,7 @@ because of its technical base.
 
 - - -
 
-###[TED Radio Hour][podcast-ted-radio-hour][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-ted-radio-hour-rss]
+### [TED Radio Hour][podcast-ted-radio-hour][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-ted-radio-hour-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/ted-radio-hour.jpg)
 Episodes are themed around TED talks of similar topics. It blends interviews with the speakers along with their talks.
@@ -370,7 +370,7 @@ I find this more rich than the talk on its own.
 
 - - -
 
-###[Tapestry][podcast-tapestry][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-tapestry-rss]
+### [Tapestry][podcast-tapestry][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-tapestry-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/tapestry.jpg)
 Getting into the spiritual side a bit. This show talks about culture and religion with an
@@ -389,7 +389,7 @@ show all the time when I lived in Canada. I just recently subscribed to the podc
 
 - - -
 
-###[White Coat Black Art][podcast-white-coat-black-art][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-white-coat-black-art-rss]
+### [White Coat Black Art][podcast-white-coat-black-art][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-white-coat-black-art-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/whitecoat.jpg)
 The health care system is usually a bit of a black box and this show provides some visibility into how things work. Like
@@ -408,7 +408,7 @@ connection back to where I came from.
 
 - - -
 
-###[Spark][podcast-spark][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-spark-rss]
+### [Spark][podcast-spark][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-spark-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/spark.jpg)
 A Canadian look into the technical world. Always nice to hear a Canadian perspective of what's going on. Hopefully
@@ -419,7 +419,7 @@ because it's created by the CBC, there isn't any product/partner agenda.
 
 - - -
 
-###[BBC Peter Day's World of Business][podcast-bbc-pdwob][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-bbc-pdwob-rss]
+### [BBC Peter Day's World of Business][podcast-bbc-pdwob][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-bbc-pdwob-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/bbc-pdwob.jpg)
 A show that does a good job of covering both sides around global trends or analysing specific environments. I find this
@@ -438,7 +438,7 @@ show a bit deeper than something like Freakanomics or Planet Money.
 
 - - -
 
-###[Futility Closet][podcast-futility-closet][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-futility-closet-rss]
+### [Futility Closet][podcast-futility-closet][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-futility-closet-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/futilitycloset.png)
 A show about curious events. They did a neat thing where they perform a lateral thinking puzzle with each episode. It
@@ -450,7 +450,7 @@ you. I've only listened to a few episodes so I don't have any favourites to list
 
 - - -
 
-###[Hello Internet][podcast-hello-internet][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-hello-internet-rss]
+### [Hello Internet][podcast-hello-internet][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-hello-internet-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/hellointernet.png)
 Most of the time I dislike drawn out conversational style podcasts but this one I enjoy listening to while doing tasks
@@ -469,7 +469,7 @@ podcast even though the episodes are too long by my listening standards.
 
 - - -
 
-###[BBC More or Less][podcast-bbc-mol][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-bbc-mol-rss]
+### [BBC More or Less][podcast-bbc-mol][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-bbc-mol-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/bbc-mol.jpg)
 This show takes a deeper look around statistics. It does the deeper critical view so you don't have to. Listening to
@@ -491,7 +491,7 @@ to reveal a non-biased presentation.
 
 - - -
 
-###[BBC The Bottom Line][podcast-bbc-bottom-line][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-bbc-bottom-line-rss]
+### [BBC The Bottom Line][podcast-bbc-bottom-line][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-bbc-bottom-line-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/bbc-bottom-line.jpg)
 Provides a focus on what makes a business successful. It's a domain that I don't really have a clue. I find myself
@@ -514,7 +514,7 @@ executives think about.
 
 ## Politics and World News
 
-###[BBC Analysis][podcast-bbc-analysis][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-bbc-analysis-rss]
+### [BBC Analysis][podcast-bbc-analysis][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-bbc-analysis-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/bbc-analysis.jpg)
 For once it's nice to listen to something that isn't about US politics. I started listening to economic podcasts to
@@ -538,7 +538,7 @@ bit heavier than some of the other lighter podcasts I have listed here.
 
 - - -
 
-###[FT World Weekly][podcast-ft-worldweekly][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-ft-worldweekly-rss]
+### [FT World Weekly][podcast-ft-worldweekly][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-ft-worldweekly-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/ft-worldweekly.png)
 Another good source for global news how it influences the world markets. Can't really say I have any favourites, but I
@@ -549,7 +549,7 @@ do like how it's not just US news.
 
 - - -
 
-###[Theory of Everything][podcast-toe][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-toe-rss]
+### [Theory of Everything][podcast-toe][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-toe-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/toe.jpg)
 A member of the [Radiotopia][radiotopia] collective. Just started getting into this podcast recently.
@@ -566,7 +566,7 @@ I'm already becoming a huge fan!
 
 - - -
 
-###[Freakonomics Radio][podcast-freakonomics][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-freakonomics-rss]
+### [Freakonomics Radio][podcast-freakonomics][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-freakonomics-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/freakonomics.jpg)
 Sometimes hit or miss. Strives to be entertaining more than educational
@@ -595,7 +595,7 @@ intrespective quiet person.
 
 - - -
 
-###[Planet Money][podcast-planet-money][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-planet-money-rss]
+### [Planet Money][podcast-planet-money][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-planet-money-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/planetmoney.png)
 Short and to the point episodes that focus on very specific topics or issues. I
@@ -617,7 +617,7 @@ have to wait 15 minutes before something.
 
 - - -
 
-###[Conversations with Tyler][podcast-cwt][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-cwt-rss]
+### [Conversations with Tyler][podcast-cwt][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-cwt-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/cwt.jpg)
 A new one that I just got into. It's a bit more candid than EconTalk and more accessible. The guests are of the same
@@ -638,7 +638,7 @@ interview.
 
 - - -
 
-###[FT Alphachat][podcast-ft-alphachat][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-ft-alphachat-rss]
+### [FT Alphachat][podcast-ft-alphachat][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-ft-alphachat-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/ft-alphachat.png)
 Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
@@ -649,7 +649,7 @@ some of the other business/economic podcasts.
 
 - - -
 
-###[Hard Pass][hardpass][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][hardpass-rss]
+### [Hard Pass][hardpass][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][hardpass-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/hardpass.jpg)
 I learned about Linette Lopez from the Slate Money podcast and really liked her style. She's punchy
@@ -661,7 +661,7 @@ econmics news of the day. The episodes are so short that it's easy to digest any
 
 - - -
 
-###[Mad Fientist][mad-fientist][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][mad-fientist-rss]
+### [Mad Fientist][mad-fientist][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][mad-fientist-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/madfientist.jpg)
 Over the last year I've been interested in those that pursue Financial Independence / Early Retirement (known as FIRE
@@ -680,7 +680,7 @@ for short). This podcast is a regular dose of inspiration on my own pursuit of g
 
 - - -
 
-###[Track Changes][track-changes][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][track-changes-rss]
+### [Track Changes][track-changes][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][track-changes-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/trackchanges.png)
 Enjoying this podcast makes me feel quite odd. It's a branding exercise by Paul and Rich's company, but I'm able to see
@@ -710,7 +710,7 @@ sleep.
 
 - - -
 
-###[Hidden Brain][podcast-npr-hidden-brain][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-npr-hidden-brain-rss]
+### [Hidden Brain][podcast-npr-hidden-brain][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-npr-hidden-brain-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/npr-hiddenbrain.jpg)
 A topic that I've been loving lately is learning how our brains work. Not at the micro level, but at the macro level.
@@ -734,7 +734,7 @@ and it'll shed some light on us crazy humans.
 
 - - -
 
-###[Lexicon Valley][podcast-lexvalley][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-lexvalley-rss]
+### [Lexicon Valley][podcast-lexvalley][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][podcast-lexvalley-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/lexvalley.jpg)
 Each episode starts with a clue as to what the topic is going to be, and the hosts try to figure it out. They often have
@@ -754,7 +754,7 @@ of humour too.
 
 - - -
 
-###[Hurry Slowly][hurry-slowly][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][hurry-slowly-rss]
+### [Hurry Slowly][hurry-slowly][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][hurry-slowly-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/hurryslowly.png)
 Another productivity show that aligns with my current beliefs. It's good content delivered well, but I've stopped listening because I've heard most of the teachings in the show.
@@ -771,7 +771,7 @@ Another productivity show that aligns with my current beliefs. It's good content
 
 - - -
 
-###[Revisionist History][revisionist-history][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][revisionist-history-rss]
+### [Revisionist History][revisionist-history][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][revisionist-history-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/revisionisthistory.jpg)
 Malcolm Gladwell is exceptional at cherry picking great stories to make his point. In this podcast he brings forward
@@ -793,7 +793,7 @@ the human mind can be. At only 10 episodes it's something I believe is worth lis
 
 - - -
 
-###[The Human Zoo][human-zoo][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][human-zoo-rss]
+### [The Human Zoo][human-zoo][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][human-zoo-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/humanzoo.jpg)
 Over time I have really started enjoying the topic of human behaviour and what makes us who we are.
@@ -810,7 +810,7 @@ Over time I have really started enjoying the topic of human behaviour and what m
 
 - - -
 
-###[History of the World in 100 Objects][history-of-world][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][history-of-world-rss]
+### [History of the World in 100 Objects][history-of-world][![test image](https://scottmuc.com/images/feed-icon-28x28.png)][history-of-world-rss]
 
 ![test image](https://scottmuc.com/images/blog/podcasts/history-of-world.jpg)
 An excellent history of the world in small bite sized chunks. The format gives you a really good perspective of how
