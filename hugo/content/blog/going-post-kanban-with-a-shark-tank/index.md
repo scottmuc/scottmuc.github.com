@@ -17,9 +17,7 @@ question popped into my head; is 3 columns the minimum number necessary?
 
 [Michael Fait](https://twitter.com/mfait), a colleague of mine, challenged this notion saying:
 
-{% blockquote %}
-First, we can get rid of DONE. Just rip up the card.Second, we can remove WIP by putting stickies with names on them on the cards being worked on.
-{% endblockquote %}
+> First, we can get rid of DONE. Just rip up the card.Second, we can remove WIP by putting stickies with names on them on the cards being worked on.
 
 Then we wanted to consider priority, so we had the most important things float to the top. Less important items could
 not float up until the top ones were removed. "Like a fish tank!", one of us exclaimed! The metaphor went crazy from that

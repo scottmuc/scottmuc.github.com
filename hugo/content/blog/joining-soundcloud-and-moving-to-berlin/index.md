@@ -17,20 +17,20 @@ for this type of task). It was much different than any other job search I've don
 to stick to job for at least 4 years at a time. The key difference with this search was that I wasn't working, and
 wasn't in a hurry to find a job. This allowed me to stick to some rules and a manifesto:
 
-{% blockquote Scott Muc, Job Application Criteria %}
-- Being open to being located anywhere I've been before, and know at least someone there
-- Someone I know and respect must have worked there or works there now
-- The company must have cloud in the name ;-)
-{% endblockquote %}
+> - Being open to being located anywhere I've been before, and know at least someone there
+> - Someone I know and respect must have worked there or works there now
+> - The company must have cloud in the name ;-)
+>
+> Scott Muc, Job Application Criteria
 
 manifesto:
 
-{% blockquote Scott Muc, Preferred Employer Manifesto %}
-- People happiness over company success
-- Autonomy over being embedded in a machine
-- Physical and mental health over product growth
-- Access to beer over location
-{% endblockquote %}
+> - People happiness over company success
+> - Autonomy over being embedded in a machine
+> - Physical and mental health over product growth
+> - Access to beer over location
+>
+> Scott Muc, Preferred Employer Manifesto
 
 Those set me up much better to see if the company was a fit for me. It remains to be seen, but I think that being open
 about my job search, my principals, and not being in a rush will result in a much better mutual partnership. It was a

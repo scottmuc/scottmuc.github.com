@@ -54,18 +54,20 @@ This section of the book has made me realize some flaws in the way I learn and I
 these. Speaking of the Dreyfus model, **Erik Dietrich** wrote an article about the [Advanced Beginner][advanced-beginner],
 which is another great way of explaining the **illusion of competence**.
 
-{% blockquote Barbara Oakley http://blog.coursera.org/post/93424900982/learning-how-not-to-learn Learning How (Not) To Learn %}
-* Passive rereading
-* Letting highlights overwhelm you
-* Merely glancing at a problem's solution and thinking you know how to do it
-* Waiting until the last minute to study
-* Repeatedly solving problems of the same type that you already know how to solve
-* Letting study sessions with friends turn into chat sessions
-* Neglecting to read the textbook before you start working problems
-* Not checking with your instructors or classmates to clear up points of confusion
-* Thinking you can learn deeply when you are being constantly distracted
-* Not getting enough sleep
-{% endblockquote %}
+> * Passive rereading
+> * Letting highlights overwhelm you
+> * Merely glancing at a problem's solution and thinking you know how to do it
+> * Waiting until the last minute to study
+> * Repeatedly solving problems of the same type that you already know how to solve
+> * Letting study sessions with friends turn into chat sessions
+> * Neglecting to read the textbook before you start working problems
+> * Not checking with your instructors or classmates to clear up points of confusion
+> * Thinking you can learn deeply when you are being constantly distracted
+> * Not getting enough sleep
+>
+> Barbara Oakley -- [Learning How (Not) to Learn][hntl]
+
+[hntl]: http://blog.coursera.org/post/93424900982/learning-how-not-to-learn
 
 I've been lucky to accidentally avoid some of these habits. As a computer savvy person for the last 25 years, I still
 prefer taking my notes on paper. I've always stressed sleep too. I'm definitely guilty of passive rereading, but I'm

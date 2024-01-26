@@ -9,14 +9,16 @@ aliases:
 
 A few years ago I [left ThoughtWorks][leaving-tw] and was considering leaving IT altogether.
 
-{% blockquote Me http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/ Leaving a Dream Job and Going on an Adventure %}
-Though I’m listing things related to ThoughtWorks, a lot of my weariness is more
-from IT in general. It could be an age thing, but I’ve been around long enough to
-see a lot of terrible things going on in this industry. No one seems to care about
-security, and the innovation that is making billions in the stock market are consumer
-products that mean almost nothing to me. It’s hard to be optimistic after Edward
-Snowden revealed the NSA privacy issues.
-{% endblockquote %}
+> Though I’m listing things related to ThoughtWorks, a lot of my weariness is more
+> from IT in general. It could be an age thing, but I’ve been around long enough to
+> see a lot of terrible things going on in this industry. No one seems to care about
+> security, and the innovation that is making billions in the stock market are consumer
+> products that mean almost nothing to me. It’s hard to be optimistic after Edward
+> Snowden revealed the NSA privacy issues.
+>
+> Me [Leaving a Dream Job and Going on an Adventure][dream]
+
+[dream]: http://scottmuc.com/leaving-a-dream-job-and-going-on-an-adventure/ 
 
 After a long break and working at a couple more companies I am able to pinpoint some specific behaviours
 of individuals that have an affect on my work ethic and general work happiness.
