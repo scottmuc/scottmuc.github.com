@@ -8,7 +8,6 @@ echo Sort out RSS feed
 echo Create Custom 404
 echo Update Robots.txt
 echo Create post page-bundle archetype
-echo Inline code using highlight shortcode
 echo Fix Twitter inline references
 echo Octopress directives to fix
 echo
