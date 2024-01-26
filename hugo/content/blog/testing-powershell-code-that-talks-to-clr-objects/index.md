@@ -14,7 +14,28 @@ is done afterwards. It also reveals a missing feature of Pester.
 
 First let me display the code that needed tests:
 
-{% gist e5abe37881628f13cd0a Get-FromSFtp.ps1 %}
+{{< highlight powershell "linenos=table" >}}
+Add-Type -Path (Join-Path -Path $psScriptRoot "Renci.SshNet.dll")
+
+function Get-FromSFtp {
+    $fileList=$null
+    try {
+        $sftp=New-Object Renci.SshNet.SftpClient("127.0.0.1","test","test")
+        $sftp.Connect()
+        if($sftp.IsConnected) {
+            $sftp.ChangeDirectory("/test")
+            $fileList=$sftp.ListDirectory(".")
+        }
+        return $fileList
+    } catch [Exception] {
+        Write-Host $_.Exception.ToString()
+    } finally {
+        if(($sftp -ne $null) -and ($sftp.IsConnected)) {
+            $sftp.Disconnect()
+        }
+    }
+}
+{{< / highlight >}}
 
 Here are a couple reasons why this code is difficult to test:
 
@@ -29,7 +50,19 @@ existing code pass a test as is. In order to do that, I needed an integration en
 [Vagrant][vagrant] to spin up a local linux box. I manually configured the box such that the credentials in the code
 work. Here's the Vagrantfile
 
-{% gist e5abe37881628f13cd0a Vagrantfile %}
+{{< highlight ruby "linenos=table" >}}
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "precise64"
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  config.vm.network "forwarded_port", guest: 22, host: 22
+end
+{{< / highlight >}}
 
 and here's the passing test. I'm happy with it because I could change the code or the environment and cause the test to
 fail, thus giving me confidence that the test is good enough to tell if me I broke anything.
@@ -77,7 +110,104 @@ production code goes to).
 
 Here's the complete test file for the code:
 
-{% gist e5abe37881628f13cd0a Get-FromSFtp.Tests.ps1 %}
+{{< highlight powershell "linenos=table" >}}
+$here = Split-Path -Parent $MyInvocation.MyCommand.Path
+$sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".Tests.", ".")
+. "$here\$sut"
+
+$mockSFtpCode = @"
+public class MockSFtp {
+    public bool ConnectCalled { get; private set; }
+    public bool DisconnectCalled { get; private set; }
+    public bool IsConnected { get; set; }
+    public string ChangeDirectoryParam { get; private set; }
+    public string ListDirectoryParam { get; private set; }
+
+    public void Connect() {
+        this.ConnectCalled = true;
+    }
+
+    public void Disconnect() {
+        this.DisconnectCalled = true;
+    }
+
+    public void ChangeDirectory(string directory) {
+        this.ChangeDirectoryParam = directory;
+    }
+
+    public string[] ListDirectory(string path) {
+        this.ListDirectoryParam = path;
+        return new string[] { "test1" };
+    }
+}
+"@
+
+$throwingMockSFtpCode = @"
+public class ThrowingMockSFtp {
+    public void Connect() {
+        throw new System.Exception();
+    }
+}
+"@
+
+Add-Type -TypeDefinition $mockSFtpCode
+Add-Type -TypeDefinition $throwingMockSFtpCode
+
+Describe "Get-FromSFtp" {
+    Context "when connected" {
+        $mockSFtp = New-Object MockSFtp
+        $mockSFtp.IsConnected = $true
+        Mock New-Object -MockWith { $mockSFtp }
+        $files = Get-FromSFtp
+
+        It "attempts to connect to an sftp server" {
+            $mockSFtp.ConnectCalled | Should Be $true
+        }
+
+        It "changes to the directory /test" {
+            $mockSFtp.ChangeDirectoryParam | Should Be '/test'
+        }
+
+        It "gets the content listing of the directory" {
+            $mockSFtp.ListDirectoryParam | Should Be '.'
+            $files | Should Be @("test1")
+        }
+
+        It "disconnects from the sftp server" {
+            $mockSFtp.DisconnectCalled | Should Be $true
+        }
+    }
+
+    Context "when not connected" {
+        $mockSFtp = New-Object MockSFtp
+        $mockSFtp.IsConnected = $false
+        Mock New-Object -MockWith { $mockSFtp }
+        $files = Get-FromSFtp
+
+        It "returns 0 files" {
+            $files | Should BeNullOrEmpty
+        }
+    }
+
+    Context "when an exception happens" {
+        $mockSFtp = New-Object ThrowingMockSFtp
+        Mock New-Object -MockWith { $mockSFtp }
+
+        It "prints out the error to the user" {
+            # I do not think this is a good test, but until
+            # mocking of Write-Host can be done, this is all
+            # that we can really do.
+            { Get-FromSFtp } | Should Not Throw
+        }
+    }
+}
+
+Describe "Get-FromSFtp Integration" {
+    It "returns the 2 default dir entries" {
+        Get-FromSFtp | ForEach-Object { $_.Name } | Should Be ".", ".."
+    }
+}
+{{< / highlight >}}
 
 ### Summary
 
