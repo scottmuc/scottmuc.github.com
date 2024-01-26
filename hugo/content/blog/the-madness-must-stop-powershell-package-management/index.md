@@ -2,15 +2,10 @@
 title: The Madness Must Stop! - PowerShell Package Management
 date: 2011-10-10T10:57:00Z
 tags: []
-aliases:
-    - /the-madness-must-stop-powershell-package-management
-
 ---
 
 
 As a publisher for a few Powershell modules I'm getting frustrated by the lack of standarization in the community on how to support versioning, deployment and conventions within Powershell module distribution. All I can find is rather adhoc mechanisms of sharing poorly written code with the "use at your own risk" kinds of disclaimers. 
-
-<!-- more -->
 
 I keep on looking at the ruby community with their amazing tools like rvm, ruby gems, and bundler to make ruby scripting highly testable and repeatable. The formalization also means that you don't see people writing ruby code with random imports and magical includes that only work in very specific scenarios. By creating a community around gems and some basic standards, it's forced developers to factor their ruby code accordingly and modularize when necessary.
 
