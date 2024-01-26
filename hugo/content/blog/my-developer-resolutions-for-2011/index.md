@@ -3,15 +3,9 @@ title: My Developer Resolutions for 2011
 date: 2010-12-27T21:35:00Z
 tags:
     - yearly-goals
-aliases:
-    - /my-developer-resolutions-for-2011
-
 ---
 
-
 Looking back at 2010 I can't say I did a good job of following through with [my resolutions](http://scottmuc.com/blog/development/my-developer-resolutions-for-2010/), but I believe I have a valid excuse! For the last 12 months I've been working more as a [build/release specialist](http://scottmuc.com/blog/development/getting-my-build-and-release-on/) than a software developer. Anyways, here's a rundown of what I didn't accomplish last year:
-
-<!-- more -->
 
 * Test Driven Design - I barely coded at all so that was a total flop. I also believe that this is something that's hard to do on your own. This discipline really needs a pair in order to stay on track.
 * Mouseless Computing - This is probably my most successful resolution. I'm still no keyboard ninja, but I've improved over last year and even wrote a fun negative re-inforcement application.

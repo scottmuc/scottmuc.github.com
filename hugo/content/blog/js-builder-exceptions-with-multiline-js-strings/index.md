@@ -2,14 +2,9 @@
 title: JS Builder Exceptions With Multiline JS Strings
 date: 2008-10-03T16:32:00Z
 tags: []
-aliases:
-    - /js-builder-exceptions-with-multiline-js-strings
-
 ---
 
 I'm creating an automated build process and one of the items in the build is to build an external resource which is a java script library. The javascript is contained in multiple files and I want to concatenate them into one script. I found a very useful tool called [JS Builder](http://code.google.com/p/js-builder/) which has a command line executable which I can use to automate the construction of this javascript file.
-
-<!-- more -->
 
 Setup was very simple. I created a JS Build project in my build directory. Inside it I reference the .js files I want to include/minimize/concatenate. I select the folder containing the scripts and attempt to run the build.
 

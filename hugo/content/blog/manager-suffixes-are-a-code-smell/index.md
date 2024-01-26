@@ -2,15 +2,10 @@
 title: Manager Suffixes Are a Code Smell
 date: 2008-06-30T16:31:00Z
 tags: []
-aliases:
-    - /manager-suffixes-are-a-code-smell
-
 ---
 
 
 After attending [Nothing But .Net Bootcamp](/blog/development/i-survived-jp-s-nothing-but-dot-net-boot-camp/) I noticed none of the classes that were written in the course had a *Manager* suffix. I've sort had a eureka moment and have a good idea on why this is.
-
-<!-- more -->
 
 JP heavily emphasized the [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) throughout the course. If a class is only has a single responsibility it will be pretty difficult to attach a Manager suffix to the class name.
 

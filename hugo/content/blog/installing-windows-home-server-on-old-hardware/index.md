@@ -2,14 +2,9 @@
 title: Installing Windows Home Server On Old Hardware
 date: 2008-04-27T23:08:00Z
 tags: []
-aliases:
-    - /installing-windows-home-server-on-old-hardware
-
 ---
 
 For the last 7 years I've been running a [FreeBSD](http://www.freebsd.org/ "FreeBSD") server at home for all my file serving needs. It's always been solid and never caused problems. It was the gateway into Unix knowledge for me and I loved the whole experience. A fellow 8-ball competitor revealed that he's a sales agent for Microsoft and kindly gave me an OEM copy of [Windows Home Server](http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx "Windows Home Server") (WHS)! I reluctantly decided to retire the ol BSD box and try out WHS.
-
-<!-- more -->
 
 The first thing I'll discuss is the hardware. The BSD fileserver did not have high hardware requirements so it never got upgraded often. Here's what I had to work with:
 

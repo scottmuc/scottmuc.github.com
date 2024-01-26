@@ -2,14 +2,9 @@
 title: Handy Web Path Concatenation Code
 date: 2008-12-03T16:33:00Z
 tags: []
-aliases:
-    - /handy-web-path-concatenation-code
-
 ---
 
 Lot of web developement code is spent concatenating path snippets and I always hated having to deal with slashes. I wanted a function that was consistent with its return type, and very loose in its parameter requirements. I ended up with the following:
-
-<!-- more -->
 
 *Test First*:
 

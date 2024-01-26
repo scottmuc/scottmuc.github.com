@@ -3,9 +3,6 @@ title: Pester - PowerShell BDD Style Testing For The System Administrator
 date: 2011-05-11T20:05:00Z
 tags:
     - pester
-aliases:
-    - /pester-powershell-bdd-style-testing-for-the-system-administrator
-
 ---
 
 

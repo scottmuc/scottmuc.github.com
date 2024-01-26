@@ -2,14 +2,9 @@
 title: It Is Good To Laugh At Your Old Code
 date: 2008-11-10T16:33:00Z
 tags: []
-aliases:
-    - /it-is-good-to-laugh-at-your-old-code
-
 ---
 
 One of the things I love about my job is the ability to see myself grow as a developer. I'm glad I can laugh at my old code because if I can't then I'm definitely not improving my skillset.
-
-<!-- more -->
 
 Here's some code from around 3 years ago:
 

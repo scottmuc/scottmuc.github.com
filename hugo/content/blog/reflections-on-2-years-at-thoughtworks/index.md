@@ -2,17 +2,11 @@
 title: Reflections on 2 Years at ThoughtWorks
 date: 2012-01-04T10:24:00Z
 tags: []
-aliases:
-    - /reflections-on-2-years-at-thoughtworks
-
 ---
-
 
 I cannot believe I've been at ThoughtWorks for 2 years now! My colleague Aaron Erickson has written an excellent writeup on [why (work at) ThoughtWorks](http://nomadic-developer.com/2012/01/03/why-thoughtworks/). I couldn't agree more!
 
 Reading another [colleague's post](http://www.adidav9.blogspot.com/2011/09/letter-that-i-present-day-rose-wish.html) a while ago inspired me to write a little retrospective of my own. Thanks Rose, you are wise beyond your years!
-
-<!-- more -->
 
 ThoughtWorks has been a place I wanted to work for since I attended [DevTeach in 2007](http://geekswithblogs.net/mucman/category/6627.aspx). I met some really smart people who were excellent at articulating their perspective. Also, I observed many of the best blogs I read at the time were written by ThoughtWorkers. Yeah, I was also a BFF (Biggest [Fowler](http://martinfowler.com/) Fan), but now my experience has shown me that there's so much more.
 

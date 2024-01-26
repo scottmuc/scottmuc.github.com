@@ -2,15 +2,10 @@
 title: Stop Trying to be Perfect and Make Mistakes!
 date: 2011-01-30T21:30:00Z
 tags: []
-aliases:
-    - /stop-trying-to-be-perfect-and-make-mistakes
-
 ---
 
 
 Think about how you get good at anything. What do you remember spending most of your time on? Most likely you spent the majority of your time messing things up and getting it wrong. Why are kids so quick at picking up new skills, especially dangerous ones? It's because kids are fearless experimenters. I'm currently learning how to skate and ski and my ability to learn is hindered by my concern of hurting myself; potentially preventing me from working and earning a living. I want to try and correlate the idea of failure as a healthy activity in the road to expertise in the world of operations in the software world.
-
-<!-- more -->
 
 Operations people have two numbers they care about. The number 9 and how many of them they have (99.999% uptime is commonly known as five nines). This is a great metric for a system that doesn't change, but in a world where new requirements are constantly conjured up and need to be live yesterday, the number of 9's you have becomes harder to keep stable. A new operational metric needs to be created to handle this new kind of ever changing system.
 

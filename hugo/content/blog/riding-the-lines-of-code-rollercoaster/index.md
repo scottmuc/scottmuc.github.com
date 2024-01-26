@@ -2,9 +2,6 @@
 title: Riding The Lines-Of-Code Rollercoaster
 date: 2009-05-20T08:52:00Z
 tags: []
-aliases:
-    - /riding-the-lines-of-code-rollercoaster
-
 ---
 
 

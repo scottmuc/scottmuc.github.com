@@ -3,17 +3,12 @@ title: My Developer Resolutions For 2009
 date: 2008-12-30T00:11:00Z
 tags:
     - yearly-goals
-aliases:
-    - /my-developer-resolutions-for-2009
-
 ---
 
 
 I've never made any New Years resolutions before. This year I'm going to break that trend simply to create a checklist of tasks to keep me on track. I easily get distracted, but having to check things off a list is a sure way for me to stay focused.
 
 Not wanting to over do it, I made goals that are easily attainable. Hopefully upon completion I'll get more ambitious the next time around.
-
-<!-- more -->
 
 ### Development Goals:
 

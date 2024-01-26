@@ -3,15 +3,8 @@ title: My Developer Resolutions for 2012
 date: 2011-12-31T10:45:00Z
 tags:
     - yearly-goals
-aliases:
-    - /my-developer-resolutions-for-2012
-
 ---
-
-
 An interesting thing about 2011 is that my resolutions from earlier became quite prominent. Given that 8 months of 2011 were spent on a large account with less technical focus, I'm amazed at some of the technical things that I've done.
-
-<!-- more -->
 
 ## Reflections on 2011 and carry over from 2010:
 

@@ -2,15 +2,10 @@
 title: When 1 Does Not Equal 1
 date: 2009-02-27T07:41:00Z
 tags: []
-aliases:
-    - /when-1-does-not-equal-1
-
 ---
 
 
 I'm starting to get comfortable with [NHibernate](http://nhforge.org/Default.aspx) but I've been [cowboy coding](http://en.wikipedia.org/wiki/Cowboy_coding) it without any testing framework to let me know if my mappings are really doing what I think they are doing. I'm starting to get tired of manually interacting with my applications to see if things work so I've begun the course of starting database integration testing. For the most part, it's all about testing my mapping files.
-
-<!-- more -->
 
 Because these tests are meant to be automated, I wanted to be as easy as possible to get the test framework into a consistent state. I found tool called [NDbUnit](http://code.google.com/p/ndbunit/) and it allowed me to dump data stored in Xml straight to your database. It was looking great until I found out it didn't support [SQLite](http://www.sqlite.org/) which is the database engine I want to use for the testing because of speed reasons. At least the tool is extensible and I took some time to write a SQLite portion to the codebase.
 

@@ -2,9 +2,6 @@
 title: The Paradox of Choice in a Developers Life
 date: 2008-05-04T09:42:00Z
 tags: []
-aliases:
-    - /the-paradox-of-choice-in-a-developers-life
-
 ---
 
 

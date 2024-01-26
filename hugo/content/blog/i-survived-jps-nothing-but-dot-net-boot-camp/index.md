@@ -2,9 +2,6 @@
 title: I Survived JP's Nothing but Dot Net Boot Camp!
 date: 2008-06-29T10:22:00Z
 tags: []
-aliases:
-    - /i-survived-jps-nothing-but-dot-net-boot-camp
-
 ---
 
 

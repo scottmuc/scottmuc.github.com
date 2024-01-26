@@ -2,9 +2,6 @@
 title: A New Beginning (or Goodbye 20's, Hello 30's)
 date: 2010-01-03T22:18:58+02:00
 tags: []
-aliases:
-    - /a-new-beginning-or-goodbye-20-s-hello-30-s
-
 ---
 
 As many of you know, I have left CBC Radio 3 and got a position as a Software Consultant with Thoughtworks Calgary.

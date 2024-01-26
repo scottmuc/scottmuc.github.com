@@ -2,15 +2,10 @@
 title: Desktop As My Default Download Location
 date: 2008-09-12T16:32:00Z
 tags: []
-aliases:
-    - /desktop-as-my-default-download-location
-
 ---
 
 
 So I've been getting into the book [Getting Things Done](http://www.davidco.com/) lately and can identify with many of the ideas it discusses. The one idea I really like is the consolidation of [Inboxes](http://en.wikipedia.org/wiki/Getting_Things_Done#Collect).
-
-<!-- more -->
 
 I'm of the camp that likes to have a pristine desktop. I personally think the desktop should never be seen, and if it is then you're not managing your windows properly. When things go on my desktop I naturally try to clean them up. I don't need any application launchers because I use [Launchy](http://www.launchy.net/) for that.
 

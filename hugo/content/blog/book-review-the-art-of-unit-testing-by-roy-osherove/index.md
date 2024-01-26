@@ -4,9 +4,6 @@ date: 2009-07-08T08:56:00Z
 tags:
     - book
     - review
-aliases:
-    - /book-review-the-art-of-unit-testing-by-roy-osherove
-
 ---
 
 

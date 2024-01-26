@@ -2,14 +2,9 @@
 title: Top 5 Things I Cannot Compromise In Web Development
 date: 2008-11-27T16:33:00Z
 tags: []
-aliases:
-    - /top-5-things-i-cannot-compromise-in-web-development
-
 ---
 
 Over the past few months I've realized that I'm a stubborn mule when it comes to certain aspects of web development. After some internal reflection I've come up with my top 5 things I strongly feel that I won't compromise on in the web development process. These items are just for the presentation layer, I'm loaded with issues deeper into the development stack.
-
-<!-- more -->
 
 *1 - URLs must be as beautiful as possible*
 

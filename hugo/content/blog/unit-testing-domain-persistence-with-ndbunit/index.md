@@ -2,9 +2,6 @@
 title: Unit Testing Domain Persistence With NDbUnit
 date: 2009-03-09T07:51:00Z
 tags: []
-aliases:
-    - /unit-testing-domain-persistence-with-ndbunit
-
 ---
 
 

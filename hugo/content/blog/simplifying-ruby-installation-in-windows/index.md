@@ -2,15 +2,10 @@
 title: Simplifying Ruby Installation in Windows
 date: 2011-11-20T10:54:00Z
 tags: []
-aliases:
-    - /simplifying-ruby-installation-in-windows
-
 ---
 
 
 The one thing that has always annoyed me with installing ruby on Windows is that at some point in time I always need to setup the DevKit because I want to install gems that require native extensions. Also, I want the ability to switch between different versions of ruby.
-
-<!-- more -->
 
 ### Introducing Yari
 
