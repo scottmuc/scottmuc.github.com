@@ -22,9 +22,10 @@ type OctopressFrontMatter struct {
 }
 
 type HugoFrontMatter struct {
-	Title string
-	Date  time.Time
-	Tags  []string
+	Title   string
+	Date    time.Time
+	Tags    []string
+	Aliases []string
 }
 
 type OctopressDateTime struct {
@@ -110,7 +111,6 @@ func processContent(content string) string {
 	return newContent
 }
 
-
 func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	if fileInfo.IsDir() {
 		return nil
@@ -131,20 +131,21 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 		log.Fatalf("error: %v", e2)
 	}
 
+	hugoPageBundleName := strings.Replace(octopressFilename[11:], ".markdown", "", -1)
+
+	hugoFrontMatter := HugoFrontMatter{
+		Title:   ofm.Title,
+		Date:    ofm.Date.Time,
+		Tags:    ofm.Categories,
+		Aliases: []string{"/" + hugoPageBundleName},
+	}
+
 	postContent := strings.Split(string(octopressFileContents), "---")[2]
 	processedContent := processContent(postContent)
-
-	// processing complete, now compose the stuff to the hugo file structure
-	hugoFrontMatter := HugoFrontMatter{
-		Title: ofm.Title,
-		Date:  ofm.Date.Time,
-		Tags:  ofm.Categories,
-	}
 
 	hugoYamlFrontMatter, _ := yaml.Marshal(&hugoFrontMatter)
 	hugoPost := fmt.Sprintf("---\n%s\n---\n%s\n", hugoYamlFrontMatter, processedContent)
 
-	hugoPageBundleName := strings.Replace(octopressFilename[11:], ".markdown", "", -1)
 	hugoFilePath := hugoPostsDir + "/" + hugoPageBundleName
 	e3 := createPostBundle(hugoFilePath, hugoPost)
 	if e3 != nil {
