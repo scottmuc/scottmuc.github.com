@@ -540,12 +540,5 @@
       <guid>https://scottmuc.com/hugo/blog/installing-windows-home-server-on-old-hardware/</guid>
       <description>For the last 7 years I&amp;rsquo;ve been running a FreeBSD server at home for all my file serving needs. It&amp;rsquo;s always been solid and never caused problems. It was the gateway into Unix knowledge for me and I loved the whole experience. A fellow 8-ball competitor revealed that he&amp;rsquo;s a sales agent for Microsoft and kindly gave me an OEM copy of Windows Home Server (WHS)! I reluctantly decided to retire the ol BSD box and try out WHS.</description>
     </item>
-    <item>
-      <title>About Me</title>
-      <link>https://scottmuc.com/hugo/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://scottmuc.com/hugo/about/</guid>
-      <description>{% img right /images/blog/aboutme.jpg 400 %} Hello Internet and welcome to my tiny slice of Internet real-estate. My name is Scott and I grew up in Vancouver, Canada, but now my current location updates quite frequently. Just assume that I&amp;rsquo;m somewhere on planet Earth.&#xA;This website is a hodge podge of things that have inspired me enough to write about them. It&amp;rsquo;s gone from being quick technical to now a tiny platform for me to write about life experiences and the like.</description>
-    </item>
   </channel>
 </rss>
