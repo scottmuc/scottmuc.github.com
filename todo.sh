@@ -9,4 +9,3 @@ echo Create Custom 404
 echo Update Robots.txt
 echo Create post page-bundle archetype
 echo Fix Twitter inline references
-echo Add style to make blockquotes pop
