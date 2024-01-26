@@ -251,7 +251,7 @@
       <link>https://scottmuc.com/hugo/blog/testing-powershell-code-that-talks-to-clr-objects/</link>
       <pubDate>Thu, 05 Jun 2014 17:39:41 -0700</pubDate>
       <guid>https://scottmuc.com/hugo/blog/testing-powershell-code-that-talks-to-clr-objects/</guid>
-      <description>Several months ago someone posted an excellent question on the Pester Group about a certain problem area in testing PowerShell with Pester. He brings up a relevant example of the difficulties that can occur when writing tests is done afterwards. It also reveals a missing feature of Pester.&#xA;First let me display the code that needed tests:&#xA;{% gist e5abe37881628f13cd0a Get-FromSFtp.ps1 %}&#xA;Here are a couple reasons why this code is difficult to test:</description>
+      <description>Several months ago someone posted an excellent question on the Pester Group about a certain problem area in testing PowerShell with Pester. He brings up a relevant example of the difficulties that can occur when writing tests is done afterwards. It also reveals a missing feature of Pester.&#xA;First let me display the code that needed tests:&#xA;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 Add-Type -Path (Join-Path -Path $psScriptRoot &amp;#34;Renci.</description>
     </item>
     <item>
       <title>Two Weeks Living Off the Clock</title>
@@ -482,7 +482,7 @@
       <link>https://scottmuc.com/hugo/blog/handy-web-path-concatenation-code/</link>
       <pubDate>Wed, 03 Dec 2008 16:33:00 +0000</pubDate>
       <guid>https://scottmuc.com/hugo/blog/handy-web-path-concatenation-code/</guid>
-      <description>Lot of web developement code is spent concatenating path snippets and I always hated having to deal with slashes. I wanted a function that was consistent with its return type, and very loose in its parameter requirements. I ended up with the following:&#xA;Test First:&#xA;{% gist 1545719 WebPathSpecs.cs %}&#xA;The BDD style of testing is inspired (and pretty much copied) from JP Boodhoo&amp;rsquo;s Nothing but .Net class.&#xA;Here&amp;rsquo;s the code:</description>
+      <description>Lot of web developement code is spent concatenating path snippets and I always hated having to deal with slashes. I wanted a function that was consistent with its return type, and very loose in its parameter requirements. I ended up with the following:&#xA;Test First:&#xA;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 using bddunit.</description>
     </item>
     <item>
       <title>Top 5 Things I Cannot Compromise In Web Development</title>
@@ -496,7 +496,7 @@
       <link>https://scottmuc.com/hugo/blog/it-is-good-to-laugh-at-your-old-code/</link>
       <pubDate>Mon, 10 Nov 2008 16:33:00 +0000</pubDate>
       <guid>https://scottmuc.com/hugo/blog/it-is-good-to-laugh-at-your-old-code/</guid>
-      <description>One of the things I love about my job is the ability to see myself grow as a developer. I&amp;rsquo;m glad I can laugh at my old code because if I can&amp;rsquo;t then I&amp;rsquo;m definitely not improving my skillset.&#xA;Here&amp;rsquo;s some code from around 3 years ago:&#xA;{% gist 1545686 UrlRewriteHandler.cs %}&#xA;Here&amp;rsquo;s what the code I used to replace it:&#xA;{% gist 1545686 PermalinkProcessingHandler.cs %}</description>
+      <description>One of the things I love about my job is the ability to see myself grow as a developer. I&amp;rsquo;m glad I can laugh at my old code because if I can&amp;rsquo;t then I&amp;rsquo;m definitely not improving my skillset.&#xA;Here&amp;rsquo;s some code from around 3 years ago:&#xA;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 using System; using System.</description>
     </item>
     <item>
       <title>JS Builder Exceptions With Multiline JS Strings</title>

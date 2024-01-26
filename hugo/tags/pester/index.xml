@@ -20,7 +20,7 @@
       <link>https://scottmuc.com/hugo/blog/testing-powershell-code-that-talks-to-clr-objects/</link>
       <pubDate>Thu, 05 Jun 2014 17:39:41 -0700</pubDate>
       <guid>https://scottmuc.com/hugo/blog/testing-powershell-code-that-talks-to-clr-objects/</guid>
-      <description>Several months ago someone posted an excellent question on the Pester Group about a certain problem area in testing PowerShell with Pester. He brings up a relevant example of the difficulties that can occur when writing tests is done afterwards. It also reveals a missing feature of Pester.&#xA;First let me display the code that needed tests:&#xA;{% gist e5abe37881628f13cd0a Get-FromSFtp.ps1 %}&#xA;Here are a couple reasons why this code is difficult to test:</description>
+      <description>Several months ago someone posted an excellent question on the Pester Group about a certain problem area in testing PowerShell with Pester. He brings up a relevant example of the difficulties that can occur when writing tests is done afterwards. It also reveals a missing feature of Pester.&#xA;First let me display the code that needed tests:&#xA;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 Add-Type -Path (Join-Path -Path $psScriptRoot &amp;#34;Renci.</description>
     </item>
     <item>
       <title>PowerShell Pester 2 and 1.2 Released!</title>
