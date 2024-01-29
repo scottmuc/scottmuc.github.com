@@ -170,7 +170,7 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 	}
 
 	// pattern for image links
-	pattern := `\[\!\[test image\]\(https:\/\/scottmuc\.com\/images(\/[^)]+)\)\]\(.*\)`
+	pattern := `\[\!\[test image\]\(https:\/\/scottmuc\.com\/images.+\)\]\(/images(.+)\)`
 	re := regexp.MustCompile(pattern)
 
 	matches := re.FindAllStringSubmatch(string(contents), -1)
