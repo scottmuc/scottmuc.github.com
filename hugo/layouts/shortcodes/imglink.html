@@ -1,0 +1,10 @@
+{{- $image := .Page.Resources.GetMatch (.Get "src") -}}
+{{- $href := .Get "href" -}}
+{{- $width := "100x" -}}
+{{- if (.Get "width") -}}
+		{{- $width = (.Get "width") -}}
+{{- end -}}
+{{- $smallImage := $image.Resize $width -}}
+<a href="{{ $href }}">
+	<img src="{{ $smallImage.RelPermalink }}" width="{{ $smallImage.Width }}" />
+</a>

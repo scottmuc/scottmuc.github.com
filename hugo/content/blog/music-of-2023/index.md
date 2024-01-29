@@ -19,7 +19,7 @@ usually an e-mail to a few friends into a blog post.
 
 ## The Return of Concerts
 
-[![test image](https://scottmuc.com/images/blog/concerts/tickets-2023.small.jpg)](/images/blog/concerts/tickets-2023.jpg)
+{{< imglink src="tickets-2023.jpg" href="tickets-2023.jpg" width="800x" >}}
 
 With the pandemic restrictions behind, it was great to see the return of concerts
 to Berlin. There are several concerts per day and there were many events I had
