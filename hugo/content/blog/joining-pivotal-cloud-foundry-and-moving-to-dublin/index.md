@@ -9,7 +9,7 @@ aliases:
 
 ---
 
-{{< figure src="pivotal-office.jpg" >}}
+{{< figure src="pivotal-office.jpg" width="800" >}}
 
 It's been a while since I've posted a "life update". The **TL;DR** is that I have joined [Pivotal Cloud Foundry][pcf] in
 January and will be moving to [Dublin][dublin] in June.
@@ -81,7 +81,7 @@ contract and some e-mail back and forth, I gave my notice to SoundCloud and acce
 
 ## So What is Happening Now?
 
-[![test image](https://scottmuc.comhttps://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ireland%5FDublin%5FNight.JPG/640px-Ireland%5FDublin%5FNight.JPG)](https://en.wikipedia.org/wiki/File:Ireland_Dublin_Night.JPG)
+[![Dublin in the night](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Ireland%5FDublin%5FNight.JPG/640px-Ireland%5FDublin%5FNight.JPG)](https://en.wikipedia.org/wiki/File:Ireland_Dublin_Night.JPG)
 
 It's quite common for companies to have a 2-3 month notice period. So I had 2 months to finish up my work at SoundCloud
 and then figure out the process for a Canadian living in Germany soon to be employed in Ireland but going to begin work

@@ -8,15 +8,12 @@ aliases:
     - /book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam
 
 ---
-
-
 **Disclaimer** - I personally know Manoj and have worked with him in the past. I was asked to review his book,
 [Learning Continuous Integration with TeamCity][book], by [Packt Publishing][packt-publishing].
 
 [packt-publishing]: https://www.packtpub.com/
 [book]: http://goo.gl/5wUy3v
 
-[![test image](https://scottmuc.comhttps://www.packtpub.com/sites/default/files/9518OT%5f0.jpg)][book]
 As someone who had spent many years consulting around the benefits of CI and implementing build and release strategies,
 I was interested in how the minutiae would be brought up in a book.
 

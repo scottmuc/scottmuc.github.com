@@ -130,9 +130,8 @@ and Dave doing nearly all the maintenance.
 That being said, I'm "officially" stepping down and retiring from Pester. This will be done by unsubcribing from any
 e-mail notifications (the google group, and the github project).
 
-![test image](https://scottmuc.comhttp://pesterbdd.com/images/Pester.png)
-I would like to shout a big thank you to everyone who made this project so wonderful. Especially to [Manoj
-Mahalingam][manoj] who did some great work in the early days and really helped me get this project off the ground.
+![pester](http://pesterbdd.com/images/Pester.png)
+I would like to shout a big thank you to everyone who made this project so wonderful. Especially to [Manoj Mahalingam][manoj] who did some great work in the early days and really helped me get this project off the ground.
 Another shout out to [Stefan Vant][vant] for the excellent logo!
 
 [manoj]: https://twitter.com/manojlds

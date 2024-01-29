@@ -5,9 +5,7 @@ tags:
     - book
     - review
 ---
-
-
-![test image](https://scottmuc.comhttp://www.manning.com/osherove/osherove_cover150.jpg)
+![The Art of Unit Testing Book Cover](http://www.manning.com/osherove/osherove_cover150.jpg)
 In a recent splurge I purchased 4 books from [Manning Press](http://www.manning.com/) with one of them being [The Art of Unit Testing](http://www.manning.com/osherove/) by **Roy Osherove**.
 
 I would categorize myself as relatively new to unit testing. My first hands on testing was when I took the Nothing but .Net bootcamp with JP Boodhoo but he emphasized BDD style tests. I saw the benefit of BDD but didn't feel I had the know how to implement them properly. About 3 months ago I started writing tests in a more unit test like fashion and things started clicking.

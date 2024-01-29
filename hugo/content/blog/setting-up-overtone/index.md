@@ -4,7 +4,6 @@ date: 2013-01-27T21:11:00Z
 tags: []
 aliases:
     - /setting-up-overtone
-
 ---
 
 Every now and then I like to sit in a coffee shop on a Sunday and focus on writing some code. This weekend I had the pleasure of spending this geeky time with a colleague, [Chris Ford](http://literateprogrammer.blogspot.in/)([twitter](https://twitter.com/ctford)).
@@ -17,7 +16,7 @@ That talk made me want to play with overtone. Here's the diary of my workstation
 
 ## Leiningen
 
-![test image](https://scottmuc.comhttp://leiningen.org/img/leiningen.jpg) Thinking I know what I'm doing I say "So, Overtone is in Clojure, right? So I'll first install that.". To which he replied "No, you need to install [Leiningen](http://leiningen.org/).". What?! I want to install clojure, why do I need this oddly named tool? Already my world has been turned upside down.
+![leinigen](http://leiningen.org/img/leiningen.jpg) Thinking I know what I'm doing I say "So, Overtone is in Clojure, right? So I'll first install that.". To which he replied "No, you need to install [Leiningen](http://leiningen.org/).". What?! I want to install clojure, why do I need this oddly named tool? Already my world has been turned upside down.
 
 Leiningen is a package manager for Clojure. I can't say I understand completely what it's doing, but when I did a `sudo port install leiningen` I saw Maven was being installed. Chris calmed me down and said that `lein` hides the pain so I don't have to worry about it.
 
@@ -27,13 +26,13 @@ I then run `lein repl` and see the package manager at work. It downloads Clojure
 
 ## Clojure
 
-![test image](https://scottmuc.comhttp://clojure.org/space/showimage/clojure-icon.gif) Since I'm still coming to grips on writing code in Clojure I can't comment on the language, but what I really like so far is how accessible the documentation is. Simply evaluating `(doc +)` will print the documentation for '+' function  and `(source +)` prints out the source code. The REPL made it very easy to get started.
+![clojure](http://clojure.org/space/showimage/clojure-icon.gif) Since I'm still coming to grips on writing code in Clojure I can't comment on the language, but what I really like so far is how accessible the documentation is. Simply evaluating `(doc +)` will print the documentation for '+' function  and `(source +)` prints out the source code. The REPL made it very easy to get started.
 
 One thing that tripped me up was using a namespace I had defined. I learned the the ' character is used to indicate the following text is a symbol and not to be evaluated. Also, the first project I created had an underscore in it. In order to use that namespace I had to use a hyphen when using it.
 
 ## Overtone
 
-![test image](https://scottmuc.comhttp://overtone.github.com/media/logo.png) Happy that I can write and evaluate Clojure code it was time to setup Overtone. This part was really nice. All I did was update the `project.clj` file and added the overtone dependency. The next time I ran `lein repl` it downloaded overtone and set everything up for me.
+![overtone](http://overtone.github.com/media/logo.png) Happy that I can write and evaluate Clojure code it was time to setup Overtone. This part was really nice. All I did was update the `project.clj` file and added the overtone dependency. The next time I ran `lein repl` it downloaded overtone and set everything up for me.
 
 In the repl I loaded overtone via `(use 'overtone.live)` and here's the output:
 
