@@ -49,8 +49,11 @@ func (odt *OctopressDateTime) UnmarshalYAML(value *yaml.Node) error {
 func createPostBundle(bundleDir, content string) error {
 	os.Mkdir(bundleDir, 0755)
 	postPath := bundleDir + "/index.md"
+	return writeToFile(postPath, content)
+}
 
-	file, err := os.Create(postPath)
+func writeToFile(path, content string) error {
+	file, err := os.Create(path)
 	if err != nil {
 		return err
 	}
@@ -165,6 +168,7 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 	}
 
 	contents, e := os.ReadFile(path)
+	newContents := string(contents)
 	if e != nil {
 		log.Fatal(e)
 	}
@@ -173,14 +177,22 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 	pattern := `\[\!\[test image\]\(https:\/\/scottmuc\.com\/images.+\)\]\(/images(.+)\)`
 	re := regexp.MustCompile(pattern)
 
-	matches := re.FindAllStringSubmatch(string(contents), -1)
+	matches := re.FindAllStringSubmatch(newContents, -1)
 
 	const octopressImagesDir = "octopress/source/images"
 	for _, match := range matches {
-		fmt.Println(match[0])
 		imagePath := octopressImagesDir + match[1]
 		hugoImagePath := filepath.Dir(path) + "/" + filepath.Base(imagePath)
 		copyFile(imagePath, hugoImagePath)
+
+		image := filepath.Base(match[1])
+		shortCode := fmt.Sprintf(`{{< figure src="%s" link="%s" title="migrated image" >}}`, image, image)
+		newContents = strings.ReplaceAll(newContents, match[0], shortCode)
+	}
+
+	e = writeToFile(path, string(newContents))
+	if e != nil {
+		log.Fatal(e)
 	}
 
 	return nil
