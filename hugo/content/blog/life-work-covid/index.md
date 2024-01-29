@@ -24,27 +24,25 @@ since then:
 
 ### New Home / New Role
 
-<Wilmersdorf home>
-
 As the above post mentions, I had moved back to Berlin. Wanting to see a different side of Berlin, I found
 a bit of an eclectic apartment in Wilmersdorf. It once was a restaurant and a butcher shop before that. My basement
 still had the meat locker storage! I really do miss this place.
 
-{{< imglink src="wilmersdorf1.jpg" href="wilmersdorf1.jpg" >}}
-{{< imglink src="wilmersdorf2.jpg" href="wilmersdorf2.jpg" >}}
-{{< imglink src="wilmersdorf3.jpg" href="wilmersdorf3.jpg" >}}
-{{< imglink src="wilmersdorf4.jpg" href="wilmersdorf4.jpg" >}}
-<br style="clear:both" />
+{{< imglink src="wilmersdorf1.jpg" href="wilmersdorf1.jpg" width="400x" >}}
+{{< imglink src="wilmersdorf2.jpg" href="wilmersdorf2.jpg" width="400x" >}}
+{{< imglink src="wilmersdorf3.jpg" href="wilmersdorf3.jpg" width="400x" >}}
+{{< imglink src="wilmersdorf4.jpg" href="wilmersdorf4.jpg" width="400x" >}}
+
 *(Liked the office view, large kitchen, summertime office, lounge area above the workstation)*
 
 I also Joined the Pivotal Cloud Foundry Solutions (PCFS) team and began working 100% remote. This involved a lot of
 travel to Milton Keynes for 1 particular customer and to Norway for another. I met a lot of great people and still
 keep in touch with client connections and former teammates.
 
-{{< imglink src="milton-keynes.jpg" href="milton-keynes.jpg" >}}
-{{< imglink src="oslo.jpg" href="oslo.jpg" >}}
-{{< imglink src="bergen.jpg" href="bergen.jpg" >}}
-<br style="clear:both" />
+{{< imglink src="milton-keynes.jpg" href="milton-keynes.jpg" width="260x" >}}
+{{< imglink src="oslo.jpg" href="oslo.jpg" width="260x" >}}
+{{< imglink src="bergen.jpg" href="bergen.jpg" width="260x" >}}
+
 *(Milton Keynes, Oslo, Bergen)*
 
 I struggled a bit with the travel and reflected that I didn’t move back to Berlin to be on the road a lot. Later in the
@@ -52,13 +50,14 @@ year I transferred to the CloudOps team in Pivotal. Ironically, the team was bas
 100% remote. This was the beginning of a really fun time learning SRE practices and actually applying them. My days with
 PCFS and transitioning to CloudOps was in Switzerland at the CloudFoundry Summit in Basel.
 
-{{< imglink src="switzerland.jpg" href="switzerland.jpg" >}}
+{{< imglink src="switzerland.jpg" href="switzerland.jpg" width="800x" >}}
+
 *(Hiking in Switzerland after CF Summit)*
 
-{{< imglink src="dublin1.jpg" href="dublin1.jpg" >}}
-{{< imglink src="dublin2.jpg" href="dublin2.jpg" >}}
-{{< imglink src="dublin3.jpg" href="dublin3.jpg" >}}
-<br style="clear:both" />
+{{< imglink src="dublin1.jpg" href="dublin1.jpg" width="260x" >}}
+{{< imglink src="dublin2.jpg" href="dublin2.jpg" width="260x" >}}
+{{< imglink src="dublin3.jpg" href="dublin3.jpg" width="260x" >}}
+
 *(Trip to Dublin to onboard with the CloudOps team)*
 
 Around summer time I decided to purchase a home in Berlin. By the end of the year I had found a place I loved and signed
@@ -74,10 +73,10 @@ At this point I had been with CloudOps for a couple months and was really enjoyi
 By February I was able to move into my new home. As much as I missed my castle in Wilmersdorf, I loved being closer to
 my friends around Prenzlauer Berg and the surrounding area. 
 
-{{< imglink src="home1.jpg" href="home1.jpg" >}}
-{{< imglink src="home2.jpg" href="home2.jpg" >}}
-{{< imglink src="home3.jpg" href="home3.jpg" >}}
-<br style="clear:both" />
+{{< imglink src="home1.jpg" href="home1.jpg" width="260x" >}}
+{{< imglink src="home2.jpg" href="home2.jpg" width="260x" >}}
+{{< imglink src="home3.jpg" href="home3.jpg" width="260x" >}}
+
 *(Nearby S-Bahn, music corner, enjoying the south facing windows)*
 
 ### New Companion
@@ -86,11 +85,11 @@ Once I had settled in and got my place organized, I was ready to add a new resid
 I rescued this beautiful 10year old cat named Shelly from the animal shelter. Her previous owner had passed away and
 couldn't let her stay in the shelther.
 
-{{< imglink src="shelly1.jpg" href="shelly1.jpg" >}}
-{{< imglink src="shelly2.jpg" href="shelly2.jpg" >}}
-{{< imglink src="shelly3.jpg" href="shelly3.jpg" >}}
-{{< imglink src="shelly4.jpg" href="shelly4.jpg" >}}
-<br style="clear:both" />
+{{< imglink src="shelly1.jpg" href="shelly1.jpg" width="390x" >}}
+{{< imglink src="shelly2.jpg" href="shelly2.jpg" width="390x" >}}
+{{< imglink src="shelly3.jpg" href="shelly3.jpg" width="390x" >}}
+{{< imglink src="shelly4.jpg" href="shelly4.jpg" width="390x" >}}
+
 *(Nothing but attitude... but I still think she enjoys my presence)*
 
 Since I was enjoying settling down, I didn’t travel very much. However, I still went to Dublin several times to meet
@@ -218,7 +217,7 @@ decision tree (see image) that was made simpler after a 1 hour consultation with
 ([Juliane Linke is my hero][juliane]). It became very clear to me after our conversation that getting a job is the
 simplest thing for me to do in order to stay in Germany and also not jeopardize my future ability to stay in Germany.
 
-{{< imglink src="decisions.jpg" href="decisions.jpg" >}}
+{{< imglink src="decisions.jpg" href="decisions.jpg" width="800x" >}}
 
 [juliane]: https://www.legal-links.de/en/anwaeltinnen/juliane-linke/
 
@@ -235,8 +234,6 @@ media again, but do miss writing for a broader group of people.
 **note** The majority of this post was written a few weeks ago. I currently have accepted a job offer! I will be writing
 another post about the job search. I haven't had this kind of positive feeling about a new job since I joined Pivotal in
 2016 or ThoughtWorks in 2010!
-
-<br style="clear:both" />
 
 Lastly, I wish I could mention all the fabulous people I got to work with with or got to know. There are too many of you
 fine people and going through my pictures of the last 4 years reminded me of all of you.

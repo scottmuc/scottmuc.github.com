@@ -8,7 +8,7 @@ aliases:
 ---
 
 
-{{< figure src="berlin-walk.jpg" >}}
+{{< figure src="berlin-walk.jpg" width="800x" >}}
 
 Remember that [post about moving to Dublin][moving-dublin] from almost a couple years ago? Consider this a tiny `git revert --no-commit` of that, modify it slightly to keep my location as Berlin but Pivotal as my employer.
 
@@ -39,7 +39,7 @@ I've spent a few days in the office and met everyone at the Christmas party (pho
 
 ## Dublin
 
-{{< figure src="dublin-spree.jpg" >}}
+{{< figure src="dublin-spree.jpg" width="800x" >}}
 
 Living in Dublin was a great experience. I've learned all about [irish whiskey][irish-whiskey] which is now my favourite spirit. I've made some friends and have visited more pubs than I can possible count. I'm going to miss all the concert venues which became my home away from home.
 

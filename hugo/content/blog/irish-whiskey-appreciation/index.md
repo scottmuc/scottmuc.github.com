@@ -4,11 +4,8 @@ date: 2017-02-20T19:05:47Z
 tags: []
 aliases:
     - /irish-whiskey-appreciation
-
 ---
-
-
-{{< figure src="dublin.jpg" >}}
+{{< figure src="dublin.jpg" width="800x" >}}
 
 **Disclaimer - I was not paid or propositioned to write this post and/or link to the Mitchell & Son web store. I just
 enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies. I
@@ -48,7 +45,8 @@ Let's begin!
 
 ## Week 1 - Single Pot Still Whiskey
 
-{{< imglink src="week1-whiskies-full.jpg" href="week1-whiskies-full.jpg" >}}
+{{< imglink src="week1-whiskies-full.jpg" href="week1-whiskies-full.jpg" width="800x" >}}
+
 Irish single [pot still][pot-still-wiki] whiskey is the traditional way of making the spirit. It's a bit more laborious
 compared to using a [continuous still (aka column still)][column-still-wiki], which some whiskeys in later weeks are made by.
 
@@ -66,7 +64,8 @@ most likely because of budget since the extra still does cost quite a bit (again
 [pot-still-wiki]: https://en.wikipedia.org/wiki/Pot_still
 [column-still-wiki]: https://en.wikipedia.org/wiki/Column_still
 
-{{< imglink src="week1-notes-full.jpg" href="week1-notes-full.jpg" >}}
+{{< imglink src="week1-notes-full.jpg" href="week1-notes-full.jpg" width="800x" >}}
+
 The evening started with a collection of whiskies in a circle. In the period of 2 hours we heard the wise words
 of Mark McLaughlin. You can instantly tell the guy is mad about whiskey. He does an excellent job of getting you just
 as excited to experience the whiskey as he is.
@@ -91,11 +90,10 @@ The representitive for this week was from [Irish Distillers][irish-distillers] a
 [middleton-dair]: http://mitchellandson.com/spirits/spirits-category/midleton-dair-ghaelach-irish-oak-tree-3.html
 [irish-distillers]: http://www.irishdistillers.ie/
 
-<br style="clear: both;" />
-
 ## Week 2 - Single Malt Whiskey
 
-{{< imglink src="week2-whiskies-full.jpg" href="week2-whiskies-full.jpg" >}}
+{{< imglink src="week2-whiskies-full.jpg" href="week2-whiskies-full.jpg" width="800x" >}}
+
 The theme for this week is single malt whiskey. The term "single malt" has become synonymous with high quality. You may
 even hear people say that they like a nice "single malt" and not mention the word whiskey. That's how popular and recognized
 the term has become.
@@ -108,7 +106,8 @@ feedback loops their finance departments often face liquidity (zing) issues. So 
 years on the label, that's just the age of the youngest liquid in the bottle. Master blenders will use their stock to
 combine different casks of several ages and come up with flavours that can be great and ready for the shelf.
 
-{{< imglink src="week2-notes-full.jpg" href="week2-notes-full.jpg" >}}
+{{< imglink src="week2-notes-full.jpg" href="week2-notes-full.jpg" width="800x" >}}
+
 The brand ambassador of the evening was from [Bushmills][bushmills] which is the only old time distillery still in operation on the
 island of Ireland (circa 1784). I really need to get myself up to Belfast for a visit and then a distillery tour up in
 Bushmills at some point.
@@ -133,11 +132,10 @@ product turnover is in airports! Such a shame because these two were really real
 
 [teeling-revival]: http://mitchellandson.com/spirits/spirits-category/whiskey/teeling-revival-volume-ii-13-year-old.html
 
-<br style="clear: both;" />
-
 ## Week 3 - All Grain and Independent Bottlers
 
-{{< imglink src="week3-whiskies-full.jpg" href="week3-whiskies-full.jpg" >}}
+{{< imglink src="week3-whiskies-full.jpg" href="week3-whiskies-full.jpg" width="800x" >}}
+
 The first couple whiskeys of the evening was a brief tour of Single Grain whiskey. The best I can understand it is that
 the distillate is made of corn and distilled by column stills. This makes them a bit cheaper to produce and have their
 own flavour profiles. They are much lighter on the palate and easy to drink. While I thought they were quite drinkable,
@@ -149,7 +147,8 @@ of running distilleries the liquid would only come from them (usually Bushmills 
 The independents can then choose their casks and blending strategies to make something unique and distinctly theirs. I'm
 glad they did because they produced a couple of my favourites!
 
-{{< imglink src="week3-notes-full.jpg" href="week3-notes-full.jpg" >}}
+{{< imglink src="week3-notes-full.jpg" href="week3-notes-full.jpg" width="800x" >}}
+
 To the right you can see the whiskeys I tried.
 
 1. [Writer's Tears Red Head][writers-tears] - This is probably the best value out of all the whiskies that I rated
@@ -169,11 +168,10 @@ The first two were so good that I bought both of them the next day.
 [dunvilles-px]: http://mitchellandson.com/spirits/dunville-s-10yo-px-finish.html
 [connemara-22yr]: http://mitchellandson.com/spirits/connemara-22-year-old.html
 
-<br style="clear: both;" />
-
 ## Week 4 - Blended Whiskey
 
-{{< imglink src="week4-whiskies-full.jpg" href="week4-whiskies-full.jpg" >}}
+{{< imglink src="week4-whiskies-full.jpg" href="week4-whiskies-full.jpg" width="800x" >}}
+
 In the single malt section I described a bit of what blending entails. It's pretty simple to describe, but the execution
 of the tasty blend is where the skills comes in. Blends are also quite fun to drink because it provides a puzzle for the
 drinker to disect and figure out the blend composition is made up of. I felt that I was a bit snobby regarding blended
@@ -186,7 +184,8 @@ a lot harder. I would like to taste more whiskies this way. Something to keep in
 good. None would be something I wouldn't be able to finish a bottle of. My scores just help me decide which of these
 fine whiskies I should spend my money on.
 
-{{< imglink src="week4-notes-full.jpg" href="week4-notes-full.jpg" >}}
+{{< imglink src="week4-notes-full.jpg" href="week4-notes-full.jpg" width="800x" >}}
+
 To the right you can see the whiskeys I tried.
 
 1. [Tullamore Dew 12yr][tullamore-12yr] - This one was a lot of fun to drink. It's a triple style blend (single
@@ -204,7 +203,6 @@ laissez faire attitude about how to drink whiskey. Seemed like someone that woul
 [irishman-cask]: http://mitchellandson.com/the-irishman-cask-strength.html
 [tullamore]: https://www.tullamoredew.com/
 
-<br style="clear: both;" />
 
 ## Summary
 
@@ -217,7 +215,7 @@ fit for any occasion. Ok, I still need something peaty like a Connemara too.
 
 **Sláinte!**
 
-{{< figure src="personal-collection.jpg" >}}
+{{< figure src="personal-collection.jpg" width="800x" >}}
 
 *This post took 12 pomodoros (and drams) to complete*
 
