@@ -207,5 +207,9 @@ func doImageMigration() {
 }
 
 func main() {
+	// no longer running post migrations since I've now modified the contents
+	// of the migrated posts. I didn't realize I could do the image migration
+	// until after the fact... so hence the commenting out of the function.
+	//doPostMigration()
 	doImageMigration()
 }
