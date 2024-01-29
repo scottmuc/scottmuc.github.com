@@ -4,10 +4,7 @@ date: 2023-04-17T20:12:53+01:00
 tags: []
 aliases:
     - /a-fresh-start-in-midlife
-
 ---
-
-
 Over a year ago [I posted a life update][previous-update], and now it’s time for another! In Nov 2021 I hinted about a
 new job I was starting. So let's go back a year and see how that developed.
 
@@ -69,9 +66,9 @@ Sadly, Shelly passed away during this time. I knew adopting an old cat would hav
 shorter than expected. Not much to say other than it was a very difficult time for me. I’ll get another cat at some
 point but not sure when.
 
-{{< imglink src="shelly-hospital.jpg" href="shelly-hospital.jpg" >}}
-{{< imglink src="shelly-urn.jpg" href="shelly-urn.jpg" >}}
-<br style="clear:both" />
+{{< imglink src="shelly-hospital.jpg" href="shelly-hospital.jpg" width="360x" >}}
+{{< imglink src="shelly-urn.jpg" href="shelly-urn.jpg" width="360x" >}}
+
 *Saying farewell, now her ashes are on a shelf in an urn with all my other relics*
 
 ### Lack of Motivation and A Fork in the Road
@@ -123,10 +120,10 @@ are now looking for work).
 
 [boromir]: https://www.reddit.com/r/lotrmemes/comments/ouk0js/how_to_talk_like_boromir/
 
-{{< imglink src="cp-scott-boromir.jpg" href="cp-scott-boromir.jpg" >}}
-{{< imglink src="cp-ds-team.jpg" href="cp-ds-team.jpg" >}}
-{{< imglink src="cp-post-graveyard.jpg" href="cp-post-graveyard.jpg" >}}
-<br style="clear:both" />
+{{< imglink src="cp-scott-boromir.jpg" href="cp-scott-boromir.jpg" width="800x" >}}
+{{< imglink src="cp-ds-team.jpg" href="cp-ds-team.jpg" width="360x" >}}
+{{< imglink src="cp-post-graveyard.jpg" href="cp-post-graveyard.jpg" width="435x" >}}
+
 *How to sound like me!, Digital Solutions Berlin at Christmas, post graveyard festivities in a Christmas market*
 
 Like [SoundCloud][soundcloud], ClimatePartner was on the shorter side of employment stints I’ve had, but impactful.
@@ -189,11 +186,11 @@ I’m going to travel in mind and spirit more this time around, and less physica
 That being said, I did take 3 weeks to travel by rail and ferry to Brussels, London, Cardiff/Swansea, Liverpool, Dublin.
 So physical travel isn’t completely out:
 
-{{< imglink src="train-liverpool.jpg" href="train-liverpool.jpg" >}}
-{{< imglink src="train-wales2.jpg" href="train-wales2.jpg" >}}
-{{< imglink src="train-brussels.jpg" href="train-brussels.jpg" >}}
-{{< imglink src="train-wales1.jpeg" href="train-wales1.jpeg" >}}
-<br style="clear:both" />
+{{< imglink src="train-liverpool.jpg" href="train-liverpool.jpg" width="200x" >}}
+{{< imglink src="train-wales2.jpg" href="train-wales2.jpg" width="200x" >}}
+{{< imglink src="train-brussels.jpg" href="train-brussels.jpg" width="200x" >}}
+{{< imglink src="train-wales1.jpeg" href="train-wales1.jpeg" width="200x" >}}
+
 *Liverpool cathedral, beach near Tenby Wales, Brussels museum, Pen y Fan Wales*
 
 ### Following My Updates
