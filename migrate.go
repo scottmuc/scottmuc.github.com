@@ -154,7 +154,36 @@ func MigratePost(path string, fileInfo os.FileInfo, err error) error {
 	return nil
 }
 
-func main() {
+func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
+	if fileInfo.IsDir() {
+		return nil
+	}
+
+	fileName := filepath.Base(path)
+	if fileName != "index.md" {
+		return nil
+	}
+
+	contents, e := os.ReadFile(path)
+	if e != nil {
+		log.Fatal(e)
+	}
+
+
+	pattern := `\!\[test image\]\(https:\/\/scottmuc\.com\/images/.+?\)`
+	re := regexp.MustCompile(pattern)
+
+	images := re.FindAllString(string(contents), -1)
+
+	for _, image := range images {
+		fmt.Println(image)
+
+	}
+
+	return nil
+}
+
+func doPostMigration() {
 	os.RemoveAll(hugoPostsDir)
 	os.Mkdir(hugoPostsDir, 0755)
 
@@ -162,4 +191,15 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+}
+
+func doImageMigration() {
+	err := filepath.Walk(hugoPostsDir, MigrateImage)
+	if err != nil {
+		log.Fatal(err)
+	}
+}
+
+func main() {
+	doImageMigration()
 }

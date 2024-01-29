@@ -6,3 +6,5 @@ echo Copy twinery boat tour
 echo Sort out RSS feed
 echo Create post page-bundle archetype
 echo Fix Twitter inline references
+echo The following images should be sorted:
+grep -R "test image" hugo/content/blog
