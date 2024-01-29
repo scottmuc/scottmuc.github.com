@@ -8,6 +8,8 @@ h1, h2, h3, h4, h5, h6, footer p {
 
 p {
 	font-family: Tahoma,Georgia,Times,serif;
+	line-height: 1.3em;
+	font-size: 1.1em;
 }
 
 a, a:focus, a:hover {
@@ -57,30 +59,35 @@ body>header h1 a:hover {
 	color: #261bee;
 }
 
-main ol {
-	margin: 0;
-	padding: 0;
-}
-
-main ol li {
-	padding: 1em 55px 1em 55px;
-	border-bottom: solid 1px #ccc;
-	background: none;
-	list-style-type: none;
-}
-
-main ol li h1 {
+.title-list li h1 {
 	font-size: 2.2em;
 	margin: 0;
 	line-height: 1.2;
 	font-weight: bold;
 }
 
-main ol li a {
+.title-list li a {
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
 	transition: color .3s;
+}
+
+.title-list li {
+	padding: 1em 55px 1em 55px;
+	border-bottom: solid 1px #ccc;
+	background: none;
+	list-style-type: none;
+}
+
+main ol {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	line-height: 1.3em;
+	font-size: 1.1em;
 }
 
 main article {
@@ -88,7 +95,6 @@ main article {
 	border-bottom: solid 1px #ccc;
 	background: none;
 }
-
 
 time {
 	color: #999;
