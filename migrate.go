@@ -67,6 +67,25 @@ func writeToFile(path, content string) error {
 	return nil
 }
 
+func copyFile(srcPath string, dstPath string) {
+	in, err := os.Open(srcPath)
+	if err != nil {
+		log.Fatalln(err)
+	}
+	defer in.Close()
+
+	out, err := os.Create(dstPath)
+	if err != nil {
+		log.Fatalln(err)
+	}
+	defer out.Close()
+
+	_, err = out.ReadFrom(in)
+	if err != nil {
+		log.Fatalln(err)
+	}
+}
+
 func parseImages(content string) []string {
 	re := regexp.MustCompile(`\{\%\s*img.*\%\}`)
 	imagesOcto := re.FindAllString(content, -1)
@@ -196,25 +215,6 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 	}
 
 	return nil
-}
-
-func copyFile(srcPath string, dstPath string) {
-	in, err := os.Open(srcPath)
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer in.Close()
-
-	out, err := os.Create(dstPath)
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer out.Close()
-
-	_, err = out.ReadFrom(in)
-	if err != nil {
-		log.Fatalln(err)
-	}
 }
 
 func doPostMigration() {
