@@ -10,6 +10,14 @@ p {
 	font-family: Tahoma,Georgia,Times,serif;
 }
 
+a, a:focus, a:hover {
+	color: #261bee;
+}
+
+a:visited {
+	color: #e41192;
+}
+
 time {
 	font-style: italic;
 }
@@ -34,9 +42,19 @@ body>header h1 {
 	line-height: 1.2em;
 }
 
-body>header h1 a, body>header h1 a:visited, body>header h1 a:hover {
+body>header h1 a,
+body>header h1 a:visited,
+body>header h1 a:hover {
 	color: #f2f2f2;
 	text-decoration: none;
+}
+
+.title-list a:visited {
+	color: #333;
+}
+
+.title-list a:hover {
+	color: #261bee;
 }
 
 main ol {
@@ -71,23 +89,6 @@ main article {
 	background: none;
 }
 
-
-a {
-	color: #261bee;
-}
-
-a:focus {
-	color: #261bee;
-}
-
-a:hover {
-	color: #261bee;
-}
-
-a:visited {
-	color: #e41192;
-
-}
 
 time {
 	color: #999;
