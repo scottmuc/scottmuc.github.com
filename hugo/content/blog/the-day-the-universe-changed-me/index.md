@@ -21,11 +21,11 @@ didn't appreciate the message of the documentary when I was 13-14 years old.
 
 Unfortunately it's not viewable online. However, this first 10 minutes of the first episode should be enough to get your gears turning. 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/REKRLYoz2fc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube REKRLYoz2fc >}}
 
 In short, it's about trying to understand how do we know what we know and how has it shaped us to be who we are. Funny enough, in the writing of this post I learnt that James Burke has recently gone a bit viral! I really miss James Burke's style.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It&#39;s 1985. James Burke is walking around in some hills. And then he delivers a scintillating piece to camera about how politics is going to change in the digital age. <br><br>Totally. Crazy.<a href="https://t.co/lX9z5o1p6i">pic.twitter.com/lX9z5o1p6i</a></p>&mdash; Carl Miller (@carljackmiller) <a href="https://twitter.com/carljackmiller/status/1122459930504650752?ref_src=twsrc%5Etfw">April 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+{{< tweet user="carljackmiller" id="1122459930504650752" >}}
 
 Now you've seen the very beginning and the very end of this 10 episode documentary. [Episode 2](https://www.youtube.com/watch?v=fQ6XFcrh7IQ) is worth watching too if you do not have access to the full series.
 
