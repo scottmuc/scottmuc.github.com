@@ -192,7 +192,7 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 		log.Fatal(e)
 	}
 
-	// pattern for image links
+	// image links to internal images
 	pattern := `\[\!\[test image\]\(https:\/\/scottmuc\.com\/images.+\)\]\(/images(.+)\)`
 	re := regexp.MustCompile(pattern)
 
@@ -205,7 +205,40 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 		copyFile(imagePath, hugoImagePath)
 
 		image := filepath.Base(match[1])
-		shortCode := fmt.Sprintf(`{{< figure src="%s" link="%s" title="migrated image" >}}`, image, image)
+		shortCode := fmt.Sprintf(`{{< figure src="%s" link="%s" >}}`, image, image)
+		newContents = strings.ReplaceAll(newContents, match[0], shortCode)
+	}
+
+	// image links to external content
+	pattern = `\[\!\[test image\]\(https:\/\/scottmuc\.com\/images(.+)\)\]\((.+)\)`
+	re = regexp.MustCompile(pattern)
+
+	matches = re.FindAllStringSubmatch(newContents, -1)
+
+	for _, match := range matches {
+		imagePath := octopressImagesDir + match[1]
+		hugoImagePath := filepath.Dir(path) + "/" + filepath.Base(imagePath)
+		copyFile(imagePath, hugoImagePath)
+
+		image := filepath.Base(match[1])
+		href  := match[2]
+		shortCode := fmt.Sprintf(`{{< figure src="%s" link="%s" >}}`, image, href)
+		newContents = strings.ReplaceAll(newContents, match[0], shortCode)
+	}
+
+	// images with local src
+	pattern = `\!\[test image\]\(https:\/\/scottmuc\.com\/images(.+)\)`
+	re = regexp.MustCompile(pattern)
+
+	matches = re.FindAllStringSubmatch(newContents, -1)
+
+	for _, match := range matches {
+		imagePath := octopressImagesDir + match[1]
+		hugoImagePath := filepath.Dir(path) + "/" + filepath.Base(imagePath)
+		copyFile(imagePath, hugoImagePath)
+
+		image := filepath.Base(match[1])
+		shortCode := fmt.Sprintf(`{{< figure src="%s" >}}`, image)
 		newContents = strings.ReplaceAll(newContents, match[0], shortCode)
 	}
 
