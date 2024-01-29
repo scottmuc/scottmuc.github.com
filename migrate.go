@@ -205,7 +205,7 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 		copyFile(imagePath, hugoImagePath)
 
 		image := filepath.Base(match[1])
-		shortCode := fmt.Sprintf(`{{< figure src="%s" link="%s" >}}`, image, image)
+		shortCode := fmt.Sprintf(`{{< imglink src="%s" href="%s" >}}`, image, image)
 		newContents = strings.ReplaceAll(newContents, match[0], shortCode)
 	}
 
@@ -222,7 +222,7 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 
 		image := filepath.Base(match[1])
 		href  := match[2]
-		shortCode := fmt.Sprintf(`{{< figure src="%s" link="%s" >}}`, image, href)
+		shortCode := fmt.Sprintf(`{{< imglink src="%s" href="%s" >}}`, image, href)
 		newContents = strings.ReplaceAll(newContents, match[0], shortCode)
 	}
 
