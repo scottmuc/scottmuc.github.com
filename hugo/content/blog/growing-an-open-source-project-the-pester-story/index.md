@@ -83,7 +83,7 @@ Johan Leino appear on the Web.
 
 ### The Year of Transition (2014)
 
-[![test image](https://scottmuc.com/images/blog/pester-mention.png)](https://twitter.com/LogicalDiagram/status/461638955725631488)
+{{< imglink src="pester-mention.png" href="https://twitter.com/LogicalDiagram/status/461638955725631488" >}}
 2014 marked a large surge in Pester interest. During the PowerShell Summit it was rumoured that the creator of
 PowerShell, [Jeffrey Snover][jsnover], mentioned Pester in one of his talks! Heck, I was even [interviewed][interview] for the
 PowerScripting Podcast!

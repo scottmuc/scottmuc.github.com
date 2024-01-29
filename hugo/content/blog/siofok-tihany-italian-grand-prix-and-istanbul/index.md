@@ -39,9 +39,9 @@ catch a flight to Milano for the last F1 in my travels.
 [tihany]: https://en.wikipedia.org/wiki/Tihany
 [veszprem]: https://en.wikipedia.org/wiki/Veszpr%C3%A9m
 
-[![test image](https://scottmuc.com/images/blog/career-break/hungary-castle.small.jpg)](/images/blog/career-break/hungary-castle.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/hungary-castle2.small.jpg)](/images/blog/career-break/hungary-castle2.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/hungary-tihany.small.jpg)](/images/blog/career-break/hungary-tihany.jpg)
+{{< imglink src="hungary-castle.jpg" href="hungary-castle.jpg" >}}
+{{< imglink src="hungary-castle2.jpg" href="hungary-castle2.jpg" >}}
+{{< imglink src="hungary-tihany.jpg" href="hungary-tihany.jpg" >}}
 
 ### &nbsp;
 
@@ -75,7 +75,7 @@ to the track. Each day I bought food from a local grocery store. Below is a pict
 beer at 9:00am, don't judge). Buying from the on track vendors is a complete rip-off. For the price of a couple beers, I
 was stocked up for the day.
 
-[![test image](https://scottmuc.com/images/blog/career-break/milano-breakfast.medium.jpg)](/images/blog/career-break/milano-breakfast.jpg)
+{{< imglink src="milano-breakfast.jpg" href="milano-breakfast.jpg" >}}
 
 As for the race, the weekend was full of awesome moments. I watched both GP2 and GP3 races, and the F1 race was full of
 awesome passes. I was sitting at the first turn which is at the end of a very fast straight ([circuit diagram][track]).
@@ -93,7 +93,7 @@ network that grew out of working at ThoughtWorks is global and full of such wond
 
 ### Turkish Delight
 
-[![test image](https://scottmuc.com/images/blog/career-break/istanbul-view.small.jpg)](/images/blog/career-break/istanbul-view.jpg)
+{{< imglink src="istanbul-view.jpg" href="istanbul-view.jpg" >}}
 The last leg of my European travels is a stay in [Istanbul][istanbul] ([not Constantinople][video]). There's a big ThoughtWorks
 project there and was able to stay in [Srini][srini] and [Toy's][toy] apartment (picture of the view to the right).
 I wasn't sure how long I was going to be there so it was nice to have the flexibility of a ThoughtWorker's accommodation.
@@ -140,9 +140,9 @@ to Dürümzade, and outside of Dürümzade.
 [istiklal]: http://istiklalstreet.org/
 [kronotrop]: http://kronotrop.com.tr/
 
-[![test image](https://scottmuc.com/images/blog/career-break/istanbul-large-street.small.jpg)](/images/blog/career-break/istanbul-large-street.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/istanbul-small-street.small.jpg)](/images/blog/career-break/istanbul-small-street.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/istanbul-durumzade.small.jpg)](/images/blog/career-break/istanbul-durumzade.jpg)
+{{< imglink src="istanbul-large-street.jpg" href="istanbul-large-street.jpg" >}}
+{{< imglink src="istanbul-small-street.jpg" href="istanbul-small-street.jpg" >}}
+{{< imglink src="istanbul-durumzade.jpg" href="istanbul-durumzade.jpg" >}}
 
 On another day I walk down further and crossed the [Galata Bridge][galata-bridge] and navigated through all the
 fishermen to the other side (pic 1 below, you can see [Galata Tower][galata-tower] in the background). Once on Old
@@ -160,9 +160,9 @@ trip). I did manage to get a decent snap as the sun was getting low on the horiz
 [hagia-sophia]: https://en.wikipedia.org/wiki/Hagia_Sophia
 [blue-mosque]: https://en.wikipedia.org/wiki/Sultan_Ahmed_Mosque
 
-[![test image](https://scottmuc.com/images/blog/career-break/istanbul-fishing.small.jpg)](/images/blog/career-break/istanbul-fishing.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/istanbul-hagia-sophia.small.jpg)](/images/blog/career-break/istanbul-hagia-sophia.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/istanbul-blue-mosque.small.jpg)](/images/blog/career-break/istanbul-blue-mosque.jpg)
+{{< imglink src="istanbul-fishing.jpg" href="istanbul-fishing.jpg" >}}
+{{< imglink src="istanbul-hagia-sophia.jpg" href="istanbul-hagia-sophia.jpg" >}}
+{{< imglink src="istanbul-blue-mosque.jpg" href="istanbul-blue-mosque.jpg" >}}
 
 One day walking around beautiful Old Istanbul wasn't enough so I made another walking tour from Taksim Square. This
 time, instead of going east to all the great mosques and monuments I kept on going South to the [Grand Bazaar][bazaar].

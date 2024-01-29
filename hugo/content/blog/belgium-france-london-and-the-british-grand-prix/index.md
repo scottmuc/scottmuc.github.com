@@ -25,7 +25,7 @@ that were a lot of fun. The lady has been in the shipping industry and even knew
 
 ### In Bruges
 
-[![test image](https://scottmuc.com/images/blog/career-break/bruges.small.jpg)](/images/blog/career-break/bruges.jpg) The trip
+{{< imglink src="bruges.jpg" href="bruges.jpg" >}} The trip
 from Antwerp to Bruges was pretty easy. As was finding the [residence][airbnb-bruges] I was going to stay in. The house was
 just outside the old town so after getting some travel logistics out of the way I set out to do a walking tour.
 
@@ -74,7 +74,7 @@ and I just made my only connecting train with only a minute to spare. Last part 
 I [stayed][airbnb-dieppe]. The only issue was that I forgot to cache the map, but at least I had a star showing where it
 was and functional gps.
 
-[![test image](https://scottmuc.com/images/blog/career-break/dieppe.small.jpg)](/images/blog/career-break/dieppe.jpg) My primary motivation
+{{< imglink src="dieppe.jpg" href="dieppe.jpg" >}} My primary motivation
 for visiting Dieppe was to see the beaches the Canadian troops attempted to invade in WWII. The
 invasion of Dieppe preceded D-Day and was used as an information gathering invasion. Essentially they learned a lot at
 the expenses of thousands of lives. I’m not a patriotic person, but I couldn’t help but feel moved by the lives that were lost
@@ -84,7 +84,7 @@ is very close to the image in Wikipedia!
 After my walk about, I walked some more! I headed down to where all the restaurants were and had a nice meal and then
 proceeded to hang around the beach area to catch the sunset. It was definitely worth it.
 
-[![test image](https://scottmuc.com/images/blog/career-break/dieppe-sunset.medium.jpg)](/images/blog/career-break/dieppe-sunset.jpg)
+{{< imglink src="dieppe-sunset.jpg" href="dieppe-sunset.jpg" >}}
 
 [airbnb-dieppe]: https://www.airbnb.co.uk/rooms/1157655
 
@@ -133,7 +133,7 @@ src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/15
 
 ### Race 1 of 3
 
-[![test image](https://scottmuc.com/images/blog/career-break/british-gp.small.jpg)](/images/blog/career-break/british-gp.jpg) The commute to the
+{{< imglink src="british-gp.jpg" href="british-gp.jpg" >}} The commute to the
 track was quite reasonable, but Friday was a bit much for me as I was in the worst part of my cold.
 Saturday had the most comfortable weather and I spent a lot of time at the track enjoying different vantage points. Race
 day was a big spectacle as it was the 50th race at Silverstone. Before the race there was an air display by the Red Arrows.

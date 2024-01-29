@@ -43,7 +43,7 @@ message, the server will receive this and route it to an appropriate controller,
 response, the client will take the results and render the HTML to the browser. Woah, that was a lot of detail, and
 that's one example of why it's important to chunk knowledge.
 
-[![test image](https://scottmuc.com/images/blog/l2l/chunking.png)](/images/blog/l2l/chunking.png)
+{{< imglink src="chunking.png" href="chunking.png" >}}
 
 It wasn't mentioned in the book, but a lot of what I read on chunking looked like reaching the **competent** level on the
 [Dreyfus Model of Skill Acquisition][dreyfus-model]. I'm now curious if **diffuse mode** is an essential part of
@@ -116,7 +116,7 @@ ideas on how prevent procrastination and here's my list of tactics:
 * **[Pomodoro Technique][pomodoro]** - I've been a fan of this process for a long time. Procrastination doesn't stand
   a chance when the timer is on. I like to use [pomodoro one][pomodoro-one] on my laptop. There are 4 components of
   developing a habit, and the first one is the **cue**. Starting the timer triggers me to go into a focused mode.
-  [![test image](https://scottmuc.com/images/blog/l2l/self-control.png)](/images/blog/l2l/self-control.png)
+  {{< imglink src="self-control.png" href="self-control.png" >}}
 * **[Self Control][self-control]** (pictured) - This application does a machine level block of the hostnames that you specify for a
   specific time period. It runs outside of the web-browser so it'll block applications that talk to these services and
   even killing the process or rebooting your machine won't get the hostname working again. I will use this every time

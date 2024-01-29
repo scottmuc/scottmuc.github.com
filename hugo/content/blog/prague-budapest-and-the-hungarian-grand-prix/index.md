@@ -12,7 +12,7 @@ aliases:
 
 ### Prague
 
-[![test image](https://scottmuc.com/images/blog/career-break/prague.small.jpg)](/images/blog/career-break/prague.jpg)
+{{< imglink src="prague.jpg" href="prague.jpg" >}}
 
 Next portion of the trip is to Eastern Europe! I had a nice simple itinerary to Prague: **Heidelberg -> Munich -> Prague**.
 Unfortunately something was going on with the brakes on the train and I missed my train in Munich so it
@@ -44,7 +44,7 @@ discussed much about software development, and my ineptness with the woman on th
 
 Sandeman operates in Prague too so I did a couple tours:
 
-[![test image](https://scottmuc.com/images/blog/career-break/prague-castle.small.jpg)](/images/blog/career-break/prague-castle.jpg)
+{{< imglink src="prague-castle.jpg" href="prague-castle.jpg" >}}
 
 * [Free Tour][prague-free-tour]: I can't really talk about this tour without talking about the guide. [Pavel][prague-guide]
   was quite the character. He had an entertaining dry wit and personalized the tour with stories of his own family. I
@@ -85,7 +85,7 @@ train stations so I can do more comparing and contrasting.
 
 ### Hungarian Grand Prix
 
-[![test image](https://scottmuc.com/images/blog/career-break/budapest-bags.small.jpg)](/images/blog/career-break/budapest-bags.jpg)
+{{< imglink src="budapest-bags.jpg" href="budapest-bags.jpg" >}}
 
 Getting to the race track was a fairly painless experience in Budapest. The transit workers were also extremely helpful
 and knowledgable about the logistics of the race. The track was located in a beautiful area just outside Budapest. I
@@ -106,7 +106,7 @@ at the end of the month.
 
 ### Dream Theater in Budapest
 
-[![test image](https://scottmuc.com/images/blog/career-break/dream-theater.small.jpg)](/images/blog/career-break/dream-theater.jpg)
+{{< imglink src="dream-theater.jpg" href="dream-theater.jpg" >}}
 
 As a bonus I saw posters stating that [Dream Theater][dream-theater] is playing nearby! I've been a fan of them since 1998 and have never
 seen them live! Everything looked too perfect: the venue was a beautiful tram ride away, it starts after the majority of
@@ -127,7 +127,7 @@ encounter... nope. Though I did do a bit better. I wrote down my website and she
 I got a message from her a few days later and we're still corresponding! Clearly something supernatural was going on as
 you can tell from this image of the show.
 
-[![test image](https://scottmuc.com/images/blog/career-break/budapest-view.small.jpg)](/images/blog/career-break/budapest-view.jpg)
+{{< imglink src="budapest-view.jpg" href="budapest-view.jpg" >}}
 
 The weather following the race was not so good. I managed to explore a little bit around the vicinity of where I was
 staying, but spent most of the time catching up with Coursera. Sandeman did not have any presence in Budapest so I took

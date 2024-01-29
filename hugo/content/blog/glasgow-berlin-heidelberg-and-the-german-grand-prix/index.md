@@ -25,7 +25,7 @@ that likes [Green Porno][green-porno] as much as I do.
 [rose-blog]: http://adidav9.blogspot.cz/
 [green-porno]: http://www.sundance.tv/series/greenporno
 
-[![test image](https://scottmuc.com/images/blog/career-break/glasgow-necropolis.small.jpg)](/images/blog/career-break/glasgow-necropolis.jpg) During my first
+{{< imglink src="glasgow-necropolis.jpg" href="glasgow-necropolis.jpg" >}} During my first
 day I wandered around the city center and then went up to the [Necropolis][necropolis]. It was
 a beautiful place and had a view over the city. Had I been more prepared I would have spent more time
 there in search of graves of noteworthy people. On my walk back to the apartment I saw an e-mail from
@@ -53,7 +53,7 @@ My last day was spent on a day trip to Edinburgh. People have always said that i
 they are right. It was more beautiful than I expected and spent the day taking a couple tours. A big
 thank you to Rose for telling me about [Sandeman](http://www.neweuropetours.eu/) tours. I did the following:
 
-[![test image](https://scottmuc.com/images/blog/career-break/edinburgh-free-tour.small.jpg)](/images/blog/career-break/edinburgh-free-tour.jpg)
+{{< imglink src="edinburgh-free-tour.jpg" href="edinburgh-free-tour.jpg" >}}
 
 * [Free Tour][edinburgh-free-tour]: After this first tour, I was hooked on this style. The guides were young and
   full of enthusiasm. My picture of a guided tour was of a slow moving parade of old people getting bombarded
@@ -95,7 +95,7 @@ into a party and we stayed out til around 4:00am. I still can't get the Uber Deu
 
 Like in Edinburgh, Sandeman does tours in Berlin. I did these three:
 
-[![test image](https://scottmuc.com/images/blog/career-break/potsdam-tour.small.jpg)](/images/blog/career-break/potsdam-tour.jpg)
+{{< imglink src="potsdam-tour.jpg" href="potsdam-tour.jpg" >}}
 
 * [Free Tour][berlin-free-tour]: Like in Edinburgh, the guide was passionate and energetic. It was fascinating to
   see the Jewish memorial, and place related to the war.
@@ -126,16 +126,16 @@ on a bench in Philospher's Way. The weather was so hot that I didn't really want
 patio. It was really nice to simply purchase some groceries and wander around looking for a nice spot in the town to
 eat.
 
-[![test image](https://scottmuc.com/images/blog/career-break/heidelberg-bridge.small.jpg)](/images/blog/career-break/heidelberg-bridge.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/heidelberg-philosophersweg.small.jpg)](/images/blog/career-break/heidelberg-philosophersweg.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/heidelberg-castle.small.jpg)](/images/blog/career-break/heidelberg-castle.jpg)
+{{< imglink src="heidelberg-bridge.jpg" href="heidelberg-bridge.jpg" >}}
+{{< imglink src="heidelberg-philosophersweg.jpg" href="heidelberg-philosophersweg.jpg" >}}
+{{< imglink src="heidelberg-castle.jpg" href="heidelberg-castle.jpg" >}}
 
 [heidelberg]: https://en.wikipedia.org/wiki/Heidelberg
 [heidelberg-airbnb]: https://www.airbnb.com/rooms/2337045
 
 ### German Grand Prix
 
-[![test image](https://scottmuc.com/images/blog/career-break/hockenheim-podium.small.jpg)](/images/blog/career-break/hockenheim-podium.jpg)
+{{< imglink src="hockenheim-podium.jpg" href="hockenheim-podium.jpg" >}}
 Getting to [Hockenheim][hockenheim] was pretty straighforward. There's a bus from the train station, or I can take a
 train with a single connection in Manheim. The race weekend was super hot with the air temperature around
 35C and they said the track temperature was around 55C! I need to learn what exactly track temperature

@@ -30,10 +30,10 @@ As the above post mentions, I had moved back to Berlin. Wanting to see a differe
 a bit of an eclectic apartment in Wilmersdorf. It once was a restaurant and a butcher shop before that. My basement
 still had the meat locker storage! I really do miss this place.
 
-[![test image](https://scottmuc.com/images/blog/2021-life-update/wilmersdorf1-Small.jpg)](/images/blog/2021-life-update/wilmersdorf1.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/wilmersdorf2-Small.jpg)](/images/blog/2021-life-update/wilmersdorf2.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/wilmersdorf3-Small.jpg)](/images/blog/2021-life-update/wilmersdorf3.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/wilmersdorf4-Small.jpg)](/images/blog/2021-life-update/wilmersdorf4.jpg)
+{{< imglink src="wilmersdorf1.jpg" href="wilmersdorf1.jpg" >}}
+{{< imglink src="wilmersdorf2.jpg" href="wilmersdorf2.jpg" >}}
+{{< imglink src="wilmersdorf3.jpg" href="wilmersdorf3.jpg" >}}
+{{< imglink src="wilmersdorf4.jpg" href="wilmersdorf4.jpg" >}}
 <br style="clear:both" />
 *(Liked the office view, large kitchen, summertime office, lounge area above the workstation)*
 
@@ -41,9 +41,9 @@ I also Joined the Pivotal Cloud Foundry Solutions (PCFS) team and began working 
 travel to Milton Keynes for 1 particular customer and to Norway for another. I met a lot of great people and still
 keep in touch with client connections and former teammates.
 
-[![test image](https://scottmuc.com/images/blog/2021-life-update/milton-keynes-Small.jpg)](/images/blog/2021-life-update/milton-keynes.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/oslo-Small.jpg)](/images/blog/2021-life-update/oslo.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/bergen-Small.jpg)](/images/blog/2021-life-update/bergen.jpg)
+{{< imglink src="milton-keynes.jpg" href="milton-keynes.jpg" >}}
+{{< imglink src="oslo.jpg" href="oslo.jpg" >}}
+{{< imglink src="bergen.jpg" href="bergen.jpg" >}}
 <br style="clear:both" />
 *(Milton Keynes, Oslo, Bergen)*
 
@@ -52,12 +52,12 @@ year I transferred to the CloudOps team in Pivotal. Ironically, the team was bas
 100% remote. This was the beginning of a really fun time learning SRE practices and actually applying them. My days with
 PCFS and transitioning to CloudOps was in Switzerland at the CloudFoundry Summit in Basel.
 
-[![test image](https://scottmuc.com/images/blog/2021-life-update/switzerland-Small.jpg)](/images/blog/2021-life-update/switzerland.jpg)
+{{< imglink src="switzerland.jpg" href="switzerland.jpg" >}}
 *(Hiking in Switzerland after CF Summit)*
 
-[![test image](https://scottmuc.com/images/blog/2021-life-update/dublin1-Small.jpg)](/images/blog/2021-life-update/dublin1.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/dublin2-Small.jpg)](/images/blog/2021-life-update/dublin2.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/dublin3-Small.jpg)](/images/blog/2021-life-update/dublin3.jpg)
+{{< imglink src="dublin1.jpg" href="dublin1.jpg" >}}
+{{< imglink src="dublin2.jpg" href="dublin2.jpg" >}}
+{{< imglink src="dublin3.jpg" href="dublin3.jpg" >}}
 <br style="clear:both" />
 *(Trip to Dublin to onboard with the CloudOps team)*
 
@@ -74,9 +74,9 @@ At this point I had been with CloudOps for a couple months and was really enjoyi
 By February I was able to move into my new home. As much as I missed my castle in Wilmersdorf, I loved being closer to
 my friends around Prenzlauer Berg and the surrounding area. 
 
-[![test image](https://scottmuc.com/images/blog/2021-life-update/home1-Small.jpg)](/images/blog/2021-life-update/home1.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/home2-Small.jpg)](/images/blog/2021-life-update/home2.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/home3-Small.jpg)](/images/blog/2021-life-update/home3.jpg)
+{{< imglink src="home1.jpg" href="home1.jpg" >}}
+{{< imglink src="home2.jpg" href="home2.jpg" >}}
+{{< imglink src="home3.jpg" href="home3.jpg" >}}
 <br style="clear:both" />
 *(Nearby S-Bahn, music corner, enjoying the south facing windows)*
 
@@ -86,10 +86,10 @@ Once I had settled in and got my place organized, I was ready to add a new resid
 I rescued this beautiful 10year old cat named Shelly from the animal shelter. Her previous owner had passed away and
 couldn't let her stay in the shelther.
 
-[![test image](https://scottmuc.com/images/blog/2021-life-update/shelly1-Small.jpg)](/images/blog/2021-life-update/shelly1.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/shelly2-Small.jpg)](/images/blog/2021-life-update/shelly2.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/shelly3-Small.jpg)](/images/blog/2021-life-update/shelly3.jpg)
-[![test image](https://scottmuc.com/images/blog/2021-life-update/shelly4-Small.jpg)](/images/blog/2021-life-update/shelly4.jpg)
+{{< imglink src="shelly1.jpg" href="shelly1.jpg" >}}
+{{< imglink src="shelly2.jpg" href="shelly2.jpg" >}}
+{{< imglink src="shelly3.jpg" href="shelly3.jpg" >}}
+{{< imglink src="shelly4.jpg" href="shelly4.jpg" >}}
 <br style="clear:both" />
 *(Nothing but attitude... but I still think she enjoys my presence)*
 
@@ -218,7 +218,7 @@ decision tree (see image) that was made simpler after a 1 hour consultation with
 ([Juliane Linke is my hero][juliane]). It became very clear to me after our conversation that getting a job is the
 simplest thing for me to do in order to stay in Germany and also not jeopardize my future ability to stay in Germany.
 
-[![test image](https://scottmuc.com/images/blog/2021-life-update/decisions-Small.jpg)](/images/blog/2021-life-update/decisions.jpg)
+{{< imglink src="decisions.jpg" href="decisions.jpg" >}}
 
 [juliane]: https://www.legal-links.de/en/anwaeltinnen/juliane-linke/
 

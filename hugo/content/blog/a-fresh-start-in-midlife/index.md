@@ -69,8 +69,8 @@ Sadly, Shelly passed away during this time. I knew adopting an old cat would hav
 shorter than expected. Not much to say other than it was a very difficult time for me. I’ll get another cat at some
 point but not sure when.
 
-[![test image](https://scottmuc.com/images/blog/career-break2/shelly-hospital.jpg)](/images/blog/career-break2/shelly-hospital.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break2/shelly-urn.jpg)](/images/blog/career-break2/shelly-urn.jpg)
+{{< imglink src="shelly-hospital.jpg" href="shelly-hospital.jpg" >}}
+{{< imglink src="shelly-urn.jpg" href="shelly-urn.jpg" >}}
 <br style="clear:both" />
 *Saying farewell, now her ashes are on a shelf in an urn with all my other relics*
 
@@ -123,9 +123,9 @@ are now looking for work).
 
 [boromir]: https://www.reddit.com/r/lotrmemes/comments/ouk0js/how_to_talk_like_boromir/
 
-[![test image](https://scottmuc.com/images/blog/career-break2/cp-scott-boromir.jpg)](/images/blog/career-break2/cp-scott-boromir.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break2/cp-ds-team-small.jpg)](/images/blog/career-break2/cp-ds-team.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break2/cp-post-graveyard.jpg)](/images/blog/career-break2/cp-post-graveyard.jpg)
+{{< imglink src="cp-scott-boromir.jpg" href="cp-scott-boromir.jpg" >}}
+{{< imglink src="cp-ds-team.jpg" href="cp-ds-team.jpg" >}}
+{{< imglink src="cp-post-graveyard.jpg" href="cp-post-graveyard.jpg" >}}
 <br style="clear:both" />
 *How to sound like me!, Digital Solutions Berlin at Christmas, post graveyard festivities in a Christmas market*
 
@@ -189,10 +189,10 @@ I’m going to travel in mind and spirit more this time around, and less physica
 That being said, I did take 3 weeks to travel by rail and ferry to Brussels, London, Cardiff/Swansea, Liverpool, Dublin.
 So physical travel isn’t completely out:
 
-[![test image](https://scottmuc.com/images/blog/career-break2/train-liverpool-small.jpg)](/images/blog/career-break2/train-liverpool.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break2/train-wales2.jpg)](/images/blog/career-break2/train-wales2.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break2/train-brussels-small.jpg)](/images/blog/career-break2/train-brussels.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break2/train-wales1.jpeg)](/images/blog/career-break2/train-wales1.jpeg)
+{{< imglink src="train-liverpool.jpg" href="train-liverpool.jpg" >}}
+{{< imglink src="train-wales2.jpg" href="train-wales2.jpg" >}}
+{{< imglink src="train-brussels.jpg" href="train-brussels.jpg" >}}
+{{< imglink src="train-wales1.jpeg" href="train-wales1.jpeg" >}}
 <br style="clear:both" />
 *Liverpool cathedral, beach near Tenby Wales, Brussels museum, Pen y Fan Wales*
 

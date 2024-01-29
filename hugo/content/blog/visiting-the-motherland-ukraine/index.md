@@ -12,7 +12,7 @@ aliases:
 
 ### Ukraine
 
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-train.small.jpg)](/images/blog/career-break/lviv-train.jpg)
+{{< imglink src="lviv-train.jpg" href="lviv-train.jpg" >}}
 The next leg of the journey was a long slog from Vienna to [L’viv][lviv]. I took a noon train to Budapest and had to pass
 some time there for a little while. From Budapest it was an overnight journey with many frequent stops in the
 middle of the night for immigration and customs. If you’ve ever played [Papers, Please][papers-please], it felt like that. Ukraine
@@ -27,7 +27,7 @@ it’s sadly alive and well.
 [ukrainian-brides]: https://www.youtube.com/watch?v=8wW7c58nMI4
 [shengen]: https://en.wikipedia.org/wiki/Schengen_Agreement
 
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-train2.small.jpg)](/images/blog/career-break/lviv-train2.jpg)
+{{< imglink src="lviv-train2.jpg" href="lviv-train2.jpg" >}}
 Even with such a long journey the train pretty much arrived on time within a couple minutes. When I exited the train I
 immediately could recognize my cousin [Lilia][lilia-twitter]. She ran up to me and gave me a proper family style hug. Looks like I’m
 home! We took a bus to her home in the Northern part of the city. I was introduced to her roommate,
@@ -45,27 +45,27 @@ did my best to tell the story of myself and the Myц family Canadian history.
 I felt immediately comfortable in L’viv. As Lilia was at work, Vitalik and Natalia guided me around the city. Here
 are some of the noteworthy places we checked out:
 
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-high-castle.small.jpg)](/images/blog/career-break/lviv-high-castle.jpg)
+{{< imglink src="lviv-high-castle.jpg" href="lviv-high-castle.jpg" >}}
 [High Castle][high-castle] - On my first day in L'viv I was antsy to go out and explore. I never feel comfortable
   in a location until I spend at least a whole day walking around exploring and knowing my surroundings. Natalia likes
   to sleep in (she's going to kill me), so instead of waiting for her to wake up, I decide to explore L'viv on my own.
   The high castle name is more of a memory as the castle isn't there anymore. Getting to the top of the hill was
   good exercise and rewarded me with a beautiful 360 degree view of the city.
 
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-dim-legend.small.jpg)](/images/blog/career-break/lviv-dim-legend.jpg)
+{{< imglink src="lviv-dim-legend.jpg" href="lviv-dim-legend.jpg" >}}
 [Dim Legend (House of Legend)][dim-legend] - There are a collection of restaurants owned by a company that's doing some interesting
   setups. Dim Legend has a room for every story (or a story for every room). The restaurant takes
   the entire building and you can go up to the roof top where there's patio with a car, and a chimney with a ladder so
   that you can climb to the top. There's something refreshing about being in a country that doesn't have the same
   restrictive safety regulations of most western countries.
 
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-rynok.small.jpg)](/images/blog/career-break/lviv-rynok.jpg)
+{{< imglink src="lviv-rynok.jpg" href="lviv-rynok.jpg" >}}
 [Rynok Square][rynok-square] - Like most Eastern European cities, L'viv has a beautiful (albeit touristy) city
   square. You'll find the "floating" statue people and dudes making giant bubbles. Overall though, the atmosphere is
   quaint and relaxing. Ukrainian culture is inviting so it's pretty hard to feel like you're too far out of place.
   This is probably where I spent the most time as all the coffee shops and restaurants are all near this location.
 
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-chocolate-chili.small.jpg)](/images/blog/career-break/lviv-chocolate-chili.jpg)
+{{< imglink src="lviv-chocolate-chili.jpg" href="lviv-chocolate-chili.jpg" >}}
 [Lviv chocolate][lviv-chocolate] - One of the most unique experiences I had in L'viv was drinking melted chocolate
   flavoured with a whole whack load of chili powder! This place was not good for any thought about losing weight. Not
   sure how everyone here stays so fit! At least I was getting a lot of walking in, but not sure if it's enough for
@@ -94,11 +94,11 @@ are some of the noteworthy places we checked out:
   to me for some reason. The day that I visited Lychakiv Cemetery was sunny and warm. The whole area is like a maze and
   it was nice to wander around witnessing the beautiful scenery.
 
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-beer.small.jpg)](/images/blog/career-break/lviv-beer.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-butterbeer.small.jpg)](/images/blog/career-break/lviv-butterbeer.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-books.small.jpg)](/images/blog/career-break/lviv-books.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-alley.small.jpg)](/images/blog/career-break/lviv-alley.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/lviv-cemetary.small.jpg)](/images/blog/career-break/lviv-cemetary.jpg)
+{{< imglink src="lviv-beer.jpg" href="lviv-beer.jpg" >}}
+{{< imglink src="lviv-butterbeer.jpg" href="lviv-butterbeer.jpg" >}}
+{{< imglink src="lviv-books.jpg" href="lviv-books.jpg" >}}
+{{< imglink src="lviv-alley.jpg" href="lviv-alley.jpg" >}}
+{{< imglink src="lviv-cemetary.jpg" href="lviv-cemetary.jpg" >}}
 
 [lviv-brewery]: http://www.lvivbeermuseum.com/uk/muzey
 [high-castle]: https://en.wikipedia.org/wiki/Lviv_High_Castle
@@ -120,7 +120,7 @@ friendly and accomodating, I can't wait to be back!
 
 ## Ternopil
 
-[![test image](https://scottmuc.com/images/blog/career-break/ternopil-home.small.jpg)](/images/blog/career-break/ternopil-home.jpg)
+{{< imglink src="ternopil-home.jpg" href="ternopil-home.jpg" >}}
 For the weekend, Lillia had planned a trip to Ternopil to visit her parents and other relatives. Apparently they don’t
 get many foreigners on the train and the attendant on the train made an effort to ask if I wanted tea or coffee in
 English. He sort of chuckled and so did my cousins, not sure why. We took a bus from the train station to the outer area of Ternopil
@@ -158,17 +158,17 @@ could say that the West has been pretty weak in it's response.
 
 [village]: http://en.wikipedia.org/wiki/Velyki_Birky
 
-[![test image](https://scottmuc.com/images/blog/career-break/ternopil-family.medium.jpg)](/images/blog/career-break/ternopil-family.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/ternopil-family2.medium.jpg)](/images/blog/career-break/ternopil-family2.jpg)
+{{< imglink src="ternopil-family.jpg" href="ternopil-family.jpg" >}}
+{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" >}}
 
 In the evening I went out with the girls to meet up with some of their friends. It was fun introducing them to some
 of the games I played at TWU (eg: numbers game, and one-up one-down). The next day was a holiday for independence day
 so we went walking around the city for a bit. The city had some very pretty areas and some interesting looking playgrounds.
 After our walk we went to the train station (pic: don't we look like an intimidating group?).
 
-[![test image](https://scottmuc.com/images/blog/career-break/ternopil-playground.medium.jpg)](/images/blog/career-break/ternopil-family.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/ternopil-playground2.medium.jpg)](/images/blog/career-break/ternopil-family2.jpg)
-[![test image](https://scottmuc.com/images/blog/career-break/ternopil-departing.medium.jpg)](/images/blog/career-break/ternopil-family2.jpg)
+{{< imglink src="ternopil-family.jpg" href="ternopil-family.jpg" >}}
+{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" >}}
+{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" >}}
 
 [family-brewery]:
 
