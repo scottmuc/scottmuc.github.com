@@ -169,18 +169,24 @@ func MigrateImage(path string, fileInfo os.FileInfo, err error) error {
 		log.Fatal(e)
 	}
 
-
-	pattern := `\!\[test image\]\(https:\/\/scottmuc\.com\/images/.+?\)`
+	pattern := `\!\[test image\]\(https:\/\/scottmuc\.com\/images(\/[^)]+)\)`
 	re := regexp.MustCompile(pattern)
 
-	images := re.FindAllString(string(contents), -1)
+	matches := re.FindAllStringSubmatch(string(contents), -1)
 
-	for _, image := range images {
-		fmt.Println(image)
-
+	const octopressImagesDir = "octopress/source/images"
+	for _, match := range matches {
+		imagePath := octopressImagesDir + match[1]
+		hugoImagePath := filepath.Dir(path) + "/" + filepath.Base(imagePath)
+		copyFile(imagePath, hugoImagePath)
 	}
 
 	return nil
+}
+
+func copyFile(srcPath string, dstPath string) {
+	fmt.Printf("Copying %s to %s\n", srcPath, dstPath)
+	// add copy logic here
 }
 
 func doPostMigration() {
