@@ -8,7 +8,7 @@ aliases:
 
 ---
 
-[![test image](https://scottmuc.com/images/blog/running/venice.jpg)][venice-pic]
+[{{< figure src="venice.jpg" >}}][venice-pic]
 
 I've been an off and on jogger for the last 2 years, but my goal is to be a jogger for the rest of my life. For some
 reason I've felt compelled to journal my reasons. If one person thinks to take up jogging, then that would be wonderful.
@@ -19,7 +19,7 @@ reason I've felt compelled to journal my reasons. If one person thinks to take u
 course I don't run ultra marathons, nor have I been running for a decade, but I find this comic inspirational and I look
 at it every couple months. Please read his comic, it's that good!
 
-[![test image](https://scottmuc.com/images/blog/running/oatmeal.png)][oatmeal-running]
+[{{< figure src="oatmeal.png" >}}][oatmeal-running]
 
 * Growing up as a chubby person I can identify with the **Blerch**.
 * I definitely look at running as an asset to my eating balance sheet. Dieting makes life more complex so I choose the
@@ -86,8 +86,8 @@ people post their fitness accomplishments. It comes across as encouraging. So I 
 [Hiyasmin][yas] for catalyzing this new hobby of mine. Another thank you goes to the South Africa crew (pictured below)
 who egged me on to join a trail run series. If you wish to give me encouragement, please add me on [Strava][me-strava].
 
-![test image](https://scottmuc.com/images/blog/running/trail-run.jpg)
-![test image](https://scottmuc.com/images/blog/running/trail-run2.jpg)
+{{< figure src="trail-run.jpg" >}}
+{{< figure src="trail-run2.jpg" >}}
 
 **People I know that run off the top of my head:**
 

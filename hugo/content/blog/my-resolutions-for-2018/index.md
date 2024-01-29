@@ -13,13 +13,13 @@ aliases:
 
 * **Perform 1 pull up** - This didn't go so well. I'm now the heaviest that I've ever been (95kg). My psoriasis (scalp) has become really annoying and gets worse when I exercise. So 2017 wasn't a good year for my health. It's very clear that I don't handle disruption of my routine very well. Below is a graph of my workouts:
 
-![test image](https://scottmuc.com/images/blog/workouts-2017.png)
+{{< figure src="workouts-2017.png" >}}
 
 Only 1 or 2 of those gaps was related to illness; most of them were due to travel (work and play). The last few months was me being preoccupied with my move to Berlin (yet another excuse).
 
 * **journaling** - I also took a look at if I adhered to my [2016](/my-resolutions-for-2016/) goal to maintain a journal. The following graph shows that I started the year off strong and then it faded away for a bit.
 
-![test image](https://scottmuc.com/images/blog/journal-entries-2017.png)
+{{< figure src="journal-entries-2017.png" >}}
 
 I've been looking back in my journal periodically now and finding it a great source of insight into what my previous self was thinking. I'm happy I've started picking it up last month.
 

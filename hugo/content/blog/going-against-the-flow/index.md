@@ -18,7 +18,7 @@ I would return the next day and realize that I could have done it simpler, or th
 problem that I didn't take into consideration. One of the biggest complaints about flow is that it takes a long time to
 get into that state. How can we minimize this time, and keep these flows shorter?
 
-![test image](https://scottmuc.com/images/blog/flow.png)What I found myself needing were breaks. Brief moments to reflect on the past bit of effort and reflect on what work was
+{{< figure src="flow.png" >}}What I found myself needing were breaks. Brief moments to reflect on the past bit of effort and reflect on what work was
 done and where it's heading. Many times this has resulted in an "aha" moment and see that my path is not going towards a
 solution that is best for the project. It's also a good time to check your assumptions. You may be flowing towards a
 dead-end because of something a little bit of planning could have prevented. Like the diagram to the right suggests,

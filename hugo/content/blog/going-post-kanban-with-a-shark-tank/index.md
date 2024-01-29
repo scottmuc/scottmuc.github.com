@@ -7,7 +7,7 @@ aliases:
 
 ---
 
-![test image](https://scottmuc.com/images/blog/shark-tank-wall.jpg)
+{{< figure src="shark-tank-wall.jpg" >}}
 
 No, this is not an April Fools joke. This was something that was actually implemented.
 

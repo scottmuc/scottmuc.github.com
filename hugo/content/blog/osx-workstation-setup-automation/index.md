@@ -38,7 +38,7 @@ To see what's included in this tooling take a look at the [Inventory][automation
 
 [My workstation automation][osx-homedir] is cloned straight into `$HOME` on a fresh machine. This is a bit different than a lot of the other [dotfile repositories][gh-dotfiles] you'll see on GitHub.
 
-![test image](https://scottmuc.com/images/blog/gh-dotfiles.png)
+{{< figure src="gh-dotfiles.png" >}}
 
 `$HOME` as a repository was heavily influenced by [Gary Bernhardt's dot files](https://github.com/garybernhardt/dotfiles). I really liked the simplicity of not having extra scripting to create a bunch of symlinks. Once you have your home directory cloned, you're already quite far down the path of having your machine the way you want it. Because it's a repository, when you delete a file, it goes away and rerunning your setup will not restore that file. It's inherently an idempotent system!
 

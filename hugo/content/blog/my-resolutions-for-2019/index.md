@@ -44,7 +44,7 @@ with a private group of friends.
 By-the-way, journaling ([goal from 2016](/my-resolutions-for-2016/)) has been the one habit that I’ve cultivated
 and has lasted several years! Here are the numbers:
 
-![test image](https://scottmuc.com/images/blog/journaling-at-end-of-2018.png)
+{{< figure src="journaling-at-end-of-2018.png" >}}
 
 *No pomodoros were harmed in the making of this post (I composed this while watching a Stellaris stream)*
 

@@ -10,7 +10,7 @@ aliases:
 
 *September 20th - December 16th*
 
-![test image](https://scottmuc.com/images/blog/career-break/blr-lake.large.jpg)
+{{< figure src="blr-lake.large.jpg" >}}
 
 Ugh, I left this post until way too late. Unfortunately I'll have to drop a lot of detail as 3 months is pretty hard to
 sum up in a single blog post. Hopefully I can do it justice as India is a place I'm very fond of. I feel bad for all the
@@ -19,7 +19,7 @@ properly journal the whole experience.
 
 ### Arrival
 
-[![test image](https://scottmuc.com/images/blog/career-break/blr-flood.medium.jpg)][blr-flood]
+[{{< figure src="blr-flood.medium.jpg" >}}][blr-flood]
 The minute I got off the plane I was greeted with the familiar scent of Bangalore. The city gives me a bizarre sense of
 being home. My arrival to India this time around is much different than the paniced call to Calgary at 4am where my
 arrange pickup wasn't there. This time I breezed through the crowd to the taxi line and made my way to Indiranagar where
@@ -60,7 +60,7 @@ them friends and will visit them every time I go back to Bangalore. They set me 
 setup and meals! It was really hard not to apply and work with them. They also were excellent test subjects for my
 [chai experiments](https://twitter.com/todayschai)
 
-![test image](https://scottmuc.com/images/blog/career-break/blr-chai.large.jpg)
+{{< figure src="blr-chai.large.jpg" >}}
 
 ### Pune
 

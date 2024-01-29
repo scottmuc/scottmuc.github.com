@@ -113,7 +113,7 @@ public class UserRepositoryTestContext : RepositoryTestBase
 
 The XSD for this section contains a dataset that for the Users, Roles, and UserRoles tables and the dummy data looks something like the following:
 
-![test image](https://scottmuc.com/images/blog/UsersDS.jpg)
+{{< figure src="UsersDS.jpg" >}}
 
 {{< highlight xml "linenos=table" >}}
 <?xml version="1.0" encoding="utf-8" ?>

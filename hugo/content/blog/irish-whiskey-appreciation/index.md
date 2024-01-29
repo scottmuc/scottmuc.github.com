@@ -8,7 +8,7 @@ aliases:
 ---
 
 
-![test image](https://scottmuc.com/images/blog/whiskey/dublin.jpg)
+{{< figure src="dublin.jpg" >}}
 
 **Disclaimer - I was not paid or propositioned to write this post and/or link to the Mitchell & Son web store. I just
 enjoyed their course a lot. At the end of the course I was given a 10€ discount on any Green/Yellow spot whiskies. I
@@ -217,7 +217,7 @@ fit for any occasion. Ok, I still need something peaty like a Connemara too.
 
 **Sláinte!**
 
-![test image](https://scottmuc.com/images/blog/whiskey/personal-collection.jpg)
+{{< figure src="personal-collection.jpg" >}}
 
 *This post took 12 pomodoros (and drams) to complete*
 

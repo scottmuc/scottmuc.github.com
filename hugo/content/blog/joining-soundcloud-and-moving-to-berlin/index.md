@@ -10,7 +10,7 @@ aliases:
 
 ---
 
-![test image](https://scottmuc.com/images/blog/career-break/berlin-reichstag.medium.jpg)
+{{< figure src="berlin-reichstag.medium.jpg" >}}
 
 I can't say exactly when the job search began. It began with the creation of a Note in Evernote (great tool
 for this type of task). It was much different than any other job search I've done, though I haven't done many as I tend
@@ -40,7 +40,7 @@ After several months I interviewed with a handful of companies, but eventually I
 
 ## Then There Were Two
 
-![test image](https://scottmuc.com/images/blog/career-break/cloudfoundry.jpg)
+{{< figure src="cloudfoundry.jpg" >}}
 **[Cloud Foundry][cloudfoundry]** - Creators of an open source [PaaS][paas] software that allows for companies to create
 their own [Heroku][heroku]. I'm not too familiar with the details of the product. It's not like you take a
 piece of PaaS enabling software for a test drive every day. Despite not being knowledgable about their product, my
@@ -70,7 +70,7 @@ The job would be located in San Francisco, and the pay would reflect that, thoug
 It's a city I've lived in before and enjoyed. I have a lot of friends there and would be immersed in beer culture.
 My role would be a developer working on pieces of Cloud Foundry. So it's an opportunity to develop my dev chops again.
 
-![test image](https://scottmuc.com/images/blog/career-break/soundcloud.png)
+{{< figure src="soundcloud.png" >}}
 **[Soundcloud][soundcloud]** - The only way I can describe it is Twitter for audio. I've only used the basic recording
 functionality of their service ([my profile][soundcloud-me]) and do listen to a few podcasts that are hosted by them.
 
@@ -117,7 +117,7 @@ decision and I chickened out. Though what I ended up doing had the same result. 
 It didn't really matter what the results were, but I noticed something. One, I voted for Berlin. Two, I was cheering on
 Berlin while the votes were coming in.
 
-![test image](https://scottmuc.com/images/blog/career-break/strawpoll.png)
+{{< figure src="strawpoll.png" >}}
 
 ### Choosing What Scares You
 

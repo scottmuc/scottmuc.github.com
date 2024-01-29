@@ -14,7 +14,7 @@ that up, but they felt awesome when they figured out a clever work around.
 We've all been there at some point. It's something that you grow out of over time. At least I hope so. Here's a story of
 the most complicated thing I've made and I'll start with a network diagram of my basement suite circa 2003:
 
-[![test image](https://scottmuc.com/images/blog/complicated-network.png)][network-diagram]
+[{{< figure src="complicated-network.png" >}}][network-diagram]
 
 ## My Contribution to Over-Engineering
 
@@ -32,7 +32,7 @@ Here are some of the requirements:
 
 > The result was an mp3 playing system that required 5 computers in order to work.
 
-[![test image](https://scottmuc.com/images/blog/complicated-rack.jpg)][rack] First there was the **file server** that contained
+[{{< figure src="complicated-rack.jpg" >}}][rack] First there was the **file server** that contained
 all my music. It would expose files to the network via Nfs and Samba. I was pretty meticulous when it came to
 organizing my files. Every artist had a directory, and every album was a sub-directory. In case you're wondering,
 I organized artist names as *Last Name, First Name*. All the mp3s were created by ripping my personal CD collection.
@@ -55,8 +55,8 @@ mobile web browser would have worked just fine too.
 
 ## The Result
 
-[![test image](https://scottmuc.com/images/blog/complicated-livingroom.jpg)][livingroom]
-[![test image](https://scottmuc.com/images/blog/complicated-ui.jpg)][desktop-screenshot]
+[{{< figure src="complicated-livingroom.jpg" >}}][livingroom]
+[{{< figure src="complicated-ui.jpg" >}}][desktop-screenshot]
 
 <span style="color: #eaeaea;">hack to break the floats</span>
 

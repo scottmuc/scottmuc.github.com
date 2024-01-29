@@ -35,11 +35,11 @@ protected bool IsPrimaryKeyValueEqual(DataRow dataRow1, DataRow dataRow2, DataCo
 
 It simply goes through all the keys of the table, and if they are all equal, then we've found a tuple that needs to be updated. Seems pretty straightforward, and not a method that I would presume would cause any problems. Strangely enough, here is where some strangeness started to occur. This method would always return false! I hooked up the debugger and inspected the rows and everything seemed normal. Until what seemed like the 30th time; I noticed something. The row from the XML had 32 bit IDs while the row from the SQLite database had 64 bit IDs.
 
-![test image](https://scottmuc.com/images/blog/debugger_tail_32bit.png)
+{{< figure src="debugger_tail_32bit.png" >}}
 
 and here's what that DataRow object was being compared to:
 
-![test image](https://scottmuc.com/images/blog/debugger_tail_32bit.png)
+{{< figure src="debugger_tail_32bit.png" >}}
 
 I didn't want jump to conclusions as to whether or not I found my problem so I wrote a test. Sure enough, the following test fails (and for good reason).
 

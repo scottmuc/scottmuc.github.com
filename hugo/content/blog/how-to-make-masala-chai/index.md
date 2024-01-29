@@ -8,7 +8,7 @@ aliases:
 ---
 
 
-![test image](https://scottmuc.com/images/blog/chai/08-chai.jpg)
+{{< figure src="08-chai.jpg" >}}
 This is the simplest [masala chai][masala-chai] recipe I know how to make. Compared to the street side chai you would get in India my
 recipe differs in the fact that mine is less sweet and has a strong black tea and masala flavour (especially the ginger).
 The wonderful thing about masala chai is that it's easy to adjust to your own taste and it's fun to experiment with.
@@ -37,27 +37,27 @@ So let's get started!
 
 ### Instructions
 
-![test image](https://scottmuc.com/images/blog/chai/01-ginger-cardamom-before.jpg)
-![test image](https://scottmuc.com/images/blog/chai/02-ginger-cardamom-after.jpg)
+{{< figure src="01-ginger-cardamom-before.jpg" >}}
+{{< figure src="02-ginger-cardamom-after.jpg" >}}
 
 Cut the ginger into a few pieces and then crush/pound it so that the juices are flowing out. Using the flat of the knife
 blade crush the cardamom pods so the seeds inside come out. Place these and the water into a pot and bring it to a boil.
 
-![test image](https://scottmuc.com/images/blog/chai/03-hand-of-tea.jpg)
-![test image](https://scottmuc.com/images/blog/chai/04-steeping-begins.jpg)
-![test image](https://scottmuc.com/images/blog/chai/05-full-steep.jpg)
+{{< figure src="03-hand-of-tea.jpg" >}}
+{{< figure src="04-steeping-begins.jpg" >}}
+{{< figure src="05-full-steep.jpg" >}}
 
 Just before a boil is reached throw in the tea. If the boil is too intense, turn the heat down. Too much heat applied to
 the tea will cause it to taste overly bitter. The tea should naturally spread like in the pictures above.
 
-![test image](https://scottmuc.com/images/blog/chai/06-add-sugar.jpg)
+{{< figure src="06-add-sugar.jpg" >}}
 
 After about 2 minutes, add the milk and set the heat to around medium. Add a hand of sugar now (I've forgotten to add
 sugar a few times so I just try to make it part of the routine at this point). Also remember that you can always add
 sugar later. Since I tend to have a sweet snack with my chai, I like to have a less sweet chai to let the dessert
 compliment the chai.
 
-![test image](https://scottmuc.com/images/blog/chai/07-hot-break.jpg)
+{{< figure src="07-hot-break.jpg" >}}
 
 After several minutes the mixture will start to foam and rise up (I like to call this the hot break which comes from
 beer brewing). This means that the proteins in the milk have become denatured (ie: cooked) and this will give you the

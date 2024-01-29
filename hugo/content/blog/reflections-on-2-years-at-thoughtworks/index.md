@@ -61,5 +61,5 @@ I'm now realizing this sounds like a pitch to get people to join ThoughtWorks. I
 
 And now for something completely different (the best image from the last 2 years):
 
-![test image](https://scottmuc.com/images/blog/bestimageever.jpg)
+{{< figure src="bestimageever.jpg" >}}
 

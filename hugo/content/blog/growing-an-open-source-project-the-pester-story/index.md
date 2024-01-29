@@ -9,7 +9,7 @@ aliases:
 ---
 
 
-[![test image](https://scottmuc.com/images/blog/github-pester.png)][pester]
+[{{< figure src="github-pester.png" >}}][pester]
 
 ### In the Beginning
 

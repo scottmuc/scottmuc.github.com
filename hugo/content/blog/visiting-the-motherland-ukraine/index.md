@@ -110,7 +110,7 @@ are some of the noteworthy places we checked out:
 [cemetery]: https://en.wikipedia.org/wiki/Lychakiv_Cemetery
 [try-mitly]: http://trumitlu.virtual.ua/?lang=en
 
-![test image](https://scottmuc.com/images/blog/career-break/lviv-tram.jpg)
+{{< figure src="lviv-tram.jpg" >}}
 L'viv is a city rich in culture, architecture, and friendly people. It's accessible with its [120 year old tram][tram]
 system, but remember to punch your ticket yourself (pictures to the left) and has all the things you need as a traveler.
 The city is sort of a dream land for me. It has excellent beer, chocolate, coffee, books, and food. The people are
@@ -143,8 +143,8 @@ cousin (Lilia and Natalia are my 2nd cousins 1st removed) and the family bond wa
 amazing cook! The meals included home made: cabbage rolls, varenyky (perogies), shkvarky (pork rind), sour cream, borscht, milk, and juice.
 I’m pretty sure I gained 5 kilos over those few days.
 
-![test image](https://scottmuc.com/images/blog/career-break/ternopil-beer1.jpg)
-![test image](https://scottmuc.com/images/blog/career-break/ternopil-beer2.jpg)
+{{< figure src="ternopil-beer1.jpg" >}}
+{{< figure src="ternopil-beer2.jpg" >}}
 The next day was spent driving to [Velyki Birky][village], a village outside of Ternopil. Our first stop was at Mariia’s parents (Hanna and
 Fedoz). First we stopped by a house which was a family run brewery (business card pictured). One of the sons of the owner was there and he
 happily (in excellent English) explained the whole operation. The beer was fresh, un-pasterized, un-filtered, and

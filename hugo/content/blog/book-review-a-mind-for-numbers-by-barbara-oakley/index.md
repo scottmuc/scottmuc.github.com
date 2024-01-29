@@ -9,7 +9,7 @@ aliases:
 
 ---
 
-[![test image](https://scottmuc.com/images/blog/l2l/book.jpg)][book]
+[{{< figure src="book.jpg" >}}][book]
 Over the last 4 weeks I've been taking the [Coursera][coursera] course [Learning how to Learn][course-homepage] on the
 recommendation of my friend [Srini][srini-twitter]. The 2nd assignment in the course is to create a presentation or some
 form of media to present an understanding of the topics. An accompaniment to the course is the book,
@@ -92,7 +92,7 @@ You know when you have yesterdays problem figured out in the morning during your
 Using the workout analogy, this is like using your in-shape body to enjoy life: traveling, playing with your children,
 fixing up your garden.
 
-![test image](https://scottmuc.com/images/blog/l2l/diffuse-focused.jpg)
+{{< figure src="diffuse-focused.jpg" >}}
 What's important to understand is that both of these modes can't operate at the same time. I [even wrote][flow-post]
 about this a while ago and this book has given me the knowledge to better understand what I was observing when I wrote
 that post. As a developer, the state of flow (deep focused mode) has its appeal, but breaking that up so that you can

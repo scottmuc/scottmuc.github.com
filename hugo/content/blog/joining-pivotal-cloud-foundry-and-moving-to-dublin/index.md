@@ -9,7 +9,7 @@ aliases:
 
 ---
 
-![test image](https://scottmuc.com/images/blog/pivotal-office.jpg)
+{{< figure src="pivotal-office.jpg" >}}
 
 It's been a while since I've posted a "life update". The **TL;DR** is that I have joined [Pivotal Cloud Foundry][pcf] in
 January and will be moving to [Dublin][dublin] in June.

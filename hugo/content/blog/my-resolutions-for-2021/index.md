@@ -18,14 +18,14 @@ in action! Let's start with some reflections:
   [Calgary][calgary-move] (over 11 years ago)! I'm loving my home and my life here so I don't see myself moving again
   anytime soon. Here's a view of my happy place in my flat (Meine Wohnung).
 
-  ![test image](https://scottmuc.com/images/blog/2021-happy-place.jpg)
+  {{< figure src="2021-happy-place.jpg" >}}
 * I managed to do start some initiatives related to my [2019 goal][2019-goals] around game streaming!. My videos have
   been vieed 377 times and watched for 71hrs. The [Soul Level 1 Dark Souls play through][soul-level1] is by far my favourite. It's
   really a shame I lost episode 1 on Twitch. I learned that doing these streams and videos does take a lot of time and
   energy and doing it while working full time is not feasible for me (I did these videos during a couple months break
   from work).
 
-  ![test image](https://scottmuc.com/images/blog/2020-youtube-stats.png)
+  {{< figure src="2020-youtube-stats.png" >}}
   <br style="clear:both" />
 * Journal entries: 27 - I found myself writing in my journal a lot less in 2020. This is not something I want to abandon
   this year. Reading my previous entries has been valuable to me. That being said, I've probably written more words in
@@ -49,7 +49,7 @@ in action! Let's start with some reflections:
   has been the best activity for me. Even walking long distances hasn't been good. I want to incorporate bicycling with
   how I travel and experience Germany. I have a MASSIVE goal around biking to Luxembourg for a wedding.
 
-  ![test image](https://scottmuc.com/images/blog/2021-bike.jpg)
+  {{< figure src="2021-bike.jpg" >}}
   <br style="clear:both" />
 * **Launch Personal Finance Site** - The first two goals wouldn't have seemed feasible to me but the way I've been
   managing my money has opened them up to me. At the moment there's a skeleton of a website for a project that I've

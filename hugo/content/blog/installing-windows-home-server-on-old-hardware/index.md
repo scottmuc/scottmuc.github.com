@@ -23,7 +23,7 @@ The next block was the installer would not continue with less than 512MB of RAM.
 
 A quick reboot later and I now discover that the installer does not have drivers for my Promise card. Instead of trying to find drivers I decided to ditch the card. Sure I'll only have ATA 33 hardrive speeds but who cares since my network will be more of a bottleneck anyways and I'm the only user too. Hopefully this decision doesn't come and haunt me later.
 
-![test image](https://scottmuc.com/images/blog/whs_install.jpg)
+{{< figure src="whs_install.jpg" >}}
 
 Finally I am at a point where the installer gets going! Figuring that this was going to take a while I take a break and watch [Adam Scott](http://www.pgatour.com/golfers/024502/adam-scott/) win the Byron Nelson Championship. Go Adam Scott!
 
@@ -33,5 +33,5 @@ Everything then went smoothly! *39* Windows Updates had to be installed but that
 
 Anyways, that's my tale of installing WHS on older hardware. I hope this encourages people to recycle their old computers for this task rather than throwing them away. I always love getting the most out of old computer hardware that people think is useless. Heck, to me a PIII 866 still seems like a pretty decent machine!
 
-![test image](https://scottmuc.com/images/blog/rack_1.jpg)
+{{< figure src="rack_1.jpg" >}}
 
