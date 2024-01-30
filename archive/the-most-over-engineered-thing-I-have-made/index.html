@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The Most Over-Engineered Thing I Have Made - More Muc Than You Can Handle</title>
+  <meta name="author" content="Scott Muc">
+
+  
+  <meta name="description" content="The other day I overheard some interns boasting about their complicated shell setup. They felt pretty good about
+using tmux, zsh, and aliasing the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://scottmuc.com/archive/the-most-over-engineered-thing-I-have-made">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
+  <link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
+
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.scottmuc.com/scottmucblog" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
+  <li><a href="https://github.com/scottmuc/">Github</a></li>
+  <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
+  <li><a href="/about/">About Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">The Most Over-Engineered Thing I Have Made</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-25T08:13:00+00:00" pubdate data-updated="true">Jun 25<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>The other day I overheard some interns boasting about their complicated shell setup. They felt pretty good about
+using tmux, zsh, and aliasing the heck out of everything. One of them had to re-map copy and paste because they messed
+that up, but they felt awesome when they figured out a clever work around.</p>
+
+<p>We&rsquo;ve all been there at some point. It&rsquo;s something that you grow out of over time. At least I hope so. Here&rsquo;s a story of
+the most complicated thing I&rsquo;ve made and I&rsquo;ll start with a network diagram of my basement suite circa 2003:</p>
+
+<p><a href="/images/blog/complicated-network.png" title="Network Diagram"><img class="center" src="/images/blog/complicated-network.png" width="600"></a></p>
+
+<h2>My Contribution to Over-Engineering</h2>
+
+<p>Hmm, after looking at that network diagram again, I&rsquo;m now thinking about how complicated I&rsquo;ve made a lot of things!
+Anyways, the most complicated thing I&rsquo;ve made was a music playing setup for my home. Doesn&rsquo;t sound like it should
+be complicated, right?</p>
+
+<p>Here are some of the requirements:</p>
+
+<ul>
+<li>Rebooting my laptop doesn&rsquo;t stop the music. I was quad booting (that&rsquo;s another story) and would switch frequently</li>
+<li>Control can be from any computer (I did some NAT translation so I could control it from outside the house too)</li>
+<li>The machine playing the music had to be quiet (PCs those days were much louder)</li>
+</ul>
+
+
+<h3>Architecture</h3>
+
+<blockquote><p>The result was an mp3 playing system that required 5 computers in order to work.</p></blockquote>
+
+<p><a href="/images/blog/complicated-rack.jpg" title="Server Rack"><img class="right" src="/images/blog/complicated-rack.jpg" width="300"></a> First there was the <strong>file server</strong> that contained
+all my music. It would expose files to the network via Nfs and Samba. I was pretty meticulous when it came to
+organizing my files. Every artist had a directory, and every album was a sub-directory. In case you&rsquo;re wondering,
+I organized artist names as <em>Last Name, First Name</em>. All the mp3s were created by ripping my personal CD collection.</p>
+
+<p>Second was the <strong>music player</strong> box. This was an underclocked machine with no hard drive. This way I was able to run it
+without any fans except for the power supply. It used PXE boot load the operating system and would Nfs mount it&rsquo;s filesystem.
+The only thing running on it was <a href="http://www.musicpd.org/" title="Music Player Daemon Website">music player daemon</a> which played mp3s that were also Nfs mounted.</p>
+
+<p>So since I required PXE boot, I setup a <strong>network config</strong> server. It was my local DNS, DHCP, and TFTP host. I
+configured DHCP to respond to the MAC address of the music player box and provide it a TFTP location to fetch its kernel.
+I had a DNS zone setup that handled internal .muc-central.com records (eg: jukebox.muc-central.com).</p>
+
+<p>Those 3 servers were sufficient to have a working music playing system, but it didn&rsquo;t have a user interface. This
+required the addition the <strong>web server</strong> which ran Apache and PHP to host <a href="http://mpd.wikia.com/wiki/Client:PhpMp" title="PHP Music Player">PhpMp</a> that connected to the music
+player boxes <code>mpd</code> service.</p>
+
+<p>Now with a UI, you can start playing songs, and update a playlist from any machine in the house. The 5th machine is the
+<strong>client</strong>, which was my laptop at the time. This was before the era of smart phones, but I imagine with some tweaks, a
+mobile web browser would have worked just fine too.</p>
+
+<h2>The Result</h2>
+
+<p><a href="/images/blog/complicated-livingroom.jpg" title="Living Room"><img class="left" src="/images/blog/complicated-livingroom.jpg" width="515"></a>
+<a href="/images/blog/complicated-ui.jpg" title="Screenshot"><img class="left" src="/images/blog/complicated-ui.jpg" width="515"></a></p>
+
+<p><span style="color: #eaeaea;">hack to break the floats</span></p>
+
+<p>The machine that plays music is in a closet near the entrance into my apartment. Then I setup some shelves to
+put my <a href="http://www.amazon.com/Altec-Lansing-ACS48-Computer-Speakers/product-reviews/B00000JBJF" title="ACS48 Reviews">Altec Langsing ACS48</a> speakers on top of. The volume on the speakers was set to max so the volume could be
+controlled through the software.</p>
+
+<p>The web interface wasn&rsquo;t fancy but I still prefer it to many of the applications I&rsquo;ve used recently. It&rsquo;s a basic PHP
+app called <a href="http://mpd.wikia.com/wiki/Client:PhpMp" title="PHP Music Player">PhpMp</a>. What I liked about it the most was the playlist was easy to modify. My friends would browse
+the music collection and click a link to add a song to the playlist. The only picture I can find is an old desktop
+screenshot where you can see the playlist in the bottom left of the screen.</p>
+
+<h2>Lesson Learned</h2>
+
+<p>Although I would never set something up like that again, I&rsquo;m glad I did it. It was an excellent learning experience and
+it actually was one of the best digital music setups I had. It also was the gateway to me starting to write technical
+<a href="http://muc-central.com/articles/index.php?file=FreeBSD%20Jukebox" title="My First Online Article">articles</a> online 10 years ago! While listening to the interns, it came to me that this is simply a right
+of passage. I don&rsquo;t think I would be where I am today if I did the simplest thing to solve all my problems. One thing it
+did make me think about is that I probably should contrive complex solutions as a way to practice my understanding
+of of complex systems.</p>
+
+<p>Things I learned by doing this:</p>
+
+<ul>
+<li>PXE booting</li>
+<li>Diskless computing</li>
+<li>TFTP</li>
+<li>Non trivial DHCP</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Scott Muc</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-25T08:13:00+00:00" pubdate data-updated="true">Jun 25<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/going-post-kanban-with-a-shark-tank/" title="Previous Post: Replacing the Kanban Board with a Shark Tank">&laquo; Replacing the Kanban Board with a Shark Tank</a>
+      
+      
+        <a class="basic-alignment right" href="/valuable-links-vim/" title="Next Post: Valuable Links - Vim">Valuable Links - Vim &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2024 - Scott Muc -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'scottmuc-dot-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'https://scottmuc.com/archive/the-most-over-engineered-thing-I-have-made/';
+        var disqus_url = 'https://scottmuc.com/archive/the-most-over-engineered-thing-I-have-made/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

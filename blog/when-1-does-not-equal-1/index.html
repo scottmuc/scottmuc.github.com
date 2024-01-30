@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<title>When 1 Does Not Equal 1</title>
+	
+	<meta name="author" content="map[email:scottmuc@gmail.com name:Scott Muc]">
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<time>Feb 27, 2009</time>
+			<h1>When 1 Does Not Equal 1</h1>
+			<div>
+				<p>I&rsquo;m starting to get comfortable with <a href="http://nhforge.org/Default.aspx">NHibernate</a> but I&rsquo;ve been <a href="http://en.wikipedia.org/wiki/Cowboy_coding">cowboy coding</a> it without any testing framework to let me know if my mappings are really doing what I think they are doing. I&rsquo;m starting to get tired of manually interacting with my applications to see if things work so I&rsquo;ve begun the course of starting database integration testing. For the most part, it&rsquo;s all about testing my mapping files.</p>
+<p>Because these tests are meant to be automated, I wanted to be as easy as possible to get the test framework into a consistent state. I found tool called <a href="http://code.google.com/p/ndbunit/">NDbUnit</a> and it allowed me to dump data stored in Xml straight to your database. It was looking great until I found out it didn&rsquo;t support <a href="http://www.sqlite.org/">SQLite</a> which is the database engine I want to use for the testing because of speed reasons. At least the tool is extensible and I took some time to write a SQLite portion to the codebase.</p>
+<p>Anyways, enough about what lead me to this post. During the development of SQLite integration I came across a weird bug. A feature of NDbUnit is to allow a refresh of the data, so you can merge/update/insert new data without having to completely remove everything from the test database. One of the parts of this code is to compare the data set from the xml file to the data in the database. To find out if an <strong>UPDATE</strong> needs to be done versus and <strong>INSERT</strong> is by the return value of this method:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>It simply goes through all the keys of the table, and if they are all equal, then we&rsquo;ve found a tuple that needs to be updated. Seems pretty straightforward, and not a method that I would presume would cause any problems. Strangely enough, here is where some strangeness started to occur. This method would always return false! I hooked up the debugger and inspected the rows and everything seemed normal. Until what seemed like the 30th time; I noticed something. The row from the XML had 32 bit IDs while the row from the SQLite database had 64 bit IDs.</p>
+<figure><img src="debugger_tail_32bit.png"/>
+</figure>
+
+<p>and here&rsquo;s what that DataRow object was being compared to:</p>
+<figure><img src="debugger_tail_32bit.png"/>
+</figure>
+
+<p>I didn&rsquo;t want jump to conclusions as to whether or not I found my problem so I wrote a test. Sure enough, the following test fails (and for good reason).</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Since SQLite always uses 64 bits for its integers I simply made a copy of the XSD file (which defines how the XML data relates to the database schema) and replaced the xs:int id declarations with xs:long data type.</p>
+<p>The End.</p>
+
+			</div>
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>Copyright &copy; 2024 Scott Muc</p>
+	</footer>
+</body>
+</html>

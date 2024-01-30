@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The Madness Must Stop! - PowerShell Package Management - More Muc Than You Can Handle</title>
+  <meta name="author" content="Scott Muc">
+
+  
+  <meta name="description" content="As a publisher for a few Powershell modules I&rsquo;m getting frustrated by the lack of standarization in the community on how to support versioning &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://scottmuc.com/archive/blog/development/the-madness-must-stop-powershell-package-management">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
+  <link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
+
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.scottmuc.com/scottmucblog" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
+  <li><a href="https://github.com/scottmuc/">Github</a></li>
+  <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
+  <li><a href="/about/">About Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">The Madness Must Stop! - PowerShell Package Management</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-10T10:57:00+00:00" pubdate data-updated="true">Oct 10<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>As a publisher for a few Powershell modules I&rsquo;m getting frustrated by the lack of standarization in the community on how to support versioning, deployment and conventions within Powershell module distribution. All I can find is rather adhoc mechanisms of sharing poorly written code with the &ldquo;use at your own risk&rdquo; kinds of disclaimers.</p>
+
+<!-- more -->
+
+
+<p>I keep on looking at the ruby community with their amazing tools like rvm, ruby gems, and bundler to make ruby scripting highly testable and repeatable. The formalization also means that you don&rsquo;t see people writing ruby code with random imports and magical includes that only work in very specific scenarios. By creating a community around gems and some basic standards, it&rsquo;s forced developers to factor their ruby code accordingly and modularize when necessary.</p>
+
+<p>So far I&rsquo;ve found the following package management tools for Windows:</p>
+
+<ul>
+<li>Nuget &ndash; conversations online have lead me to understand that nuget isn&rsquo;t meant for powershell</li>
+<li>OpenWrap &ndash; still under evaluation</li>
+<li>Chocolatey (by Rob Reynolds) &ndash; wrapper around nuget. Seems to be about config management like Puppet and Chef.</li>
+<li>Chewie (by Eric Ridgeway) &ndash; bundler for nuget. Could have some input on how to manage PS module packages. Potential to be the front end for managing suites of modules.</li>
+<li>Web Platform Installer &ndash; not even going to go there</li>
+<li>PS-Get (by Andrew Nurse) &ndash; built around nuget but Andrew has the MS connection to make it popular.</li>
+<li>PS-Get (by Mike Chaliy) &ndash; my favourite but needs some growth in the community. A showcase for simplest thing that can possibly work.</li>
+<li>Nugit &ndash; almost forgot about this late entry. Don&rsquo;t know anything about it yet.</li>
+</ul>
+
+
+<p>Here&rsquo;s my wishlist (that none of the above can fulfill):</p>
+
+<ul>
+<li>Ability to deploy multiple versions of the same package</li>
+<li>Different levels of isolation (System | Profile | Project ) levels</li>
+<li>A management tool so that projects can declare versions and packages that they need along with dependency chaining (ala bundler and ivy)</li>
+<li>Packages can be stored in many different locations (Nuget.org, github, some url pattern)</li>
+</ul>
+
+
+<p>History has shown that pretty much all languages need their own package management system (which can then be wrapped by a system level package manager). I vote that some of us in the community have a round-table and discuss how to move forward with this. There&rsquo;s so much to learn from what already exists to get Windows out of the scripting ghetto.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Scott Muc</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-10T10:57:00+00:00" pubdate data-updated="true">Oct 10<span>th</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/development/powershell-bdd-testing-pester-screencast/" title="Previous Post: PowerShell BDD Testing - Pester Screencast">&laquo; PowerShell BDD Testing - Pester Screencast</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/development/simplifying-ruby-installation-in-windows/" title="Next Post: Simplifying Ruby Installation in Windows">Simplifying Ruby Installation in Windows &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2024 - Scott Muc -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'scottmuc-dot-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'https://scottmuc.com/archive/blog/development/the-madness-must-stop-powershell-package-management/';
+        var disqus_url = 'https://scottmuc.com/archive/blog/development/the-madness-must-stop-powershell-package-management/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

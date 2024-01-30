@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://scottmuc.com/archive/sitemap.xml 

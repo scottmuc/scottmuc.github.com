@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<title>Unit Testing Domain Persistence With NDbUnit</title>
+	
+	<meta name="author" content="map[email:scottmuc@gmail.com name:Scott Muc]">
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<time>Mar 9, 2009</time>
+			<h1>Unit Testing Domain Persistence With NDbUnit</h1>
+			<div>
+				<p>Ever since I&rsquo;ve begun using NHibernate the number one thing that&rsquo;s caused me a lot of headaches is learning how to properly map my domain objects. Even the most basic mappings I wrote had bugs simple because I overlooked trivial items. This made me realize that I could save a lot of time and hassle if I unit tested by data access layer.</p>
+<p>Ever since I&rsquo;ve begun using NHibernate the number one thing that&rsquo;s caused me a lot of headaches is learning how to properly map my domain objects. Even the most basic mappings I wrote had bugs simple because I overlooked trivial items. This made me realize that I could save a lot of time and hassle if I unit tested by data access layer.</p>
+<p>I&rsquo;m a neophyte when it comes to unit testing, but over the last six months I&rsquo;ve started to understand the benefits of testing and where it fits in with my development cycle. In order to test my mappings I needed a simple way of placing dummy data into my database. I also wanted to use SQLite as my test database implementation for simplicity, and speed reasons. When a new developer jumps on board, I think it would be cool if they can run the database unit test suite without having to setup SQL Server, or any other database application server. My research led me to a project called NDbUnit. It allows a simple way to populate a database with data from an Xml DataSet. This is exactly what I wanted, but it did not support SQLite. I took the plunge and implemented a SQLite provider and even got it added to their codebase! <a href="/blog/development/when-1-does-not-equal-1-a-debugging-tale/">I&rsquo;ve already blogged</a> about that tangent here.</p>
+<p>With tools in hand I started creating an integration test suite for the CBC Radio 3 website codebase. The website is currently undergoing a re-write where I am migrating from my hand written data access layer to an NHibernate based DAL (Data Access Layer). Oh how do I wish I wrote it with NHibernate from the beginning :-). The current database has 92 tables and I&rsquo;ve only just begun mapping them to proper Domain objects. So far I&rsquo;ve written about 20 Domain objects and I&rsquo;ve hit enough walls with the mapping files. I realized that I needed a testing foundation to assert the persistence of my domain objects.</p>
+<p>Enough about my objectives, here&rsquo;s how I plan on making a database testing suite that doesn&rsquo;t get bogged down by the size of the domain or the number of repositories I have.</p>
+<p>I&rsquo;ve attached an NDbUnit demo code base that should be fully runnable within Visual Studio if you care to try this out for yourself. Note that I&rsquo;ve used a lot of thirdparty tools to assist with this setup:</p>
+<ul>
+<li>Castle.Windsor</li>
+<li>Rhino.Commons.Binsor</li>
+<li>Castle.Facilities.NHibernateIntegration</li>
+<li>NHibernate</li>
+</ul>
+<p>The first step in setting all this up is my first test which does not have any assertions. It&rsquo;s existence is purely to have a simple way of creating the SQLite database file with the schema populated from the Domain.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#a6e22e">[Fact(Skip = &#34;Only need this to setup the DB&#34;)]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> CreateDatabaseSchemaFromMappingFiles() 
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    IWindsorContainer container = <span style="color:#66d9ef">new</span> WindsorContainer()
+</span></span><span style="display:flex;"><span>        .Install(BinsorScript.FromFile(TestConfiguration.BinsorConfig));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> cfg = container.Resolve&lt;Configuration&gt;();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> schema = <span style="color:#66d9ef">new</span> SchemaExport(cfg);
+</span></span><span style="display:flex;"><span>    schema.Create(<span style="color:#66d9ef">true</span>, <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>To elaborate briefly, the first line gets the Windsor container from a Boo config file. Next, it obtains the NHibernate Configuration object from the container, then exports the schema. There&rsquo;s a lot of magic being done in these few lines of code and I would like to thank all those who worked on these projects for making my life a lot easier. My TestConfiguration class is just a wrapper around some hard coded string:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TestConfiguration</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">string</span> BinsorConfig = <span style="color:#e6db74">@&#34;..\..\config\container.boo&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">string</span> ConnectionString = <span style="color:#e6db74">@&#34;Data Source=ndbunitdemo.db;Version=3;New=True&#34;</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>The test setup is inspired by Chris Canal&rsquo;s post on &ldquo;Blistering Fast Integration Tests with NHibernate and SQLIte&rdquo;. My Boo config files are nearly identical to his, so I&rsquo;ll save the bits and not paste them here.</p>
+<p>Next I create a RepositoryTestBase to encapsulate the construction of my container and expose the ISessionManager to all my tests.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">RepositoryTestBase</span> : IDisposable
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> RepositoryTestBase()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        InitializeContainer();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> InitializeContainer()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (IoC.IsInitialized) <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> container = <span style="color:#66d9ef">new</span> WindsorContainer()
+</span></span><span style="display:flex;"><span>            .Install(BinsorScript.FromFile(TestConfiguration.BinsorConfig));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        IoC.Initialize(container);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">static</span> ISessionManager SessionManager
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">get</span> { <span style="color:#66d9ef">return</span> IoC.Resolve&lt;ISessionManager&gt;(); }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Dispose()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        IoC.Reset();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>So that&rsquo;s pretty much all the underlying infrastructure for my database tests so far. Since I have a lot of tables to test, and NDbUnit requires that I model them using Xml DataSet schema definitions I didn&rsquo;t want to put them all in one file. I eventually came to the realization that I could segregate my XSD files to contain only the tables that I needed to test certain Aggregate Roots (although I barely know if I&rsquo;m using that term correctly). When testing my IArtistRepository, I didn&rsquo;t want to have to put Blog tables in my XSD and vice-versa. I eventually came up with a directory structure to deal with separating the concerns of my database tests. Each repository would get its own directory/namespace for all the classes that it&rsquo;s concerned with.</p>
+<p>I ended up designing the system so I have three repositories that returned a BlogPost, User, and Profile. So in my integration test suite I have directories for { Blog, Profiles, Users } to group repository functionality.</p>
+<p>In each repository directory I create a custom test context class as a base class for all other fixtures in the directory. This test context will be used to expose the repository that&rsquo;s under test, and to populate the dummy database using NDbUnit. Here&rsquo;s an example of the UserRepositoryTestContext</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserRepositoryTestContext</span> : RepositoryTestBase
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">static</span> IUserRepository Repository
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">get</span> { <span style="color:#66d9ef">return</span> IoC.Resolve&lt;IUserRepository&gt;();  }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> UserRepositoryTestContext()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> dbUnitTest = <span style="color:#66d9ef">new</span> SqlLiteUnitTest(TestConfiguration.ConnectionString)
+</span></span><span style="display:flex;"><span>                             {
+</span></span><span style="display:flex;"><span>                                 QuotePrefix = <span style="color:#e6db74">&#34;[&#34;</span>,
+</span></span><span style="display:flex;"><span>                                 QuoteSuffix = <span style="color:#e6db74">&#34;]&#34;</span>
+</span></span><span style="display:flex;"><span>                             };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">string</span> xmlPath = <span style="color:#e6db74">@&#34;..\..\Users\Xml\&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        dbUnitTest.ReadXmlSchema(Path.Combine(xmlPath, <span style="color:#e6db74">&#34;UsersDS.xsd&#34;</span>));
+</span></span><span style="display:flex;"><span>        dbUnitTest.ReadXml(Path.Combine(xmlPath, <span style="color:#e6db74">&#34;Users.xml&#34;</span>));
+</span></span><span style="display:flex;"><span>        dbUnitTest.PerformDbOperation(DbOperationFlag.CleanInsert);            
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>The XSD for this section contains a dataset that for the Users, Roles, and UserRoles tables and the dummy data looks something like the following:</p>
+<figure><img src="UsersDS.jpg"/>
+</figure>
+
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34; ?&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;UsersDS</span> <span style="color:#a6e22e">xmlns=</span><span style="color:#e6db74">&#34;http://tempuri.org/UsersDS.xsd&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;Users&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Id&gt;</span>1<span style="color:#f92672">&lt;/Id&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Name&gt;</span>User1<span style="color:#f92672">&lt;/Name&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/Users&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;Users&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Id&gt;</span>2<span style="color:#f92672">&lt;/Id&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Name&gt;</span>User2<span style="color:#f92672">&lt;/Name&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/Users&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;Roles&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Id&gt;</span>1<span style="color:#f92672">&lt;/Id&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Name&gt;</span>Admin<span style="color:#f92672">&lt;/Name&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/Roles&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;Roles&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Id&gt;</span>2<span style="color:#f92672">&lt;/Id&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Name&gt;</span>User<span style="color:#f92672">&lt;/Name&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/Roles&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;UserRoles&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;UserId&gt;</span>1<span style="color:#f92672">&lt;/UserId&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;RoleId&gt;</span>1<span style="color:#f92672">&lt;/RoleId&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/UserRoles&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;UserRoles&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;UserId&gt;</span>2<span style="color:#f92672">&lt;/UserId&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;RoleId&gt;</span>2<span style="color:#f92672">&lt;/RoleId&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/UserRoles&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/UsersDS&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Now I can write succinct unit tests leveraging all the infrastructure that I&rsquo;ve put in place:</p>
+<p>The User domain object is quite simple and that&rsquo;s why I also have tests for a simple BlogPost class that has a child collection of Comments. Using a similar structure I can write painless tests like the following:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserPersistenceTests</span> : UserRepositoryTestContext
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">    [Fact]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Can_retrieve_user_from_repository()
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">using</span> (SessionManager.OpenSession())
+</span></span><span style="display:flex;"><span>        {                
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">var</span> user = Repository.GetById(<span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>            Assert.Equal(<span style="color:#ae81ff">1</span>, user.Id);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>With this kind of segregation between the repository tests I don&rsquo;t have to worry about creating XSD DataSets for my entire database in one file. I can pick and choose the tables I want to test directly using NDbUnit. For my Blog tests, I didn&rsquo;t want to worry about User persistence even though it&rsquo;s mapped as a property on my BlogPost class. By leveraging lazy loading I don&rsquo;t need to worry that I don&rsquo;t have a valid User object in the database because my tests never access the User property, therefore I don&rsquo;t get any exceptions when the NHibernate generated proxy attempts to obtain that entity from the session/database.</p>
+<p>That concludes my one week analysis of using NDbUnit to testing my NHibernate persistence layer. Please leave a comment if you have suggestions on this setup. So far this setup hasn&rsquo;t caused me too much grief, but it&rsquo;s only been in use for a few days. On the surface it seems clean to me, but take it all with a grain of salt.</p>
+
+			</div>
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>Copyright &copy; 2024 Scott Muc</p>
+	</footer>
+</body>
+</html>

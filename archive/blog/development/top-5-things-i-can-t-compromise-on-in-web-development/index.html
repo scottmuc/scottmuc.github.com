@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Top 5 Things I Cannot Compromise in Web Development - More Muc Than You Can Handle</title>
+  <meta name="author" content="Scott Muc">
+
+  
+  <meta name="description" content="Over the past few months I&rsquo;ve realized that I&rsquo;m a stubborn mule when it comes to certain aspects of web development. After some internal &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://scottmuc.com/archive/blog/development/top-5-things-i-can-t-compromise-on-in-web-development">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
+  <link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
+
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.scottmuc.com/scottmucblog" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
+  <li><a href="https://github.com/scottmuc/">Github</a></li>
+  <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
+  <li><a href="/about/">About Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Top 5 Things I Cannot Compromise in Web Development</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-11-27T16:33:00+00:00" pubdate data-updated="true">Nov 27<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Over the past few months I&rsquo;ve realized that I&rsquo;m a stubborn mule when it comes to certain aspects of web development. After some internal reflection I&rsquo;ve come up with my top 5 things I strongly feel that I won&rsquo;t compromise on in the web development process. These items are just for the presentation layer, I&rsquo;m loaded with issues deeper into the development stack.</p>
+
+<!-- more -->
+
+
+<p><em>1 &ndash; URLs must be as beautiful as possible</em></p>
+
+<p>I really don&rsquo;t need to say much about this because <a href="http://mikeschinkel.com/blog/welldesignedurlsarebeautiful/">Mike Schinkel</a> has already said it all. We&rsquo;ve been contemplating the use of <a href="http://www.asual.com/swfaddress/">SWFAddress</a> as a method of deep linking because the new <a href="http://radio3.cbc.ca/">Radio 3 website</a> is wrapped in a FrameSet therefore you don&rsquo;t see the URL change in the Address bar of a web browser. I know how well deep linking solves this problem, but I still have a hard time looking at a URL with the hash (#). I personally would never use it for a personal website because that 1 character of noise is so distracting to me.</p>
+
+<p>Secondly, I believe urls should be guessable and hackable. <a href="http://stackoverflow.com/">Stackoverlow</a> has some clean urls but they aren&rsquo;t perfect. They are somewhat hackable, but what&rsquo;s with have the database key in the url? this makes urls impossible to guess. I really wish my profile URL was: <a href="http://stackoverflow.com/users/scott-muc">http://stackoverflow.com/users/scott-muc</a> instead.</p>
+
+<p><em>2 &ndash; Web pages must be constructed with semantic markup with no display decoration</em></p>
+
+<p>Seperating the design from the markup can be difficult but when done correctly it is a thing of beauty. The introduction of <a href="http://microformats.org/">micro-formats</a> has made me see a huge potential in the markup as data and not about display. I&rsquo;m extremely impressed by <a href="http://content.corkd.com/">Corkd</a> because you can actually use their website markup as a database for their wine reviews because of their usage of the <a href="http://microformats.org/wiki/hreview">hreview</a> microformat.</p>
+
+<p>Along with that I believe the markup should contain zero inline CSS and javascript. Easier said than done, but I simply believe that CSS should belong in the stylesheet files (or in the page header in the worst case). Inline boot strapping javascript I find ok, but using inline javascript to handle click events is really messy.</p>
+
+<p><em>3 &ndash; No browser specific CSS and/or hacks</em></p>
+
+<p>The first time I learned about the <a href="http://css-discuss.incutio.com/wiki/Star_Html_Hack">Star Hack</a> I was in heaven. I finally felt I could make IE 6 work. Unfortunately this hack came with the cost of making CSS maintenance difficult. It takes more time, but having a design that requires the minimal amount of IE 6 only hacks the better. Or better yet, don&rsquo;t do any IE 6 hacks and just use <a href="http://www.alistapart.com/articles/progressiveenhancementwithcss">progressive enhancement</a> and don&rsquo;t fret about IE 6 looking bad in some situations. It&rsquo;s simply not worth the time because we all have better things to do than support a nearly 10 year old web browser.</p>
+
+<p><em>4 &ndash; No flash or objects on the page</em></p>
+
+<p>Flash creates a load delay that&rsquo;s an order of magnitude slower than a regular text only page load. I do like flash and a lot of the features it provides, but I think the best usage of flash is to only load it when the user wishes to use a feature that requires flash. The embedable music players and the embedded youtube videos are the worst offenders in my humble opinion. These can easily be handled by loading of the flash on click events.</p>
+
+<p><em>5 &ndash; Don&rsquo;t let your server side application framework take over your markup</em></p>
+
+<p>The majority of my web experience is with Asp.Net and I really don&rsquo;t like how some of the controls create horrible markup. I&rsquo;m a big fan of the Repeater and ListView controls simply because I have 100% control over the markup they create. I can&rsquo;t say I&rsquo;ve ever used GridView in a production web site.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Scott Muc</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-11-27T16:33:00+00:00" pubdate data-updated="true">Nov 27<span>th</span>, 2008</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/development/it-s-good-to-laugh-at-your-old-code/" title="Previous Post: It Is Good To Laugh At Your Old Code">&laquo; It Is Good To Laugh At Your Old Code</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/development/handy-web-path-concatenation-code/" title="Next Post: Handy Web Path Concatenation Code">Handy Web Path Concatenation Code &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2024 - Scott Muc -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'scottmuc-dot-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'https://scottmuc.com/archive/blog/development/top-5-things-i-can-t-compromise-on-in-web-development/';
+        var disqus_url = 'https://scottmuc.com/archive/blog/development/top-5-things-i-can-t-compromise-on-in-web-development/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

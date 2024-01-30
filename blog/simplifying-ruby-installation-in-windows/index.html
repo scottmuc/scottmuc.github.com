@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<title>Simplifying Ruby Installation in Windows</title>
+	
+	<meta name="author" content="map[email:scottmuc@gmail.com name:Scott Muc]">
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<time>Nov 20, 2011</time>
+			<h1>Simplifying Ruby Installation in Windows</h1>
+			<div>
+				<p>The one thing that has always annoyed me with installing ruby on Windows is that at some point in time I always need to setup the DevKit because I want to install gems that require native extensions. Also, I want the ability to switch between different versions of ruby.</p>
+<h3 id="introducing-yari">Introducing Yari</h3>
+<p>yari is a tool (implemented in Powershell) I&rsquo;ve made to simplify both of these operations. Right now it&rsquo;s hard coded to only install the 2 ruby versions I care about right now.</p>
+<ul>
+<li>1.8.7 so I can play with <a href="http://projects.puppetlabs.com/projects/1/wiki/Puppet_Windows">Puppet</a></li>
+<li>1.9.2 to be bleeding edge</li>
+</ul>
+<p><strong>Installation</strong> is described in the readme on the github page. Once installed you can simply run yari from anywhere in the command prompt. Also, you can pass a -InstallMachine argument to yari and it will permanently configure your PATH for the ruby version selected.</p>
+<p>So far this tool has made my ruby management in Windows a lot simpler and hopefully it can help you out too. If you find it useful but can use a few changes please submit issues to the projects github page. Or better yet, fork it and submit a pull request.</p>
+<p>After installing, here&rsquo;s what you&rsquo;ll be able to do (and installing things that require native extensions will work):</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+			</div>
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>Copyright &copy; 2024 Scott Muc</p>
+	</footer>
+</body>
+</html>

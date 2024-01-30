@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<title>Setting up Overtone</title>
+	
+	<meta name="author" content="map[email:scottmuc@gmail.com name:Scott Muc]">
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="https://scottmuc.com/">More Muc Than You Can Handle</a>
+		</h1>
+	</header>
+
+	
+	<main>
+		<article>
+			<time>Jan 27, 2013</time>
+			<h1>Setting up Overtone</h1>
+			<div>
+				<p>Every now and then I like to sit in a coffee shop on a Sunday and focus on writing some code. This weekend I had the pleasure of spending this geeky time with a colleague, <a href="http://literateprogrammer.blogspot.in/">Chris Ford</a>(<a href="https://twitter.com/ctford">twitter</a>).</p>
+<p>Chris has gotten me interested into an open source toolkit for creating sounds and making music called <a href="https://github.com/overtone/overtone">Overtone</a>. Here&rsquo;s a talk about demonstrates functional composition using clojure through music and overtone.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Mfsnlbd-4xQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>That talk made me want to play with overtone. Here&rsquo;s the diary of my workstation setup.</p>
+<h2 id="leiningen">Leiningen</h2>
+<p><img src="http://leiningen.org/img/leiningen.jpg" alt="leinigen"> Thinking I know what I&rsquo;m doing I say &ldquo;So, Overtone is in Clojure, right? So I&rsquo;ll first install that.&rdquo;. To which he replied &ldquo;No, you need to install <a href="http://leiningen.org/">Leiningen</a>.&rdquo;. What?! I want to install clojure, why do I need this oddly named tool? Already my world has been turned upside down.</p>
+<p>Leiningen is a package manager for Clojure. I can&rsquo;t say I understand completely what it&rsquo;s doing, but when I did a <code>sudo port install leiningen</code> I saw Maven was being installed. Chris calmed me down and said that <code>lein</code> hides the pain so I don&rsquo;t have to worry about it.</p>
+<p>Sure enough, the install works. I run <code>lein new mucmusic</code> and a simple project structure is setup for me. I updated the <code>project.clj</code> to refer to the 1.4.0 version of Clojure.</p>
+<p>I then run <code>lein repl</code> and see the package manager at work. It downloads Clojure for me and I&rsquo;m in a repl. I try the most basic thing I know <code>(+ 1 1)</code> and it works! I can only imagine what&rsquo;s going on behind the scenes. I find it interesting that a package management tool is responsible for obtaining the language you&rsquo;re going to develop in. It makes a whole lot of sense actually. It&rsquo;s sort of like <a href="http://www.virtualenv.org/en/latest/">virtualenv</a>, but not quite.</p>
+<h2 id="clojure">Clojure</h2>
+<p><img src="http://clojure.org/space/showimage/clojure-icon.gif" alt="clojure"> Since I&rsquo;m still coming to grips on writing code in Clojure I can&rsquo;t comment on the language, but what I really like so far is how accessible the documentation is. Simply evaluating <code>(doc +)</code> will print the documentation for &lsquo;+&rsquo; function  and <code>(source +)</code> prints out the source code. The REPL made it very easy to get started.</p>
+<p>One thing that tripped me up was using a namespace I had defined. I learned the the &rsquo; character is used to indicate the following text is a symbol and not to be evaluated. Also, the first project I created had an underscore in it. In order to use that namespace I had to use a hyphen when using it.</p>
+<h2 id="overtone">Overtone</h2>
+<p><img src="http://overtone.github.com/media/logo.png" alt="overtone"> Happy that I can write and evaluate Clojure code it was time to setup Overtone. This part was really nice. All I did was update the <code>project.clj</code> file and added the overtone dependency. The next time I ran <code>lein repl</code> it downloaded overtone and set everything up for me.</p>
+<p>In the repl I loaded overtone via <code>(use 'overtone.live)</code> and here&rsquo;s the output:</p>
+<pre><code>reply.eval-modes.nrepl=&gt; (use 'overtone.live)
+--&gt; Loading Overtone...
+--&gt; Booting internal SuperCollider server...
+--&gt; Connecting to internal SuperCollider server...
+--&gt; Connection established
+
+    _____                 __
+   / __  /_  _____  _____/ /_____  ____  ___
+  / / / / | / / _ \/ ___/ __/ __ \/ __ \/ _ \
+ / /_/ /| |/ /  __/ /  / /_/ /_/ / / / /  __/
+ \____/ |___/\___/_/   \__/\____/_/ /_/\___/
+
+    Collaborative Programmable Music. v0.8
+
+Hello ThoughtWorks, just take a moment to pause and focus your creative powers...
+</code></pre>
+<p>Woah! Booting internal SuperCollider server? Is Clojure so powerful that I can run my own atom smasher?
+Turns out the answer is unknown on that, but what <code>overtone.live</code> does is smartly start up
+<a href="http://supercollider.sourceforge.net/">SuperCollider</a> which is &ldquo;an environment and programming language
+for real time audio synthesis and algorithmic composition&rdquo;. Ahh! So overtone needs this to actually
+create audio.</p>
+<p>I continue to follow the <a href="https://github.com/overtone/overtone">README</a> and make my first sound.</p>
+<pre><code>(demo (sin-osc))
+</code></pre>
+<p>This code rewards me with the beautiful sound that is a sine wave. Curious as to what <code>demo</code> and <code>sin-osc</code>
+do I load up the docs in the repl.</p>
+<pre><code>overtone.live/demo
+([&amp; body])
+Macro
+  Listen to an anonymous synth definition for a fixed period of time.
+  Useful for experimentation.  If the root node is not an out ugen, then
+  it will add one automatically.  You can specify a timeout in seconds
+  as the first argument otherwise it defaults to *demo-time* ms. See
+  #'run for a version of demo that does not add an out ugen.
+
+  (demo (sin-osc 440))      ;=&gt; plays a sine wave for *demo-time* ms
+  (demo 0.5 (sin-osc 440))  ;=&gt; plays a sine wave for half a second
+nil
+user=&gt; (doc sin-osc)
+</code></pre>
+
+			</div>
+			
+		</article>
+	</main>
+
+
+	<footer>
+		<p>Copyright &copy; 2024 Scott Muc</p>
+	</footer>
+</body>
+</html>

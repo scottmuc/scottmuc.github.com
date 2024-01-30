@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>book on More Muc Than You Can Handle</title>
+    <link>https://scottmuc.com/tags/book/</link>
+    <description>Recent content in book on More Muc Than You Can Handle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>scottmuc@gmail.com (Scott Muc)</managingEditor>
+    <webMaster>scottmuc@gmail.com (Scott Muc)</webMaster>
+    <copyright>Copyright © 2024 - Scott Muc</copyright>
+    <lastBuildDate>Sun, 26 Oct 2014 13:35:53 +0530</lastBuildDate>
+    <atom:link href="https://scottmuc.com/tags/book/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review - A Mind for Numbers by Barbara Oakley</title>
+      <link>https://scottmuc.com/blog/book-review-a-mind-for-numbers-by-barbara-oakley/</link>
+      <pubDate>Sun, 26 Oct 2014 13:35:53 +0530</pubDate><author>scottmuc@gmail.com (Scott Muc)</author>
+      <guid>https://scottmuc.com/blog/book-review-a-mind-for-numbers-by-barbara-oakley/</guid>
+      <description>Over the last 4 weeks I&amp;rsquo;ve been taking the Coursera course Learning how to Learn on the recommendation of my friend Srini. The 2nd assignment in the course is to create a presentation or some form of media to present an understanding of the topics. An accompaniment to the course is the book, A Mind for Numbers by Barbara Oakley (the primary course instructor), which is a short read but very insightful and full of references.</description>
+    </item>
+    <item>
+      <title>Book Review - Learning Continuous Integration with TeamCity by Manoj Mahalingam</title>
+      <link>https://scottmuc.com/blog/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/</link>
+      <pubDate>Mon, 13 Oct 2014 17:34:30 +0530</pubDate><author>scottmuc@gmail.com (Scott Muc)</author>
+      <guid>https://scottmuc.com/blog/book-review-learning-continuous-integration-with-teamcity-by-manoj-mahalingam/</guid>
+      <description>Disclaimer - I personally know Manoj and have worked with him in the past. I was asked to review his book, Learning Continuous Integration with TeamCity, by Packt Publishing.&#xA;As someone who had spent many years consulting around the benefits of CI and implementing build and release strategies, I was interested in how the minutiae would be brought up in a book.&#xA;The book begins by going through the creation and configuration of a similar build process for 3 specific tech stacks: Java, .</description>
+    </item>
+    <item>
+      <title>Book Review - The Art of Unit Testing by Roy Osherove</title>
+      <link>https://scottmuc.com/blog/book-review-the-art-of-unit-testing-by-roy-osherove/</link>
+      <pubDate>Wed, 08 Jul 2009 08:56:00 +0000</pubDate><author>scottmuc@gmail.com (Scott Muc)</author>
+      <guid>https://scottmuc.com/blog/book-review-the-art-of-unit-testing-by-roy-osherove/</guid>
+      <description>In a recent splurge I purchased 4 books from Manning Press with one of them being The Art of Unit Testing by Roy Osherove.&#xA;I would categorize myself as relatively new to unit testing. My first hands on testing was when I took the Nothing but .Net bootcamp with JP Boodhoo but he emphasized BDD style tests. I saw the benefit of BDD but didn&amp;rsquo;t feel I had the know how to implement them properly.</description>
+    </item>
+  </channel>
+</rss>

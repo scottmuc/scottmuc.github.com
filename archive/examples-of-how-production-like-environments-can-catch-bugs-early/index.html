@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Examples of How Production Like Environments Can Catch Bugs Early - More Muc Than You Can Handle</title>
+  <meta name="author" content="Scott Muc">
+
+  
+  <meta name="description" content="On a previous project, I witnessed a few interesting build breakages that we caught in CI
+that could have easily gotten passed our automated quality &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://scottmuc.com/archive/examples-of-how-production-like-environments-can-catch-bugs-early">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
+  <link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
+
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.scottmuc.com/scottmucblog" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
+  <li><a href="https://github.com/scottmuc/">Github</a></li>
+  <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
+  <li><a href="/about/">About Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Examples of How Production Like Environments Can Catch Bugs Early</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-08T17:03:00+00:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>On a previous project, I witnessed a few interesting build breakages that we caught in <a href="http://wikipedia.org/Continuous_Integration">CI</a>
+that could have easily gotten passed our automated quality gates. These issues would have hurt us in downstream
+environments.</p>
+
+<p>It&rsquo;s commonly referenced in the <a href="http://continuousdelivery.com/">Continuous Delivery</a> book that development
+environments should be as close to production like as possible. This might not
+be 100% possible but you can come close. What can come that close is your
+system integration test environment. On this project we had a typical
+web application architecture: web server, database server, and a load balancer
+to support multiple web servers. Here are a couple integration failures that we experienced:</p>
+
+<h2>Issue 1</h2>
+
+<p>A route in our application returned the version of the application and the
+hostname of the machine. It wasn&rsquo;t used by the application at all, but it was
+used in environments that had load balancers because it is what they used to
+detect the health of the application. Someone deleted this route and
+deployments ceased to be successful because the application was considered
+down by the load balancer so it returned <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html">HTTP 503</a>.</p>
+
+<p>Had our <a href="http://en.wikipedia.org/wiki/System_integration_testing">system integration</a> environment simply used the hostname of the
+application server, this would not have been caught until it made it to
+downstream environments. It was easy to fix and helped transfer knowledge to
+the team. It was also much less stressful to catch here than when a product
+owner is pushing something to UAT and things all of the sudden break.</p>
+
+<h2>Issue 2</h2>
+
+<p>A change to some application code used unconfigured database connection
+code. Default behaviour of the code is to connect to localhost when issuing
+queries against the database. This worked fine locally, but because the
+system integration environment seperated the database server from the web
+application server, this unconfigured code was caught before it made it to
+any other downstream environment.</p>
+
+<h2>Isn&rsquo;t That Overboard?</h2>
+
+<p>If I was managing environments manually, I would say yes. Since the environments
+are nearly 100% configured by <a href="http://opscode.com/chef">Chef</a> and our deployment code is automated, I don&rsquo;t think
+having the environment set up this way is going too far. It caught what could be
+extremely stressful defects to debug in production much earlier such that that our fixes
+could be done quickly and with confidence.</p>
+
+<p>I predict that in the future, tools like <a href="http://vagrantup.com/">vagrant</a> will help us setup these
+architectures on our local machines so that we can catch these issues before
+they even get checked into version control. Imagine developing software in
+a way that the mismatch between dev and prod becomes such a non-issue that
+it&rsquo;s no longer a worry? I look forward to helping make that world possible.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Scott Muc</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-08T17:03:00+00:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/chefconf-2012-in-summary/" title="Previous Post: ChefConf 2012 in Summary">&laquo; ChefConf 2012 in Summary</a>
+      
+      
+        <a class="basic-alignment right" href="/devops-days-2012-in-summary/" title="Next Post: Devops Days 2012 in Summary">Devops Days 2012 in Summary &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2024 - Scott Muc -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'scottmuc-dot-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'https://scottmuc.com/archive/examples-of-how-production-like-environments-can-catch-bugs-early/';
+        var disqus_url = 'https://scottmuc.com/archive/examples-of-how-production-like-environments-can-catch-bugs-early/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

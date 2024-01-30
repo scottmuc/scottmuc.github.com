@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Migrated to Octopress! - More Muc Than You Can Handle</title>
+  <meta name="author" content="Scott Muc">
+
+  
+  <meta name="description" content="It&rsquo;s funny how many posts there are from people who have migrated to Octopress. What would motivate someone to post their migration experience &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://scottmuc.com/archive/migrated-to-octopress">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
+  <link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
+
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.scottmuc.com/scottmucblog" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
+  <li><a href="https://github.com/scottmuc/">Github</a></li>
+  <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
+  <li><a href="/about/">About Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Migrated to Octopress!</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-15T08:45:00+00:00" pubdate data-updated="true">Jan 15<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>It&rsquo;s funny how many posts there are from <a href="https://www.google.com/search?q=migrating+to+octopress">people who have migrated to Octopress</a>. What would motivate someone to post their migration experience? I think I understand why. It&rsquo;s such a shift in thinking that it&rsquo;s worth talking about. My migration experience was so much pleasant that I feel that I must let everyone know.</p>
+
+<!-- more -->
+
+
+<p>So what&rsquo;s my motivation for moving to a new blogging platform? Was what I was using before broken? Not
+exactly, but I didn&rsquo;t enjoy the blogging experience that much because I found the experience to not be a
+lot of fun. I want to start writing more and feel that removing any barriers to this activity will get more
+content out there. I also didn&rsquo;t like having to rely on a server side application server. For a website that changes around 30 times a year, a database backed content management system was overkill. Also, the website was hosted on a friends server that I had no backups for, and didn&rsquo;t want to spend much effort creating a backup/restoration strategy.</p>
+
+<p>After some searching, I found <a href="http://jekyllrb.com/">jekyll</a>, wich I love for its simplicity. I was going to use bare bones jekyll but then I was directed to <a href="http://octopress.org/">Octopress</a> which is a framework to make working
+with jekyll a lot easier.</p>
+
+<p>Since I was on Windows my install was a bit different than the documentation. Luckily I have created a tool
+to make <a href="http://scottmuc.com/blog/development/simplifying-ruby-installation-in-windows/">ruby installation simple on Windows</a>. Here&rsquo;s everything I did to go from nothing to having a working
+blog hosted on github!</p>
+
+<ol>
+<li>Installed <a href="https://github.com/scottmuc/yari">yari</a>, and got my environment using ruby 1.9.2</li>
+<li>Followed the octopress <a href="http://octopress.org/docs/setup/">setup instructions</a></li>
+<li>Followed the octopress <a href="http://octopress.org/docs/deploying/github/">deployment instructions</a></li>
+</ol>
+
+
+<p>I was blown away when I saw my blog appear when I went to <a href="http://scottmuc.github.com/">scottmuc.github.com</a>.</p>
+
+<h3>Migration</h3>
+
+<p>Unfortunately my previous blog engine&rsquo;s export functionality is broken so migration had to be manual. Every post
+is going to be copy and pasted and re-linkified in markdown syntax. I wanted to get this new version up and
+running first so I made a few compromises.</p>
+
+<ol>
+<li>I decided not to migrate every post. Some of my old content doesn&rsquo;t really fit with the rest of the content
+so I decided to abandon the posts. I&rsquo;m keeping the <a href="http://old.scottmuc.com/">old blog</a> up and running so that people can still find the posts there if they really want them.</li>
+<li>Keeping links working is <strong>extremely</strong> important to me. Octopress provides the ability to set the permalink on
+an individual post which made this element of the migration super easy. Every blog post has &ldquo;front matter&rdquo; which is a little bit of YAML meta data. Adding a permalink value will make the post accessible from that URL path: <pre>permalink: /foo/bar/post</pre></li>
+<li>I went live with an incomplete migration. I only have about a third of my posts migrated. I did this so I can
+get this live and sort out issues right away before everything is migrated. Also, it&rsquo;s a way to motivate me to get
+everything into the new blog ASAP.</li>
+<li>Added a custom <a href="http://scottmuc.com/non-existent-page/">404</a> to guide those who want to see non-migrated content to the old blog.</li>
+<li>Added &ldquo;scottmuc.com&rdquo; to my CNAME file. I followed the instructions <a href="https://github.com/blog/315-cname-support-for-github-pages">here</a>. Note that this is enabled for non-paying users now! I use <a href="http://gandi.net/">gandi.net</a> for my DNS and updating the A record and CNAME (for www) was a snap.</li>
+</ol>
+
+
+<h3>Other Stuff</h3>
+
+<p>When setting up the blog I had an online discussion about how url design. I decided to leave dates out of my url
+and to include them in the title slug only when appropriate. I came to the conclusion that url slug design is
+extremely important and doesn&rsquo;t always have to be word for word related to the post title. Because Octopress is
+so easy to configure, the configuration setting for this is simply this value in _config.yml:</p>
+
+<pre>permalink: /:title/</pre>
+
+
+<p>I&rsquo;m now using other 3rd party services like feedburner, disqus, and gist.github.com. With all of these things
+taken care of for me, authoring a post is a call to <em>rake new_post[&ldquo;post title&rdquo;]</em>, edit in vim, and preview
+using <em>rake preview</em> to view the changes before I deploy them.</p>
+
+<p>The one thing I would like to change is learn how to create a custom theme. It&rsquo;s quite common to see a lot of
+octopress based blogs use the same default theme that I&rsquo;m using now.</p>
+
+<h3>Summary</h3>
+
+<p>Octopress is awesome! I love the workflow for authoring new content. I much prefer markdown over using some
+WYSIWIG editor over a web connection. The ability to do everything local means there&rsquo;s significantly less
+effort for me. I believe Octopress is an excellent example of how an excellent deployment mechanism can shift
+how work can be done. If pushing brand new code to production is that easy, it removes the need for complex
+server side code.</p>
+
+<p>Lastly, if you would like to see what a raw blog post looks like, take a look <a href="https://github.com/scottmuc/scottmuc.github.com/tree/source/source/_posts">here</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Scott Muc</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-15T08:45:00+00:00" pubdate data-updated="true">Jan 15<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/development/reflections-on-2-years-at-thoughtworks/" title="Previous Post: Reflections on 2 Years at ThoughtWorks">&laquo; Reflections on 2 Years at ThoughtWorks</a>
+      
+      
+        <a class="basic-alignment right" href="/intentional-programming/" title="Next Post: Intentional Programming aka Calling Your Shots">Intentional Programming aka Calling Your Shots &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2024 - Scott Muc -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'scottmuc-dot-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'https://scottmuc.com/archive/migrated-to-octopress/';
+        var disqus_url = 'https://scottmuc.com/archive/migrated-to-octopress/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

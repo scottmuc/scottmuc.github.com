@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Handy Web Path Concatenation Code - More Muc Than You Can Handle</title>
+  <meta name="author" content="Scott Muc">
+
+  
+  <meta name="description" content="Lot of web developement code is spent concatenating path snippets and I always hated having to deal with slashes. I wanted a function that was &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="https://scottmuc.com/archive/blog/development/handy-web-path-concatenation-code">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
+  <link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
+
+
+  
+
+</head>
+
+<body    class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.scottmuc.com/scottmucblog" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
+  <li><a href="https://github.com/scottmuc/">Github</a></li>
+  <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
+  <li><a href="/about/">About Me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Handy Web Path Concatenation Code</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-03T16:33:00+00:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Lot of web developement code is spent concatenating path snippets and I always hated having to deal with slashes. I wanted a function that was consistent with its return type, and very loose in its parameter requirements. I ended up with the following:</p>
+
+<!-- more -->
+
+
+<p><em>Test First</em>:</p>
+
+<div><script src='https://gist.github.com/1545719.js?file=WebPathSpecs.cs'></script>
+<noscript><pre><code>using bddunit.core;
+using CBC.Radio3.Commons.Specs;
+using Observation = MbUnit.Framework.TestAttribute;
+using SUT = CBC.Radio3.Commons.Web.WebPath;
+
+namespace CBC.Radio3.Commons.Web
+{
+    [Concern(typeof (WebPath))]
+    public class when_WebPath_Combines_a_bunch_of_strings : ContextSpecification
+    {
+        private string result;
+
+        protected override void establish_context()
+        {
+            
+        }
+
+        protected override void because()
+        {
+            result = SUT.Combine(&quot;/slashesonbothsides/&quot;, &quot;//doubleslash//&quot;, &quot;rightslash/&quot;, &quot;/leftslash&quot;, &quot;file.jpg&quot;);
+        }
+
+        [Observation]
+        public void should_return_an_absolute_web_path()
+        {
+            result.should_be_equal_to(&quot;/slashesonbothsides/doubleslash/rightslash/leftslash/file.jpg&quot;);
+        }
+    }
+}</code></pre></noscript></div>
+
+
+<p>The <a href="http://en.wikipedia.org/wiki/Behavior_Driven_Development">BDD</a> style of testing is inspired (and pretty much copied) from JP Boodhoo&rsquo;s Nothing but .Net class.</p>
+
+<p><em>Here&rsquo;s the code</em>:</p>
+
+<div><script src='https://gist.github.com/1545719.js?file=WebPath.cs'></script>
+<noscript><pre><code>using System.Text;
+
+namespace CBC.Radio3.Commons.Web
+{
+    public class WebPath
+    {
+        /// &lt;summary&gt;
+        /// Takes a parameter list of strings and returns the strings concatenated with a
+        /// preceding &#39;/&#39; character. If the string has a trailing/preceding slash it will
+        /// be removed. Any slashes in the middle of the string will remain.
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;paths&quot;&gt;&lt;/param&gt;
+        /// &lt;returns&gt;Contatenation of paths seperated by directory seperator&lt;/returns&gt;
+        public static string Combine(params string[] paths)
+        {
+            var sb = new StringBuilder();
+
+            foreach (var path in paths)
+                sb.AppendFormat(&quot;/{0}&quot;, path.TrimEnd(&#39;/&#39;).TrimStart(&#39;/&#39;));
+
+            return sb.ToString();
+        }        
+    }
+}</code></pre></noscript></div>
+
+
+<p>That was my first go at it. I have a feeling I might generalize the class to be a delimited string builder. Which would be nice because then the method won&rsquo;t be static. Anyways, just thought I would share something that I think is concise but will be used a lot.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Scott Muc</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-03T16:33:00+00:00" pubdate data-updated="true">Dec 3<span>rd</span>, 2008</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/development/top-5-things-i-can-t-compromise-on-in-web-development/" title="Previous Post: Top 5 Things I Cannot Compromise In Web Development">&laquo; Top 5 Things I Cannot Compromise In Web Development</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/development/my-developer-resolutions-for-2009/" title="Next Post: My Developer Resolutions For 2009">My Developer Resolutions For 2009 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2024 - Scott Muc -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'scottmuc-dot-com';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'https://scottmuc.com/archive/blog/development/handy-web-path-concatenation-code/';
+        var disqus_url = 'https://scottmuc.com/archive/blog/development/handy-web-path-concatenation-code/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

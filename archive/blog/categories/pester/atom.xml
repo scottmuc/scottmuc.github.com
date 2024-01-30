@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Pester | More Muc Than You Can Handle]]></title>
+  <link href="https://scottmuc.com/archive/blog/categories/pester/atom.xml" rel="self"/>
+  <link href="https://scottmuc.com/archive/"/>
+  <updated>2024-01-30T14:54:23+00:00</updated>
+  <id>https://scottmuc.com/archive/</id>
+  <author>
+    <name><![CDATA[Scott Muc]]></name>
+    <email><![CDATA[scottmuc@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Growing an Open Source Project: The Pester Story]]></title>
+    <link href="https://scottmuc.com/archive/growing-an-open-source-project-the-pester-story/"/>
+    <updated>2014-08-07T15:50:58+00:00</updated>
+    <id>https://scottmuc.com/archive/growing-an-open-source-project-the-pester-story</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/pester/Pester"><img src="/images/blog/github-pester.png"></a></p>
+
+<h3>In the Beginning</h3>
+
+<p>In 2010 I was on a project that focused on build and release software for a bunch of .Net projects (and a few Java
+projects). Our &ldquo;glue&rdquo; was written in PowerShell because of the wonderful remoting capabilities and it&rsquo;s integration with
+Windows automation. Our code was untested and our code base was growing over time because our tools proved to be useful and
+we were getting more and more feedback. Thus, the code required change more frequently. Without the safety net of tests
+for the most basic logic, our feedback loop was slow as it required us to run builds and deploys to adequately cover our
+bases.</p>
+
+<p>It was January 1st, 2011. I was a touch hungover from the previous night and was chilling in my apartment in Calgary.
+The difficulty in changing our PowerShell code was bothering me enough that I got a bunch of coffee from
+<a href="http://www.yelp.com/biz/caffe-beano-calgary">Cafe Beano</a> and attempted to make an <code>rspec</code> like testing tool for PowerShell. The next day I was able to make a <a href="https://github.com/pester/Pester/commit/a1d6a0e01f58375175ed090647ab8245a049f1a6">commit</a>
+with actual working code! A few days later I was able to <a href="https://github.com/scottmuc/PowerYaml/commits/master?page=1">add tests</a> to PowerYaml. That&rsquo;s how
+<a href="https://github.com/pester/Pester">Pester</a> was born.</p>
+
+<p>In the next couple months I integrated Pester into our project. It was a real superficial integration as we didn&rsquo;t have
+too much time to retroactively add a lot of tests. So for me, my consumption of Pester was a few months in early 2011!</p>
+
+<h3>The Early Days (2011 &ndash; 2012)</h3>
+
+<p>Over the course of the year, the tool seemed to be adopted by a few. A <a href="http://mrtn.nrd.io/">friend in Vancouver</a> apparently had begun using it
+in one of his projects. He&rsquo;s also the first <a href="https://github.com/pester/Pester/commits/master?author=mrtns">contributor</a> to the project! It wasn&rsquo;t until the next year
+that <a href="https://twitter.com/ferventcoder">Rob Reynolds (aka ferventcoder)</a> used Pester in the <a href="http://chocolatey.org/">Chocolatey</a> project. That was my
+first hint that there&rsquo;s potential in this project.</p>
+
+<p>In 2012 there wasn&rsquo;t much going on until <a href="https://twitter.com/mwrockx">Matt Wrock</a> added mocking support and contributed a whole lot of fixes.
+It was then that Pester got a new core maintainer. It was very cool to meet him during my <a href="/blog/categories/career-break/">career break</a>
+in Seattle and give him a proper thank you for the work that&rsquo;s done. I believe he also wrote the <a href="http://www.mattwrock.com/post/2012/11/15/Unit-Testing-Powershell-and-Hello-Pester.aspx">earliest post</a>
+on Pester. I then noticed a comprehensive post on the <a href="http://blogs.endjin.com/?s=pester">endjin.com</a> blog website.</p>
+
+<p>Seeing other people use Pester was a massively ego boosting thing. I&rsquo;m afraid I&rsquo;m one of those people in the software
+community that does feed off of this kind of thing. For some reason it made me feel validated as a professional in the
+software community. Despite the pleasure I got from Pester being associated with me, I decided to move Pester from my
+personal github user to a Pester organization. I&rsquo;m really happy I did that, because it made it feel more like a
+community project than a personal one. A <a href="https://groups.google.com/forum/#!forum/pester">google group</a> was eventually created too as to not clutter
+Github with conversations in the issue tracker.</p>
+
+<p>Later on I would find out that it&rsquo;s been used in several <a href="http://www.thoughtworks.com/">ThoughtWorks</a> projects! These use cases weren&rsquo;t
+even initiated by me. Someone wanted to test their PowerShell code, found Pester, and started using it. They would find
+out I also worked for ThoughtWorks and would ping me on our internal chat and ask me questions.</p>
+
+<h3>The Year of Change (2013)</h3>
+
+<p>While I was living in India I had several months with some extra time that I used to update Pester. Throughout the year
+I spent quite a bit of time maintaining the project. There definitely was a motive for this activity. I knew that
+projects that have activity in the codebase are usually favoured by other devs. I still haven&rsquo;t used Pester on a project
+since early 2011! There&rsquo;s no functionality that I could possibly need out of Pester but I carved out time to take care
+of a few niggling design flaws and close some issues. This resulted in a <a href="/powershell-pester-2-and-1-dot-2-released/">major release</a> which is pretty
+much the last time I really did anything to the code. It was great to see another <a href="http://johanleino.wordpress.com/2013/09/13/pester-unit-testing-for-powershell/">quality blog post</a> by
+Johan Leino appear on the Web.</p>
+
+<h3>The Year of Transition (2014)</h3>
+
+<p><a href="https://twitter.com/LogicalDiagram/status/461638955725631488"><img class="left" src="/images/blog/pester-mention.png"></a>
+2014 marked a large surge in Pester interest. During the PowerShell Summit it was rumoured that the creator of
+PowerShell, <a href="http://www.jsnover.com/blog/">Jeffrey Snover</a>, mentioned Pester in one of his talks! Heck, I was even <a href="http://powershell.org/wp/2014/03/23/episode-262-powerscripting-podcast-scott-muc-on-testing-with-pester/">interviewed</a> for the
+PowerScripting Podcast!</p>
+
+<p>Another contributor by the name of <a href="https://twitter.com/nohwnd">Jakub Jareš</a> was very active and soon became a core member of the Pester team. During
+my travels on my <a href="/blog/categories/career-break/">career break</a> I got to meet up with him in Prague! He also wrote a
+<a href="http://www.powershellmagazine.com/author/jjakub/">couple</a> great articles too.</p>
+
+<p>Now it looks like there&rsquo;s another one joining in too. Welcome <a href="https://twitter.com/MSH_Dave">Dave</a> to the Pester team!</p>
+
+<p>Looking at the logs of the Beta branch, it&rsquo;s wonderful to see my commit percentage diminishing. I&rsquo;ve now only committed
+30% of the code base!</p>
+
+<h3>Lessons Learned</h3>
+
+<p>Though not a big project, I can say I learned a lot maintaining this open source project. There&rsquo;s something very
+different than working with a colocated team and random contributors around the world. Colocated teams develop unwritten
+rules (a culture) and there&rsquo;s less debate over small issues. I didn&rsquo;t realize how much brace alignment, trailing
+whitespace, tab stops, and other petty things would annoy me. What&rsquo;s harder is that I didn&rsquo;t want to complain about it
+to the community afraid that I would come across as an OCD control freak. My biggest mistake with Pester was thinking
+too much on how it reflected upon me, and not what is good for the community. If I had lived and breathed Windows
+projects over the last few years, I think that would have been different. I&rsquo;m happy that Pester has a few excellent
+maintainers now and that I&rsquo;ve participated in an open source project from first commit to stepping away.</p>
+
+<p>Another lesson was that empowering would be contributors was an investment well worth doing. It&rsquo;s hard to say, but I
+feel that doing this is what&rsquo;s enabled me to lessen my involvement over time.</p>
+
+<p>This talk also resonated with me a bit (the last 4-5 minutes):</p>
+
+<p><iframe width="640" height="510" src="http://www.youtube.com/embed/UIDb6VBO9os " frameborder="0" allowfullscreen></iframe></p>
+
+<h3>Stepping Down</h3>
+
+<p>The adventure of watching a project grow and have a life on its own has been a wonderful experience. Looking at the
+project history and correspondance it&rsquo;s pretty easy to see that I&rsquo;m not nearly as active. That&rsquo;s really thanks to Jakub
+and Dave doing nearly all the maintenance.</p>
+
+<p>That being said, I&rsquo;m &ldquo;officially&rdquo; stepping down and retiring from Pester. This will be done by unsubcribing from any
+e-mail notifications (the google group, and the github project).</p>
+
+<p><img class="right <a" src="href="http://pesterbdd.com/images/Pester.png">http://pesterbdd.com/images/Pester.png</a>">
+I would like to shout a big thank you to everyone who made this project so wonderful. Especially to <a href="https://twitter.com/manojlds">Manoj
+Mahalingam</a> who did some great work in the early days and really helped me get this project off the ground.
+Another shout out to <a href="http://vant.ca/">Stefan Vant</a> for the excellent logo!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Testing Powershell Code That Talks to CLR Objects]]></title>
+    <link href="https://scottmuc.com/archive/testing-powershell-code-that-talks-to-clr-objects/"/>
+    <updated>2014-06-06T00:39:41+00:00</updated>
+    <id>https://scottmuc.com/archive/testing-powershell-code-that-talks-to-clr-objects</id>
+    <content type="html"><![CDATA[<p>Several months ago someone posted an excellent question on the <a href="https://groups.google.com/forum/#!topic/pester/Y8UzSiNlcSE">Pester Group</a> about a certain problem area
+in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
+is done afterwards. It also reveals a missing feature of Pester.</p>
+
+<p>First let me display the code that needed tests:</p>
+
+<p><div><script src='https://gist.github.com/e5abe37881628f13cd0a.js?file=Get-FromSFtp.ps1'></script>
+<noscript><pre><code>Add-Type -Path (Join-Path -Path $psScriptRoot &quot;Renci.SshNet.dll&quot;)
+
+function Get-FromSFtp {
+    $fileList=$null
+    try {
+        $sftp=New-Object Renci.SshNet.SftpClient(&quot;127.0.0.1&quot;,&quot;test&quot;,&quot;test&quot;)
+        $sftp.Connect()
+        if($sftp.IsConnected) {
+            $sftp.ChangeDirectory(&quot;/test&quot;)
+            $fileList=$sftp.ListDirectory(&quot;.&quot;)
+        }
+        return $fileList
+    } catch [Exception] {
+        Write-Host $_.Exception.ToString()
+    } finally {
+        if(($sftp -ne $null) -and ($sftp.IsConnected)) {
+            $sftp.Disconnect()
+        }
+    }
+}
+</code></pre></noscript></div>
+</p>
+
+<p>Here are a couple reasons why this code is difficult to test:</p>
+
+<ul>
+<li>Line 4 returns a CLR object that actually does SFTP</li>
+<li>Many parameters are hard coded</li>
+</ul>
+
+
+<h3>Start With Integration</h3>
+
+<p>I started this exercise with the intention of not changing a single character of the code submitted. Here&rsquo;s the story of
+how the changes took place (I had a git repo of this, but the files got corrupted). First thing to do was to make the
+existing code pass a test as is. In order to do that, I needed an integration environment for it to talk to. So I used
+<a href="http://www.vagrantup.com/">Vagrant</a> to spin up a local linux box. I manually configured the box such that the credentials in the code
+work. Here&rsquo;s the Vagrantfile</p>
+
+<p><div><script src='https://gist.github.com/e5abe37881628f13cd0a.js?file=Vagrantfile'></script>
+<noscript><pre><code># -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# Vagrantfile API/syntax version. Don&#39;t touch unless you know what you&#39;re doing!
+VAGRANTFILE_API_VERSION = &quot;2&quot;
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = &quot;precise64&quot;
+  config.vm.box_url = &quot;http://files.vagrantup.com/precise64.box&quot;
+  config.vm.network &quot;forwarded_port&quot;, guest: 22, host: 22
+end
+</code></pre></noscript></div>
+</p>
+
+<p>and here&rsquo;s the passing test. I&rsquo;m happy with it because I could change the code or the environment and cause the test to
+fail, thus giving me confidence that the test is good enough to tell if me I broke anything.</p>
+
+<p>```powershell
+Describe &ldquo;Get-FromSFtp Integration&rdquo; {</p>
+
+<pre><code>It "returns the 2 default dir entries" {
+    Get-FromSFtp | ForEach-Object { $_.Name } | Should Be ".", ".."
+}
+</code></pre>
+
+<p>}
+```</p>
+
+<p>Happy that I have a feedback loop going now, I begin to start testing the code in isolation. I start by writing the
+contexts and specifications:</p>
+
+<h3>Follow Up With Isolated Tests</h3>
+
+<p>```powershell
+Describe &ldquo;Get-FromSFtp&rdquo; {</p>
+
+<pre><code>Context "when connected" {
+    It "attempts to connect to an sftp server" { }
+    It "changes to the directory /test" { }
+    It "gets the contents listing of the directory" { }
+    It "disconnects from the sftp server" { }
+}
+
+Context "when not connected" {
+    It "returns 0 files" { }
+}
+
+Context "when an error happens" {
+    It "prints out the error to the user"
+}
+</code></pre>
+
+<p>}
+```</p>
+
+<p>I was stumped for a bit because I realized Pester didn&rsquo;t have the power necessary to do this easily. It didn&rsquo;t mean it
+couldn&rsquo;t be tested though. The Mocking functionality came to the rescue as I was able to mock <code>New-Object</code> and decouple
+my tests from the <code>Renci.SshNet</code> library. The hard part was hand-rolling the mock object to be used in the tests.</p>
+
+<p>One by one, I made each spec pass. The beginning of each <code>Context</code> was the setup, and each <code>It</code> asserted something from
+after that setup and action had been taken. The nice thing that resulted was I could break a specific piece of the
+production code, and the specific test would tell me that it&rsquo;s broken at that place (eg: change the directory the
+production code goes to).</p>
+
+<p>Here&rsquo;s the complete test file for the code:</p>
+
+<p><div><script src='https://gist.github.com/e5abe37881628f13cd0a.js?file=Get-FromSFtp.Tests.ps1'></script>
+<noscript><pre><code>$here = Split-Path -Parent $MyInvocation.MyCommand.Path
+$sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(&quot;.Tests.&quot;, &quot;.&quot;)
+. &quot;$here\$sut&quot;
+
+$mockSFtpCode = @&quot;
+public class MockSFtp {
+    public bool ConnectCalled { get; private set; }
+    public bool DisconnectCalled { get; private set; }
+    public bool IsConnected { get; set; }
+    public string ChangeDirectoryParam { get; private set; }
+    public string ListDirectoryParam { get; private set; }
+
+    public void Connect() {
+        this.ConnectCalled = true;
+    }
+
+    public void Disconnect() {
+        this.DisconnectCalled = true;
+    }
+
+    public void ChangeDirectory(string directory) {
+        this.ChangeDirectoryParam = directory;
+    }
+
+    public string[] ListDirectory(string path) {
+        this.ListDirectoryParam = path;
+        return new string[] { &quot;test1&quot; };
+    }
+}
+&quot;@
+
+$throwingMockSFtpCode = @&quot;
+public class ThrowingMockSFtp {
+    public void Connect() {
+        throw new System.Exception();
+    }
+}
+&quot;@
+
+Add-Type -TypeDefinition $mockSFtpCode
+Add-Type -TypeDefinition $throwingMockSFtpCode
+
+Describe &quot;Get-FromSFtp&quot; {
+    Context &quot;when connected&quot; {
+        $mockSFtp = New-Object MockSFtp
+        $mockSFtp.IsConnected = $true
+        Mock New-Object -MockWith { $mockSFtp }
+        $files = Get-FromSFtp
+
+        It &quot;attempts to connect to an sftp server&quot; {
+            $mockSFtp.ConnectCalled | Should Be $true
+        }
+
+        It &quot;changes to the directory /test&quot; {
+            $mockSFtp.ChangeDirectoryParam | Should Be &#39;/test&#39;
+        }
+
+        It &quot;gets the content listing of the directory&quot; {
+            $mockSFtp.ListDirectoryParam | Should Be &#39;.&#39;
+            $files | Should Be @(&quot;test1&quot;)
+        }
+
+        It &quot;disconnects from the sftp server&quot; {
+            $mockSFtp.DisconnectCalled | Should Be $true
+        }
+    }
+
+    Context &quot;when not connected&quot; {
+        $mockSFtp = New-Object MockSFtp
+        $mockSFtp.IsConnected = $false
+        Mock New-Object -MockWith { $mockSFtp }
+        $files = Get-FromSFtp
+
+        It &quot;returns 0 files&quot; {
+            $files | Should BeNullOrEmpty
+        }
+    }
+
+    Context &quot;when an exception happens&quot; {
+        $mockSFtp = New-Object ThrowingMockSFtp
+        Mock New-Object -MockWith { $mockSFtp }
+
+        It &quot;prints out the error to the user&quot; {
+            # I do not think this is a good test, but until
+            # mocking of Write-Host can be done, this is all
+            # that we can really do.
+            { Get-FromSFtp } | Should Not Throw
+        }
+    }
+}
+
+Describe &quot;Get-FromSFtp Integration&quot; {
+    It &quot;returns the 2 default dir entries&quot; {
+        Get-FromSFtp | ForEach-Object { $_.Name } | Should Be &quot;.&quot;, &quot;..&quot;
+    }
+}
+</code></pre></noscript></div>
+</p>
+
+<h3>Summary</h3>
+
+<p>I can&rsquo;t say this is the best test code out there. I think testing PowerShell is in a different place than testing C# or
+other OO languages. It seems like the best you can do is test the function logic and test the composition of it all in
+an integrated way. The first refactoring change I would likely do to this function is make the connection a parameter.
+That way I wouldn&rsquo;t need to mock <code>New-Object</code>, but passing a mock object is still an issue. Perhaps Pester needs a mock
+object builder of some kind, though writing mocks by hand wasn&rsquo;t too difficult either. It&rsquo;s something I would expect a
+testing framework to be able to do for me though.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PowerShell Pester 2 and 1.2 Released!]]></title>
+    <link href="https://scottmuc.com/archive/powershell-pester-2-and-1-dot-2-released/"/>
+    <updated>2013-02-02T15:34:00+00:00</updated>
+    <id>https://scottmuc.com/archive/powershell-pester-2-and-1-dot-2-released</id>
+    <content type="html"><![CDATA[<p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
+
+<h2>New Expectation and Matcher Syntax</h2>
+
+<p>In prior versions of Pester, we have the dot notation expectation and matcher syntax</p>
+
+<p><code>powershell
+$some_string.should.be("some value")
+</code></p>
+
+<p>This required some <a href="https://github.com/pester/Pester/blob/bf3afbf330808cfee8a26665a77c9388ae432286/ObjectAdaptations/types.ps1xml">clever and downright nasty hacks</a> to the PowerShell runtime. This created a <a href="https://github.com/pester/Pester/issues/19">few</a> <a href="https://github.com/pester/Pester/issues/27">issues</a> for some users and I wanted to get that fixed. It turned out the extension on Object was the root issue so I investigated a pipeline based expectation syntax. Here is the result:</p>
+
+<p><code>powershell
+$deployDir                | Should Be "C:\inetpub\wwwroot\myApp"
+"iis:\Sites\myApp"        | Should Exist # this works with any PowerShell provider
+"C:\test\rush_albums.txt" | Should Contain 2112
+""                        | Should Be NullOrEmpty
+{ throw }                 | Should Throw
+</code></p>
+
+<p>Negative statements work too:</p>
+
+<p><code>powershell
+2                                   | Should Not Be 1
+"C:\temp\deployment_scratch_space"  | Should Not Exist
+"C:\test\rush_albums.txt"           | Should Not Contain 5150
+1,2,3                               | Should Not Be NullOrEmpty
+{ Deploy-Website "superawesome" }   | Should Not Throw
+</code></p>
+
+<p>Extending the syntax is simply a matter of adding domain specific expectations, that follow the Pester function naming
+conventions, to your test suite:</p>
+
+<p>```powershell
+function PesterBeCanadian($sentence) {</p>
+
+<pre><code>return ($sentence -match ".*[,\ ]eh.$")
+</code></pre>
+
+<p>}</p>
+
+<p>function PesterBeCanadianFailureMessage($sentence) {</p>
+
+<pre><code>return "Expected: {$sentence} to end with 'eh'"
+</code></pre>
+
+<p>}</p>
+
+<p>function NotPesterBeCanadianFailureMessage($sentence) {</p>
+
+<pre><code>return "Expected: {$sentence} ended with eh, you hoser!"
+</code></pre>
+
+<p>}</p>
+
+<p>Describe &ldquo;a few sentences&rdquo; {</p>
+
+<pre><code>Context "when scott says something" {
+    It "is Canadian" {
+        $what_scott_says = "Good show, eh?" 
+        $what_scott_says | Should BeCanadian
+    }
+}
+
+Context "when pete hodgson says something" {
+    It "is not Canadian" {
+        $what_pete_says = "Have you tried testing it with Frank?"
+        $what_pete_says | Should Not BeCanadian
+    }
+}
+</code></pre>
+
+<p>}
+```</p>
+
+<p>Pretty cool, eh? I feel that this can lessen the potential bloat of expectations in Pester and allow people to write
+test suites that fit their infrastructure domain model. The expectations are also very <a href="https://github.com/pester/Pester/blob/master/Functions/Assertions/Be.Tests.ps1">easy to test</a> in isolation. The core matchers are pretty light, but they should be easy to modify now that matchers have test coverage unlike the previous syntax.</p>
+
+<p>Adding your own matcher requires you to add 3 convention following functions. One that is the matcher, and 2 that return
+failure messages for postive and negative expectations. The biggest problem I see with this method is that if the
+convention ever changes, I&rsquo;ll have to be very cautious and make it backwards compatible.</p>
+
+<h2>Mocks!</h2>
+
+<p>This was released earlier but I didn&rsquo;t really announce anything. Thanks to <a href="http://www.mattwrock.com/">Matt Wrock</a>(<a href="https://twitter.com/mwrockx">twitter</a>) Pester has the ability to mock cmdlets. I&rsquo;m looking forward to trying this out on my next project.</p>
+
+<p><code>powershell
+Mock Get-Location { return "you are home, sir." }
+Get-Location | Should Be "you are home, sir."
+</code></p>
+
+<h2>Description Tagging</h2>
+
+<p>Thanks to <a href="https://github.com/rismoney">Rich Siegel</a>, Pester can now run blocks that fit a certain tag.</p>
+
+<p>```powershell
+Describe -Tag &ldquo;Acceptance&rdquo; &ldquo;Website deployment flow&rdquo; {</p>
+
+<pre><code>It "..." { ... }
+</code></pre>
+
+<p>}</p>
+
+<h1>and run it like this:</h1>
+
+<p>Invoke-Pester -Tag Acceptance
+```</p>
+
+<h2>Xml Reporting</h2>
+
+<p>Another contributor is <a href="https://github.com/mbergmann">Max Bergmann</a> who added NUnit style xml reporting to Pester runs.
+We are even using it in Pester&rsquo;s own <a href="http://teamcity.codebetter.com/project.html?projectId=project261&amp;tab=projectOverview">CI build</a>.
+There&rsquo;s some XML validation bugs that are still being sorted out.</p>
+
+<h2>Why 1.2.x and 2.0.x?</h2>
+
+<p>The motivation for this release is to fix the issues people have add where a <code>should</code> property is added to every Object.
+I&rsquo;m not sure how exactly it was breaking things, but it was messy anyways, and I wanted to get rid of it.</p>
+
+<p>In version <code>1.2.x</code>, you can disable the old assertions by running Pester with the <code>-DisableLegacyExpectations</code>. This will
+mean that your test suite has to only use the new pipeline style expectations.</p>
+
+<p>```powershell</p>
+
+<h1>version 1.2.x has this switch</h1>
+
+<p>Invoke-Pester -DisableLegacyExpectations
+```</p>
+
+<p>For version <code>2.0.x</code> we disable the old style assertions and you need to explicitly enable them using the
+<code>-EnableLegacyExpectations</code> switch. In the next significant release we&rsquo;re going to remove the dot style assertions
+completely from the codebase.</p>
+
+<p>```powershell</p>
+
+<h1>version 2.0.x has this switch</h1>
+
+<p>Invoke-Pester -EnableLegacyExpectations
+```</p>
+
+<p>So if you&rsquo;re upgrading Pester, then you should probably move to <code>1.2.x</code> first. If you can run your tests with the
+<code>-DisableLegacyAssertions</code> flag set, then you should be fine to move to <code>2.0.x</code>. If you&rsquo;re starting from scratch, then
+definitely use <code>2.0.x</code>.</p>
+
+<h2>What&rsquo;s Left To Do?</h2>
+
+<p>Lots and lots of documenting. The <code>Get-Help</code> pages need to be updated and I want to get pesterbdd.com up as soon as
+possible. I think version 2 should be a fairly stable version of Pester.</p>
+
+<p>If you&rsquo;re interested in contributing to Pester please join the <a href="https://groups.google.com/forum/?fromgroups#!forum/pester">google group</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PowerShell BDD Testing - Pester Screencast]]></title>
+    <link href="https://scottmuc.com/archive/blog/development/powershell-bdd-testing-pester-screencast/"/>
+    <updated>2011-08-25T11:16:00+00:00</updated>
+    <id>https://scottmuc.com/archive/blog/development/powershell-bdd-testing-pester-screencast</id>
+    <content type="html"><![CDATA[<p>A few months ago I posted a simple tutorial on how to use <a href="http://scottmuc.com/blog/development/pester-bdd-for-the-system-administrator/">Pester (a powershell bdd testing framework)</a>. I&rsquo;m starting to practice the making of screencasts so I thought I would add some audio/visual to the blog post. I start rambling in the last 5 minutes so I won&rsquo;t feel insulted if you stop paying attention after that part.</p>
+
+<p>Also, I want to thank <a href="https://github.com/manojlds">Manoj Mahalingam</a> and <a href="http://blog.martin.aatmaa.net/">Martin Aatmaa</a> for their feedback and contributions!</p>
+
+<p><a href="https://vimeo.com/28141416"><em>the video starts off pixelated but it fixes itself in a few seconds</em></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pester - PowerShell BDD Style Testing for the System Administrator]]></title>
+    <link href="https://scottmuc.com/archive/blog/development/pester-bdd-for-the-system-administrator/"/>
+    <updated>2011-05-11T20:05:00+00:00</updated>
+    <id>https://scottmuc.com/archive/blog/development/pester-powershell-bdd-style-testing-for-the-system-administrator</id>
+    <content type="html"><![CDATA[<p>Hi there and welcome to my demo of Pester, a BDD style testing framework for Powershell. The creation of Pester came out of the desire to test some build/deployment infrastructure we were creating for a project. We wrote nearly all the code without tests and it came to bite us in the end. I wanted to find a way ensure these problems didn&rsquo;t happen again as well as provide some code coverage to give new entrants to the codebase some confidence that they won&rsquo;t break everything.</p>
+
+<!-- more -->
+
+
+<p>Inside Pester there&rsquo;s already a trivial Calculator example but it&rsquo;s not really the best way to demonstrate the app. Pester itself is tested using Pester. In fact it&rsquo;s being tested by the version of Pester that&rsquo;s under test (although Martin pointed out some uncovered areas). Still, probably not the best way to show how it all works.</p>
+
+<p>What I&rsquo;m going to go through here is the beginning of what could possibly be a real world scenario for a person assigned to write deployment code.</p>
+
+<h2>Here&rsquo;s the story:</h2>
+
+<p>Initech has had issues where their .Net web applications have been deployed on production servers with the debug compilation flag set to true. This has made production support people irritable because they now manually tweak the web.config every single time they do a deploy. Michael Bolton has decided he&rsquo;s going to automate this step but wants to right it test first. He doesn&rsquo;t want to repeat the debacle of his previous attempt at being clever.</p>
+
+<p>First step is to setup a project. Mike (as he now likes be known as) decides to call his project of tools IDeploy and creates a folder of that name where he does is development.</p>
+
+<p>Setting up Pester is simply a matter of following the instructions at PsGet (author Mike Chaliy has tons of great PowerShell modules)then running Install-Pester. Then running Import-Module Pester anytime you open up a PowerShell session where you want to use Pester. The console should look like the following:</p>
+
+<pre>
+SMUC-PC {C:\d\IDeploy} (new-object Net.WebClient).DownloadString("http://bit.ly/GetPsGet") | iex
+Downloading PsGet from https://github.com/chaliy/psget/raw/master/PsGet/PsGet.psm1
+PsGet is installed and ready to use
+USAGE:
+    import-module PsGet
+    install-module https://github.com/chaliy/psurl/raw/master/PsUrl/PsUrl.psm1
+
+For more details:
+    get-help install-module
+Or visit http://psget.net
+SMUC-PC {C:\d\IDeploy} import-module PsGet
+SMUC-PC {C:\d\IDeploy} install-module Pester
+Module Pester was successfully installed.
+SMUC-PC {C:\d\IDeploy} import-module Pester
+SMUC-PC {C:\d\IDeploy} Get-Module
+
+ModuleType Name                      ExportedCommands
+---------- ----                      ----------------
+Script     PsGet                     {Get-PsGetModuleInfo, Install-Module}
+Script     Pester                    {It, Describe, New-Fixture, Invoke-Pester...}
+
+</pre>
+
+
+<p>Pester includes a helper function called Create-Fixture. Calling the function with no args looks like the following:</p>
+
+<pre>
+SMUC-PC {C:\d\IDeploy} Create-Fixture
+invalid usage, please specify (path, name)
+eg: .\Create-Fixture -Path Foo -Name Bar
+creates .\Foo\Bar.ps1 and .\Foo.Bar.Tests.ps1
+</pre>
+
+
+<p>Create-Fixture wants to know what the path of your function is going to be and what to call it. I personally like having my tests next to what I&rsquo;m testing so Create-Fixture sort of enforces this convention. Note that Pester can be used without ever using this function. I just never remember how to create my fixtures so this saves me a bit of copying and pasting.</p>
+
+<p>Armed with a quick way to create fixtures Michael runs his Create-Fixture to scaffold his feature. He decides he wants it to be called Ensure-AspNetDebugIsFalse and places it in the Deploy\Functions directory of his project.</p>
+
+<pre>
+SMUC-PC {C:\d\IDeploy} Create-Fixture Deploy\Functions Ensure-AspNetDebugIsFalse
+Creating => Deploy\Functions\Ensure-AspNetDebugIsFalse.ps1
+Creating => Deploy\Functions\Ensure-AspNetDebugIsFalse.Tests.ps1
+</pre>
+
+
+<p>Wanting to see some red he runs the tests by running Invoke-Pester which loads all files that match *.Tests.ps1 recursively in the current directory.</p>
+
+<pre>
+SMUCS-PC {C:\d\IDeploy} Invoke-Pester
+Executing all tests in C:\dev\IDeploy\Deploy
+Describing Ensure-AspNetDebugIsFalse
+does something useful
+Tests completed
+Passed: 0 Failed: 1
+</pre>
+
+
+<p>As you can see Pester by default makes a failing test. Now it&rsquo;s time for Michael to update the test to make it more meaningful. Here&rsquo;s his test file after he&rsquo;s setup his expectations.</p>
+
+<p>Wow, it failed! Why is that? By default Pester will generate a fixture that is silly and won&rsquo;t ever pass. So what should we do with this broken function? As it stands now it&rsquo;s totally empty. Let&rsquo;s update our specification (aka Test) and do something useful.</p>
+
+<p>So Michael has written a test that didn&rsquo;t require a lot of code, but is actually doing a few cool things. I&rsquo;ll try to go line by line and explain what&rsquo;s going on:</p>
+
+<p>Ensure-AspNetDebugIsFalse.Tests.ps1 contents:</p>
+
+<pre>
+$pwd = Split-Path -Parent $MyInvocation.MyCommand.Path
+$sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".Tests.", ".")
+. "$pwd\$sut"
+. "$pwd\..\..\Pester.1.0.1\tools\Pester.ps1"
+ 
+Describe "Ensure-AspNetDebugIsFalse" {
+ 
+    Setup -File "inetpub\wwwroot\testsite\web.config" `
+                "&lt;configuration&gt;&lt;system.web&gt;&lt;compilation debug='true' /&gt;&lt;/system.web&gt;&lt;/configuration&gt;"
+ 
+    It "switches debug attribute to false for a web.config in a given website path" {
+        Ensure-AspNetDebugIsFalse "$TestDrive\inetpub\wwwroot\testsite"
+ 
+        [xml] $xml = Get-Content "$TestDrive\inetpub\wwwroot\testsite\web.config"
+        $xml.configuration."system.web".compilation.debug.should.be("false")
+    }
+}
+</pre>
+
+
+<p>Ensure-AspNetDebugIsFalse.ps1 contents:</p>
+
+<pre><code>function Ensure-AspNetDebugIsFalse($websitePath) {
+
+}
+</code></pre>
+
+<p>Here are some details on some of the lines in the test.</p>
+
+<ol>
+<li><p>We obtain the directory of the test script because we need to base all other paths off of it</p></li>
+<li><p>Here&rsquo;s how we ensure our code/test conventions. This means that the code in Foo.Tests.ps1 will automatically include Foo.ps1 (the code under test) in line 3</p></li>
+<li><p>Create-Fixture automagically resolves the Pester path no matter what version of Pester you have. This directory will remain static. I might implement an Upgrade-Fixture script so that as you update your Pester version you can update your tests as well.</p></li>
+<li><p>Pester has the ability to do filesystem based setups. This line is creating a file in isolation in what Pester calls the $TestDrive. The $TestDrive is disposed of after every Describe context. This allows you to perform filesystem related tasks without having to maintain separate test files. This line has created a file called web.config in the inetpub\wwwroot\testsite path in the $TestDrive and the 2nd argument is the content of that file.</p></li>
+<li><p>We execute the code we want to test</p></li>
+<li><p>We assert that the debug attribute has been set to false.</p></li>
+</ol>
+
+
+<p>Let&rsquo;s make this bad boy pass!
+Here&rsquo;s the function fleshed out and the test passes!</p>
+
+<pre>
+function Ensure-AspNetDebugIsFalse($websitePath) {
+    $webConfigPath = "$websitePath\web.config"
+ 
+    [xml] $webConfig = Get-Content $webConfigPath
+    $webConfig.configuration."system.web".compilation.debug = "false"
+    $webConfig.Save($webConfigPath)
+}
+</pre>
+
+
+<p>and the execution of the test:</p>
+
+<pre>
+SMUC-PC {C:\d\IDeploy} Invoke-Pester
+Executing all tests in C:\dev\IDeploy\Deploy
+Describing Ensure-AspNetDebugIsFalse
+switches debug attribute to false for a web.config in a given website path
+Tests completed
+Passed: 1 Failed: 0
+</pre>
+
+
+<p>Now Michael has an extra tool at his disposal to call when he&rsquo;s performing deployments. If only he had taken this approach when he wrote his money transfer code. He wouldn&rsquo;t have missed all those decimal places!</p>
+
+<p>Hope this helps get you running with Pester. There&rsquo;s a lot more I would like to add but I&rsquo;m really only adding stuff as I see the need for it. Pester was driven out by my desire to refactor another Powershell library I wrote called PowerYaml. Take a look at the project page to see how I took the untested code, wrapped tests around it, then refactored.</p>
+
+<p>Feedback is greatly appreciate and I hope this helps your teams make reliable Powershell scripts.</p>
+]]></content>
+  </entry>
+  
+</feed>
