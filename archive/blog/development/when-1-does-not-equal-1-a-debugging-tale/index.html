@@ -19,13 +19,13 @@
 
   
   <link rel="canonical" href="https://scottmuc.com/archive/blog/development/when-1-does-not-equal-1-a-debugging-tale">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/archive/favicon.png" rel="icon">
+  <link href="/archive/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/archive/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/archive/javascripts/octopress.js" type="text/javascript"></script>
   
   <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
   <link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
@@ -37,7 +37,7 @@
 
 <body    class="collapse-sidebar sidebar-footer" >
   <header role="banner"><hgroup>
-  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  <h1><a href="/archive/">More Muc Than You Can Handle</a></h1>
   
 </hgroup>
 
@@ -48,11 +48,11 @@
 </ul>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
+  <li><a href="/archive/">Blog</a></li>
   <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
   <li><a href="https://github.com/scottmuc/">Github</a></li>
   <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
-  <li><a href="/about/">About Me</a></li>
+  <li><a href="/archive/about/">About Me</a></li>
 </ul>
 
 </nav>
@@ -120,11 +120,11 @@ protected bool IsPrimaryKeyValueEqual(DataRow dataRow1, DataRow dataRow2, DataCo
 
 <p>It simply goes through all the keys of the table, and if they are all equal, then we&rsquo;ve found a tuple that needs to be updated. Seems pretty straightforward, and not a method that I would presume would cause any problems. Strangely enough, here is where some strangeness started to occur. This method would always return false! I hooked up the debugger and inspected the rows and everything seemed normal. Until what seemed like the 30th time; I noticed something. The row from the XML had 32 bit IDs while the row from the SQLite database had 64 bit IDs.</p>
 
-<p><img src="/images/blog/debugger_tail_32bit.png" /></p>
+<p><img src="/archive/images/blog/debugger_tail_32bit.png" /></p>
 
 <p>and here&rsquo;s what that DataRow object was being compared to:</p>
 
-<p><img src="/images/blog/debugger_tail_32bit.png" /></p>
+<p><img src="/archive/images/blog/debugger_tail_32bit.png" /></p>
 
 <p>I didn&rsquo;t want jump to conclusions as to whether or not I found my problem so I wrote a test. Sure enough, the following test fails (and for good reason).</p>
 
@@ -182,10 +182,10 @@ public void One_should_equal_one()
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/development/my-developer-resolutions-for-2009/" title="Previous Post: My Developer Resolutions For 2009">&laquo; My Developer Resolutions For 2009</a>
+        <a class="basic-alignment left" href="/archive/blog/development/my-developer-resolutions-for-2009/" title="Previous Post: My Developer Resolutions For 2009">&laquo; My Developer Resolutions For 2009</a>
       
       
-        <a class="basic-alignment right" href="/blog/development/unit-testing-domain-persistence-with-ndbunit-nhibernate-and-sqlite/" title="Next Post: Unit Testing Domain Persistence With NDbUnit">Unit Testing Domain Persistence With NDbUnit &raquo;</a>
+        <a class="basic-alignment right" href="/archive/blog/development/unit-testing-domain-persistence-with-ndbunit-nhibernate-and-sqlite/" title="Next Post: Unit Testing Domain Persistence With NDbUnit">Unit Testing Domain Persistence With NDbUnit &raquo;</a>
       
     </p>
   </footer>

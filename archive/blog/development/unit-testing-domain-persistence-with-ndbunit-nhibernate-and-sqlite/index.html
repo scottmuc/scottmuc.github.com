@@ -19,13 +19,13 @@
 
   
   <link rel="canonical" href="https://scottmuc.com/archive/blog/development/unit-testing-domain-persistence-with-ndbunit-nhibernate-and-sqlite">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/archive/favicon.png" rel="icon">
+  <link href="/archive/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="http://feeds.scottmuc.com/scottmucblog" rel="alternate" title="More Muc Than You Can Handle" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/archive/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/archive/javascripts/octopress.js" type="text/javascript"></script>
   
   <link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud">
   <link rel="openid2.local_id" href="https://profiles.google.com/scott.muc">
@@ -37,7 +37,7 @@
 
 <body    class="collapse-sidebar sidebar-footer" >
   <header role="banner"><hgroup>
-  <h1><a href="/">More Muc Than You Can Handle</a></h1>
+  <h1><a href="/archive/">More Muc Than You Can Handle</a></h1>
   
 </hgroup>
 
@@ -48,11 +48,11 @@
 </ul>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
+  <li><a href="/archive/">Blog</a></li>
   <li><a href="https://twitter.com/scottmuc/">Twitter</a></li>
   <li><a href="https://github.com/scottmuc/">Github</a></li>
   <li><a href="http://scottmuclearnstodraw.tumblr.com/">Drawings</a></li>
-  <li><a href="/about/">About Me</a></li>
+  <li><a href="/archive/about/">About Me</a></li>
 </ul>
 
 </nav>
@@ -93,7 +93,7 @@
 <!-- more -->
 
 
-<p>I&rsquo;m a neophyte when it comes to unit testing, but over the last six months I&rsquo;ve started to understand the benefits of testing and where it fits in with my development cycle. In order to test my mappings I needed a simple way of placing dummy data into my database. I also wanted to use SQLite as my test database implementation for simplicity, and speed reasons. When a new developer jumps on board, I think it would be cool if they can run the database unit test suite without having to setup SQL Server, or any other database application server. My research led me to a project called NDbUnit. It allows a simple way to populate a database with data from an Xml DataSet. This is exactly what I wanted, but it did not support SQLite. I took the plunge and implemented a SQLite provider and even got it added to their codebase! <a href="/blog/development/when-1-does-not-equal-1-a-debugging-tale/">I&rsquo;ve already blogged</a> about that tangent here.</p>
+<p>I&rsquo;m a neophyte when it comes to unit testing, but over the last six months I&rsquo;ve started to understand the benefits of testing and where it fits in with my development cycle. In order to test my mappings I needed a simple way of placing dummy data into my database. I also wanted to use SQLite as my test database implementation for simplicity, and speed reasons. When a new developer jumps on board, I think it would be cool if they can run the database unit test suite without having to setup SQL Server, or any other database application server. My research led me to a project called NDbUnit. It allows a simple way to populate a database with data from an Xml DataSet. This is exactly what I wanted, but it did not support SQLite. I took the plunge and implemented a SQLite provider and even got it added to their codebase! <a href="/archive/blog/development/when-1-does-not-equal-1-a-debugging-tale/">I&rsquo;ve already blogged</a> about that tangent here.</p>
 
 <p>With tools in hand I started creating an integration test suite for the CBC Radio 3 website codebase. The website is currently undergoing a re-write where I am migrating from my hand written data access layer to an NHibernate based DAL (Data Access Layer). Oh how do I wish I wrote it with NHibernate from the beginning :&ndash;). The current database has 92 tables and I&rsquo;ve only just begun mapping them to proper Domain objects. So far I&rsquo;ve written about 20 Domain objects and I&rsquo;ve hit enough walls with the mapping files. I realized that I needed a testing foundation to assert the persistence of my domain objects.</p>
 
@@ -202,7 +202,7 @@ public void CreateDatabaseSchemaFromMappingFiles()
 
 <p>The XSD for this section contains a dataset that for the Users, Roles, and UserRoles tables and the dummy data looks something like the following:</p>
 
-<p><img src="/images/blog/UsersDS.jpg"></p>
+<p><img src="/archive/images/blog/UsersDS.jpg"></p>
 
 <div><script src='https://gist.github.com/1551024.js?file=Users.xml'></script>
 <noscript><pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
@@ -293,10 +293,10 @@ public void CreateDatabaseSchemaFromMappingFiles()
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/development/when-1-does-not-equal-1-a-debugging-tale/" title="Previous Post: When 1 Does Not Equal 1">&laquo; When 1 Does Not Equal 1</a>
+        <a class="basic-alignment left" href="/archive/blog/development/when-1-does-not-equal-1-a-debugging-tale/" title="Previous Post: When 1 Does Not Equal 1">&laquo; When 1 Does Not Equal 1</a>
       
       
-        <a class="basic-alignment right" href="/blog/development/riding-the-lines-of-code-rollercoaster/" title="Next Post: Riding The Lines-Of-Code Rollercoaster">Riding The Lines-Of-Code Rollercoaster &raquo;</a>
+        <a class="basic-alignment right" href="/archive/blog/development/riding-the-lines-of-code-rollercoaster/" title="Next Post: Riding The Lines-Of-Code Rollercoaster">Riding The Lines-Of-Code Rollercoaster &raquo;</a>
       
     </p>
   </footer>
