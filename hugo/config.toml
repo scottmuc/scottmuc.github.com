@@ -3,7 +3,7 @@
 baseURL = "https://scottmuc.com/hugo/"
 languageCode = "en-us"
 title = "More Muc Than You Can Handle"
-theme = "blank"
+theme = "scottmuc"
 enableRobotsTXT = true
 # A large number ensures no pagination
 paginate = 1000000
