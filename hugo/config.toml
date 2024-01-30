@@ -1,5 +1,29 @@
+# Baseline site confiugration
+# https://gohugo.io/getting-started/configuration/#all-configuration-settings
 baseURL = "https://scottmuc.com/hugo/"
+languageCode = "en-us"
 title = "More Muc Than You Can Handle"
 theme = "blank"
-paginate = 1000000
 enableRobotsTXT = true
+# A large number ensures no pagination
+paginate = 1000000
+
+# https://gohugo.io/templates/rss/#configuration
+copyright = "Copyright © 2024 - Scott Muc"
+[params]
+	[params.author]
+		name = "Scott Muc"
+		email = "scottmuc@gmail.com"
+
+# https://gohugo.io/templates/output-formats/#default-output-formats
+# https://gohugo.io/templates/section-templates/#page-kinds
+[outputs]
+	home = ["html", "rss"]
+	page = ["html"]
+	section = ["html"]
+	taxonomy = ["html"]
+
+# https://gohugo.io/templates/output-formats/#output-format-definitions
+[outputFormats]
+	[outputFormats.rss]
+		baseName = "feed"
