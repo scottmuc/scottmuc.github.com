@@ -5,6 +5,6 @@
 		{{- $width = (.Get "width") -}}
 {{- end -}}
 {{- $smallImage := $image.Resize $width -}}
-<a href="{{ $href }}">
+<a href="{{ $href }}" class="imglink">
 	<img src="{{ $smallImage.RelPermalink }}" width="{{ $smallImage.Width }}" />
 </a>
