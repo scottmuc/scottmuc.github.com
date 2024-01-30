@@ -1,7 +1,7 @@
 # Baseline site confiugration
 # https://gohugo.io/getting-started/configuration/#all-configuration-settings
 baseURL = "https://scottmuc.com/hugo/"
-languageCode = "en-us"
+languageCode = "en"
 title = "More Muc Than You Can Handle"
 enableRobotsTXT = true
 # A large number ensures no pagination
