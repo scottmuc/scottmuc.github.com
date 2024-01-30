@@ -40,3 +40,107 @@ ModuleType Name                      ExportedCommands
 Script     PsGet                     {Get-PsGetModuleInfo, Install-Module}
 Script     Pester                    {It, Describe, New-Fixture, Invoke-Pester...}
 {{< /highlight >}}
+
+Pester includes a helper function called Create-Fixture. Calling the function with no args looks like the following:
+
+{{< highlight powershell >}}
+SMUC-PC {C:\d\IDeploy} Create-Fixture
+invalid usage, please specify (path, name)
+eg: .\Create-Fixture -Path Foo -Name Bar
+creates .\Foo\Bar.ps1 and .\Foo.Bar.Tests.ps1
+{{< /highlight >}}
+
+Create-Fixture wants to know what the path of your function is going to be and what to call it. I personally like having my tests next to what I’m testing so Create-Fixture sort of enforces this convention. Note that Pester can be used without ever using this function. I just never remember how to create my fixtures so this saves me a bit of copying and pasting.
+
+Armed with a quick way to create fixtures Michael runs his Create-Fixture to scaffold his feature. He decides he wants it to be called Ensure-AspNetDebugIsFalse and places it in the Deploy\Functions directory of his project.
+
+{{< highlight powershell >}}
+SMUC-PC {C:\d\IDeploy} Create-Fixture Deploy\Functions Ensure-AspNetDebugIsFalse
+Creating => Deploy\Functions\Ensure-AspNetDebugIsFalse.ps1
+Creating => Deploy\Functions\Ensure-AspNetDebugIsFalse.Tests.ps1
+{{< /highlight >}}
+
+Wanting to see some red he runs the tests by running Invoke-Pester which loads all files that match *.Tests.ps1 recursively in the current directory.
+
+{{< highlight powershell >}}
+SMUCS-PC {C:\d\IDeploy} Invoke-Pester
+Executing all tests in C:\dev\IDeploy\Deploy
+Describing Ensure-AspNetDebugIsFalse
+does something useful
+Tests completed
+Passed: 0 Failed: 1
+{{< /highlight >}}
+
+As you can see Pester by default makes a failing test. Now it’s time for Michael to update the test to make it more meaningful. Here’s his test file after he’s setup his expectations.
+
+Wow, it failed! Why is that? By default Pester will generate a fixture that is silly and won’t ever pass. So what should we do with this broken function? As it stands now it’s totally empty. Let’s update our specification (aka Test) and do something useful.
+
+So Michael has written a test that didn’t require a lot of code, but is actually doing a few cool things. I’ll try to go line by line and explain what’s going on:
+
+Ensure-AspNetDebugIsFalse.Tests.ps1 contents:
+
+{{< highlight powershell >}}
+$pwd = Split-Path -Parent $MyInvocation.MyCommand.Path
+$sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".Tests.", ".")
+. "$pwd\$sut"
+. "$pwd\..\..\Pester.1.0.1\tools\Pester.ps1"
+ 
+Describe "Ensure-AspNetDebugIsFalse" {
+ 
+    Setup -File "inetpub\wwwroot\testsite\web.config" `
+                "<configuration><system.web><compilation debug='true' /></system.web></configuration>"
+ 
+    It "switches debug attribute to false for a web.config in a given website path" {
+        Ensure-AspNetDebugIsFalse "$TestDrive\inetpub\wwwroot\testsite"
+ 
+        [xml] $xml = Get-Content "$TestDrive\inetpub\wwwroot\testsite\web.config"
+        $xml.configuration."system.web".compilation.debug.should.be("false")
+    }
+}
+{{< /highlight >}}
+
+Ensure-AspNetDebugIsFalse.ps1 contents:
+
+{{< highlight powershell >}}
+function Ensure-AspNetDebugIsFalse($websitePath) {
+
+}
+{{< /highlight >}}
+
+Here are some details on some of the lines in the test.
+
+1. We obtain the directory of the test script because we need to base all other paths off of it
+2. Here’s how we ensure our code/test conventions. This means that the code in Foo.Tests.ps1 will automatically include Foo.ps1 (the code under test) in line 3
+3. Create-Fixture automagically resolves the Pester path no matter what version of Pester you have. This directory will remain static. I might implement an Upgrade-Fixture script so that as you update your Pester version you can update your tests as well.
+4. Pester has the ability to do filesystem based setups. This line is creating a file in isolation in what Pester calls the $TestDrive. The $TestDrive is disposed of after every Describe context. This allows you to perform filesystem related tasks without having to maintain separate test files. This line has created a file called web.config in the inetpub\wwwroot\testsite path in the $TestDrive and the 2nd argument is the content of that file.
+5. We execute the code we want to test
+6. We assert that the debug attribute has been set to false.
+
+Let’s make this bad boy pass! Here’s the function fleshed out and the test passes!
+
+{{< highlight powershell >}}
+function Ensure-AspNetDebugIsFalse($websitePath) {
+    $webConfigPath = "$websitePath\web.config"
+ 
+    [xml] $webConfig = Get-Content $webConfigPath
+    $webConfig.configuration."system.web".compilation.debug = "false"
+    $webConfig.Save($webConfigPath)
+}
+{{< /highlight >}}
+
+and the execution of the test:
+
+{{< highlight powershell >}}
+SMUC-PC {C:\d\IDeploy} Invoke-Pester
+Executing all tests in C:\dev\IDeploy\Deploy
+Describing Ensure-AspNetDebugIsFalse
+switches debug attribute to false for a web.config in a given website path
+Tests completed
+Passed: 1 Failed: 0
+{{< /highlight >}}
+
+Now Michael has an extra tool at his disposal to call when he’s performing deployments. If only he had taken this approach when he wrote his money transfer code. He wouldn’t have missed all those decimal places!
+
+Hope this helps get you running with Pester. There’s a lot more I would like to add but I’m really only adding stuff as I see the need for it. Pester was driven out by my desire to refactor another Powershell library I wrote called PowerYaml. Take a look at the project page to see how I took the untested code, wrapped tests around it, then refactored.
+
+Feedback is greatly appreciate and I hope this helps your teams make reliable Powershell scripts.
