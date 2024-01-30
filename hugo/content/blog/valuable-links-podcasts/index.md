@@ -10,6 +10,7 @@ aliases:
 ---
 
 {{< figure src="podcast.jpg" >}}
+
 It's quite surprising that I haven't really brought up the topic of [podcasts][podcast-wiki] on my blog considering that
 I've been consuming them for almost 10 years! My methods and taste have changed a lot over the years. I want a place
 to point people when asked about what podcasts I listen to, and with a little more context than just a pure list.
@@ -41,7 +42,8 @@ where you've found too much good content and there isn't enough time to listen t
 
 ### [EconTalk][podcast-econtalk][{{< figure src="feed-icon-28x28.png" >}}][podcast-econtalk-rss]
 
-{{< figure src="econtalk.jpg" >}}
+{{< figure src="econtalk.jpg" width=200 >}}
+
 I begun listening to this show at the beginning of my [career break][career-break]. The
 host, [Russ Roberts][russ-roberts], does a great job of letting the guests speak without pushing his views too often.
 It's honestly changed how I think about problems in the world and how to best approach them. Economics is becoming a
@@ -74,6 +76,7 @@ listening to it regardless of the topic!
 ### [Slate Money][podcast-slate-money][{{< figure src="feed-icon-28x28.png" >}}][podcast-slate-money-rss]
 
 {{< figure src="slate-money.png" >}}
+
 Yet another podcast that talks about world events and how they affect the economy. Each episode covers 2-4 topics. This
 is starting become one of my required listening podcasts to stay informed about current events. The hosts discuss the
 economics in a way that's targetted for people who don't know all the lingo.
@@ -99,7 +102,8 @@ economics in a way that's targetted for people who don't know all the lingo.
 
 ### [99% Invisible][podcast-99pi][{{< figure src="feed-icon-28x28.png" >}}][podcast-99pi-rss]
 
-{{< figure src="99pi.png" >}}
+{{< figure src="99pi.png" width=300 >}}
+
 Now one of my favourites. You never know what to expect with this show because the
 enigmatic host, [Roman Mars][roman-mars], always finds something interesting that you likely have no idea about.
 Roman started a group called [Radiotopia][radiotopia] which is a collective of like minded artists to create
@@ -126,7 +130,8 @@ exceptional podcasts.
 
 ### [RadioLab][podcast-radiolab][{{< figure src="feed-icon-28x28.png" >}}][podcast-radiolab-rss]
 
-{{< figure src="radiolab.png" >}}
+{{< figure src="radiolab.png" width=300 >}}
+
 One of the pioneers in story-telling podcasts. I've been away from it for a while and have re-subscribed as I've been
 missing the excellent stories.
 
@@ -145,6 +150,7 @@ missing the excellent stories.
 ### [Stuff You Should Know][podcast-sysk][{{< figure src="feed-icon-28x28.png" >}}][podcast-sysk-rss]
 
 {{< figure src="sysk.jpg" >}}
+
 An exceptional podcast hosted by two charismatic people. Normally I find tangents in podcasts to be distracting, but for
 some reason these two often make it worthwhile. They cover a myriad of topics and they make the most mundane seem
 fascinating. There are many excellent episodes but the following ones really stood out for me.
@@ -171,6 +177,7 @@ fascinating. There are many excellent episodes but the following ones really sto
 ### [CBC Radio 3][podcast-cbcradio3][{{< figure src="feed-icon-28x28.png" >}}][podcast-cbcradio3-rss]
 
 {{< figure src="cbcradio3.jpg" >}}
+
 It's likely that I'm a bit biased, but this is where I discover new music. I worked
 there from 2005-2009 during the rise of the podcast. I can attest to the quality of the curation of the content coming
 from the folks at Radio 3. The superfeed subscribes you to all the different podcasts published by Radio 3, though I
@@ -183,7 +190,8 @@ don't think there are as many shows as there used to be.
 
 ### [Song Exploder][podcast-song-exploder][{{< figure src="feed-icon-28x28.png" >}}][podcast-song-exploder-rss]
 
-{{< figure src="songexploder.png" >}}
+{{< figure src="songexploder.png" width=300 >}}
+
 This show satifies my curiosity about how a song gets made. It also makes me
 appreciate songs that I wouldn't have given a second listen. By listening to this show, you can disover new artists, and
 you'll learn how to listen to music and grow appreciation for the more subtle elements of song composition.
@@ -209,6 +217,7 @@ listening to this keeps me somewhat informed of what's going on.
 ### [The Allusionist][podcast-allusionist][{{< figure src="feed-icon-28x28.png" >}}][podcast-allusionist-rss]
 
 {{< figure src="allusionist.png" >}}
+
 I could list to Helen Zaltzman speak all day. Her style and sense of humour is wonderful and I find that I learn a lot
 about the origins of the words in my native language.
 
@@ -247,6 +256,7 @@ them here and provide some context as to why I don't listen to them anymore.
 ### [a16z][podcast-a16z][{{< figure src="feed-icon-28x28.png" >}}][podcast-a16z-rss]
 
 {{< figure src="a16z.jpg" >}}
+
 Getting into the startup world is not something I'm terribly interested in, but I am critical
 about the tech community, especially startups. This show helps me better understand the world of startups so I can
 better understand the mechanics of startups. Over time this podcast has become to irritate me. The Valley speak gets to
@@ -272,6 +282,7 @@ because I realized that I simply did not care about the startup world. Listening
 ### [StartUp][podcast-startup][{{< figure src="feed-icon-28x28.png" >}}][podcast-startup-rss]
 
 {{< figure src="startup.png" >}}
+
 A podcast about a podcast startup. It mixes so many of my favourite things into one show.
 Fantastic storytelling about a medium I'm passionate about and a domain that I want to learn more of. What connects
 me to the show is that [Alex Blumberg][alex-blumberg] just wants to work on something he's passionate about, but has to wade through all
@@ -297,6 +308,7 @@ something I really want more of.
 ### [Giant Robots Smashing into Other Giant Robots][podcast-giant-robots][{{< figure src="feed-icon-28x28.png" >}}][podcast-giant-robots-rss]
 
 {{< figure src="giantrobots.jpg" >}}
+
 Not quite a technical podcast, but it shares stories from the software development world. I became a fan of
 [Ben Orenstein][ben-orenstein] when I saw him do a play-by-play screencast. He strikes me as someone I would enjoy
 working with. I'm weaning myself off of tech podcasts so this had to be removed.
@@ -310,6 +322,7 @@ working with. I'm weaning myself off of tech podcasts so this had to be removed.
 ### [The Ship Show][podcast-ship-show][{{< figure src="feed-icon-28x28.png" >}}][podcast-ship-show-rss]
 
 {{< figure src="shipshow.jpg" >}}
+
 Co-started by an old on-line friend of mine, [Youssuf Elkalay][youssuf-elkalay].
 I like the conversational style of this show as a way to keep me in the loop in the world of [DevOps][devops].
 Removed because I'm trying to stay away from technical podcasts.
@@ -324,6 +337,7 @@ Removed because I'm trying to stay away from technical podcasts.
 ### [HealthyHacker][podcast-healthyhacker][{{< figure src="feed-icon-28x28.png" >}}][podcast-healthyhacker-rss]
 
 {{< figure src="healthyhacker.png" >}}
+
 This one is fairly new and I've already become a fan. [Chris Hunt][chris-hunt]
 delivers his show in a charming style. He discusses being healthy, and what's interesting in the software world. All to
 the tune of a catchy theme song. Now I just need to get into the habit of doing the workout of the week. Removed for now
@@ -345,7 +359,8 @@ because of its technical base.
 
 ### [TED Radio Hour][podcast-ted-radio-hour][{{< figure src="feed-icon-28x28.png" >}}][podcast-ted-radio-hour-rss]
 
-{{< figure src="ted-radio-hour.jpg" >}}
+{{< figure src="ted-radio-hour.jpg" width=300 >}}
+
 Episodes are themed around TED talks of similar topics. It blends interviews with the speakers along with their talks.
 I find this more rich than the talk on its own.
 
@@ -373,6 +388,7 @@ I find this more rich than the talk on its own.
 ### [Tapestry][podcast-tapestry][{{< figure src="feed-icon-28x28.png" >}}][podcast-tapestry-rss]
 
 {{< figure src="tapestry.jpg" >}}
+
 Getting into the spiritual side a bit. This show talks about culture and religion with an
 open mind. The show reminds me to appreciate the differences between all of us on this rock. I used to listen to this
 show all the time when I lived in Canada. I just recently subscribed to the podcast.
@@ -392,6 +408,7 @@ show all the time when I lived in Canada. I just recently subscribed to the podc
 ### [White Coat Black Art][podcast-white-coat-black-art][{{< figure src="feed-icon-28x28.png" >}}][podcast-white-coat-black-art-rss]
 
 {{< figure src="whitecoat.jpg" >}}
+
 The health care system is usually a bit of a black box and this show provides some visibility into how things work. Like
 tapestry, this was a show I used to listen to all the time when I lived in Canada. Recently subscribed to feel that
 connection back to where I came from.
@@ -411,6 +428,7 @@ connection back to where I came from.
 ### [Spark][podcast-spark][{{< figure src="feed-icon-28x28.png" >}}][podcast-spark-rss]
 
 {{< figure src="spark.jpg" >}}
+
 A Canadian look into the technical world. Always nice to hear a Canadian perspective of what's going on. Hopefully
 because it's created by the CBC, there isn't any product/partner agenda.
 
@@ -422,6 +440,7 @@ because it's created by the CBC, there isn't any product/partner agenda.
 ### [BBC Peter Day's World of Business][podcast-bbc-pdwob][{{< figure src="feed-icon-28x28.png" >}}][podcast-bbc-pdwob-rss]
 
 {{< figure src="bbc-pdwob.jpg" >}}
+
 A show that does a good job of covering both sides around global trends or analysing specific environments. I find this
 show a bit deeper than something like Freakanomics or Planet Money.
 
@@ -441,6 +460,7 @@ show a bit deeper than something like Freakanomics or Planet Money.
 ### [Futility Closet][podcast-futility-closet][{{< figure src="feed-icon-28x28.png" >}}][podcast-futility-closet-rss]
 
 {{< figure src="futilitycloset.png" >}}
+
 A show about curious events. They did a neat thing where they perform a lateral thinking puzzle with each episode. It
 reminds me that sometimes truth is stranger than fiction and to always be curious about what is laid out in front of
 you. I've only listened to a few episodes so I don't have any favourites to list at the moment in time.
@@ -453,6 +473,7 @@ you. I've only listened to a few episodes so I don't have any favourites to list
 ### [Hello Internet][podcast-hello-internet][{{< figure src="feed-icon-28x28.png" >}}][podcast-hello-internet-rss]
 
 {{< figure src="hellointernet.png" >}}
+
 Most of the time I dislike drawn out conversational style podcasts but this one I enjoy listening to while doing tasks
 (and I don't mind not absorbing the contents of the episode). The hosts are: [CGP Grey][cgpgrey], who entertains me with
 his affinity for comfort and observing the world from a far. Often I find myself aligned with his views and enjoy his
@@ -472,6 +493,7 @@ podcast even though the episodes are too long by my listening standards.
 ### [BBC More or Less][podcast-bbc-mol][{{< figure src="feed-icon-28x28.png" >}}][podcast-bbc-mol-rss]
 
 {{< figure src="bbc-mol.jpg" >}}
+
 This show takes a deeper look around statistics. It does the deeper critical view so you don't have to. Listening to
 this makes me trust reports even less. Spin is such a problem and how information is presented requires a lot of effort
 to reveal a non-biased presentation.
@@ -494,6 +516,7 @@ to reveal a non-biased presentation.
 ### [BBC The Bottom Line][podcast-bbc-bottom-line][{{< figure src="feed-icon-28x28.png" >}}][podcast-bbc-bottom-line-rss]
 
 {{< figure src="bbc-bottom-line.jpg" >}}
+
 Provides a focus on what makes a business successful. It's a domain that I don't really have a clue. I find myself
 wanting to be closer to the business in the work I do day to day so this has been good at introducing me to what
 executives think about.
@@ -517,6 +540,7 @@ executives think about.
 ### [BBC Analysis][podcast-bbc-analysis][{{< figure src="feed-icon-28x28.png" >}}][podcast-bbc-analysis-rss]
 
 {{< figure src="bbc-analysis.jpg" >}}
+
 For once it's nice to listen to something that isn't about US politics. I started listening to economic podcasts to
 understand more of the world around me. Now it's pointing me in the direction of politics. This show is interesting to
 hear about how ideas and policies gets introduced to society. They tackle some difficult issues as well which makes it a
@@ -541,6 +565,7 @@ bit heavier than some of the other lighter podcasts I have listed here.
 ### [FT World Weekly][podcast-ft-worldweekly][{{< figure src="feed-icon-28x28.png" >}}][podcast-ft-worldweekly-rss]
 
 {{< figure src="ft-worldweekly.png" >}}
+
 Another good source for global news how it influences the world markets. Can't really say I have any favourites, but I
 do like how it's not just US news.
 
@@ -552,6 +577,7 @@ do like how it's not just US news.
 ### [Theory of Everything][podcast-toe][{{< figure src="feed-icon-28x28.png" >}}][podcast-toe-rss]
 
 {{< figure src="toe.jpg" >}}
+
 A member of the [Radiotopia][radiotopia] collective. Just started getting into this podcast recently.
 I'm already becoming a huge fan!
 
@@ -569,6 +595,7 @@ I'm already becoming a huge fan!
 ### [Freakonomics Radio][podcast-freakonomics][{{< figure src="feed-icon-28x28.png" >}}][podcast-freakonomics-rss]
 
 {{< figure src="freakonomics.jpg" >}}
+
 Sometimes hit or miss. Strives to be entertaining more than educational
 sometimes, but overall the content is quite good. I identify a bit with [Steve Levitt][steve-levitt] as he's more of an
 intrespective quiet person.
@@ -598,6 +625,7 @@ intrespective quiet person.
 ### [Planet Money][podcast-planet-money][{{< figure src="feed-icon-28x28.png" >}}][podcast-planet-money-rss]
 
 {{< figure src="planetmoney.png" >}}
+
 Short and to the point episodes that focus on very specific topics or issues. I
 like this show because the pieces are bite-sized and frequently released. I find myself listening to this show when I
 have to wait 15 minutes before something.
@@ -620,6 +648,7 @@ have to wait 15 minutes before something.
 ### [Conversations with Tyler][podcast-cwt][{{< figure src="feed-icon-28x28.png" >}}][podcast-cwt-rss]
 
 {{< figure src="cwt.jpg" >}}
+
 A new one that I just got into. It's a bit more candid than EconTalk and more accessible. The guests are of the same
 caliber and sometimes the Q&A at the end can add interesting tidbits that may not neccessarily come up during an
 interview.
@@ -641,6 +670,7 @@ interview.
 ### [FT Alphachat][podcast-ft-alphachat][{{< figure src="feed-icon-28x28.png" >}}][podcast-ft-alphachat-rss]
 
 {{< figure src="ft-alphachat.png" >}}
+
 Currently just trying this one out. Don't really have much to say about it at this point. It's more conversational than
 some of the other business/economic podcasts.
 
@@ -652,6 +682,7 @@ some of the other business/economic podcasts.
 ### [Hard Pass][hardpass][{{< figure src="feed-icon-28x28.png" >}}][hardpass-rss]
 
 {{< figure src="hardpass.jpg" >}}
+
 I learned about Linette Lopez from the Slate Money podcast and really liked her style. She's punchy
 and tells it like it is. Hard Pass is a good low-dose entertaining podcast about the business and
 econmics news of the day. The episodes are so short that it's easy to digest any time.
@@ -664,6 +695,7 @@ econmics news of the day. The episodes are so short that it's easy to digest any
 ### [Mad Fientist][mad-fientist][{{< figure src="feed-icon-28x28.png" >}}][mad-fientist-rss]
 
 {{< figure src="madfientist.jpg" >}}
+
 Over the last year I've been interested in those that pursue Financial Independence / Early Retirement (known as FIRE
 for short). This podcast is a regular dose of inspiration on my own pursuit of getting out of the rat race.
 
@@ -683,6 +715,7 @@ for short). This podcast is a regular dose of inspiration on my own pursuit of g
 ### [Track Changes][track-changes][{{< figure src="feed-icon-28x28.png" >}}][track-changes-rss]
 
 {{< figure src="trackchanges.png" >}}
+
 Enjoying this podcast makes me feel quite odd. It's a branding exercise by Paul and Rich's company, but I'm able to see
 past that and enjoy the dialogue of this show. I feel connected with [Paul Ford][paul-ford] as he brings out the
 computer nostalgia non-stop. It's a nice light-weight podcast that's nice for the gym or listening to before going to
@@ -713,6 +746,7 @@ sleep.
 ### [Hidden Brain][podcast-npr-hidden-brain][{{< figure src="feed-icon-28x28.png" >}}][podcast-npr-hidden-brain-rss]
 
 {{< figure src="npr-hiddenbrain.jpg" >}}
+
 A topic that I've been loving lately is learning how our brains work. Not at the micro level, but at the macro level.
 What makes us make all the silly decisions that we make. How do we subtly use this knowledge to manipulate people for
 good and bad. Whenever you find yourself asking the question "why would anyone behave this way?", listen to this show
@@ -737,6 +771,7 @@ and it'll shed some light on us crazy humans.
 ### [Lexicon Valley][podcast-lexvalley][{{< figure src="feed-icon-28x28.png" >}}][podcast-lexvalley-rss]
 
 {{< figure src="lexvalley.jpg" >}}
+
 Each episode starts with a clue as to what the topic is going to be, and the hosts try to figure it out. They often have
 great dialogues about the words and are well researched in trying to pinpoint the origin of term. They have a good sense
 of humour too.
@@ -757,6 +792,7 @@ of humour too.
 ### [Hurry Slowly][hurry-slowly][{{< figure src="feed-icon-28x28.png" >}}][hurry-slowly-rss]
 
 {{< figure src="hurryslowly.png" >}}
+
 Another productivity show that aligns with my current beliefs. It's good content delivered well, but I've stopped listening because I've heard most of the teachings in the show.
 
 **Favourites:**
@@ -774,6 +810,7 @@ Another productivity show that aligns with my current beliefs. It's good content
 ### [Revisionist History][revisionist-history][{{< figure src="feed-icon-28x28.png" >}}][revisionist-history-rss]
 
 {{< figure src="revisionisthistory.jpg" >}}
+
 Malcolm Gladwell is exceptional at cherry picking great stories to make his point. In this podcast he brings forward
 stories to make you think differently about past events. I really enjoyed this show as it reminds me of how delusional
 the human mind can be. At only 10 episodes it's something I believe is worth listening to a second time.
@@ -796,6 +833,7 @@ the human mind can be. At only 10 episodes it's something I believe is worth lis
 ### [The Human Zoo][human-zoo][{{< figure src="feed-icon-28x28.png" >}}][human-zoo-rss]
 
 {{< figure src="humanzoo.jpg" >}}
+
 Over time I have really started enjoying the topic of human behaviour and what makes us who we are.
 
 **Favourites:**
@@ -813,6 +851,7 @@ Over time I have really started enjoying the topic of human behaviour and what m
 ### [History of the World in 100 Objects][history-of-world][{{< figure src="feed-icon-28x28.png" >}}][history-of-world-rss]
 
 {{< figure src="history-of-world.jpg" >}}
+
 An excellent history of the world in small bite sized chunks. The format gives you a really good perspective of how
 long civilization takes to change. I can only imagine how much time it took to determine which objects to use
 from the last century. While listening to this I realized how much bias I have around change being technical.

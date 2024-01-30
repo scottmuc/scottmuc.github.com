@@ -11,7 +11,7 @@ aliases:
 After another relaxing two weeks in Vancouver (and attending [Sasquatch][sasquatch]), it's time to leave. Here's the
 last sunset I watched from the beach. If you can believe it, the weather in Vancouver was 99% rain free!
 
-{{< figure src="kits-sunset.jpg" >}}
+{{< imglink src="kits-sunset.jpg" href="kits-sunset.jpg" width="800x" >}}
 
 ### Schools Out for Summer
 

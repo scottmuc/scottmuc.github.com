@@ -10,6 +10,7 @@ aliases:
 ---
 
 [{{< figure src="book.jpg" >}}][book]
+
 Over the last 4 weeks I've been taking the [Coursera][coursera] course [Learning how to Learn][course-homepage] on the
 recommendation of my friend [Srini][srini-twitter]. The 2nd assignment in the course is to create a presentation or some
 form of media to present an understanding of the topics. An accompaniment to the course is the book,
@@ -43,7 +44,7 @@ message, the server will receive this and route it to an appropriate controller,
 response, the client will take the results and render the HTML to the browser. Woah, that was a lot of detail, and
 that's one example of why it's important to chunk knowledge.
 
-{{< imglink src="chunking.png" href="chunking.png" >}}
+{{< imglink src="chunking.png" href="chunking.png" width="800x" >}}
 
 It wasn't mentioned in the book, but a lot of what I read on chunking looked like reaching the **competent** level on the
 [Dreyfus Model of Skill Acquisition][dreyfus-model]. I'm now curious if **diffuse mode** is an essential part of
@@ -92,7 +93,8 @@ You know when you have yesterdays problem figured out in the morning during your
 Using the workout analogy, this is like using your in-shape body to enjoy life: traveling, playing with your children,
 fixing up your garden.
 
-{{< figure src="diffuse-focused.jpg" >}}
+{{< figure src="diffuse-focused.jpg" width=400 >}}
+
 What's important to understand is that both of these modes can't operate at the same time. I [even wrote][flow-post]
 about this a while ago and this book has given me the knowledge to better understand what I was observing when I wrote
 that post. As a developer, the state of flow (deep focused mode) has its appeal, but breaking that up so that you can
@@ -116,11 +118,11 @@ ideas on how prevent procrastination and here's my list of tactics:
 * **[Pomodoro Technique][pomodoro]** - I've been a fan of this process for a long time. Procrastination doesn't stand
   a chance when the timer is on. I like to use [pomodoro one][pomodoro-one] on my laptop. There are 4 components of
   developing a habit, and the first one is the **cue**. Starting the timer triggers me to go into a focused mode.
-  {{< imglink src="self-control.png" href="self-control.png" >}}
 * **[Self Control][self-control]** (pictured) - This application does a machine level block of the hostnames that you specify for a
   specific time period. It runs outside of the web-browser so it'll block applications that talk to these services and
-  even killing the process or rebooting your machine won't get the hostname working again. I will use this every time
-  I'm doing a pomodoro.
+  even killing the process or rebooting your machine won't get the hostname working again. I will use this every time I'm doing a pomodoro.
+  
+	{{< imglink src="self-control.png" href="self-control.png" width="400x" >}}
 * **Process over Product** - Unless the task is very very small, the time allocated to a single pomodoro should be
   process based. As of right now, I have on my task list the following: "2 pomodoros of coursera project". This keeps
   the focus on the activity and now the anxiety around the outcome. I don't know how long it's going to take to complete

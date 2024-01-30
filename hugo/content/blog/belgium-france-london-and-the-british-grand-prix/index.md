@@ -5,9 +5,7 @@ tags:
     - career break
 aliases:
     - /belgium-france-london-and-the-british-grand-prix
-
 ---
-
 *June 24th - July 7th*
 
 ### Shipment Delivered
@@ -25,8 +23,9 @@ that were a lot of fun. The lady has been in the shipping industry and even knew
 
 ### In Bruges
 
-{{< imglink src="bruges.jpg" href="bruges.jpg" >}} The trip
-from Antwerp to Bruges was pretty easy. As was finding the [residence][airbnb-bruges] I was going to stay in. The house was
+{{< imglink src="bruges.jpg" href="bruges.jpg" width="800x" >}}
+
+The trip from Antwerp to Bruges was pretty easy. As was finding the [residence][airbnb-bruges] I was going to stay in. The house was
 just outside the old town so after getting some travel logistics out of the way I set out to do a walking tour.
 
 [Bruges](https://en.wikipedia.org/wiki/Bruges) is one of the prettiest towns I’ve ever seen. It’s like a snapshot
@@ -74,8 +73,9 @@ and I just made my only connecting train with only a minute to spare. Last part 
 I [stayed][airbnb-dieppe]. The only issue was that I forgot to cache the map, but at least I had a star showing where it
 was and functional gps.
 
-{{< imglink src="dieppe.jpg" href="dieppe.jpg" >}} My primary motivation
-for visiting Dieppe was to see the beaches the Canadian troops attempted to invade in WWII. The
+{{< imglink src="dieppe.jpg" href="dieppe.jpg" width="400x" >}}
+
+My primary motivation for visiting Dieppe was to see the beaches the Canadian troops attempted to invade in WWII. The
 invasion of Dieppe preceded D-Day and was used as an information gathering invasion. Essentially they learned a lot at
 the expenses of thousands of lives. I’m not a patriotic person, but I couldn’t help but feel moved by the lives that were lost
 there. You can read more at [Wikipedia](https://en.wikipedia.org/wiki/Dieppe_Raid) (notice that my picture of the beach
@@ -84,7 +84,7 @@ is very close to the image in Wikipedia!
 After my walk about, I walked some more! I headed down to where all the restaurants were and had a nice meal and then
 proceeded to hang around the beach area to catch the sunset. It was definitely worth it.
 
-{{< imglink src="dieppe-sunset.jpg" href="dieppe-sunset.jpg" >}}
+{{< imglink src="dieppe-sunset.jpg" href="dieppe-sunset.jpg" width="800x" >}}
 
 [airbnb-dieppe]: https://www.airbnb.co.uk/rooms/1157655
 
@@ -124,17 +124,15 @@ me think about NSA’s involvement in security. If the NSA had a facility that c
 people would have the same feeling. WWII was great a creating a binary view of activities. Bletchley Park was also
 dismantled after the war. I guess things were simpler and less ambiguous then.
 
-Here's what the Colossus sounds like! I wish I recorded a lot more audio because I can hear a song wanting to come out.
+Here's what the [Colossus sounds like][colossus]! I wish I recorded a lot more audio because I can hear a song wanting to come out.
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no"
-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/157140660&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-### &nbsp;
+[colossus]: https://soundcloud.com/scottmuc/colossus-super-computer
 
 ### Race 1 of 3
 
-{{< imglink src="british-gp.jpg" href="british-gp.jpg" >}} The commute to the
-track was quite reasonable, but Friday was a bit much for me as I was in the worst part of my cold.
+{{< imglink src="british-gp.jpg" href="british-gp.jpg" width="400x" >}}
+
+The commute to the track was quite reasonable, but Friday was a bit much for me as I was in the worst part of my cold.
 Saturday had the most comfortable weather and I spent a lot of time at the track enjoying different vantage points. Race
 day was a big spectacle as it was the 50th race at Silverstone. Before the race there was an air display by the Red Arrows.
 It was far better than I had expected. Afterwards I went up to me seat and watched a great race. Lots of drama on the first

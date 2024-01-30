@@ -7,7 +7,7 @@ aliases:
 
 ---
 
-{{< figure src="shark-tank-wall.jpg" >}}
+{{< imglink src="shark-tank-wall.jpg" href="shark-tank-wall.jpg" width="800x" >}}
 
 No, this is not an April Fools joke. This was something that was actually implemented.
 

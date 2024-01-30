@@ -5,14 +5,14 @@ tags:
     - career break
 aliases:
     - /visiting-the-motherland-ukraine
-
 ---
 
 *August 17th - August 29th*
 
 ### Ukraine
 
-{{< imglink src="lviv-train.jpg" href="lviv-train.jpg" >}}
+{{< imglink src="lviv-train.jpg" href="lviv-train.jpg" width="400x" >}}
+
 The next leg of the journey was a long slog from Vienna to [L’viv][lviv]. I took a noon train to Budapest and had to pass
 some time there for a little while. From Budapest it was an overnight journey with many frequent stops in the
 middle of the night for immigration and customs. If you’ve ever played [Papers, Please][papers-please], it felt like that. Ukraine
@@ -27,7 +27,8 @@ it’s sadly alive and well.
 [ukrainian-brides]: https://www.youtube.com/watch?v=8wW7c58nMI4
 [shengen]: https://en.wikipedia.org/wiki/Schengen_Agreement
 
-{{< imglink src="lviv-train2.jpg" href="lviv-train2.jpg" >}}
+{{< imglink src="lviv-train2.jpg" href="lviv-train2.jpg" width="400x" >}}
+
 Even with such a long journey the train pretty much arrived on time within a couple minutes. When I exited the train I
 immediately could recognize my cousin [Lilia][lilia-twitter]. She ran up to me and gave me a proper family style hug. Looks like I’m
 home! We took a bus to her home in the Northern part of the city. I was introduced to her roommate,
@@ -45,34 +46,36 @@ did my best to tell the story of myself and the Myц family Canadian history.
 I felt immediately comfortable in L’viv. As Lilia was at work, Vitalik and Natalia guided me around the city. Here
 are some of the noteworthy places we checked out:
 
-{{< imglink src="lviv-high-castle.jpg" href="lviv-high-castle.jpg" >}}
+{{< imglink src="lviv-high-castle.jpg" href="lviv-high-castle.jpg" width="400x" >}}
+
 [High Castle][high-castle] - On my first day in L'viv I was antsy to go out and explore. I never feel comfortable
   in a location until I spend at least a whole day walking around exploring and knowing my surroundings. Natalia likes
   to sleep in (she's going to kill me), so instead of waiting for her to wake up, I decide to explore L'viv on my own.
   The high castle name is more of a memory as the castle isn't there anymore. Getting to the top of the hill was
   good exercise and rewarded me with a beautiful 360 degree view of the city.
 
-{{< imglink src="lviv-dim-legend.jpg" href="lviv-dim-legend.jpg" >}}
+{{< imglink src="lviv-dim-legend.jpg" href="lviv-dim-legend.jpg" width="400x" >}}
+
 [Dim Legend (House of Legend)][dim-legend] - There are a collection of restaurants owned by a company that's doing some interesting
   setups. Dim Legend has a room for every story (or a story for every room). The restaurant takes
   the entire building and you can go up to the roof top where there's patio with a car, and a chimney with a ladder so
   that you can climb to the top. There's something refreshing about being in a country that doesn't have the same
   restrictive safety regulations of most western countries.
 
-{{< imglink src="lviv-rynok.jpg" href="lviv-rynok.jpg" >}}
+{{< imglink src="lviv-rynok.jpg" href="lviv-rynok.jpg" width="400x" >}}
+
 [Rynok Square][rynok-square] - Like most Eastern European cities, L'viv has a beautiful (albeit touristy) city
   square. You'll find the "floating" statue people and dudes making giant bubbles. Overall though, the atmosphere is
   quaint and relaxing. Ukrainian culture is inviting so it's pretty hard to feel like you're too far out of place.
   This is probably where I spent the most time as all the coffee shops and restaurants are all near this location.
 
-{{< imglink src="lviv-chocolate-chili.jpg" href="lviv-chocolate-chili.jpg" >}}
+{{< imglink src="lviv-chocolate-chili.jpg" href="lviv-chocolate-chili.jpg" width="400x">}}
+
 [Lviv chocolate][lviv-chocolate] - One of the most unique experiences I had in L'viv was drinking melted chocolate
   flavoured with a whole whack load of chili powder! This place was not good for any thought about losing weight. Not
   sure how everyone here stays so fit! At least I was getting a lot of walking in, but not sure if it's enough for
   all the sweets I've been having.
 
-&nbsp;
-&nbsp;
 
 * [Lviv brewery][lviv-brewery] - On my own I stopped by the brewpub to sample a few of their beers. I was really
   intrigued by the style of beer they make there. In general, I found Ukrainian beer sweeter than most beers I've
@@ -94,11 +97,11 @@ are some of the noteworthy places we checked out:
   to me for some reason. The day that I visited Lychakiv Cemetery was sunny and warm. The whole area is like a maze and
   it was nice to wander around witnessing the beautiful scenery.
 
-{{< imglink src="lviv-beer.jpg" href="lviv-beer.jpg" >}}
-{{< imglink src="lviv-butterbeer.jpg" href="lviv-butterbeer.jpg" >}}
-{{< imglink src="lviv-books.jpg" href="lviv-books.jpg" >}}
-{{< imglink src="lviv-alley.jpg" href="lviv-alley.jpg" >}}
-{{< imglink src="lviv-cemetary.jpg" href="lviv-cemetary.jpg" >}}
+{{< imglink src="lviv-beer.jpg" href="lviv-beer.jpg" width="150x" >}}
+{{< imglink src="lviv-butterbeer.jpg" href="lviv-butterbeer.jpg" width="150x" >}}
+{{< imglink src="lviv-books.jpg" href="lviv-books.jpg" width="150x" >}}
+{{< imglink src="lviv-alley.jpg" href="lviv-alley.jpg" width="150x" >}}
+{{< imglink src="lviv-cemetary.jpg" href="lviv-cemetary.jpg" width="150x" >}}
 
 [lviv-brewery]: http://www.lvivbeermuseum.com/uk/muzey
 [high-castle]: https://en.wikipedia.org/wiki/Lviv_High_Castle
@@ -110,17 +113,19 @@ are some of the noteworthy places we checked out:
 [cemetery]: https://en.wikipedia.org/wiki/Lychakiv_Cemetery
 [try-mitly]: http://trumitlu.virtual.ua/?lang=en
 
-{{< figure src="lviv-tram.jpg" >}}
 L'viv is a city rich in culture, architecture, and friendly people. It's accessible with its [120 year old tram][tram]
 system, but remember to punch your ticket yourself (pictures to the left) and has all the things you need as a traveler.
 The city is sort of a dream land for me. It has excellent beer, chocolate, coffee, books, and food. The people are
 friendly and accomodating, I can't wait to be back!
 
+{{< figure src="lviv-tram.jpg" width="200x" >}}
+
 [tram]: https://en.wikipedia.org/wiki/Trams_in_Lviv
 
 ## Ternopil
 
-{{< imglink src="ternopil-home.jpg" href="ternopil-home.jpg" >}}
+{{< imglink src="ternopil-home.jpg" href="ternopil-home.jpg" width="400x" >}}
+
 For the weekend, Lillia had planned a trip to Ternopil to visit her parents and other relatives. Apparently they don’t
 get many foreigners on the train and the attendant on the train made an effort to ask if I wanted tea or coffee in
 English. He sort of chuckled and so did my cousins, not sure why. We took a bus from the train station to the outer area of Ternopil
@@ -143,8 +148,10 @@ cousin (Lilia and Natalia are my 2nd cousins 1st removed) and the family bond wa
 amazing cook! The meals included home made: cabbage rolls, varenyky (perogies), shkvarky (pork rind), sour cream, borscht, milk, and juice.
 I’m pretty sure I gained 5 kilos over those few days.
 
-{{< figure src="ternopil-beer1.jpg" >}}
-{{< figure src="ternopil-beer2.jpg" >}}
+{{< figure src="ternopil-beer1.jpg" width=300 >}}
+
+{{< figure src="ternopil-beer2.jpg" width=300 >}}
+
 The next day was spent driving to [Velyki Birky][village], a village outside of Ternopil. Our first stop was at Mariia’s parents (Hanna and
 Fedoz). First we stopped by a house which was a family run brewery (business card pictured). One of the sons of the owner was there and he
 happily (in excellent English) explained the whole operation. The beer was fresh, un-pasterized, un-filtered, and
@@ -158,19 +165,17 @@ could say that the West has been pretty weak in it's response.
 
 [village]: http://en.wikipedia.org/wiki/Velyki_Birky
 
-{{< imglink src="ternopil-family.jpg" href="ternopil-family.jpg" >}}
-{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" >}}
+{{< imglink src="ternopil-family.jpg" href="ternopil-family.jpg" width="300x" >}}
+{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" width="300x" >}}
 
 In the evening I went out with the girls to meet up with some of their friends. It was fun introducing them to some
 of the games I played at TWU (eg: numbers game, and one-up one-down). The next day was a holiday for independence day
 so we went walking around the city for a bit. The city had some very pretty areas and some interesting looking playgrounds.
 After our walk we went to the train station (pic: don't we look like an intimidating group?).
 
-{{< imglink src="ternopil-family.jpg" href="ternopil-family.jpg" >}}
-{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" >}}
-{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" >}}
-
-[family-brewery]:
+{{< imglink src="ternopil-family.jpg" href="ternopil-family.jpg" width="260x" >}}
+{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" width="260x" >}}
+{{< imglink src="ternopil-family2.jpg" href="ternopil-family2.jpg" width="260x" >}}
 
 ## Back to L'viv
 

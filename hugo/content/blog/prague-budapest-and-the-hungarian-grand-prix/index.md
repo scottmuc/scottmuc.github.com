@@ -5,14 +5,12 @@ tags:
     - career break
 aliases:
     - /prague-budapest-and-the-hungarian-grand-prix
-
 ---
-
 *July 22nd - July 29th*
 
 ### Prague
 
-{{< imglink src="prague.jpg" href="prague.jpg" >}}
+{{< imglink src="prague.jpg" href="prague.jpg" width="800x" >}}
 
 Next portion of the trip is to Eastern Europe! I had a nice simple itinerary to Prague: **Heidelberg -> Munich -> Prague**.
 Unfortunately something was going on with the brakes on the train and I missed my train in Munich so it
@@ -44,7 +42,7 @@ discussed much about software development, and my ineptness with the woman on th
 
 Sandeman operates in Prague too so I did a couple tours:
 
-{{< imglink src="prague-castle.jpg" href="prague-castle.jpg" >}}
+{{< imglink src="prague-castle.jpg" href="prague-castle.jpg" width="800x" >}}
 
 * [Free Tour][prague-free-tour]: I can't really talk about this tour without talking about the guide. [Pavel][prague-guide]
   was quite the character. He had an entertaining dry wit and personalized the tour with stories of his own family. I
@@ -85,7 +83,7 @@ train stations so I can do more comparing and contrasting.
 
 ### Hungarian Grand Prix
 
-{{< imglink src="budapest-bags.jpg" href="budapest-bags.jpg" >}}
+{{< imglink src="budapest-bags.jpg" href="budapest-bags.jpg" width="400x" >}}
 
 Getting to the race track was a fairly painless experience in Budapest. The transit workers were also extremely helpful
 and knowledgable about the logistics of the race. The track was located in a beautiful area just outside Budapest. I
@@ -101,12 +99,9 @@ at the end of the month.
 
 [race]: http://www.autoblog.com/2014/07/28/race-recap-2014-hungarian-grand-prix-a-thrilling-wet-mess/
 
-<br />
-<br />
-
 ### Dream Theater in Budapest
 
-{{< imglink src="dream-theater.jpg" href="dream-theater.jpg" >}}
+{{< imglink src="dream-theater.jpg" href="dream-theater.jpg" width="400x" >}}
 
 As a bonus I saw posters stating that [Dream Theater][dream-theater] is playing nearby! I've been a fan of them since 1998 and have never
 seen them live! Everything looked too perfect: the venue was a beautiful tram ride away, it starts after the majority of
@@ -127,7 +122,7 @@ encounter... nope. Though I did do a bit better. I wrote down my website and she
 I got a message from her a few days later and we're still corresponding! Clearly something supernatural was going on as
 you can tell from this image of the show.
 
-{{< imglink src="budapest-view.jpg" href="budapest-view.jpg" >}}
+{{< imglink src="budapest-view.jpg" href="budapest-view.jpg" width="800x" >}}
 
 The weather following the race was not so good. I managed to explore a little bit around the vicinity of where I was
 staying, but spent most of the time catching up with Coursera. Sandeman did not have any presence in Budapest so I took

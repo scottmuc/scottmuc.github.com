@@ -7,8 +7,7 @@ aliases:
     - /why-i-like-running
 
 ---
-
-[{{< figure src="venice.jpg" >}}][venice-pic]
+{{< imglink src="venice.jpg" href="venice.jpg" width="800x" >}}
 
 I've been an off and on jogger for the last 2 years, but my goal is to be a jogger for the rest of my life. For some
 reason I've felt compelled to journal my reasons. If one person thinks to take up jogging, then that would be wonderful.

@@ -7,9 +7,7 @@ aliases:
     - /growing-an-open-source-project-the-pester-story
 
 ---
-
-
-[{{< figure src="github-pester.png" >}}][pester]
+[{{< figure src="github-pester.png" width="800" >}}][pester]
 
 ### In the Beginning
 
@@ -83,7 +81,8 @@ Johan Leino appear on the Web.
 
 ### The Year of Transition (2014)
 
-{{< imglink src="pester-mention.png" href="https://twitter.com/LogicalDiagram/status/461638955725631488" >}}
+{{< imglink src="pester-mention.png" href="https://twitter.com/LogicalDiagram/status/461638955725631488" width="300x" >}}
+
 2014 marked a large surge in Pester interest. During the PowerShell Summit it was rumoured that the creator of
 PowerShell, [Jeffrey Snover][jsnover], mentioned Pester in one of his talks! Heck, I was even [interviewed][interview] for the
 PowerScripting Podcast!
@@ -130,7 +129,6 @@ and Dave doing nearly all the maintenance.
 That being said, I'm "officially" stepping down and retiring from Pester. This will be done by unsubcribing from any
 e-mail notifications (the google group, and the github project).
 
-![pester](http://pesterbdd.com/images/Pester.png)
 I would like to shout a big thank you to everyone who made this project so wonderful. Especially to [Manoj Mahalingam][manoj] who did some great work in the early days and really helped me get this project off the ground.
 Another shout out to [Stefan Vant][vant] for the excellent logo!
 

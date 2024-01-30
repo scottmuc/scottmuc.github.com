@@ -5,9 +5,7 @@ tags:
     - career break
 aliases:
     - /crossing-the-atlantic-via-container-ship
-
 ---
-
 As I mentioned in my [last post][previous-post], I finished the crossing of the Atlantic ocean via container ship. It was a great
 experiene that I'll happily do again. 11 days wasn't enough, and would be happy to spend a month next time around.
 

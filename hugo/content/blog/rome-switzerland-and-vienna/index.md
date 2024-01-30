@@ -5,14 +5,12 @@ tags:
     - career break
 aliases:
     - /rome-switzerland-and-vienna
-
 ---
-
 *July 30th - August 17th*
 
 ## When in Rome
 
-{{< imglink src="rome-fountain.jpg" href="rome-fountain.jpg" >}}
+{{< imglink src="rome-fountain.jpg" href="rome-fountain.jpg" width="800x" >}}
 
 When I learned that my uncle and his family would be in Rome I looked at my schedule to see if I could make seeing them
 work. It turned out it fit perfectly! The last time I saw them was in London while they were doing their 2013 summer
@@ -33,9 +31,9 @@ game
 
 [hallway-of-maps]: https://en.wikipedia.org/wiki/The_Gallery_of_Maps
 
-{{< imglink src="rome-colosseum.jpg" href="rome-colosseum.jpg" >}}
-{{< imglink src="rome-square.jpg" href="rome-square.jpg" >}}
-{{< imglink src="rome-st-peters.jpg" href="rome-st-peters.jpg" >}}
+{{< imglink src="rome-colosseum.jpg" href="rome-colosseum.jpg" width="260x" >}}
+{{< imglink src="rome-square.jpg" href="rome-square.jpg" width="260x" >}}
+{{< imglink src="rome-st-peters.jpg" href="rome-st-peters.jpg" width="260x" >}}
 
 As beautiful as Rome was, I knew my time as a tourist was ending. I was at the point where I didn't want to elbow my
 way through tourists anymore. Nor was I as interested as I was before in exploring musuems and historical places. The
@@ -44,7 +42,7 @@ to have tomatoes as a part of it.
 
 ## Watching Time Go By in Switzerland
 
-{{< imglink src="swiss-home.jpg" href="swiss-home.jpg" >}}
+{{< imglink src="swiss-home.jpg" href="swiss-home.jpg" width="800x" >}}
 
 The other part that made Rome convenient was that I could travel to Switzerland to meet up with fellow ex-ThoughtWork
 [Marc Hofer][marc], who I worked with in India in ThoughtWorks University (TWU), and who's balcony view is displayed above.
@@ -63,20 +61,22 @@ Over the those days I did the following:
   personal currency because everyone's exchange into Days will be different. We of course
   talked about our time in India and software development in Switzerland. We never really lacked of things to talk about
   the whole time I was there.
-* {{< imglink src="swiss-bern.jpg" href="swiss-bern.jpg" >}} **Bern
-  Excursion** - Marc had a meetup with some of his colleagues and invited me out. I took a train out to Bern a few
+* **Bern Excursion** - Marc had a meetup with some of his colleagues and invited me out. I took a train out to Bern a few
   hours before the meetup started so I could wander around a bit. It didn't take long for me to find the
   [Kindlifresserbrunnen (Child Eater Fountain)][ogre] which is probably the most bizarre statue I've ever seen. The old
   town was beautiful (like Antwerp, Bruges, Heidelberg, Prague, etc...) and of course I found a nearby
   [brewery][bern-brewery] to quench my thirst for a bit before heading to meet up with Marc and his colleagues.
+
+  {{< imglink src="swiss-bern.jpg" href="swiss-bern.jpg" width="400x" >}}
 * **Coffee shops** - During the day I looked to find cafes to hang out in and work on my blog (these posts seem to take me a
   heck of a lot of time). There was [one cafe][cafe] that I really liked. The staff were friendly, played good music, and the
   coffee and beers available were very tasty. During this period I was getting working on my [CV][cv] and getting
   excited about working again!
-* {{< imglink src="swiss-bike.jpg" href="swiss-bike.jpg" >}} **Bike
-  around Lake Thun** - The weather was hit-and-miss, but for one day there was excellent weather. I rented a bike and
+* **Bike around Lake Thun** - The weather was hit-and-miss, but for one day there was excellent weather. I rented a bike and
   rode it to [Interlaken][interlaken] and back to Thun for a total of 60km. It was a beautiful ride, but I could feel that I'm a bit
   out of shape.
+
+	{{< imglink src="swiss-bike.jpg" href="swiss-bike.jpg" width="400x" >}} 
 * **Train tour** - There were spare days on my Eurail pass so I decided to check out all the main city centers in the
   country. I started by going to [Geneva][geneva], then [Zurich][zurich], and finished in [Luzern][luzern].
   Mike Wong, a ThoughtWorker from SF, was on vacation and we met up for dinner. Seriously, ThoughtWorkers are everywhere!
@@ -97,9 +97,9 @@ Over the those days I did the following:
 [oberhofen-castle]: http://www.schlossoberhofen.ch/en/home
 [watch-museum]: http://www.myswitzerland.com/en/museum-of-clocks-and-mechanical-musical-instruments.html
 
-{{< imglink src="swiss-spiez.jpg" href="swiss-spiez.jpg" >}}
-{{< imglink src="swiss-thun-canal.jpg" href="swiss-thun-canal.jpg" >}}
-{{< imglink src="swiss-bridge.jpg" href="swiss-bridge.jpg" >}}
+{{< imglink src="swiss-spiez.jpg" href="swiss-spiez.jpg" width="260x" >}}
+{{< imglink src="swiss-thun-canal.jpg" href="swiss-thun-canal.jpg" width="260x" >}}
+{{< imglink src="swiss-bridge.jpg" href="swiss-bridge.jpg" width="260x" >}}
 
 Since I was in the land of clocks I was hoping to purchase a watch there. Something to be a symbol of taking time to
 enjoy life (a principle of my career break) and something to keep me from looking at my phone for the time. I was
@@ -107,7 +107,7 @@ inspired by the intricate work that goes into making a watch and thought having 
 pride in my work and take the necessary time to do it well. Unfortunately all the watch stores were posh and displayed
 ideas around prestige and fashion more than engineering. It switched off my idea of purchasing a watch for now.
 
-{{< imglink src="swiss-currency.jpg" href="swiss-currency.jpg" >}}
+
 It was hard to leave Switzerland because I was growing comfortable there. The people were friendly and forgiving of my
 inability to speak any of the 4 official languages. Then again, paying over $30 (0.3 Days) was quickly draining my money
 reserves. At least the best part of Switzerland is free; the scenery. Oh, and I also like how the currency folded nicely
@@ -115,11 +115,11 @@ in my money clip. The notes are sized in such a way that the denomination of the
 see all of your notes when folded! I can't say how many times I've had a roll of US notes and found that they were all
 $1 bills and I only had a total of $30 on me.
 
-### &nbsp;
+{{< imglink src="swiss-currency.jpg" href="swiss-currency.jpg" width="200x" >}}
 
 ## Composing my Thoughts in Vienna
 
-{{< imglink src="vienna-cats.jpg" href="vienna-cats.jpg" >}}
+{{< imglink src="vienna-cats.jpg" href="vienna-cats.jpg" width="800x" >}}
 
 The next leg of my journey is a long train trip to L'viv, Ukraine. I decided to break up the trip with a stop in Vienna
 for a couple days. With only a couple days I had to pack in the sight-seeing. This was made easier with me being
@@ -136,9 +136,9 @@ for [Schönbrunn][schonbrunn] palace. I took the metro there and climb up the hi
 [salm-brau]: http://www.salmbraeu.com/index.php?id=2&L=1
 [schonbrunn]: https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace
 
-{{< imglink src="vienna-belvedere.jpg" href="vienna-belvedere.jpg" >}}
-{{< imglink src="vienna-schunbrunn.jpg" href="vienna-schunbrunn.jpg" >}}
-{{< imglink src="vienna-center.jpg" href="vienna-center.jpg" >}}
+{{< imglink src="vienna-belvedere.jpg" href="vienna-belvedere.jpg" width="260x" >}}
+{{< imglink src="vienna-schunbrunn.jpg" href="vienna-schunbrunn.jpg" width="260x" >}}
+{{< imglink src="vienna-center.jpg" href="vienna-center.jpg" width="260x" >}}
 
 The next day I used a city bike rental. I'm glad I did because I saw a very different Vienna. First stop was to checkout
 the [Hundertwasserhaus][hundertwasserhaus]. It was so interesting and pretty that I wondered why beautiful buildings
@@ -166,9 +166,9 @@ down and I took the metro back to the apartment and hung out in the flat with Ro
 [prater]: http://www.wien-vienna.com/prater.php
 [donaucity]: https://en.wikipedia.org/wiki/Donau_City
 
-{{< imglink src="vienna-hundertwasser.jpg" href="vienna-hundertwasser.jpg" >}}
-{{< imglink src="vienna-donaucity.jpg" href="vienna-donaucity.jpg" >}}
-{{< imglink src="vienna-golden-boy.jpg" href="vienna-golden-boy.jpg" >}}
+{{< imglink src="vienna-hundertwasser.jpg" href="vienna-hundertwasser.jpg" width="260x" >}}
+{{< imglink src="vienna-donaucity.jpg" href="vienna-donaucity.jpg" width="260x" >}}
+{{< imglink src="vienna-golden-boy.jpg" href="vienna-golden-boy.jpg" width="260x" >}}
 
 After one more sleep it's time for me to leave Vienna and head to L'viv, Ukraine!
 
