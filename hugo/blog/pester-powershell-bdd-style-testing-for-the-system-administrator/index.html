@@ -24,14 +24,32 @@
 			<h1>Pester - PowerShell BDD Style Testing For The System Administrator</h1>
 			<div>
 				<p>Hi there and welcome to my demo of Pester, a BDD style testing framework for Powershell. The creation of Pester came out of the desire to test some build/deployment infrastructure we were creating for a project. We wrote nearly all the code without tests and it came to bite us in the end. I wanted to find a way ensure these problems didn&rsquo;t happen again as well as provide some code coverage to give new entrants to the codebase some confidence that they won&rsquo;t break everything.</p>
-<!-- raw HTML omitted -->
 <p>Inside Pester there&rsquo;s already a trivial Calculator example but it&rsquo;s not really the best way to demonstrate the app. Pester itself is tested using Pester. In fact it&rsquo;s being tested by the version of Pester that&rsquo;s under test (although Martin pointed out some uncovered areas). Still, probably not the best way to show how it all works.</p>
 <p>What I&rsquo;m going to go through here is the beginning of what could possibly be a real world scenario for a person assigned to write deployment code.</p>
 <h2 id="heres-the-story">Here&rsquo;s the story:</h2>
 <p>Initech has had issues where their .Net web applications have been deployed on production servers with the debug compilation flag set to true. This has made production support people irritable because they now manually tweak the web.config every single time they do a deploy. Michael Bolton has decided he&rsquo;s going to automate this step but wants to right it test first. He doesn&rsquo;t want to repeat the debacle of his previous attempt at being clever.</p>
 <p>First step is to setup a project. Mike (as he now likes be known as) decides to call his project of tools IDeploy and creates a folder of that name where he does is development.</p>
 <p>Setting up Pester is simply a matter of following the instructions at PsGet (author Mike Chaliy has tons of great PowerShell modules)then running Install-Pester. Then running Import-Module Pester anytime you open up a PowerShell session where you want to use Pester. The console should look like the following:</p>
-<!-- raw HTML omitted -->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>SMUC-PC {C:\d\IDeploy} (new-object Net.WebClient).DownloadString(<span style="color:#e6db74">&#34;http://bit.ly/GetPsGet&#34;</span>) | iex
+</span></span><span style="display:flex;"><span>Downloading PsGet from https<span style="color:#960050;background-color:#1e0010">:</span>//github.com/chaliy/psget/raw/master/PsGet/PsGet.psm1
+</span></span><span style="display:flex;"><span>PsGet is installed and ready to use
+</span></span><span style="display:flex;"><span>USAGE<span style="color:#960050;background-color:#1e0010">:</span>
+</span></span><span style="display:flex;"><span>    import-module PsGet
+</span></span><span style="display:flex;"><span>    install-module https<span style="color:#960050;background-color:#1e0010">:</span>//github.com/chaliy/psurl/raw/master/PsUrl/PsUrl.psm1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">For</span> more details<span style="color:#960050;background-color:#1e0010">:</span>
+</span></span><span style="display:flex;"><span>    get-help install-module
+</span></span><span style="display:flex;"><span>Or visit http<span style="color:#960050;background-color:#1e0010">:</span>//psget.net
+</span></span><span style="display:flex;"><span>SMUC-PC {C:\d\IDeploy} import-module PsGet
+</span></span><span style="display:flex;"><span>SMUC-PC {C:\d\IDeploy} install-module Pester
+</span></span><span style="display:flex;"><span>Module Pester was successfully installed.
+</span></span><span style="display:flex;"><span>SMUC-PC {C:\d\IDeploy} import-module Pester
+</span></span><span style="display:flex;"><span>SMUC-PC {C:\d\IDeploy} Get-Module
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ModuleType Name                      ExportedCommands
+</span></span><span style="display:flex;"><span>---------- ----                      ----------------
+</span></span><span style="display:flex;"><span>Script     PsGet                     {Get-PsGetModuleInfo, Install-Module}
+</span></span><span style="display:flex;"><span>Script     Pester                    {It, Describe, New-Fixture, Invoke-Pester...}</span></span></code></pre></div>
 
 			</div>
 			

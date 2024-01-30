@@ -12,6 +12,10 @@ p {
 	font-size: 1.1em;
 }
 
+a.imglink {
+	text-decoration: none;
+}
+
 a, a:focus, a:hover {
 	color: #261bee;
 }
