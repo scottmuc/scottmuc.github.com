@@ -30,7 +30,7 @@ now. Most importantly, it allows me to export my subscribed shows as an [OPML fi
 
 [opml-wiki]: https://en.wikipedia.org/wiki/Opml
 [pocketcasts]: http://www.shiftyjelly.com/android/pocketcasts
-[podcasts-opml]: /podcasts_opml.xml
+[podcasts-opml]: podcasts_opml.xml
 
 ## What I Am Listening to Now
 
