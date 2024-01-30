@@ -26,7 +26,7 @@ email: scottmuc@gmail.com
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /archive
 permalink: /:title/
 source: source
 destination: public
