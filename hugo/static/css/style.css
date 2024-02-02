@@ -98,6 +98,7 @@ main article {
 	padding: 1em 55px 1em 55px;
 	border-bottom: solid 1px #ccc;
 	background: none;
+	max-width: 1000px;
 }
 
 time {
