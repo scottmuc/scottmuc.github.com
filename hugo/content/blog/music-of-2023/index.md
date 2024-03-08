@@ -81,7 +81,9 @@ nostalgic tone for me. As well as a tilt towards female vocalists.
 Here's the playlist. I tried to organise it in a way that makes for an enjoyable
 musical journey.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=K-5ABnmP8nENTH5u&amp;list=PLdY9IPS1jPwKeKi2gM6boJx-ytMZG38Iw" title="Scott's Music Picks of 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{{< youtubeplaylist 
+	playlistid="PLdY9IPS1jPwKeKi2gM6boJx-ytMZG38Iw" 
+	title="Scott's Music Picks of 2023" >}}
 
 Below is a reference to which episode I learnt about the track. I do this
 because the podcasts give great commentary on the background of the artist,

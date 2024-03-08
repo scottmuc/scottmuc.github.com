@@ -1,0 +1,10 @@
+{{- $playlistid := .Get "playlistid" -}}
+{{- $title := .Get "title" -}}
+<iframe 
+	width="640" height="360" 
+	src="https://www.youtube-nocookie.com/embed/videoseries?list={{ $playlistid }}" 
+	title="{{ $title }}" 
+	frameborder="0"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+	allowfullscreen>
+</iframe>
