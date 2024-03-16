@@ -17,10 +17,9 @@ copyright = "Copyright © 2024 - Scott Muc"
 # https://gohugo.io/templates/output-formats/#default-output-formats
 # https://gohugo.io/templates/section-templates/#page-kinds
 [outputs]
-	home = ["html", "rss"]
+	home = ["html"]
 	page = ["html"]
-	section = ["html"]
-	taxonomy = ["html"]
+	section = ["html", "rss"]
 
 # https://gohugo.io/templates/output-formats/#output-format-definitions
 [outputFormats]
