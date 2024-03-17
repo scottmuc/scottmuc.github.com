@@ -20,6 +20,8 @@ copyright = "Copyright © 2024 - Scott Muc"
 	home = ["html"]
 	page = ["html"]
 	section = ["html", "rss"]
+	taxonomy = ["html"]
+	term = ["html"]
 
 # https://gohugo.io/templates/output-formats/#output-format-definitions
 [outputFormats]
