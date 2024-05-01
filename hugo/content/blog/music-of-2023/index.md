@@ -28,6 +28,7 @@ to decline. Still, I managed to make it out to the following gigs:
 * 24.03.2023 The Handsome Family at [Privatclub][privatclub]
 * 05.04.2023 Moon Hooch at [Urban Spree][urbanspree]
 * 07.04.2023 Aldous Harding at [Admiralpalast][admiralpalast]
+* 18.04.2023 Houses of Worship at **undisclosed venue**
 * 23.04.2023 Altin Gün at [Columbiahalle][columbiahalle]
 * 29.04.2023 Dry Cleaning at [Festsaal Kreuzberg][festsaal]
 * 23.05.2023 The Lemon Twigs at [Frannz Club][frannzclub]
