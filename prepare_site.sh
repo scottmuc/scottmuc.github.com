@@ -2,7 +2,7 @@
 
 set -e
 
-# the master branch is currently the method of deployment to github pages
+# the live branch is currently the method of deployment to github pages
 if [ ! -d ./live ]; then
   git clone -b live --depth 1 git@github.com:scottmuc/scottmuc.github.com.git live
 fi
