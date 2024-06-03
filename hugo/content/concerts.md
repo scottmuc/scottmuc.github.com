@@ -12,10 +12,10 @@ tags: []
 * 16.04.2024 Altin Gün at [Huxleys Neue Welt][huxleys]
 * 18.04.2024 Yard Act  at [Festsaal Kreuzberg][festsaal]
 * 30.04.2024 Florigin at Rotbart
+* 01.06.2024 Villagers at [Passionkirche][passionkirche]
 
 ## Future (have tickets)
 
-* 01.06.2024 Villagers at [Passionkirche][passionkirche]
 * 23.07.2024 Calexico at [Capitol Hannover][capitolhannover]
 * 07.08.2024 Moon Hooch at [Frannz Club][frannzclub]
 * 09.08.2024 Baroness at [WERK2 - Kulturfabrik][werk2] Leipzig
@@ -29,7 +29,6 @@ tags: []
 
 ## Considering
 
-* 03.06.2024 Jeff Rosenstock
 * 11.06.2024 Mannequin Pussy
 * 11.06.2024 The Smile
 * 11.06.2024 Cherry Glazer
