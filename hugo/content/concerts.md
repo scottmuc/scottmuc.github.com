@@ -16,6 +16,7 @@ tags: []
 
 ## Future (have tickets)
 
+* 13.06.2024 Florigin at Junction
 * 23.07.2024 Calexico at [Capitol Hannover][capitolhannover]
 * 07.08.2024 Moon Hooch at [Frannz Club][frannzclub]
 * 09.08.2024 Baroness at [WERK2 - Kulturfabrik][werk2] Leipzig
