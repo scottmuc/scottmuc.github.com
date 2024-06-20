@@ -13,10 +13,13 @@ tags: []
 * 18.04.2024 Yard Act  at [Festsaal Kreuzberg][festsaal]
 * 30.04.2024 Florigin at Rotbart
 * 01.06.2024 Villagers at [Passionkirche][passionkirche]
+* 13.06.2024 Florigin at Junction
 
 ## Future (have tickets)
 
-* 13.06.2024 Florigin at Junction
+* 21.06.2024 Florigin and the rest of Fête de la Musique
+* 07.07.2024 Alvvays at [Huxleys Neue Welt][huxleys]
+* 21.07.2024 Air at [Zitadelle Spandau][zitadellespandau]
 * 23.07.2024 Calexico at [Capitol Hannover][capitolhannover]
 * 07.08.2024 Moon Hooch at [Frannz Club][frannzclub]
 * 09.08.2024 Baroness at [WERK2 - Kulturfabrik][werk2] Leipzig
@@ -30,23 +33,13 @@ tags: []
 
 ## Considering
 
-* 11.06.2024 Mannequin Pussy
-* 11.06.2024 The Smile
-* 11.06.2024 Cherry Glazer
-* 19.06.2024 Mr. Bungle
-* 22.06.2024 Heart & Cheap Trick
-* 30.06.2024 Thievery Corporation
-* 02.07.2024 Judas Priest
-* 07.07.2024 Alvvays
 * 15.07.2024 Waxahatchee
 * 20.07.2024 Gogol Bordello
-* 21.07.2024 Air
-* 22.07.2024 Psychedelic Porn Crumpets
 * 31.07.2024 The Cult
 * 13.08.2024 PJ Harvey
 * 21.08.2024 Protomartyr
 * 18.09.2024 Tommy Emmanuel & Mike Dawes
-* 19.09.2024 Stand of Oaks
+* 19.09.2024 Strand of Oaks
 * 30.09.2024 Real Estate
 * 14.10.2024 Godspeed You! Black Emperor
 * 15.10.2024 Ezra Collective
@@ -76,3 +69,4 @@ tags: []
 [kesselhaus]: https://www.kesselhaus.net/en
 [theaterdeswestens]: https://www.visitberlin.de/en/theatre-west
 [ubereatsmusichall]: https://www.uber-eats-music-hall.de
+[zitadellespandau]: https://www.visitberlin.de/en/zitadelle-spandau-spandau-citadel
