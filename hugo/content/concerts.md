@@ -14,10 +14,10 @@ tags: []
 * 30.04.2024 Florigin at Rotbart
 * 01.06.2024 Villagers at [Passionkirche][passionkirche]
 * 13.06.2024 Florigin at Junction
+* 21.06.2024 Florigin and the rest of Fête de la Musique
 
 ## Future (have tickets)
 
-* 21.06.2024 Florigin and the rest of Fête de la Musique
 * 07.07.2024 Alvvays at [Huxleys Neue Welt][huxleys]
 * 21.07.2024 Air at [Zitadelle Spandau][zitadellespandau]
 * 23.07.2024 Calexico at [Capitol Hannover][capitolhannover]
@@ -34,7 +34,6 @@ tags: []
 ## Considering
 
 * 15.07.2024 Waxahatchee
-* 20.07.2024 Gogol Bordello
 * 31.07.2024 The Cult
 * 13.08.2024 PJ Harvey
 * 21.08.2024 Protomartyr
@@ -44,8 +43,8 @@ tags: []
 * 14.10.2024 Godspeed You! Black Emperor
 * 15.10.2024 Ezra Collective
 * 19.10.2024 Arooj Aftab
+* 21.10.2024 Great Lake Swimmers
 * 11.11.2024 Iron & Wine
-
 
 [privatclub]: https://privatclub-berlin.de
 [urbanspree]: https://www.urbanspree.com
