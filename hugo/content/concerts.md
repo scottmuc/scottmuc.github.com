@@ -15,12 +15,12 @@ tags: []
 * 01.06.2024 Villagers at [Passionkirche][passionkirche]
 * 13.06.2024 Florigin at Junction
 * 21.06.2024 Florigin and the rest of Fête de la Musique
-
-## Future (have tickets)
-
 * 07.07.2024 Alvvays at [Huxleys Neue Welt][huxleys]
 * 21.07.2024 Air at [Zitadelle Spandau][zitadellespandau]
 * 23.07.2024 Calexico at [Capitol Hannover][capitolhannover]
+
+## Future (have tickets)
+
 * 07.08.2024 Moon Hooch at [Frannz Club][frannzclub]
 * 09.08.2024 Baroness at [WERK2 - Kulturfabrik][werk2] Leipzig
 * 22.09.2024 The Lemon Twigs at [Kesselhaus in der Kulturbrauerei][kesselhaus]
@@ -33,14 +33,8 @@ tags: []
 
 ## Considering
 
-* 15.07.2024 Waxahatchee
-* 31.07.2024 The Cult
-* 13.08.2024 PJ Harvey
 * 21.08.2024 Protomartyr
 * 18.09.2024 Tommy Emmanuel & Mike Dawes
-* 19.09.2024 Strand of Oaks
-* 30.09.2024 Real Estate
-* 14.10.2024 Godspeed You! Black Emperor
 * 15.10.2024 Ezra Collective
 * 19.10.2024 Arooj Aftab
 * 21.10.2024 Great Lake Swimmers
