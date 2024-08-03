@@ -30,6 +30,9 @@ tags: []
 * 16.11.2024 The Nits at [Passionskirche][passionkirche]
 * 22.11.2024 Sleep Token at [Velodrom][velodrom]
 * 14.02.2025 Caribou at [Velodrom][velodrom]
+* 25.05.2025 King Gizzard and the Lizard Wizard in Barcelona
+* 20.06.2025 Marillion at [Velodrom][velodrom]
+* 21.06.2025 Marillion at [Velodrom][velodrom]
 
 ## Considering
 
