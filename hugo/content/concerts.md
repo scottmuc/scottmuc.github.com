@@ -18,11 +18,11 @@ tags: []
 * 07.07.2024 Alvvays at [Huxleys Neue Welt][huxleys]
 * 21.07.2024 Air at [Zitadelle Spandau][zitadellespandau]
 * 23.07.2024 Calexico at [Capitol Hannover][capitolhannover]
+* 07.08.2024 Moon Hooch at [Frannz Club][frannzclub]
+* 09.08.2024 Baroness at [WERK2 - Kulturfabrik][werk2] Leipzig
 
 ## Future (have tickets)
 
-* 07.08.2024 Moon Hooch at [Frannz Club][frannzclub]
-* 09.08.2024 Baroness at [WERK2 - Kulturfabrik][werk2] Leipzig
 * 22.09.2024 The Lemon Twigs at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 23.09.2024 Lankum at [Theater des Westens][theaterdeswestens]
 * 22.10.2024 Dream Theater at [Uber Eats Music Hall][ubereatsmusichall]
