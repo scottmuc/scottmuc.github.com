@@ -20,11 +20,13 @@ tags: []
 * 23.07.2024 Calexico at [Capitol Hannover][capitolhannover]
 * 07.08.2024 Moon Hooch at [Frannz Club][frannzclub]
 * 09.08.2024 Baroness at [WERK2 - Kulturfabrik][werk2] Leipzig
+* 22.09.2024 The Lemon Twigs at [Kesselhaus in der Kulturbrauerei][kesselhaus]
+* 23.09.2024 Lankum at [Theater des Westens][theaterdeswestens]
+* 06.10.2024 The National and War on Drugs at [The Greek Theatre][greektheatre]
 
 ## Future (have tickets)
 
-* 22.09.2024 The Lemon Twigs at [Kesselhaus in der Kulturbrauerei][kesselhaus]
-* 23.09.2024 Lankum at [Theater des Westens][theaterdeswestens]
+* 21.10.2024 Great Lake Swimmers at [Privatclub][privatclub]
 * 22.10.2024 Dream Theater at [Uber Eats Music Hall][ubereatsmusichall]
 * 09.11.2024 They Might Be Giants at [Vicar Street][vicarstreet] Dublin
 * 16.11.2024 The Nits at [Passionskirche][passionkirche]
@@ -36,11 +38,6 @@ tags: []
 
 ## Considering
 
-* 21.08.2024 Protomartyr
-* 18.09.2024 Tommy Emmanuel & Mike Dawes
-* 15.10.2024 Ezra Collective
-* 19.10.2024 Arooj Aftab
-* 21.10.2024 Great Lake Swimmers
 * 11.11.2024 Iron & Wine
 
 [privatclub]: https://privatclub-berlin.de
@@ -66,3 +63,4 @@ tags: []
 [theaterdeswestens]: https://www.visitberlin.de/en/theatre-west
 [ubereatsmusichall]: https://www.uber-eats-music-hall.de
 [zitadellespandau]: https://www.visitberlin.de/en/zitadelle-spandau-spandau-citadel
+[greektheatre]: https://thegreekberkeley.com
