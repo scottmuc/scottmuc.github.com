@@ -23,11 +23,12 @@ tags: []
 * 22.09.2024 The Lemon Twigs at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 23.09.2024 Lankum at [Theater des Westens][theaterdeswestens]
 * 06.10.2024 The National and War on Drugs at [The Greek Theatre][greektheatre]
+* 21.10.2024 Great Lake Swimmers at [Privatclub][privatclub]
+* 22.10.2024 Dream Theater at [Uber Eats Music Hall][ubereatsmusichall]
+* 27.10.2024 Redd Kross at [Lido][lido]
 
 ## Future (have tickets)
 
-* 21.10.2024 Great Lake Swimmers at [Privatclub][privatclub]
-* 22.10.2024 Dream Theater at [Uber Eats Music Hall][ubereatsmusichall]
 * 09.11.2024 They Might Be Giants at [Vicar Street][vicarstreet] Dublin
 * 16.11.2024 The Nits at [Passionskirche][passionkirche]
 * 22.11.2024 Sleep Token at [Velodrom][velodrom]
@@ -38,7 +39,8 @@ tags: []
 
 ## Considering
 
-* 11.11.2024 Iron & Wine
+* 15.11.2024 The Sheepdogs at [Frannz Club][frannzclub]
+* 28.11.2024 Floating Points at [Festsaal Kreuzberg][festsaal]
 
 [privatclub]: https://privatclub-berlin.de
 [urbanspree]: https://www.urbanspree.com
@@ -64,3 +66,4 @@ tags: []
 [ubereatsmusichall]: https://www.uber-eats-music-hall.de
 [zitadellespandau]: https://www.visitberlin.de/en/zitadelle-spandau-spandau-citadel
 [greektheatre]: https://thegreekberkeley.com
+[lido]: https://www.lido-berlin.de
