@@ -28,11 +28,11 @@ tags: []
 * 22.10.2024 Dream Theater at [Uber Eats Music Hall][ubereatsmusichall]
 * 27.10.2024 Redd Kross at [Lido][lido]
 * 09.11.2024 They Might Be Giants at [Vicar Street][vicarstreet] Dublin
+* 16.11.2024 The Nits at [Passionskirche][passionkirche]
+* 22.11.2024 Sleep Token at [Velodrom][velodrom]
 
 ## Future (have tickets)
 
-* 16.11.2024 The Nits at [Passionskirche][passionkirche]
-* 22.11.2024 Sleep Token at [Velodrom][velodrom]
 * 29.11.2024 Floating Points at [Festsaal Kreuzberg][festsaal]
 * 07.12.2024 Lizzard at [Badehause][badehaus]
 
@@ -47,7 +47,6 @@ tags: []
 
 ## Considering
 
-* 15.11.2024 The Sheepdogs at [Frannz Club][frannzclub]
 * 03.12.2024 Anvil at [Frannz Club][frannzclub]
 * 11.12.2024 Crime and the City Solution [Kulturhaus Insel][kulturhausinsel]
 
