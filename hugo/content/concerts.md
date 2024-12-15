@@ -30,11 +30,11 @@ tags: []
 * 09.11.2024 They Might Be Giants at [Vicar Street][vicarstreet] Dublin
 * 16.11.2024 The Nits at [Passionskirche][passionkirche]
 * 22.11.2024 Sleep Token at [Velodrom][velodrom]
+* 29.11.2024 Floating Points at [Festsaal Kreuzberg][festsaal]
+* 03.12.2024 Anvil at [Frannz Club][frannzclub]
+* 07.12.2024 Lizzard at [Badehause][badehaus]
 
 ## Future (have tickets)
-
-* 29.11.2024 Floating Points at [Festsaal Kreuzberg][festsaal]
-* 07.12.2024 Lizzard at [Badehause][badehaus]
 
 **2025**
 
@@ -47,8 +47,6 @@ tags: []
 
 ## Considering
 
-* 03.12.2024 Anvil at [Frannz Club][frannzclub]
-* 11.12.2024 Crime and the City Solution [Kulturhaus Insel][kulturhausinsel]
 
 [privatclub]: https://privatclub-berlin.de
 [urbanspree]: https://www.urbanspree.com
