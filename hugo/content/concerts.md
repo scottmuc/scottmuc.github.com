@@ -1,49 +1,22 @@
 ---
 title: Concert Calendar
-date: 2024-05-30T16:12:53+01:00
+date: 2025-04-13T16:12:53+01:00
 tags: []
 
 ---
 ## Past
 
-* 26.02.2024 Dan Mangan at [Frannz Club][frannzclub]
-* 27.03.2024 Mother Mother at [Columbiahalle][columbiahalle]
-* 11.04.2024 Marika Hackman at [Hole 44][hole44]
-* 16.04.2024 Altin Gün at [Huxleys Neue Welt][huxleys]
-* 18.04.2024 Yard Act  at [Festsaal Kreuzberg][festsaal]
-* 30.04.2024 Florigin at [Rotbart][rotbart]
-* 01.06.2024 Villagers at [Passionkirche][passionkirche]
-* 13.06.2024 Florigin at [Junction Bar][junction]
-* 21.06.2024 Florigin at [DSTRCT.Berlin][dstrct]
-* 07.07.2024 Alvvays at [Huxleys Neue Welt][huxleys]
-* 21.07.2024 Air at [Zitadelle Spandau][zitadellespandau]
-* 23.07.2024 Calexico at [Capitol Hannover][capitolhannover]
-* 07.08.2024 Moon Hooch at [Frannz Club][frannzclub]
-* 09.08.2024 Baroness at [WERK2 - Kulturfabrik][werk2] Leipzig
-* 31.08.2024 Florigin at [Arcanoa][arcanoa]
-* 22.09.2024 The Lemon Twigs at [Kesselhaus in der Kulturbrauerei][kesselhaus]
-* 23.09.2024 Lankum at [Theater des Westens][theaterdeswestens]
-* 06.10.2024 The National and War on Drugs at [The Greek Theatre][greektheatre]
-* 21.10.2024 Great Lake Swimmers at [Privatclub][privatclub]
-* 22.10.2024 Dream Theater at [Uber Eats Music Hall][ubereatsmusichall]
-* 27.10.2024 Redd Kross at [Lido][lido]
-* 09.11.2024 They Might Be Giants at [Vicar Street][vicarstreet] Dublin
-* 16.11.2024 The Nits at [Passionskirche][passionkirche]
-* 22.11.2024 Sleep Token at [Velodrom][velodrom]
-* 29.11.2024 Floating Points at [Festsaal Kreuzberg][festsaal]
-* 03.12.2024 Anvil at [Frannz Club][frannzclub]
-* 07.12.2024 Lizzard at [Badehause][badehaus]
+* 14.02.2025 Caribou at [Velodrom][velodrom]
+* 14.03.2025 Tycho at [Huxleys Neue Welt][huxleys]
 
 ## Future (have tickets)
 
-**2025**
-
-* 14.02.2025 Caribou at [Velodrom][velodrom]
-* 14.03.2025 Tycho at [Huxleys Neue Welt][huxleys]
 * 07.05.2025 Ghost at [Mercedes-Benz Arena][mercedes]
 * 25.05.2025 King Gizzard and the Lizard Wizard in Barcelona
+* 05.06.2025 Florigin
 * 20.06.2025 Marillion at [Velodrom][velodrom]
 * 21.06.2025 Marillion at [Velodrom][velodrom]
+* xx.08.2025 Extreme
 
 ## Considering
 
