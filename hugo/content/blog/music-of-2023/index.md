@@ -1,10 +1,9 @@
 ---
 title: Music of 2023
 date: 2024-01-01T16:12:53+01:00
-tags: []
+tags: [ "music" ]
 aliases:
     - /music-of-2023
-
 ---
 
 
