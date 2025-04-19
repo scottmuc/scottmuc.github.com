@@ -1,14 +1,22 @@
 ---
 title: Music of 2024
 date: 2025-04-14T09:10:00+02:00
-tags: []
+tags: [ "music" ]
 aliases:
 ---
 
-Last year's post was fun to write and I like the journalling component of this exercise. 2024 was an exceptional year
-for great concerts. 27 of them to be precise!
+[Last year's post][music-2023] was fun to write and I like the journalling
+component of this exercise. Let's see if I can continue and make it a routine.
+
+[music-2023]: /blog/music-of-2023
 
 ## A Bumper Crop of Concerts
+
+2024 was an exceptional year for great concerts. 27 of them to be precise! This
+was a year where my appetite for live music was huge. I made efforts to ensure
+that my life had space for these shows.
+
+{{< imglink src="tickets-2024.jpg" href="tickets-2024.jpg" width="800x" >}}
 
 * 26.02.2024 Dan Mangan at [Frannz Club][frannzclub]
 * 27.03.2024 Mother Mother at [Columbiahalle][columbiahalle]
@@ -73,39 +81,73 @@ for great concerts. 27 of them to be precise!
 
 There were many highlights:
 
-* A noteworthy contingent of Canadian bands I remember fondly of when working at CBC Radio 3: Dan Mangen, Mother Mother,
-	Great Lake Swimmers
-* Yard Act
-* Florigin
-* Air
-* The Nits
-* Lizzard
+* **Dan Mangen**, **Mother Mother**, **Great Lake Swimmers**: A noteworthy
+  contingent of Canadian bands I have fond memories of getting into when I was
+  working at [CBC Radio 3][cbcr3].
+* **Yard Act** - This was such an energetic and entertaining performance.
+* **Florigin** - You may notice I saw this band multiple times. That's because
+  my friend, Pip, is the drummer! It's a joy to see them play live and gain more
+  and more experience. [Check them out!][florigin]
+* **Air** - This was the band that first got me into music with a touch of
+  electronic in it. They played in a beautiful outdoor venue that amplified the
+  experience.
+* **The Nits** - A band that I've known and enjoyed since my old roommate in
+  Vancouver played them for me. The concert was in an old church and despite not
+  knowing much of their catalogue, there wasn't a song I didn't enjoy.
+* **Lizzard** - My friend Pip was adamant that I check out this band. I was
+  floored by how good of a show they put on for what was probably a crowd of 50
+  people.
+
+[cbcr3]: https://en.wikipedia.org/wiki/CBC_Radio_3
+[florigin]: https://www.youtube.com/watch?v=HHzGeeNW4gY
 
 ## Music Discovery
 
-Music discovery transformed a lot in 2024. The podcast that has been the source of discovery for nearly a decade, All
-Songs Considered, changed direction with the retirement of Bob Boilen. Therefore I don't have much of a journal on how
-or where I learnt about some bands.
+Music discovery transformed a lot in 2024. The podcast that had been the source
+of discovery for nearly a decade, [All Songs Considered][allsongs], changed
+direction with the [retirement of Bob Boilen][bobdeparture]. Therefore I don't
+have much of a journal on how or where I learnt about some bands.
 
 [allsongs]: https://www.npr.org/podcasts/510019/all-songs-considered
+[bobdeparture]: https://pitchfork.com/news/bob-boilen-all-songs-considered-and-tiny-desk-founder-leaving-npr-after-35-years/
 
-Some of the concerts I went to were for bands I discovered through All Songs Considered.
+The being said, some of the concerts I went to were for bands I discovered
+through the podcast, so the spirit still lives on:
 
-* Marika Hackman
-* Lankum
-* Moon Hooch
-* Floating Points
+* **Yard Act** [source][yardact-source]
+* **Marika Hackman** [source][marika-source]
+* **Lankum** [source][lankum-source]
+* **Moon Hooch** [source][moonhooch-source]
 
-Over the last few years, a new form of music discovery has entered my life. It's called **Music Church** and how it
-works warrants its own post. There are so many bands that I'm into now as a result of this.
+[yardact-source]: https://www.npr.org/2022/01/10/1071890275/new-mix-the-smile-kae-tempest-yard-act-more
+[marika-source]: https://www.npr.org/sections/allsongs/2019/05/28/727227766/new-mix-rhye-quinn-christopherson-t-th-another-sky-ari-roar-more
+[lankum-source]: https://www.npr.org/2019/10/21/771982922/lankum-and-the-strange-new-sounds-of-ireland
+[moonhooch-source]: https://www.npr.org/2020/02/24/808918118/new-mix-jay-som-moon-hooch-ada-lea-more
+
+Looking at the list of concerts, I think I owe a thank you to my old Vancouver
+roommate, Doug Mason (aka The Newf). He introduced me to the following bands:
+
+* **Calexico**
+* **The Lemon Twigs** (an email from 2017)
+* **Air**
+* **The Nits**
+* **Floating Points** (an email from 2018)
+
+Over the last few years, a new form of music discovery has entered my life. It's
+called **Music Church** and how it works warrants its own post. There are so
+many bands that I'm into now as a result of this.
 
 Concerts I attended by bands I discovered via **Music Church**:
 
-* Sleep Token
-* Baroness
+* **Altin Gün**
+* **Sleep Token**
+* **Baroness**
 
 ## Summary
 
-Live music is still awesome as is the album listening experience.
+Live music is still awesome as is the album listening experience. I'm also
+growing an appreciation for my organic music discovery channels. Algorithmic
+music discovery has never appealed to me. It turns out just a handful of humans
+can enrich your music journey beyond your music consumption capacity.
 
-*This post took 3 pomodoros (about the length of the playlist)*
+*This post took 4 pomodoros*
