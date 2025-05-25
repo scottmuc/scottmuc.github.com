@@ -1,22 +1,23 @@
 ---
 title: Concert Calendar
 date: 2025-04-13T16:12:53+01:00
-tags: []
+tags: [ "music" ]
 
 ---
 ## Past
 
 * 14.02.2025 Caribou at [Velodrom][velodrom]
+* 25.02.2025 Queensryche at [Metropol][metropol]
 * 14.03.2025 Tycho at [Huxleys Neue Welt][huxleys]
+* 07.05.2025 Ghost at [Mercedes-Benz Arena][mercedes]
+* 25.05.2025 King Gizzard and the Lizard Wizard in Barcelona
 
 ## Future (have tickets)
 
-* 07.05.2025 Ghost at [Mercedes-Benz Arena][mercedes]
-* 25.05.2025 King Gizzard and the Lizard Wizard in Barcelona
 * 05.06.2025 Florigin
 * 20.06.2025 Marillion at [Velodrom][velodrom]
 * 21.06.2025 Marillion at [Velodrom][velodrom]
-* xx.08.2025 Extreme
+* 03.08.2025 Extreme in Munich
 
 ## Considering
 
