@@ -15,42 +15,44 @@ tags: [ "music" ]
 ## Future (have tickets)
 
 * 05.06.2025 Florigin
-* 20.06.2025 Marillion at [Velodrom][velodrom]
-* 21.06.2025 Marillion at [Velodrom][velodrom]
+* 20.06.2025 Marillion at [Tempodrom][tempodrom]
+* 21.06.2025 Marillion at [Tempodrom][tempodrom]
 * 03.08.2025 Extreme in Munich
+* 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
+* 16.11.2025 Destroyer at [Lido][lido]
 
 ## Considering
 
 
-[privatclub]: https://privatclub-berlin.de
-[urbanspree]: https://www.urbanspree.com
 [admiralpalast]: https://www.admiralspalast.theater
+[arcanoa]: https://www.ssi-media.com/arcanoa/
+[badehaus]: https://badehaus-berlin.com
+[berghainkantine]: https://www.berghain.berlin/en/
+[capitolhannover]: https://www.capitol-hannover.de
 [columbiahalle]: https://columbiahalle.berlin/
+[dstrct]: https://dstrctberlin.com/
+[ewerk]: https://www.e-werk-cologne.com
 [festsaal]: https://festsaal-kreuzberg.de/en
 [frannzclub]: https://frannz.eu
-[velodrom]: https://www.velodrom.de/en/
-[metropol]: https://metropol-berlin.de
-[zitadelle]: https://www.zitadelle-berlin.de
-[ewerk]: https://www.e-werk-cologne.com
-[berghainkantine]: https://www.berghain.berlin/en/
-[roadrunners]: http://www.roadrunners-paradise.de
+[greektheatre]: https://thegreekberkeley.com
 [hole44]: https://hole-berlin.de
 [huxleys]: https://huxleysneuewelt.de
-[lark]: https://larkberlin.com
-[passionkirche]: https://www.visitberlin.de/en/passionskirche
-[capitolhannover]: https://www.capitol-hannover.de
-[werk2]: https://www.werk-2.de
-[vicarstreet]: https://www.vicarstreet.com
+[junction]: https://junction-bar.de/
 [kesselhaus]: https://www.kesselhaus.net/en
+[kulturhausinsel]: https://www.inselberlin.de/
+[lark]: https://larkberlin.com
+[lido]: https://www.lido-berlin.de
+[mercedes]: https://www.uber-arena.de/en/
+[metropol]: https://metropol-berlin.de
+[passionkirche]: https://www.visitberlin.de/en/passionskirche
+[privatclub]: https://privatclub-berlin.de
+[roadrunners]: http://www.roadrunners-paradise.de
+[rotbart]: https://www.rotbart-rixdorf.de/
+[tempodrom]: https://www.tempodrom.de/
 [theaterdeswestens]: https://www.visitberlin.de/en/theatre-west
 [ubereatsmusichall]: https://www.uber-eats-music-hall.de
-[zitadellespandau]: https://www.visitberlin.de/en/zitadelle-spandau-spandau-citadel
-[greektheatre]: https://thegreekberkeley.com
-[lido]: https://www.lido-berlin.de
-[badehaus]: https://badehaus-berlin.com
-[mercedes]: https://www.uber-arena.de/en/
-[arcanoa]: https://www.ssi-media.com/arcanoa/
-[junction]: https://junction-bar.de/
-[rotbart]: https://www.rotbart-rixdorf.de/
-[dstrct]: https://dstrctberlin.com/
-[kulturhausinsel]: https://www.inselberlin.de/
+[urbanspree]: https://www.urbanspree.com
+[velodrom]: https://www.velodrom.de/en/
+[vicarstreet]: https://www.vicarstreet.com
+[werk2]: https://www.werk-2.de
+[zitadelle]: https://www.zitadelle-berlin.de
