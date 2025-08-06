@@ -12,14 +12,14 @@ tags: [ "music" ]
 * 07.05.2025 Ghost at [Mercedes-Benz Arena][mercedes]
 * 25.05.2025 King Gizzard and the Lizard Wizard at [Poble Espanyol](https://poble-espanyol.com) in Barcelona
 * 05.06.2025 Florigin at [Kulterhaus Insel][kulturhausinsel]
-
-## Future (have tickets)
-
 * 17.06.2025 TV on the Radio at [Astra Kulturhaus][astra]
 * 20.06.2025 Marillion at [Tempodrom][tempodrom]
 * 21.06.2025 Marillion at [Tempodrom][tempodrom]
-* 28.07.2025 Midnight + Yoth Iria + Sarcator + Blogdang at [Lido][lido]
+* 28.07.2025 Midnight + Yoth Iria + Sarcator + Bloodfang at [Lido][lido]
 * 03.08.2025 Extreme at [Tonhalle](https://www.in-muenchen.de/locations/tonhalle.html) in Munich
+
+## Future (have tickets)
+
 * 13.10 2025 Coheed and Cambria at [Festsaal Kreuzberg][festsaal]
 * 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
 * 16.11.2025 Destroyer at [Lido][lido]
