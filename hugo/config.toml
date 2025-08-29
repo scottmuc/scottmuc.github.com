@@ -5,10 +5,11 @@ languageCode = "en"
 title = "More Muc Than You Can Handle"
 enableRobotsTXT = true
 # A large number ensures no pagination
-paginate = 1000000
+[pagination]
+pagerSize = 1000000
 
 # https://gohugo.io/templates/rss/#configuration
-copyright = "Copyright © 2024 - Scott Muc"
+copyright = "Copyright © 2025 - Scott Muc"
 [params]
 	[params.author]
 		name = "Scott Muc"

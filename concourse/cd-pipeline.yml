@@ -1,0 +1,32 @@
+resources:
+- name: website-src
+  type: git
+  icon: github
+  source:
+    uri: https://github.com/scottmuc/scottmuc.github.com
+
+jobs:
+- name: build-website
+
+  plan:
+  - get: website-src
+    trigger: true
+
+  - task: build
+    config:
+      platform: linux
+      image_resource:
+        type: registry-image
+        source:
+          repository: nixos/nix
+      inputs:
+      - name: website-src
+      run:
+        dir: website-src/hugo
+        path: nix
+        args:
+        - --extra-experimental-features
+        - nix-command flakes
+        - run
+        - "nixpkgs#hugo"
+
