@@ -18,34 +18,29 @@ tags: [ "music" ]
 * 28.07.2025 Midnight + Yoth Iria + Sarcator + Bloodfang at [Lido][lido]
 * 03.08.2025 Extreme at [Tonhalle](https://www.in-muenchen.de/locations/tonhalle.html) in Munich
 * 28.08.2025 Hania Rani at the Neue Nationalgalerie
+* 30.08.2025 Los Bitchos at Pop-Kultur Festival
 
 ## Future (have tickets)
 
-* 30.08.2025 Los Bitchos at Pop-Kultur Festival
 * 11.09.2025 The Lemonheads at [FRANNZ Club][frannzclub]
 * 27.09.2005 Kerala Dust at [Columbiahalle][columbiahalle]
+* 04.10.2025 Florigin
 * 13.10 2025 Coheed and Cambria at [Festsaal Kreuzberg][festsaal]
+* 06.11.2025 Hellenica in Berlin
 * 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
 * 16.11.2025 Destroyer at [Lido][lido]
 * 08.12.2025 The Rural Alberata Advantage at [Privatclub][privatclub]
 
 ## Considering
 
-* 19.09.2025 Gogol Bordeloo at [Huxleys Neue Welt][huxleys]
-* 23.09.2025 or Agnes Obel in Utrecht
-* 24.09.2025 or Agnes Obel in Utrecht
 * 30.09.2025 The Dear Hunter at [FRANNZ Club][frannzclub]
 * 11.10.2025 The Beths at [Lido][lido]
 * 11.10.2025 Kadavar at [Columbiahalle][columbiahalle]
-* 18.10.2025 Megadeth w/Disturbed at [Velodrom][velodrom]
 * 24.10.2025 Yann Tiersen at [Huxleys Neue Welt][huxleys]
 * 29.10.2025 The Gregorian Voices at Steinfurter Kirche in Schorfheide
 * 30.10.2025 Uriah Heep at [Uber Eats Music-Hall][ubereatsmusichall]
-* 01.11.2025 Big Country
-* 03.11.2025 Lacuna Coil
 * 04.11.2025 Deep Sea Diver
 * 08.11.2025 The Psychedelic Furs
-* 10.11.2025 Lawrence
 * 11.11.2025 Public Service Broadcasting
 * 13.11.2025 Deafheaven
 * 14.11.2025 Perturbator
