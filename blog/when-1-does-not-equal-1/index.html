@@ -28,11 +28,11 @@
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 <p>It simply goes through all the keys of the table, and if they are all equal, then we&rsquo;ve found a tuple that needs to be updated. Seems pretty straightforward, and not a method that I would presume would cause any problems. Strangely enough, here is where some strangeness started to occur. This method would always return false! I hooked up the debugger and inspected the rows and everything seemed normal. Until what seemed like the 30th time; I noticed something. The row from the XML had 32 bit IDs while the row from the SQLite database had 64 bit IDs.</p>
-<figure><img src="debugger_tail_32bit.png"/>
+<figure><img src="/blog/when-1-does-not-equal-1/debugger_tail_32bit.png">
 </figure>
 
 <p>and here&rsquo;s what that DataRow object was being compared to:</p>
-<figure><img src="debugger_tail_32bit.png"/>
+<figure><img src="/blog/when-1-does-not-equal-1/debugger_tail_32bit.png">
 </figure>
 
 <p>I didn&rsquo;t want jump to conclusions as to whether or not I found my problem so I wrote a test. Sure enough, the following test fails (and for good reason).</p>
