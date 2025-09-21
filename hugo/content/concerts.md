@@ -19,37 +19,32 @@ tags: [ "music" ]
 * 03.08.2025 Extreme at [Tonhalle](https://www.in-muenchen.de/locations/tonhalle.html) in Munich
 * 28.08.2025 Hania Rani at the Neue Nationalgalerie
 * 30.08.2025 Los Bitchos at Pop-Kultur Festival
+* 11.09.2025 The Lemonheads at [FRANNZ Club][frannzclub] (missed due to being sick)
 
 ## Future (have tickets)
 
-* 11.09.2025 The Lemonheads at [FRANNZ Club][frannzclub]
 * 27.09.2005 Kerala Dust at [Columbiahalle][columbiahalle]
-* 04.10.2025 Florigin
+* 30.09.2025 The Dear Hunter at [FRANNZ Club][frannzclub]
+* 04.10.2025 Florigin at [Badehaus][badehaus]
+* 11.10.2025 The Beths at [Lido][lido]
 * 13.10 2025 Coheed and Cambria at [Festsaal Kreuzberg][festsaal]
 * 06.11.2025 Hellenica in Berlin
 * 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
+* 14.11.2025 Perturbator at [Huxley's Neu Welt][huxleys]
 * 16.11.2025 Destroyer at [Lido][lido]
+* 27.11.2025 Swans at [Festsaal Kreuzberg][festsaal]
 * 08.12.2025 The Rural Alberata Advantage at [Privatclub][privatclub]
 
 ## Considering
 
-* 30.09.2025 The Dear Hunter at [FRANNZ Club][frannzclub]
-* 11.10.2025 The Beths at [Lido][lido]
-* 11.10.2025 Kadavar at [Columbiahalle][columbiahalle]
 * 24.10.2025 Yann Tiersen at [Huxleys Neue Welt][huxleys]
 * 29.10.2025 The Gregorian Voices at Steinfurter Kirche in Schorfheide
-* 30.10.2025 Uriah Heep at [Uber Eats Music-Hall][ubereatsmusichall]
-* 04.11.2025 Deep Sea Diver
 * 08.11.2025 The Psychedelic Furs
 * 11.11.2025 Public Service Broadcasting
-* 13.11.2025 Deafheaven
-* 14.11.2025 Perturbator
 * 15.11.2025 Unwound, Tune-Yards, and Wombo
 * 17.11.2025 The Rapture
 * 19.11.2025 Wolf Alice
 * 19.11.2025 The Hidden Cameras
-* 27.11.2025 Swans
-* 27.11.2025 Sudan Archives
 * 28.11.2025 Dan Mangan
 * 02.12.2025 Bill Laurance, Johanna Summer, and Bugge Wesseltoft
 * 03.12.2025 Clutch
