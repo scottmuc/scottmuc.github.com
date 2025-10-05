@@ -20,14 +20,15 @@ tags: [ "music" ]
 * 28.08.2025 Hania Rani at the Neue Nationalgalerie
 * 30.08.2025 Los Bitchos at Pop-Kultur Festival
 * 11.09.2025 The Lemonheads at [FRANNZ Club][frannzclub] (missed due to being sick)
+* 27.09.2005 Kerala Dust at [Columbiahalle][columbiahalle]
+* 30.09.2025 The Dear Hunter at [FRANNZ Club][frannzclub] (cancelled)
+* 04.10.2025 Florigin at [Badehaus][badehaus]
 
 ## Future (have tickets)
 
-* 27.09.2005 Kerala Dust at [Columbiahalle][columbiahalle]
-* 30.09.2025 The Dear Hunter at [FRANNZ Club][frannzclub]
-* 04.10.2025 Florigin at [Badehaus][badehaus]
 * 11.10.2025 The Beths at [Lido][lido]
 * 13.10 2025 Coheed and Cambria at [Festsaal Kreuzberg][festsaal]
+* 29.10.2025 The Gregorian Voices at Steinfurter Kirche in Schorfheide
 * 06.11.2025 Hellenica in Berlin
 * 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
 * 14.11.2025 Perturbator at [Huxley's Neu Welt][huxleys]
@@ -38,7 +39,6 @@ tags: [ "music" ]
 ## Considering
 
 * 24.10.2025 Yann Tiersen at [Huxleys Neue Welt][huxleys]
-* 29.10.2025 The Gregorian Voices at Steinfurter Kirche in Schorfheide
 * 08.11.2025 The Psychedelic Furs
 * 11.11.2025 Public Service Broadcasting
 * 15.11.2025 Unwound, Tune-Yards, and Wombo
@@ -53,8 +53,11 @@ tags: [ "music" ]
 ## Considering in 2026
 
 * 17.02.2025 White Lies
+* 04.03.2025 Grails
 * 20.04.2025 GoGo Penguin
 * 21.04.2025 GoGo Penguin
+* 29.04.2025 Tame Impala
+* xx.07.2025 Marillion (8 locations in Germany)
 
 
 [admiralpalast]: https://www.admiralspalast.theater
