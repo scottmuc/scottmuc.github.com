@@ -23,11 +23,12 @@ tags: [ "music" ]
 * 27.09.2005 Kerala Dust at [Columbiahalle][columbiahalle]
 * 30.09.2025 The Dear Hunter at [FRANNZ Club][frannzclub] (cancelled)
 * 04.10.2025 Florigin at [Badehaus][badehaus]
+* 11.10.2025 The Beths at [Lido][lido]
+* 13.10 2025 Coheed and Cambria at [Festsaal Kreuzberg][festsaal]
+* 24.10.2025 Yann Tiersen at [Huxleys Neue Welt][huxleys]
 
 ## Future (have tickets)
 
-* 11.10.2025 The Beths at [Lido][lido]
-* 13.10 2025 Coheed and Cambria at [Festsaal Kreuzberg][festsaal]
 * 29.10.2025 The Gregorian Voices at Steinfurter Kirche in Schorfheide
 * 06.11.2025 Hellenica in Berlin
 * 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
@@ -38,7 +39,6 @@ tags: [ "music" ]
 
 ## Considering
 
-* 24.10.2025 Yann Tiersen at [Huxleys Neue Welt][huxleys]
 * 08.11.2025 The Psychedelic Furs
 * 11.11.2025 Public Service Broadcasting
 * 15.11.2025 Unwound, Tune-Yards, and Wombo
