@@ -26,29 +26,24 @@ tags: [ "music" ]
 * 11.10.2025 The Beths at [Lido][lido]
 * 13.10 2025 Coheed and Cambria at [Festsaal Kreuzberg][festsaal]
 * 24.10.2025 Yann Tiersen at [Huxleys Neue Welt][huxleys]
+* 29.10.2025 The Gregorian Voices at Steinfurter Kirche in Schorfheide
+* 06.11.2025 Hellenica in an undisclosed location in Berlin
+* 08.11.2025 Shoemaker Hevy at [Brit Pub][britpub]
+* 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
 
 ## Future (have tickets)
 
-* 29.10.2025 The Gregorian Voices at Steinfurter Kirche in Schorfheide
-* 06.11.2025 Hellenica in Berlin
-* 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
 * 14.11.2025 Perturbator at [Huxley's Neu Welt][huxleys]
 * 16.11.2025 Destroyer at [Lido][lido]
 * 27.11.2025 Swans at [Festsaal Kreuzberg][festsaal]
 * 08.12.2025 The Rural Alberata Advantage at [Privatclub][privatclub]
+* 17.12.2026 Rush at Rogers Arena in Vancouver
 
 ## Considering
 
-* 08.11.2025 The Psychedelic Furs
-* 11.11.2025 Public Service Broadcasting
-* 15.11.2025 Unwound, Tune-Yards, and Wombo
-* 17.11.2025 The Rapture
 * 19.11.2025 Wolf Alice
-* 19.11.2025 The Hidden Cameras
 * 28.11.2025 Dan Mangan
 * 02.12.2025 Bill Laurance, Johanna Summer, and Bugge Wesseltoft
-* 03.12.2025 Clutch
-* 09.12.2025 Kraftwerk
 
 ## Considering in 2026
 
@@ -65,6 +60,7 @@ tags: [ "music" ]
 [astra]: https://www.astra-berlin.de
 [badehaus]: https://badehaus-berlin.com
 [berghainkantine]: https://www.berghain.berlin/en/
+[britpub]: https://www.brit-pub.de/
 [capitolhannover]: https://www.capitol-hannover.de
 [columbiahalle]: https://columbiahalle.berlin/
 [dstrct]: https://dstrctberlin.com/
