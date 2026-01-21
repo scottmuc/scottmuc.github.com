@@ -30,20 +30,16 @@ tags: [ "music" ]
 * 06.11.2025 Hellenica in an undisclosed location in Berlin
 * 08.11.2025 Shoemaker Hevy at [Brit Pub][britpub]
 * 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
+* 14.11.2025 Perturbator at [Huxley's Neu Welt][huxleys]
+* 16.11.2025 Destroyer at [Lido][lido]
+* 27.11.2025 Swans at [Festsaal Kreuzberg][festsaal] (skipped to due to low energy)
+* 08.12.2025 The Rural Alberata Advantage at [Privatclub][privatclub] (skipped due to being sick)
 
 ## Future (have tickets)
 
-* 14.11.2025 Perturbator at [Huxley's Neu Welt][huxleys]
-* 16.11.2025 Destroyer at [Lido][lido]
-* 27.11.2025 Swans at [Festsaal Kreuzberg][festsaal]
-* 08.12.2025 The Rural Alberata Advantage at [Privatclub][privatclub]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
 
 ## Considering
-
-* 19.11.2025 Wolf Alice
-* 28.11.2025 Dan Mangan
-* 02.12.2025 Bill Laurance, Johanna Summer, and Bugge Wesseltoft
 
 ## Considering in 2026
 
