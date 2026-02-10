@@ -26,8 +26,17 @@
 <p>Setup was very simple. I created a JS Build project in my build directory. Inside it I reference the .js files I want to include/minimize/concatenate. I select the folder containing the scripts and attempt to run the build.</p>
 <p>My first attempt results in the following error:</p>
 <p>An unhandled exception occurred while building:</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<pre>
+System.Exception: Error: JSMIN unterminated string literal: 10
+ at JSBuild.JSMin.action(Int32 d)
+ at JSBuild.JSMin.jsmin()
+ at JSBuild.JSMin.MinifyToString(String src)
+ at JSBuild.JavascriptFile.get_Minified()
+ at JSBuild.JavascriptFile.MinifyTo(String target)
+ at JSBuild.ProjectBuilder.Build(Project project, String outputDir)
+ at JSBuild.ProjectBuilder.Build(Project project)
+ at JSBuild.MainForm.Build()
+</pre>
 <p>I tried to google the error but could not find anything. To troubleshoot I added 1 javascript file at a time and found that there were a small group of files that caused this error. It turns out that JS Build chokes on multiline strings that use the &lsquo;' character to have the string declared on multiple lines in the source code.</p>
 <p>Not a big deal, I did multiline string concatenation to build the strings instead (probably implement a string builder in the future). After that, everything built fine. During the research I came across an <a href="http://kazoolist.blogspot.com/2008/06/multi-line-strings-in-javascript.html">interesting article</a> regarding the validitiy of the syntax of strings using the &lsquo;' character.</p>
 <p>Now I have a simple NAnt task that executes JS Build that constructs a single javascript file for a complex javascript audio player for the future CBC Radio 3 website (kudos to <a href="http://www.rabin.ca/">Phil Rabin</a> for the code). Next step is to figure out how to deal with thirdparty javascript libraries that the project depends on.</p>

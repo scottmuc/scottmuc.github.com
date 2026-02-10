@@ -23,6 +23,7 @@
 			<h1>Migrated to Octopress!</h1>
 			<div>
 				<p>It&rsquo;s funny how many posts there are from <a href="https://www.google.com/search?q=migrating+to+octopress">people who have migrated to Octopress</a>. What would motivate someone to post their migration experience? I think I understand why. It&rsquo;s such a shift in thinking that it&rsquo;s worth talking about. My migration experience was so much pleasant that I feel that I must let everyone know.</p>
+<!-- more -->
 <p>So what&rsquo;s my motivation for moving to a new blogging platform? Was what I was using before broken? Not
 exactly, but I didn&rsquo;t enjoy the blogging experience that much because I found the experience to not be a
 lot of fun. I want to start writing more and feel that removing any barriers to this activity will get more
@@ -46,7 +47,7 @@ running first so I made a few compromises.</p>
 <li>I decided not to migrate every post. Some of my old content doesn&rsquo;t really fit with the rest of the content
 so I decided to abandon the posts. I&rsquo;m keeping the <a href="http://old.scottmuc.com/">old blog</a> up and running so that people can still find the posts there if they really want them.</li>
 <li>Keeping links working is <strong>extremely</strong> important to me. Octopress provides the ability to set the permalink on
-an individual post which made this element of the migration super easy. Every blog post has &ldquo;front matter&rdquo; which is a little bit of YAML meta data. Adding a permalink value will make the post accessible from that URL path: <!-- raw HTML omitted -->permalink: /foo/bar/post<!-- raw HTML omitted --></li>
+an individual post which made this element of the migration super easy. Every blog post has &ldquo;front matter&rdquo; which is a little bit of YAML meta data. Adding a permalink value will make the post accessible from that URL path: <pre>permalink: /foo/bar/post</pre></li>
 <li>I went live with an incomplete migration. I only have about a third of my posts migrated. I did this so I can
 get this live and sort out issues right away before everything is migrated. Also, it&rsquo;s a way to motivate me to get
 everything into the new blog ASAP.</li>
@@ -58,7 +59,7 @@ everything into the new blog ASAP.</li>
 and to include them in the title slug only when appropriate. I came to the conclusion that url slug design is
 extremely important and doesn&rsquo;t always have to be word for word related to the post title. Because Octopress is
 so easy to configure, the configuration setting for this is simply this value in _config.yml:</p>
-<!-- raw HTML omitted -->
+<pre>permalink: /:title/</pre>
 <p>I&rsquo;m now using other 3rd party services like feedburner, disqus, and gist.github.com. With all of these things
 taken care of for me, authoring a post is a call to <em>rake new_post[&ldquo;post title&rdquo;]</em>, edit in vim, and preview
 using <em>rake preview</em> to view the changes before I deploy them.</p>

@@ -292,8 +292,8 @@ a lot about whiskey in general.</p>
 	<time>11.01.2017 15:45</time>
 	
 	<div>
-		<p><!-- raw HTML omitted --><strong>DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
-workstation under source control, and this strategy may destroy the machine you wish to attempt this on.</strong><!-- raw HTML omitted --></p>
+		<p><span style="color: red;"><strong>DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
+workstation under source control, and this strategy may destroy the machine you wish to attempt this on.</strong></span></p>
 <h2 id="objective">Objective</h2>
 <p>IT infrastructure has gone down a long journey of automating all of the things. We have automated deployments, production
 environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes. The
@@ -844,9 +844,9 @@ following podcasts too:</p>
 in testing PowerShell with <a href="https://github.com/pester/Pester">Pester</a>.  He brings up a relevant example of the difficulties that can occur when writing tests
 is done afterwards. It also reveals a missing feature of Pester.</p>
 <p>First let me display the code that needed tests:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -868,7 +868,7 @@ is done afterwards. It also reveals a missing feature of Pester.</p>
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Add-Type -Path (Join-Path -Path $psScriptRoot <span style="color:#e6db74">&#34;Renci.SshNet.dll&#34;</span>)
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Add-Type -Path (Join-Path -Path $psScriptRoot <span style="color:#e6db74">&#34;Renci.SshNet.dll&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> Get-FromSFtp {
 </span></span><span style="display:flex;"><span>    $fileList=$null
@@ -1103,7 +1103,7 @@ get into that state. How can we minimize this time, and keep these flows shorter
 		<p>After a whirlwind of activity on the <a href="https://github.com/pester/Pester">Pester</a> codebase I&rsquo;m happy to announce the latest release of Pester. Versions 1.2 and 2 are identical feature wise except for one subtle difference that I&rsquo;ll get into soon.</p>
 <h2 id="new-expectation-and-matcher-syntax">New Expectation and Matcher Syntax</h2>
 <p>In prior versions of Pester, we have the dot notation expectation and matcher syntax</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$some_string.should.be(<span style="color:#e6db74">&#34;some value&#34;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$some_string.should.be(<span style="color:#e6db74">&#34;some value&#34;</span>)
 </span></span></code></pre></div><p>This required some <a href="https://github.com/pester/Pester/blob/bf3afbf330808cfee8a26665a77c9388ae432286/ObjectAdaptations/types.ps1xml">clever and downright nasty hacks</a> to the PowerShell runtime. This created a <a href="https://github.com/pester/Pester/issues/19">few</a> <a href="https://github.com/pester/Pester/issues/27">issues</a> for some users and I wanted to get that fixed. It turned out the extension on Object was the root issue so I investigated a pipeline based expectation syntax. Here is the result:</p>
 		
 			<a href="https://scottmuc.com/blog/powershell-pester-2-and-1-dot-2-released/">Read more...</a>
@@ -1241,6 +1241,7 @@ to me. As a novice, your primary concern is potting balls. But to be good, you n
 	
 	<div>
 		<p>It&rsquo;s funny how many posts there are from <a href="https://www.google.com/search?q=migrating+to+octopress">people who have migrated to Octopress</a>. What would motivate someone to post their migration experience? I think I understand why. It&rsquo;s such a shift in thinking that it&rsquo;s worth talking about. My migration experience was so much pleasant that I feel that I must let everyone know.</p>
+<!-- more -->
 <p>So what&rsquo;s my motivation for moving to a new blogging platform? Was what I was using before broken? Not
 exactly, but I didn&rsquo;t enjoy the blogging experience that much because I found the experience to not be a
 lot of fun. I want to start writing more and feel that removing any barriers to this activity will get more
@@ -1514,9 +1515,9 @@ In a recent splurge I purchased 4 books from <a href="http://www.manning.com/">M
 	<div>
 		<p>Lot of web developement code is spent concatenating path snippets and I always hated having to deal with slashes. I wanted a function that was consistent with its return type, and very loose in its parameter requirements. I ended up with the following:</p>
 <p><em>Test First</em>:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -1547,7 +1548,7 @@ In a recent splurge I purchased 4 books from <a href="http://www.manning.com/">M
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> bddunit.core;
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> bddunit.core;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> CBC.Radio3.Commons.Specs;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Observation = MbUnit.Framework.TestAttribute;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> SUT = CBC.Radio3.Commons.Web.WebPath;
@@ -1607,9 +1608,9 @@ In a recent splurge I purchased 4 books from <a href="http://www.manning.com/">M
 	<div>
 		<p>One of the things I love about my job is the ability to see myself grow as a developer. I&rsquo;m glad I can laugh at my old code because if I can&rsquo;t then I&rsquo;m definitely not improving my skillset.</p>
 <p>Here&rsquo;s some code from around 3 years ago:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  1
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  2
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  3
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">  4
@@ -1711,7 +1712,7 @@ In a recent splurge I purchased 4 books from <a href="http://www.manning.com/">M
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">100
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System;
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System.Web;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> System.Configuration;
 </span></span><span style="display:flex;"><span>
@@ -1870,6 +1871,7 @@ In a recent splurge I purchased 4 books from <a href="http://www.manning.com/">M
 	
 	<div>
 		<p>After a big of pleading I got the privilege of being able to attend <a href="http://www.jpboodhoo.com/blog/NothinButNetVancouverBCJune23rd27thTheEmpireLandmarkHotel.aspx">Jean-Paul Boodhoo&rsquo;s Nothing But Dot Net Bootcamp</a>!</p>
+<!-- more -->
 <p>JP is quite well known in the .Net circuit for his passion for development and his pragmatic approach to software design. Typical posts about his course underline that you&rsquo;ll be <a href="http://kyle.baley.org/2007/07/nothin-but-net-or-how-to-justify-ignoring-your-home-life/">giving up your home life</a> for a week. Since I&rsquo;m a bachelor, it wasn&rsquo;t a big deal for me, but I did feel a bit bad for the guys that had wives and kids at home. Our typical day was no shorter than 14 hours, and one lasted 20 hours. This was for a grand total of 80 hours of training in a 5 day span! The crazy part was that the material was flying at you so fast you didn&rsquo;t even get a chance to be tired.</p>
 		
 			<a href="https://scottmuc.com/blog/i-survived-jps-nothing-but-dot-net-boot-camp/">Read more...</a>
@@ -1884,6 +1886,7 @@ In a recent splurge I purchased 4 books from <a href="http://www.manning.com/">M
 	
 	<div>
 		<p><a href="http://madprops.org/about-matt-hamilton/">Matt Hamilton</a> wrote an excellent <a href="http://madprops.org/blog/developing-with-confidence/">blog post</a> about something that I&rsquo;ve been thinking about for a long time. As a developer you want to keep improving, but the more you know the more choices that appear.</p>
+<!-- more -->
 <p>When first coding projects that require database access you get used to learning the SqlCommand class and have nested using statements to retrieve your readers. Next thing you learn is strong typed DataSets and then you move on to <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORMs</a> and code generators. Your code constantly evolves for the better (we hope).</p>
 		
 			<a href="https://scottmuc.com/blog/the-paradox-of-choice-in-a-developers-life/">Read more...</a>

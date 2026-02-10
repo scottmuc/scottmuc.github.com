@@ -648,7 +648,7 @@ up with the team and my last visit to Vancouver occurred in the Fall.</p>
 motivation will continue to play out for the next few years. It took almost 20 years to learn that I&rsquo;ve never been
 motivated by building &ldquo;the next big thing&rdquo;. Maintaining and improving existing systems is something I&rsquo;ve enjoyed
 doing throughout my career.</p>
-<!-- raw HTML omitted -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0j2f6S-wJoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h2 id="2020">2020</h2>
 <h3 id="4-month-sabbatical">4 Month Sabbatical</h3>
 <p>Now that I’ve feeling settled in Berlin, I wanted to take some time off to savour my new found &ldquo;stability&rdquo;. I figured 4
@@ -1259,8 +1259,8 @@ fit for any occasion. Ok, I still need something peaty like a Connemara too.</p>
       <pubDate>Wed, 11 Jan 2017 15:45:48 +0100</pubDate>
       <guid>https://scottmuc.com/blog/osx-workstation-setup-automation/</guid>
       <description><![CDATA[OSX Workstation Setup Automation]]></description>
-      <content:encoded><![CDATA[<h2>OSX Workstation Setup Automation</h2><p><!-- raw HTML omitted --><strong>DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
-workstation under source control, and this strategy may destroy the machine you wish to attempt this on.</strong><!-- raw HTML omitted --></p>
+      <content:encoded><![CDATA[<h2>OSX Workstation Setup Automation</h2><p><span style="color: red;"><strong>DISCLAIMER Try out at your own risk. This setup is not meant to be copy+paste reusable. It&rsquo;s about keeping MY
+workstation under source control, and this strategy may destroy the machine you wish to attempt this on.</strong></span></p>
 <h2 id="objective">Objective</h2>
 <p>IT infrastructure has gone down a long journey of automating all of the things. We have automated deployments, production
 environments, and regression testing. We can make an API request to Amazon and get a server instances in minutes. The
@@ -1300,11 +1300,11 @@ of art (hopefully).</p>
 <h2 id="summary">Summary</h2>
 <p>In the end, I have a setup I&rsquo;m relatively happy with. It turns out that my implementation looks oddly similar to <a href="https://github.com/gerhard/setup">Gerhard&rsquo;s</a>, a colleague of mine.</p>
 <p>This post still took way too long to write making me think that I haven&rsquo;t made it simple enough though. There&rsquo;s still a lot of moving parts and many concepts I didn&rsquo;t dive into at all (e.g.: what about my data).</p>
-<!-- raw HTML omitted -->
+<hr />
 <h2 id="appendix">Appendix</h2>
 <ol>
 <li>
-<p><!-- raw HTML omitted --><strong>Other Tools and Strategies</strong><!-- raw HTML omitted --></p>
+<p><span id="existing-tools"><strong>Other Tools and Strategies</strong></span></p>
 <ul>
 <li><a href="https://github.com/pivotal-sprout/sprout-wrap">Sprout</a> - Intially this was called <code>pivotal_workstation</code> but transformed into a slightly more
 configurable and modular system. It uses <code>chef</code> under the covers and is quite comprehensive.</li>
@@ -1928,18 +1928,18 @@ off the routine and regress to my old unhealthy habits. This year I&rsquo;m aimi
 plan a bit better when I can see potential for a habit to break (eg: when traveling, or a busy period). My goal is run
 at least 10 times every month. Be sure to verify my results on <a href="http://www.strava.com/athletes/6575733">Strava</a>. I am training for a half marathon but
 this is very typical of my health ambitions. Do something big, and then stop.</p>
-<p><strong>January</strong>: 19 runs<!-- raw HTML omitted -->
-<strong>February</strong>: 13 runs<!-- raw HTML omitted -->
-<strong>March</strong>: 6 runs (strained hamstring injury)<!-- raw HTML omitted -->
-<strong>April</strong>:<!-- raw HTML omitted -->
-<strong>May</strong>:<!-- raw HTML omitted -->
-<strong>June</strong>:<!-- raw HTML omitted -->
-<strong>July</strong>:<!-- raw HTML omitted -->
-<strong>August</strong>:<!-- raw HTML omitted -->
-<strong>September</strong>:<!-- raw HTML omitted -->
-<strong>October</strong>:<!-- raw HTML omitted -->
-<strong>November</strong>:<!-- raw HTML omitted -->
-<strong>December</strong>:<!-- raw HTML omitted --></p>
+<p><strong>January</strong>: 19 runs<br/>
+<strong>February</strong>: 13 runs<br/>
+<strong>March</strong>: 6 runs (strained hamstring injury)<br/>
+<strong>April</strong>:<br/>
+<strong>May</strong>:<br/>
+<strong>June</strong>:<br/>
+<strong>July</strong>:<br/>
+<strong>August</strong>:<br/>
+<strong>September</strong>:<br/>
+<strong>October</strong>:<br/>
+<strong>November</strong>:<br/>
+<strong>December</strong>:<br/></p>
 <h3 id="think-more-critically">Think More Critically</h3>
 <p>This could be due to having a lot of time to consume too much media over the last year, but I feel that I should be more
 thoughtful in my communication and critical of my messages. It&rsquo;s easy to type out a pithy tweet skipping a load of
