@@ -6,49 +6,42 @@ tags: [ "music" ]
 ---
 ## Past
 
-* 14.02.2025 Caribou at [Velodrom][velodrom]
-* 25.02.2025 Queensryche at [Metropol][metropol]
-* 14.03.2025 Tycho at [Huxleys Neue Welt][huxleys]
-* 07.05.2025 Ghost at [Mercedes-Benz Arena][mercedes]
-* 25.05.2025 King Gizzard and the Lizard Wizard at [Poble Espanyol](https://poble-espanyol.com) in Barcelona
-* 05.06.2025 Florigin at [Kulterhaus Insel][kulturhausinsel]
-* 17.06.2025 TV on the Radio at [Astra Kulturhaus][astra]
-* 20.06.2025 Marillion at [Tempodrom][tempodrom]
-* 21.06.2025 Marillion at [Tempodrom][tempodrom]
-* 28.07.2025 Midnight + Yoth Iria + Sarcator + Bloodfang at [Lido][lido]
-* 03.08.2025 Extreme at [Tonhalle](https://www.in-muenchen.de/locations/tonhalle.html) in Munich
-* 28.08.2025 Hania Rani at the Neue Nationalgalerie
-* 30.08.2025 Los Bitchos at Pop-Kultur Festival
-* 11.09.2025 The Lemonheads at [FRANNZ Club][frannzclub] (missed due to being sick)
-* 27.09.2005 Kerala Dust at [Columbiahalle][columbiahalle]
-* 30.09.2025 The Dear Hunter at [FRANNZ Club][frannzclub] (cancelled)
-* 04.10.2025 Florigin at [Badehaus][badehaus]
-* 11.10.2025 The Beths at [Lido][lido]
-* 13.10 2025 Coheed and Cambria at [Festsaal Kreuzberg][festsaal]
-* 24.10.2025 Yann Tiersen at [Huxleys Neue Welt][huxleys]
-* 29.10.2025 The Gregorian Voices at Steinfurter Kirche in Schorfheide
-* 06.11.2025 Hellenica in an undisclosed location in Berlin
-* 08.11.2025 Shoemaker Hevy at [Brit Pub][britpub]
-* 09.11.2025 Wet Leg at [Columbiahalle][columbiahalle]
-* 14.11.2025 Perturbator at [Huxley's Neu Welt][huxleys]
-* 16.11.2025 Destroyer at [Lido][lido]
-* 27.11.2025 Swans at [Festsaal Kreuzberg][festsaal] (skipped to due to low energy)
-* 08.12.2025 The Rural Alberata Advantage at [Privatclub][privatclub] (skipped due to being sick)
-
 ## Future (have tickets)
 
+* 04.03.2026 Grails
+* 31.03.2026 Stella Donnely
+* 20.04.2026 GoGo Penguin
+* 23.04.2026 Wintersleep
+* 21.05.2026 Great Lake Swimmers
+* 25.05.2026 16 Horsepower
+* 26.06.2026 Beirut
+* 30.06.2026 Pixies
 * 17.12.2026 Rush at Rogers Arena in Vancouver
 
 ## Considering
 
-## Considering in 2026
-
-* 17.02.2025 White Lies
-* 04.03.2025 Grails
-* 20.04.2025 GoGo Penguin
-* 21.04.2025 GoGo Penguin
-* 29.04.2025 Tame Impala
-* xx.07.2025 Marillion (8 locations in Germany)
+* White Lies
+* The Last Dinner Party
+* Igorr
+* Of Monsters and Men
+* Zola Jesus
+* Psychedelic Porn Crumpets
+* Austra
+* Peter Bjorn and John
+* Godspeed You! Black Emperor
+* Colosseum
+* Poppy
+* Dry Cleaning
+* Big Thief
+* Tori Amos
+* Aldous Harding
+* Jethro Tull
+* Mastadon
+* Queensryche
+* Altin Guen
+* Apparat
+* 29.04.2026 Tame Impala
+* xx.07.2026 Marillion (8 locations in Germany)
 
 
 [admiralpalast]: https://www.admiralspalast.theater
