@@ -28,3 +28,9 @@ copyright = "Copyright © 2025 - Scott Muc"
 [outputFormats]
 	[outputFormats.rss]
 		baseName = "feed"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # https://gohugo.io/configuration/markup/#rendererunsafe
+      unsafe = true
