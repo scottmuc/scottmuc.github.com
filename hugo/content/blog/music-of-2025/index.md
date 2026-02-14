@@ -14,11 +14,14 @@ two posts:
 [music-2024]: /blog/music-of-2024
 [music-2023]: /blog/music-of-2023
 
-## A Bumper Crop of Concerts
+## 2025 In Review
 
 Just like 2025, I had 27 concerts lined up but I missed a few due to being sick
 or generally having kein bock. I am a but surprised by how tilted the concerts
 were to the second half of the year. March and April barely had anything.
+
+Many of the bands were ones I already knew, so there wasn't too much novel music
+discovery in 2025.
 
 * 14.02.2025 Caribou at [Velodrom][velodrom]
 * 25.02.2025 Queensryche at [Metropol][metropol]
@@ -52,27 +55,40 @@ Concerts that were planned, but didn't happen:
 * 27.11.2025 Swans at [Festsaal Kreuzberg][festsaal] (skipped to due to low energy)
 * 08.12.2025 The Rural Alberata Advantage at [Privatclub][privatclub] (missed due to being sick)
 
-There were many highlights:
+There were my top shows of the year:
 
-* Ghost
-* King Gizzard and the Lizard Wizard
-* Midnight + Yoth Iria + Sarcator + Bloodfang
-* Marillion
-* Hania Rani
+* **Ghost** - They are incredibly entertaining live and their music always makes me
+  feel good. The atmosphere is positive with people having a good time.
+* **King Gizzard and the Lizard Wizard** - This particular show was fun because it
+  was in an interesting venue in Barcelona. They also played a lot of
+  interesting heavy prog-like songs from their catalogue.
+* **Midnight + Yoth Iria + Sarcator + Bloodfang** - Noteworthy because I saw it with
+  a few ex-SoundCloud colleagues and came in with zero expecations and left
+  having a blast moshing with the crowd. Yoth Iria was the most noteworthy of
+  all the bands that played.
+* **Marillion** - This was a 2 night performance and it was fun to plan an entire
+  weekend around it. There was a fun and drunk Polish group of fans sitting
+  around me that made the experience a lot of fun as well.
+* **Hania Rani** - I enjoyed this performance with an old high-school friend who was
+  visiting from Vancouver. It was a psychadelic audio experience where she
+  played a more electronic orientated set in an art gallery with spacial audio.
 
-## Music Discovery
+## Pictures
 
-
-<!-- Music Church Blurb -->
-
-Concerts I attended by bands I discovered via **Music Church**:
-
-* **Ghost**
-* **Coheed and Cambria**
+{{< imglink caption="Queensryche" src="2025-queensryche.jpg" href="2025-queensryche.jpg" width="400x" >}}
+{{< imglink caption="Marillion" src="2025-marillion.jpg" href="2025-marillion.jpg" width="400x" >}}
+{{< imglink caption="Kerala Dust" src="2025-keraldust.jpg" href="2025-keraldust.jpg" width="400x" >}}
+{{< imglink caption="Coheed and Cambria" src="2025-coheed-and-cambria.jpg" href="2025-coheed-and-cambria.jpg" width="400x" >}}
+{{< imglink caption="Hellenica" src="2025-hellenica.jpg" href="2025-hellenica.jpg" width="400x" >}}
+{{< imglink caption="Eleanor Friedberger opening for Destroyer" src="2025-eleanor-friedberger.jpg" href="2025-eleanor-friedberger.jpg" width="400x" >}}
 
 ## Summary
 
-*This post took 1 pomodoros*
+Berlin doesn't dissapoint with the options to see live music. 2026 already has
+several concerts lined up. I keep a [live upcoming concerts page](/concerts/)
+page to keep track.
+
+*This post took 3 pomodoros*
 
 [admiralpalast]: https://www.admiralspalast.theater
 [arcanoa]: https://www.ssi-media.com/arcanoa/

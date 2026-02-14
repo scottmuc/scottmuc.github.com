@@ -123,3 +123,7 @@ article blockquote {
 	border-left: 4px solid rgba(170,170,170,0.5);
 }
 
+figure {
+  display: inline-block;
+  vertical-align: top;
+}

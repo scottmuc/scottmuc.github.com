@@ -5,6 +5,12 @@
 		{{- $width = (.Get "width") -}}
 {{- end -}}
 {{- $smallImage := $image.Resize $width -}}
-<a href="{{ $href }}" class="imglink">
-	<img src="{{ $smallImage.Permalink }}" width="{{ $smallImage.Width }}" />
-</a>
+<figure>
+  <a href="{{ $href }}" class="imglink">
+    <img src="{{ $smallImage.Permalink }}" width="{{ $smallImage.Width }}" />
+  </a>
+{{- if (.Get "caption") -}}
+  {{- $caption := (.Get "caption") -}}
+  <figcaption>{{ $caption }}</figcaption>
+{{- end -}}
+</figure>
