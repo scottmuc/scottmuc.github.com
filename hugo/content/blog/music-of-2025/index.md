@@ -2,7 +2,6 @@
 title: Music of 2025
 date: 2026-02-12T09:10:00+02:00
 tags: [ "music" ]
-draft: true
 ---
 
 Let's see if 3 years in a row can make this a routine. Here are the last
