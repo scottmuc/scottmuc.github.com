@@ -13,6 +13,8 @@ two posts:
 [music-2024]: /blog/music-of-2024
 [music-2023]: /blog/music-of-2023
 
+{{< imglink src="tickets.jpg" href="tickets.jpg" width="800x" >}}
+
 ## 2025 In Review
 
 Just like 2025, I had 27 concerts lined up but I missed a few due to being sick
