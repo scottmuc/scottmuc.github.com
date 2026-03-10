@@ -6,30 +6,27 @@ tags: [ "music" ]
 ---
 ## Past
 
+* 04.03.2026 Grails at [Roadrunners][roadrunners]
+
 ## Future (have tickets)
 
-* 04.03.2026 Grails
-* 31.03.2026 Stella Donnely
-* 20.04.2026 GoGo Penguin
-* 23.04.2026 Wintersleep
-* 21.05.2026 Great Lake Swimmers
-* 25.05.2026 16 Horsepower
-* 26.06.2026 Beirut
-* 30.06.2026 Pixies
+* 18.03.2026 Colosseum at [Kesselhaus in der Kulturbrauerei][kesselhaus]
+* 31.03.2026 Stella Donnely at [Mikropol][mikropol]
+* 20.04.2026 GoGo Penguin at [Kesselhaus in der Kulturbrauerei][kesselhaus]
+* 23.04.2026 Wintersleep [Mirkopol][mikropol]
+* 05.05.2026 Peter Bjorn and John at [Lido][lido]
+* 21.05.2026 Great Lake Swimmers at [Frannz Club][frannzclub]
+* 25.05.2026 16 Horsepower at [Festsaal Kreuzberg][festsaal]
+* 26.06.2026 Beirut at [Tempodrom][tempodrom]
+* 30.06.2026 Pixies at [Zitadelle Spandau][zitadelle]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
 
 ## Considering
 
-* White Lies
+* 12.03.2026 Austra at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * The Last Dinner Party
 * Igorr
-* Of Monsters and Men
-* Zola Jesus
-* Psychedelic Porn Crumpets
-* Austra
-* Peter Bjorn and John
 * Godspeed You! Black Emperor
-* Colosseum
 * Poppy
 * Dry Cleaning
 * Big Thief
@@ -65,7 +62,8 @@ tags: [ "music" ]
 [lark]: https://larkberlin.com
 [lido]: https://www.lido-berlin.de
 [mercedes]: https://www.uber-arena.de/en/
-[metropol]: https://metropol-berlin.de
+[metropol]: https://metropol-berlin.de/
+[mikropol]: https://mikropol-berlin.de/
 [passionkirche]: https://www.visitberlin.de/en/passionskirche
 [privatclub]: https://privatclub-berlin.de
 [roadrunners]: http://www.roadrunners-paradise.de
