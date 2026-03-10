@@ -10,6 +10,7 @@ tags: [ "music" ]
 
 ## Future (have tickets)
 
+* 12.03.2026 Austra at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 18.03.2026 Colosseum at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 31.03.2026 Stella Donnely at [Mikropol][mikropol]
 * 20.04.2026 GoGo Penguin at [Kesselhaus in der Kulturbrauerei][kesselhaus]
@@ -19,11 +20,13 @@ tags: [ "music" ]
 * 25.05.2026 16 Horsepower at [Festsaal Kreuzberg][festsaal]
 * 26.06.2026 Beirut at [Tempodrom][tempodrom]
 * 30.06.2026 Pixies at [Zitadelle Spandau][zitadelle]
+* 15.08.2026 Agnes Obel at [Gaerten der Welt][gartenderwelt]
+* 18.08.2026 Ron Sexsmith at [Frannz Club][frannzclub]
+* 29.09.2026 The Dear Hunter at [Frannz Club][frannzclub]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
 
 ## Considering
 
-* 12.03.2026 Austra at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * The Last Dinner Party
 * Igorr
 * Godspeed You! Black Emperor
@@ -53,6 +56,7 @@ tags: [ "music" ]
 [ewerk]: https://www.e-werk-cologne.com
 [festsaal]: https://festsaal-kreuzberg.de/en
 [frannzclub]: https://frannz.eu
+[gartenderwelt]: https://www.gaertenderwelt.de/events/arena/
 [greektheatre]: https://thegreekberkeley.com
 [hole44]: https://hole-berlin.de
 [huxleys]: https://huxleysneuewelt.de
