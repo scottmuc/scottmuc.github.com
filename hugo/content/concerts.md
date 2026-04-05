@@ -7,36 +7,34 @@ tags: [ "music" ]
 ## Past
 
 * 04.03.2026 Grails at [Roadrunners][roadrunners]
-
-## Future (have tickets)
-
 * 12.03.2026 Austra at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 18.03.2026 Colosseum at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 31.03.2026 Stella Donnely at [Mikropol][mikropol]
+* 04.04.2026 Dor Koren and Ormu at Trixxxter
+
+## Future (have tickets)
+
+* 16.04.2026 The Barr Brothers with SOAK at [Frannz Club][frannzclub]
 * 20.04.2026 GoGo Penguin at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 23.04.2026 Wintersleep [Mirkopol][mikropol]
 * 05.05.2026 Peter Bjorn and John at [Lido][lido]
 * 21.05.2026 Great Lake Swimmers at [Frannz Club][frannzclub]
 * 25.05.2026 16 Horsepower at [Festsaal Kreuzberg][festsaal]
+* 25.06.2026 Mastodon at [Huxley's Neue Welt][huxleysneuewelt]
 * 26.06.2026 Beirut at [Tempodrom][tempodrom]
 * 30.06.2026 Pixies at [Zitadelle Spandau][zitadelle]
 * 15.08.2026 Agnes Obel at [Gaerten der Welt][gartenderwelt]
 * 18.08.2026 Ron Sexsmith at [Frannz Club][frannzclub]
+* 20.09.2026 Metric / Broken Social Scene / Starts at [Columbiahalle][columbiahalle]
 * 29.09.2026 The Dear Hunter at [Frannz Club][frannzclub]
+* 05.11.2026 Jethro Tull at [Tempdrom][tempodrom]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
+* 21.02.2027 Rush at Uber Arena in Berlin
+* 24.03.2027 Rush at some venue in Manchester
 
 ## Considering
 
-* The Last Dinner Party
-* Igorr
-* Godspeed You! Black Emperor
-* Poppy
-* Dry Cleaning
-* Big Thief
-* Tori Amos
 * Aldous Harding
-* Jethro Tull
-* Mastadon
 * Queensryche
 * Altin Guen
 * Apparat
