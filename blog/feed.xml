@@ -242,7 +242,7 @@ This prompted them to ask how they could learn more. The most wonderful thing
 for any Rush fan to hear.</p>
 <p>I&rsquo;ll start by describing how I learnt about them. It was through my brothers
 who are older than me and they still joke about how as a child I would giggle
-to <a href="https://youtu.be/JnC88xBPkkc?feature=shared&amp;amp;t=224">this guitar part</a> in The Trees. A few years later, as I
+to <a href="https://youtu.be/JnC88xBPkkc?feature=shared&amp;t=224">this guitar part</a> in The Trees. A few years later, as I
 started learning how to play guitar, they suggested I learn songs like YYZ and
 Kid Gloves. I was immediately hooked to learning as much Rush as possible on
 guitar. Eventually I made an <a href="https://home.scottmuc.com/rushquiz/">online quiz</a> playing snippets of Rush
@@ -999,6 +999,8 @@ didn&rsquo;t appreciate the message of the documentary when I was 13-14 years ol
     </div>
 
 <p>In short, it&rsquo;s about trying to understand how do we know what we know and how has it shaped us to be who we are. Funny enough, in the writing of this post I learnt that James Burke has recently gone a bit viral! I really miss James Burke&rsquo;s style.</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s 1985. James Burke is walking around in some hills. And then he delivers a scintillating piece to camera about how politics is going to change in the digital age. <br><br>Totally. Crazy.<a href="https://t.co/lX9z5o1p6i">pic.twitter.com/lX9z5o1p6i</a></p>&mdash; Carl Miller (@carljackmiller) <a href="https://twitter.com/carljackmiller/status/1122459930504650752?ref_src=twsrc%5Etfw">April 28, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 <p>Now you&rsquo;ve seen the very beginning and the very end of this 10 episode documentary. <a href="https://www.youtube.com/watch?v=fQ6XFcrh7IQ">Episode 2</a> is worth watching too if you do not have access to the full series.</p>
@@ -1424,7 +1426,7 @@ approach, but I hope the simplicity of it will be attractive to those who have s
 to work.</p>
 <p>To see what&rsquo;s included in this tooling take a look at the <a href="https://github.com/scottmuc/osx-homedir#so-whats-included">Inventory</a>. Essentially you get shell configuration, some OSX tweaks, and a bunch of software installed.</p>
 <h2 id="theres-no-place-like-home">There&rsquo;s No Place Like Home</h2>
-<p><a href="https://github.com/scottmuc/osx-homedir/">My workstation automation</a> is cloned straight into <code>$HOME</code> on a fresh machine. This is a bit different than a lot of the other <a href="https://github.com/search?utf8=%E2%9C%93&amp;amp;q=dotfiles">dotfile repositories</a> you&rsquo;ll see on GitHub.</p>
+<p><a href="https://github.com/scottmuc/osx-homedir/">My workstation automation</a> is cloned straight into <code>$HOME</code> on a fresh machine. This is a bit different than a lot of the other <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=dotfiles">dotfile repositories</a> you&rsquo;ll see on GitHub.</p>
 <figure><img src="/blog/osx-workstation-setup-automation/gh-dotfiles.png">
 </figure>
 
