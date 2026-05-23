@@ -25,7 +25,7 @@ Unfortunately it's not viewable online. However, this first 10 minutes of the fi
 
 In short, it's about trying to understand how do we know what we know and how has it shaped us to be who we are. Funny enough, in the writing of this post I learnt that James Burke has recently gone a bit viral! I really miss James Burke's style.
 
-{{< tweet user="carljackmiller" id="1122459930504650752" >}}
+{{< x user="carljackmiller" id="1122459930504650752" >}}
 
 Now you've seen the very beginning and the very end of this 10 episode documentary. [Episode 2](https://www.youtube.com/watch?v=fQ6XFcrh7IQ) is worth watching too if you do not have access to the full series.
 
