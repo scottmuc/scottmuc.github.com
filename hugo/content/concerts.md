@@ -11,14 +11,14 @@ tags: [ "music" ]
 * 18.03.2026 Colosseum at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 31.03.2026 Stella Donnely at [Mikropol][mikropol]
 * 04.04.2026 Dor Koren and Ormu at Trixxxter
-
-## Future (have tickets)
-
 * 16.04.2026 The Barr Brothers with SOAK at [Frannz Club][frannzclub]
 * 20.04.2026 GoGo Penguin at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 23.04.2026 Wintersleep [Mirkopol][mikropol]
-* 05.05.2026 Peter Bjorn and John at [Lido][lido]
+* 05.05.2026 Peter Bjorn and John at [Lido][lido] (cancelled)
 * 21.05.2026 Great Lake Swimmers at [Frannz Club][frannzclub]
+
+## Future (have tickets)
+
 * 25.05.2026 16 Horsepower at [Festsaal Kreuzberg][festsaal]
 * 25.06.2026 Mastodon at [Huxley's Neue Welt][huxleysneuewelt]
 * 26.06.2026 Beirut at [Tempodrom][tempodrom]
@@ -38,7 +38,7 @@ tags: [ "music" ]
 * Queensryche
 * Altin Guen
 * Apparat
-* 29.04.2026 Tame Impala
+* Hania Rani
 * xx.07.2026 Marillion (8 locations in Germany)
 
 
