@@ -16,17 +16,21 @@ tags: [ "music" ]
 * 23.04.2026 Wintersleep [Mirkopol][mikropol]
 * 05.05.2026 Peter Bjorn and John at [Lido][lido] (cancelled)
 * 21.05.2026 Great Lake Swimmers at [Frannz Club][frannzclub]
+* 25.05.2026 16 Horsepower at [Festsaal Kreuzberg][festsaal]
 
 ## Future (have tickets)
 
-* 25.05.2026 16 Horsepower at [Festsaal Kreuzberg][festsaal]
-* 25.06.2026 Mastodon at [Huxley's Neue Welt][huxleysneuewelt]
+* 15.06.2026 Hania Rani at [Berliner Philharmonie][berlinphilharmonie]
+* 25.06.2026 Mastodon at [Huxley's Neue Welt][huxleys]
 * 26.06.2026 Beirut at [Tempodrom][tempodrom]
 * 30.06.2026 Pixies at [Zitadelle Spandau][zitadelle]
+* 11.07.2026 Marillion at Gilde Parkbuene in Hanover
+* 28.07.2025 Yngwie Malmsteen [Huxley's Neue Welt][huxleys]
 * 15.08.2026 Agnes Obel at [Gaerten der Welt][gartenderwelt]
 * 18.08.2026 Ron Sexsmith at [Frannz Club][frannzclub]
 * 20.09.2026 Metric / Broken Social Scene / Starts at [Columbiahalle][columbiahalle]
 * 29.09.2026 The Dear Hunter at [Frannz Club][frannzclub]
+* 06.10.2026 Haken [Frannz Club][frannzclub]
 * 05.11.2026 Jethro Tull at [Tempdrom][tempodrom]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
 * 21.02.2027 Rush at Uber Arena in Berlin
@@ -34,19 +38,13 @@ tags: [ "music" ]
 
 ## Considering
 
-* Aldous Harding
-* Queensryche
-* Altin Guen
-* Apparat
-* Hania Rani
-* xx.07.2026 Marillion (8 locations in Germany)
-
 
 [admiralpalast]: https://www.admiralspalast.theater
 [arcanoa]: https://www.ssi-media.com/arcanoa/
 [astra]: https://www.astra-berlin.de
 [badehaus]: https://badehaus-berlin.com
 [berghainkantine]: https://www.berghain.berlin/en/
+[berlinphilharmonie]: https://www.berliner-philharmoniker.de/en/
 [britpub]: https://www.brit-pub.de/
 [capitolhannover]: https://www.capitol-hannover.de
 [columbiahalle]: https://columbiahalle.berlin/
