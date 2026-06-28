@@ -17,13 +17,13 @@ tags: [ "music" ]
 * 05.05.2026 Peter Bjorn and John at [Lido][lido] (cancelled)
 * 21.05.2026 Great Lake Swimmers at [Frannz Club][frannzclub]
 * 25.05.2026 16 Horsepower at [Festsaal Kreuzberg][festsaal]
-
-## Future (have tickets)
-
 * 15.06.2026 Hania Rani at [Berliner Philharmonie][berlinphilharmonie]
 * 25.06.2026 Mastodon at [Huxley's Neue Welt][huxleys]
 * 26.06.2026 Beirut at [Tempodrom][tempodrom]
 * 30.06.2026 Pixies at [Zitadelle Spandau][zitadelle]
+
+## Future (have tickets)
+
 * 11.07.2026 Marillion at Gilde Parkbuene in Hanover
 * 28.07.2025 Yngwie Malmsteen [Huxley's Neue Welt][huxleys]
 * 15.08.2026 Agnes Obel at [Gaerten der Welt][gartenderwelt]
