@@ -20,14 +20,17 @@ tags: [ "music" ]
 * 15.06.2026 Hania Rani at [Berliner Philharmonie][berlinphilharmonie]
 * 25.06.2026 Mastodon at [Huxley's Neue Welt][huxleys]
 * 26.06.2026 Beirut at [Tempodrom][tempodrom]
-* 30.06.2026 Pixies at [Zitadelle Spandau][zitadelle]
+* 30.06.2026 Pixies at [Zitadelle Spandau][zitadelle] (I bailed)
+* 11.07.2026 Marillion at Gilde Parkbuene in Hanover
+* 28.07.2026 Yngwie Malmsteen [Huxley's Neue Welt][huxleys]
 
 ## Future (have tickets)
 
-* 11.07.2026 Marillion at Gilde Parkbuene in Hanover
-* 28.07.2025 Yngwie Malmsteen [Huxley's Neue Welt][huxleys]
+* 04.08.2026 Protest the Hero at [Metropol][metropol]
 * 15.08.2026 Agnes Obel at [Gaerten der Welt][gartenderwelt]
 * 18.08.2026 Ron Sexsmith at [Frannz Club][frannzclub]
+* 26.08.2026 Wet Leg and Lava la Rue somewhere in Berlin
+* 28.08.2026 The Kilimanjaro Darkjazz Ensemble somewhere in Leipzig
 * 20.09.2026 Metric / Broken Social Scene / Starts at [Columbiahalle][columbiahalle]
 * 29.09.2026 The Dear Hunter at [Frannz Club][frannzclub]
 * 06.10.2026 Haken [Frannz Club][frannzclub]
