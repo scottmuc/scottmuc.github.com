@@ -12,5 +12,5 @@ pushd hugo
 ./build.sh # generates hugo/public
 popd
 
-rsync -av hugo/public/ live
+nix run nixpkgs#rsync -- -av hugo/public/ live
 # verify changes and commit and push!
