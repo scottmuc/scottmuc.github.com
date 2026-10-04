@@ -10,7 +10,7 @@ tags: [ "music" ]
 * 12.03.2026 Austra at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 18.03.2026 Colosseum at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 31.03.2026 Stella Donnely at [Mikropol][mikropol]
-* 04.04.2026 Dor Koren and Ormu at Trixxxter
+* 04.04.2026 Dor Koren and Ormu at Trixxxster
 * 16.04.2026 The Barr Brothers with SOAK at [Frannz Club][frannzclub]
 * 20.04.2026 GoGo Penguin at [Kesselhaus in der Kulturbrauerei][kesselhaus]
 * 23.04.2026 Wintersleep [Mirkopol][mikropol]
@@ -31,14 +31,15 @@ tags: [ "music" ]
 * 20.09.2026 Metric / Broken Social Scene / Starts at [Columbiahalle][columbiahalle]
 * 21.09.2026 Sigur Ros at [Uber Eats Music Hall][ubereatsmusichall]
 * 25.09.2026 Evanesence / Poppy at [Velodrome][velodrom]
+* 29.09.2026 The Dear Hunter at [Frannz Club][frannzclub]
+* 02.10.2026 Fuchur and Polly at Trixxxster
+* 04.10.2026 Father of Peace at [Heimathafen Neukölln][heimathafenneukoelln]
 
 ## Future (have tickets)
 
-* 29.09.2026 The Dear Hunter at [Frannz Club][frannzclub]
-* 04.10.2026 Father of Peace
 * 06.10.2026 Haken [Frannz Club][frannzclub]
 * 05.11.2026 Jethro Tull at [Tempdrom][tempodrom]
-* 24.11.2026 Moon Walker
+* 24.11.2026 Moon Walker at [Hole 44][hole44]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
 * 21.02.2027 Rush at Uber Arena in Berlin
 * 24.03.2027 Rush at some venue in Manchester
@@ -61,6 +62,7 @@ tags: [ "music" ]
 [frannzclub]: https://frannz.eu
 [gartenderwelt]: https://www.gaertenderwelt.de/events/arena/
 [greektheatre]: https://thegreekberkeley.com
+[heimathafenneukoelln]: https://heimathafen-neukoelln.de
 [hole44]: https://hole-berlin.de
 [huxleys]: https://huxleysneuewelt.de
 [junction]: https://junction-bar.de/
