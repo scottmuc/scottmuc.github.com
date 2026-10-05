@@ -38,6 +38,7 @@ tags: [ "music" ]
 ## Future (have tickets)
 
 * 06.10.2026 Haken [Frannz Club][frannzclub]
+* 14.10.2026 Yard Act [Festsaal Kreuzberg][festsaal]
 * 05.11.2026 Jethro Tull at [Tempdrom][tempodrom]
 * 24.11.2026 Moon Walker at [Hole 44][hole44]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
