@@ -34,11 +34,11 @@ tags: [ "music" ]
 * 29.09.2026 The Dear Hunter at [Frannz Club][frannzclub]
 * 02.10.2026 Fuchur and Polly at Trixxxster
 * 04.10.2026 Father of Peace at [Heimathafen Neukölln][heimathafenneukoelln]
+* 06.10.2026 Haken [Frannz Club][frannzclub]
+* 14.10.2026 Yard Act with Home Counties opening [Festsaal Kreuzberg][festsaal]
 
 ## Future (have tickets)
 
-* 06.10.2026 Haken [Frannz Club][frannzclub]
-* 14.10.2026 Yard Act [Festsaal Kreuzberg][festsaal]
 * 05.11.2026 Jethro Tull at [Tempdrom][tempodrom]
 * 24.11.2026 Moon Walker at [Hole 44][hole44]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
