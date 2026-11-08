@@ -28,7 +28,7 @@ tags: [ "music" ]
 * 18.08.2026 Ron Sexsmith at [Frannz Club][frannzclub]
 * 26.08.2026 Wet Leg and Lava la Rue somewhere in Berlin
 * 28.08.2026 The Kilimanjaro Darkjazz Ensemble somewhere in Leipzig
-* 20.09.2026 Metric / Broken Social Scene / Starts at [Columbiahalle][columbiahalle]
+* 20.09.2026 Metric / Broken Social Scene / Stars at [Columbiahalle][columbiahalle]
 * 21.09.2026 Sigur Ros at [Uber Eats Music Hall][ubereatsmusichall]
 * 25.09.2026 Evanesence / Poppy at [Velodrome][velodrom]
 * 29.09.2026 The Dear Hunter at [Frannz Club][frannzclub]
@@ -36,14 +36,14 @@ tags: [ "music" ]
 * 04.10.2026 Father of Peace at [Heimathafen Neukölln][heimathafenneukoelln]
 * 06.10.2026 Haken [Frannz Club][frannzclub]
 * 14.10.2026 Yard Act with Home Counties opening [Festsaal Kreuzberg][festsaal]
+* 05.11.2026 Jethro Tull at [Tempdrom][tempodrom]
 
 ## Future (have tickets)
 
-* 05.11.2026 Jethro Tull at [Tempdrom][tempodrom]
 * 24.11.2026 Moon Walker at [Hole 44][hole44]
 * 17.12.2026 Rush at Rogers Arena in Vancouver
 * 21.02.2027 Rush at Uber Arena in Berlin
-* 24.03.2027 Rush at some venue in Manchester
+* 14.03.2027 Rush at some venue in Manchester
 
 ## Considering
 
